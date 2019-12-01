@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sphere_of_influence" kind="class" prot="public">
+    <compoundname>SphereOfInfluence</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sphere_of_influence_1a71f7dd86225494b2b618b6eb95c9e6f6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SphereOfInfluence.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SphereOfInfluence.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SphereOfInfluence.cs" bodystart="9" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="700">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="699">
+        <label>SphereOfInfluence</label>
+        <link refid="class_sphere_of_influence"/>
+        <childnode refid="700" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="702">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="701">
+        <label>SphereOfInfluence</label>
+        <link refid="class_sphere_of_influence"/>
+        <childnode refid="702" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SphereOfInfluence.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SphereOfInfluence.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_sphere_of_influence_1a71f7dd86225494b2b618b6eb95c9e6f6" prot="private" virt="non-virtual"><scope>SphereOfInfluence</scope><name>OnTriggerEnter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

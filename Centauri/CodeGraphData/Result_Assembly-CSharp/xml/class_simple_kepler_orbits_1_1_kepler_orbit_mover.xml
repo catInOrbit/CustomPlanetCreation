@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kind="class" prot="public">
+    <compoundname>SimpleKeplerOrbits::KeplerOrbitMover</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a842f3ee2531e850dba80034018f7bbf2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_simple_kepler_orbits_1_1_attractor_data" kindref="compound">AttractorData</ref></type>
+        <definition>AttractorData SimpleKeplerOrbits.KeplerOrbitMover.AttractorSettings</definition>
+        <argsstring></argsstring>
+        <name>AttractorSettings</name>
+        <initializer>= new <ref refid="class_simple_kepler_orbits_1_1_attractor_data" kindref="compound">AttractorData</ref>()</initializer>
+        <briefdescription>
+<para>The attractor settings data. Attractor object reference must be assigned or orbit mover will not work. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="25" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a54b0b385c1132970f36170e75102215d" compoundref="_kepler_orbit_mover_8cs" startline="221" endline="234">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1aa97d93b93fd937e7342cb3459321c59e" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SimpleKeplerOrbits.KeplerOrbitMover.VelocityHandle</definition>
+        <argsstring></argsstring>
+        <name>VelocityHandle</name>
+        <briefdescription>
+<para>The velocity handle object. Assign object and use it as velocity control handle in scene view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="32" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a54b0b385c1132970f36170e75102215d" compoundref="_kepler_orbit_mover_8cs" startline="221" endline="234">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a7f110d5c386a6c441a3a980392d97113" compoundref="_kepler_orbit_mover_8cs" startline="204" endline="211">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateViewFromInternalState</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a01f36038697d24520929f8b1f63b2d10" compoundref="_kepler_orbit_mover_8cs" startline="144" endline="178">SimpleKeplerOrbits.KeplerOrbitMover.OrbitUpdateLoop</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a3d6272f69c4932b93a9176957025a60f" compoundref="_kepler_orbit_mover_8cs" startline="240" endline="251">SimpleKeplerOrbits.KeplerOrbitMover.SetAutoCircleOrbit</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1abe6ddc73952775e7f76c1582c3e1a797" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SimpleKeplerOrbits.KeplerOrbitMover.TimeScale</definition>
+        <argsstring></argsstring>
+        <name>TimeScale</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+<para>The time scale multiplier. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="37" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" prot="public" static="no" mutable="no">
+        <type><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_data" kindref="compound">KeplerOrbitData</ref></type>
+        <definition>KeplerOrbitData SimpleKeplerOrbits.KeplerOrbitMover.OrbitData</definition>
+        <argsstring></argsstring>
+        <name>OrbitData</name>
+        <initializer>= new <ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_data" kindref="compound">KeplerOrbitData</ref>()</initializer>
+        <briefdescription>
+<para>The orbit data. Internal state of orbit. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="44" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a7f110d5c386a6c441a3a980392d97113" compoundref="_kepler_orbit_mover_8cs" startline="204" endline="211">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateViewFromInternalState</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a01f36038697d24520929f8b1f63b2d10" compoundref="_kepler_orbit_mover_8cs" startline="144" endline="178">SimpleKeplerOrbits.KeplerOrbitMover.OrbitUpdateLoop</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a3d6272f69c4932b93a9176957025a60f" compoundref="_kepler_orbit_mover_8cs" startline="240" endline="251">SimpleKeplerOrbits.KeplerOrbitMover.SetAutoCircleOrbit</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a96a32a5a0c90ff5996e9aa3d0cc3403c" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SimpleKeplerOrbits.KeplerOrbitMover.LockOrbitEditing</definition>
+        <argsstring></argsstring>
+        <name>LockOrbitEditing</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Disable continious editing orbit in update loop, if you don&apos;t need it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="49" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a53d7cd831bc70230431427cf5740107e" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool SimpleKeplerOrbits.KeplerOrbitMover.IsReferencesAsigned</definition>
+        <argsstring></argsstring>
+        <name>IsReferencesAsigned</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="59" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab814b57883948d2d89e020cfebcde1e8" compoundref="_kepler_orbit_mover_8cs" startline="189" endline="198">SimpleKeplerOrbits.KeplerOrbitMover.CreateNewOrbitFromPositionAndVelocity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a54b0b385c1132970f36170e75102215d" compoundref="_kepler_orbit_mover_8cs" startline="221" endline="234">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a01f36038697d24520929f8b1f63b2d10" compoundref="_kepler_orbit_mover_8cs" startline="144" endline="178">SimpleKeplerOrbits.KeplerOrbitMover.OrbitUpdateLoop</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a3d6272f69c4932b93a9176957025a60f" compoundref="_kepler_orbit_mover_8cs" startline="240" endline="251">SimpleKeplerOrbits.KeplerOrbitMover.SetAutoCircleOrbit</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a2ac8472ee56142b340f17421bce9e6f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitMover.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="67" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="67" bodyend="77"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a01f36038697d24520929f8b1f63b2d10" compoundref="_kepler_orbit_mover_8cs" startline="144" endline="178">SimpleKeplerOrbits.KeplerOrbitMover.OrbitUpdateLoop</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitMover.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+<para>Updates orbit internal data. </para>        </briefdescription>
+        <detaileddescription>
+<para>In this method orbit data is updating from view state: If you change body position, attractor mass or any other vital orbit parameter, this change will be noticed and applyed to internal OrbitData state in this method. If you need to change orbitData state directly, by script, you need to change OrbitData state and then call ForceUpdateOrbitData </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="88" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="88" bodyend="132"/>
+        <references refid="class_simple_kepler_orbits_1_1_attractor_data_1ac6820104f1ada6515b30b59a2fc16d7f" compoundref="_attractor_data_8cs" startline="20">SimpleKeplerOrbits.AttractorData.AttractorMass</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a03650925ea1005f13ac8034d993474ea" compoundref="_kepler_orbit_data_8cs" startline="27">SimpleKeplerOrbits.KeplerOrbitData.AttractorMass</references>
+        <references refid="class_simple_kepler_orbits_1_1_attractor_data_1aa5860566fdb1ae9e4ea68a963cecacd3" compoundref="_attractor_data_8cs" startline="19">SimpleKeplerOrbits.AttractorData.AttractorObject</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a842f3ee2531e850dba80034018f7bbf2" compoundref="_kepler_orbit_mover_8cs" startline="25">SimpleKeplerOrbits.KeplerOrbitMover.AttractorSettings</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a54b0b385c1132970f36170e75102215d" compoundref="_kepler_orbit_mover_8cs" startline="221" endline="234">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateOrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a358a8e7a54fcfb5ff6e3ee5d8da8ed2d" compoundref="_kepler_orbit_data_8cs" startline="21">SimpleKeplerOrbits.KeplerOrbitData.GravConst</references>
+        <references refid="class_simple_kepler_orbits_1_1_attractor_data_1a5a063c17e2826b269ed934e45617cf1c" compoundref="_attractor_data_8cs" startline="22">SimpleKeplerOrbits.AttractorData.GravityConstant</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a53d7cd831bc70230431427cf5740107e" compoundref="_kepler_orbit_mover_8cs" startline="60">SimpleKeplerOrbits.KeplerOrbitMover.IsReferencesAsigned</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a96a32a5a0c90ff5996e9aa3d0cc3403c" compoundref="_kepler_orbit_mover_8cs" startline="49">SimpleKeplerOrbits.KeplerOrbitMover.LockOrbitEditing</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" compoundref="_kepler_orbit_mover_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitMover.OrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ad885ae56c6ab7d6a210d0e39ede19fec" compoundref="_kepler_orbit_data_8cs" startline="25">SimpleKeplerOrbits.KeplerOrbitData.Position</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" compoundref="_kepler_orbit_data_8cs" startline="28">SimpleKeplerOrbits.KeplerOrbitData.Velocity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1aa97d93b93fd937e7342cb3459321c59e" compoundref="_kepler_orbit_mover_8cs" startline="32">SimpleKeplerOrbits.KeplerOrbitMover.VelocityHandle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a01f36038697d24520929f8b1f63b2d10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator SimpleKeplerOrbits.KeplerOrbitMover.OrbitUpdateLoop</definition>
+        <argsstring>()</argsstring>
+        <name>OrbitUpdateLoop</name>
+        <briefdescription>
+<para>Progress orbit path motion. Actual kepler orbiting is processed here. </para>        </briefdescription>
+        <detaileddescription>
+<para>Orbit motion progress calculations must be placed after Update, so orbit parameters changes can be applyed, but before LateUpdate, so orbit can be displayed in same frame. Coroutine loop is best candidate for achieving this. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="144" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="144" bodyend="178"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a53d7cd831bc70230431427cf5740107e" compoundref="_kepler_orbit_mover_8cs" startline="60">SimpleKeplerOrbits.KeplerOrbitMover.IsReferencesAsigned</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2732037edfb50b779a62e93e73459e3e" compoundref="_kepler_orbit_data_8cs" startline="67">SimpleKeplerOrbits.KeplerOrbitData.IsValidOrbit</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" compoundref="_kepler_orbit_mover_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitMover.OrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" compoundref="_kepler_orbit_data_8cs" startline="28">SimpleKeplerOrbits.KeplerOrbitData.Velocity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1aa97d93b93fd937e7342cb3459321c59e" compoundref="_kepler_orbit_mover_8cs" startline="32">SimpleKeplerOrbits.KeplerOrbitMover.VelocityHandle</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a2ac8472ee56142b340f17421bce9e6f2" compoundref="_kepler_orbit_mover_8cs" startline="67" endline="77">SimpleKeplerOrbits.KeplerOrbitMover.OnEnable</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab814b57883948d2d89e020cfebcde1e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitMover.CreateNewOrbitFromPositionAndVelocity</definition>
+        <argsstring>(Vector3 relativePosition, Vector3 velocity)</argsstring>
+        <name>CreateNewOrbitFromPositionAndVelocity</name>
+        <param>
+          <type>Vector3</type>
+          <declname>relativePosition</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>velocity</declname>
+        </param>
+        <briefdescription>
+<para>Updates OrbitData from new body position and velocity vectors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>relativePosition</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The relative position.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>velocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The relative velocity.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>This method can be useful to assign new position of body by script. Or you can directly change OrbitData state and then manually update view. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="189" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="189" bodyend="198"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a7f110d5c386a6c441a3a980392d97113" compoundref="_kepler_orbit_mover_8cs" startline="204" endline="211">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateViewFromInternalState</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a53d7cd831bc70230431427cf5740107e" compoundref="_kepler_orbit_mover_8cs" startline="60">SimpleKeplerOrbits.KeplerOrbitMover.IsReferencesAsigned</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a7f110d5c386a6c441a3a980392d97113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateViewFromInternalState</definition>
+        <argsstring>()</argsstring>
+        <name>ForceUpdateViewFromInternalState</name>
+        <briefdescription>
+<para>Forces the update of body position, and velocity handler from OrbitData. Call this method after any direct changing of OrbitData. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="204" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="204" bodyend="211"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" compoundref="_kepler_orbit_mover_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitMover.OrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ad885ae56c6ab7d6a210d0e39ede19fec" compoundref="_kepler_orbit_data_8cs" startline="25">SimpleKeplerOrbits.KeplerOrbitData.Position</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" compoundref="_kepler_orbit_data_8cs" startline="28">SimpleKeplerOrbits.KeplerOrbitData.Velocity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1aa97d93b93fd937e7342cb3459321c59e" compoundref="_kepler_orbit_mover_8cs" startline="32">SimpleKeplerOrbits.KeplerOrbitMover.VelocityHandle</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab814b57883948d2d89e020cfebcde1e8" compoundref="_kepler_orbit_mover_8cs" startline="189" endline="198">SimpleKeplerOrbits.KeplerOrbitMover.CreateNewOrbitFromPositionAndVelocity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a54b0b385c1132970f36170e75102215d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateOrbitData</definition>
+        <argsstring>()</argsstring>
+        <name>ForceUpdateOrbitData</name>
+        <briefdescription>
+<para>Forces the update of internal orbit data from current world positions of body, attractor settings and velocityHandle. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method must be called after any manual changing of body position, velocity handler position or attractor settings. It will update internal OrbitData state from view state. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="221" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="221" bodyend="234"/>
+        <references refid="class_simple_kepler_orbits_1_1_attractor_data_1aa5860566fdb1ae9e4ea68a963cecacd3" compoundref="_attractor_data_8cs" startline="19">SimpleKeplerOrbits.AttractorData.AttractorObject</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a842f3ee2531e850dba80034018f7bbf2" compoundref="_kepler_orbit_mover_8cs" startline="25">SimpleKeplerOrbits.KeplerOrbitMover.AttractorSettings</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a53d7cd831bc70230431427cf5740107e" compoundref="_kepler_orbit_mover_8cs" startline="60">SimpleKeplerOrbits.KeplerOrbitMover.IsReferencesAsigned</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1aa97d93b93fd937e7342cb3459321c59e" compoundref="_kepler_orbit_mover_8cs" startline="32">SimpleKeplerOrbits.KeplerOrbitMover.VelocityHandle</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a3d6272f69c4932b93a9176957025a60f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitMover.SetAutoCircleOrbit</definition>
+        <argsstring>()</argsstring>
+        <name>SetAutoCircleOrbit</name>
+        <briefdescription>
+<para>Change orbit velocity vector to match circular orbit. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="240" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="240" bodyend="251"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a53d7cd831bc70230431427cf5740107e" compoundref="_kepler_orbit_mover_8cs" startline="60">SimpleKeplerOrbits.KeplerOrbitMover.IsReferencesAsigned</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" compoundref="_kepler_orbit_mover_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitMover.OrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" compoundref="_kepler_orbit_data_8cs" startline="28">SimpleKeplerOrbits.KeplerOrbitData.Velocity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1aa97d93b93fd937e7342cb3459321c59e" compoundref="_kepler_orbit_mover_8cs" startline="32">SimpleKeplerOrbits.KeplerOrbitMover.VelocityHandle</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Component for moving game object in eliptic or hyperbolic path around attractor body. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>UnityEngine.MonoBehaviour</para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="25">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="27">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+        <childnode refid="29" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="29">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+      </node>
+      <node id="30">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="31" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" line="20" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitMover.cs" bodystart="19" bodyend="252"/>
+    <listofallmembers>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a842f3ee2531e850dba80034018f7bbf2" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>AttractorSettings</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab814b57883948d2d89e020cfebcde1e8" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>CreateNewOrbitFromPositionAndVelocity</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a54b0b385c1132970f36170e75102215d" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>ForceUpdateOrbitData</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a7f110d5c386a6c441a3a980392d97113" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>ForceUpdateViewFromInternalState</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a53d7cd831bc70230431427cf5740107e" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>IsReferencesAsigned</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a96a32a5a0c90ff5996e9aa3d0cc3403c" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>LockOrbitEditing</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a2ac8472ee56142b340f17421bce9e6f2" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>OnEnable</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>OrbitData</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a01f36038697d24520929f8b1f63b2d10" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>OrbitUpdateLoop</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a3d6272f69c4932b93a9176957025a60f" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>SetAutoCircleOrbit</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1abe6ddc73952775e7f76c1582c3e1a797" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>TimeScale</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>Update</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1aa97d93b93fd937e7342cb3459321c59e" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMover</scope><name>VelocityHandle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

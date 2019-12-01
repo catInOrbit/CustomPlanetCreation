@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_lib_noise_1_1_operator" kind="namespace">
+    <compoundname>LibNoise::Operator</compoundname>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_abs" prot="public">LibNoise::Operator::Abs</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_add" prot="public">LibNoise::Operator::Add</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_blend" prot="public">LibNoise::Operator::Blend</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_cache" prot="public">LibNoise::Operator::Cache</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_clamp" prot="public">LibNoise::Operator::Clamp</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_curve" prot="public">LibNoise::Operator::Curve</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_displace" prot="public">LibNoise::Operator::Displace</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_exponent" prot="public">LibNoise::Operator::Exponent</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_invert" prot="public">LibNoise::Operator::Invert</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_max" prot="public">LibNoise::Operator::Max</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_min" prot="public">LibNoise::Operator::Min</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_multiply" prot="public">LibNoise::Operator::Multiply</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_power" prot="public">LibNoise::Operator::Power</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_rotate" prot="public">LibNoise::Operator::Rotate</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_scale" prot="public">LibNoise::Operator::Scale</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_scale_bias" prot="public">LibNoise::Operator::ScaleBias</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_select" prot="public">LibNoise::Operator::Select</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_subtract" prot="public">LibNoise::Operator::Subtract</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_terrace" prot="public">LibNoise::Operator::Terrace</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_translate" prot="public">LibNoise::Operator::Translate</innerclass>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_turbulence" prot="public">LibNoise::Operator::Turbulence</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Abs.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

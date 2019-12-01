@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_rendezvous_calculator" kind="class" prot="public">
+    <compoundname>RendezvousCalculator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RendezvousCalculator.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_rendezvous_calculator_1a4f008c867641f4481c37e8ae1d1df1f0" compoundref="_rendezvous_calculator_8cs" startline="40" endline="44">RendezvousCalculator</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RendezvousCalculator.rendezvousTarget</definition>
+        <argsstring></argsstring>
+        <name>rendezvousTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_rendezvous_calculator_1a4f008c867641f4481c37e8ae1d1df1f0" compoundref="_rendezvous_calculator_8cs" startline="40" endline="44">RendezvousCalculator</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rendezvous_calculator_1a876c86e50effdba9fbd69fa526917b57" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RendezvousCalculator.thetaAngle</definition>
+        <argsstring></argsstring>
+        <name>thetaAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_rendezvous_calculator_1a629f4b84e24655ad8e9680d4e4eb208d" compoundref="_rendezvous_calculator_8cs" startline="49" endline="62">CalculateRendezvousPoint</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendezvous_calculator_1ae78bf6d9064b79afc35f0fc5b5e4f5b6" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 RendezvousCalculator.transferPosition</definition>
+        <argsstring></argsstring>
+        <name>transferPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_rendezvous_calculator_1a65bbe62cddaeed775dafc7ff1c184afe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>GameObject</type>
+        <definition>GameObject RendezvousCalculator.Player</definition>
+        <argsstring></argsstring>
+        <name>Player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_rendezvous_calculator_1a4f008c867641f4481c37e8ae1d1df1f0" compoundref="_rendezvous_calculator_8cs" startline="40" endline="44">RendezvousCalculator</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_rendezvous_calculator_1ac5137532f62baa2ce1f10ccd358ec13a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>GameObject</type>
+        <definition>GameObject RendezvousCalculator.RendezvousTarget</definition>
+        <argsstring></argsstring>
+        <name>RendezvousTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_rendezvous_calculator_1a4f008c867641f4481c37e8ae1d1df1f0" compoundref="_rendezvous_calculator_8cs" startline="40" endline="44">RendezvousCalculator</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rendezvous_calculator_1a4f008c867641f4481c37e8ae1d1df1f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RendezvousCalculator.RendezvousCalculator</definition>
+        <argsstring>(GameObject player, GameObject rendezvousTarget)</argsstring>
+        <name>RendezvousCalculator</name>
+        <param>
+          <type>GameObject</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>rendezvousTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="40" bodyend="44"/>
+        <references refid="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" compoundref="_rendezvous_calculator_8cs" startline="8">player</references>
+        <references refid="class_rendezvous_calculator_1a65bbe62cddaeed775dafc7ff1c184afe" compoundref="_rendezvous_calculator_8cs" startline="15">Player</references>
+        <references refid="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" compoundref="_rendezvous_calculator_8cs" startline="9">rendezvousTarget</references>
+        <references refid="class_rendezvous_calculator_1ac5137532f62baa2ce1f10ccd358ec13a" compoundref="_rendezvous_calculator_8cs" startline="28">RendezvousTarget</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rendezvous_calculator_1a81827558542687d695f4a45c59767f6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RendezvousCalculator.RendezvousCalculator</definition>
+        <argsstring>()</argsstring>
+        <name>RendezvousCalculator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="46" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="46" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rendezvous_calculator_1a629f4b84e24655ad8e9680d4e4eb208d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 RendezvousCalculator.CalculateRendezvousPoint</definition>
+        <argsstring>(GameObject player, GameObject rendezvousTarget)</argsstring>
+        <name>CalculateRendezvousPoint</name>
+        <param>
+          <type>GameObject</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>GameObject</type>
+          <declname>rendezvousTarget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="49" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="49" bodyend="62"/>
+        <references refid="class_rendezvous_calculator_1a876c86e50effdba9fbd69fa526917b57" compoundref="_rendezvous_calculator_8cs" startline="11">thetaAngle</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs" bodystart="6" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_rendezvous_calculator_1a629f4b84e24655ad8e9680d4e4eb208d" prot="public" virt="non-virtual"><scope>RendezvousCalculator</scope><name>CalculateRendezvousPoint</name></member>
+      <member refid="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" prot="private" virt="non-virtual"><scope>RendezvousCalculator</scope><name>player</name></member>
+      <member refid="class_rendezvous_calculator_1a65bbe62cddaeed775dafc7ff1c184afe" prot="public" virt="non-virtual"><scope>RendezvousCalculator</scope><name>Player</name></member>
+      <member refid="class_rendezvous_calculator_1a4f008c867641f4481c37e8ae1d1df1f0" prot="public" virt="non-virtual"><scope>RendezvousCalculator</scope><name>RendezvousCalculator</name></member>
+      <member refid="class_rendezvous_calculator_1a81827558542687d695f4a45c59767f6b" prot="public" virt="non-virtual"><scope>RendezvousCalculator</scope><name>RendezvousCalculator</name></member>
+      <member refid="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" prot="private" virt="non-virtual"><scope>RendezvousCalculator</scope><name>rendezvousTarget</name></member>
+      <member refid="class_rendezvous_calculator_1ac5137532f62baa2ce1f10ccd358ec13a" prot="public" virt="non-virtual"><scope>RendezvousCalculator</scope><name>RendezvousTarget</name></member>
+      <member refid="class_rendezvous_calculator_1a876c86e50effdba9fbd69fa526917b57" prot="public" virt="non-virtual"><scope>RendezvousCalculator</scope><name>thetaAngle</name></member>
+      <member refid="class_rendezvous_calculator_1ae78bf6d9064b79afc35f0fc5b5e4f5b6" prot="public" virt="non-virtual"><scope>RendezvousCalculator</scope><name>transferPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

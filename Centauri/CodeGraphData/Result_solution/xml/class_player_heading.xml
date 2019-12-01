@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_heading" kind="class" prot="public">
+    <compoundname>PlayerHeading</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_heading_1a1e70719351d5e75485223e265e70d6ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHeading.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugGUI/PlayerHeading.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugGUI/PlayerHeading.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_player_heading_1a9cc71a3abbb4a4d03c7a0af2136e38b9" compoundref="_player_heading_8cs" startline="20" endline="24">DrawHeadingVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_heading_1a14b91a4141cf5f2fd6b89079ea12d4c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHeading.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugGUI/PlayerHeading.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugGUI/PlayerHeading.cs" bodystart="14" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_player_heading_1a9cc71a3abbb4a4d03c7a0af2136e38b9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerHeading.DrawHeadingVector</definition>
+        <argsstring>()</argsstring>
+        <name>DrawHeadingVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugGUI/PlayerHeading.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugGUI/PlayerHeading.cs" bodystart="20" bodyend="24"/>
+        <referencedby refid="class_player_heading_1a1e70719351d5e75485223e265e70d6ed" compoundref="_player_heading_8cs" startline="10" endline="13">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="518">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="517">
+        <label>PlayerHeading</label>
+        <link refid="class_player_heading"/>
+        <childnode refid="518" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="520">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="519">
+        <label>PlayerHeading</label>
+        <link refid="class_player_heading"/>
+        <childnode refid="520" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugGUI/PlayerHeading.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugGUI/PlayerHeading.cs" bodystart="7" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_player_heading_1a9cc71a3abbb4a4d03c7a0af2136e38b9" prot="private" virt="non-virtual"><scope>PlayerHeading</scope><name>DrawHeadingVector</name></member>
+      <member refid="class_player_heading_1a14b91a4141cf5f2fd6b89079ea12d4c6" prot="private" virt="non-virtual"><scope>PlayerHeading</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_player_heading_1a1e70719351d5e75485223e265e70d6ed" prot="private" virt="non-virtual"><scope>PlayerHeading</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

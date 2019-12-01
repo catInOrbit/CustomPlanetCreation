@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_editor_common_1_1pb___version_util" kind="class" prot="package">
+    <compoundname>ProBuilder2::EditorCommon::pb_VersionUtil</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1acfc4c6d08289d59f4465138fae08d2c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProBuilder2.EditorCommon.pb_VersionUtil.GetAboutEntry</definition>
+        <argsstring>(out pb_AboutEntry about)</argsstring>
+        <name>GetAboutEntry</name>
+        <param>
+          <type>out <ref refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry" kindref="compound">pb_AboutEntry</ref></type>
+          <declname>about</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get information from the currently installed ProBuilder version. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" bodystart="37" bodyend="50"/>
+        <referencedby refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a854e20a614a9a05b98a67e057601734f" compoundref="pb___about_window_8cs" startline="121" endline="144">ProBuilder2.EditorCommon.pb_AboutWindow.Init</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1a173c404a03ebbadf66af36e9d2c4660c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProBuilder2.EditorCommon.pb_VersionUtil.GetCurrent</definition>
+        <argsstring>(out pb_VersionInfo version)</argsstring>
+        <name>GetCurrent</name>
+        <param>
+          <type>out <ref refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info" kindref="compound">pb_VersionInfo</ref></type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" bodystart="52" bodyend="64"/>
+        <referencedby refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a3dccce7f1115fae7991e6a3c7ada1ba7" compoundref="pb___update_check_8cs" startline="44" endline="99">ProBuilder2.EditorCommon.pb_UpdateCheck.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1a21f0fde424cbb3ee1f16402e84066053" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProBuilder2.EditorCommon.pb_VersionUtil.FormatChangelog</definition>
+        <argsstring>(string raw, out pb_VersionInfo version, out string formatted_changes)</argsstring>
+        <name>FormatChangelog</name>
+        <param>
+          <type>string</type>
+          <declname>raw</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info" kindref="compound">pb_VersionInfo</ref></type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>formatted_changes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Extracts and formats the latest changelog entry into rich text. Also grabs the version. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" line="69" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" bodystart="69" bodyend="107"/>
+        <referencedby refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a3dccce7f1115fae7991e6a3c7ada1ba7" compoundref="pb___update_check_8cs" startline="44" endline="99">ProBuilder2.EditorCommon.pb_UpdateCheck.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1a854520ca0f32f1ec4c7c619e44ee80aa" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry" kindref="compound">pb_AboutEntry</ref></type>
+        <definition>static pb_AboutEntry ProBuilder2.EditorCommon.pb_VersionUtil.ParseAboutEntry</definition>
+        <argsstring>(string path)</argsstring>
+        <name>ParseAboutEntry</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" line="109" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" bodystart="109" bodyend="131"/>
+        <references refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry_1a42afd386215bd6c6daed4566299ca3c9" compoundref="pb___version_util_8cs" startline="26">ProBuilder2.EditorCommon.pb_AboutEntry.KEY_CHANGELOG</references>
+        <references refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry_1afc8f64d92060f4a6cee92b566a31dee6" compoundref="pb___version_util_8cs" startline="25">ProBuilder2.EditorCommon.pb_AboutEntry.KEY_DATE</references>
+        <references refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry_1a51b0bcdd156d20a30395f55d0cc46e6b" compoundref="pb___version_util_8cs" startline="23">ProBuilder2.EditorCommon.pb_AboutEntry.KEY_IDENTIFIER</references>
+        <references refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry_1afd2df4f6ac2ecb96d30446499502770c" compoundref="pb___version_util_8cs" startline="22">ProBuilder2.EditorCommon.pb_AboutEntry.KEY_NAME</references>
+        <references refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry_1a0b636f5324b0f3d617eb8f30bb5bba68" compoundref="pb___version_util_8cs" startline="24">ProBuilder2.EditorCommon.pb_AboutEntry.KEY_VERSION</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Utility methods for finding and extracting version &amp; changelog information. </para>    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" line="33" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionUtil.cs" bodystart="32" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1a21f0fde424cbb3ee1f16402e84066053" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionUtil</scope><name>FormatChangelog</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1acfc4c6d08289d59f4465138fae08d2c6" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionUtil</scope><name>GetAboutEntry</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1a173c404a03ebbadf66af36e9d2c4660c" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionUtil</scope><name>GetCurrent</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1a854520ca0f32f1ec4c7c619e44ee80aa" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionUtil</scope><name>ParseAboutEntry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

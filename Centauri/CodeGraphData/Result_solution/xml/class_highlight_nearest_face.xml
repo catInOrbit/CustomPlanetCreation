@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_highlight_nearest_face" kind="class" prot="public">
+    <compoundname>HighlightNearestFace</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_highlight_nearest_face_1a70daafe74b69299b65d8bb59fce02836" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HighlightNearestFace.travel</definition>
+        <argsstring></argsstring>
+        <name>travel</name>
+        <initializer>= 50f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_highlight_nearest_face_1ac5940a2a9177eeab906c718a2ce911b2" compoundref="_highlight_nearest_face_8cs" startline="23" endline="42">Start</referencedby>
+        <referencedby refid="class_highlight_nearest_face_1a32cca7fec33a461bb798679d578188dd" compoundref="_highlight_nearest_face_8cs" startline="44" endline="93">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_highlight_nearest_face_1a1f587bbe7223fca263404957f1707f98" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float HighlightNearestFace.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= .2f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_highlight_nearest_face_1a32cca7fec33a461bb798679d578188dd" compoundref="_highlight_nearest_face_8cs" startline="44" endline="93">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_highlight_nearest_face_1a4bb179f162406385f771eb3fcaf79360" prot="private" static="no" mutable="no">
+        <type>pb_Object</type>
+        <definition>pb_Object HighlightNearestFace.target</definition>
+        <argsstring></argsstring>
+        <name>target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_highlight_nearest_face_1ac5940a2a9177eeab906c718a2ce911b2" compoundref="_highlight_nearest_face_8cs" startline="23" endline="42">Start</referencedby>
+        <referencedby refid="class_highlight_nearest_face_1a32cca7fec33a461bb798679d578188dd" compoundref="_highlight_nearest_face_8cs" startline="44" endline="93">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_highlight_nearest_face_1a845764ec101817ef7a35bc1c689448dd" prot="private" static="no" mutable="no">
+        <type>pb_Face</type>
+        <definition>pb_Face HighlightNearestFace.nearest</definition>
+        <argsstring></argsstring>
+        <name>nearest</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_highlight_nearest_face_1a32cca7fec33a461bb798679d578188dd" compoundref="_highlight_nearest_face_8cs" startline="44" endline="93">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_highlight_nearest_face_1ac5940a2a9177eeab906c718a2ce911b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HighlightNearestFace.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" bodystart="23" bodyend="42"/>
+        <references refid="class_highlight_nearest_face_1a4bb179f162406385f771eb3fcaf79360" compoundref="_highlight_nearest_face_8cs" startline="19">target</references>
+        <references refid="class_highlight_nearest_face_1a70daafe74b69299b65d8bb59fce02836" compoundref="_highlight_nearest_face_8cs" startline="15">travel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_highlight_nearest_face_1a32cca7fec33a461bb798679d578188dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void HighlightNearestFace.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" line="44" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" bodystart="44" bodyend="93"/>
+        <references refid="class_highlight_nearest_face_1a5fd4e1ca58040bbef73df35d32f3dce1" compoundref="_highlight_nearest_face_8cs" startline="99" endline="124">FaceCenter</references>
+        <references refid="class_highlight_nearest_face_1a845764ec101817ef7a35bc1c689448dd" compoundref="_highlight_nearest_face_8cs" startline="21">nearest</references>
+        <references refid="class_highlight_nearest_face_1a1f587bbe7223fca263404957f1707f98" compoundref="_highlight_nearest_face_8cs" startline="17">speed</references>
+        <references refid="class_highlight_nearest_face_1a4bb179f162406385f771eb3fcaf79360" compoundref="_highlight_nearest_face_8cs" startline="19">target</references>
+        <references refid="class_highlight_nearest_face_1a70daafe74b69299b65d8bb59fce02836" compoundref="_highlight_nearest_face_8cs" startline="15">travel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_highlight_nearest_face_1a5fd4e1ca58040bbef73df35d32f3dce1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 HighlightNearestFace.FaceCenter</definition>
+        <argsstring>(pb_Object pb, pb_Face face)</argsstring>
+        <name>FaceCenter</name>
+        <param>
+          <type>pb_Object</type>
+          <declname>pb</declname>
+        </param>
+        <param>
+          <type>pb_Face</type>
+          <declname>face</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the average of each vertex position in a face. In local space. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" line="99" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" bodystart="99" bodyend="124"/>
+        <referencedby refid="class_highlight_nearest_face_1a32cca7fec33a461bb798679d578188dd" compoundref="_highlight_nearest_face_8cs" startline="44" endline="93">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Move a sphere around the surface of a ProBuilder mesh, changing the vertex color of the nearest face.</para><para>Scene setup: Create a Unity Sphere primitive in a new scene, then attach this script to the sphere. Press &apos;Play&apos; </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="252">
+        <label>HighlightNearestFace</label>
+        <link refid="class_highlight_nearest_face"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="254">
+        <label>HighlightNearestFace</label>
+        <link refid="class_highlight_nearest_face"/>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="255">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors/HighlightNearestFace.cs" bodystart="12" bodyend="125"/>
+    <listofallmembers>
+      <member refid="class_highlight_nearest_face_1a5fd4e1ca58040bbef73df35d32f3dce1" prot="private" virt="non-virtual"><scope>HighlightNearestFace</scope><name>FaceCenter</name></member>
+      <member refid="class_highlight_nearest_face_1a845764ec101817ef7a35bc1c689448dd" prot="private" virt="non-virtual"><scope>HighlightNearestFace</scope><name>nearest</name></member>
+      <member refid="class_highlight_nearest_face_1a1f587bbe7223fca263404957f1707f98" prot="public" virt="non-virtual"><scope>HighlightNearestFace</scope><name>speed</name></member>
+      <member refid="class_highlight_nearest_face_1ac5940a2a9177eeab906c718a2ce911b2" prot="private" virt="non-virtual"><scope>HighlightNearestFace</scope><name>Start</name></member>
+      <member refid="class_highlight_nearest_face_1a4bb179f162406385f771eb3fcaf79360" prot="private" virt="non-virtual"><scope>HighlightNearestFace</scope><name>target</name></member>
+      <member refid="class_highlight_nearest_face_1a70daafe74b69299b65d8bb59fce02836" prot="public" virt="non-virtual"><scope>HighlightNearestFace</scope><name>travel</name></member>
+      <member refid="class_highlight_nearest_face_1a32cca7fec33a461bb798679d578188dd" prot="private" virt="non-virtual"><scope>HighlightNearestFace</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

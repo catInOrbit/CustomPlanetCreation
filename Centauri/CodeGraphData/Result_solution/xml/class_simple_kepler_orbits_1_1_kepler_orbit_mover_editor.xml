@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor" kind="class" prot="public">
+    <compoundname>SimpleKeplerOrbits::KeplerOrbitMoverEditor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1a14e94832c599dbeabcbd38a784da02c0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref></type>
+        <definition>KeplerOrbitMover SimpleKeplerOrbits.KeplerOrbitMoverEditor._target</definition>
+        <argsstring></argsstring>
+        <name>_target</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor/KeplerOrbitMoverEditor.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor/KeplerOrbitMoverEditor.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1aec97bf34c1da45f3e09edbb652316384" compoundref="_kepler_orbit_mover_editor_8cs" startline="19" endline="22">SimpleKeplerOrbits.KeplerOrbitMoverEditor.OnEnable</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1ac83373f76cef986e9e6ce6627411f66e" compoundref="_kepler_orbit_mover_editor_8cs" startline="24" endline="74">SimpleKeplerOrbits.KeplerOrbitMoverEditor.OnInspectorGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1aec97bf34c1da45f3e09edbb652316384" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitMoverEditor.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor/KeplerOrbitMoverEditor.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor/KeplerOrbitMoverEditor.cs" bodystart="19" bodyend="22"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1a14e94832c599dbeabcbd38a784da02c0" compoundref="_kepler_orbit_mover_editor_8cs" startline="17">SimpleKeplerOrbits.KeplerOrbitMoverEditor._target</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1ac83373f76cef986e9e6ce6627411f66e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void SimpleKeplerOrbits.KeplerOrbitMoverEditor.OnInspectorGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnInspectorGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor/KeplerOrbitMoverEditor.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor/KeplerOrbitMoverEditor.cs" bodystart="24" bodyend="74"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1a14e94832c599dbeabcbd38a784da02c0" compoundref="_kepler_orbit_mover_editor_8cs" startline="17">SimpleKeplerOrbits.KeplerOrbitMoverEditor._target</references>
+        <references refid="class_simple_kepler_orbits_1_1_attractor_data_1aa5860566fdb1ae9e4ea68a963cecacd3" compoundref="_attractor_data_8cs" startline="18">SimpleKeplerOrbits.AttractorData.AttractorObject</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a842f3ee2531e850dba80034018f7bbf2" compoundref="_kepler_orbit_mover_8cs" startline="27">SimpleKeplerOrbits.KeplerOrbitMover.AttractorSettings</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="35">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a358a8e7a54fcfb5ff6e3ee5d8da8ed2d" compoundref="_kepler_orbit_data_8cs" startline="21">SimpleKeplerOrbits.KeplerOrbitData.GravConst</references>
+        <references refid="class_simple_kepler_orbits_1_1_attractor_data_1a5a063c17e2826b269ed934e45617cf1c" compoundref="_attractor_data_8cs" startline="21">SimpleKeplerOrbits.AttractorData.GravityConstant</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2732037edfb50b779a62e93e73459e3e" compoundref="_kepler_orbit_data_8cs" startline="69">SimpleKeplerOrbits.KeplerOrbitData.IsValidOrbit</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" compoundref="_kepler_orbit_data_8cs" startline="39">SimpleKeplerOrbits.KeplerOrbitData.MeanAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" compoundref="_kepler_orbit_mover_8cs" startline="46">SimpleKeplerOrbits.KeplerOrbitMover.OrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="346">
+        <label>Editor</label>
+      </node>
+      <node id="345">
+        <label>SimpleKeplerOrbits.KeplerOrbitMoverEditor</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor"/>
+        <childnode refid="346" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="348">
+        <label>Editor</label>
+      </node>
+      <node id="356">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="352">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+        <childnode refid="353" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="349" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="354" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="355" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="356" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="357" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="358" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="359" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="359">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="364">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="361">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="358">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="349">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+        <childnode refid="351" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="362" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="363" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="350">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="362">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="363">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="364" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="347">
+        <label>SimpleKeplerOrbits.KeplerOrbitMoverEditor</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor"/>
+        <childnode refid="348" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="usage">
+          <edgelabel>_target</edgelabel>
+        </childnode>
+      </node>
+      <node id="357">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="354">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="353">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+        <childnode refid="349" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="352" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="351" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="351">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+        <childnode refid="352" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="360" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="361" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="355">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="360">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor/KeplerOrbitMoverEditor.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor/KeplerOrbitMoverEditor.cs" bodystart="15" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1a14e94832c599dbeabcbd38a784da02c0" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMoverEditor</scope><name>_target</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1aec97bf34c1da45f3e09edbb652316384" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMoverEditor</scope><name>OnEnable</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1ac83373f76cef986e9e6ce6627411f66e" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitMoverEditor</scope><name>OnInspectorGUI</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

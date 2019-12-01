@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___material_selection" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_MaterialSelection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu actions for selecting faces with a material or vertex color.</para><para>Deprecated as of 2.6.0. This file remains only for backwards compatibility; you may safely delete it. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="492">
+        <label>Editor</label>
+      </node>
+      <node id="491">
+        <label>ProBuilder2.Actions.pb_MaterialSelection</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___material_selection"/>
+        <childnode refid="492" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="494">
+        <label>Editor</label>
+      </node>
+      <node id="493">
+        <label>ProBuilder2.Actions.pb_MaterialSelection</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___material_selection"/>
+        <childnode refid="494" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_MaterialSelection.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_MaterialSelection.cs" bodystart="18" bodyend="18"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

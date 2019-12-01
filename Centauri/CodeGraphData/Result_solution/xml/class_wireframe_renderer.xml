@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_wireframe_renderer" kind="class" prot="public">
+    <compoundname>WireframeRenderer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_wireframe_renderer_1a9258f2bd97bdf8b734de7a571d983d12" prot="private" static="no">
+        <name>RendererType</name>
+        <enumvalue id="class_wireframe_renderer_1a9258f2bd97bdf8b734de7a571d983d12ad9a7c57d636f3d68fa67722852ce0b67" prot="public">
+          <name>MeshRenderer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_wireframe_renderer_1a9258f2bd97bdf8b734de7a571d983d12a4140ecbabaab156efda6ccb8fd97929e" prot="public">
+          <name>SkinnedMeshRenderer</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_wireframe_renderer_1a26d61e18a0eaf68f1d75c7016051f919" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WireframeRenderer.ShowBackFaces</definition>
+        <argsstring></argsstring>
+        <name>ShowBackFaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_wireframe_renderer_1a108cfc7a62dc774d253fdb50c87e9ad3" compoundref="_wireframe_renderer_8cs" startline="141" endline="144">UpdateWireframeRendererMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wireframe_renderer_1ad93692b917ef853e8d7adac37efadb39" prot="public" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color WireframeRenderer.LineColor</definition>
+        <argsstring></argsstring>
+        <name>LineColor</name>
+        <initializer>= Color.black</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_wireframe_renderer_1a3bc26e1bfab5bd61cf08aa715b077f1b" compoundref="_wireframe_renderer_8cs" startline="146" endline="149">UpdateLineColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wireframe_renderer_1af2f9194b22ed606433fc2cb646c81ae8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WireframeRenderer.Shaded</definition>
+        <argsstring></argsstring>
+        <name>Shaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_wireframe_renderer_1a59feb5545ec9b2d15c442c4a24ea2ba9" compoundref="_wireframe_renderer_8cs" startline="151" endline="154">UpateShaded</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_wireframe_renderer_1a75857266bbbd2665653ead04a67c246a" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer WireframeRenderer.originalRenderer</definition>
+        <argsstring></argsstring>
+        <name>originalRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_wireframe_renderer_1aaa9300ed3a823c7e52b72bc214c141e1" compoundref="_wireframe_renderer_8cs" startline="102" endline="122">CreateWireframeRenderer</referencedby>
+        <referencedby refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" compoundref="_wireframe_renderer_8cs" startline="55" endline="100">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wireframe_renderer_1a5d85ef4c105e02d8251466ab318930ea" prot="private" static="no" mutable="no">
+        <type>Mesh</type>
+        <definition>Mesh WireframeRenderer.processedMesh</definition>
+        <argsstring></argsstring>
+        <name>processedMesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_wireframe_renderer_1aaa9300ed3a823c7e52b72bc214c141e1" compoundref="_wireframe_renderer_8cs" startline="102" endline="122">CreateWireframeRenderer</referencedby>
+        <referencedby refid="class_wireframe_renderer_1af2f080d6c41f69399796cdf97982f867" compoundref="_wireframe_renderer_8cs" startline="184" endline="241">GetProcessedMesh</referencedby>
+        <referencedby refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" compoundref="_wireframe_renderer_8cs" startline="55" endline="100">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wireframe_renderer_1ab8f9df9e73986d3e63f65efcfbbccb16" prot="private" static="no" mutable="no">
+        <type>Renderer</type>
+        <definition>Renderer WireframeRenderer.wireframeRenderer</definition>
+        <argsstring></argsstring>
+        <name>wireframeRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_wireframe_renderer_1aaa9300ed3a823c7e52b72bc214c141e1" compoundref="_wireframe_renderer_8cs" startline="102" endline="122">CreateWireframeRenderer</referencedby>
+        <referencedby refid="class_wireframe_renderer_1a42f4fff010e93dcc9a21eff47d22f885" compoundref="_wireframe_renderer_8cs" startline="38" endline="53">OnDestroy</referencedby>
+        <referencedby refid="class_wireframe_renderer_1a6414519271129e33e9ab0402d1884f8e" compoundref="_wireframe_renderer_8cs" startline="175" endline="182">OnDisable</referencedby>
+        <referencedby refid="class_wireframe_renderer_1ae958c29abf1816796fd8017b96fcde54" compoundref="_wireframe_renderer_8cs" startline="164" endline="173">OnEnable</referencedby>
+        <referencedby refid="class_wireframe_renderer_1ae77ae0bfeeab463a0f6fdd7962a55755" compoundref="_wireframe_renderer_8cs" startline="124" endline="130">OnValidate</referencedby>
+        <referencedby refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" compoundref="_wireframe_renderer_8cs" startline="55" endline="100">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wireframe_renderer_1ac62f3096a6c41771714ba84223baf3ef" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WireframeRenderer.wireframeMaterialCull</definition>
+        <argsstring></argsstring>
+        <name>wireframeMaterialCull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_wireframe_renderer_1aadfcba13060a8381b7f9e866a8ffbf48" compoundref="_wireframe_renderer_8cs" startline="132" endline="139">CreateMaterials</referencedby>
+        <referencedby refid="class_wireframe_renderer_1a108cfc7a62dc774d253fdb50c87e9ad3" compoundref="_wireframe_renderer_8cs" startline="141" endline="144">UpdateWireframeRendererMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wireframe_renderer_1a3e920c65f0f930fd4e4ee20b12bc4cff" prot="private" static="no" mutable="no">
+        <type>Material</type>
+        <definition>Material WireframeRenderer.wireframeMaterialNoCull</definition>
+        <argsstring></argsstring>
+        <name>wireframeMaterialNoCull</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_wireframe_renderer_1aadfcba13060a8381b7f9e866a8ffbf48" compoundref="_wireframe_renderer_8cs" startline="132" endline="139">CreateMaterials</referencedby>
+        <referencedby refid="class_wireframe_renderer_1a108cfc7a62dc774d253fdb50c87e9ad3" compoundref="_wireframe_renderer_8cs" startline="141" endline="144">UpdateWireframeRendererMaterial</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_wireframe_renderer_1a44f513392a05470216d8f9a7d076c871" prot="private" static="no" mutable="no">
+        <type><ref refid="class_wireframe_renderer_1a9258f2bd97bdf8b734de7a571d983d12" kindref="member">RendererType</ref></type>
+        <definition>RendererType WireframeRenderer.originalRendererType</definition>
+        <argsstring></argsstring>
+        <name>originalRendererType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_wireframe_renderer_1aaa9300ed3a823c7e52b72bc214c141e1" compoundref="_wireframe_renderer_8cs" startline="102" endline="122">CreateWireframeRenderer</referencedby>
+        <referencedby refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" compoundref="_wireframe_renderer_8cs" startline="55" endline="100">Validate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_wireframe_renderer_1ab12726dcbed5b6644c2132ba7a75db7b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="33" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="33" bodyend="36"/>
+        <references refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" compoundref="_wireframe_renderer_8cs" startline="55" endline="100">Validate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1a42f4fff010e93dcc9a21eff47d22f885" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.OnDestroy</definition>
+        <argsstring>()</argsstring>
+        <name>OnDestroy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="38" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="38" bodyend="53"/>
+        <references refid="class_wireframe_renderer_1ab8f9df9e73986d3e63f65efcfbbccb16" compoundref="_wireframe_renderer_8cs" startline="17">wireframeRenderer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.Validate</definition>
+        <argsstring>()</argsstring>
+        <name>Validate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="55" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="55" bodyend="100"/>
+        <references refid="class_wireframe_renderer_1aadfcba13060a8381b7f9e866a8ffbf48" compoundref="_wireframe_renderer_8cs" startline="132" endline="139">CreateMaterials</references>
+        <references refid="class_wireframe_renderer_1aaa9300ed3a823c7e52b72bc214c141e1" compoundref="_wireframe_renderer_8cs" startline="102" endline="122">CreateWireframeRenderer</references>
+        <references refid="class_wireframe_renderer_1af2f080d6c41f69399796cdf97982f867" compoundref="_wireframe_renderer_8cs" startline="184" endline="241">GetProcessedMesh</references>
+        <references refid="class_wireframe_renderer_1ae77ae0bfeeab463a0f6fdd7962a55755" compoundref="_wireframe_renderer_8cs" startline="124" endline="130">OnValidate</references>
+        <references refid="class_wireframe_renderer_1a75857266bbbd2665653ead04a67c246a" compoundref="_wireframe_renderer_8cs" startline="13">originalRenderer</references>
+        <references refid="class_wireframe_renderer_1a44f513392a05470216d8f9a7d076c871" compoundref="_wireframe_renderer_8cs" startline="25">originalRendererType</references>
+        <references refid="class_wireframe_renderer_1a5d85ef4c105e02d8251466ab318930ea" compoundref="_wireframe_renderer_8cs" startline="15">processedMesh</references>
+        <references refid="class_wireframe_renderer_1ab8f9df9e73986d3e63f65efcfbbccb16" compoundref="_wireframe_renderer_8cs" startline="17">wireframeRenderer</references>
+        <referencedby refid="class_wireframe_renderer_1ab12726dcbed5b6644c2132ba7a75db7b" compoundref="_wireframe_renderer_8cs" startline="33" endline="36">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1aaa9300ed3a823c7e52b72bc214c141e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.CreateWireframeRenderer</definition>
+        <argsstring>()</argsstring>
+        <name>CreateWireframeRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="102" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="102" bodyend="122"/>
+        <references refid="class_wireframe_renderer_1a9258f2bd97bdf8b734de7a571d983d12ad9a7c57d636f3d68fa67722852ce0b67">MeshRenderer</references>
+        <references refid="class_wireframe_renderer_1a75857266bbbd2665653ead04a67c246a" compoundref="_wireframe_renderer_8cs" startline="13">originalRenderer</references>
+        <references refid="class_wireframe_renderer_1a44f513392a05470216d8f9a7d076c871" compoundref="_wireframe_renderer_8cs" startline="25">originalRendererType</references>
+        <references refid="class_wireframe_renderer_1a5d85ef4c105e02d8251466ab318930ea" compoundref="_wireframe_renderer_8cs" startline="15">processedMesh</references>
+        <references refid="class_wireframe_renderer_1a9258f2bd97bdf8b734de7a571d983d12a4140ecbabaab156efda6ccb8fd97929e">SkinnedMeshRenderer</references>
+        <references refid="class_wireframe_renderer_1ab8f9df9e73986d3e63f65efcfbbccb16" compoundref="_wireframe_renderer_8cs" startline="17">wireframeRenderer</references>
+        <referencedby refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" compoundref="_wireframe_renderer_8cs" startline="55" endline="100">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1ae77ae0bfeeab463a0f6fdd7962a55755" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.OnValidate</definition>
+        <argsstring>()</argsstring>
+        <name>OnValidate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="124" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="124" bodyend="130"/>
+        <references refid="class_wireframe_renderer_1a59feb5545ec9b2d15c442c4a24ea2ba9" compoundref="_wireframe_renderer_8cs" startline="151" endline="154">UpateShaded</references>
+        <references refid="class_wireframe_renderer_1a3bc26e1bfab5bd61cf08aa715b077f1b" compoundref="_wireframe_renderer_8cs" startline="146" endline="149">UpdateLineColor</references>
+        <references refid="class_wireframe_renderer_1a108cfc7a62dc774d253fdb50c87e9ad3" compoundref="_wireframe_renderer_8cs" startline="141" endline="144">UpdateWireframeRendererMaterial</references>
+        <references refid="class_wireframe_renderer_1ab8f9df9e73986d3e63f65efcfbbccb16" compoundref="_wireframe_renderer_8cs" startline="17">wireframeRenderer</references>
+        <referencedby refid="class_wireframe_renderer_1ae958c29abf1816796fd8017b96fcde54" compoundref="_wireframe_renderer_8cs" startline="164" endline="173">OnEnable</referencedby>
+        <referencedby refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" compoundref="_wireframe_renderer_8cs" startline="55" endline="100">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1aadfcba13060a8381b7f9e866a8ffbf48" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.CreateMaterials</definition>
+        <argsstring>()</argsstring>
+        <name>CreateMaterials</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="132" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="132" bodyend="139"/>
+        <references refid="class_wireframe_renderer_1ad48e119fbc4d050cfe76d7797d49b877" compoundref="_wireframe_renderer_8cs" startline="156" endline="162">CreateWireframeMaterial</references>
+        <references refid="class_wireframe_renderer_1ac62f3096a6c41771714ba84223baf3ef" compoundref="_wireframe_renderer_8cs" startline="20">wireframeMaterialCull</references>
+        <references refid="class_wireframe_renderer_1a3e920c65f0f930fd4e4ee20b12bc4cff" compoundref="_wireframe_renderer_8cs" startline="22">wireframeMaterialNoCull</references>
+        <referencedby refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" compoundref="_wireframe_renderer_8cs" startline="55" endline="100">Validate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1a108cfc7a62dc774d253fdb50c87e9ad3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.UpdateWireframeRendererMaterial</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateWireframeRendererMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="141" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="141" bodyend="144"/>
+        <references refid="class_wireframe_renderer_1a26d61e18a0eaf68f1d75c7016051f919" compoundref="_wireframe_renderer_8cs" startline="8">ShowBackFaces</references>
+        <references refid="class_wireframe_renderer_1ac62f3096a6c41771714ba84223baf3ef" compoundref="_wireframe_renderer_8cs" startline="20">wireframeMaterialCull</references>
+        <references refid="class_wireframe_renderer_1a3e920c65f0f930fd4e4ee20b12bc4cff" compoundref="_wireframe_renderer_8cs" startline="22">wireframeMaterialNoCull</references>
+        <referencedby refid="class_wireframe_renderer_1ae77ae0bfeeab463a0f6fdd7962a55755" compoundref="_wireframe_renderer_8cs" startline="124" endline="130">OnValidate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1a3bc26e1bfab5bd61cf08aa715b077f1b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.UpdateLineColor</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateLineColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="146" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="146" bodyend="149"/>
+        <references refid="class_wireframe_renderer_1ad93692b917ef853e8d7adac37efadb39" compoundref="_wireframe_renderer_8cs" startline="9">LineColor</references>
+        <referencedby refid="class_wireframe_renderer_1ae77ae0bfeeab463a0f6fdd7962a55755" compoundref="_wireframe_renderer_8cs" startline="124" endline="130">OnValidate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1a59feb5545ec9b2d15c442c4a24ea2ba9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.UpateShaded</definition>
+        <argsstring>()</argsstring>
+        <name>UpateShaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="151" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="151" bodyend="154"/>
+        <references refid="class_wireframe_renderer_1af2f9194b22ed606433fc2cb646c81ae8" compoundref="_wireframe_renderer_8cs" startline="10">Shaded</references>
+        <referencedby refid="class_wireframe_renderer_1ae77ae0bfeeab463a0f6fdd7962a55755" compoundref="_wireframe_renderer_8cs" startline="124" endline="130">OnValidate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1ad48e119fbc4d050cfe76d7797d49b877" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Material</type>
+        <definition>Material WireframeRenderer.CreateWireframeMaterial</definition>
+        <argsstring>(bool cull)</argsstring>
+        <name>CreateWireframeMaterial</name>
+        <param>
+          <type>bool</type>
+          <declname>cull</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="156" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="156" bodyend="162"/>
+        <referencedby refid="class_wireframe_renderer_1aadfcba13060a8381b7f9e866a8ffbf48" compoundref="_wireframe_renderer_8cs" startline="132" endline="139">CreateMaterials</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1ae958c29abf1816796fd8017b96fcde54" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="164" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="164" bodyend="173"/>
+        <references refid="class_wireframe_renderer_1ae77ae0bfeeab463a0f6fdd7962a55755" compoundref="_wireframe_renderer_8cs" startline="124" endline="130">OnValidate</references>
+        <references refid="class_wireframe_renderer_1ab8f9df9e73986d3e63f65efcfbbccb16" compoundref="_wireframe_renderer_8cs" startline="17">wireframeRenderer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1a6414519271129e33e9ab0402d1884f8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WireframeRenderer.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="175" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="175" bodyend="182"/>
+        <references refid="class_wireframe_renderer_1ab8f9df9e73986d3e63f65efcfbbccb16" compoundref="_wireframe_renderer_8cs" startline="17">wireframeRenderer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_wireframe_renderer_1af2f080d6c41f69399796cdf97982f867" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Mesh</type>
+        <definition>Mesh WireframeRenderer.GetProcessedMesh</definition>
+        <argsstring>(Mesh mesh)</argsstring>
+        <name>GetProcessedMesh</name>
+        <param>
+          <type>Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="184" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="184" bodyend="241"/>
+        <references refid="class_wireframe_renderer_1a5d85ef4c105e02d8251466ab318930ea" compoundref="_wireframe_renderer_8cs" startline="15">processedMesh</references>
+        <referencedby refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" compoundref="_wireframe_renderer_8cs" startline="55" endline="100">Validate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="819">
+        <label>WireframeRenderer</label>
+        <link refid="class_wireframe_renderer"/>
+        <childnode refid="820" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="820">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="821">
+        <label>WireframeRenderer</label>
+        <link refid="class_wireframe_renderer"/>
+        <childnode refid="822" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="822">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts/WireframeRenderer.cs" bodystart="6" bodyend="243"/>
+    <listofallmembers>
+      <member refid="class_wireframe_renderer_1ab12726dcbed5b6644c2132ba7a75db7b" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>Awake</name></member>
+      <member refid="class_wireframe_renderer_1aadfcba13060a8381b7f9e866a8ffbf48" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>CreateMaterials</name></member>
+      <member refid="class_wireframe_renderer_1ad48e119fbc4d050cfe76d7797d49b877" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>CreateWireframeMaterial</name></member>
+      <member refid="class_wireframe_renderer_1aaa9300ed3a823c7e52b72bc214c141e1" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>CreateWireframeRenderer</name></member>
+      <member refid="class_wireframe_renderer_1af2f080d6c41f69399796cdf97982f867" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>GetProcessedMesh</name></member>
+      <member refid="class_wireframe_renderer_1ad93692b917ef853e8d7adac37efadb39" prot="public" virt="non-virtual"><scope>WireframeRenderer</scope><name>LineColor</name></member>
+      <member refid="class_wireframe_renderer_1a42f4fff010e93dcc9a21eff47d22f885" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>OnDestroy</name></member>
+      <member refid="class_wireframe_renderer_1a6414519271129e33e9ab0402d1884f8e" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>OnDisable</name></member>
+      <member refid="class_wireframe_renderer_1ae958c29abf1816796fd8017b96fcde54" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>OnEnable</name></member>
+      <member refid="class_wireframe_renderer_1ae77ae0bfeeab463a0f6fdd7962a55755" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>OnValidate</name></member>
+      <member refid="class_wireframe_renderer_1a75857266bbbd2665653ead04a67c246a" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>originalRenderer</name></member>
+      <member refid="class_wireframe_renderer_1a44f513392a05470216d8f9a7d076c871" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>originalRendererType</name></member>
+      <member refid="class_wireframe_renderer_1a5d85ef4c105e02d8251466ab318930ea" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>processedMesh</name></member>
+      <member refid="class_wireframe_renderer_1a9258f2bd97bdf8b734de7a571d983d12" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>RendererType</name></member>
+      <member refid="class_wireframe_renderer_1af2f9194b22ed606433fc2cb646c81ae8" prot="public" virt="non-virtual"><scope>WireframeRenderer</scope><name>Shaded</name></member>
+      <member refid="class_wireframe_renderer_1a26d61e18a0eaf68f1d75c7016051f919" prot="public" virt="non-virtual"><scope>WireframeRenderer</scope><name>ShowBackFaces</name></member>
+      <member refid="class_wireframe_renderer_1a59feb5545ec9b2d15c442c4a24ea2ba9" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>UpateShaded</name></member>
+      <member refid="class_wireframe_renderer_1a3bc26e1bfab5bd61cf08aa715b077f1b" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>UpdateLineColor</name></member>
+      <member refid="class_wireframe_renderer_1a108cfc7a62dc774d253fdb50c87e9ad3" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>UpdateWireframeRendererMaterial</name></member>
+      <member refid="class_wireframe_renderer_1a834a2d71deddf197082833af29b3f827" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>Validate</name></member>
+      <member refid="class_wireframe_renderer_1ac62f3096a6c41771714ba84223baf3ef" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>wireframeMaterialCull</name></member>
+      <member refid="class_wireframe_renderer_1a3e920c65f0f930fd4e4ee20b12bc4cff" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>wireframeMaterialNoCull</name></member>
+      <member refid="class_wireframe_renderer_1ab8f9df9e73986d3e63f65efcfbbccb16" prot="private" virt="non-virtual"><scope>WireframeRenderer</scope><name>wireframeRenderer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lib_noise_1_1_noise2_d" kind="class" prot="public">
+    <compoundname>LibNoise::Noise2D</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a0ac5654c1b46d99aa34bf90d3354fbbe" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.South</definition>
+        <argsstring></argsstring>
+        <name>South</name>
+        <initializer>= -90.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a93fcf01df9ea77848c3e68f7408d2a44" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.North</definition>
+        <argsstring></argsstring>
+        <name>North</name>
+        <initializer>= 90.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a6cd13138b6bcbfc53ed6303cdace4140" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.West</definition>
+        <argsstring></argsstring>
+        <name>West</name>
+        <initializer>= -180.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a698fd7b7df59d15ac1dd60f3a4445be6" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.East</definition>
+        <argsstring></argsstring>
+        <name>East</name>
+        <initializer>= 180.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a2c025077710d821f4ff3076a689c0f01" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.AngleMin</definition>
+        <argsstring></argsstring>
+        <name>AngleMin</name>
+        <initializer>= -180.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a314b2c748fc9490327b5467d352bfebb" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.AngleMax</definition>
+        <argsstring></argsstring>
+        <name>AngleMax</name>
+        <initializer>= 180.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1aa2ef0ce3a231586e0d515e3d8ca59d20" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.Left</definition>
+        <argsstring></argsstring>
+        <name>Left</name>
+        <initializer>= -1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a10f29ac9a7ffac4a944beb1fc80e67af" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.Right</definition>
+        <argsstring></argsstring>
+        <name>Right</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a0e285d6373dce3d9d09c3c2192c2b31c" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.Top</definition>
+        <argsstring></argsstring>
+        <name>Top</name>
+        <initializer>= -1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a23dcf60d259085c55d54bdcd7b67ace1" prot="public" static="yes" mutable="no">
+        <type>readonly double</type>
+        <definition>readonly double LibNoise.Noise2D.Bottom</definition>
+        <argsstring></argsstring>
+        <name>Bottom</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LibNoise.Noise2D._width</definition>
+        <argsstring></argsstring>
+        <name>_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1abac1753aea45f939e42cdd236ed9b2de" compoundref="_noise2_d_8cs" startline="262" endline="271">LibNoise.Noise2D.Clear</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a937c13bf6b73e1e9b85e499f97bd1eb2" compoundref="_noise2_d_8cs" startline="565" endline="571">LibNoise.Noise2D.Disposing</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" compoundref="_noise2_d_8cs" startline="362" endline="393">LibNoise.Noise2D.GenerateCylindrical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" compoundref="_noise2_d_8cs" startline="415" endline="446">LibNoise.Noise2D.GenerateSpherical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab2df7d84610548485750ada563a21afe" compoundref="_noise2_d_8cs" startline="220" endline="256">LibNoise.Noise2D.GetData</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab34a1fa5128c92fc67198038df677b35" compoundref="_noise2_d_8cs" startline="494" endline="529">LibNoise.Noise2D.GetNormalMap</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac378ab504b642e6da63ae4e3c3384b4f" compoundref="_noise2_d_8cs" startline="462" endline="487">LibNoise.Noise2D.GetTexture</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" compoundref="_noise2_d_8cs" startline="81" endline="90">LibNoise.Noise2D.Noise2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LibNoise.Noise2D._height</definition>
+        <argsstring></argsstring>
+        <name>_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="33" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1abac1753aea45f939e42cdd236ed9b2de" compoundref="_noise2_d_8cs" startline="262" endline="271">LibNoise.Noise2D.Clear</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a937c13bf6b73e1e9b85e499f97bd1eb2" compoundref="_noise2_d_8cs" startline="565" endline="571">LibNoise.Noise2D.Disposing</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" compoundref="_noise2_d_8cs" startline="362" endline="393">LibNoise.Noise2D.GenerateCylindrical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" compoundref="_noise2_d_8cs" startline="415" endline="446">LibNoise.Noise2D.GenerateSpherical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab2df7d84610548485750ada563a21afe" compoundref="_noise2_d_8cs" startline="220" endline="256">LibNoise.Noise2D.GetData</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab34a1fa5128c92fc67198038df677b35" compoundref="_noise2_d_8cs" startline="494" endline="529">LibNoise.Noise2D.GetNormalMap</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac378ab504b642e6da63ae4e3c3384b4f" compoundref="_noise2_d_8cs" startline="462" endline="487">LibNoise.Noise2D.GetTexture</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" compoundref="_noise2_d_8cs" startline="81" endline="90">LibNoise.Noise2D.Noise2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" prot="private" static="no" mutable="no">
+        <type>float[,]</type>
+        <definition>float [,] LibNoise.Noise2D._data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="34" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1abac1753aea45f939e42cdd236ed9b2de" compoundref="_noise2_d_8cs" startline="262" endline="271">LibNoise.Noise2D.Clear</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a937c13bf6b73e1e9b85e499f97bd1eb2" compoundref="_noise2_d_8cs" startline="565" endline="571">LibNoise.Noise2D.Disposing</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" compoundref="_noise2_d_8cs" startline="362" endline="393">LibNoise.Noise2D.GenerateCylindrical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" compoundref="_noise2_d_8cs" startline="415" endline="446">LibNoise.Noise2D.GenerateSpherical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab2df7d84610548485750ada563a21afe" compoundref="_noise2_d_8cs" startline="220" endline="256">LibNoise.Noise2D.GetData</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac378ab504b642e6da63ae4e3c3384b4f" compoundref="_noise2_d_8cs" startline="462" endline="487">LibNoise.Noise2D.GetTexture</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" compoundref="_noise2_d_8cs" startline="81" endline="90">LibNoise.Noise2D.Noise2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a04dee0c0f47b37da091705cb6dbf775b" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int LibNoise.Noise2D._ucWidth</definition>
+        <argsstring></argsstring>
+        <name>_ucWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="35" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" compoundref="_noise2_d_8cs" startline="362" endline="393">LibNoise.Noise2D.GenerateCylindrical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" compoundref="_noise2_d_8cs" startline="415" endline="446">LibNoise.Noise2D.GenerateSpherical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab2df7d84610548485750ada563a21afe" compoundref="_noise2_d_8cs" startline="220" endline="256">LibNoise.Noise2D.GetData</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab34a1fa5128c92fc67198038df677b35" compoundref="_noise2_d_8cs" startline="494" endline="529">LibNoise.Noise2D.GetNormalMap</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" compoundref="_noise2_d_8cs" startline="81" endline="90">LibNoise.Noise2D.Noise2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a44a180b18d2b297434152fc3c7374e09" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int LibNoise.Noise2D._ucHeight</definition>
+        <argsstring></argsstring>
+        <name>_ucHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" compoundref="_noise2_d_8cs" startline="362" endline="393">LibNoise.Noise2D.GenerateCylindrical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" compoundref="_noise2_d_8cs" startline="415" endline="446">LibNoise.Noise2D.GenerateSpherical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab2df7d84610548485750ada563a21afe" compoundref="_noise2_d_8cs" startline="220" endline="256">LibNoise.Noise2D.GetData</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab34a1fa5128c92fc67198038df677b35" compoundref="_noise2_d_8cs" startline="494" endline="529">LibNoise.Noise2D.GetNormalMap</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" compoundref="_noise2_d_8cs" startline="81" endline="90">LibNoise.Noise2D.Noise2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1aef7668cec02ea688a4d955a0adb8eea4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LibNoise.Noise2D._ucBorder</definition>
+        <argsstring></argsstring>
+        <name>_ucBorder</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" compoundref="_noise2_d_8cs" startline="362" endline="393">LibNoise.Noise2D.GenerateCylindrical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" compoundref="_noise2_d_8cs" startline="415" endline="446">LibNoise.Noise2D.GenerateSpherical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab34a1fa5128c92fc67198038df677b35" compoundref="_noise2_d_8cs" startline="494" endline="529">LibNoise.Noise2D.GetNormalMap</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac378ab504b642e6da63ae4e3c3384b4f" compoundref="_noise2_d_8cs" startline="462" endline="487">LibNoise.Noise2D.GetTexture</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" compoundref="_noise2_d_8cs" startline="81" endline="90">LibNoise.Noise2D.Noise2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a14f8bbe6ac8d656a7af1b291a703f8e2" prot="private" static="no" mutable="no">
+        <type>readonly float[,]</type>
+        <definition>readonly float [,] LibNoise.Noise2D._ucData</definition>
+        <argsstring></argsstring>
+        <name>_ucData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="39" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" compoundref="_noise2_d_8cs" startline="362" endline="393">LibNoise.Noise2D.GenerateCylindrical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" compoundref="_noise2_d_8cs" startline="415" endline="446">LibNoise.Noise2D.GenerateSpherical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab2df7d84610548485750ada563a21afe" compoundref="_noise2_d_8cs" startline="220" endline="256">LibNoise.Noise2D.GetData</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ab34a1fa5128c92fc67198038df677b35" compoundref="_noise2_d_8cs" startline="494" endline="529">LibNoise.Noise2D.GetNormalMap</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" compoundref="_noise2_d_8cs" startline="81" endline="90">LibNoise.Noise2D.Noise2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a83ee1fe5d04293a76b329da2e6388c8c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float LibNoise.Noise2D._borderValue</definition>
+        <argsstring></argsstring>
+        <name>_borderValue</name>
+        <initializer>= float.NaN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="42" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac378ab504b642e6da63ae4e3c3384b4f" compoundref="_noise2_d_8cs" startline="462" endline="487">LibNoise.Noise2D.GetTexture</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a43abe9eadcf0a3e94d3888fd4506c5e1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+        <definition>ModuleBase LibNoise.Noise2D._generator</definition>
+        <argsstring></argsstring>
+        <name>_generator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="43" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" compoundref="_noise2_d_8cs" startline="362" endline="393">LibNoise.Noise2D.GenerateCylindrical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" compoundref="_noise2_d_8cs" startline="415" endline="446">LibNoise.Noise2D.GenerateSpherical</referencedby>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" compoundref="_noise2_d_8cs" startline="81" endline="90">LibNoise.Noise2D.Noise2D</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_noise2_d_1a2bd208a32f1c24ab5cf0d4899842ea0e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LibNoise.Noise2D._disposed</definition>
+        <argsstring></argsstring>
+        <name>_disposed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="539" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="539" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a624a63bd15c55bd226258058726354b3" compoundref="_noise2_d_8cs" startline="552" endline="559">LibNoise.Noise2D.Dispose</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lib_noise_1_1_noise2_d_1acfe5bd8d42d32d8250d5cbe021560195" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float LibNoise.Noise2D.this[int x, int y, bool isCropped=true]</definition>
+        <argsstring></argsstring>
+        <name>this[int x, int y, bool isCropped=true]</name>
+        <briefdescription>
+<para>Gets or sets a value in the noise map by its position. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position on the x-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position on the y-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isCropped</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicates whether to select the cropped (default) or uncropped noise map data.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The corresponding value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="103" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_noise2_d_1a2fe599fb07d0f17706cbd26b246660e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float LibNoise.Noise2D.Border</definition>
+        <argsstring></argsstring>
+        <name>Border</name>
+        <briefdescription>
+<para>Gets or sets the constant value at the noise maps borders. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="165" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_noise2_d_1a02c039a4f7a9e13d7a848ed5bf83dbcd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+        <definition>ModuleBase LibNoise.Noise2D.Generator</definition>
+        <argsstring></argsstring>
+        <name>Generator</name>
+        <briefdescription>
+<para>Gets or sets the generator module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="174" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_noise2_d_1adebca9dc1a1ab05075a8511fae245f27" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int LibNoise.Noise2D.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <briefdescription>
+<para>Gets the height of the noise map. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="183" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_noise2_d_1ad99d9aacdcab01adc90804b1182797f8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int LibNoise.Noise2D.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <briefdescription>
+<para>Gets the width of the noise map. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="191" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_noise2_d_1a30b537eb2a314410c25952d1b18f678c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool LibNoise.Noise2D.IsDisposed</definition>
+        <argsstring></argsstring>
+        <name>IsDisposed</name>
+        <briefdescription>
+<para>Gets a value whether the object is disposed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="544" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="545" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a53ddafc2f6a099d939f1eaad03a1d8fa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Noise2D.Noise2D</definition>
+        <argsstring>()</argsstring>
+        <name>Noise2D</name>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_noise2_d" kindref="compound">Noise2D</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a937c13bf6b73e1e9b85e499f97bd1eb2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool LibNoise.Noise2D.Disposing</definition>
+        <argsstring>()</argsstring>
+        <name>Disposing</name>
+        <briefdescription>
+<para>Immediately releases the unmanaged resources used by this object. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the object is completely disposed.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="565" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="565" bodyend="571"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" compoundref="_noise2_d_8cs" startline="34">LibNoise.Noise2D._data</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" compoundref="_noise2_d_8cs" startline="33">LibNoise.Noise2D._height</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" compoundref="_noise2_d_8cs" startline="32">LibNoise.Noise2D._width</references>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a624a63bd15c55bd226258058726354b3" compoundref="_noise2_d_8cs" startline="552" endline="559">LibNoise.Noise2D.Dispose</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a8729ca7498a796e7c46317e3d40bdfa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Noise2D.Noise2D</definition>
+        <argsstring>(int size)</argsstring>
+        <name>Noise2D</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_noise2_d" kindref="compound">Noise2D</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width and height of the noise map.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="60" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a4f2c693c60b8327c5c906f137293a8c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Noise2D.Noise2D</definition>
+        <argsstring>(int size, ModuleBase generator)</argsstring>
+        <name>Noise2D</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>generator</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_noise2_d" kindref="compound">Noise2D</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width and height of the noise map.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The generator module.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="70" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Noise2D.Noise2D</definition>
+        <argsstring>(int width, int height, ModuleBase generator=null)</argsstring>
+        <name>Noise2D</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>generator</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_noise2_d" kindref="compound">Noise2D</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the noise map.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The height of the noise map.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>generator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The generator module.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="81" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="81" bodyend="90"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" compoundref="_noise2_d_8cs" startline="34">LibNoise.Noise2D._data</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a43abe9eadcf0a3e94d3888fd4506c5e1" compoundref="_noise2_d_8cs" startline="43">LibNoise.Noise2D._generator</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" compoundref="_noise2_d_8cs" startline="33">LibNoise.Noise2D._height</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1aef7668cec02ea688a4d955a0adb8eea4" compoundref="_noise2_d_8cs" startline="37">LibNoise.Noise2D._ucBorder</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a14f8bbe6ac8d656a7af1b291a703f8e2" compoundref="_noise2_d_8cs" startline="39">LibNoise.Noise2D._ucData</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a44a180b18d2b297434152fc3c7374e09" compoundref="_noise2_d_8cs" startline="36">LibNoise.Noise2D._ucHeight</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a04dee0c0f47b37da091705cb6dbf775b" compoundref="_noise2_d_8cs" startline="35">LibNoise.Noise2D._ucWidth</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" compoundref="_noise2_d_8cs" startline="32">LibNoise.Noise2D._width</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a867fe1a88b54558bead78d9afdc0910e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float[,]</type>
+        <definition>float [,] LibNoise.Noise2D.GetNormalizedData</definition>
+        <argsstring>(bool isCropped=true, int xCrop=0, int yCrop=0)</argsstring>
+        <name>GetNormalizedData</name>
+        <param>
+          <type>bool</type>
+          <declname>isCropped</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>xCrop</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>yCrop</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Gets normalized noise map data with all values in the set of {0..1}. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isCropped</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicates whether to select the cropped (default) or uncropped noise map data.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xCrop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This value crops off data from the right of the noise map data.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>yCrop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This value crops off data from the bottom of the noise map data.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The normalized noise map data.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="207" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="207" bodyend="210"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab2df7d84610548485750ada563a21afe" compoundref="_noise2_d_8cs" startline="220" endline="256">LibNoise.Noise2D.GetData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1ab2df7d84610548485750ada563a21afe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float[,]</type>
+        <definition>float [,] LibNoise.Noise2D.GetData</definition>
+        <argsstring>(bool isCropped=true, int xCrop=0, int yCrop=0, bool isNormalized=false)</argsstring>
+        <name>GetData</name>
+        <param>
+          <type>bool</type>
+          <declname>isCropped</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>xCrop</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>yCrop</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isNormalized</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Gets noise map data. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isCropped</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicates whether to select the cropped (default) or uncropped noise map data.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>xCrop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This value crops off data from the right of the noise map data.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>yCrop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>This value crops off data from the bottom of the noise map data.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isNormalized</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicates whether to normalize noise map data.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The noise map data.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="220" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="220" bodyend="256"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" compoundref="_noise2_d_8cs" startline="34">LibNoise.Noise2D._data</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" compoundref="_noise2_d_8cs" startline="33">LibNoise.Noise2D._height</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a14f8bbe6ac8d656a7af1b291a703f8e2" compoundref="_noise2_d_8cs" startline="39">LibNoise.Noise2D._ucData</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a44a180b18d2b297434152fc3c7374e09" compoundref="_noise2_d_8cs" startline="36">LibNoise.Noise2D._ucHeight</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a04dee0c0f47b37da091705cb6dbf775b" compoundref="_noise2_d_8cs" startline="35">LibNoise.Noise2D._ucWidth</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" compoundref="_noise2_d_8cs" startline="32">LibNoise.Noise2D._width</references>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a867fe1a88b54558bead78d9afdc0910e" compoundref="_noise2_d_8cs" startline="207" endline="210">LibNoise.Noise2D.GetNormalizedData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1abac1753aea45f939e42cdd236ed9b2de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LibNoise.Noise2D.Clear</definition>
+        <argsstring>(float value=0f)</argsstring>
+        <name>Clear</name>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+          <defval>0f</defval>
+        </param>
+        <briefdescription>
+<para>Clears the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The constant value to clear the noise map with.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="262" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="262" bodyend="271"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" compoundref="_noise2_d_8cs" startline="34">LibNoise.Noise2D._data</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" compoundref="_noise2_d_8cs" startline="33">LibNoise.Noise2D._height</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" compoundref="_noise2_d_8cs" startline="32">LibNoise.Noise2D._width</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LibNoise.Noise2D.GeneratePlanar</definition>
+        <argsstring>(double left, double right, double top, double bottom, bool isSeamless=true)</argsstring>
+        <name>GeneratePlanar</name>
+        <param>
+          <type>double</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>right</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bottom</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isSeamless</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Generates a non-seamless planar projection of the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>left</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip region to the left.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>right</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip region to the right.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip region to the top.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bottom</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip region to the bottom.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isSeamless</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicates whether the resulting noise map should be seamless.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="292" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="292" bodyend="339"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" compoundref="_noise2_d_8cs" startline="34">LibNoise.Noise2D._data</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a43abe9eadcf0a3e94d3888fd4506c5e1" compoundref="_noise2_d_8cs" startline="43">LibNoise.Noise2D._generator</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" compoundref="_noise2_d_8cs" startline="33">LibNoise.Noise2D._height</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1aef7668cec02ea688a4d955a0adb8eea4" compoundref="_noise2_d_8cs" startline="37">LibNoise.Noise2D._ucBorder</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a14f8bbe6ac8d656a7af1b291a703f8e2" compoundref="_noise2_d_8cs" startline="39">LibNoise.Noise2D._ucData</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a44a180b18d2b297434152fc3c7374e09" compoundref="_noise2_d_8cs" startline="36">LibNoise.Noise2D._ucHeight</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a04dee0c0f47b37da091705cb6dbf775b" compoundref="_noise2_d_8cs" startline="35">LibNoise.Noise2D._ucWidth</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" compoundref="_noise2_d_8cs" startline="32">LibNoise.Noise2D._width</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab53ca090293be5c2d927c5118c67bbaa" compoundref="_noise2_d_8cs" startline="279" endline="282">LibNoise.Noise2D.GeneratePlanar</references>
+        <references refid="class_lib_noise_1_1_utils_1a8de65b934e4c7affe72cde01f1af847f" compoundref="_utils_8cs" startline="240" endline="243">LibNoise.Utils.InterpolateLinear</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LibNoise.Noise2D.GenerateCylindrical</definition>
+        <argsstring>(double angleMin, double angleMax, double heightMin, double heightMax)</argsstring>
+        <name>GenerateCylindrical</name>
+        <param>
+          <type>double</type>
+          <declname>angleMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>angleMax</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>heightMin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>heightMax</declname>
+        </param>
+        <briefdescription>
+<para>Generates a cylindrical projection of the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angleMin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum angle of the clip region.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>angleMax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The minimum angle of the clip region.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>heightMin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The minimum height of the clip region.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>heightMax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum height of the clip region.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="362" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="362" bodyend="393"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" compoundref="_noise2_d_8cs" startline="34">LibNoise.Noise2D._data</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a43abe9eadcf0a3e94d3888fd4506c5e1" compoundref="_noise2_d_8cs" startline="43">LibNoise.Noise2D._generator</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" compoundref="_noise2_d_8cs" startline="33">LibNoise.Noise2D._height</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1aef7668cec02ea688a4d955a0adb8eea4" compoundref="_noise2_d_8cs" startline="37">LibNoise.Noise2D._ucBorder</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a14f8bbe6ac8d656a7af1b291a703f8e2" compoundref="_noise2_d_8cs" startline="39">LibNoise.Noise2D._ucData</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a44a180b18d2b297434152fc3c7374e09" compoundref="_noise2_d_8cs" startline="36">LibNoise.Noise2D._ucHeight</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a04dee0c0f47b37da091705cb6dbf775b" compoundref="_noise2_d_8cs" startline="35">LibNoise.Noise2D._ucWidth</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" compoundref="_noise2_d_8cs" startline="32">LibNoise.Noise2D._width</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a7507549314e864809cf5deb036decd7f" compoundref="_noise2_d_8cs" startline="347" endline="353">LibNoise.Noise2D.GenerateCylindrical</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LibNoise.Noise2D.GenerateSpherical</definition>
+        <argsstring>(double south, double north, double west, double east)</argsstring>
+        <name>GenerateSpherical</name>
+        <param>
+          <type>double</type>
+          <declname>south</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>north</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>west</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>east</declname>
+        </param>
+        <briefdescription>
+<para>Generates a spherical projection of the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>south</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip region to the south.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>north</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip region to the north.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>west</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip region to the west.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>east</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The clip region to the east.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="415" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="415" bodyend="446"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" compoundref="_noise2_d_8cs" startline="34">LibNoise.Noise2D._data</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a43abe9eadcf0a3e94d3888fd4506c5e1" compoundref="_noise2_d_8cs" startline="43">LibNoise.Noise2D._generator</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" compoundref="_noise2_d_8cs" startline="33">LibNoise.Noise2D._height</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1aef7668cec02ea688a4d955a0adb8eea4" compoundref="_noise2_d_8cs" startline="37">LibNoise.Noise2D._ucBorder</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a14f8bbe6ac8d656a7af1b291a703f8e2" compoundref="_noise2_d_8cs" startline="39">LibNoise.Noise2D._ucData</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a44a180b18d2b297434152fc3c7374e09" compoundref="_noise2_d_8cs" startline="36">LibNoise.Noise2D._ucHeight</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a04dee0c0f47b37da091705cb6dbf775b" compoundref="_noise2_d_8cs" startline="35">LibNoise.Noise2D._ucWidth</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" compoundref="_noise2_d_8cs" startline="32">LibNoise.Noise2D._width</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1acb1b8ad121e0cce7ee070ce6d6b015da" compoundref="_noise2_d_8cs" startline="401" endline="406">LibNoise.Noise2D.GenerateSpherical</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a8f5efbd701d1f20f2a9a6c0631283749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D LibNoise.Noise2D.GetTexture</definition>
+        <argsstring>()</argsstring>
+        <name>GetTexture</name>
+        <briefdescription>
+<para>Creates a grayscale texture map for the current content of the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The created texture map.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="452" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="452" bodyend="455"/>
+        <references refid="class_lib_noise_1_1_gradient_presets_1a27d48dd0562c07631db9837e5a87a411" compoundref="_gradient_presets_8cs" startline="102">LibNoise.GradientPresets.Grayscale</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1ac378ab504b642e6da63ae4e3c3384b4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D LibNoise.Noise2D.GetTexture</definition>
+        <argsstring>(Gradient gradient)</argsstring>
+        <name>GetTexture</name>
+        <param>
+          <type>Gradient</type>
+          <declname>gradient</declname>
+        </param>
+        <briefdescription>
+<para>Creates a texture map for the current content of the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gradient</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The gradient to color the texture map with.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The created texture map.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="462" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="462" bodyend="487"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a83ee1fe5d04293a76b329da2e6388c8c" compoundref="_noise2_d_8cs" startline="42">LibNoise.Noise2D._borderValue</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" compoundref="_noise2_d_8cs" startline="34">LibNoise.Noise2D._data</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" compoundref="_noise2_d_8cs" startline="33">LibNoise.Noise2D._height</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1aef7668cec02ea688a4d955a0adb8eea4" compoundref="_noise2_d_8cs" startline="37">LibNoise.Noise2D._ucBorder</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" compoundref="_noise2_d_8cs" startline="32">LibNoise.Noise2D._width</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1ab34a1fa5128c92fc67198038df677b35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Texture2D</type>
+        <definition>Texture2D LibNoise.Noise2D.GetNormalMap</definition>
+        <argsstring>(float intensity)</argsstring>
+        <name>GetNormalMap</name>
+        <param>
+          <type>float</type>
+          <declname>intensity</declname>
+        </param>
+        <briefdescription>
+<para>Creates a normal map for the current content of the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>intensity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The scaling of the normal map values.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The created normal map.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="494" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="494" bodyend="529"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" compoundref="_noise2_d_8cs" startline="33">LibNoise.Noise2D._height</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1aef7668cec02ea688a4d955a0adb8eea4" compoundref="_noise2_d_8cs" startline="37">LibNoise.Noise2D._ucBorder</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a14f8bbe6ac8d656a7af1b291a703f8e2" compoundref="_noise2_d_8cs" startline="39">LibNoise.Noise2D._ucData</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a44a180b18d2b297434152fc3c7374e09" compoundref="_noise2_d_8cs" startline="36">LibNoise.Noise2D._ucHeight</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a04dee0c0f47b37da091705cb6dbf775b" compoundref="_noise2_d_8cs" startline="35">LibNoise.Noise2D._ucWidth</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" compoundref="_noise2_d_8cs" startline="32">LibNoise.Noise2D._width</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a624a63bd15c55bd226258058726354b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LibNoise.Noise2D.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+<para>Immediately releases the unmanaged resources used by this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="552" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="552" bodyend="559"/>
+        <references refid="class_lib_noise_1_1_noise2_d_1a2bd208a32f1c24ab5cf0d4899842ea0e" compoundref="_noise2_d_8cs" startline="539">LibNoise.Noise2D._disposed</references>
+        <references refid="class_lib_noise_1_1_noise2_d_1a937c13bf6b73e1e9b85e499f97bd1eb2" compoundref="_noise2_d_8cs" startline="565" endline="571">LibNoise.Noise2D.Disposing</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1ab53ca090293be5c2d927c5118c67bbaa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double LibNoise.Noise2D.GeneratePlanar</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>GeneratePlanar</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Generates a planar projection of a point in the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position on the x-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position on the y-axis.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The corresponding noise map value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="279" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="279" bodyend="282"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1a7507549314e864809cf5deb036decd7f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double LibNoise.Noise2D.GenerateCylindrical</definition>
+        <argsstring>(double angle, double height)</argsstring>
+        <name>GenerateCylindrical</name>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+<para>Generates a cylindrical projection of a point in the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The angle of the point.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The height of the point.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The corresponding noise map value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="347" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="347" bodyend="353"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" compoundref="_noise2_d_8cs" startline="362" endline="393">LibNoise.Noise2D.GenerateCylindrical</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_noise2_d_1acb1b8ad121e0cce7ee070ce6d6b015da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double LibNoise.Noise2D.GenerateSpherical</definition>
+        <argsstring>(double lat, double lon)</argsstring>
+        <name>GenerateSpherical</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <briefdescription>
+<para>Generates a spherical projection of a point in the noise map. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The latitude of the point.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lon</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The longitude of the point.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The corresponding noise map value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="401" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="401" bodyend="406"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" compoundref="_noise2_d_8cs" startline="415" endline="446">LibNoise.Noise2D.GenerateSpherical</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a two-dimensional noise map. </para>    </briefdescription>
+    <detaileddescription>
+<para>This covers most of the functionality from <ref refid="namespace_lib_noise" kindref="compound">LibNoise</ref>&apos;s noiseutils library, but the method calls might not be the same. See the tutorials project if you&apos;re wondering which calls are equivalent.</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="425">
+        <label>LibNoise.Noise2D</label>
+        <link refid="class_lib_noise_1_1_noise2_d"/>
+        <childnode refid="426" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="426">
+        <label>IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="429">
+        <label>LibNoise.ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+        <childnode refid="429" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+      <node id="427">
+        <label>LibNoise.Noise2D</label>
+        <link refid="class_lib_noise_1_1_noise2_d"/>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+        <childnode refid="429" relation="usage">
+          <edgelabel>_generator</edgelabel>
+        </childnode>
+      </node>
+      <node id="428">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Noise2D.cs" bodystart="13" bodyend="574"/>
+    <listofallmembers>
+      <member refid="class_lib_noise_1_1_noise2_d_1a83ee1fe5d04293a76b329da2e6388c8c" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_borderValue</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a6c51b022771294f74cbc1e24ebf32b57" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_data</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a2bd208a32f1c24ab5cf0d4899842ea0e" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_disposed</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a43abe9eadcf0a3e94d3888fd4506c5e1" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_generator</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a55d081d27f37cb7e3d50accb187c31d4" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_height</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1aef7668cec02ea688a4d955a0adb8eea4" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_ucBorder</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a14f8bbe6ac8d656a7af1b291a703f8e2" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_ucData</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a44a180b18d2b297434152fc3c7374e09" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_ucHeight</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a04dee0c0f47b37da091705cb6dbf775b" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_ucWidth</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1ab13e9889d3998e18eec6040d5a5e7262" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>_width</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a314b2c748fc9490327b5467d352bfebb" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>AngleMax</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a2c025077710d821f4ff3076a689c0f01" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>AngleMin</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a2fe599fb07d0f17706cbd26b246660e3" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Border</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a23dcf60d259085c55d54bdcd7b67ace1" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Bottom</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1abac1753aea45f939e42cdd236ed9b2de" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Clear</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a624a63bd15c55bd226258058726354b3" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Dispose</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a937c13bf6b73e1e9b85e499f97bd1eb2" prot="protected" virt="virtual"><scope>LibNoise::Noise2D</scope><name>Disposing</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a698fd7b7df59d15ac1dd60f3a4445be6" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>East</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a7507549314e864809cf5deb036decd7f" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GenerateCylindrical</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a02daa1c914c5dd0dc590f6f879661091" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GenerateCylindrical</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1ab53ca090293be5c2d927c5118c67bbaa" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GeneratePlanar</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GeneratePlanar</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1acb1b8ad121e0cce7ee070ce6d6b015da" prot="private" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GenerateSpherical</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a68c918170dee86068f4afcba0734e5e0" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GenerateSpherical</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a02c039a4f7a9e13d7a848ed5bf83dbcd" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Generator</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1ab2df7d84610548485750ada563a21afe" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GetData</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a867fe1a88b54558bead78d9afdc0910e" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GetNormalizedData</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1ab34a1fa5128c92fc67198038df677b35" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GetNormalMap</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a8f5efbd701d1f20f2a9a6c0631283749" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GetTexture</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1ac378ab504b642e6da63ae4e3c3384b4f" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>GetTexture</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1adebca9dc1a1ab05075a8511fae245f27" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Height</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a30b537eb2a314410c25952d1b18f678c" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>IsDisposed</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1aa2ef0ce3a231586e0d515e3d8ca59d20" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Left</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a53ddafc2f6a099d939f1eaad03a1d8fa" prot="protected" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Noise2D</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a8729ca7498a796e7c46317e3d40bdfa8" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Noise2D</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a4f2c693c60b8327c5c906f137293a8c2" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Noise2D</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a89d44465cd842be3f3a8b31e78f43072" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Noise2D</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a93fcf01df9ea77848c3e68f7408d2a44" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>North</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a10f29ac9a7ffac4a944beb1fc80e67af" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Right</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a0ac5654c1b46d99aa34bf90d3354fbbe" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>South</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1acfe5bd8d42d32d8250d5cbe021560195" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>this[int x, int y, bool isCropped=true]</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a0e285d6373dce3d9d09c3c2192c2b31c" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Top</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1a6cd13138b6bcbfc53ed6303cdace4140" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>West</name></member>
+      <member refid="class_lib_noise_1_1_noise2_d_1ad99d9aacdcab01adc90804b1182797f8" prot="public" virt="non-virtual"><scope>LibNoise::Noise2D</scope><name>Width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

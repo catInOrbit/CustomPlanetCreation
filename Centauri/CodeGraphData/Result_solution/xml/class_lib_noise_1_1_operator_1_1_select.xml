@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lib_noise_1_1_operator_1_1_select" kind="class" prot="public">
+    <compoundname>LibNoise::Operator::Select</compoundname>
+    <basecompoundref refid="class_lib_noise_1_1_module_base" prot="public" virt="non-virtual">LibNoise.ModuleBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_select_1a9f5cc5c505e98efd8301142e10a45c7d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Select._fallOff</definition>
+        <argsstring></argsstring>
+        <name>_fallOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_select_1a5a5bcc94d9875251c3fe9c91b74e8b13" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Select._raw</definition>
+        <argsstring></argsstring>
+        <name>_raw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_select_1af03f42298e811c62005748e99a7fd6e2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Select._min</definition>
+        <argsstring></argsstring>
+        <name>_min</name>
+        <initializer>= -1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_select_1abd22363430aed16e3cc1c65cd9c33d68" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Select._max</definition>
+        <argsstring></argsstring>
+        <name>_max</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_select_1a302be03766a4c564588078b0cbde4445" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+        <definition>ModuleBase LibNoise.Operator.Select.Controller</definition>
+        <argsstring></argsstring>
+        <name>Controller</name>
+        <briefdescription>
+<para>Gets or sets the controlling module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="67" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_select_1a03f1c9cfacabc7b43efef9f4beefc8b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Select.FallOff</definition>
+        <argsstring></argsstring>
+        <name>FallOff</name>
+        <briefdescription>
+<para>Gets or sets the falloff value at the edge transition. </para>        </briefdescription>
+        <detaileddescription>
+<para>Called SetEdgeFallOff() on the original <ref refid="namespace_lib_noise" kindref="compound">LibNoise</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="83" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_select_1ac3d0dd2ba9be417b85e2d0c1c0dcb57e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Select.Maximum</definition>
+        <argsstring></argsstring>
+        <name>Maximum</name>
+        <briefdescription>
+<para>Gets or sets the maximum, and re-calculated the fall-off accordingly. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="97" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_select_1aefa3d148847562fba2ccda301d5e983d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Select.Minimum</definition>
+        <argsstring></argsstring>
+        <name>Minimum</name>
+        <briefdescription>
+<para>Gets or sets the minimum, and re-calculated the fall-off accordingly. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="110" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_select_1acb4f276703eed6184d9c982d6670191b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Operator.Select.Select</definition>
+        <argsstring>()</argsstring>
+        <name>Select</name>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_operator_1_1_select" kindref="compound">Select</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_select_1a37dc6565fe49d63aa5bef700d58d615f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Operator.Select.Select</definition>
+        <argsstring>(ModuleBase inputA, ModuleBase inputB, ModuleBase controller)</argsstring>
+        <name>Select</name>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>inputA</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>inputB</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>controller</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_operator_1_1_select" kindref="compound">Select</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first input module.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inputB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second input module.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>controller</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The controller module.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_select_1a2a29c69bf154fd755d05f42429f020d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Operator.Select.Select</definition>
+        <argsstring>(double min, double max, double fallOff, ModuleBase inputA, ModuleBase inputB)</argsstring>
+        <name>Select</name>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fallOff</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>inputA</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>inputB</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_operator_1_1_select" kindref="compound">Select</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The minimum value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fallOff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The falloff value at the edge transition.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inputA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first input module.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>inputB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second input module.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="52" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_select_1a249d52efba7fa4cf33a9f64ff12b9887" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LibNoise.Operator.Select.SetBounds</definition>
+        <argsstring>(double min, double max)</argsstring>
+        <name>SetBounds</name>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+<para>Sets the bounds. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The minimum value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="129" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="129" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_select_1a16ab75303a00d00756fe9ec740184aef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override double</type>
+        <definition>override double LibNoise.Operator.Select.GetValue</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>GetValue</name>
+        <reimplements refid="class_lib_noise_1_1_module_base_1abb3f06725165dc1fda63de23b68f408b">GetValue</reimplements>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Returns the output value for the given input coordinates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the x-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the y-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the z-axis.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting output value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="148" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="148" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a noise module that outputs the value selected from one of two source modules chosen by the output value from a control module. [OPERATOR] </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="609">
+        <label>LibNoise.Operator.Select</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_select"/>
+        <childnode refid="610" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="611">
+        <label>IDisposable</label>
+      </node>
+      <node id="610">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="611" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="612">
+        <label>LibNoise.Operator.Select</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_select"/>
+        <childnode refid="613" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="615">
+        <label>LibNoise.ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="614" relation="public-inheritance">
+        </childnode>
+        <childnode refid="615" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+      <node id="614">
+        <label>IDisposable</label>
+      </node>
+      <node id="613">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="614" relation="public-inheritance">
+        </childnode>
+        <childnode refid="615" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Select.cs" bodystart="9" bodyend="191"/>
+    <listofallmembers>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1a9f5cc5c505e98efd8301142e10a45c7d" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>_fallOff</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1abd22363430aed16e3cc1c65cd9c33d68" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>_max</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1af03f42298e811c62005748e99a7fd6e2" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>_min</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1a5a5bcc94d9875251c3fe9c91b74e8b13" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>_raw</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1a302be03766a4c564588078b0cbde4445" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>Controller</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a0f281ab3bfc1fe8aef486a80cbe4db01" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>Dispose</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a564dbb55fb2a28d5dc7798849508ab2b" prot="protected" virt="virtual"><scope>LibNoise::Operator::Select</scope><name>Disposing</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1a03f1c9cfacabc7b43efef9f4beefc8b0" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>FallOff</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1a16ab75303a00d00756fe9ec740184aef" prot="public" virt="virtual"><scope>LibNoise::Operator::Select</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1aea8b10f91816c21d0910ebf6aa58fde6" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Operator::Select</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1af442fe2cbe675fbebc9c54ec51f6c2ee" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Operator::Select</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1adcf3d5aa2957501de0577a6a8317c2d5" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>IsDisposed</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1ac3d0dd2ba9be417b85e2d0c1c0dcb57e" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>Maximum</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1aefa3d148847562fba2ccda301d5e983d" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>Minimum</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a79db52ea9d135eff82bb3e3213fd668c" prot="protected" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>ModuleBase</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a2037b14c6b82fc7033224b2a31faf8d4" prot="protected" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>Modules</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1acb4f276703eed6184d9c982d6670191b" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>Select</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1a37dc6565fe49d63aa5bef700d58d615f" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>Select</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1a2a29c69bf154fd755d05f42429f020d5" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>Select</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_select_1a249d52efba7fa4cf33a9f64ff12b9887" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>SetBounds</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a3f901b6cb96ad011f20f1ce922ff67fc" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>SourceModuleCount</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a82ba7cc8a454de882e305ebb0e9e2e1c" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Select</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

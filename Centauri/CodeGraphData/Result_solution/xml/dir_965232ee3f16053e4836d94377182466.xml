@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_965232ee3f16053e4836d94377182466" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator</compoundname>
+    <innerfile refid="_abs_8cs">Abs.cs</innerfile>
+    <innerfile refid="_add_8cs">Add.cs</innerfile>
+    <innerfile refid="_blend_8cs">Blend.cs</innerfile>
+    <innerfile refid="_cache_8cs">Cache.cs</innerfile>
+    <innerfile refid="_clamp_8cs">Clamp.cs</innerfile>
+    <innerfile refid="_curve_8cs">Curve.cs</innerfile>
+    <innerfile refid="_displace_8cs">Displace.cs</innerfile>
+    <innerfile refid="_exponent_8cs">Exponent.cs</innerfile>
+    <innerfile refid="_invert_8cs">Invert.cs</innerfile>
+    <innerfile refid="_max_8cs">Max.cs</innerfile>
+    <innerfile refid="_min_8cs">Min.cs</innerfile>
+    <innerfile refid="_multiply_8cs">Multiply.cs</innerfile>
+    <innerfile refid="_power_8cs">Power.cs</innerfile>
+    <innerfile refid="_rotate_8cs">Rotate.cs</innerfile>
+    <innerfile refid="_scale_8cs">Scale.cs</innerfile>
+    <innerfile refid="_scale_bias_8cs">ScaleBias.cs</innerfile>
+    <innerfile refid="_select_8cs">Select.cs</innerfile>
+    <innerfile refid="_subtract_8cs">Subtract.cs</innerfile>
+    <innerfile refid="_terrace_8cs">Terrace.cs</innerfile>
+    <innerfile refid="_translate_8cs">Translate.cs</innerfile>
+    <innerfile refid="_turbulence_8cs">Turbulence.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/"/>
+  </compounddef>
+</doxygen>

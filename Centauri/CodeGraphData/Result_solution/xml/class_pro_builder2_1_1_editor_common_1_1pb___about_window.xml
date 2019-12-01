@@ -1,0 +1,638 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_editor_common_1_1pb___about_window" kind="class" prot="public">
+    <compoundname>ProBuilder2::EditorCommon::pb_AboutWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1aecfddd4675a7750d92316a6834974d0e" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.EditorCommon.pb_AboutWindow.PACKAGE_NAME</definition>
+        <argsstring></argsstring>
+        <name>PACKAGE_NAME</name>
+        <initializer>= &quot;ProBuilder&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="59" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a8f719b00723d1e43c01d882375d8bace" prot="private" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent ProBuilder2.EditorCommon.pb_AboutWindow.gc_Learn</definition>
+        <argsstring></argsstring>
+        <name>gc_Learn</name>
+        <initializer>= new GUIContent(&quot;Learn ProBuilder&quot;, &quot;Documentation&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="82" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a088e95990a79c9fbc15fa8529584d824" prot="private" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent ProBuilder2.EditorCommon.pb_AboutWindow.gc_Forum</definition>
+        <argsstring></argsstring>
+        <name>gc_Forum</name>
+        <initializer>= new GUIContent(&quot;Support Forum&quot;, &quot;ProCore Support Forum&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="83" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ab9574392f85bc0b7ffd42294e3c9143a" prot="private" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent ProBuilder2.EditorCommon.pb_AboutWindow.gc_Contact</definition>
+        <argsstring></argsstring>
+        <name>gc_Contact</name>
+        <initializer>= new GUIContent(&quot;Contact Us&quot;, &quot;Send us an email!&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="84" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1aebb5d9eabd6c950cb496a39c97c83689" prot="private" static="no" mutable="no">
+        <type>GUIContent</type>
+        <definition>GUIContent ProBuilder2.EditorCommon.pb_AboutWindow.gc_Banner</definition>
+        <argsstring></argsstring>
+        <name>gc_Banner</name>
+        <initializer>= new GUIContent(&quot;&quot;, &quot;ProBuilder Quick-Start Video Tutorials&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="85" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a55be0f45d824d22c215811fd6b556a3d" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.EditorCommon.pb_AboutWindow.VIDEO_URL</definition>
+        <argsstring></argsstring>
+        <name>VIDEO_URL</name>
+        <initializer>= @&quot;http://bit.ly/pbstarter&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="87" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a09a3464c70ffdcb2ee9c0ffc83c53119" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.EditorCommon.pb_AboutWindow.LEARN_URL</definition>
+        <argsstring></argsstring>
+        <name>LEARN_URL</name>
+        <initializer>= @&quot;http://procore3d.com/docs/probuilder&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="88" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a0a564a4bbe57d0d5ba00007b78c49497" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.EditorCommon.pb_AboutWindow.SUPPORT_URL</definition>
+        <argsstring></argsstring>
+        <name>SUPPORT_URL</name>
+        <initializer>= @&quot;http://www.procore3d.com/forum/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="89" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1afab1ff566e4950a3416aec5f9f3eb15f" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.EditorCommon.pb_AboutWindow.CONTACT_EMAIL</definition>
+        <argsstring></argsstring>
+        <name>CONTACT_EMAIL</name>
+        <initializer>= @&quot;http://www.procore3d.com/<ref refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a1e2eb6d46e5a989d1b99f3f08de2a6c1" kindref="member">about</ref>/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="90" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a2e30a1453bdf6b5ac754668e3a413b3b" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float ProBuilder2.EditorCommon.pb_AboutWindow.BANNER_WIDTH</definition>
+        <argsstring></argsstring>
+        <name>BANNER_WIDTH</name>
+        <initializer>= 480f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="91" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1adb6aac43bb8fac854ad35771a11d2f7b" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float ProBuilder2.EditorCommon.pb_AboutWindow.BANNER_HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>BANNER_HEIGHT</name>
+        <initializer>= 270f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="92" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ac57835b7d19208cf973c47ae46e4cb45" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ProBuilder2.EditorCommon.pb_AboutWindow.productName</definition>
+        <argsstring></argsstring>
+        <name>productName</name>
+        <initializer>= pb_Constant.PRODUCT_NAME</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="104" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a1e2eb6d46e5a989d1b99f3f08de2a6c1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry" kindref="compound">pb_AboutEntry</ref></type>
+        <definition>pb_AboutEntry ProBuilder2.EditorCommon.pb_AboutWindow.about</definition>
+        <argsstring></argsstring>
+        <name>about</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="105" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a6a4d09b715ed6c40ff2be8849c6508eb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ProBuilder2.EditorCommon.pb_AboutWindow.changelogRichText</definition>
+        <argsstring></argsstring>
+        <name>changelogRichText</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="106" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a5c8d20a02c27b25ac3eb5a74b5b4b481" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 ProBuilder2.EditorCommon.pb_AboutWindow.scroll</definition>
+        <argsstring></argsstring>
+        <name>scroll</name>
+        <initializer>= Vector2.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="116" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a81c5acea5d03193cd9e97a1f17287eb6" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string ProBuilder2.EditorCommon.pb_AboutWindow.aboutRoot</definition>
+        <argsstring></argsstring>
+        <name>aboutRoot</name>
+        <initializer>= &quot;Assets/ProCore/&quot; + PACKAGE_NAME + &quot;/About&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="61" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a9c42baefc69d5d5f1f5c99cc2c69b22a" prot="private" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ProBuilder2.EditorCommon.pb_AboutWindow.header1Style</definition>
+        <argsstring></argsstring>
+        <name>header1Style</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="109" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a5cd24390d56dba18e6b62f1c7d5d238c" prot="private" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ProBuilder2.EditorCommon.pb_AboutWindow.versionInfoStyle</definition>
+        <argsstring></argsstring>
+        <name>versionInfoStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="110" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="108" bodyend="-1"/>
+        <referencedby refid="class_pro_builder2_1_1_editor_common_1_1pb___update_available_1a04f805e24a026ebf20cdb18231fcb9c9" compoundref="pb___update_available_8cs" startline="62" endline="89">ProBuilder2.EditorCommon.pb_UpdateAvailable.OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a4871b9ab98143bce7371c5f0ac348b61" prot="private" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ProBuilder2.EditorCommon.pb_AboutWindow.linkStyle</definition>
+        <argsstring></argsstring>
+        <name>linkStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="111" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a34f3819cf67e421b5c68d34d202952f8" prot="private" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ProBuilder2.EditorCommon.pb_AboutWindow.separatorStyle</definition>
+        <argsstring></argsstring>
+        <name>separatorStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="112" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a0485f3f436cc56a969026643c31f4d55" prot="private" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ProBuilder2.EditorCommon.pb_AboutWindow.changelogStyle</definition>
+        <argsstring></argsstring>
+        <name>changelogStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="113" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a94db225b3b00c1f2b1947d3944cadade" prot="private" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ProBuilder2.EditorCommon.pb_AboutWindow.changelogTextStyle</definition>
+        <argsstring></argsstring>
+        <name>changelogTextStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="114" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a78138b8dc333d7675d1b02b794e1967f" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string ProBuilder2.EditorCommon.pb_AboutWindow.AboutRoot</definition>
+        <argsstring></argsstring>
+        <name>AboutRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="64" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a122acc226d3e326da8ecefa65f1b6d99" prot="package" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.EditorCommon.pb_AboutWindow.FONT_REGULAR</definition>
+        <argsstring></argsstring>
+        <name>FONT_REGULAR</name>
+        <initializer>= &quot;Asap-Regular.otf&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="94" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a7a9e84c0cf4b6468c343eb472174d022" prot="package" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.EditorCommon.pb_AboutWindow.FONT_MEDIUM</definition>
+        <argsstring></argsstring>
+        <name>FONT_MEDIUM</name>
+        <initializer>= &quot;Asap-Medium.otf&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="95" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1aff54d30a8d38e0b9bfc401363b1434de" prot="public" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color ProBuilder2.EditorCommon.pb_AboutWindow.font_white</definition>
+        <argsstring></argsstring>
+        <name>font_white</name>
+        <initializer>= <ref refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a7320d4999f4b1aafbc993ea951aaa9c4" kindref="member">HexToColor</ref>(0xCECECE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="98" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a0a609c61e52f0abe18f8a33bb85449a8" prot="public" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color ProBuilder2.EditorCommon.pb_AboutWindow.font_black</definition>
+        <argsstring></argsstring>
+        <name>font_black</name>
+        <initializer>= <ref refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a7320d4999f4b1aafbc993ea951aaa9c4" kindref="member">HexToColor</ref>(0x545454)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="99" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a21b32eaeb048cbc681fc6bc57b05a013" prot="public" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color ProBuilder2.EditorCommon.pb_AboutWindow.font_blue_normal</definition>
+        <argsstring></argsstring>
+        <name>font_blue_normal</name>
+        <initializer>= <ref refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a7320d4999f4b1aafbc993ea951aaa9c4" kindref="member">HexToColor</ref>(0x00AAEF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="100" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a55b93ef9900ce5cc5558de27b253efb9" prot="public" static="yes" mutable="no">
+        <type>readonly Color</type>
+        <definition>readonly Color ProBuilder2.EditorCommon.pb_AboutWindow.font_blue_hover</definition>
+        <argsstring></argsstring>
+        <name>font_blue_hover</name>
+        <initializer>= <ref refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a7320d4999f4b1aafbc993ea951aaa9c4" kindref="member">HexToColor</ref>(0x008BEF)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="101" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1acecb5b69cfde662ffe960339213eb441" prot="package" static="yes" mutable="no">
+        <type>GUIStyle</type>
+        <definition>GUIStyle ProBuilder2.EditorCommon.pb_AboutWindow.bannerStyle</definition>
+        <argsstring></argsstring>
+        <name>bannerStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="108" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a854e20a614a9a05b98a67e057601734f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProBuilder2.EditorCommon.pb_AboutWindow.Init</definition>
+        <argsstring>(bool fromMenu)</argsstring>
+        <name>Init</name>
+        <param>
+          <type>bool</type>
+          <declname>fromMenu</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return true if Init took place, false if not. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="121" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="121" bodyend="144"/>
+        <references refid="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1acfc4c6d08289d59f4465138fae08d2c6" compoundref="pb___version_util_8cs" startline="37" endline="50">ProBuilder2.EditorCommon.pb_VersionUtil.GetAboutEntry</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ab2fba4d8b1f5a94fa91e2f65ee1823e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.EditorCommon.pb_AboutWindow.InitGuiStyles</definition>
+        <argsstring>()</argsstring>
+        <name>InitGuiStyles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="154" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="154" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a7320d4999f4b1aafbc993ea951aaa9c4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Color</type>
+        <definition>static Color ProBuilder2.EditorCommon.pb_AboutWindow.HexToColor</definition>
+        <argsstring>(uint x)</argsstring>
+        <name>HexToColor</name>
+        <param>
+          <type>uint</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="146" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="146" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ada5e46ede17e48c5165e43258d696b48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProBuilder2.EditorCommon.pb_AboutWindow.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="240" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="240" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a15e16912ed94282bfdefb032714a950a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProBuilder2.EditorCommon.pb_AboutWindow.SetAbout</definition>
+        <argsstring>(pb_AboutEntry about)</argsstring>
+        <name>SetAbout</name>
+        <param>
+          <type><ref refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry" kindref="compound">pb_AboutEntry</ref></type>
+          <declname>about</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="266" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="266" bodyend="283"/>
+        <references refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry_1a9c7b6402b11f865d49d90e08189de9a2" compoundref="pb___version_util_8cs" startline="20">ProBuilder2.EditorCommon.pb_AboutEntry.changelogPath</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ab313bc3db9c7dd669dc24cea988833d8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProBuilder2.EditorCommon.pb_AboutWindow.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="290" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="290" bodyend="333"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ad48c99ec1478d17ad2facb30bd99ed6c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProBuilder2.EditorCommon.pb_AboutWindow.HorizontalLine</definition>
+        <argsstring>()</argsstring>
+        <name>HorizontalLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draw a horizontal line across the screen and update the guilayout. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="338" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="338" bodyend="347"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1abc03e343efe24072d718edd3203435ad" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T ProBuilder2.EditorCommon.pb_AboutWindow.LoadAssetAtPath&lt; T &gt;</definition>
+        <argsstring>(string InPath)</argsstring>
+        <name>LoadAssetAtPath&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>InPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="285" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="285" bodyend="288"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Changelog.txt file should follow this format:</para><para>| # Product Name 2.1.0 | | ## Features | | - All kinds of awesome stuff | - New flux capacitor design achieves time travel at lower velocities. | - Dark matter reactor recalibrated. | | ## Bug Fixes | | - No longer explodes when spacebar is pressed. | - Fix rolling issue in rickmeter. | | # Changes | | - Changed Blue to Red. | - Enter key now causes explosions.</para><para>This path is relative to the PRODUCT_ROOT path.</para><para>Note that your changelog may contain multiple entries. Only the top-most entry will be displayed. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="416">
+        <label>ProBuilder2.EditorCommon.pb_AboutWindow</label>
+        <link refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="417">
+        <label>EditorWindow</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="420">
+        <label>ProBuilder2.EditorCommon.pb_AboutEntry</label>
+        <link refid="class_pro_builder2_1_1_editor_common_1_1pb___about_entry"/>
+      </node>
+      <node id="418">
+        <label>ProBuilder2.EditorCommon.pb_AboutWindow</label>
+        <link refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window"/>
+        <childnode refid="419" relation="public-inheritance">
+        </childnode>
+        <childnode refid="420" relation="usage">
+          <edgelabel>about</edgelabel>
+        </childnode>
+      </node>
+      <node id="419">
+        <label>EditorWindow</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="57" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="56" bodyend="348"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a1e2eb6d46e5a989d1b99f3f08de2a6c1" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>about</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a81c5acea5d03193cd9e97a1f17287eb6" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>aboutRoot</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a78138b8dc333d7675d1b02b794e1967f" prot="package" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>AboutRoot</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1adb6aac43bb8fac854ad35771a11d2f7b" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>BANNER_HEIGHT</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a2e30a1453bdf6b5ac754668e3a413b3b" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>BANNER_WIDTH</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1acecb5b69cfde662ffe960339213eb441" prot="package" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>bannerStyle</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a6a4d09b715ed6c40ff2be8849c6508eb" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>changelogRichText</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a0485f3f436cc56a969026643c31f4d55" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>changelogStyle</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a94db225b3b00c1f2b1947d3944cadade" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>changelogTextStyle</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1afab1ff566e4950a3416aec5f9f3eb15f" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>CONTACT_EMAIL</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a0a609c61e52f0abe18f8a33bb85449a8" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>font_black</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a55b93ef9900ce5cc5558de27b253efb9" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>font_blue_hover</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a21b32eaeb048cbc681fc6bc57b05a013" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>font_blue_normal</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a7a9e84c0cf4b6468c343eb472174d022" prot="package" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>FONT_MEDIUM</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a122acc226d3e326da8ecefa65f1b6d99" prot="package" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>FONT_REGULAR</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1aff54d30a8d38e0b9bfc401363b1434de" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>font_white</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1aebb5d9eabd6c950cb496a39c97c83689" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>gc_Banner</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ab9574392f85bc0b7ffd42294e3c9143a" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>gc_Contact</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a088e95990a79c9fbc15fa8529584d824" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>gc_Forum</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a8f719b00723d1e43c01d882375d8bace" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>gc_Learn</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a9c42baefc69d5d5f1f5c99cc2c69b22a" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>header1Style</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a7320d4999f4b1aafbc993ea951aaa9c4" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>HexToColor</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ad48c99ec1478d17ad2facb30bd99ed6c" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>HorizontalLine</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a854e20a614a9a05b98a67e057601734f" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>Init</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ab2fba4d8b1f5a94fa91e2f65ee1823e5" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>InitGuiStyles</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a09a3464c70ffdcb2ee9c0ffc83c53119" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>LEARN_URL</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a4871b9ab98143bce7371c5f0ac348b61" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>linkStyle</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1abc03e343efe24072d718edd3203435ad" prot="package" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>LoadAssetAtPath&lt; T &gt;</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ada5e46ede17e48c5165e43258d696b48" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>OnEnable</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ab313bc3db9c7dd669dc24cea988833d8" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>OnGUI</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1aecfddd4675a7750d92316a6834974d0e" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>PACKAGE_NAME</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1ac57835b7d19208cf973c47ae46e4cb45" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>productName</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a5c8d20a02c27b25ac3eb5a74b5b4b481" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>scroll</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a34f3819cf67e421b5c68d34d202952f8" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>separatorStyle</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a15e16912ed94282bfdefb032714a950a" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>SetAbout</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a0a564a4bbe57d0d5ba00007b78c49497" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>SUPPORT_URL</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a5cd24390d56dba18e6b62f1c7d5d238c" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>versionInfoStyle</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_1a55be0f45d824d22c215811fd6b556a3d" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindow</scope><name>VIDEO_URL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

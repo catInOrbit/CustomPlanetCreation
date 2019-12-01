@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_on_screen_g_u_i" kind="class" prot="public">
+    <compoundname>OnScreenGUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_on_screen_g_u_i_1aaec477a091b9e0cf359dd84ed036e6a7" prot="public" static="no" mutable="no">
+        <type>Sprite[]</type>
+        <definition>Sprite [] OnScreenGUI.dragGUIS</definition>
+        <argsstring></argsstring>
+        <name>dragGUIS</name>
+        <initializer>= new Sprite[2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_on_screen_g_u_i_1a1b4b29885771c51b367d5eb9c3bac0e8" compoundref="_on_screen_g_u_i_8cs" startline="53" endline="63">ChangeSpriteWithSpeed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_on_screen_g_u_i_1ada5168a2530be43f98d9893c8a4f0430" prot="private" static="no" mutable="no">
+        <type><ref refid="class_input_to_force_utils" kindref="compound">InputToForceUtils</ref></type>
+        <definition>InputToForceUtils OnScreenGUI.inputToForceUtils</definition>
+        <argsstring></argsstring>
+        <name>inputToForceUtils</name>
+        <initializer>= new <ref refid="class_input_to_force_utils" kindref="compound">InputToForceUtils</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_on_screen_g_u_i_1a2a89327fc173fbd5d17cd08a10e8b9f7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref></type>
+        <definition>InputDetectionUtils OnScreenGUI.inputDetectionUtils</definition>
+        <argsstring></argsstring>
+        <name>inputDetectionUtils</name>
+        <initializer>= new <ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_on_screen_g_u_i_1a9e483e144c7a89bf8bc927bc52f6621e" compoundref="_on_screen_g_u_i_8cs" startline="21" endline="34">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_on_screen_g_u_i_1a9be52258e931625a97590b6c82cb48d4" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OnScreenGUI.canvas</definition>
+        <argsstring></argsstring>
+        <name>canvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_on_screen_g_u_i_1af13943707bdbaf31a8a085fffb6eeda6" compoundref="_on_screen_g_u_i_8cs" startline="39" endline="47">AttachToTouchPosition</referencedby>
+        <referencedby refid="class_on_screen_g_u_i_1a12791bcbd13efcb4ca0f81e89c4af3a2" compoundref="_on_screen_g_u_i_8cs" startline="16" endline="19">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_on_screen_g_u_i_1a12791bcbd13efcb4ca0f81e89c4af3a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnScreenGUI.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_on_screen_g_u_i_1a9be52258e931625a97590b6c82cb48d4" compoundref="_on_screen_g_u_i_8cs" startline="14">canvas</references>
+      </memberdef>
+      <memberdef kind="function" id="class_on_screen_g_u_i_1a9e483e144c7a89bf8bc927bc52f6621e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnScreenGUI.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" bodystart="21" bodyend="34"/>
+        <references refid="class_on_screen_g_u_i_1af13943707bdbaf31a8a085fffb6eeda6" compoundref="_on_screen_g_u_i_8cs" startline="39" endline="47">AttachToTouchPosition</references>
+        <references refid="class_on_screen_g_u_i_1a2a89327fc173fbd5d17cd08a10e8b9f7" compoundref="_on_screen_g_u_i_8cs" startline="13">inputDetectionUtils</references>
+        <references refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" compoundref="_input_detection_utils_8cs" startline="63" endline="106">InputDetectionUtils.ProcessTouchStateOnePoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_on_screen_g_u_i_1af13943707bdbaf31a8a085fffb6eeda6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnScreenGUI.AttachToTouchPosition</definition>
+        <argsstring>()</argsstring>
+        <name>AttachToTouchPosition</name>
+        <briefdescription>
+<para>Transform touch position to Recttransform position, apply positional update to Image </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" line="39" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" bodystart="39" bodyend="47"/>
+        <references refid="class_on_screen_g_u_i_1a9be52258e931625a97590b6c82cb48d4" compoundref="_on_screen_g_u_i_8cs" startline="14">canvas</references>
+        <referencedby refid="class_on_screen_g_u_i_1a9e483e144c7a89bf8bc927bc52f6621e" compoundref="_on_screen_g_u_i_8cs" startline="21" endline="34">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_on_screen_g_u_i_1a1b4b29885771c51b367d5eb9c3bac0e8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnScreenGUI.ChangeSpriteWithSpeed</definition>
+        <argsstring>(Sprite sprite)</argsstring>
+        <name>ChangeSpriteWithSpeed</name>
+        <param>
+          <type>Sprite</type>
+          <declname>sprite</declname>
+        </param>
+        <briefdescription>
+<para>Apply appropriate sprite indication when drag force changes </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" line="53" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" bodystart="53" bodyend="63"/>
+        <references refid="class_on_screen_g_u_i_1aaec477a091b9e0cf359dd84ed036e6a7" compoundref="_on_screen_g_u_i_8cs" startline="10">dragGUIS</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="434">
+        <label>OnScreenGUI</label>
+        <link refid="class_on_screen_g_u_i"/>
+        <childnode refid="435" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="435">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="439">
+        <label>InputToForceUtils</label>
+        <link refid="class_input_to_force_utils"/>
+      </node>
+      <node id="436">
+        <label>OnScreenGUI</label>
+        <link refid="class_on_screen_g_u_i"/>
+        <childnode refid="437" relation="public-inheritance">
+        </childnode>
+        <childnode refid="438" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="439" relation="usage">
+          <edgelabel>inputToForceUtils</edgelabel>
+        </childnode>
+      </node>
+      <node id="438">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="437">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/OnScreenGUI.cs" bodystart="8" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_on_screen_g_u_i_1af13943707bdbaf31a8a085fffb6eeda6" prot="private" virt="non-virtual"><scope>OnScreenGUI</scope><name>AttachToTouchPosition</name></member>
+      <member refid="class_on_screen_g_u_i_1a9be52258e931625a97590b6c82cb48d4" prot="private" virt="non-virtual"><scope>OnScreenGUI</scope><name>canvas</name></member>
+      <member refid="class_on_screen_g_u_i_1a1b4b29885771c51b367d5eb9c3bac0e8" prot="private" virt="non-virtual"><scope>OnScreenGUI</scope><name>ChangeSpriteWithSpeed</name></member>
+      <member refid="class_on_screen_g_u_i_1aaec477a091b9e0cf359dd84ed036e6a7" prot="public" virt="non-virtual"><scope>OnScreenGUI</scope><name>dragGUIS</name></member>
+      <member refid="class_on_screen_g_u_i_1a2a89327fc173fbd5d17cd08a10e8b9f7" prot="private" virt="non-virtual"><scope>OnScreenGUI</scope><name>inputDetectionUtils</name></member>
+      <member refid="class_on_screen_g_u_i_1ada5168a2530be43f98d9893c8a4f0430" prot="private" virt="non-virtual"><scope>OnScreenGUI</scope><name>inputToForceUtils</name></member>
+      <member refid="class_on_screen_g_u_i_1a12791bcbd13efcb4ca0f81e89c4af3a2" prot="private" virt="non-virtual"><scope>OnScreenGUI</scope><name>Start</name></member>
+      <member refid="class_on_screen_g_u_i_1a9e483e144c7a89bf8bc927bc52f6621e" prot="private" virt="non-virtual"><scope>OnScreenGUI</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

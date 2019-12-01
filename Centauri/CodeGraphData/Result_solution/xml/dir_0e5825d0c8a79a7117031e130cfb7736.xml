@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0e5825d0c8a79a7117031e130cfb7736" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts</compoundname>
+    <innerdir refid="dir_85c99f73bcf72af25b529b28e96f1e10">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera</innerdir>
+    <innerdir refid="dir_8d07d8960a52618e3b05e479ec1b4881">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data</innerdir>
+    <innerdir refid="dir_1d461c5341302c70390153d8045ea007">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated</innerdir>
+    <innerdir refid="dir_30d4cfc7971b369f36cf3f2ceebb515a">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc</innerdir>
+    <innerdir refid="dir_99e988485f8ad55b11cb307a2eee68c9">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction</innerdir>
+    <innerdir refid="dir_e8d6c1e69d22a087f3bc30fd1f1508f4">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions</innerdir>
+    <innerdir refid="dir_1e3726a7596153937fb3cb7fa04b6c0e">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen</innerdir>
+    <innerdir refid="dir_b2f16370748f8708fc5ce1948fe2a269">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test</innerdir>
+    <innerdir refid="dir_cd36dd1f24318a7e5a68f59747b24cc3">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI</innerdir>
+    <innerfile refid="_joystick_control_8cs">JoystickControl.cs</innerfile>
+    <innerfile refid="_rendezvous_calculator_8cs">RendezvousCalculator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_cancel_u_i_detection" kind="class" prot="public">
+    <compoundname>CancelUIDetection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cancel_u_i_detection_1acc0e5aa59769844a066eb4000a677937" prot="private" static="no" mutable="no">
+        <type><ref refid="class_u_i_touch_manager" kindref="compound">UITouchManager</ref></type>
+        <definition>UITouchManager CancelUIDetection.uiTouchManager</definition>
+        <argsstring></argsstring>
+        <name>uiTouchManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_cancel_u_i_detection_1a82b210ab6e780d09e099380498473de3" compoundref="_cancel_u_i_detection_8cs" startline="13" endline="17">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cancel_u_i_detection_1a6f016cc5690a955c5b3704091ac10500" prot="private" static="no" mutable="no">
+        <type><ref refid="class_orbital_maneuver" kindref="compound">OrbitalManeuver</ref></type>
+        <definition>OrbitalManeuver CancelUIDetection.orbitalManeuver</definition>
+        <argsstring></argsstring>
+        <name>orbitalManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_cancel_u_i_detection_1a82b210ab6e780d09e099380498473de3" compoundref="_cancel_u_i_detection_8cs" startline="13" endline="17">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cancel_u_i_detection_1a82b210ab6e780d09e099380498473de3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CancelUIDetection.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" bodystart="13" bodyend="17"/>
+        <references refid="class_cancel_u_i_detection_1a6f016cc5690a955c5b3704091ac10500" compoundref="_cancel_u_i_detection_8cs" startline="10">orbitalManeuver</references>
+        <references refid="class_cancel_u_i_detection_1acc0e5aa59769844a066eb4000a677937" compoundref="_cancel_u_i_detection_8cs" startline="9">uiTouchManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_cancel_u_i_detection_1a9b9e2c682fd96e079e2614e6de408c28" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CancelUIDetection.OnTouchDown</definition>
+        <argsstring>()</argsstring>
+        <name>OnTouchDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" bodystart="19" bodyend="22"/>
+        <references refid="class_cancel_u_i_detection_1ab345c60ed515d764831d60908e4e42c8" compoundref="_cancel_u_i_detection_8cs" startline="24" endline="31">SendDeactivateUISignal</references>
+      </memberdef>
+      <memberdef kind="function" id="class_cancel_u_i_detection_1ab345c60ed515d764831d60908e4e42c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CancelUIDetection.SendDeactivateUISignal</definition>
+        <argsstring>()</argsstring>
+        <name>SendDeactivateUISignal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" bodystart="24" bodyend="31"/>
+        <referencedby refid="class_cancel_u_i_detection_1a9b9e2c682fd96e079e2614e6de408c28" compoundref="_cancel_u_i_detection_8cs" startline="19" endline="22">OnTouchDown</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="120">
+        <label>CancelUIDetection</label>
+        <link refid="class_cancel_u_i_detection"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="133">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="129">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="130" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="127" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="131" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="132" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="133" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="134" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="135" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="136" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="136">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="124">
+        <label>UITouchManager</label>
+        <link refid="class_u_i_touch_manager"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="125" relation="usage">
+          <edgelabel>cameraMovement</edgelabel>
+        </childnode>
+      </node>
+      <node id="125">
+        <label>CameraMovement</label>
+        <link refid="class_camera_movement"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="126" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="127" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="138">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="122">
+        <label>CancelUIDetection</label>
+        <link refid="class_cancel_u_i_detection"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="124" relation="usage">
+          <edgelabel>uiTouchManager</edgelabel>
+        </childnode>
+        <childnode refid="128" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="127">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="128" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="139" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="140" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="126">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="123">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="139">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="141" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="134">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="131">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="130">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="127" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="129" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="128" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="128">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="129" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="137" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="138" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="132">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="137">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/CancelUIDetection.cs" bodystart="7" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_cancel_u_i_detection_1a9b9e2c682fd96e079e2614e6de408c28" prot="private" virt="non-virtual"><scope>CancelUIDetection</scope><name>OnTouchDown</name></member>
+      <member refid="class_cancel_u_i_detection_1a6f016cc5690a955c5b3704091ac10500" prot="private" virt="non-virtual"><scope>CancelUIDetection</scope><name>orbitalManeuver</name></member>
+      <member refid="class_cancel_u_i_detection_1ab345c60ed515d764831d60908e4e42c8" prot="private" virt="non-virtual"><scope>CancelUIDetection</scope><name>SendDeactivateUISignal</name></member>
+      <member refid="class_cancel_u_i_detection_1a82b210ab6e780d09e099380498473de3" prot="private" virt="non-virtual"><scope>CancelUIDetection</scope><name>Start</name></member>
+      <member refid="class_cancel_u_i_detection_1acc0e5aa59769844a066eb4000a677937" prot="private" virt="non-virtual"><scope>CancelUIDetection</scope><name>uiTouchManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

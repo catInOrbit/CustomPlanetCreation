@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_test_cam" kind="class" prot="public">
+    <compoundname>TestCam</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_cam_1aea40d8f7d4ff3cfb57a62eb7862b7cfd" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject TestCam.gameObject</definition>
+        <argsstring></argsstring>
+        <name>gameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_test_cam_1ad6b5551014d8c18f9de7cb7029a32bb4" compoundref="_test_cam_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_cam_1abbd43e7135d3454776940034f4048bab" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestCam.sliderx</definition>
+        <argsstring></argsstring>
+        <name>sliderx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_test_cam_1ad6b5551014d8c18f9de7cb7029a32bb4" compoundref="_test_cam_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_test_cam_1a0c4b51c7bb3ec2c7488d4803a322c84a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestCam.slidery</definition>
+        <argsstring></argsstring>
+        <name>slidery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_test_cam_1ad6b5551014d8c18f9de7cb7029a32bb4" compoundref="_test_cam_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_cam_1a3fd21570481c31ddf1bf7727b0ce55ee" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestCam.sliderz</definition>
+        <argsstring></argsstring>
+        <name>sliderz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_test_cam_1ad6b5551014d8c18f9de7cb7029a32bb4" compoundref="_test_cam_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_cam_1a158af83eaf6128451fed4da5618144db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestCam.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_cam_1ad6b5551014d8c18f9de7cb7029a32bb4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestCam.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_test_cam_1aea40d8f7d4ff3cfb57a62eb7862b7cfd" compoundref="_test_cam_8cs" startline="7">gameObject</references>
+        <references refid="class_test_cam_1abbd43e7135d3454776940034f4048bab" compoundref="_test_cam_8cs" startline="9">sliderx</references>
+        <references refid="class_test_cam_1a0c4b51c7bb3ec2c7488d4803a322c84a" compoundref="_test_cam_8cs" startline="9">slidery</references>
+        <references refid="class_test_cam_1a3fd21570481c31ddf1bf7727b0ce55ee" compoundref="_test_cam_8cs" startline="9">sliderz</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="728">
+        <label>TestCam</label>
+        <link refid="class_test_cam"/>
+        <childnode refid="729" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="729">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="730">
+        <label>TestCam</label>
+        <link refid="class_test_cam"/>
+        <childnode refid="731" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="731">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCam.cs" bodystart="5" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_test_cam_1aea40d8f7d4ff3cfb57a62eb7862b7cfd" prot="public" virt="non-virtual"><scope>TestCam</scope><name>gameObject</name></member>
+      <member refid="class_test_cam_1abbd43e7135d3454776940034f4048bab" prot="public" virt="non-virtual"><scope>TestCam</scope><name>sliderx</name></member>
+      <member refid="class_test_cam_1a0c4b51c7bb3ec2c7488d4803a322c84a" prot="private" virt="non-virtual"><scope>TestCam</scope><name>slidery</name></member>
+      <member refid="class_test_cam_1a3fd21570481c31ddf1bf7727b0ce55ee" prot="private" virt="non-virtual"><scope>TestCam</scope><name>sliderz</name></member>
+      <member refid="class_test_cam_1a158af83eaf6128451fed4da5618144db" prot="private" virt="non-virtual"><scope>TestCam</scope><name>Start</name></member>
+      <member refid="class_test_cam_1ad6b5551014d8c18f9de7cb7029a32bb4" prot="private" virt="non-virtual"><scope>TestCam</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

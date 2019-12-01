@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_628e1d556e74ba256ff3921a18939ca8" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test</compoundname>
+    <innerfile refid="_camera_test_util_8cs">CameraTestUtil.cs</innerfile>
+    <innerfile refid="_test_cam_8cs">TestCam.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/"/>
+  </compounddef>
+</doxygen>

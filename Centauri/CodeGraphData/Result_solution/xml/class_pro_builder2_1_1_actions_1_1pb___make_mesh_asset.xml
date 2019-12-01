@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___make_mesh_asset" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_MakeMeshAsset</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>See MenuActions/Export/ExportAsset.cs </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="488">
+        <label>Editor</label>
+      </node>
+      <node id="487">
+        <label>ProBuilder2.Actions.pb_MakeMeshAsset</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___make_mesh_asset"/>
+        <childnode refid="488" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="490">
+        <label>Editor</label>
+      </node>
+      <node id="489">
+        <label>ProBuilder2.Actions.pb_MakeMeshAsset</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___make_mesh_asset"/>
+        <childnode refid="490" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_MakeMeshAsset.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_MakeMeshAsset.cs" bodystart="13" bodyend="13"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

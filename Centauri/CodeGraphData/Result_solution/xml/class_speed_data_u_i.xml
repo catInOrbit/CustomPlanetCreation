@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_speed_data_u_i" kind="class" prot="public">
+    <compoundname>SpeedDataUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_speed_data_u_i_1ae5084c8bb809d5bfac84a779673d87b3" prot="public" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text SpeedDataUI.deltaVText</definition>
+        <argsstring></argsstring>
+        <name>deltaVText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_speed_data_u_i_1a47da251d109d4c7eba5289796bcd7894" compoundref="_speed_data_u_i_8cs" startline="21" endline="24">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_speed_data_u_i_1ae053cd453c1881d2c80302d777675696" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text SpeedDataUI.velocityText</definition>
+        <argsstring></argsstring>
+        <name>velocityText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_speed_data_u_i_1a47da251d109d4c7eba5289796bcd7894" compoundref="_speed_data_u_i_8cs" startline="21" endline="24">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_data_u_i_1ac598bf233b58aeaf96b29d45ed07b1f1" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text SpeedDataUI.accelerationText</definition>
+        <argsstring></argsstring>
+        <name>accelerationText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_speed_data_u_i_1a47da251d109d4c7eba5289796bcd7894" compoundref="_speed_data_u_i_8cs" startline="21" endline="24">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_data_u_i_1a1f9083f371e1e24b0219e26ea98ab300" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text SpeedDataUI.thrustPercentage</definition>
+        <argsstring></argsstring>
+        <name>thrustPercentage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_speed_data_u_i_1a47da251d109d4c7eba5289796bcd7894" compoundref="_speed_data_u_i_8cs" startline="21" endline="24">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_data_u_i_1a879ce4a926fc54aa0374aa26c7a4c973" prot="private" static="no" mutable="no">
+        <type><ref refid="class_speed_data" kindref="compound">SpeedData</ref></type>
+        <definition>SpeedData SpeedDataUI.speedData</definition>
+        <argsstring></argsstring>
+        <name>speedData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_speed_data_u_i_1a80df82503facd30dc20f6215d4a1e671" compoundref="_speed_data_u_i_8cs" startline="15" endline="19">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_data_u_i_1ad9685e8013f50fab59490141f4ee61a4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_orbital_maneuver" kindref="compound">OrbitalManeuver</ref></type>
+        <definition>OrbitalManeuver SpeedDataUI.orbitalManeuver</definition>
+        <argsstring></argsstring>
+        <name>orbitalManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_speed_data_u_i_1a80df82503facd30dc20f6215d4a1e671" compoundref="_speed_data_u_i_8cs" startline="15" endline="19">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_speed_data_u_i_1a80df82503facd30dc20f6215d4a1e671" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedDataUI.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="15" bodyend="19"/>
+        <references refid="class_speed_data_u_i_1ad9685e8013f50fab59490141f4ee61a4" compoundref="_speed_data_u_i_8cs" startline="13">orbitalManeuver</references>
+        <references refid="class_speed_data_u_i_1a879ce4a926fc54aa0374aa26c7a4c973" compoundref="_speed_data_u_i_8cs" startline="12">speedData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_data_u_i_1a47da251d109d4c7eba5289796bcd7894" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedDataUI.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="21" bodyend="24"/>
+        <references refid="class_speed_data_u_i_1ac598bf233b58aeaf96b29d45ed07b1f1" compoundref="_speed_data_u_i_8cs" startline="10">accelerationText</references>
+        <references refid="class_speed_data_u_i_1aa30d0cffea05ebeaae5e1b75088a0a27" compoundref="_speed_data_u_i_8cs" startline="26" endline="33">AssignText</references>
+        <references refid="class_speed_data_u_i_1ae5084c8bb809d5bfac84a779673d87b3" compoundref="_speed_data_u_i_8cs" startline="10">deltaVText</references>
+        <references refid="class_speed_data_u_i_1a1f9083f371e1e24b0219e26ea98ab300" compoundref="_speed_data_u_i_8cs" startline="10">thrustPercentage</references>
+        <references refid="class_speed_data_u_i_1ae053cd453c1881d2c80302d777675696" compoundref="_speed_data_u_i_8cs" startline="10">velocityText</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_data_u_i_1aa30d0cffea05ebeaae5e1b75088a0a27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedDataUI.AssignText</definition>
+        <argsstring>(Text deltaVText, Text velocityText, Text accelerationText, Text thrustPercentage)</argsstring>
+        <name>AssignText</name>
+        <param>
+          <type>Text</type>
+          <declname>deltaVText</declname>
+        </param>
+        <param>
+          <type>Text</type>
+          <declname>velocityText</declname>
+        </param>
+        <param>
+          <type>Text</type>
+          <declname>accelerationText</declname>
+        </param>
+        <param>
+          <type>Text</type>
+          <declname>thrustPercentage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="26" bodyend="33"/>
+        <referencedby refid="class_speed_data_u_i_1a47da251d109d4c7eba5289796bcd7894" compoundref="_speed_data_u_i_8cs" startline="21" endline="24">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="680">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="679">
+        <label>SpeedDataUI</label>
+        <link refid="class_speed_data_u_i"/>
+        <childnode refid="680" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="689">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="686">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+        <childnode refid="683" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="684" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="687" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="688" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="689" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="690" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="691" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="692" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="692">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="697">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="694">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="691">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="684">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+        <childnode refid="685" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="695" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="696" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="698">
+        <label>Text</label>
+      </node>
+      <node id="682">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="695">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="696">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="697" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="681">
+        <label>SpeedDataUI</label>
+        <link refid="class_speed_data_u_i"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+        <childnode refid="683" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="698" relation="usage">
+          <edgelabel>velocityText</edgelabel>
+          <edgelabel>thrustPercentage</edgelabel>
+          <edgelabel>accelerationText</edgelabel>
+          <edgelabel>deltaVText</edgelabel>
+        </childnode>
+        <childnode refid="685" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="690">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="687">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="683">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+        <childnode refid="684" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="686" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="685" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="685">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+        <childnode refid="686" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="693" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="694" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="688">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="693">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs" bodystart="8" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_speed_data_u_i_1ac598bf233b58aeaf96b29d45ed07b1f1" prot="private" virt="non-virtual"><scope>SpeedDataUI</scope><name>accelerationText</name></member>
+      <member refid="class_speed_data_u_i_1aa30d0cffea05ebeaae5e1b75088a0a27" prot="private" virt="non-virtual"><scope>SpeedDataUI</scope><name>AssignText</name></member>
+      <member refid="class_speed_data_u_i_1ae5084c8bb809d5bfac84a779673d87b3" prot="public" virt="non-virtual"><scope>SpeedDataUI</scope><name>deltaVText</name></member>
+      <member refid="class_speed_data_u_i_1ad9685e8013f50fab59490141f4ee61a4" prot="private" virt="non-virtual"><scope>SpeedDataUI</scope><name>orbitalManeuver</name></member>
+      <member refid="class_speed_data_u_i_1a879ce4a926fc54aa0374aa26c7a4c973" prot="private" virt="non-virtual"><scope>SpeedDataUI</scope><name>speedData</name></member>
+      <member refid="class_speed_data_u_i_1a80df82503facd30dc20f6215d4a1e671" prot="private" virt="non-virtual"><scope>SpeedDataUI</scope><name>Start</name></member>
+      <member refid="class_speed_data_u_i_1a1f9083f371e1e24b0219e26ea98ab300" prot="private" virt="non-virtual"><scope>SpeedDataUI</scope><name>thrustPercentage</name></member>
+      <member refid="class_speed_data_u_i_1a47da251d109d4c7eba5289796bcd7894" prot="private" virt="non-virtual"><scope>SpeedDataUI</scope><name>Update</name></member>
+      <member refid="class_speed_data_u_i_1ae053cd453c1881d2c80302d777675696" prot="private" virt="non-virtual"><scope>SpeedDataUI</scope><name>velocityText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

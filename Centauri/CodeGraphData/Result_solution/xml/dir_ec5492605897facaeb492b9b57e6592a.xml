@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ec5492605897facaeb492b9b57e6592a" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts</compoundname>
+    <innerdir refid="dir_3513b99601f2d94ece21d0fa591478ed">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data</innerdir>
+    <innerdir refid="dir_2fb7d78af5efe922efdf4f1905d3deb3">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated</innerdir>
+    <innerdir refid="dir_c20e1e1f147226cd928d53e0742b8780">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc</innerdir>
+    <innerdir refid="dir_628e1d556e74ba256ff3921a18939ca8">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test</innerdir>
+    <innerdir refid="dir_56e6d483d0e129a4ca796361a5c1c2be">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI</innerdir>
+    <innerfile refid="_atmospheric_drag_8cs">AtmosphericDrag.cs</innerfile>
+    <innerfile refid="_camera_movement_8cs">CameraMovement.cs</innerfile>
+    <innerfile refid="_on_ground_detection_8cs">OnGroundDetection.cs</innerfile>
+    <innerfile refid="_orbital_maneuver_8cs">OrbitalManeuver.cs</innerfile>
+    <innerfile refid="_rendezvous_calculator_8cs">RendezvousCalculator.cs</innerfile>
+    <innerfile refid="_save_manager_8cs">SaveManager.cs</innerfile>
+    <innerfile refid="_touch_control_script_8cs">TouchControlScript.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/"/>
+  </compounddef>
+</doxygen>

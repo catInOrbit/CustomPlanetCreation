@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0dc59599494c209dc210ac041b659ae9" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Tools</compoundname>
+    <innerfile refid="pb___boolean_interface_8cs">pb_BooleanInterface.cs</innerfile>
+    <innerfile refid="_tools_2pb___material_selection_8cs">pb_MaterialSelection.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Tools/"/>
+  </compounddef>
+</doxygen>

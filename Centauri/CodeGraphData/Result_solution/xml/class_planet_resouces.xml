@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_planet_resouces" kind="class" prot="public">
+    <compoundname>PlanetResouces</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_planet_resouces_1a0dbc537a7e0cca18824b97b6350880df" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlanetResouces.iron</definition>
+        <argsstring></argsstring>
+        <name>iron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_planet_resouces_1a1aab6f066d4259f2d53dfb0a079920f7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlanetResouces.water</definition>
+        <argsstring></argsstring>
+        <name>water</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_planet_resouces_1a99cf00f5b32656d2692edc45c09b2c2d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlanetResouces.oil</definition>
+        <argsstring></argsstring>
+        <name>oil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_planet_resouces_1ab35a6f09f88e11d0d1478daae9113625" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlanetResouces.copper</definition>
+        <argsstring></argsstring>
+        <name>copper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_planet_resouces_1a7fbc27841df7cf4897b292f7bb84753a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlanetResouces.granite</definition>
+        <argsstring></argsstring>
+        <name>granite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_planet_resouces_1a826ff223c4e0b5a98375e6f006c9baa4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float PlanetResouces.Iron</definition>
+        <argsstring></argsstring>
+        <name>Iron</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_planet_resouces_1a7585001ce9ab87b1ea9c18e6def1f746" compoundref="_planet_resources_8cs" startline="96" endline="106">IsEmpty</referencedby>
+        <referencedby refid="class_planet_resouces_1ac85c6a065f5a295e75a1ef0ec3457754" compoundref="_planet_resources_8cs" startline="87" endline="94">RemoveResouces</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_planet_resouces_1abb382fbd0aff5594bbc305793b9e2934" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float PlanetResouces.Water</definition>
+        <argsstring></argsstring>
+        <name>Water</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_planet_resouces_1a7585001ce9ab87b1ea9c18e6def1f746" compoundref="_planet_resources_8cs" startline="96" endline="106">IsEmpty</referencedby>
+        <referencedby refid="class_planet_resouces_1ac85c6a065f5a295e75a1ef0ec3457754" compoundref="_planet_resources_8cs" startline="87" endline="94">RemoveResouces</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_planet_resouces_1ad59f648213d416f81a18331e24372735" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float PlanetResouces.Oil</definition>
+        <argsstring></argsstring>
+        <name>Oil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="39" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_planet_resouces_1a7585001ce9ab87b1ea9c18e6def1f746" compoundref="_planet_resources_8cs" startline="96" endline="106">IsEmpty</referencedby>
+        <referencedby refid="class_planet_resouces_1ac85c6a065f5a295e75a1ef0ec3457754" compoundref="_planet_resources_8cs" startline="87" endline="94">RemoveResouces</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_planet_resouces_1af414ced7cfe27c89aec31e38a501d92e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float PlanetResouces.Copper</definition>
+        <argsstring></argsstring>
+        <name>Copper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_planet_resouces_1a7585001ce9ab87b1ea9c18e6def1f746" compoundref="_planet_resources_8cs" startline="96" endline="106">IsEmpty</referencedby>
+        <referencedby refid="class_planet_resouces_1ac85c6a065f5a295e75a1ef0ec3457754" compoundref="_planet_resources_8cs" startline="87" endline="94">RemoveResouces</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_planet_resouces_1a6511017952e90e1ef813eb4281ce6b11" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float PlanetResouces.Granite</definition>
+        <argsstring></argsstring>
+        <name>Granite</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="65" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="class_planet_resouces_1a7585001ce9ab87b1ea9c18e6def1f746" compoundref="_planet_resources_8cs" startline="96" endline="106">IsEmpty</referencedby>
+        <referencedby refid="class_planet_resouces_1ac85c6a065f5a295e75a1ef0ec3457754" compoundref="_planet_resources_8cs" startline="87" endline="94">RemoveResouces</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_planet_resouces_1a1eb3b9ff043654d8e4195ebca8964f98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PlanetResouces.PlanetResouces</definition>
+        <argsstring>()</argsstring>
+        <name>PlanetResouces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="78" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="78" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_planet_resouces_1ac85c6a065f5a295e75a1ef0ec3457754" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlanetResouces.RemoveResouces</definition>
+        <argsstring>(float amount)</argsstring>
+        <name>RemoveResouces</name>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="87" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="87" bodyend="94"/>
+        <references refid="class_planet_resouces_1af414ced7cfe27c89aec31e38a501d92e" compoundref="_planet_resources_8cs" startline="53">Copper</references>
+        <references refid="class_planet_resouces_1a6511017952e90e1ef813eb4281ce6b11" compoundref="_planet_resources_8cs" startline="66">Granite</references>
+        <references refid="class_planet_resouces_1a826ff223c4e0b5a98375e6f006c9baa4" compoundref="_planet_resources_8cs" startline="14">Iron</references>
+        <references refid="class_planet_resouces_1ad59f648213d416f81a18331e24372735" compoundref="_planet_resources_8cs" startline="40">Oil</references>
+        <references refid="class_planet_resouces_1abb382fbd0aff5594bbc305793b9e2934" compoundref="_planet_resources_8cs" startline="27">Water</references>
+      </memberdef>
+      <memberdef kind="function" id="class_planet_resouces_1a7585001ce9ab87b1ea9c18e6def1f746" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PlanetResouces.IsEmpty</definition>
+        <argsstring>()</argsstring>
+        <name>IsEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="96" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="96" bodyend="106"/>
+        <references refid="class_planet_resouces_1af414ced7cfe27c89aec31e38a501d92e" compoundref="_planet_resources_8cs" startline="53">Copper</references>
+        <references refid="class_planet_resouces_1a6511017952e90e1ef813eb4281ce6b11" compoundref="_planet_resources_8cs" startline="66">Granite</references>
+        <references refid="class_planet_resouces_1a826ff223c4e0b5a98375e6f006c9baa4" compoundref="_planet_resources_8cs" startline="14">Iron</references>
+        <references refid="class_planet_resouces_1ad59f648213d416f81a18331e24372735" compoundref="_planet_resources_8cs" startline="40">Oil</references>
+        <references refid="class_planet_resouces_1abb382fbd0aff5594bbc305793b9e2934" compoundref="_planet_resources_8cs" startline="27">Water</references>
+        <referencedby refid="class_get_planet_resources_1a3132d2a2c9777b308636aca3a91e211b" compoundref="_get_planet_resources_8cs" startline="50" endline="60">GetPlanetResources.GetResouceFromPlanet</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/PlanetResources.cs" bodystart="5" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_planet_resouces_1ab35a6f09f88e11d0d1478daae9113625" prot="private" virt="non-virtual"><scope>PlanetResouces</scope><name>copper</name></member>
+      <member refid="class_planet_resouces_1af414ced7cfe27c89aec31e38a501d92e" prot="public" virt="non-virtual"><scope>PlanetResouces</scope><name>Copper</name></member>
+      <member refid="class_planet_resouces_1a7fbc27841df7cf4897b292f7bb84753a" prot="private" virt="non-virtual"><scope>PlanetResouces</scope><name>granite</name></member>
+      <member refid="class_planet_resouces_1a6511017952e90e1ef813eb4281ce6b11" prot="public" virt="non-virtual"><scope>PlanetResouces</scope><name>Granite</name></member>
+      <member refid="class_planet_resouces_1a0dbc537a7e0cca18824b97b6350880df" prot="private" virt="non-virtual"><scope>PlanetResouces</scope><name>iron</name></member>
+      <member refid="class_planet_resouces_1a826ff223c4e0b5a98375e6f006c9baa4" prot="public" virt="non-virtual"><scope>PlanetResouces</scope><name>Iron</name></member>
+      <member refid="class_planet_resouces_1a7585001ce9ab87b1ea9c18e6def1f746" prot="public" virt="non-virtual"><scope>PlanetResouces</scope><name>IsEmpty</name></member>
+      <member refid="class_planet_resouces_1a99cf00f5b32656d2692edc45c09b2c2d" prot="private" virt="non-virtual"><scope>PlanetResouces</scope><name>oil</name></member>
+      <member refid="class_planet_resouces_1ad59f648213d416f81a18331e24372735" prot="public" virt="non-virtual"><scope>PlanetResouces</scope><name>Oil</name></member>
+      <member refid="class_planet_resouces_1a1eb3b9ff043654d8e4195ebca8964f98" prot="public" virt="non-virtual"><scope>PlanetResouces</scope><name>PlanetResouces</name></member>
+      <member refid="class_planet_resouces_1ac85c6a065f5a295e75a1ef0ec3457754" prot="public" virt="non-virtual"><scope>PlanetResouces</scope><name>RemoveResouces</name></member>
+      <member refid="class_planet_resouces_1abb382fbd0aff5594bbc305793b9e2934" prot="public" virt="non-virtual"><scope>PlanetResouces</scope><name>Water</name></member>
+      <member refid="class_planet_resouces_1a1aab6f066d4259f2d53dfb0a079920f7" prot="private" virt="non-virtual"><scope>PlanetResouces</scope><name>water</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

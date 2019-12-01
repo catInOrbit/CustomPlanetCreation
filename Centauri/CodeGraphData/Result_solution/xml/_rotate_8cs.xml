@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_rotate_8cs" kind="file">
+    <compoundname>Rotate.cs</compoundname>
+    <innerclass refid="class_lib_noise_1_1_operator_1_1_rotate" prot="public">LibNoise::Operator::Rotate</innerclass>
+    <innernamespace refid="namespace_lib_noise_1_1_operator">LibNoise::Operator</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_rotate_8cs_1a828eaed3a7fec21688af492b377d63ed" prot="public" static="no">
+        <type>System.Diagnostics.Debug</type>
+        <definition>using Debug =  System.Diagnostics.Debug</definition>
+        <argsstring></argsstring>
+        <name>Debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Rotate.cs" line="3" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Rotate.cs" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="3" refid="_rotate_8cs_1a828eaed3a7fec21688af492b377d63ed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="_module_base_8cs_1a828eaed3a7fec21688af492b377d63ed" kindref="member">Debug</ref><sp/>=<sp/><ref refid="_rotate_8cs_1a828eaed3a7fec21688af492b377d63ed" kindref="member">System.Diagnostics.Debug</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">LibNoise.Operator</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="class_lib_noise_1_1_operator_1_1_rotate" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_lib_noise_1_1_operator_1_1_rotate" kindref="compound">Rotate</ref><sp/>:<sp/><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Fields</highlight></codeline>
+<codeline lineno="14"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_lib_noise_1_1_operator_1_1_rotate_1a6ccc37a2a5dd0e95b9cbf520dc3e7519" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a6ccc37a2a5dd0e95b9cbf520dc3e7519" kindref="member">_x</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_lib_noise_1_1_operator_1_1_rotate_1a7f22efedca0790a1c706bca3ce3b03bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a7f22efedca0790a1c706bca3ce3b03bf" kindref="member">_x1Matrix</ref>;</highlight></codeline>
+<codeline lineno="17" refid="class_lib_noise_1_1_operator_1_1_rotate_1aa46f984e29ae60d35a6f0f3cc42dffce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1aa46f984e29ae60d35a6f0f3cc42dffce" kindref="member">_x2Matrix</ref>;</highlight></codeline>
+<codeline lineno="18" refid="class_lib_noise_1_1_operator_1_1_rotate_1a1b505fdaaec441476e2dd7435d1f763a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a1b505fdaaec441476e2dd7435d1f763a" kindref="member">_x3Matrix</ref>;</highlight></codeline>
+<codeline lineno="19" refid="class_lib_noise_1_1_operator_1_1_rotate_1a12aaea5364f313387b78a719f28fa595" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a12aaea5364f313387b78a719f28fa595" kindref="member">_y</ref>;</highlight></codeline>
+<codeline lineno="20" refid="class_lib_noise_1_1_operator_1_1_rotate_1adcd4a8dd6760bf144df0501a6e40eaa9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1adcd4a8dd6760bf144df0501a6e40eaa9" kindref="member">_y1Matrix</ref>;</highlight></codeline>
+<codeline lineno="21" refid="class_lib_noise_1_1_operator_1_1_rotate_1a584e835114224fbe43006779fc35dc68" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a584e835114224fbe43006779fc35dc68" kindref="member">_y2Matrix</ref>;</highlight></codeline>
+<codeline lineno="22" refid="class_lib_noise_1_1_operator_1_1_rotate_1afdfc0ac33cd75e0355bc4382b48a355d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1afdfc0ac33cd75e0355bc4382b48a355d" kindref="member">_y3Matrix</ref>;</highlight></codeline>
+<codeline lineno="23" refid="class_lib_noise_1_1_operator_1_1_rotate_1a422b4c54460a9850b691695c0c531750" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a422b4c54460a9850b691695c0c531750" kindref="member">_z</ref>;</highlight></codeline>
+<codeline lineno="24" refid="class_lib_noise_1_1_operator_1_1_rotate_1ab30194b76843f99cd9f125984e72c6a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1ab30194b76843f99cd9f125984e72c6a5" kindref="member">_z1Matrix</ref>;</highlight></codeline>
+<codeline lineno="25" refid="class_lib_noise_1_1_operator_1_1_rotate_1ab8d1fec28db68e7b8b89fd961d6a6d07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1ab8d1fec28db68e7b8b89fd961d6a6d07" kindref="member">_z2Matrix</ref>;</highlight></codeline>
+<codeline lineno="26" refid="class_lib_noise_1_1_operator_1_1_rotate_1ac7ee2188b91f8296c229385e49441f5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1ac7ee2188b91f8296c229385e49441f5c" kindref="member">_z3Matrix</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="29"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Constructors</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="35" refid="class_lib_noise_1_1_operator_1_1_rotate_1a6914f8024dd7bd60a9c2627b4b5f85ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a6914f8024dd7bd60a9c2627b4b5f85ae" kindref="member">Rotate</ref>()</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>base(1)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetAngles(0.0,<sp/>0.0,<sp/>0.0);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="class_lib_noise_1_1_operator_1_1_rotate_1a4f186a991d0d441e75e5b1949612d015" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a4f186a991d0d441e75e5b1949612d015" kindref="member">Rotate</ref>(<ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref><sp/>input)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>base(1)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Modules[0]<sp/>=<sp/>input;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="class_lib_noise_1_1_operator_1_1_rotate_1a00ab23e9d490497307a9a2927b9285ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a00ab23e9d490497307a9a2927b9285ef" kindref="member">Rotate</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z,<sp/><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref><sp/>input)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>base(1)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Modules[0]<sp/>=<sp/>input;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SetAngles(x,<sp/>y,<sp/>z);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Properties</highlight></codeline>
+<codeline lineno="68"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>X</highlight></codeline>
+<codeline lineno="73" refid="class_lib_noise_1_1_operator_1_1_rotate_1a5c42a67dfa58fc688c145a3b3971d741" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_x;<sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set<sp/>{<sp/>SetAngles(value,<sp/>_y,<sp/>_z);<sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Y</highlight></codeline>
+<codeline lineno="82" refid="class_lib_noise_1_1_operator_1_1_rotate_1aec1ab96c96d77a72587fb4aa4ff957cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_y;<sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set<sp/>{<sp/>SetAngles(_x,<sp/>value,<sp/>_z);<sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Z</highlight></codeline>
+<codeline lineno="91" refid="class_lib_noise_1_1_operator_1_1_rotate_1a84d039eb6c6965ace980329a78cf8472" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_x;<sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set<sp/>{<sp/>SetAngles(_x,<sp/>_y,<sp/>value);<sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="97"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>Methods</highlight></codeline>
+<codeline lineno="99"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="106" refid="class_lib_noise_1_1_operator_1_1_rotate_1ab2576014464fc7be687496116e91aff6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1ab2576014464fc7be687496116e91aff6" kindref="member">SetAngles</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>xc<sp/>=<sp/>Math.Cos(x<sp/>*<sp/>Mathf.Deg2Rad);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>yc<sp/>=<sp/>Math.Cos(y<sp/>*<sp/>Mathf.Deg2Rad);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>zc<sp/>=<sp/>Math.Cos(z<sp/>*<sp/>Mathf.Deg2Rad);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>xs<sp/>=<sp/>Math.Sin(x<sp/>*<sp/>Mathf.Deg2Rad);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>ys<sp/>=<sp/>Math.Sin(y<sp/>*<sp/>Mathf.Deg2Rad);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>zs<sp/>=<sp/>Math.Sin(z<sp/>*<sp/>Mathf.Deg2Rad);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_x1Matrix<sp/>=<sp/>ys<sp/>*<sp/>xs<sp/>*<sp/>zs<sp/>+<sp/>yc<sp/>*<sp/>zc;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_y1Matrix<sp/>=<sp/>xc<sp/>*<sp/>zs;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_z1Matrix<sp/>=<sp/>ys<sp/>*<sp/>zc<sp/>-<sp/>yc<sp/>*<sp/>xs<sp/>*<sp/>zs;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_x2Matrix<sp/>=<sp/>ys<sp/>*<sp/>xs<sp/>*<sp/>zc<sp/>-<sp/>yc<sp/>*<sp/>zs;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_y2Matrix<sp/>=<sp/>xc<sp/>*<sp/>zc;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_z2Matrix<sp/>=<sp/>-yc<sp/>*<sp/>xs<sp/>*<sp/>zc<sp/>-<sp/>ys<sp/>*<sp/>zs;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_x3Matrix<sp/>=<sp/>-ys<sp/>*<sp/>xc;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_y3Matrix<sp/>=<sp/>xs;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_z3Matrix<sp/>=<sp/>yc<sp/>*<sp/>xc;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_x<sp/>=<sp/>x;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_y<sp/>=<sp/>y;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_z<sp/>=<sp/>z;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="129"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#region<sp/>ModuleBase<sp/>Members</highlight></codeline>
+<codeline lineno="131"><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="139" refid="class_lib_noise_1_1_operator_1_1_rotate_1a4dec3151c55f9e74eeec33e823da2949" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_lib_noise_1_1_operator_1_1_rotate_1a4dec3151c55f9e74eeec33e823da2949" kindref="member">GetValue</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Assert(Modules[0]<sp/>!=<sp/>null);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>nx<sp/>=<sp/>(_x1Matrix<sp/>*<sp/>x)<sp/>+<sp/>(_y1Matrix<sp/>*<sp/>y)<sp/>+<sp/>(_z1Matrix<sp/>*<sp/>z);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>ny<sp/>=<sp/>(_x2Matrix<sp/>*<sp/>x)<sp/>+<sp/>(_y2Matrix<sp/>*<sp/>y)<sp/>+<sp/>(_z2Matrix<sp/>*<sp/>z);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>nz<sp/>=<sp/>(_x3Matrix<sp/>*<sp/>x)<sp/>+<sp/>(_y3Matrix<sp/>*<sp/>y)<sp/>+<sp/>(_z3Matrix<sp/>*<sp/>z);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Modules[0].GetValue(nx,<sp/>ny,<sp/>nz);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#endregion</highlight></codeline>
+<codeline lineno="149"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Rotate.cs"/>
+  </compounddef>
+</doxygen>

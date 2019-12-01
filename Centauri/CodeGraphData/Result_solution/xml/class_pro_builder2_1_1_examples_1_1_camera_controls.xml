@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_examples_1_1_camera_controls" kind="class" prot="public">
+    <compoundname>ProBuilder2::Examples::CameraControls</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1a6a285bba9e1928410dec3f926b82266f" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.Examples.CameraControls.INPUT_MOUSE_SCROLLWHEEL</definition>
+        <argsstring></argsstring>
+        <name>INPUT_MOUSE_SCROLLWHEEL</name>
+        <initializer>= &quot;Mouse ScrollWheel&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1a5bbf6a6a22ae7813089082d4587dd921" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.Examples.CameraControls.INPUT_MOUSE_X</definition>
+        <argsstring></argsstring>
+        <name>INPUT_MOUSE_X</name>
+        <initializer>= &quot;Mouse X&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1aee17d6f7e2dfbb555110b6d09b07e775" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.Examples.CameraControls.INPUT_MOUSE_Y</definition>
+        <argsstring></argsstring>
+        <name>INPUT_MOUSE_Y</name>
+        <initializer>= &quot;Mouse Y&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1ac6a508b0d47d95883985946207deb733" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float ProBuilder2.Examples.CameraControls.MIN_CAM_DISTANCE</definition>
+        <argsstring></argsstring>
+        <name>MIN_CAM_DISTANCE</name>
+        <initializer>= 10f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1a5c9006246bd3b4bfad1517d304d8d0d2" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float ProBuilder2.Examples.CameraControls.MAX_CAM_DISTANCE</definition>
+        <argsstring></argsstring>
+        <name>MAX_CAM_DISTANCE</name>
+        <initializer>= 40f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1aa3138c514f96dd2a40b4ff1ae4594810" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ProBuilder2.Examples.CameraControls.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <initializer>= 0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1a878ae726b76b0fed12d7432b3cefc125" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 ProBuilder2.Examples.CameraControls.dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <initializer>= new Vector2(.8f, .2f)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1ac10d0f35c46819d377aa5f19acbb0748" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ProBuilder2.Examples.CameraControls.orbitSpeed</definition>
+        <argsstring></argsstring>
+        <name>orbitSpeed</name>
+        <initializer>= 6f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1a4a3dfd53c9f0ecbdb45fbadd15bc0e37" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ProBuilder2.Examples.CameraControls.zoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>zoomSpeed</name>
+        <initializer>= .8f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1ad4ce671ea06571aca14be34017a27b0a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ProBuilder2.Examples.CameraControls.idleRotation</definition>
+        <argsstring></argsstring>
+        <name>idleRotation</name>
+        <initializer>= 1f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1aef0897138b5cb26d0ce98d644cfae232" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProBuilder2.Examples.CameraControls.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="34" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_examples_1_1_camera_controls_1aeb8478128895665df6327d73410c0e98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProBuilder2.Examples.CameraControls.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="39" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="39" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>ProBuilder2.Examples.CameraControls</label>
+        <link refid="class_pro_builder2_1_1_examples_1_1_camera_controls"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>ProBuilder2.Examples.CameraControls</label>
+        <link refid="class_pro_builder2_1_1_examples_1_1_camera_controls"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" bodystart="10" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a878ae726b76b0fed12d7432b3cefc125" prot="private" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>dir</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1aa3138c514f96dd2a40b4ff1ae4594810" prot="private" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>distance</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1ad4ce671ea06571aca14be34017a27b0a" prot="public" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>idleRotation</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a6a285bba9e1928410dec3f926b82266f" prot="private" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>INPUT_MOUSE_SCROLLWHEEL</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a5bbf6a6a22ae7813089082d4587dd921" prot="private" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>INPUT_MOUSE_X</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1aee17d6f7e2dfbb555110b6d09b07e775" prot="private" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>INPUT_MOUSE_Y</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1aeb8478128895665df6327d73410c0e98" prot="private" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>LateUpdate</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a5c9006246bd3b4bfad1517d304d8d0d2" prot="private" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>MAX_CAM_DISTANCE</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1ac6a508b0d47d95883985946207deb733" prot="private" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>MIN_CAM_DISTANCE</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1ac10d0f35c46819d377aa5f19acbb0748" prot="public" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>orbitSpeed</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1aef0897138b5cb26d0ce98d644cfae232" prot="private" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>Start</name></member>
+      <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a4a3dfd53c9f0ecbdb45fbadd15bc0e37" prot="public" virt="non-virtual"><scope>ProBuilder2::Examples::CameraControls</scope><name>zoomSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

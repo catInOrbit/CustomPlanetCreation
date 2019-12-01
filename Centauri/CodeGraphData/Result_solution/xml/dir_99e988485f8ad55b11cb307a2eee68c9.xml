@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_99e988485f8ad55b11cb307a2eee68c9" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction</compoundname>
+    <innerfile refid="_on_ground_detection_8cs">OnGroundDetection.cs</innerfile>
+    <innerfile refid="_orbital_maneuver_8cs">OrbitalManeuver.cs</innerfile>
+    <innerfile refid="_orbital_maneuver_v2_8cs">OrbitalManeuverV2.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/"/>
+  </compounddef>
+</doxygen>

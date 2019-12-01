@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_dragable_u_i_panel_8cs" kind="file">
+    <compoundname>DragableUIPanel.cs</compoundname>
+    <innerclass refid="class_dragable_u_i_panel" prot="public">DragableUIPanel</innerclass>
+    <innernamespace refid="namespace_unity_engine_1_1_event_systems">UnityEngine::EventSystems</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.EventSystems;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_dragable_u_i_panel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_dragable_u_i_panel" kindref="compound">DragableUIPanel</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_dragable_u_i_panel_1a7affe9bbd6941c3b9f562fd14ee19180" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3<sp/><ref refid="class_dragable_u_i_panel_1a7affe9bbd6941c3b9f562fd14ee19180" kindref="member">moveVector</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_dragable_u_i_panel_1a8acf624df4bc2630863542abab12ada8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Vector3<sp/><ref refid="class_dragable_u_i_panel_1a8acf624df4bc2630863542abab12ada8" kindref="member">moveVectorMouse</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_dragable_u_i_panel_1ae4d9d4173570533a69f0bd0acebd5bac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_dragable_u_i_panel_1ae4d9d4173570533a69f0bd0acebd5bac" kindref="member">uiCanvas</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_dragable_u_i_panel_1a9c6814f1b4e5a95dede2834e53bb2339" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_dragable_u_i_panel_1a9c6814f1b4e5a95dede2834e53bb2339" kindref="member">MovePanelWithInput</ref>()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector2<sp/>screenRes<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(Screen.width,<sp/>Screen.height);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pythoScreenRes<sp/>=<sp/>Mathf.Sqrt(Mathf.Pow(screenRes.x,<sp/>2)<sp/>+<sp/>Mathf.Pow(screenRes.y,<sp/>2));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector2<sp/>canvasRes<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(<ref refid="class_dragable_u_i_panel_1ae4d9d4173570533a69f0bd0acebd5bac" kindref="member">uiCanvas</ref>.GetComponent&lt;RectTransform&gt;().position.x,<sp/><ref refid="class_dragable_u_i_panel_1ae4d9d4173570533a69f0bd0acebd5bac" kindref="member">uiCanvas</ref>.GetComponent&lt;RectTransform&gt;().position.y);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pythoCanvasRes<sp/>=<sp/>Mathf.Sqrt(Mathf.Pow(canvasRes.x,<sp/>2)<sp/>+<sp/>Mathf.Pow(canvasRes.y,<sp/>2));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ratio<sp/>=<sp/>pythoCanvasRes<sp/>/<sp/>pythoScreenRes;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector2<sp/>ratioVector<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(canvasRes.x<sp/>/<sp/>screenRes.x,<sp/>canvasRes.y<sp/>/<sp/>screenRes.y);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector2<sp/>centerPos<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(screenRes.x<sp/>/<sp/>2,<sp/>screenRes.y<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Vector2<sp/>temp<sp/>=<sp/>RectTransformUtility.PixelAdjustPoint(mousePosActual,<sp/>this.transform.parent.GetComponent&lt;RectTransform&gt;().transform,<sp/>uiCanvas.GetComponent&lt;Canvas&gt;());</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Input.touchCount<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector2<sp/>inputPos<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(Input.GetTouch(0).position.x<sp/>-<sp/>centerPos.x,<sp/>Input.GetTouch(0).position.y<sp/>-<sp/>centerPos.y);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.GetComponent&lt;RectTransform&gt;().localPosition<sp/>=<sp/>inputPos;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UNITY_EDITOR</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Vector3<sp/>mousePosActual<sp/>=<sp/>new<sp/>Vector2(Input.mousePosition.x<sp/>-<sp/>(centerPos.x),<sp/>Input.mousePosition.y<sp/>-<sp/>(centerPos.y<sp/>*<sp/>2));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>mousePosActual<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(Input.mousePosition.x<sp/>*<sp/>ratioVector.x,<sp/>Input.mousePosition.y<sp/>*<sp/>ratioVector.y);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector2<sp/>actual;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3<sp/>objectPos<sp/>=<sp/>this.GetComponent&lt;RectTransform&gt;().localPosition;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.GetComponent&lt;RectTransform&gt;().localPosition<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector2(objectPos.x<sp/>-<sp/>mousePosActual.x,<sp/>objectPos.y<sp/>-<sp/>mousePosActual.y);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Debug.Log(mousePosActual);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Debug.Log(ratio);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Debug.Log(&quot;Convert<sp/>cord:<sp/>&quot;<sp/>+<sp/>new<sp/>Vector3(mousePosActual.x,<sp/>mousePosActual.y));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="46"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs"/>
+  </compounddef>
+</doxygen>

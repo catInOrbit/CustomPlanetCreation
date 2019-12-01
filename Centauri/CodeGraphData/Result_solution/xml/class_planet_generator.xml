@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_planet_generator" kind="class" prot="public">
+    <compoundname>PlanetGenerator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_planet_generator_1a94df2ed5a08dd02ec91a725b89d6139b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_cube_planet" kindref="compound">CubePlanet</ref></type>
+        <definition>CubePlanet PlanetGenerator.planet</definition>
+        <argsstring></argsstring>
+        <name>planet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/PlanetGenerator.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/PlanetGenerator.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_planet_generator_1a04f294e4cee0b05ca28356f6efc235f7" compoundref="_planet_generator_8cs" startline="10" endline="13">Start</referencedby>
+        <referencedby refid="class_planet_generator_1a960f07e94c49d96790b7eb5169091c34" compoundref="_planet_generator_8cs" startline="16" endline="20">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_planet_generator_1a04f294e4cee0b05ca28356f6efc235f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlanetGenerator.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/PlanetGenerator.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/PlanetGenerator.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_planet_generator_1a94df2ed5a08dd02ec91a725b89d6139b" compoundref="_planet_generator_8cs" startline="7">planet</references>
+      </memberdef>
+      <memberdef kind="function" id="class_planet_generator_1a960f07e94c49d96790b7eb5169091c34" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlanetGenerator.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/PlanetGenerator.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/PlanetGenerator.cs" bodystart="16" bodyend="20"/>
+        <references refid="class_planet_generator_1a94df2ed5a08dd02ec91a725b89d6139b" compoundref="_planet_generator_8cs" startline="7">planet</references>
+        <references refid="class_cube_planet_1a3d2f3efade7d2836f4ef332e8712c2bc" compoundref="_cube_planet_8cs" startline="213" endline="254">CubePlanet.Update</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="487">
+        <label>PlanetGenerator</label>
+        <link refid="class_planet_generator"/>
+        <childnode refid="488" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="488">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="492">
+        <label>CubeFace</label>
+        <link refid="class_cube_face"/>
+        <childnode refid="492" relation="usage">
+          <edgelabel>parent</edgelabel>
+          <edgelabel>tree</edgelabel>
+        </childnode>
+      </node>
+      <node id="489">
+        <label>PlanetGenerator</label>
+        <link refid="class_planet_generator"/>
+        <childnode refid="490" relation="public-inheritance">
+        </childnode>
+        <childnode refid="491" relation="usage">
+          <edgelabel>planet</edgelabel>
+        </childnode>
+      </node>
+      <node id="493">
+        <label>Generator</label>
+      </node>
+      <node id="491">
+        <label>CubePlanet</label>
+        <link refid="class_cube_planet"/>
+        <childnode refid="492" relation="usage">
+          <edgelabel>faces</edgelabel>
+        </childnode>
+        <childnode refid="493" relation="usage">
+          <edgelabel>planes</edgelabel>
+          <edgelabel>mountains</edgelabel>
+        </childnode>
+      </node>
+      <node id="490">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/PlanetGenerator.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/PlanetGenerator.cs" bodystart="5" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_planet_generator_1a94df2ed5a08dd02ec91a725b89d6139b" prot="private" virt="non-virtual"><scope>PlanetGenerator</scope><name>planet</name></member>
+      <member refid="class_planet_generator_1a04f294e4cee0b05ca28356f6efc235f7" prot="private" virt="non-virtual"><scope>PlanetGenerator</scope><name>Start</name></member>
+      <member refid="class_planet_generator_1a960f07e94c49d96790b7eb5169091c34" prot="private" virt="non-virtual"><scope>PlanetGenerator</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

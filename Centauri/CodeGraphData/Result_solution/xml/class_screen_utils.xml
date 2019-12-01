@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_screen_utils" kind="class" prot="public">
+    <compoundname>ScreenUtils</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_screen_utils_1a4b4cc2ae18a3357b06dee810462f365d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector2</type>
+        <definition>Vector2 ScreenUtils.ScreenProperties</definition>
+        <argsstring></argsstring>
+        <name>ScreenProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_screen_utils_1a0ef3bd9a5633fc3a6b5bca1feee2693e" compoundref="_screen_utils_8cs" startline="31" endline="34">GetScreenConstraint14</referencedby>
+        <referencedby refid="class_screen_utils_1a0309a92a2d8f4659d312553cddf09516" compoundref="_screen_utils_8cs" startline="47" endline="50">GetScreenHalfpoint</referencedby>
+        <referencedby refid="class_screen_utils_1a36da03f712231243ba7ca06b5033a202" compoundref="_screen_utils_8cs" startline="10" endline="13">ScreenUtils</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_screen_utils_1a36da03f712231243ba7ca06b5033a202" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ScreenUtils.ScreenUtils</definition>
+        <argsstring>(float screenWidth, float screenHeight)</argsstring>
+        <name>ScreenUtils</name>
+        <param>
+          <type>float</type>
+          <declname>screenWidth</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>screenHeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_screen_utils_1a4b4cc2ae18a3357b06dee810462f365d" compoundref="_screen_utils_8cs" startline="8">ScreenProperties</references>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_utils_1a1a4c971a66a27c0543d9f0e5fc07ad43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ScreenUtils.ScreenUtils</definition>
+        <argsstring>()</argsstring>
+        <name>ScreenUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_utils_1a6e14cbcdcf08ca84f74d3d439f84830a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ScreenUtils.GetScreenConstraint14</definition>
+        <argsstring>(float width, float height)</argsstring>
+        <name>GetScreenConstraint14</name>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the float value of 1/4 of the screen. This float value is a hypotenuse of the triangle in 1/4 of screen </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the screen</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The height of the screen</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_utils_1a0ef3bd9a5633fc3a6b5bca1feee2693e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ScreenUtils.GetScreenConstraint14</definition>
+        <argsstring>()</argsstring>
+        <name>GetScreenConstraint14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" line="31" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" bodystart="31" bodyend="34"/>
+        <references refid="class_screen_utils_1a4b4cc2ae18a3357b06dee810462f365d" compoundref="_screen_utils_8cs" startline="8">ScreenProperties</references>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_utils_1a32511687d5bbc821d791ed0db8798fdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 ScreenUtils.GetScreenHalfpoint</definition>
+        <argsstring>(float width, float height)</argsstring>
+        <name>GetScreenHalfpoint</name>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the float value of 1/2 of the screen. This float value is a hypotenuse of the triangle in 1/2 of screen </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The width of the screen</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>height</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The height of the screen</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" line="42" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_screen_utils_1a0309a92a2d8f4659d312553cddf09516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 ScreenUtils.GetScreenHalfpoint</definition>
+        <argsstring>()</argsstring>
+        <name>GetScreenHalfpoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" line="47" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" bodystart="47" bodyend="50"/>
+        <references refid="class_screen_utils_1a4b4cc2ae18a3357b06dee810462f365d" compoundref="_screen_utils_8cs" startline="8">ScreenProperties</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="605">
+        <label>ScreenUtils</label>
+        <link refid="class_screen_utils"/>
+        <childnode refid="606" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="606">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="607">
+        <label>ScreenUtils</label>
+        <link refid="class_screen_utils"/>
+        <childnode refid="608" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="608">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/ScreenUtils.cs" bodystart="6" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_screen_utils_1a6e14cbcdcf08ca84f74d3d439f84830a" prot="public" virt="non-virtual"><scope>ScreenUtils</scope><name>GetScreenConstraint14</name></member>
+      <member refid="class_screen_utils_1a0ef3bd9a5633fc3a6b5bca1feee2693e" prot="public" virt="non-virtual"><scope>ScreenUtils</scope><name>GetScreenConstraint14</name></member>
+      <member refid="class_screen_utils_1a32511687d5bbc821d791ed0db8798fdd" prot="public" virt="non-virtual"><scope>ScreenUtils</scope><name>GetScreenHalfpoint</name></member>
+      <member refid="class_screen_utils_1a0309a92a2d8f4659d312553cddf09516" prot="public" virt="non-virtual"><scope>ScreenUtils</scope><name>GetScreenHalfpoint</name></member>
+      <member refid="class_screen_utils_1a4b4cc2ae18a3357b06dee810462f365d" prot="public" virt="non-virtual"><scope>ScreenUtils</scope><name>ScreenProperties</name></member>
+      <member refid="class_screen_utils_1a36da03f712231243ba7ca06b5033a202" prot="public" virt="non-virtual"><scope>ScreenUtils</scope><name>ScreenUtils</name></member>
+      <member refid="class_screen_utils_1a1a4c971a66a27c0543d9f0e5fc07ad43" prot="public" virt="non-virtual"><scope>ScreenUtils</scope><name>ScreenUtils</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

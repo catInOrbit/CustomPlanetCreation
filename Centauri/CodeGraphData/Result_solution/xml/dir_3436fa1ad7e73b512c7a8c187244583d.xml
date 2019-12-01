@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3436fa1ad7e73b512c7a8c187244583d" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/Ships</compoundname>
+    <innerfile refid="_engines_data_8cs">EnginesData.cs</innerfile>
+    <innerfile refid="_get_planet_resources_8cs">GetPlanetResources.cs</innerfile>
+    <innerfile refid="_ship_data_8cs">ShipData.cs</innerfile>
+    <innerfile refid="_ship_resource_8cs">ShipResource.cs</innerfile>
+    <innerfile refid="_speed_data_8cs">SpeedData.cs</innerfile>
+    <innerfile refid="_weight_data_8cs">WeightData.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/Ships/"/>
+  </compounddef>
+</doxygen>

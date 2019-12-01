@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b0038ab32bc62fba7fb780ca8e9608d6" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets/ProCore</compoundname>
+    <innerdir refid="dir_c0c6d5946c060aaa40bc733693c74cde">C:/Uniprj/Centauri/Assets/ProCore/ProBuilder</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/ProCore/"/>
+  </compounddef>
+</doxygen>

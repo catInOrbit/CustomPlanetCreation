@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_5293cca2bac7bcbf4d7f46bdf9ab35a9" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components</compoundname>
+    <innerfile refid="_kepler_orbit_line_display_8cs">KeplerOrbitLineDisplay.cs</innerfile>
+    <innerfile refid="_kepler_orbit_mover_8cs">KeplerOrbitMover.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/"/>
+  </compounddef>
+</doxygen>

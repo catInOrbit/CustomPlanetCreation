@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ee1985ff75c81a9c67dd65d22a0979d4" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions</compoundname>
+    <innerfile refid="pb___export_obj_8cs">pb_ExportObj.cs</innerfile>
+    <innerfile refid="pb___generate_u_v2_8cs">pb_GenerateUV2.cs</innerfile>
+    <innerfile refid="pb___make_mesh_asset_8cs">pb_MakeMeshAsset.cs</innerfile>
+    <innerfile refid="pb___pro_builderize_8cs">pb_ProBuilderize.cs</innerfile>
+    <innerfile refid="pb___strip_pro_builder_scripts_8cs">pb_StripProBuilderScripts.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Uniprj\\CentauriV2\\Centauri\\Assembly-CSharp-Editor.csproj",
+  "TargetFramework": "v3.5",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4390b1fe5ed4569f2d303d11a27c0605" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Selection</compoundname>
+    <innerfile refid="pb___edge_selection_8cs">pb_EdgeSelection.cs</innerfile>
+    <innerfile refid="pb___expand_selection_8cs">pb_ExpandSelection.cs</innerfile>
+    <innerfile refid="pb___invert_selection_8cs">pb_InvertSelection.cs</innerfile>
+    <innerfile refid="_selection_2pb___material_selection_8cs">pb_MaterialSelection.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/"/>
+  </compounddef>
+</doxygen>

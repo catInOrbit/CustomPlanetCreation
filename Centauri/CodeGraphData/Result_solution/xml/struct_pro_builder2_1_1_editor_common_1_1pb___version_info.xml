@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info" kind="struct" prot="public">
+    <compoundname>ProBuilder2::EditorCommon::pb_VersionInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEquatable&lt; pb_VersionInfo &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComparable&lt; pb_VersionInfo &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a369b37e1c9217eb6c9b680817f47a57b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProBuilder2.EditorCommon.pb_VersionInfo.major</definition>
+        <argsstring></argsstring>
+        <name>major</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a148d8eec5305d5f9bc95dc5c7627d38a" compoundref="pb___version_info_8cs" startline="73" endline="100">ProBuilder2.EditorCommon.pb_VersionInfo.CompareTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a3ceeb725bf33bc9b70dd6c682e2c6aae" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProBuilder2.EditorCommon.pb_VersionInfo.minor</definition>
+        <argsstring></argsstring>
+        <name>minor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a148d8eec5305d5f9bc95dc5c7627d38a" compoundref="pb___version_info_8cs" startline="73" endline="100">ProBuilder2.EditorCommon.pb_VersionInfo.CompareTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a367ba41e0a9ecbed565bd1d4eb362711" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProBuilder2.EditorCommon.pb_VersionInfo.patch</definition>
+        <argsstring></argsstring>
+        <name>patch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a148d8eec5305d5f9bc95dc5c7627d38a" compoundref="pb___version_info_8cs" startline="73" endline="100">ProBuilder2.EditorCommon.pb_VersionInfo.CompareTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a748a0ef6d1ccf7e82904769ae028631b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProBuilder2.EditorCommon.pb_VersionInfo.build</definition>
+        <argsstring></argsstring>
+        <name>build</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a148d8eec5305d5f9bc95dc5c7627d38a" compoundref="pb___version_info_8cs" startline="73" endline="100">ProBuilder2.EditorCommon.pb_VersionInfo.CompareTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a65cebcffbc7483c9ccad0fc91be603bb" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_pro_builder2_1_1_editor_common_1a01ca28dd3d8150db2aebcb0f48b75f5f" kindref="member">VersionType</ref></type>
+        <definition>VersionType ProBuilder2.EditorCommon.pb_VersionInfo.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a148d8eec5305d5f9bc95dc5c7627d38a" compoundref="pb___version_info_8cs" startline="73" endline="100">ProBuilder2.EditorCommon.pb_VersionInfo.CompareTo</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a537191e7db011ee3b093c75cf5ee22f5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ProBuilder2.EditorCommon.pb_VersionInfo.text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a5eb6535db7aa2bcdf2a78a1a3220c900" compoundref="pb___version_info_8cs" startline="51" endline="71">ProBuilder2.EditorCommon.pb_VersionInfo.Equals</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a0657a42b73ee549859844379936a2c73" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ProBuilder2.EditorCommon.pb_VersionInfo.valid</definition>
+        <argsstring></argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a5eb6535db7aa2bcdf2a78a1a3220c900" compoundref="pb___version_info_8cs" startline="51" endline="71">ProBuilder2.EditorCommon.pb_VersionInfo.Equals</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a9679b77e631a5ae514bf90973055fd89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool ProBuilder2.EditorCommon.pb_VersionInfo.Equals</definition>
+        <argsstring>(object o)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a1b9c5f339156ed33019a7bde92222d6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int ProBuilder2.EditorCommon.pb_VersionInfo.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="28" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a5eb6535db7aa2bcdf2a78a1a3220c900" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ProBuilder2.EditorCommon.pb_VersionInfo.Equals</definition>
+        <argsstring>(pb_VersionInfo version)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type><ref refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info" kindref="compound">pb_VersionInfo</ref></type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="51" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="51" bodyend="71"/>
+        <references refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a537191e7db011ee3b093c75cf5ee22f5" compoundref="pb___version_info_8cs" startline="20">ProBuilder2.EditorCommon.pb_VersionInfo.text</references>
+        <references refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a0657a42b73ee549859844379936a2c73" compoundref="pb___version_info_8cs" startline="21">ProBuilder2.EditorCommon.pb_VersionInfo.valid</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a148d8eec5305d5f9bc95dc5c7627d38a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ProBuilder2.EditorCommon.pb_VersionInfo.CompareTo</definition>
+        <argsstring>(pb_VersionInfo version)</argsstring>
+        <name>CompareTo</name>
+        <param>
+          <type><ref refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info" kindref="compound">pb_VersionInfo</ref></type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="73" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="73" bodyend="100"/>
+        <references refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a748a0ef6d1ccf7e82904769ae028631b" compoundref="pb___version_info_8cs" startline="18">ProBuilder2.EditorCommon.pb_VersionInfo.build</references>
+        <references refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a369b37e1c9217eb6c9b680817f47a57b" compoundref="pb___version_info_8cs" startline="15">ProBuilder2.EditorCommon.pb_VersionInfo.major</references>
+        <references refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a3ceeb725bf33bc9b70dd6c682e2c6aae" compoundref="pb___version_info_8cs" startline="16">ProBuilder2.EditorCommon.pb_VersionInfo.minor</references>
+        <references refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a367ba41e0a9ecbed565bd1d4eb362711" compoundref="pb___version_info_8cs" startline="17">ProBuilder2.EditorCommon.pb_VersionInfo.patch</references>
+        <references refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a65cebcffbc7483c9ccad0fc91be603bb" compoundref="pb___version_info_8cs" startline="19">ProBuilder2.EditorCommon.pb_VersionInfo.type</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a3e2e433711bddd7bfaba988a146540ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ProBuilder2.EditorCommon.pb_VersionInfo.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="102" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a07c1147bd0fea7c2e7cd2ce93743d96b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info" kindref="compound">pb_VersionInfo</ref></type>
+        <definition>static pb_VersionInfo ProBuilder2.EditorCommon.pb_VersionInfo.FromString</definition>
+        <argsstring>(string str)</argsstring>
+        <name>FromString</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a <ref refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info" kindref="compound">pb_VersionInfo</ref> type from a string. Ex: &quot;2.5.3b1&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="111" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="111" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a0827a79662d1851c0f09ea128366da63" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_pro_builder2_1_1_editor_common_1a01ca28dd3d8150db2aebcb0f48b75f5f" kindref="member">VersionType</ref></type>
+        <definition>static VersionType ProBuilder2.EditorCommon.pb_VersionInfo.GetVersionType</definition>
+        <argsstring>(string type)</argsstring>
+        <name>GetVersionType</name>
+        <param>
+          <type>string</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="135" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="135" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="576">
+        <label>System::IComparable&lt; pb_VersionInfo &gt;</label>
+      </node>
+      <node id="575">
+        <label>System::IEquatable&lt; pb_VersionInfo &gt;</label>
+      </node>
+      <node id="574">
+        <label>ProBuilder2.EditorCommon.pb_VersionInfo</label>
+        <link refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info"/>
+        <childnode refid="575" relation="public-inheritance">
+        </childnode>
+        <childnode refid="576" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="579">
+        <label>System::IComparable&lt; pb_VersionInfo &gt;</label>
+      </node>
+      <node id="578">
+        <label>System::IEquatable&lt; pb_VersionInfo &gt;</label>
+      </node>
+      <node id="577">
+        <label>ProBuilder2.EditorCommon.pb_VersionInfo</label>
+        <link refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info"/>
+        <childnode refid="578" relation="public-inheritance">
+        </childnode>
+        <childnode refid="579" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_VersionInfo.cs" bodystart="13" bodyend="144"/>
+    <listofallmembers>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a748a0ef6d1ccf7e82904769ae028631b" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>build</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a148d8eec5305d5f9bc95dc5c7627d38a" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>CompareTo</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a9679b77e631a5ae514bf90973055fd89" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>Equals</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a5eb6535db7aa2bcdf2a78a1a3220c900" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>Equals</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a07c1147bd0fea7c2e7cd2ce93743d96b" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>FromString</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a1b9c5f339156ed33019a7bde92222d6d" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>GetHashCode</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a0827a79662d1851c0f09ea128366da63" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>GetVersionType</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a369b37e1c9217eb6c9b680817f47a57b" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>major</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a3ceeb725bf33bc9b70dd6c682e2c6aae" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>minor</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a367ba41e0a9ecbed565bd1d4eb362711" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>patch</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a537191e7db011ee3b093c75cf5ee22f5" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>text</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a3e2e433711bddd7bfaba988a146540ba" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>ToString</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a65cebcffbc7483c9ccad0fc91be603bb" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>type</name></member>
+      <member refid="struct_pro_builder2_1_1_editor_common_1_1pb___version_info_1a0657a42b73ee549859844379936a2c73" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_VersionInfo</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

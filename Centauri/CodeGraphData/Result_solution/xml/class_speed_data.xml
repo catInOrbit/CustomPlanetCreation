@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_speed_data" kind="class" prot="public">
+    <compoundname>SpeedData</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_speed_data_1a61bd3f2dc3c492ef88ed53b16951996e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpeedData.deltaV</definition>
+        <argsstring></argsstring>
+        <name>deltaV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_speed_data_1a0b2cf6dce691f24116112f474e21cfc7" compoundref="_speed_data_8cs" startline="40" endline="45">GetDeltaVStringData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_data_1a647719f8bf9dfd33099f760677dbaf69" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpeedData.velocity</definition>
+        <argsstring></argsstring>
+        <name>velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_speed_data_1a3d2ffe0e3051df948b3a8ce2b695d6b9" compoundref="_speed_data_8cs" startline="28" endline="32">GetVelocityStringData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_data_1a327fdc822f25ed4756b9759b8649094f" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SpeedData.acceleration</definition>
+        <argsstring></argsstring>
+        <name>acceleration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_speed_data_1ae239ca147d61e6c27e0e47f3857bd177" compoundref="_speed_data_8cs" startline="34" endline="38">GetAccelerationStringData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_data_1af2cd3949ee1db1802a65d21beee74b06" prot="private" static="no" mutable="no">
+        <type><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref></type>
+        <definition>KeplerOrbitMover SpeedData.dataClass</definition>
+        <argsstring></argsstring>
+        <name>dataClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_speed_data_1acafc09c41da9f00f09894265571fcccb" compoundref="_speed_data_8cs" startline="17" endline="20">Awake</referencedby>
+        <referencedby refid="class_speed_data_1ae239ca147d61e6c27e0e47f3857bd177" compoundref="_speed_data_8cs" startline="34" endline="38">GetAccelerationStringData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_data_1abcdd391f3bd74065a61cb0549e7b129a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ship_data" kindref="compound">ShipData</ref></type>
+        <definition>ShipData SpeedData.shipData</definition>
+        <argsstring></argsstring>
+        <name>shipData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_speed_data_1a0b2cf6dce691f24116112f474e21cfc7" compoundref="_speed_data_8cs" startline="40" endline="45">GetDeltaVStringData</referencedby>
+        <referencedby refid="class_speed_data_1a711597d853d6c663b3250899006f6c4a" compoundref="_speed_data_8cs" startline="22" endline="26">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_speed_data_1acb3366789ce5cc945b2c54fad10483da" prot="private" static="no" mutable="no">
+        <type><ref refid="class_orbital_maneuver" kindref="compound">OrbitalManeuver</ref></type>
+        <definition>OrbitalManeuver SpeedData.orbitalManeuver</definition>
+        <argsstring></argsstring>
+        <name>orbitalManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_speed_data_1a822c551e5476659b2f22ce9c7a300aed" compoundref="_speed_data_8cs" startline="52" endline="55">GetEnginePercentageInteger</referencedby>
+        <referencedby refid="class_speed_data_1aa504b16ccc12bc590fb841d974be1a1c" compoundref="_speed_data_8cs" startline="47" endline="50">GetEngineThrustPercentage</referencedby>
+        <referencedby refid="class_speed_data_1a711597d853d6c663b3250899006f6c4a" compoundref="_speed_data_8cs" startline="22" endline="26">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_speed_data_1acafc09c41da9f00f09894265571fcccb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedData.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_speed_data_1af2cd3949ee1db1802a65d21beee74b06" compoundref="_speed_data_8cs" startline="13">dataClass</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_data_1a711597d853d6c663b3250899006f6c4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SpeedData.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="22" bodyend="26"/>
+        <references refid="class_speed_data_1acb3366789ce5cc945b2c54fad10483da" compoundref="_speed_data_8cs" startline="15">orbitalManeuver</references>
+        <references refid="class_speed_data_1abcdd391f3bd74065a61cb0549e7b129a" compoundref="_speed_data_8cs" startline="14">shipData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_data_1aeda08d5da665bde8f1e41ecba5d5537e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float SpeedData.CalculateGetDeltaV</definition>
+        <argsstring>(float exhaustVelocity, float shipFullMass, float shipEmptyMass)</argsstring>
+        <name>CalculateGetDeltaV</name>
+        <param>
+          <type>float</type>
+          <declname>exhaustVelocity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>shipFullMass</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>shipEmptyMass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="57" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="57" bodyend="60"/>
+        <referencedby refid="class_speed_data_1a0b2cf6dce691f24116112f474e21cfc7" compoundref="_speed_data_8cs" startline="40" endline="45">GetDeltaVStringData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_speed_data_1a3d2ffe0e3051df948b3a8ce2b695d6b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SpeedData.GetVelocityStringData</definition>
+        <argsstring>()</argsstring>
+        <name>GetVelocityStringData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="28" bodyend="32"/>
+        <references refid="class_speed_data_1a647719f8bf9dfd33099f760677dbaf69" compoundref="_speed_data_8cs" startline="12">velocity</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_data_1ae239ca147d61e6c27e0e47f3857bd177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SpeedData.GetAccelerationStringData</definition>
+        <argsstring>()</argsstring>
+        <name>GetAccelerationStringData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="34" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="34" bodyend="38"/>
+        <references refid="class_speed_data_1a327fdc822f25ed4756b9759b8649094f" compoundref="_speed_data_8cs" startline="12">acceleration</references>
+        <references refid="class_speed_data_1af2cd3949ee1db1802a65d21beee74b06" compoundref="_speed_data_8cs" startline="13">dataClass</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1aadaa05dc710361cb4c0439d71f8d5fbb" compoundref="_vector3d_8cs" startline="53">UnityEngine.Vector3d.magnitude</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" compoundref="_kepler_orbit_mover_8cs" startline="46">SimpleKeplerOrbits.KeplerOrbitMover.OrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" compoundref="_kepler_orbit_data_8cs" startline="30">SimpleKeplerOrbits.KeplerOrbitData.Velocity</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_data_1a0b2cf6dce691f24116112f474e21cfc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SpeedData.GetDeltaVStringData</definition>
+        <argsstring>()</argsstring>
+        <name>GetDeltaVStringData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="40" bodyend="45"/>
+        <references refid="class_speed_data_1aeda08d5da665bde8f1e41ecba5d5537e" compoundref="_speed_data_8cs" startline="57" endline="60">CalculateGetDeltaV</references>
+        <references refid="class_ship_data_1ad3b0ab46186feeff1185ad4bc7c76c42" compoundref="_ship_data_8cs" startline="82">ShipData.CurrentEngineData</references>
+        <references refid="class_speed_data_1a61bd3f2dc3c492ef88ed53b16951996e" compoundref="_speed_data_8cs" startline="12">deltaV</references>
+        <references refid="class_engines_data_1_1_engine_data_1a886300cd4b4845f3a036ea2ed081af86" compoundref="_engines_data_8cs" startline="92" endline="95">EnginesData.EngineData.GetExhaustVelocity</references>
+        <references refid="class_speed_data_1abcdd391f3bd74065a61cb0549e7b129a" compoundref="_speed_data_8cs" startline="14">shipData</references>
+        <references refid="class_ship_data_1a12f22a6074b7912b00586f04a967798c" compoundref="_ship_data_8cs" startline="32">ShipData.WeightData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_data_1aa504b16ccc12bc590fb841d974be1a1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string SpeedData.GetEngineThrustPercentage</definition>
+        <argsstring>()</argsstring>
+        <name>GetEngineThrustPercentage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="47" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="47" bodyend="50"/>
+        <references refid="class_speed_data_1a7a5539891be1fa63aee2c7470d009fb9" compoundref="_speed_data_8cs" startline="62" endline="65">CalculateEngineThrustPercentage</references>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">OrbitalManeuver.ForceStrength</references>
+        <references refid="class_speed_data_1acb3366789ce5cc945b2c54fad10483da" compoundref="_speed_data_8cs" startline="15">orbitalManeuver</references>
+        <references refid="class_orbital_maneuver_1a415fab971d09ac04654fbda70832d306" compoundref="_orbital_maneuver_8cs" startline="33">OrbitalManeuver.VectorMagnitudeCap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_data_1a822c551e5476659b2f22ce9c7a300aed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SpeedData.GetEnginePercentageInteger</definition>
+        <argsstring>()</argsstring>
+        <name>GetEnginePercentageInteger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="52" bodyend="55"/>
+        <references refid="class_speed_data_1a7a5539891be1fa63aee2c7470d009fb9" compoundref="_speed_data_8cs" startline="62" endline="65">CalculateEngineThrustPercentage</references>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">OrbitalManeuver.ForceStrength</references>
+        <references refid="class_speed_data_1acb3366789ce5cc945b2c54fad10483da" compoundref="_speed_data_8cs" startline="15">orbitalManeuver</references>
+        <references refid="class_orbital_maneuver_1a415fab971d09ac04654fbda70832d306" compoundref="_orbital_maneuver_8cs" startline="33">OrbitalManeuver.VectorMagnitudeCap</references>
+        <referencedby refid="class_ship_data_1acb6bbf40eccce11059ff9e4c09ba93c1" compoundref="_ship_data_8cs" startline="105" endline="108">ShipData.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_speed_data_1a7a5539891be1fa63aee2c7470d009fb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int SpeedData.CalculateEngineThrustPercentage</definition>
+        <argsstring>(float inputVectorForceStrength, float vectorMagnitudeCap)</argsstring>
+        <name>CalculateEngineThrustPercentage</name>
+        <param>
+          <type>float</type>
+          <declname>inputVectorForceStrength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>vectorMagnitudeCap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="62" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="62" bodyend="65"/>
+        <referencedby refid="class_speed_data_1a822c551e5476659b2f22ce9c7a300aed" compoundref="_speed_data_8cs" startline="52" endline="55">GetEnginePercentageInteger</referencedby>
+        <referencedby refid="class_speed_data_1aa504b16ccc12bc590fb841d974be1a1c" compoundref="_speed_data_8cs" startline="47" endline="50">GetEngineThrustPercentage</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="662">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="661">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="662" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="670">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="667">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+        <childnode refid="663" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="665" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="668" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="669" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="670" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="671" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="672" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="673" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="673">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="678">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="675">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="672">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="665">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+        <childnode refid="666" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="676" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="677" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="664">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="676">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="677">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="678" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="671">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="668">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="663">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+        <childnode refid="665" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="667" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="666" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="666">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+        <childnode refid="667" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="674" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="675" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="669">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="674">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="664" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/SpeedData.cs" bodystart="10" bodyend="67"/>
+    <listofallmembers>
+      <member refid="class_speed_data_1a327fdc822f25ed4756b9759b8649094f" prot="private" virt="non-virtual"><scope>SpeedData</scope><name>acceleration</name></member>
+      <member refid="class_speed_data_1acafc09c41da9f00f09894265571fcccb" prot="private" virt="non-virtual"><scope>SpeedData</scope><name>Awake</name></member>
+      <member refid="class_speed_data_1a7a5539891be1fa63aee2c7470d009fb9" prot="public" virt="non-virtual"><scope>SpeedData</scope><name>CalculateEngineThrustPercentage</name></member>
+      <member refid="class_speed_data_1aeda08d5da665bde8f1e41ecba5d5537e" prot="private" virt="non-virtual"><scope>SpeedData</scope><name>CalculateGetDeltaV</name></member>
+      <member refid="class_speed_data_1af2cd3949ee1db1802a65d21beee74b06" prot="private" virt="non-virtual"><scope>SpeedData</scope><name>dataClass</name></member>
+      <member refid="class_speed_data_1a61bd3f2dc3c492ef88ed53b16951996e" prot="private" virt="non-virtual"><scope>SpeedData</scope><name>deltaV</name></member>
+      <member refid="class_speed_data_1ae239ca147d61e6c27e0e47f3857bd177" prot="public" virt="non-virtual"><scope>SpeedData</scope><name>GetAccelerationStringData</name></member>
+      <member refid="class_speed_data_1a0b2cf6dce691f24116112f474e21cfc7" prot="public" virt="non-virtual"><scope>SpeedData</scope><name>GetDeltaVStringData</name></member>
+      <member refid="class_speed_data_1a822c551e5476659b2f22ce9c7a300aed" prot="public" virt="non-virtual"><scope>SpeedData</scope><name>GetEnginePercentageInteger</name></member>
+      <member refid="class_speed_data_1aa504b16ccc12bc590fb841d974be1a1c" prot="public" virt="non-virtual"><scope>SpeedData</scope><name>GetEngineThrustPercentage</name></member>
+      <member refid="class_speed_data_1a3d2ffe0e3051df948b3a8ce2b695d6b9" prot="public" virt="non-virtual"><scope>SpeedData</scope><name>GetVelocityStringData</name></member>
+      <member refid="class_speed_data_1acb3366789ce5cc945b2c54fad10483da" prot="private" virt="non-virtual"><scope>SpeedData</scope><name>orbitalManeuver</name></member>
+      <member refid="class_speed_data_1abcdd391f3bd74065a61cb0549e7b129a" prot="private" virt="non-virtual"><scope>SpeedData</scope><name>shipData</name></member>
+      <member refid="class_speed_data_1a711597d853d6c663b3250899006f6c4a" prot="private" virt="non-virtual"><scope>SpeedData</scope><name>Start</name></member>
+      <member refid="class_speed_data_1a647719f8bf9dfd33099f760677dbaf69" prot="private" virt="non-virtual"><scope>SpeedData</scope><name>velocity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

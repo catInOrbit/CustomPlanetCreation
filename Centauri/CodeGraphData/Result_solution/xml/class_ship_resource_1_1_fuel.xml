@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ship_resource_1_1_fuel" kind="class" prot="public">
+    <compoundname>ShipResource::Fuel</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ship_resource_1_1_fuel_1a8a3632a044e7e22628cb2c35145e6faa" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ShipResource.Fuel.currentFuelAmount</definition>
+        <argsstring></argsstring>
+        <name>currentFuelAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" line="97" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" bodystart="97" bodyend="-1"/>
+        <referencedby refid="class_ship_resource_1_1_fuel_1a8c78b3a9c90e9a8ddba95561daf9e680" compoundref="_ship_resource_8cs" startline="125" endline="129">ShipResource.Fuel.Fuel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_ship_resource_1_1_fuel_1a9d6db6abf9e7d3fd74a549102f9a3c5c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ShipResource.Fuel.tankCapaicty</definition>
+        <argsstring></argsstring>
+        <name>tankCapaicty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" line="98" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" bodystart="98" bodyend="-1"/>
+        <referencedby refid="class_ship_resource_1_1_fuel_1a8c78b3a9c90e9a8ddba95561daf9e680" compoundref="_ship_resource_8cs" startline="125" endline="129">ShipResource.Fuel.Fuel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_ship_resource_1_1_fuel_1a174431f3493df1f23b03790633c51459" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float ShipResource.Fuel.CurrentFuelAmount</definition>
+        <argsstring></argsstring>
+        <name>CurrentFuelAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" line="100" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" bodystart="101" bodyend="-1"/>
+        <referencedby refid="class_ship_resource_1_1_fuel_1a8c78b3a9c90e9a8ddba95561daf9e680" compoundref="_ship_resource_8cs" startline="125" endline="129">ShipResource.Fuel.Fuel</referencedby>
+        <referencedby refid="class_ship_data_1a20689e90fdfd3f45d66864608eded55b" compoundref="_ship_data_8cs" startline="110" endline="123">ShipData.ThrustFuelConsumptionCalculation</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_ship_resource_1_1_fuel_1a12544e65bc2cfb371f6c060ba9ae0165" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float ShipResource.Fuel.TankCapaicty</definition>
+        <argsstring></argsstring>
+        <name>TankCapaicty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" line="112" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" bodystart="113" bodyend="-1"/>
+        <referencedby refid="class_ship_resource_1_1_fuel_1a8c78b3a9c90e9a8ddba95561daf9e680" compoundref="_ship_resource_8cs" startline="125" endline="129">ShipResource.Fuel.Fuel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ship_resource_1_1_fuel_1a8c78b3a9c90e9a8ddba95561daf9e680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ShipResource.Fuel.Fuel</definition>
+        <argsstring>(float currentFuelAmount, float tankCapaicty)</argsstring>
+        <name>Fuel</name>
+        <param>
+          <type>float</type>
+          <declname>currentFuelAmount</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tankCapaicty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" line="125" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" bodystart="125" bodyend="129"/>
+        <references refid="class_ship_resource_1_1_fuel_1a8a3632a044e7e22628cb2c35145e6faa" compoundref="_ship_resource_8cs" startline="97">ShipResource.Fuel.currentFuelAmount</references>
+        <references refid="class_ship_resource_1_1_fuel_1a174431f3493df1f23b03790633c51459" compoundref="_ship_resource_8cs" startline="101">ShipResource.Fuel.CurrentFuelAmount</references>
+        <references refid="class_ship_resource_1_1_fuel_1a9d6db6abf9e7d3fd74a549102f9a3c5c" compoundref="_ship_resource_8cs" startline="98">ShipResource.Fuel.tankCapaicty</references>
+        <references refid="class_ship_resource_1_1_fuel_1a12544e65bc2cfb371f6c060ba9ae0165" compoundref="_ship_resource_8cs" startline="113">ShipResource.Fuel.TankCapaicty</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" line="96" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" bodystart="95" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_ship_resource_1_1_fuel_1a8a3632a044e7e22628cb2c35145e6faa" prot="private" virt="non-virtual"><scope>ShipResource::Fuel</scope><name>currentFuelAmount</name></member>
+      <member refid="class_ship_resource_1_1_fuel_1a174431f3493df1f23b03790633c51459" prot="public" virt="non-virtual"><scope>ShipResource::Fuel</scope><name>CurrentFuelAmount</name></member>
+      <member refid="class_ship_resource_1_1_fuel_1a8c78b3a9c90e9a8ddba95561daf9e680" prot="public" virt="non-virtual"><scope>ShipResource::Fuel</scope><name>Fuel</name></member>
+      <member refid="class_ship_resource_1_1_fuel_1a9d6db6abf9e7d3fd74a549102f9a3c5c" prot="private" virt="non-virtual"><scope>ShipResource::Fuel</scope><name>tankCapaicty</name></member>
+      <member refid="class_ship_resource_1_1_fuel_1a12544e65bc2cfb371f6c060ba9ae0165" prot="public" virt="non-virtual"><scope>ShipResource::Fuel</scope><name>TankCapaicty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

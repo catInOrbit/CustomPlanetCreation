@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_simple_kepler_orbits_1_1_attractor_data" kind="class"><name>SimpleKeplerOrbits::AttractorData</name>
+    <member refid="class_simple_kepler_orbits_1_1_attractor_data_1aa5860566fdb1ae9e4ea68a963cecacd3" kind="variable"><name>AttractorObject</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_attractor_data_1ac6820104f1ada6515b30b59a2fc16d7f" kind="variable"><name>AttractorMass</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_attractor_data_1ad855bb511e634b45bc6427d53c3ad280" kind="variable"><name>MaxDistForHyperbolicCase</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_attractor_data_1a5a063c17e2826b269ed934e45617cf1c" kind="variable"><name>GravityConstant</name></member>
+  </compound>
+  <compound refid="class_pro_builder2_1_1_examples_1_1_camera_controls" kind="class"><name>ProBuilder2::Examples::CameraControls</name>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a6a285bba9e1928410dec3f926b82266f" kind="variable"><name>INPUT_MOUSE_SCROLLWHEEL</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a5bbf6a6a22ae7813089082d4587dd921" kind="variable"><name>INPUT_MOUSE_X</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1aee17d6f7e2dfbb555110b6d09b07e775" kind="variable"><name>INPUT_MOUSE_Y</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1ac6a508b0d47d95883985946207deb733" kind="variable"><name>MIN_CAM_DISTANCE</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a5c9006246bd3b4bfad1517d304d8d0d2" kind="variable"><name>MAX_CAM_DISTANCE</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1aa3138c514f96dd2a40b4ff1ae4594810" kind="variable"><name>distance</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a878ae726b76b0fed12d7432b3cefc125" kind="variable"><name>dir</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1ac10d0f35c46819d377aa5f19acbb0748" kind="variable"><name>orbitSpeed</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1a4a3dfd53c9f0ecbdb45fbadd15bc0e37" kind="variable"><name>zoomSpeed</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1ad4ce671ea06571aca14be34017a27b0a" kind="variable"><name>idleRotation</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1aef0897138b5cb26d0ce98d644cfae232" kind="function"><name>Start</name></member>
+    <member refid="class_pro_builder2_1_1_examples_1_1_camera_controls_1aeb8478128895665df6327d73410c0e98" kind="function"><name>LateUpdate</name></member>
+  </compound>
+  <compound refid="class_gravitational_pull" kind="class"><name>GravitationalPull</name>
+    <member refid="class_gravitational_pull_1a979f587897f22b67ed7ce7743861d007" kind="variable"><name>gameObjects</name></member>
+    <member refid="class_gravitational_pull_1a815c85a116e09513f52ce42f1c268244" kind="variable"><name>forceAmount</name></member>
+    <member refid="class_gravitational_pull_1aa28b2ac993e8a3d80b549564d598e3fa" kind="variable"><name>gravityUpscaleFactor</name></member>
+    <member refid="class_gravitational_pull_1a96f14ebd67132132ad3bf232bc544c8f" kind="variable"><name>gravityConstant</name></member>
+    <member refid="class_gravitational_pull_1a84d33c7056844d7066b76f62ab140dee" kind="variable"><name>gravityVector</name></member>
+    <member refid="class_gravitational_pull_1ad2936808ea6dac61bc0caa9ac40082d6" kind="variable"><name>difference</name></member>
+    <member refid="class_gravitational_pull_1a531404d5d2bbebd756bf21602940a29c" kind="variable"><name>gravity</name></member>
+    <member refid="class_gravitational_pull_1a3d434d08590b0c36d54ec5ca6f096870" kind="variable"><name>radiusBetweenBody</name></member>
+    <member refid="class_gravitational_pull_1a29542ebc007d41fa27949f9bfec7cb99" kind="property"><name>ForceAmount</name></member>
+    <member refid="class_gravitational_pull_1a22b56673f94a8382559f71875f336b6f" kind="property"><name>GravityUpscaleFactor</name></member>
+    <member refid="class_gravitational_pull_1a7563ffd468aa20067e486b2d0a9d79e6" kind="property"><name>GravityConstant</name></member>
+    <member refid="class_gravitational_pull_1a90a5ba643d24e611c1dbd32e3ac50a35" kind="property"><name>GravityVector</name></member>
+    <member refid="class_gravitational_pull_1a25caa9dcc33cb50924d036d9c25d5741" kind="property"><name>Difference</name></member>
+    <member refid="class_gravitational_pull_1a40189356b3dac5d9ec18b74e583b6fbf" kind="property"><name>Gravity</name></member>
+    <member refid="class_gravitational_pull_1a06d68ce7b5754f151821f88c6b66732d" kind="property"><name>RadiusBetweenBody</name></member>
+    <member refid="class_gravitational_pull_1a92ec4c0398252510c0258ecc5b68d543" kind="function"><name>Update</name></member>
+    <member refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" kind="function"><name>GravitationalEffect</name></member>
+  </compound>
+  <compound refid="class_highlight_nearest_face" kind="class"><name>HighlightNearestFace</name>
+    <member refid="class_highlight_nearest_face_1a70daafe74b69299b65d8bb59fce02836" kind="variable"><name>travel</name></member>
+    <member refid="class_highlight_nearest_face_1a1f587bbe7223fca263404957f1707f98" kind="variable"><name>speed</name></member>
+    <member refid="class_highlight_nearest_face_1a4bb179f162406385f771eb3fcaf79360" kind="variable"><name>target</name></member>
+    <member refid="class_highlight_nearest_face_1a845764ec101817ef7a35bc1c689448dd" kind="variable"><name>nearest</name></member>
+    <member refid="class_highlight_nearest_face_1ac5940a2a9177eeab906c718a2ce911b2" kind="function"><name>Start</name></member>
+    <member refid="class_highlight_nearest_face_1a32cca7fec33a461bb798679d578188dd" kind="function"><name>Update</name></member>
+    <member refid="class_highlight_nearest_face_1a5fd4e1ca58040bbef73df35d32f3dce1" kind="function"><name>FaceCenter</name></member>
+  </compound>
+  <compound refid="class_simple_kepler_orbits_1_1_kepler_orbit_data" kind="class"><name>SimpleKeplerOrbits::KeplerOrbitData</name>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a358a8e7a54fcfb5ff6e3ee5d8da8ed2d" kind="variable"><name>GravConst</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2c05e2b9af2f2934dd1fd560ad8f404d" kind="variable"><name>EclipticNormal</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac643550a2313b63026a7bbf4c724f2e5" kind="variable"><name>EclipticUp</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ad885ae56c6ab7d6a210d0e39ede19fec" kind="variable"><name>Position</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a757b520d1b523be37e6f21732e90623d" kind="variable"><name>AttractorDistance</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a03650925ea1005f13ac8034d993474ea" kind="variable"><name>AttractorMass</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" kind="variable"><name>Velocity</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af51316488b8c408f1d33d11785571221" kind="variable"><name>SemiMinorAxis</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" kind="variable"><name>SemiMajorAxis</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2009cd8a18c9f7da1a848906af041a3e" kind="variable"><name>FocalParameter</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" kind="variable"><name>Eccentricity</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6bb821fdabe0bb10cb1a873b20c1a1c5" kind="variable"><name>EnergyTotal</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7d51a4ad0cb15d58a5c6bb86f9534e0f" kind="variable"><name>Period</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2507663e88104dbe7851cccaae03c74b" kind="variable"><name>TrueAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" kind="variable"><name>MeanAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" kind="variable"><name>EccentricAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2d2b2a12015e5610662e0adb5b731db2" kind="variable"><name>SquaresConstant</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2a0cfd71926c01c572e3900a1129bd2f" kind="variable"><name>Periapsis</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ae6fbe75f14eb5af4f7dde6d129b00f" kind="variable"><name>PeriapsisDistance</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a14f967b18bbd68af09d53d095fa2391c" kind="variable"><name>Apoapsis</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac187325e398fa7c6a43a1cf21ef5d1cc" kind="variable"><name>ApoapsisDistance</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" kind="variable"><name>CenterPoint</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1d80d3ee83b8a975decb80f54655365b" kind="variable"><name>OrbitCompressionRatio</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ce15cb040884e8378b819af091d6d83" kind="variable"><name>OrbitNormal</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a44baa6b508dd0d09ccc9ad4a4a7736d6" kind="variable"><name>SemiMinorAxisBasis</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8f5e372f62db83e340971f1bdd2a10ac" kind="variable"><name>SemiMajorAxisBasis</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2cb49ebfe500ff859bca27c3f00848de" kind="variable"><name>Inclination</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aa7fb10eb03b8e0ad700e2f2de705b12c" kind="variable"><name>OrbitNormalDotEclipticNormal</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2732037edfb50b779a62e93e73459e3e" kind="property"><name>IsValidOrbit</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" kind="function"><name>CalculateNewOrbitData</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afbfa6e97f699ba6301a0e391f2cc453d" kind="function"><name>GetVelocityAtEccentricAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" kind="function"><name>GetVelocityAtTrueAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4ae33a91b11da3cf083ba90cedc44855" kind="function"><name>GetCentralPositionAtTrueAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" kind="function"><name>GetCentralPositionAtEccentricAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" kind="function"><name>GetFocalPositionAtEccentricAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ae283e2cd5dc2687709d13adab4d961c9" kind="function"><name>GetFocalPositionAtTrueAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3d48bc4f898706d4ccacb3345048d6a8" kind="function"><name>GetCentralPosition</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6f2021b5b0af4bef34c35ef6ba84ea7a" kind="function"><name>GetOrbitPoints</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" kind="function"><name>GetOrbitPoints</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a77c0275101a8827e8641527102238d7c" kind="function"><name>GetOrbitPoints</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aeaaa415d6caa29bb22e9aae24c15948b" kind="function"><name>GetOrbitPoints</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" kind="function"><name>GetOrbitPointsNoAlloc</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cec428a7c32a01ba04c86ca61392cc6" kind="function"><name>GetAscendingNode</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" kind="function"><name>GetAscendingNode</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8efdb2fb9f04cc6d27f7dea150545cea" kind="function"><name>GetDescendingNode</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" kind="function"><name>GetDescendingNode</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a54d8d05f3cc624d49dde9a014cf3e27e" kind="function"><name>UpdateOrbitDataByTime</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" kind="function"><name>UpdateOrbitAnomaliesByTime</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" kind="function"><name>SetPositionByCurrentAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" kind="function"><name>SetVelocityByCurrentAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" kind="function"><name>SetEccentricity</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" kind="function"><name>SetMeanAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" kind="function"><name>SetTrueAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" kind="function"><name>SetEccentricAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a04ee5dce43b5a4963cf4529298c0b9c0" kind="function"><name>RotateOrbit</name></member>
+  </compound>
+  <compound refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display" kind="class"><name>SimpleKeplerOrbits::KeplerOrbitLineDisplay</name>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a55fed312027ef73722b53b2561f647f1" kind="variable"><name>OrbitPointsCount</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1aa00f35b5bf1cbfbae08a026e1d8aaf0f" kind="variable"><name>MaxOrbitWorldUnitsDistance</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a2d8b5a141ad8f40b46188615ab03915f" kind="variable"><name>LineRendererReference</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a8994e653d15d0c00293ed03438aa539d" kind="variable"><name>ShowOrbitGizmoInEditor</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a1b5ee42b6ba4b282e8ab9bd635a4cfb2" kind="variable"><name>ShowOrbitGizmoWhileInPlayMode</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1ab0fb663bc25994c26e279eae833d9c40" kind="variable"><name>_moverReference</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a96e8ed2e872d51627dbcbfcf105549ee" kind="variable"><name>_orbitPoints</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a5d2cba7147568efe9bd877b991d586cc" kind="function"><name>OnEnable</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afe8927b0f818507e21ccaced3bb9deba" kind="function"><name>LateUpdate</name></member>
+  </compound>
+  <compound refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kind="class"><name>SimpleKeplerOrbits::KeplerOrbitMover</name>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a842f3ee2531e850dba80034018f7bbf2" kind="variable"><name>AttractorSettings</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1aa97d93b93fd937e7342cb3459321c59e" kind="variable"><name>VelocityHandle</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1abe6ddc73952775e7f76c1582c3e1a797" kind="variable"><name>TimeScale</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" kind="variable"><name>OrbitData</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a96a32a5a0c90ff5996e9aa3d0cc3403c" kind="variable"><name>LockOrbitEditing</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a53d7cd831bc70230431427cf5740107e" kind="property"><name>IsReferencesAsigned</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a2ac8472ee56142b340f17421bce9e6f2" kind="function"><name>OnEnable</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" kind="function"><name>Update</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a01f36038697d24520929f8b1f63b2d10" kind="function"><name>OrbitUpdateLoop</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab814b57883948d2d89e020cfebcde1e8" kind="function"><name>CreateNewOrbitFromPositionAndVelocity</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a7f110d5c386a6c441a3a980392d97113" kind="function"><name>ForceUpdateViewFromInternalState</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a54b0b385c1132970f36170e75102215d" kind="function"><name>ForceUpdateOrbitData</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a3d6272f69c4932b93a9176957025a60f" kind="function"><name>SetAutoCircleOrbit</name></member>
+  </compound>
+  <compound refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils" kind="class"><name>SimpleKeplerOrbits::KeplerOrbitUtils</name>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" kind="variable"><name>PI_2</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aaaa91101232c43a764cd4e252d924381" kind="variable"><name>Deg2Rad</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a5227260f08aa8f193d4c443bd5b5cd01" kind="variable"><name>Rad2Deg</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ac0169cdf0378a83c45fb9c8de29cb009" kind="variable"><name>Epsilon</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aace2f0cd22db4165eef2b1895018af31" kind="function"><name>Acosh</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a51c0621b6496d8a069b0fd4121c50e7c" kind="function"><name>GetRayPlaneIntersectionPoint</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ac04a1060397dff978457fb8f0e6e1d9a" kind="function"><name>RotateVectorByAngle</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ab51972afbbdb98bb2903107cd1997ef9" kind="function"><name>RotateVectorByAngle</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afa8be8fe239070d1f508db00054c840f" kind="function"><name>DotProduct</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a8e0ce0b15c451f9ef76d11f881f3cf6f" kind="function"><name>DotProduct</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a842d46e2323cc1a16b8305e2c7a48123" kind="function"><name>CrossProduct</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a43dcd5c1f652ee62930c16e56547e35a" kind="function"><name>CrossProduct</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1accd6d913d4e91b13ce7a762ca5d5e423" kind="function"><name>CalcCircleOrbitVelocity</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1accfe1af556245e04f40d81aad19dabeb" kind="function"><name>CalcCircleOrbitVelocity</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aef546a0bd604f5a64d067aa75dcb9a33" kind="function"><name>CalcOrbitPoints</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a87c8f20623e46dc9c49dd430ef7e2eb9" kind="function"><name>CalcCenterOfMass</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a0754b03cc7dc247ccde45df2f4dc714d" kind="function"><name>CalcCenterOfMass</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afc5aec0e29b02cb18320dbe774763f7d" kind="function"><name>ConvertEccentricToTrueAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afdace01b04f45de666bb54ac04a2bcc5" kind="function"><name>ConvertTrueToEccentricAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1af3d28c527844e613bae1bdf85500cb7a" kind="function"><name>ConvertMeanToEccentricAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a4cd46dad2a64957cd78cb8fc8b5a11eb" kind="function"><name>ConvertEccentricToMeanAnomaly</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a82edc70d78c23830fc6847d843815f84" kind="function"><name>CalcTrueAnomalyForDistance</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a180ffb5c492879d67c26855927ecd3c6" kind="function"><name>KeplerSolver</name></member>
+    <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a4c1f546c3d5821b47689348798ac1ac2" kind="function"><name>KeplerSolverHyperbolicCase</name></member>
+  </compound>
+  <compound refid="class_orbital_maneuver" kind="class"><name>OrbitalManeuver</name>
+    <member refid="class_orbital_maneuver_1a0b443a8d421622374c0b3594fc027c4d" kind="function"><name>Start</name></member>
+    <member refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="class_orbit_line_renderer_test" kind="class"><name>OrbitLineRendererTest</name>
+    <member refid="class_orbit_line_renderer_test_1a4b349466f65dad8776e1a346e7852dc4" kind="variable"><name>mainParentBody</name></member>
+    <member refid="class_orbit_line_renderer_test_1ae679469eed6ba71af4fd1b3f0f7b0ea5" kind="variable"><name>res</name></member>
+    <member refid="class_orbit_line_renderer_test_1a77815f1d21ec2388fe756995351cb16a" kind="variable"><name>theta</name></member>
+    <member refid="class_orbit_line_renderer_test_1ab761835eb9848c1405e241f283b87201" kind="variable"><name>gConstant</name></member>
+    <member refid="class_orbit_line_renderer_test_1aad22a8ccfa12a2d2d756e9a8ca5253e6" kind="variable"><name>angleTest</name></member>
+    <member refid="class_orbit_line_renderer_test_1aa433414317ad7fefd1de9e0ef7a4b078" kind="variable"><name>semiMajorAxis</name></member>
+    <member refid="class_orbit_line_renderer_test_1a73b1df6fc911b255fdc3e4af47c1bffb" kind="variable"><name>semiMinorAxis</name></member>
+    <member refid="class_orbit_line_renderer_test_1ac197c429c74fca916d7ecf4e99df74ec" kind="variable"><name>orbitPeriod</name></member>
+    <member refid="class_orbit_line_renderer_test_1a42fd248b439bf3674a32fe4d6bf02071" kind="variable"><name>eccentricity</name></member>
+    <member refid="class_orbit_line_renderer_test_1a274833459ae7c20eb36b88a656f63b20" kind="variable"><name>orbitCenter</name></member>
+    <member refid="class_orbit_line_renderer_test_1abc554bf0e3b2d45dc87f188db7d855e1" kind="variable"><name>calculateOrbit</name></member>
+    <member refid="class_orbit_line_renderer_test_1a6ef86a92ee6b8168889ab1a255d89f89" kind="variable"><name>h</name></member>
+    <member refid="class_orbit_line_renderer_test_1afe0ee785413ef8af8e68d003d0b085c5" kind="variable"><name>k</name></member>
+    <member refid="class_orbit_line_renderer_test_1a84bd24c5fe5ce238fc12ca44fc707cda" kind="variable"><name>positions</name></member>
+    <member refid="class_orbit_line_renderer_test_1ac3f3a1afac3854416179eedf26b5ea59" kind="variable"><name>q</name></member>
+    <member refid="class_orbit_line_renderer_test_1aaf6a4976f30b06eb99134b2384fd6518" kind="variable"><name>lineRenderer</name></member>
+    <member refid="class_orbit_line_renderer_test_1a580cbd55b02cad84839dac8c77b8efb8" kind="variable"><name>gravityTest</name></member>
+    <member refid="class_orbit_line_renderer_test_1a47625e7bc421871334e8cdd689032504" kind="function"><name>Start</name></member>
+    <member refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" kind="function"><name>Update</name></member>
+    <member refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" kind="function"><name>OneTimeCalculation</name></member>
+    <member refid="class_orbit_line_renderer_test_1a13d404c5d859b5003d5088f6a220ea57" kind="function"><name>SignedAngle</name></member>
+  </compound>
+  <compound refid="class_test" kind="class"><name>Test</name>
+    <member refid="class_test_1a50e55647e755da43df494b76b459182d" kind="variable"><name>a</name></member>
+    <member refid="class_test_1ad5b7b994eee1d83deb055cad286c6e55" kind="variable"><name>b</name></member>
+    <member refid="class_test_1a66abc337729d19df542d45f8b50945f9" kind="variable"><name>h</name></member>
+    <member refid="class_test_1a7e9e9e30cedc0b3c07116320c74353e0" kind="variable"><name>k</name></member>
+    <member refid="class_test_1af7c76974cc996d62b821c558917cbfa2" kind="variable"><name>theta</name></member>
+    <member refid="class_test_1a2f08f27f3cda89065085bf419330a3d7" kind="variable"><name>resolution</name></member>
+    <member refid="class_test_1a8d12496f8304827362b0beb15cb945b0" kind="variable"><name>distanceBtFocus</name></member>
+    <member refid="class_test_1a3f8ef35860b9621746a210bc7f4d7ae9" kind="variable"><name>focuesAngle</name></member>
+    <member refid="class_test_1ac5a643b909cc99c1eabcc310c45a7bf1" kind="variable"><name>centerX</name></member>
+    <member refid="class_test_1a8170f450e51bfceded16673c1bc3e288" kind="variable"><name>centerY</name></member>
+    <member refid="class_test_1a4d702e10a83aa1dec28d36e0caa094f8" kind="variable"><name>initialVelocity</name></member>
+    <member refid="class_test_1a8c160e13bb7a830def9ea11c8df720a6" kind="variable"><name>angle</name></member>
+    <member refid="class_test_1afef2e2304c4aa12b8c26732d5a22d645" kind="variable"><name>time</name></member>
+    <member refid="class_test_1ad76d377f88131b4d89e02644495afc3d" kind="variable"><name>gravity</name></member>
+    <member refid="class_test_1a92e1cf22d959fb624f2ffc20d891c6bb" kind="variable"><name>locus1</name></member>
+    <member refid="class_test_1a8379a2e36358cbea069ddb15279c3b15" kind="variable"><name>locus2</name></member>
+    <member refid="class_test_1a879eda1cf529c200848c38e51bbce97e" kind="variable"><name>center</name></member>
+    <member refid="class_test_1a6d94522e4f08dbec154dac1338132962" kind="variable"><name>positions</name></member>
+    <member refid="class_test_1ab0eb1f41baad3cb7ae1ad1dc17c4a3bc" kind="function"><name>Update</name></member>
+    <member refid="class_test_1a55fd725eae687a61c4147c3ab8953468" kind="function"><name>CreateEllipse</name></member>
+    <member refid="class_test_1a76e480bfd3a44edb503710987a6997a9" kind="function"><name>CreateEllipse2</name></member>
+    <member refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" kind="function"><name>FO</name></member>
+  </compound>
+  <compound refid="class_time_scaling" kind="class"><name>TimeScaling</name>
+    <member refid="class_time_scaling_1a97a2d233fa3eb3cd0eb960e01377b704" kind="function"><name>Start</name></member>
+    <member refid="class_time_scaling_1afda3362264ba89824ee0c1f1a4fd5375" kind="function"><name>Update</name></member>
+  </compound>
+  <compound refid="struct_unity_engine_1_1_vector3d" kind="struct"><name>UnityEngine::Vector3d</name>
+    <member refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" kind="variable"><name>x</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" kind="variable"><name>y</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" kind="variable"><name>z</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a2404ef1456e1698870aced7aca401ea1" kind="property"><name>this[int index]</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1af2eb6813876df8f6a008cc3765b82fb3" kind="property"><name>normalized</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1aadaa05dc710361cb4c0439d71f8d5fbb" kind="property"><name>magnitude</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a3ba4dc6ef6b28ecfe0029dc8ab4133ea" kind="property"><name>sqrMagnitude</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1af21fc14abc86a1564b9d2975d7df5b5e" kind="property"><name>zero</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1ae8ff159d07536c34567c3673315d5204" kind="property"><name>one</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a509b358cb68d4c6a40163f88a7e7bc18" kind="property"><name>forward</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a49630b1457f154afafb80599389973d7" kind="property"><name>back</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1accc4bb3fa788895b2e3ba9f61ddc60ca" kind="property"><name>up</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a5831720b3de2cea092d71c41c7224f4f" kind="property"><name>down</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1acf353751598258aa42288d66a3e378c7" kind="property"><name>left</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1af9eef3de2cdf5153f8aafdf805c9775a" kind="property"><name>right</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a04acb0f65939bdd654ef5c70e024a1ac" kind="property"><name>fwd</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" kind="function"><name>Vector3d</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a620418a1ce20c867b208f1ac0db8327d" kind="function"><name>Vector3d</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a8be95a112a4e662b16c019ff5be29a55" kind="function"><name>Vector3d</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a02d3241c9b857c4647e0c634dc602c1a" kind="function"><name>Vector3d</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a21b1dc44b2ccc63821c1ac1f7467f0cd" kind="function"><name>Set</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1ad22192035a213ca8022dfc98c1412041" kind="function"><name>Scale</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1acb727809084d322580684c8eb24acab7" kind="function"><name>GetHashCode</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1abfd4ffa4f51c5b6713f7f833ae8b85a2" kind="function"><name>Equals</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a84aec1e9e703eb3286028ed518af4c71" kind="function"><name>Normalize</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a92880ca24fc30ca5fbfc04a93a99d837" kind="function"><name>ToString</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1aa5e5a456eecc7e3fed79d3b4089842e6" kind="function"><name>ToString</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1af39f26741114eb1a2bc568575e023aff" kind="function"><name>operator+</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1aba72953258f8018bcc9add86691626d4" kind="function"><name>operator-</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1acad45715104521282736f9b6e46f9065" kind="function"><name>operator-</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1aaa34740e2dc031ee004732b71a15e8c7" kind="function"><name>operator*</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a41bbe6bedd730d92560d0cbcb6c6fd16" kind="function"><name>operator*</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a96ae9471376cf81626241d4634574ebc" kind="function"><name>operator/</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a73f60b5dd72497a724606d134c4c9a1a" kind="function"><name>operator==</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a6666f7c28524384b2929a7e41d71978a" kind="function"><name>operator!=</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1add8275b06ebc0a571b143b8b96b3f1f6" kind="function"><name>operator Vector3</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a4d4d59e9c5bdb96e75cb22a9a6b2714c" kind="function"><name>operator Vector2</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1adc2ba969a9b59afcc12862e008e5662a" kind="function"><name>Lerp</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a2a680d415e8ad6d100aef838d73a71d9" kind="function"><name>Slerp</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1aa627f58e5e64da8c3106df10f40ea8a0" kind="function"><name>OrthoNormalize</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a65cedffcca4af2faf8a0c43e74b48967" kind="function"><name>OrthoNormalize</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a725d6c801b1eb7d7395ede7b630d994d" kind="function"><name>MoveTowards</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a879c68adefb7c05e678bb7ef3331ddd9" kind="function"><name>RotateTowards</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1af0d5c130168731e106ee29cd28b4fcad" kind="function"><name>SmoothDamp</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a6113aa76098dd0da6220b80b4a6464c3" kind="function"><name>SmoothDamp</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a1ded5a47fb1d44849038b5268528d4e2" kind="function"><name>SmoothDamp</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1ad926a6c3cd992e7a5a32a40eea40aebd" kind="function"><name>Scale</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1ad5a28b0a65ef2e9114f62e397f28f608" kind="function"><name>Cross</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1ab71006fd2f778bade341ba37d3f4e807" kind="function"><name>Reflect</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a007c5bade10091de4c20e489431ce649" kind="function"><name>Normalize</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a1c742f5fd820a524c50f519fec2a20ba" kind="function"><name>Dot</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1afc3abae39968f726fa67005bb0fce7fc" kind="function"><name>Project</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a263b1eb55f5d6532b12a626bc3d71de2" kind="function"><name>Exclude</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a26384a77846e070e38446963b2fb2729" kind="function"><name>Distance</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a00aa99b9411480c0a046a946a842dbdb" kind="function"><name>ClampMagnitude</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a702768ab20d952a18dd33b3562df9cb6" kind="function"><name>Angle</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a0512c73fb2df85212fa16f764f8df2e8" kind="function"><name>Magnitude</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a8cd9b037f522d8563af401f7e3b59e75" kind="function"><name>SqrMagnitude</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1ae4576ef2e5181d8c81df5e7c4af22dbc" kind="function"><name>Min</name></member>
+    <member refid="struct_unity_engine_1_1_vector3d_1a5538dd876f4367f1111f47b01a8099ef" kind="function"><name>Max</name></member>
+  </compound>
+  <compound refid="namespace_pro_builder2" kind="namespace"><name>ProBuilder2</name>
+  </compound>
+  <compound refid="namespace_pro_builder2_1_1_common" kind="namespace"><name>ProBuilder2::Common</name>
+  </compound>
+  <compound refid="namespace_pro_builder2_1_1_examples" kind="namespace"><name>ProBuilder2::Examples</name>
+  </compound>
+  <compound refid="namespace_simple_kepler_orbits" kind="namespace"><name>SimpleKeplerOrbits</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections" kind="namespace"><name>System::Collections</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="_gravitational_pull_8cs" kind="file"><name>GravitationalPull.cs</name>
+  </compound>
+  <compound refid="_orbital_maneuver_8cs" kind="file"><name>OrbitalManeuver.cs</name>
+  </compound>
+  <compound refid="_orbit_line_renderer_test_8cs" kind="file"><name>OrbitLineRendererTest.cs</name>
+  </compound>
+  <compound refid="_camera_controls_8cs" kind="file"><name>CameraControls.cs</name>
+  </compound>
+  <compound refid="_ico_bumpin_8cs" kind="file"><name>IcoBumpin.cs</name>
+  </compound>
+  <compound refid="_hue_cube_8cs" kind="file"><name>HueCube.cs</name>
+  </compound>
+  <compound refid="_extrude_random_edges_8cs" kind="file"><name>ExtrudeRandomEdges.cs</name>
+  </compound>
+  <compound refid="_runtime_edit_8cs" kind="file"><name>RuntimeEdit.cs</name>
+  </compound>
+  <compound refid="_highlight_nearest_face_8cs" kind="file"><name>HighlightNearestFace.cs</name>
+  </compound>
+  <compound refid="_kepler_orbit_line_display_8cs" kind="file"><name>KeplerOrbitLineDisplay.cs</name>
+  </compound>
+  <compound refid="_kepler_orbit_mover_8cs" kind="file"><name>KeplerOrbitMover.cs</name>
+  </compound>
+  <compound refid="_attractor_data_8cs" kind="file"><name>AttractorData.cs</name>
+  </compound>
+  <compound refid="_kepler_orbit_data_8cs" kind="file"><name>KeplerOrbitData.cs</name>
+  </compound>
+  <compound refid="_vector3d_8cs" kind="file"><name>Vector3d.cs</name>
+  </compound>
+  <compound refid="_kepler_orbit_utils_8cs" kind="file"><name>KeplerOrbitUtils.cs</name>
+  </compound>
+  <compound refid="_test_8cs" kind="file"><name>Test.cs</name>
+  </compound>
+  <compound refid="_time_scaling_8cs" kind="file"><name>TimeScaling.cs</name>
+  </compound>
+  <compound refid="dir_098e6d084079951d83b15e7e4cf594c8" kind="dir"><name>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples</name>
+  </compound>
+  <compound refid="dir_ad6849a23cd1581c88bb34e8667c3466" kind="dir"><name>C:/Uniprj/Centauri/Assets</name>
+  </compound>
+  <compound refid="dir_3be56033a1120b49a9663cf6e6d68b0a" kind="dir"><name>C:/Uniprj/Centauri</name>
+  </compound>
+  <compound refid="dir_5ff1e7746af32c120410368122f2f207" kind="dir"><name>C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components</name>
+  </compound>
+  <compound refid="dir_a579f802700424eac9ce16210413a77a" kind="dir"><name>C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data</name>
+  </compound>
+  <compound refid="dir_4622501e1966d7112ea3d33aa23905f6" kind="dir"><name>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT</name>
+  </compound>
+  <compound refid="dir_48042355b54ac0ccb0a4063cc87d1bfd" kind="dir"><name>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Misc</name>
+  </compound>
+  <compound refid="dir_c0c6d5946c060aaa40bc733693c74cde" kind="dir"><name>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder</name>
+  </compound>
+  <compound refid="dir_352e036469d54ed083c3a3e75059101d" kind="dir"><name>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Procedural Mesh</name>
+  </compound>
+  <compound refid="dir_b0038ab32bc62fba7fb780ca8e9608d6" kind="dir"><name>C:/Uniprj/Centauri/Assets/ProCore</name>
+  </compound>
+  <compound refid="dir_955d7a353d0998784d6119b9fc913f2a" kind="dir"><name>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Runtime Editing</name>
+  </compound>
+  <compound refid="dir_025675ef18e06bee1ed2b8521ea98171" kind="dir"><name>C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts</name>
+  </compound>
+  <compound refid="dir_685cff2644d34394c649b9b3eed0c81c" kind="dir"><name>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts</name>
+  </compound>
+  <compound refid="dir_ce7c5fcf9e9317886abaabc71f4439c8" kind="dir"><name>C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits</name>
+  </compound>
+  <compound refid="dir_2e0266405d61f1795af834bfab0ef0b7" kind="dir"><name>C:/Uniprj</name>
+  </compound>
+  <compound refid="dir_1f80355fc7dfea04f74b90a1c8915eea" kind="dir"><name>C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils</name>
+  </compound>
+  <compound refid="dir_76ed1d9ada1318203f2a030f267e9689" kind="dir"><name>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors</name>
+  </compound>
+</doxygenindex>

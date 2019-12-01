@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_bounding_box" kind="class" prot="public">
+    <compoundname>BoundingBox</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_bounding_box_1a61973681509cd24032bbd66d7bb215ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>String</type>
+        <definition>String BoundingBox.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_bounding_box_1a1cd9af9d6f86375d7bc34a9d1c59b064" compoundref="_bounding_box_8cs" startline="21" endline="24">OnTouchExit</referencedby>
+        <referencedby refid="class_bounding_box_1af18bd5169fbe6b4fb6377c4b80782f38" compoundref="_bounding_box_8cs" startline="11" endline="14">OnTouchStay</referencedby>
+        <referencedby refid="class_bounding_box_1a3fd1321e96565a73aa3c8aeb25cd4508" compoundref="_bounding_box_8cs" startline="16" endline="19">OnTouchUp</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_bounding_box_1af18bd5169fbe6b4fb6377c4b80782f38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BoundingBox.OnTouchStay</definition>
+        <argsstring>()</argsstring>
+        <name>OnTouchStay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" bodystart="11" bodyend="14"/>
+        <references refid="class_bounding_box_1a61973681509cd24032bbd66d7bb215ea" compoundref="_bounding_box_8cs" startline="9">State</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bounding_box_1a3fd1321e96565a73aa3c8aeb25cd4508" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BoundingBox.OnTouchUp</definition>
+        <argsstring>()</argsstring>
+        <name>OnTouchUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_bounding_box_1a61973681509cd24032bbd66d7bb215ea" compoundref="_bounding_box_8cs" startline="9">State</references>
+      </memberdef>
+      <memberdef kind="function" id="class_bounding_box_1a1cd9af9d6f86375d7bc34a9d1c59b064" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BoundingBox.OnTouchExit</definition>
+        <argsstring>()</argsstring>
+        <name>OnTouchExit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" bodystart="21" bodyend="24"/>
+        <references refid="class_bounding_box_1a61973681509cd24032bbd66d7bb215ea" compoundref="_bounding_box_8cs" startline="9">State</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="63">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="62">
+        <label>BoundingBox</label>
+        <link refid="class_bounding_box"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="65">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="64">
+        <label>BoundingBox</label>
+        <link refid="class_bounding_box"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/BoundingBox.cs" bodystart="7" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_bounding_box_1a1cd9af9d6f86375d7bc34a9d1c59b064" prot="private" virt="non-virtual"><scope>BoundingBox</scope><name>OnTouchExit</name></member>
+      <member refid="class_bounding_box_1af18bd5169fbe6b4fb6377c4b80782f38" prot="private" virt="non-virtual"><scope>BoundingBox</scope><name>OnTouchStay</name></member>
+      <member refid="class_bounding_box_1a3fd1321e96565a73aa3c8aeb25cd4508" prot="private" virt="non-virtual"><scope>BoundingBox</scope><name>OnTouchUp</name></member>
+      <member refid="class_bounding_box_1a61973681509cd24032bbd66d7bb215ea" prot="public" virt="non-virtual"><scope>BoundingBox</scope><name>State</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

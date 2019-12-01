@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_simple_orbit_data_display" kind="class" prot="public">
+    <compoundname>SimpleOrbitDataDisplay</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_simple_orbit_data_display_1af69870e29aacd108f8d3fc056eba16a4" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SimpleOrbitDataDisplay.apoapsis</definition>
+        <argsstring></argsstring>
+        <name>apoapsis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_simple_orbit_data_display_1a350ff86c6ac23d1bf38d7f18204a30aa" compoundref="_simple_orbit_data_display_8cs" startline="24" endline="43">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_orbit_data_display_1acaaa97a09c4bdcad00b83e4a76509f1f" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SimpleOrbitDataDisplay.periapsis</definition>
+        <argsstring></argsstring>
+        <name>periapsis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_simple_orbit_data_display_1a350ff86c6ac23d1bf38d7f18204a30aa" compoundref="_simple_orbit_data_display_8cs" startline="24" endline="43">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_orbit_data_display_1a68edf2bf960ccf055d967568cac1da7c" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SimpleOrbitDataDisplay.orbitDataRectParent</definition>
+        <argsstring></argsstring>
+        <name>orbitDataRectParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_simple_orbit_data_display_1a350ff86c6ac23d1bf38d7f18204a30aa" compoundref="_simple_orbit_data_display_8cs" startline="24" endline="43">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_orbit_data_display_1af5c859961aa487cd748ac978289f1aae" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SimpleOrbitDataDisplay.textScaleAmount</definition>
+        <argsstring></argsstring>
+        <name>textScaleAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_simple_orbit_data_display_1ac65b2024eee6acc860ba29c9a7b3ccb1" compoundref="_simple_orbit_data_display_8cs" startline="51" endline="55">LateUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_simple_orbit_data_display_1aa93e32f4dc3c30071b6420bd6da19b73" prot="private" static="no" mutable="no">
+        <type><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref></type>
+        <definition>KeplerOrbitMover SimpleOrbitDataDisplay.keplerOrbitMover</definition>
+        <argsstring></argsstring>
+        <name>keplerOrbitMover</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_simple_orbit_data_display_1a63f05afea9c75c2e512343dac7d9b491" compoundref="_simple_orbit_data_display_8cs" startline="57" endline="70">ShowSimpleOrbitData</referencedby>
+        <referencedby refid="class_simple_orbit_data_display_1a350ff86c6ac23d1bf38d7f18204a30aa" compoundref="_simple_orbit_data_display_8cs" startline="24" endline="43">Start</referencedby>
+        <referencedby refid="class_simple_orbit_data_display_1a944bd1b6a5e4f66ee501bfd9ae24443f" compoundref="_simple_orbit_data_display_8cs" startline="45" endline="49">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_orbit_data_display_1ac15742f493a6658cebe78797435dd474" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject SimpleOrbitDataDisplay.tracking</definition>
+        <argsstring></argsstring>
+        <name>tracking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_orbit_data_display_1ad52d5ffd5a80beaa8648dd6cd9d43b2c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SimpleOrbitDataDisplay.apoapsisName</definition>
+        <argsstring></argsstring>
+        <name>apoapsisName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_simple_orbit_data_display_1a350ff86c6ac23d1bf38d7f18204a30aa" compoundref="_simple_orbit_data_display_8cs" startline="24" endline="43">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_orbit_data_display_1a14bd5bfcdcbbd0889d1e6b3d29d51b47" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string SimpleOrbitDataDisplay.periapsisName</definition>
+        <argsstring></argsstring>
+        <name>periapsisName</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_simple_orbit_data_display_1a350ff86c6ac23d1bf38d7f18204a30aa" compoundref="_simple_orbit_data_display_8cs" startline="24" endline="43">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_simple_orbit_data_display_1a350ff86c6ac23d1bf38d7f18204a30aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleOrbitDataDisplay.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="24" bodyend="43"/>
+        <references refid="class_simple_orbit_data_display_1af69870e29aacd108f8d3fc056eba16a4" compoundref="_simple_orbit_data_display_8cs" startline="11">apoapsis</references>
+        <references refid="class_simple_orbit_data_display_1ad52d5ffd5a80beaa8648dd6cd9d43b2c" compoundref="_simple_orbit_data_display_8cs" startline="21">apoapsisName</references>
+        <references refid="class_simple_orbit_data_display_1aa93e32f4dc3c30071b6420bd6da19b73" compoundref="_simple_orbit_data_display_8cs" startline="19">keplerOrbitMover</references>
+        <references refid="class_simple_orbit_data_display_1a68edf2bf960ccf055d967568cac1da7c" compoundref="_simple_orbit_data_display_8cs" startline="14">orbitDataRectParent</references>
+        <references refid="class_simple_orbit_data_display_1acaaa97a09c4bdcad00b83e4a76509f1f" compoundref="_simple_orbit_data_display_8cs" startline="12">periapsis</references>
+        <references refid="class_simple_orbit_data_display_1a14bd5bfcdcbbd0889d1e6b3d29d51b47" compoundref="_simple_orbit_data_display_8cs" startline="22">periapsisName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_orbit_data_display_1a944bd1b6a5e4f66ee501bfd9ae24443f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleOrbitDataDisplay.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="45" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="45" bodyend="49"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a14f967b18bbd68af09d53d095fa2391c" compoundref="_kepler_orbit_data_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitData.Apoapsis</references>
+        <references refid="class_simple_orbit_data_display_1aa93e32f4dc3c30071b6420bd6da19b73" compoundref="_simple_orbit_data_display_8cs" startline="19">keplerOrbitMover</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" compoundref="_kepler_orbit_mover_8cs" startline="46">SimpleKeplerOrbits.KeplerOrbitMover.OrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2a0cfd71926c01c572e3900a1129bd2f" compoundref="_kepler_orbit_data_8cs" startline="42">SimpleKeplerOrbits.KeplerOrbitData.Periapsis</references>
+        <references refid="class_simple_orbit_data_display_1a63f05afea9c75c2e512343dac7d9b491" compoundref="_simple_orbit_data_display_8cs" startline="57" endline="70">ShowSimpleOrbitData</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_orbit_data_display_1ac65b2024eee6acc860ba29c9a7b3ccb1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleOrbitDataDisplay.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="51" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="51" bodyend="55"/>
+        <references refid="class_simple_orbit_data_display_1a60cc1b8ad6ebe520f9893a3edc9ce7db" compoundref="_simple_orbit_data_display_8cs" startline="78" endline="82">FaceCamera</references>
+        <references refid="class_simple_orbit_data_display_1aa25bc4190c0690509429fdf2d8a337f0" compoundref="_simple_orbit_data_display_8cs" startline="72" endline="76">ScaleTextWithScreen</references>
+        <references refid="class_simple_orbit_data_display_1af5c859961aa487cd748ac978289f1aae" compoundref="_simple_orbit_data_display_8cs" startline="17">textScaleAmount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_orbit_data_display_1a63f05afea9c75c2e512343dac7d9b491" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleOrbitDataDisplay.ShowSimpleOrbitData</definition>
+        <argsstring>(Vector3 apoapsisObject, Vector3 periapsisObject)</argsstring>
+        <name>ShowSimpleOrbitData</name>
+        <param>
+          <type>Vector3</type>
+          <declname>apoapsisObject</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>periapsisObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="57" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="57" bodyend="70"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac187325e398fa7c6a43a1cf21ef5d1cc" compoundref="_kepler_orbit_data_8cs" startline="45">SimpleKeplerOrbits.KeplerOrbitData.ApoapsisDistance</references>
+        <references refid="class_simple_orbit_data_display_1aa93e32f4dc3c30071b6420bd6da19b73" compoundref="_simple_orbit_data_display_8cs" startline="19">keplerOrbitMover</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1ab5b42a9b16eeb928575d5ee25c9588cd" compoundref="_kepler_orbit_mover_8cs" startline="46">SimpleKeplerOrbits.KeplerOrbitMover.OrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ae6fbe75f14eb5af4f7dde6d129b00f" compoundref="_kepler_orbit_data_8cs" startline="43">SimpleKeplerOrbits.KeplerOrbitData.PeriapsisDistance</references>
+        <referencedby refid="class_simple_orbit_data_display_1a944bd1b6a5e4f66ee501bfd9ae24443f" compoundref="_simple_orbit_data_display_8cs" startline="45" endline="49">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_orbit_data_display_1aa25bc4190c0690509429fdf2d8a337f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleOrbitDataDisplay.ScaleTextWithScreen</definition>
+        <argsstring>(float scaleAmount)</argsstring>
+        <name>ScaleTextWithScreen</name>
+        <param>
+          <type>float</type>
+          <declname>scaleAmount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="72" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="72" bodyend="76"/>
+        <referencedby refid="class_simple_orbit_data_display_1ac65b2024eee6acc860ba29c9a7b3ccb1" compoundref="_simple_orbit_data_display_8cs" startline="51" endline="55">LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_orbit_data_display_1a60cc1b8ad6ebe520f9893a3edc9ce7db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleOrbitDataDisplay.FaceCamera</definition>
+        <argsstring>()</argsstring>
+        <name>FaceCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="78" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="78" bodyend="82"/>
+        <referencedby refid="class_simple_orbit_data_display_1ac65b2024eee6acc860ba29c9a7b3ccb1" compoundref="_simple_orbit_data_display_8cs" startline="51" endline="55">LateUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="643">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="642">
+        <label>SimpleOrbitDataDisplay</label>
+        <link refid="class_simple_orbit_data_display"/>
+        <childnode refid="643" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="652">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="648">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="649" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="646" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="650" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="651" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="652" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="653" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="654" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="655" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="655">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="660">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="657">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="654">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="646">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="647" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="658" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="659" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="645">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="658">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="644">
+        <label>SimpleOrbitDataDisplay</label>
+        <link refid="class_simple_orbit_data_display"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="646" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+      </node>
+      <node id="659">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="660" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="653">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="650">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="649">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="646" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="648" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="647" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="647">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+        <childnode refid="648" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="656" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="657" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="651">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="656">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="645" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SimpleOrbitDataDisplay.cs" bodystart="8" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_simple_orbit_data_display_1af69870e29aacd108f8d3fc056eba16a4" prot="public" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>apoapsis</name></member>
+      <member refid="class_simple_orbit_data_display_1ad52d5ffd5a80beaa8648dd6cd9d43b2c" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>apoapsisName</name></member>
+      <member refid="class_simple_orbit_data_display_1a60cc1b8ad6ebe520f9893a3edc9ce7db" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>FaceCamera</name></member>
+      <member refid="class_simple_orbit_data_display_1aa93e32f4dc3c30071b6420bd6da19b73" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>keplerOrbitMover</name></member>
+      <member refid="class_simple_orbit_data_display_1ac65b2024eee6acc860ba29c9a7b3ccb1" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>LateUpdate</name></member>
+      <member refid="class_simple_orbit_data_display_1a68edf2bf960ccf055d967568cac1da7c" prot="public" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>orbitDataRectParent</name></member>
+      <member refid="class_simple_orbit_data_display_1acaaa97a09c4bdcad00b83e4a76509f1f" prot="public" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>periapsis</name></member>
+      <member refid="class_simple_orbit_data_display_1a14bd5bfcdcbbd0889d1e6b3d29d51b47" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>periapsisName</name></member>
+      <member refid="class_simple_orbit_data_display_1aa25bc4190c0690509429fdf2d8a337f0" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>ScaleTextWithScreen</name></member>
+      <member refid="class_simple_orbit_data_display_1a63f05afea9c75c2e512343dac7d9b491" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>ShowSimpleOrbitData</name></member>
+      <member refid="class_simple_orbit_data_display_1a350ff86c6ac23d1bf38d7f18204a30aa" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>Start</name></member>
+      <member refid="class_simple_orbit_data_display_1af5c859961aa487cd748ac978289f1aae" prot="public" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>textScaleAmount</name></member>
+      <member refid="class_simple_orbit_data_display_1ac15742f493a6658cebe78797435dd474" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>tracking</name></member>
+      <member refid="class_simple_orbit_data_display_1a944bd1b6a5e4f66ee501bfd9ae24443f" prot="private" virt="non-virtual"><scope>SimpleOrbitDataDisplay</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

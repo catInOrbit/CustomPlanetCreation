@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_UpgradeBasicToAdvanced</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced_1a82867a86bcc145cf2c14c3af2fa552e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_UpgradeBasicToAdvanced.MenuUpgradeSceneAdvanced</definition>
+        <argsstring>()</argsstring>
+        <name>MenuUpgradeSceneAdvanced</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_UpgradeBasicToAdvanced.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_UpgradeBasicToAdvanced.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced_1ade756062b5c401378646140957ffe95a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_UpgradeBasicToAdvanced.MenuUpgradeSelectionAdvanced</definition>
+        <argsstring>()</argsstring>
+        <name>MenuUpgradeSelectionAdvanced</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_UpgradeBasicToAdvanced.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_UpgradeBasicToAdvanced.cs" bodystart="27" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced_1a17557f16561eb9a52752b00bf9fbdb30" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_UpgradeBasicToAdvanced.DoUpgrade</definition>
+        <argsstring>(pb_Object[] all)</argsstring>
+        <name>DoUpgrade</name>
+        <param>
+          <type>pb_Object[]</type>
+          <declname>all</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_UpgradeBasicToAdvanced.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_UpgradeBasicToAdvanced.cs" bodystart="37" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu interface for applying materials to pb_Object after upgrading from Basic to Advanced. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="571">
+        <label>Editor</label>
+      </node>
+      <node id="570">
+        <label>ProBuilder2.Actions.pb_UpgradeBasicToAdvanced</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced"/>
+        <childnode refid="571" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="573">
+        <label>Editor</label>
+      </node>
+      <node id="572">
+        <label>ProBuilder2.Actions.pb_UpgradeBasicToAdvanced</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced"/>
+        <childnode refid="573" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_UpgradeBasicToAdvanced.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_UpgradeBasicToAdvanced.cs" bodystart="13" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced_1a17557f16561eb9a52752b00bf9fbdb30" prot="private" virt="non-virtual"><scope>ProBuilder2::Actions::pb_UpgradeBasicToAdvanced</scope><name>DoUpgrade</name></member>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced_1a82867a86bcc145cf2c14c3af2fa552e0" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_UpgradeBasicToAdvanced</scope><name>MenuUpgradeSceneAdvanced</name></member>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced_1ade756062b5c401378646140957ffe95a" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_UpgradeBasicToAdvanced</scope><name>MenuUpgradeSelectionAdvanced</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

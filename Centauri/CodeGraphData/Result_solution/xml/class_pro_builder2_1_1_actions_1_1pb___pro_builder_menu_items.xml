@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___pro_builder_menu_items" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_ProBuilderMenuItems</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Deprecated as of 2.6.0. This file remains only for backwards compatibility; you may safely delete it. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="520">
+        <label>Editor</label>
+      </node>
+      <node id="519">
+        <label>ProBuilder2.Actions.pb_ProBuilderMenuItems</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___pro_builder_menu_items"/>
+        <childnode refid="520" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="522">
+        <label>Editor</label>
+      </node>
+      <node id="521">
+        <label>ProBuilder2.Actions.pb_ProBuilderMenuItems</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___pro_builder_menu_items"/>
+        <childnode refid="522" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Window/pb_ProBuilderMenuItems.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Window/pb_ProBuilderMenuItems.cs" bodystart="15" bodyend="15"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

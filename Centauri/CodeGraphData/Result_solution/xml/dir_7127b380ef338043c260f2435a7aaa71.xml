@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7127b380ef338043c260f2435a7aaa71" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems</compoundname>
+    <innerdir refid="dir_712c025fdb03f5fd9db3b5873f0f42a3">C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions</innerdir>
+    <innerdir refid="dir_5fbfb5717ae759cd075c3d32e6a1ced7">C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry</innerdir>
+    <innerdir refid="dir_f932ae7d2ca13e0625827cdd285dbb81">C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair</innerdir>
+    <innerdir refid="dir_083f051e413f35d137b916e6ce072992">C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Selection</innerdir>
+    <innerdir refid="dir_a005ab2e409a14c04901bf917ebe8820">C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Tools</innerdir>
+    <innerdir refid="dir_632c58b73d66de9a6eee37c910069f10">C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Window</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/"/>
+  </compounddef>
+</doxygen>

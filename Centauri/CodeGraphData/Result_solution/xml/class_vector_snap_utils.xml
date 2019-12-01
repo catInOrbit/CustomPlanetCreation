@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_vector_snap_utils" kind="class" prot="public">
+    <compoundname>VectorSnapUtils</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_vector_snap_utils_1ad164e0c5b2fa2f3821ea33c521eb4f69" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float VectorSnapUtils.GetAngleToCompareVector</definition>
+        <argsstring>(Vector3 targetDirectionVector, Vector3 compareVector)</argsstring>
+        <name>GetAngleToCompareVector</name>
+        <param>
+          <type>Vector3</type>
+          <declname>targetDirectionVector</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>compareVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_vector_snap_utils_1af697befa0de1dc3c4eff29f230eb9cd1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float VectorSnapUtils.GetAngleToVectorRight</definition>
+        <argsstring>(Vector3 targetDirectionVector)</argsstring>
+        <name>GetAngleToVectorRight</name>
+        <param>
+          <type>Vector3</type>
+          <declname>targetDirectionVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" bodystart="22" bodyend="25"/>
+        <referencedby refid="class_vector_snap_utils_1a456f403be5a736d18b2ccc5cc7f3062b" compoundref="_vector_snap_utils_8cs" startline="32" endline="38">CheckHorizontalSnap</referencedby>
+        <referencedby refid="class_vector_snap_utils_1a44c41a2815e101d0f5146678b948a2d4" compoundref="_vector_snap_utils_8cs" startline="40" endline="45">CheckVerticalSnap</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vector_snap_utils_1a10a5154d9b86edd545702c87823799b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float VectorSnapUtils.GetAngleToVectorUp</definition>
+        <argsstring>(Vector3 targetDirectionVector)</argsstring>
+        <name>GetAngleToVectorUp</name>
+        <param>
+          <type>Vector3</type>
+          <declname>targetDirectionVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" bodystart="27" bodyend="30"/>
+        <referencedby refid="class_vector_snap_utils_1a456f403be5a736d18b2ccc5cc7f3062b" compoundref="_vector_snap_utils_8cs" startline="32" endline="38">CheckHorizontalSnap</referencedby>
+        <referencedby refid="class_vector_snap_utils_1a44c41a2815e101d0f5146678b948a2d4" compoundref="_vector_snap_utils_8cs" startline="40" endline="45">CheckVerticalSnap</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_vector_snap_utils_1a456f403be5a736d18b2ccc5cc7f3062b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VectorSnapUtils.CheckHorizontalSnap</definition>
+        <argsstring>(Vector3 direction)</argsstring>
+        <name>CheckHorizontalSnap</name>
+        <param>
+          <type>Vector3</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" bodystart="32" bodyend="38"/>
+        <references refid="class_vector_snap_utils_1af697befa0de1dc3c4eff29f230eb9cd1" compoundref="_vector_snap_utils_8cs" startline="22" endline="25">GetAngleToVectorRight</references>
+        <references refid="class_vector_snap_utils_1a10a5154d9b86edd545702c87823799b4" compoundref="_vector_snap_utils_8cs" startline="27" endline="30">GetAngleToVectorUp</references>
+        <referencedby refid="class_orbital_maneuver_1abca447639499d4207fccb998b1f3fad6" compoundref="_orbital_maneuver_8cs" startline="233" endline="247">OrbitalManeuver.RadialManeuver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vector_snap_utils_1a44c41a2815e101d0f5146678b948a2d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VectorSnapUtils.CheckVerticalSnap</definition>
+        <argsstring>(Vector3 direction)</argsstring>
+        <name>CheckVerticalSnap</name>
+        <param>
+          <type>Vector3</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" bodystart="40" bodyend="45"/>
+        <references refid="class_vector_snap_utils_1af697befa0de1dc3c4eff29f230eb9cd1" compoundref="_vector_snap_utils_8cs" startline="22" endline="25">GetAngleToVectorRight</references>
+        <references refid="class_vector_snap_utils_1a10a5154d9b86edd545702c87823799b4" compoundref="_vector_snap_utils_8cs" startline="27" endline="30">GetAngleToVectorUp</references>
+        <referencedby refid="class_orbital_maneuver_1a07d7de67963f7632a27ba213d72ee61d" compoundref="_orbital_maneuver_8cs" startline="264" endline="279">OrbitalManeuver.ProgradeManeuver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vector_snap_utils_1a6411c662281931f59eca8821cd583327" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VectorSnapUtils.CheckSkewedSnap</definition>
+        <argsstring>(Vector3 direction)</argsstring>
+        <name>CheckSkewedSnap</name>
+        <param>
+          <type>Vector3</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" line="47" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" bodystart="47" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="803">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="802">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="803" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="805">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="804">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="805" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/VectorSnapUtils.cs" bodystart="5" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_vector_snap_utils_1a456f403be5a736d18b2ccc5cc7f3062b" prot="public" virt="non-virtual"><scope>VectorSnapUtils</scope><name>CheckHorizontalSnap</name></member>
+      <member refid="class_vector_snap_utils_1a6411c662281931f59eca8821cd583327" prot="public" virt="non-virtual"><scope>VectorSnapUtils</scope><name>CheckSkewedSnap</name></member>
+      <member refid="class_vector_snap_utils_1a44c41a2815e101d0f5146678b948a2d4" prot="public" virt="non-virtual"><scope>VectorSnapUtils</scope><name>CheckVerticalSnap</name></member>
+      <member refid="class_vector_snap_utils_1ad164e0c5b2fa2f3821ea33c521eb4f69" prot="private" virt="non-virtual"><scope>VectorSnapUtils</scope><name>GetAngleToCompareVector</name></member>
+      <member refid="class_vector_snap_utils_1af697befa0de1dc3c4eff29f230eb9cd1" prot="private" virt="non-virtual"><scope>VectorSnapUtils</scope><name>GetAngleToVectorRight</name></member>
+      <member refid="class_vector_snap_utils_1a10a5154d9b86edd545702c87823799b4" prot="private" virt="non-virtual"><scope>VectorSnapUtils</scope><name>GetAngleToVectorUp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_planet_selection_u_i" kind="class" prot="public">
+    <compoundname>PlanetSelectionUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_planet_selection_u_i_1a8096c8eda77e056ffba729d1db95e7a2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlanetSelectionUI.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_planet_selection_u_i_1a56e80c0923e6e288bafbd04360962aa6" compoundref="_planet_selection_u_i_8cs" startline="21" endline="33">OnTouchStay</referencedby>
+        <referencedby refid="class_planet_selection_u_i_1a9b5798317eb1303b96defe2dc3753a5b" compoundref="_planet_selection_u_i_8cs" startline="40" endline="44">SetFocusExitConditions</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_planet_selection_u_i_1a1f8b0df8501eb835e622b9bcda116d51" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float PlanetSelectionUI.timerThreshold</definition>
+        <argsstring></argsstring>
+        <name>timerThreshold</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_planet_selection_u_i_1a56e80c0923e6e288bafbd04360962aa6" compoundref="_planet_selection_u_i_8cs" startline="21" endline="33">OnTouchStay</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_planet_selection_u_i_1acc6a4ada8ab94cf6fa5c1f15cb588054" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_movement" kindref="compound">CameraMovement</ref></type>
+        <definition>CameraMovement PlanetSelectionUI.cameraMovement</definition>
+        <argsstring></argsstring>
+        <name>cameraMovement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_planet_selection_u_i_1a56e80c0923e6e288bafbd04360962aa6" compoundref="_planet_selection_u_i_8cs" startline="21" endline="33">OnTouchStay</referencedby>
+        <referencedby refid="class_planet_selection_u_i_1a8e4707a799c7d3874a34c7f2ee7462a3" compoundref="_planet_selection_u_i_8cs" startline="16" endline="19">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_planet_selection_u_i_1a61d4af294715663963a54ab386c7063a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool PlanetSelectionUI.IsSelected</definition>
+        <argsstring></argsstring>
+        <name>IsSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_planet_selection_u_i_1a56e80c0923e6e288bafbd04360962aa6" compoundref="_planet_selection_u_i_8cs" startline="21" endline="33">OnTouchStay</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_planet_selection_u_i_1a63586ace8f70364f2caeae5d59c610fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string PlanetSelectionUI.PlanetName</definition>
+        <argsstring></argsstring>
+        <name>PlanetName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_planet_selection_u_i_1a8e4707a799c7d3874a34c7f2ee7462a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlanetSelectionUI.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_planet_selection_u_i_1acc6a4ada8ab94cf6fa5c1f15cb588054" compoundref="_planet_selection_u_i_8cs" startline="14">cameraMovement</references>
+      </memberdef>
+      <memberdef kind="function" id="class_planet_selection_u_i_1a56e80c0923e6e288bafbd04360962aa6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlanetSelectionUI.OnTouchStay</definition>
+        <argsstring>()</argsstring>
+        <name>OnTouchStay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="21" bodyend="33"/>
+        <references refid="class_planet_selection_u_i_1acc6a4ada8ab94cf6fa5c1f15cb588054" compoundref="_planet_selection_u_i_8cs" startline="14">cameraMovement</references>
+        <references refid="class_camera_movement_1a1285f09ae0acb8c7db10e5310eac3a93" compoundref="_camera_movement_8cs" startline="27">CameraMovement.IsMoving</references>
+        <references refid="class_planet_selection_u_i_1a61d4af294715663963a54ab386c7063a" compoundref="_planet_selection_u_i_8cs" startline="12">IsSelected</references>
+        <references refid="class_planet_selection_u_i_1a8096c8eda77e056ffba729d1db95e7a2" compoundref="_planet_selection_u_i_8cs" startline="10">timer</references>
+        <references refid="class_planet_selection_u_i_1a1f8b0df8501eb835e622b9bcda116d51" compoundref="_planet_selection_u_i_8cs" startline="11">timerThreshold</references>
+      </memberdef>
+      <memberdef kind="function" id="class_planet_selection_u_i_1ae11ec71820b5b142c18ee099968ee93c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlanetSelectionUI.OnTouchUp</definition>
+        <argsstring>()</argsstring>
+        <name>OnTouchUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="35" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="35" bodyend="38"/>
+        <references refid="class_planet_selection_u_i_1a9b5798317eb1303b96defe2dc3753a5b" compoundref="_planet_selection_u_i_8cs" startline="40" endline="44">SetFocusExitConditions</references>
+      </memberdef>
+      <memberdef kind="function" id="class_planet_selection_u_i_1a9b5798317eb1303b96defe2dc3753a5b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlanetSelectionUI.SetFocusExitConditions</definition>
+        <argsstring>()</argsstring>
+        <name>SetFocusExitConditions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="40" bodyend="44"/>
+        <references refid="class_planet_selection_u_i_1a8096c8eda77e056ffba729d1db95e7a2" compoundref="_planet_selection_u_i_8cs" startline="10">timer</references>
+        <referencedby refid="class_planet_selection_u_i_1ae11ec71820b5b142c18ee099968ee93c" compoundref="_planet_selection_u_i_8cs" startline="35" endline="38">OnTouchUp</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="497">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="496">
+        <label>PlanetSelectionUI</label>
+        <link refid="class_planet_selection_u_i"/>
+        <childnode refid="497" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="508">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="504">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+        <childnode refid="505" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="502" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="506" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="507" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="508" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="509" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="510" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="511" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="511">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="500">
+        <label>CameraMovement</label>
+        <link refid="class_camera_movement"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+        <childnode refid="501" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="502" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+      </node>
+      <node id="516">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="513">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="510">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="502">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+        <childnode refid="503" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="514" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="515" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="501">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="499">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="514">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="515">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="516" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="509">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="506">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="505">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+        <childnode refid="502" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="504" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="503" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="503">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+        <childnode refid="504" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="512" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="513" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="507">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="512">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="498">
+        <label>PlanetSelectionUI</label>
+        <link refid="class_planet_selection_u_i"/>
+        <childnode refid="499" relation="public-inheritance">
+        </childnode>
+        <childnode refid="500" relation="usage">
+          <edgelabel>cameraMovement</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlanetSelectionUI.cs" bodystart="8" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_planet_selection_u_i_1acc6a4ada8ab94cf6fa5c1f15cb588054" prot="private" virt="non-virtual"><scope>PlanetSelectionUI</scope><name>cameraMovement</name></member>
+      <member refid="class_planet_selection_u_i_1a61d4af294715663963a54ab386c7063a" prot="public" virt="non-virtual"><scope>PlanetSelectionUI</scope><name>IsSelected</name></member>
+      <member refid="class_planet_selection_u_i_1a56e80c0923e6e288bafbd04360962aa6" prot="private" virt="non-virtual"><scope>PlanetSelectionUI</scope><name>OnTouchStay</name></member>
+      <member refid="class_planet_selection_u_i_1ae11ec71820b5b142c18ee099968ee93c" prot="private" virt="non-virtual"><scope>PlanetSelectionUI</scope><name>OnTouchUp</name></member>
+      <member refid="class_planet_selection_u_i_1a63586ace8f70364f2caeae5d59c610fa" prot="public" virt="non-virtual"><scope>PlanetSelectionUI</scope><name>PlanetName</name></member>
+      <member refid="class_planet_selection_u_i_1a9b5798317eb1303b96defe2dc3753a5b" prot="private" virt="non-virtual"><scope>PlanetSelectionUI</scope><name>SetFocusExitConditions</name></member>
+      <member refid="class_planet_selection_u_i_1a8e4707a799c7d3874a34c7f2ee7462a3" prot="private" virt="non-virtual"><scope>PlanetSelectionUI</scope><name>Start</name></member>
+      <member refid="class_planet_selection_u_i_1a8096c8eda77e056ffba729d1db95e7a2" prot="private" virt="non-virtual"><scope>PlanetSelectionUI</scope><name>timer</name></member>
+      <member refid="class_planet_selection_u_i_1a1f8b0df8501eb835e622b9bcda116d51" prot="private" virt="non-virtual"><scope>PlanetSelectionUI</scope><name>timerThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

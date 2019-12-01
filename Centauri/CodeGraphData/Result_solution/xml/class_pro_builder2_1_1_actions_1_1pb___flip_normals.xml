@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___flip_normals" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_FlipNormals</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu interface for flip normals actions.</para><para>Deprecated as of 2.6.0. This file remains only for backwards compatibility; you may safely delete it. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="467">
+        <label>ProBuilder2.Actions.pb_FlipNormals</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___flip_normals"/>
+        <childnode refid="468" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="468">
+        <label>Editor</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="469">
+        <label>ProBuilder2.Actions.pb_FlipNormals</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___flip_normals"/>
+        <childnode refid="470" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="470">
+        <label>Editor</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FlipNormals.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FlipNormals.cs" bodystart="17" bodyend="17"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_orbital_maneuver" kind="class" prot="public">
+    <compoundname>OrbitalManeuver</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_orbital_maneuver_1a0b443a8d421622374c0b3594fc027c4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitalManeuver.cs" line="8" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitalManeuver.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitalManeuver.cs" line="14" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitalManeuver.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="35">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="34">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="37">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="36">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/Centauri/Assets/OrbitalManeuver.cs" line="5" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitalManeuver.cs" bodystart="5" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_orbital_maneuver_1a0b443a8d421622374c0b3594fc027c4d" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>Start</name></member>
+      <member refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

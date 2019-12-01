@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_setup" kind="class" prot="public">
+    <compoundname>ProBuilder2::EditorCommon::pb_AboutWindowSetup</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___about_window_setup_1aa227db27d6a05b30539eaa8911020288" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static ProBuilder2.EditorCommon.pb_AboutWindowSetup.pb_AboutWindowSetup</definition>
+        <argsstring>()</argsstring>
+        <name>pb_AboutWindowSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>INSTRUCTIONS</para><para><itemizedlist>
+<listitem><para>Only modify properties in the USER SETTINGS region.</para></listitem><listitem><para>All content is loaded from external files (pc_AboutEntry_YourProduct. Use the templates! Used to pop up the window on import. </para></listitem></itemizedlist>
+</para>    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_AboutWindow.cs" bodystart="22" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___about_window_setup_1aa227db27d6a05b30539eaa8911020288" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_AboutWindowSetup</scope><name>pb_AboutWindowSetup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

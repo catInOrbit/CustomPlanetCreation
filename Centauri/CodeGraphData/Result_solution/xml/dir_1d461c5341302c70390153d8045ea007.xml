@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1d461c5341302c70390153d8045ea007" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated</compoundname>
+    <innerdir refid="dir_acecc04b212e4d8a6dd096b675fe7c7b">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers</innerdir>
+    <innerfile refid="_gravitational_pull_8cs">GravitationalPull.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___force_scene_refresh" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_ForceSceneRefresh</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___force_scene_refresh_1a5f23779651ea0fb99b4e40d463e991f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_ForceSceneRefresh.MenuForceSceneRefresh</definition>
+        <argsstring>()</argsstring>
+        <name>MenuForceSceneRefresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ForceSceneRefresh.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ForceSceneRefresh.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___force_scene_refresh_1aef3893411c5c9755ebd0ef23927e5c04" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_ForceSceneRefresh.ForceRefresh</definition>
+        <argsstring>(bool interactive)</argsstring>
+        <name>ForceRefresh</name>
+        <param>
+          <type>bool</type>
+          <declname>interactive</declname>
+        </param>
+        <briefdescription>
+<para>Force refreshes all meshes in scene. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ForceSceneRefresh.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ForceSceneRefresh.cs" bodystart="23" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu interface for manually re-generating all ProBuilder geometry in scene. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="472">
+        <label>Editor</label>
+      </node>
+      <node id="471">
+        <label>ProBuilder2.Actions.pb_ForceSceneRefresh</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___force_scene_refresh"/>
+        <childnode refid="472" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="474">
+        <label>Editor</label>
+      </node>
+      <node id="473">
+        <label>ProBuilder2.Actions.pb_ForceSceneRefresh</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___force_scene_refresh"/>
+        <childnode refid="474" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ForceSceneRefresh.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_ForceSceneRefresh.cs" bodystart="12" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___force_scene_refresh_1aef3893411c5c9755ebd0ef23927e5c04" prot="private" virt="non-virtual"><scope>ProBuilder2::Actions::pb_ForceSceneRefresh</scope><name>ForceRefresh</name></member>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___force_scene_refresh_1a5f23779651ea0fb99b4e40d463e991f3" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_ForceSceneRefresh</scope><name>MenuForceSceneRefresh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

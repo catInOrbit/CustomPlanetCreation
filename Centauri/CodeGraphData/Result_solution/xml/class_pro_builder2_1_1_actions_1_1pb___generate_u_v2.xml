@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_GenerateUV2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2_1a6121b0edf169257d044ab9df2bd261f7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProBuilder2.Actions.pb_GenerateUV2.VerifyGenerateUV2Selection</definition>
+        <argsstring>()</argsstring>
+        <name>VerifyGenerateUV2Selection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2_1ad277d2a1190168080112a3fe265a839f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_GenerateUV2.MenuGenerateUV2Selection</definition>
+        <argsstring>()</argsstring>
+        <name>MenuGenerateUV2Selection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" bodystart="18" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2_1aa8203af329967e715e4d1f1c8ef082ad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_GenerateUV2.MenuGenerateUV2Scene</definition>
+        <argsstring>()</argsstring>
+        <name>MenuGenerateUV2Scene</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" bodystart="32" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2_1a40806bdebbbf3d2f185745ba35410d81" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProBuilder2.Actions.pb_GenerateUV2.Menu_GenerateUV2</definition>
+        <argsstring>(pb_Object[] selected)</argsstring>
+        <name>Menu_GenerateUV2</name>
+        <param>
+          <type>pb_Object[]</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" line="45" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" bodystart="45" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="480">
+        <label>Editor</label>
+      </node>
+      <node id="479">
+        <label>ProBuilder2.Actions.pb_GenerateUV2</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2"/>
+        <childnode refid="480" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="482">
+        <label>Editor</label>
+      </node>
+      <node id="481">
+        <label>ProBuilder2.Actions.pb_GenerateUV2</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2"/>
+        <childnode refid="482" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_GenerateUV2.cs" bodystart="9" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2_1a40806bdebbbf3d2f185745ba35410d81" prot="private" virt="non-virtual"><scope>ProBuilder2::Actions::pb_GenerateUV2</scope><name>Menu_GenerateUV2</name></member>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2_1aa8203af329967e715e4d1f1c8ef082ad" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_GenerateUV2</scope><name>MenuGenerateUV2Scene</name></member>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2_1ad277d2a1190168080112a3fe265a839f" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_GenerateUV2</scope><name>MenuGenerateUV2Selection</name></member>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2_1a6121b0edf169257d044ab9df2bd261f7" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_GenerateUV2</scope><name>VerifyGenerateUV2Selection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

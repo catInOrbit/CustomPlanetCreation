@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d4f7e5b6095fbebea4eb4e80238c2b10" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/About/Editor</compoundname>
+    <innerfile refid="pb___about_window_8cs">pb_AboutWindow.cs</innerfile>
+    <innerfile refid="pb___update_available_8cs">pb_UpdateAvailable.cs</innerfile>
+    <innerfile refid="pb___update_check_8cs">pb_UpdateCheck.cs</innerfile>
+    <innerfile refid="pb___version_info_8cs">pb_VersionInfo.cs</innerfile>
+    <innerfile refid="pb___version_util_8cs">pb_VersionUtil.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/About/Editor/"/>
+  </compounddef>
+</doxygen>

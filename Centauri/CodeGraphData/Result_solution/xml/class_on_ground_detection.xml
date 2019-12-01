@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_on_ground_detection" kind="class" prot="public">
+    <compoundname>OnGroundDetection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_on_ground_detection_1ae9aa0abeed029c16bd510f12383325c1" prot="public" static="no" mutable="no">
+        <type>SphereCollider</type>
+        <definition>SphereCollider OnGroundDetection.surfaceCollider</definition>
+        <argsstring></argsstring>
+        <name>surfaceCollider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_on_ground_detection_1ad2d9f85b24a95519e521609228bce940" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OnGroundDetection.isLanded</definition>
+        <argsstring></argsstring>
+        <name>isLanded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_current_overall_status_1a7fbaf8919415a3b297c46e072f694d8e" compoundref="_current_overall_status_8cs" startline="39" endline="62">CurrentOverallStatus.DebugDisplayStatus</referencedby>
+        <referencedby refid="class_on_ground_detection_1a8c1a4a96e9f55cd25cb91b5c5f261a71" compoundref="_on_ground_detection_8cs" startline="43" endline="49">FreezeVelocityVector</referencedby>
+        <referencedby refid="class_on_ground_detection_1a8704d830094dd3a2f7da2d82a4f99335" compoundref="_on_ground_detection_8cs" startline="83" endline="88">LandedCondition</referencedby>
+        <referencedby refid="class_on_ground_detection_1a99ff0f988eda4cc782962e7ec22a753b" compoundref="_on_ground_detection_8cs" startline="74" endline="79">LiftOffCondition</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" compoundref="_orbital_maneuver_8cs" startline="127" endline="142">OrbitalManeuver.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_on_ground_detection_1a6bed687c37f1b872f083d8aa3ab6c346" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OnGroundDetection.liftOff</definition>
+        <argsstring></argsstring>
+        <name>liftOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_debug_u_i_1a2abc94875023450868339bc921af44c9" compoundref="_debug_u_i_8cs" startline="41" endline="47">DebugUI.EnableLiftOff</referencedby>
+        <referencedby refid="class_on_ground_detection_1af875c952bcccfdb6fdb0ffbc0e4d6b94" compoundref="_on_ground_detection_8cs" startline="62" endline="70">OnCollisionExit</referencedby>
+        <referencedby refid="class_on_ground_detection_1af9e0fbd8381b412f32887ce44375f161" compoundref="_on_ground_detection_8cs" startline="28" endline="41">Update</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" compoundref="_orbital_maneuver_8cs" startline="127" endline="142">OrbitalManeuver.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_on_ground_detection_1a75d59a9b4c8c22e4fb8aedb17a7967f7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OnGroundDetection.flag</definition>
+        <argsstring></argsstring>
+        <name>flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_on_ground_detection_1a4e40d9264ffad80a5b347bc31658adaf" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OnGroundDetection.ship</definition>
+        <argsstring></argsstring>
+        <name>ship</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_on_ground_detection_1a30b5a83a4a7e8c04d5aec3a55049876d" compoundref="_on_ground_detection_8cs" startline="51" endline="60">OnCollisionEnter</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_on_ground_detection_1aa73220efefdff58102f129f94e257320" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OnGroundDetection.onCollosionEnterBool</definition>
+        <argsstring></argsstring>
+        <name>onCollosionEnterBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_on_ground_detection_1a30b5a83a4a7e8c04d5aec3a55049876d" compoundref="_on_ground_detection_8cs" startline="51" endline="60">OnCollisionEnter</referencedby>
+        <referencedby refid="class_on_ground_detection_1af875c952bcccfdb6fdb0ffbc0e4d6b94" compoundref="_on_ground_detection_8cs" startline="62" endline="70">OnCollisionExit</referencedby>
+        <referencedby refid="class_on_ground_detection_1af9e0fbd8381b412f32887ce44375f161" compoundref="_on_ground_detection_8cs" startline="28" endline="41">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_on_ground_detection_1aef9e0d0828a403ec4e372f819a48bf97" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OnGroundDetection.onCollosionExitBool</definition>
+        <argsstring></argsstring>
+        <name>onCollosionExitBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_on_ground_detection_1a30b5a83a4a7e8c04d5aec3a55049876d" compoundref="_on_ground_detection_8cs" startline="51" endline="60">OnCollisionEnter</referencedby>
+        <referencedby refid="class_on_ground_detection_1af875c952bcccfdb6fdb0ffbc0e4d6b94" compoundref="_on_ground_detection_8cs" startline="62" endline="70">OnCollisionExit</referencedby>
+        <referencedby refid="class_on_ground_detection_1af9e0fbd8381b412f32887ce44375f161" compoundref="_on_ground_detection_8cs" startline="28" endline="41">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_on_ground_detection_1a0643dc8cb0d1e03478cdec18278fdab0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnGroundDetection.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="23" bodyend="26"/>
+        <references refid="class_on_ground_detection_1a8c1a4a96e9f55cd25cb91b5c5f261a71" compoundref="_on_ground_detection_8cs" startline="43" endline="49">FreezeVelocityVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_on_ground_detection_1af9e0fbd8381b412f32887ce44375f161" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnGroundDetection.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="28" bodyend="41"/>
+        <references refid="class_on_ground_detection_1a8704d830094dd3a2f7da2d82a4f99335" compoundref="_on_ground_detection_8cs" startline="83" endline="88">LandedCondition</references>
+        <references refid="class_on_ground_detection_1a6bed687c37f1b872f083d8aa3ab6c346" compoundref="_on_ground_detection_8cs" startline="13">liftOff</references>
+        <references refid="class_on_ground_detection_1a99ff0f988eda4cc782962e7ec22a753b" compoundref="_on_ground_detection_8cs" startline="74" endline="79">LiftOffCondition</references>
+        <references refid="class_on_ground_detection_1aa73220efefdff58102f129f94e257320" compoundref="_on_ground_detection_8cs" startline="19">onCollosionEnterBool</references>
+        <references refid="class_on_ground_detection_1aef9e0d0828a403ec4e372f819a48bf97" compoundref="_on_ground_detection_8cs" startline="20">onCollosionExitBool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_on_ground_detection_1a8c1a4a96e9f55cd25cb91b5c5f261a71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator OnGroundDetection.FreezeVelocityVector</definition>
+        <argsstring>()</argsstring>
+        <name>FreezeVelocityVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="43" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="43" bodyend="49"/>
+        <references refid="class_on_ground_detection_1ad2d9f85b24a95519e521609228bce940" compoundref="_on_ground_detection_8cs" startline="12">isLanded</references>
+        <referencedby refid="class_on_ground_detection_1a0643dc8cb0d1e03478cdec18278fdab0" compoundref="_on_ground_detection_8cs" startline="23" endline="26">FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_on_ground_detection_1a30b5a83a4a7e8c04d5aec3a55049876d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnGroundDetection.OnCollisionEnter</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionEnter</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="51" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="51" bodyend="60"/>
+        <references refid="class_on_ground_detection_1aa73220efefdff58102f129f94e257320" compoundref="_on_ground_detection_8cs" startline="19">onCollosionEnterBool</references>
+        <references refid="class_on_ground_detection_1aef9e0d0828a403ec4e372f819a48bf97" compoundref="_on_ground_detection_8cs" startline="20">onCollosionExitBool</references>
+        <references refid="class_on_ground_detection_1a4e40d9264ffad80a5b347bc31658adaf" compoundref="_on_ground_detection_8cs" startline="17">ship</references>
+      </memberdef>
+      <memberdef kind="function" id="class_on_ground_detection_1af875c952bcccfdb6fdb0ffbc0e4d6b94" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OnGroundDetection.OnCollisionExit</definition>
+        <argsstring>(Collision collision)</argsstring>
+        <name>OnCollisionExit</name>
+        <param>
+          <type>Collision</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="62" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="62" bodyend="70"/>
+        <references refid="class_on_ground_detection_1a6bed687c37f1b872f083d8aa3ab6c346" compoundref="_on_ground_detection_8cs" startline="13">liftOff</references>
+        <references refid="class_on_ground_detection_1aa73220efefdff58102f129f94e257320" compoundref="_on_ground_detection_8cs" startline="19">onCollosionEnterBool</references>
+        <references refid="class_on_ground_detection_1aef9e0d0828a403ec4e372f819a48bf97" compoundref="_on_ground_detection_8cs" startline="20">onCollosionExitBool</references>
+      </memberdef>
+      <memberdef kind="function" id="class_on_ground_detection_1a99ff0f988eda4cc782962e7ec22a753b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator OnGroundDetection.LiftOffCondition</definition>
+        <argsstring>()</argsstring>
+        <name>LiftOffCondition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="74" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="74" bodyend="79"/>
+        <references refid="class_on_ground_detection_1ad2d9f85b24a95519e521609228bce940" compoundref="_on_ground_detection_8cs" startline="12">isLanded</references>
+        <referencedby refid="class_on_ground_detection_1af9e0fbd8381b412f32887ce44375f161" compoundref="_on_ground_detection_8cs" startline="28" endline="41">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_on_ground_detection_1a8704d830094dd3a2f7da2d82a4f99335" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator OnGroundDetection.LandedCondition</definition>
+        <argsstring>()</argsstring>
+        <name>LandedCondition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="83" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="83" bodyend="88"/>
+        <references refid="class_on_ground_detection_1ad2d9f85b24a95519e521609228bce940" compoundref="_on_ground_detection_8cs" startline="12">isLanded</references>
+        <referencedby refid="class_on_ground_detection_1af9e0fbd8381b412f32887ce44375f161" compoundref="_on_ground_detection_8cs" startline="28" endline="41">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="430">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="431" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="431">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="432">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="433" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="433">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OnGroundDetection.cs" bodystart="6" bodyend="90"/>
+    <listofallmembers>
+      <member refid="class_on_ground_detection_1a0643dc8cb0d1e03478cdec18278fdab0" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>FixedUpdate</name></member>
+      <member refid="class_on_ground_detection_1a75d59a9b4c8c22e4fb8aedb17a7967f7" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>flag</name></member>
+      <member refid="class_on_ground_detection_1a8c1a4a96e9f55cd25cb91b5c5f261a71" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>FreezeVelocityVector</name></member>
+      <member refid="class_on_ground_detection_1ad2d9f85b24a95519e521609228bce940" prot="public" virt="non-virtual"><scope>OnGroundDetection</scope><name>isLanded</name></member>
+      <member refid="class_on_ground_detection_1a8704d830094dd3a2f7da2d82a4f99335" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>LandedCondition</name></member>
+      <member refid="class_on_ground_detection_1a6bed687c37f1b872f083d8aa3ab6c346" prot="public" virt="non-virtual"><scope>OnGroundDetection</scope><name>liftOff</name></member>
+      <member refid="class_on_ground_detection_1a99ff0f988eda4cc782962e7ec22a753b" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>LiftOffCondition</name></member>
+      <member refid="class_on_ground_detection_1a30b5a83a4a7e8c04d5aec3a55049876d" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>OnCollisionEnter</name></member>
+      <member refid="class_on_ground_detection_1af875c952bcccfdb6fdb0ffbc0e4d6b94" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>OnCollisionExit</name></member>
+      <member refid="class_on_ground_detection_1aa73220efefdff58102f129f94e257320" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>onCollosionEnterBool</name></member>
+      <member refid="class_on_ground_detection_1aef9e0d0828a403ec4e372f819a48bf97" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>onCollosionExitBool</name></member>
+      <member refid="class_on_ground_detection_1a4e40d9264ffad80a5b347bc31658adaf" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>ship</name></member>
+      <member refid="class_on_ground_detection_1ae9aa0abeed029c16bd510f12383325c1" prot="public" virt="non-virtual"><scope>OnGroundDetection</scope><name>surfaceCollider</name></member>
+      <member refid="class_on_ground_detection_1af9e0fbd8381b412f32887ce44375f161" prot="private" virt="non-virtual"><scope>OnGroundDetection</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

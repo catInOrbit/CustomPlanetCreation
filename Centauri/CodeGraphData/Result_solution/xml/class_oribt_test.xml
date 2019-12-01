@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_oribt_test" kind="class" prot="public">
+    <compoundname>OribtTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_oribt_test_1a803cbd4cba7f705fbbf9b070ed0bfe9e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OribtTest.oribtor</definition>
+        <argsstring></argsstring>
+        <name>oribtor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_oribt_test_1a677a25232d6c05e822fc454cf8293ffb" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OribtTest.point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_oribt_test_1af6d33f8d8e45c39fbc54b9b936433087" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OribtTest.axis</definition>
+        <argsstring></argsstring>
+        <name>axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_oribt_test_1a4493205f802f3e8d3eae9a92db495c08" compoundref="_oribt_test_8cs" startline="21" endline="39">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_oribt_test_1a2934adf4243cb42da31d1a4e56d3d704" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OribtTest.rotationalSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationalSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_oribt_test_1a4493205f802f3e8d3eae9a92db495c08" compoundref="_oribt_test_8cs" startline="21" endline="39">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_oribt_test_1a450b094486f971956cda7760af661a90" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OribtTest.accuracy</definition>
+        <argsstring></argsstring>
+        <name>accuracy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_oribt_test_1acbe9cae766ecc41f43a6c7fd853427c9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OribtTest.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_oribt_test_1a493cf4c2c86fcbb8de412a8b0a80cb80" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OribtTest.tip</definition>
+        <argsstring></argsstring>
+        <name>tip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_oribt_test_1ab06bc576a4b3ebaffad3a2f2d97e0c55" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OribtTest.rotationalPoint</definition>
+        <argsstring></argsstring>
+        <name>rotationalPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_oribt_test_1a4493205f802f3e8d3eae9a92db495c08" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OribtTest.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="21" bodyend="39"/>
+        <references refid="class_oribt_test_1af6d33f8d8e45c39fbc54b9b936433087" compoundref="_oribt_test_8cs" startline="10">axis</references>
+        <references refid="class_oribt_test_1a2934adf4243cb42da31d1a4e56d3d704" compoundref="_oribt_test_8cs" startline="11">rotationalSpeed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="472">
+        <label>OribtTest</label>
+        <link refid="class_oribt_test"/>
+        <childnode refid="473" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="473">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="474">
+        <label>OribtTest</label>
+        <link refid="class_oribt_test"/>
+        <childnode refid="475" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="475">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/OribtTest.cs" bodystart="5" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_oribt_test_1a450b094486f971956cda7760af661a90" prot="public" virt="non-virtual"><scope>OribtTest</scope><name>accuracy</name></member>
+      <member refid="class_oribt_test_1af6d33f8d8e45c39fbc54b9b936433087" prot="public" virt="non-virtual"><scope>OribtTest</scope><name>axis</name></member>
+      <member refid="class_oribt_test_1a803cbd4cba7f705fbbf9b070ed0bfe9e" prot="public" virt="non-virtual"><scope>OribtTest</scope><name>oribtor</name></member>
+      <member refid="class_oribt_test_1a677a25232d6c05e822fc454cf8293ffb" prot="public" virt="non-virtual"><scope>OribtTest</scope><name>point</name></member>
+      <member refid="class_oribt_test_1acbe9cae766ecc41f43a6c7fd853427c9" prot="public" virt="non-virtual"><scope>OribtTest</scope><name>radius</name></member>
+      <member refid="class_oribt_test_1ab06bc576a4b3ebaffad3a2f2d97e0c55" prot="private" virt="non-virtual"><scope>OribtTest</scope><name>rotationalPoint</name></member>
+      <member refid="class_oribt_test_1a2934adf4243cb42da31d1a4e56d3d704" prot="public" virt="non-virtual"><scope>OribtTest</scope><name>rotationalSpeed</name></member>
+      <member refid="class_oribt_test_1a493cf4c2c86fcbb8de412a8b0a80cb80" prot="public" virt="non-virtual"><scope>OribtTest</scope><name>tip</name></member>
+      <member refid="class_oribt_test_1a4493205f802f3e8d3eae9a92db495c08" prot="private" virt="non-virtual"><scope>OribtTest</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

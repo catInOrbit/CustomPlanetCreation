@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_resources_distribution_8cs" kind="file">
+    <compoundname>ResourcesDistribution.cs</compoundname>
+    <innerclass refid="class_resources_distribution" prot="public">ResourcesDistribution</innerclass>
+    <innernamespace refid="namespace_system_1_1_threading">System::Threading</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_resources_distribution" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_resources_distribution" kindref="compound">ResourcesDistribution</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Current<sp/>method<sp/>is<sp/>to<sp/>generate<sp/>a<sp/>cirlce<sp/>at<sp/>center<sp/>(0,0),<sp/>add<sp/>all<sp/>points<sp/>as<sp/>child<sp/>of<sp/>an<sp/>object,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//and<sp/>move<sp/>object<sp/>to<sp/>center<sp/>of<sp/>planet</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_resources_distribution_1af2a740dfdcd34de0e0887af6ab2d0ab6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Transform<sp/><ref refid="class_resources_distribution_1af2a740dfdcd34de0e0887af6ab2d0ab6" kindref="member">pointsParent</ref>;<sp/><sp/></highlight><highlight class="comment">//--&gt;<sp/>Object<sp/>to<sp/>move<sp/>to<sp/>center</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" kindref="member">accuracy</ref>;</highlight></codeline>
+<codeline lineno="15" refid="class_resources_distribution_1a8f4cc6fb5566a843d8709743a7269b3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_resources_distribution_1a8f4cc6fb5566a843d8709743a7269b3a" kindref="member">player</ref>;</highlight></codeline>
+<codeline lineno="16" refid="class_resources_distribution_1af82b2ad2554e79e15e7303e309245f09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3[]<sp/><ref refid="class_resources_distribution_1af82b2ad2554e79e15e7303e309245f09" kindref="member">spawnPoints</ref>;</highlight></codeline>
+<codeline lineno="17" refid="class_resources_distribution_1a51e7ea77ddb499d982ed185d3a28ffc9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_resources_distribution_1a51e7ea77ddb499d982ed185d3a28ffc9" kindref="member">resourcePoint</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_resources_distribution_1a4fa23b5a7a26264a63ce2d043afb894b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_resources_distribution_1a4fa23b5a7a26264a63ce2d043afb894b" kindref="member">surfacePoint</ref>;</highlight></codeline>
+<codeline lineno="20" refid="class_resources_distribution_1a8f4cb7cdad2ca7dc7f8076869cb06431" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>List&lt;Vector3&gt;<sp/><ref refid="class_resources_distribution_1a8f4cb7cdad2ca7dc7f8076869cb06431" kindref="member">points</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>List&lt;Vector3&gt;();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_resources_distribution_1ac6222afda6b7381be9b6f53852832f9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Dictionary&lt;string,<sp/>PlanetResouces&gt;<sp/><ref refid="class_resources_distribution_1ac6222afda6b7381be9b6f53852832f9c" kindref="member">pointsAndResources</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Dictionary&lt;string,<sp/>PlanetResouces&gt;();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//private<sp/>int[]<sp/>previousRandomPoints;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>List&lt;Vector3&gt;<sp/><ref refid="class_resources_distribution_1ab34dc5ace70e1a8b5cc9f87aac299acd" kindref="member">Points</ref></highlight></codeline>
+<codeline lineno="26" refid="class_resources_distribution_1ab34dc5ace70e1a8b5cc9f87aac299acd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1a8f4cb7cdad2ca7dc7f8076869cb06431" kindref="member">points</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_resources_distribution_1a8f4cb7cdad2ca7dc7f8076869cb06431" kindref="member">points</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Dictionary&lt;string,<sp/>PlanetResouces&gt;<sp/><ref refid="class_resources_distribution_1ab0d1e39534981c720991f85c75532d49" kindref="member">PointsAndResources</ref></highlight></codeline>
+<codeline lineno="38" refid="class_resources_distribution_1ab0d1e39534981c720991f85c75532d49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1ac6222afda6b7381be9b6f53852832f9c" kindref="member">pointsAndResources</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_resources_distribution_1ac6222afda6b7381be9b6f53852832f9c" kindref="member">pointsAndResources</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>searchString<sp/>=<sp/>string.Format(</highlight><highlight class="stringliteral">&quot;/{0}/{1}&quot;</highlight><highlight class="normal">,<sp/>this.name,<sp/></highlight><highlight class="stringliteral">&quot;Surface<sp/>Point&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_resources_distribution_1a4fa23b5a7a26264a63ce2d043afb894b" kindref="member">surfacePoint</ref><sp/>=<sp/>GameObject.Find(searchString);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_resources_distribution_1a47824d898369f5b087fa57f23c4b4084" kindref="member">HelperGenerateCirclePoints</ref>(<ref refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" kindref="member">accuracy</ref>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Spawn<sp/>resource<sp/>points<sp/>inside<sp/>parent<sp/>first</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>5;<sp/>i++)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>resourcePoint.name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Resource<sp/>point<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>i;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Thread.Sleep(10);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_resources_distribution_1af82b2ad2554e79e15e7303e309245f09" kindref="member">spawnPoints</ref><sp/>=<sp/><ref refid="class_resources_distribution_1a5ccca4abd6976d52e42b6eb424a5c158" kindref="member">SpawnPoints</ref>(100,<sp/>10);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_resources_distribution_1a91cf1a7cee9c109557968371d7af7e3c" kindref="member">InstantiatePoint</ref>(<ref refid="class_resources_distribution_1a51e7ea77ddb499d982ed185d3a28ffc9" kindref="member">resourcePoint</ref>,<sp/>spawnPoints,<sp/><ref refid="class_resources_distribution_1af2a740dfdcd34de0e0887af6ab2d0ab6" kindref="member">pointsParent</ref>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pointsAndResources.Add(resourcePoint.name<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;(Clone)&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_planet_resouces" kindref="compound">PlanetResouces</ref>());</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//And<sp/>move<sp/>parent<sp/>to<sp/>center<sp/>of<sp/>planet</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_resources_distribution_1a867fb9ba9783d216c5b546cf6aeea95a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1a867fb9ba9783d216c5b546cf6aeea95a" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pointsParent.transform.position<sp/>=<sp/>this.transform.position;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="class_resources_distribution_1a47824d898369f5b087fa57f23c4b4084" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1a47824d898369f5b087fa57f23c4b4084" kindref="member">HelperGenerateCirclePoints</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" kindref="member">accuracy</ref>)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius<sp/>=this.GetComponent&lt;SphereCollider&gt;().radius;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;=<sp/><ref refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" kindref="member">accuracy</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>angle<sp/>=<sp/>(float)i<sp/>/<sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)accuracy<sp/>*<sp/>2.0f<sp/>*<sp/>Mathf.PI;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Points.Add(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(radius<sp/>*<sp/>Mathf.Cos(angle),<sp/>radius<sp/>*<sp/>Mathf.Sin(angle),<sp/>0f));</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="class_resources_distribution_1a5ccca4abd6976d52e42b6eb424a5c158" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3[]<sp/><ref refid="class_resources_distribution_1a5ccca4abd6976d52e42b6eb424a5c158" kindref="member">SpawnPoints</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" kindref="member">accuracy</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>spawnRange)</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>randomPoint<sp/>=<sp/>Random.Range(0,<sp/>accuracy<sp/>-<sp/>10);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>randPointPlus<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((randomPoint<sp/>+<sp/>spawnRange)<sp/>&lt;<sp/><ref refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" kindref="member">accuracy</ref>)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>randPointPlus<sp/>=<sp/>randomPoint<sp/>+<sp/>spawnRange;<sp/></highlight><highlight class="comment">//The<sp/>amount<sp/>of<sp/>spawn<sp/>point</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3[]<sp/>returnList<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3[randPointPlus];</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>randomPoint;<sp/>i<sp/>&lt;<sp/>randPointPlus;<sp/>i++)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>returnList[i]<sp/>=<sp/><ref refid="class_resources_distribution_1ab34dc5ace70e1a8b5cc9f87aac299acd" kindref="member">Points</ref>[i];</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>returnList;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="class_resources_distribution_1a91cf1a7cee9c109557968371d7af7e3c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1a91cf1a7cee9c109557968371d7af7e3c" kindref="member">InstantiatePoint</ref>(GameObject<sp/>point,<sp/>Vector3[]<sp/>positions,<sp/>Transform<sp/>parent)</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal"><sp/>(Vector3<sp/>position<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>positions)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Instantiate(point,<sp/>position,<sp/>Quaternion.identity,<sp/>parent.transform);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="class_resources_distribution_1afc8a421ad1afb295c96d73b8342cea99" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1afc8a421ad1afb295c96d73b8342cea99" kindref="member">PlayerIsInResourcesZone</ref>(GameObject<sp/><ref refid="class_resources_distribution_1a8f4cc6fb5566a843d8709743a7269b3a" kindref="member">player</ref>,<sp/>Vector3[]<sp/><ref refid="class_resources_distribution_1a8f4cb7cdad2ca7dc7f8076869cb06431" kindref="member">points</ref>)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((player.transform.position.x<sp/>&gt;=<sp/>points[0].x<sp/>&amp;&amp;<sp/>player.transform.position.x<sp/>&lt;=<sp/>points[points.Length<sp/>-<sp/>1].x)<sp/>||</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(player.transform.position.x<sp/>&lt;=<sp/>points[0].x<sp/>&amp;&amp;<sp/>player.transform.position.x<sp/>&gt;=<sp/>points[points.Length<sp/>-<sp/>1].x))</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="class_resources_distribution_1a7e7cb393790bc1e75db7489c60cedc19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_planet_resouces" kindref="compound">PlanetResouces</ref><sp/><ref refid="class_resources_distribution_1a7e7cb393790bc1e75db7489c60cedc19" kindref="member">GetValueFromDictionary</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>keyName)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution_1ab0d1e39534981c720991f85c75532d49" kindref="member">PointsAndResources</ref>[keyName];</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_orbit_line_renderer_test" kind="class" prot="public">
+    <compoundname>OrbitLineRendererTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1a4b349466f65dad8776e1a346e7852dc4" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OrbitLineRendererTest.mainParentBody</definition>
+        <argsstring></argsstring>
+        <name>mainParentBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="8" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" compoundref="_orbit_line_renderer_test_8cs" startline="73" endline="99">OneTimeCalculation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1ae679469eed6ba71af4fd1b3f0f7b0ea5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OrbitLineRendererTest.res</definition>
+        <argsstring></argsstring>
+        <name>res</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="13" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a47625e7bc421871334e8cdd689032504" compoundref="_orbit_line_renderer_test_8cs" startline="31" endline="38">Start</referencedby>
+        <referencedby refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" compoundref="_orbit_line_renderer_test_8cs" startline="40" endline="71">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1a77815f1d21ec2388fe756995351cb16a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitLineRendererTest.theta</definition>
+        <argsstring></argsstring>
+        <name>theta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="14" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" compoundref="_orbit_line_renderer_test_8cs" startline="40" endline="71">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1ab761835eb9848c1405e241f283b87201" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitLineRendererTest.gConstant</definition>
+        <argsstring></argsstring>
+        <name>gConstant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="15" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" compoundref="_orbit_line_renderer_test_8cs" startline="73" endline="99">OneTimeCalculation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1aad22a8ccfa12a2d2d756e9a8ca5253e6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitLineRendererTest.angleTest</definition>
+        <argsstring></argsstring>
+        <name>angleTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="16" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1aa433414317ad7fefd1de9e0ef7a4b078" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitLineRendererTest.semiMajorAxis</definition>
+        <argsstring></argsstring>
+        <name>semiMajorAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="18" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" compoundref="_orbit_line_renderer_test_8cs" startline="73" endline="99">OneTimeCalculation</referencedby>
+        <referencedby refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" compoundref="_orbit_line_renderer_test_8cs" startline="40" endline="71">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1a73b1df6fc911b255fdc3e4af47c1bffb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitLineRendererTest.semiMinorAxis</definition>
+        <argsstring></argsstring>
+        <name>semiMinorAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="19" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" compoundref="_orbit_line_renderer_test_8cs" startline="73" endline="99">OneTimeCalculation</referencedby>
+        <referencedby refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" compoundref="_orbit_line_renderer_test_8cs" startline="40" endline="71">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1ac197c429c74fca916d7ecf4e99df74ec" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitLineRendererTest.orbitPeriod</definition>
+        <argsstring></argsstring>
+        <name>orbitPeriod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="20" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" compoundref="_orbit_line_renderer_test_8cs" startline="73" endline="99">OneTimeCalculation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1a42fd248b439bf3674a32fe4d6bf02071" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitLineRendererTest.eccentricity</definition>
+        <argsstring></argsstring>
+        <name>eccentricity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="21" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" compoundref="_orbit_line_renderer_test_8cs" startline="73" endline="99">OneTimeCalculation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1a274833459ae7c20eb36b88a656f63b20" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitLineRendererTest.orbitCenter</definition>
+        <argsstring></argsstring>
+        <name>orbitCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="24" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" compoundref="_orbit_line_renderer_test_8cs" startline="73" endline="99">OneTimeCalculation</referencedby>
+        <referencedby refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" compoundref="_orbit_line_renderer_test_8cs" startline="40" endline="71">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1abc554bf0e3b2d45dc87f188db7d855e1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OrbitLineRendererTest.calculateOrbit</definition>
+        <argsstring></argsstring>
+        <name>calculateOrbit</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="29" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" compoundref="_orbit_line_renderer_test_8cs" startline="40" endline="71">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1a6ef86a92ee6b8168889ab1a255d89f89" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitLineRendererTest.h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="10" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1afe0ee785413ef8af8e68d003d0b085c5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitLineRendererTest.k</definition>
+        <argsstring></argsstring>
+        <name>k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="11" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1a84bd24c5fe5ce238fc12ca44fc707cda" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] OrbitLineRendererTest.positions</definition>
+        <argsstring></argsstring>
+        <name>positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="23" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a47625e7bc421871334e8cdd689032504" compoundref="_orbit_line_renderer_test_8cs" startline="31" endline="38">Start</referencedby>
+        <referencedby refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" compoundref="_orbit_line_renderer_test_8cs" startline="40" endline="71">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1ac3f3a1afac3854416179eedf26b5ea59" prot="private" static="no" mutable="no">
+        <type>Quaternion</type>
+        <definition>Quaternion OrbitLineRendererTest.q</definition>
+        <argsstring></argsstring>
+        <name>q</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="25" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" compoundref="_orbit_line_renderer_test_8cs" startline="40" endline="71">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1aaf6a4976f30b06eb99134b2384fd6518" prot="private" static="no" mutable="no">
+        <type>LineRenderer</type>
+        <definition>LineRenderer OrbitLineRendererTest.lineRenderer</definition>
+        <argsstring></argsstring>
+        <name>lineRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="26" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a47625e7bc421871334e8cdd689032504" compoundref="_orbit_line_renderer_test_8cs" startline="31" endline="38">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbit_line_renderer_test_1a580cbd55b02cad84839dac8c77b8efb8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_gravitational_pull" kindref="compound">GravitationalPull</ref></type>
+        <definition>GravitationalPull OrbitLineRendererTest.gravityTest</definition>
+        <argsstring></argsstring>
+        <name>gravityTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="28" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_orbit_line_renderer_test_1a47625e7bc421871334e8cdd689032504" compoundref="_orbit_line_renderer_test_8cs" startline="31" endline="38">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_orbit_line_renderer_test_1a47625e7bc421871334e8cdd689032504" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitLineRendererTest.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="31" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="31" bodyend="38"/>
+        <references refid="class_orbit_line_renderer_test_1a580cbd55b02cad84839dac8c77b8efb8" compoundref="_orbit_line_renderer_test_8cs" startline="28">gravityTest</references>
+        <references refid="class_orbit_line_renderer_test_1aaf6a4976f30b06eb99134b2384fd6518" compoundref="_orbit_line_renderer_test_8cs" startline="26">lineRenderer</references>
+        <references refid="class_orbit_line_renderer_test_1a84bd24c5fe5ce238fc12ca44fc707cda" compoundref="_orbit_line_renderer_test_8cs" startline="23">positions</references>
+        <references refid="class_orbit_line_renderer_test_1ae679469eed6ba71af4fd1b3f0f7b0ea5" compoundref="_orbit_line_renderer_test_8cs" startline="13">res</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitLineRendererTest.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="40" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="40" bodyend="71"/>
+        <references refid="class_orbit_line_renderer_test_1abc554bf0e3b2d45dc87f188db7d855e1" compoundref="_orbit_line_renderer_test_8cs" startline="29">calculateOrbit</references>
+        <references refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" compoundref="_orbit_line_renderer_test_8cs" startline="73" endline="99">OneTimeCalculation</references>
+        <references refid="class_orbit_line_renderer_test_1a274833459ae7c20eb36b88a656f63b20" compoundref="_orbit_line_renderer_test_8cs" startline="24">orbitCenter</references>
+        <references refid="class_orbit_line_renderer_test_1a84bd24c5fe5ce238fc12ca44fc707cda" compoundref="_orbit_line_renderer_test_8cs" startline="23">positions</references>
+        <references refid="class_orbit_line_renderer_test_1ac3f3a1afac3854416179eedf26b5ea59" compoundref="_orbit_line_renderer_test_8cs" startline="25">q</references>
+        <references refid="class_orbit_line_renderer_test_1ae679469eed6ba71af4fd1b3f0f7b0ea5" compoundref="_orbit_line_renderer_test_8cs" startline="13">res</references>
+        <references refid="class_orbit_line_renderer_test_1aa433414317ad7fefd1de9e0ef7a4b078" compoundref="_orbit_line_renderer_test_8cs" startline="18">semiMajorAxis</references>
+        <references refid="class_orbit_line_renderer_test_1a73b1df6fc911b255fdc3e4af47c1bffb" compoundref="_orbit_line_renderer_test_8cs" startline="19">semiMinorAxis</references>
+        <references refid="class_orbit_line_renderer_test_1a77815f1d21ec2388fe756995351cb16a" compoundref="_orbit_line_renderer_test_8cs" startline="14">theta</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitLineRendererTest.OneTimeCalculation</definition>
+        <argsstring>()</argsstring>
+        <name>OneTimeCalculation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="73" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="73" bodyend="99"/>
+        <references refid="class_orbit_line_renderer_test_1a42fd248b439bf3674a32fe4d6bf02071" compoundref="_orbit_line_renderer_test_8cs" startline="21">eccentricity</references>
+        <references refid="class_orbit_line_renderer_test_1ab761835eb9848c1405e241f283b87201" compoundref="_orbit_line_renderer_test_8cs" startline="15">gConstant</references>
+        <references refid="class_orbit_line_renderer_test_1a4b349466f65dad8776e1a346e7852dc4" compoundref="_orbit_line_renderer_test_8cs" startline="8">mainParentBody</references>
+        <references refid="class_orbit_line_renderer_test_1a274833459ae7c20eb36b88a656f63b20" compoundref="_orbit_line_renderer_test_8cs" startline="24">orbitCenter</references>
+        <references refid="class_orbit_line_renderer_test_1ac197c429c74fca916d7ecf4e99df74ec" compoundref="_orbit_line_renderer_test_8cs" startline="20">orbitPeriod</references>
+        <references refid="class_orbit_line_renderer_test_1aa433414317ad7fefd1de9e0ef7a4b078" compoundref="_orbit_line_renderer_test_8cs" startline="18">semiMajorAxis</references>
+        <references refid="class_orbit_line_renderer_test_1a73b1df6fc911b255fdc3e4af47c1bffb" compoundref="_orbit_line_renderer_test_8cs" startline="19">semiMinorAxis</references>
+        <referencedby refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" compoundref="_orbit_line_renderer_test_8cs" startline="40" endline="71">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_orbit_line_renderer_test_1a13d404c5d859b5003d5088f6a220ea57" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float OrbitLineRendererTest.SignedAngle</definition>
+        <argsstring>(Vector3 from, Vector3 to, Vector3 normal)</argsstring>
+        <name>SignedAngle</name>
+        <param>
+          <type>Vector3</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>normal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="101" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="101" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="38">
+        <label>OrbitLineRendererTest</label>
+        <link refid="class_orbit_line_renderer_test"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="42">
+        <label>GravitationalPull</label>
+        <link refid="class_gravitational_pull"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>OrbitLineRendererTest</label>
+        <link refid="class_orbit_line_renderer_test"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+        <childnode refid="42" relation="usage">
+          <edgelabel>gravityTest</edgelabel>
+        </childnode>
+      </node>
+      <node id="41">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" line="6" column="1" bodyfile="C:/Uniprj/Centauri/Assets/OrbitLineRendererTest.cs" bodystart="5" bodyend="108"/>
+    <listofallmembers>
+      <member refid="class_orbit_line_renderer_test_1aad22a8ccfa12a2d2d756e9a8ca5253e6" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>angleTest</name></member>
+      <member refid="class_orbit_line_renderer_test_1abc554bf0e3b2d45dc87f188db7d855e1" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>calculateOrbit</name></member>
+      <member refid="class_orbit_line_renderer_test_1a42fd248b439bf3674a32fe4d6bf02071" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>eccentricity</name></member>
+      <member refid="class_orbit_line_renderer_test_1ab761835eb9848c1405e241f283b87201" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>gConstant</name></member>
+      <member refid="class_orbit_line_renderer_test_1a580cbd55b02cad84839dac8c77b8efb8" prot="private" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>gravityTest</name></member>
+      <member refid="class_orbit_line_renderer_test_1a6ef86a92ee6b8168889ab1a255d89f89" prot="private" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>h</name></member>
+      <member refid="class_orbit_line_renderer_test_1afe0ee785413ef8af8e68d003d0b085c5" prot="private" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>k</name></member>
+      <member refid="class_orbit_line_renderer_test_1aaf6a4976f30b06eb99134b2384fd6518" prot="private" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>lineRenderer</name></member>
+      <member refid="class_orbit_line_renderer_test_1a4b349466f65dad8776e1a346e7852dc4" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>mainParentBody</name></member>
+      <member refid="class_orbit_line_renderer_test_1a14fb4dbad1c30a98d8cb4f3f9406a6a8" prot="private" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>OneTimeCalculation</name></member>
+      <member refid="class_orbit_line_renderer_test_1a274833459ae7c20eb36b88a656f63b20" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>orbitCenter</name></member>
+      <member refid="class_orbit_line_renderer_test_1ac197c429c74fca916d7ecf4e99df74ec" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>orbitPeriod</name></member>
+      <member refid="class_orbit_line_renderer_test_1a84bd24c5fe5ce238fc12ca44fc707cda" prot="private" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>positions</name></member>
+      <member refid="class_orbit_line_renderer_test_1ac3f3a1afac3854416179eedf26b5ea59" prot="private" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>q</name></member>
+      <member refid="class_orbit_line_renderer_test_1ae679469eed6ba71af4fd1b3f0f7b0ea5" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>res</name></member>
+      <member refid="class_orbit_line_renderer_test_1aa433414317ad7fefd1de9e0ef7a4b078" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>semiMajorAxis</name></member>
+      <member refid="class_orbit_line_renderer_test_1a73b1df6fc911b255fdc3e4af47c1bffb" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>semiMinorAxis</name></member>
+      <member refid="class_orbit_line_renderer_test_1a13d404c5d859b5003d5088f6a220ea57" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>SignedAngle</name></member>
+      <member refid="class_orbit_line_renderer_test_1a47625e7bc421871334e8cdd689032504" prot="private" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>Start</name></member>
+      <member refid="class_orbit_line_renderer_test_1a77815f1d21ec2388fe756995351cb16a" prot="public" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>theta</name></member>
+      <member refid="class_orbit_line_renderer_test_1a8c9206727a7d547601e2386e7be5a00c" prot="private" virt="non-virtual"><scope>OrbitLineRendererTest</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

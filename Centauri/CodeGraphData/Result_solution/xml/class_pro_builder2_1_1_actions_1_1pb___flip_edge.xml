@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___flip_edge" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_FlipEdge</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu interface for flip edges actions.</para><para>Deprecated as of 2.6.0. This file remains only for backwards compatibility; you may safely delete it. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="464">
+        <label>Editor</label>
+      </node>
+      <node id="463">
+        <label>ProBuilder2.Actions.pb_FlipEdge</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___flip_edge"/>
+        <childnode refid="464" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="466">
+        <label>Editor</label>
+      </node>
+      <node id="465">
+        <label>ProBuilder2.Actions.pb_FlipEdge</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___flip_edge"/>
+        <childnode refid="466" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FlipEdge.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_FlipEdge.cs" bodystart="17" bodyend="17"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

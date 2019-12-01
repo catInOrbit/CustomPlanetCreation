@@ -1,0 +1,963 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classpb___preferences" kind="class" prot="public">
+    <compoundname>pb_Preferences</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classpb___preferences_1a29971678ba20fdaebb7a97b83a0ec3e2" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.prefsLoaded</definition>
+        <argsstring></argsstring>
+        <name>prefsLoaded</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a2c74fa3c87c3c2d4de1820ecb922d94b" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color pb_Preferences.pbDefaultFaceColor</definition>
+        <argsstring></argsstring>
+        <name>pbDefaultFaceColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a876c140266e76bd84f5b52a4b51ebb16" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color pb_Preferences.pbDefaultEdgeColor</definition>
+        <argsstring></argsstring>
+        <name>pbDefaultEdgeColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a519e5e29fdd03a4f17709aa0b44a34ee" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color pb_Preferences.pbDefaultSelectedVertexColor</definition>
+        <argsstring></argsstring>
+        <name>pbDefaultSelectedVertexColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a34456fe0a8c4538203fddae6d6a066f4" prot="private" static="yes" mutable="no">
+        <type>Color</type>
+        <definition>Color pb_Preferences.pbDefaultVertexColor</definition>
+        <argsstring></argsstring>
+        <name>pbDefaultVertexColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a7e4c093ef1bda6a66d1ed0ef9495f841" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.defaultOpenInDockableWindow</definition>
+        <argsstring></argsstring>
+        <name>defaultOpenInDockableWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a83bd3c49b209b6edcf586d49a30446d8" prot="private" static="yes" mutable="no">
+        <type>Material</type>
+        <definition>Material pb_Preferences.pbDefaultMaterial</definition>
+        <argsstring></argsstring>
+        <name>pbDefaultMaterial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a7c6d4b163f6a7131f55724edf4e9d236" prot="private" static="yes" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 pb_Preferences.settingsScroll</definition>
+        <argsstring></argsstring>
+        <name>settingsScroll</name>
+        <initializer>= Vector2.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="31" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1ad2cd496f7162e88dc90be63c87c0235e" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbShowEditorNotifications</definition>
+        <argsstring></argsstring>
+        <name>pbShowEditorNotifications</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1aae2b2922673cfb2d81daf0bad498d019" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbForceConvex</definition>
+        <argsstring></argsstring>
+        <name>pbForceConvex</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="33" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1ad35ab165af3eb5bd748a8ce78b6db0f3" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbDragCheckLimit</definition>
+        <argsstring></argsstring>
+        <name>pbDragCheckLimit</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="34" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a6f5bada6aa85f375bc9b107c552f88bc" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbForceVertexPivot</definition>
+        <argsstring></argsstring>
+        <name>pbForceVertexPivot</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="35" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1af74a89bfdbf2f9a2ad567e6f0da973d8" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbForceGridPivot</definition>
+        <argsstring></argsstring>
+        <name>pbForceGridPivot</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1ad636053a57dbe2b8543d7bdcdddebbc7" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbPerimeterEdgeBridgeOnly</definition>
+        <argsstring></argsstring>
+        <name>pbPerimeterEdgeBridgeOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a0be7a24c47e1ad46b287a47adbe54e81" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbPBOSelectionOnly</definition>
+        <argsstring></argsstring>
+        <name>pbPBOSelectionOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="38" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a482c059054e95dc157bd2fdb8e774e4a" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbCloseShapeWindow</definition>
+        <argsstring></argsstring>
+        <name>pbCloseShapeWindow</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="39" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a8be8466d64e62c26e50da3992eaf7910" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbUVEditorFloating</definition>
+        <argsstring></argsstring>
+        <name>pbUVEditorFloating</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a412f20d4e1164a48628c486a3b439918" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbStripProBuilderOnBuild</definition>
+        <argsstring></argsstring>
+        <name>pbStripProBuilderOnBuild</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="41" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a63478789db5fb0059499cfebdee12fc2" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbDisableAutoUV2Generation</definition>
+        <argsstring></argsstring>
+        <name>pbDisableAutoUV2Generation</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="42" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1af8b7eac134a8eea955aa2f31dd64d5cc" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbShowSceneInfo</definition>
+        <argsstring></argsstring>
+        <name>pbShowSceneInfo</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="43" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a61a2866fdc5f6fa11589e232decda63b" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbUniqueModeShortcuts</definition>
+        <argsstring></argsstring>
+        <name>pbUniqueModeShortcuts</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="44" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1ae74005d9927468290620f547fb10746a" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbIconGUI</definition>
+        <argsstring></argsstring>
+        <name>pbIconGUI</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="45" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1acf66079d3485a45a71db7c7ec31f01c4" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbShiftOnlyTooltips</definition>
+        <argsstring></argsstring>
+        <name>pbShiftOnlyTooltips</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="46" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a0b9c810837761d686eaae58cf4f062e7" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbDrawAxisLines</definition>
+        <argsstring></argsstring>
+        <name>pbDrawAxisLines</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="47" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1aa8ae459440162a1f7d4ca5c445a14b1b" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbMeshesAreAssets</definition>
+        <argsstring></argsstring>
+        <name>pbMeshesAreAssets</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="48" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a55f295ee0a29cfb909ab672050b8d96f" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbElementSelectIsHamFisted</definition>
+        <argsstring></argsstring>
+        <name>pbElementSelectIsHamFisted</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="49" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1adafbbc78d2fb0c58306333248e4fc7eb" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbDragSelectWholeElement</definition>
+        <argsstring></argsstring>
+        <name>pbDragSelectWholeElement</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="50" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1abb453fd00e8f236e6e875f458fef47e3" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.pbEnableExperimental</definition>
+        <argsstring></argsstring>
+        <name>pbEnableExperimental</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="51" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a771ad4985f518e2d96bdfc1020820d76" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool pb_Preferences.showMissingLightmapUvWarning</definition>
+        <argsstring></argsstring>
+        <name>showMissingLightmapUvWarning</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="53" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a1f0d88312962ceaa4b40f24b44c4a6a4" prot="private" static="yes" mutable="no">
+        <type>ShadowCastingMode</type>
+        <definition>ShadowCastingMode pb_Preferences.pbShadowCastingMode</definition>
+        <argsstring></argsstring>
+        <name>pbShadowCastingMode</name>
+        <initializer>= ShadowCastingMode.On</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="56" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a0d923899d05eefbe53fb32aa9af8bb74" prot="private" static="yes" mutable="no">
+        <type>ColliderType</type>
+        <definition>ColliderType pb_Preferences.defaultColliderType</definition>
+        <argsstring></argsstring>
+        <name>defaultColliderType</name>
+        <initializer>= ColliderType.BoxCollider</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="59" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a63a7c6364dc2178bc5e59d22cbdf2068" prot="private" static="yes" mutable="no">
+        <type>SceneToolbarLocation</type>
+        <definition>SceneToolbarLocation pb_Preferences.pbToolbarLocation</definition>
+        <argsstring></argsstring>
+        <name>pbToolbarLocation</name>
+        <initializer>= SceneToolbarLocation.UpperCenter</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="60" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1ad959715c29aeee4c8c4aa895ea9d5e1f" prot="private" static="yes" mutable="no">
+        <type>EntityType</type>
+        <definition>EntityType pb_Preferences.pbDefaultEntity</definition>
+        <argsstring></argsstring>
+        <name>pbDefaultEntity</name>
+        <initializer>= EntityType.Detail</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="61" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a289a46f8cc90390e9ceb448653c74278" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float pb_Preferences.pbUVGridSnapValue</definition>
+        <argsstring></argsstring>
+        <name>pbUVGridSnapValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="63" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="63" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a932c789ef05f012109b9a09d5050a1c3" prot="private" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float pb_Preferences.pbVertexHandleSize</definition>
+        <argsstring></argsstring>
+        <name>pbVertexHandleSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="64" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="64" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a01c526f155f91fee0f95877ebb9cad73" prot="private" static="yes" mutable="no">
+        <type>pb_Shortcut[]</type>
+        <definition>pb_Shortcut [] pb_Preferences.defaultShortcuts</definition>
+        <argsstring></argsstring>
+        <name>defaultShortcuts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="66" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="66" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</referencedby>
+        <referencedby refid="classpb___preferences_1a02278d4bb442285a0410544c2aef095f" compoundref="pb___preferences_8cs" startline="331" endline="357">ShortcutEditPanel</referencedby>
+        <referencedby refid="classpb___preferences_1a77b609c0d18fc100e5473934a55aa112" compoundref="pb___preferences_8cs" startline="288" endline="329">ShortcutSelectPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a2e352114dfbbd790e2d5389e8cf7ee3a" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int pb_Preferences.shortcutIndex</definition>
+        <argsstring></argsstring>
+        <name>shortcutIndex</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="275" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="275" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1a02278d4bb442285a0410544c2aef095f" compoundref="pb___preferences_8cs" startline="331" endline="357">ShortcutEditPanel</referencedby>
+        <referencedby refid="classpb___preferences_1a77b609c0d18fc100e5473934a55aa112" compoundref="pb___preferences_8cs" startline="288" endline="329">ShortcutSelectPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1ab571a65c213da0a27618191927765cb7" prot="private" static="yes" mutable="no">
+        <type>Rect</type>
+        <definition>Rect pb_Preferences.selectBox</definition>
+        <argsstring></argsstring>
+        <name>selectBox</name>
+        <initializer>= new Rect(0, 214, 183, 156)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="278" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="278" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1a77b609c0d18fc100e5473934a55aa112" compoundref="pb___preferences_8cs" startline="288" endline="329">ShortcutSelectPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1afeaf310ac36869f847f635d8e7605e00" prot="private" static="yes" mutable="no">
+        <type>Rect</type>
+        <definition>Rect pb_Preferences.shortcutEditRect</definition>
+        <argsstring></argsstring>
+        <name>shortcutEditRect</name>
+        <initializer>= new Rect(190, 191, 178, 300)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="279" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="279" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1a02278d4bb442285a0410544c2aef095f" compoundref="pb___preferences_8cs" startline="331" endline="357">ShortcutEditPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a8a9de1659a30bd2fdf3802d4597584df" prot="private" static="yes" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 pb_Preferences.shortcutScroll</definition>
+        <argsstring></argsstring>
+        <name>shortcutScroll</name>
+        <initializer>= Vector2.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="285" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="285" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1a77b609c0d18fc100e5473934a55aa112" compoundref="pb___preferences_8cs" startline="288" endline="329">ShortcutSelectPanel</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classpb___preferences_1a1e01c9b827ae062eaf8cb350b1976982" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int pb_Preferences.CELL_HEIGHT</definition>
+        <argsstring></argsstring>
+        <name>CELL_HEIGHT</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="286" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="286" bodyend="-1"/>
+        <referencedby refid="classpb___preferences_1a77b609c0d18fc100e5473934a55aa112" compoundref="pb___preferences_8cs" startline="288" endline="329">ShortcutSelectPanel</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_Preferences.PreferencesGUI</definition>
+        <argsstring>()</argsstring>
+        <name>PreferencesGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>GENERAL SETTINGS</para><para>TOOLBAR SETTINGS</para><para>DEFAULT SETTINGS</para><para>MISC. SETTINGS</para><para>GEOMETRY EDITING SETTINGS</para><para>UV EDITOR SETTINGS</para>        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="69" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="69" bodyend="191"/>
+        <references refid="classpb___preferences_1a0d923899d05eefbe53fb32aa9af8bb74" compoundref="pb___preferences_8cs" startline="59">defaultColliderType</references>
+        <references refid="classpb___preferences_1a7e4c093ef1bda6a66d1ed0ef9495f841" compoundref="pb___preferences_8cs" startline="29">defaultOpenInDockableWindow</references>
+        <references refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</references>
+        <references refid="classpb___preferences_1a482c059054e95dc157bd2fdb8e774e4a" compoundref="pb___preferences_8cs" startline="39">pbCloseShapeWindow</references>
+        <references refid="classpb___preferences_1a876c140266e76bd84f5b52a4b51ebb16" compoundref="pb___preferences_8cs" startline="25">pbDefaultEdgeColor</references>
+        <references refid="classpb___preferences_1ad959715c29aeee4c8c4aa895ea9d5e1f" compoundref="pb___preferences_8cs" startline="61">pbDefaultEntity</references>
+        <references refid="classpb___preferences_1a2c74fa3c87c3c2d4de1820ecb922d94b" compoundref="pb___preferences_8cs" startline="24">pbDefaultFaceColor</references>
+        <references refid="classpb___preferences_1a83bd3c49b209b6edcf586d49a30446d8" compoundref="pb___preferences_8cs" startline="30">pbDefaultMaterial</references>
+        <references refid="classpb___preferences_1a519e5e29fdd03a4f17709aa0b44a34ee" compoundref="pb___preferences_8cs" startline="26">pbDefaultSelectedVertexColor</references>
+        <references refid="classpb___preferences_1a34456fe0a8c4538203fddae6d6a066f4" compoundref="pb___preferences_8cs" startline="27">pbDefaultVertexColor</references>
+        <references refid="classpb___preferences_1a63478789db5fb0059499cfebdee12fc2" compoundref="pb___preferences_8cs" startline="42">pbDisableAutoUV2Generation</references>
+        <references refid="classpb___preferences_1ad35ab165af3eb5bd748a8ce78b6db0f3" compoundref="pb___preferences_8cs" startline="34">pbDragCheckLimit</references>
+        <references refid="classpb___preferences_1adafbbc78d2fb0c58306333248e4fc7eb" compoundref="pb___preferences_8cs" startline="50">pbDragSelectWholeElement</references>
+        <references refid="classpb___preferences_1a0b9c810837761d686eaae58cf4f062e7" compoundref="pb___preferences_8cs" startline="47">pbDrawAxisLines</references>
+        <references refid="classpb___preferences_1a55f295ee0a29cfb909ab672050b8d96f" compoundref="pb___preferences_8cs" startline="49">pbElementSelectIsHamFisted</references>
+        <references refid="classpb___preferences_1abb453fd00e8f236e6e875f458fef47e3" compoundref="pb___preferences_8cs" startline="51">pbEnableExperimental</references>
+        <references refid="classpb___preferences_1aae2b2922673cfb2d81daf0bad498d019" compoundref="pb___preferences_8cs" startline="33">pbForceConvex</references>
+        <references refid="classpb___preferences_1af74a89bfdbf2f9a2ad567e6f0da973d8" compoundref="pb___preferences_8cs" startline="36">pbForceGridPivot</references>
+        <references refid="classpb___preferences_1a6f5bada6aa85f375bc9b107c552f88bc" compoundref="pb___preferences_8cs" startline="35">pbForceVertexPivot</references>
+        <references refid="classpb___preferences_1ae74005d9927468290620f547fb10746a" compoundref="pb___preferences_8cs" startline="45">pbIconGUI</references>
+        <references refid="classpb___preferences_1aa8ae459440162a1f7d4ca5c445a14b1b" compoundref="pb___preferences_8cs" startline="48">pbMeshesAreAssets</references>
+        <references refid="classpb___preferences_1a0be7a24c47e1ad46b287a47adbe54e81" compoundref="pb___preferences_8cs" startline="38">pbPBOSelectionOnly</references>
+        <references refid="classpb___preferences_1ad636053a57dbe2b8543d7bdcdddebbc7" compoundref="pb___preferences_8cs" startline="37">pbPerimeterEdgeBridgeOnly</references>
+        <references refid="classpb___preferences_1a1f0d88312962ceaa4b40f24b44c4a6a4" compoundref="pb___preferences_8cs" startline="56">pbShadowCastingMode</references>
+        <references refid="classpb___preferences_1acf66079d3485a45a71db7c7ec31f01c4" compoundref="pb___preferences_8cs" startline="46">pbShiftOnlyTooltips</references>
+        <references refid="classpb___preferences_1ad2cd496f7162e88dc90be63c87c0235e" compoundref="pb___preferences_8cs" startline="32">pbShowEditorNotifications</references>
+        <references refid="classpb___preferences_1af8b7eac134a8eea955aa2f31dd64d5cc" compoundref="pb___preferences_8cs" startline="43">pbShowSceneInfo</references>
+        <references refid="classpb___preferences_1a412f20d4e1164a48628c486a3b439918" compoundref="pb___preferences_8cs" startline="41">pbStripProBuilderOnBuild</references>
+        <references refid="classpb___preferences_1a63a7c6364dc2178bc5e59d22cbdf2068" compoundref="pb___preferences_8cs" startline="60">pbToolbarLocation</references>
+        <references refid="classpb___preferences_1a61a2866fdc5f6fa11589e232decda63b" compoundref="pb___preferences_8cs" startline="44">pbUniqueModeShortcuts</references>
+        <references refid="classpb___preferences_1a8be8466d64e62c26e50da3992eaf7910" compoundref="pb___preferences_8cs" startline="40">pbUVEditorFloating</references>
+        <references refid="classpb___preferences_1a289a46f8cc90390e9ceb448653c74278" compoundref="pb___preferences_8cs" startline="63">pbUVGridSnapValue</references>
+        <references refid="classpb___preferences_1a932c789ef05f012109b9a09d5050a1c3" compoundref="pb___preferences_8cs" startline="64">pbVertexHandleSize</references>
+        <references refid="classpb___preferences_1a29971678ba20fdaebb7a97b83a0ec3e2" compoundref="pb___preferences_8cs" startline="22">prefsLoaded</references>
+        <references refid="classpb___preferences_1a950a1d5c1a3850bf7d789d3776c19cf1" compoundref="pb___preferences_8cs" startline="193" endline="273">ResetToDefaults</references>
+        <references refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" compoundref="pb___preferences_8cs" startline="406" endline="456">SetPrefs</references>
+        <references refid="classpb___preferences_1a7c6d4b163f6a7131f55724edf4e9d236" compoundref="pb___preferences_8cs" startline="31">settingsScroll</references>
+        <references refid="classpb___preferences_1a02278d4bb442285a0410544c2aef095f" compoundref="pb___preferences_8cs" startline="331" endline="357">ShortcutEditPanel</references>
+        <references refid="classpb___preferences_1a77b609c0d18fc100e5473934a55aa112" compoundref="pb___preferences_8cs" startline="288" endline="329">ShortcutSelectPanel</references>
+        <references refid="classpb___preferences_1a771ad4985f518e2d96bdfc1020820d76" compoundref="pb___preferences_8cs" startline="53">showMissingLightmapUvWarning</references>
+      </memberdef>
+      <memberdef kind="function" id="classpb___preferences_1a77b609c0d18fc100e5473934a55aa112" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_Preferences.ShortcutSelectPanel</definition>
+        <argsstring>()</argsstring>
+        <name>ShortcutSelectPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="288" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="288" bodyend="329"/>
+        <references refid="classpb___preferences_1a1e01c9b827ae062eaf8cb350b1976982" compoundref="pb___preferences_8cs" startline="286">CELL_HEIGHT</references>
+        <references refid="classpb___preferences_1a01c526f155f91fee0f95877ebb9cad73" compoundref="pb___preferences_8cs" startline="66">defaultShortcuts</references>
+        <references refid="classpb___preferences_1ab571a65c213da0a27618191927765cb7" compoundref="pb___preferences_8cs" startline="278">selectBox</references>
+        <references refid="classpb___preferences_1a2e352114dfbbd790e2d5389e8cf7ee3a" compoundref="pb___preferences_8cs" startline="275">shortcutIndex</references>
+        <references refid="classpb___preferences_1a8a9de1659a30bd2fdf3802d4597584df" compoundref="pb___preferences_8cs" startline="285">shortcutScroll</references>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpb___preferences_1a02278d4bb442285a0410544c2aef095f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_Preferences.ShortcutEditPanel</definition>
+        <argsstring>()</argsstring>
+        <name>ShortcutEditPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="331" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="331" bodyend="357"/>
+        <references refid="classpb___preferences_1a01c526f155f91fee0f95877ebb9cad73" compoundref="pb___preferences_8cs" startline="66">defaultShortcuts</references>
+        <references refid="classpb___preferences_1afeaf310ac36869f847f635d8e7605e00" compoundref="pb___preferences_8cs" startline="279">shortcutEditRect</references>
+        <references refid="classpb___preferences_1a2e352114dfbbd790e2d5389e8cf7ee3a" compoundref="pb___preferences_8cs" startline="275">shortcutIndex</references>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_Preferences.LoadPrefs</definition>
+        <argsstring>()</argsstring>
+        <name>LoadPrefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="359" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="359" bodyend="404"/>
+        <references refid="classpb___preferences_1a0d923899d05eefbe53fb32aa9af8bb74" compoundref="pb___preferences_8cs" startline="59">defaultColliderType</references>
+        <references refid="classpb___preferences_1a7e4c093ef1bda6a66d1ed0ef9495f841" compoundref="pb___preferences_8cs" startline="29">defaultOpenInDockableWindow</references>
+        <references refid="classpb___preferences_1a01c526f155f91fee0f95877ebb9cad73" compoundref="pb___preferences_8cs" startline="66">defaultShortcuts</references>
+        <references refid="classpb___preferences_1a482c059054e95dc157bd2fdb8e774e4a" compoundref="pb___preferences_8cs" startline="39">pbCloseShapeWindow</references>
+        <references refid="classpb___preferences_1a876c140266e76bd84f5b52a4b51ebb16" compoundref="pb___preferences_8cs" startline="25">pbDefaultEdgeColor</references>
+        <references refid="classpb___preferences_1ad959715c29aeee4c8c4aa895ea9d5e1f" compoundref="pb___preferences_8cs" startline="61">pbDefaultEntity</references>
+        <references refid="classpb___preferences_1a2c74fa3c87c3c2d4de1820ecb922d94b" compoundref="pb___preferences_8cs" startline="24">pbDefaultFaceColor</references>
+        <references refid="classpb___preferences_1a83bd3c49b209b6edcf586d49a30446d8" compoundref="pb___preferences_8cs" startline="30">pbDefaultMaterial</references>
+        <references refid="classpb___preferences_1a519e5e29fdd03a4f17709aa0b44a34ee" compoundref="pb___preferences_8cs" startline="26">pbDefaultSelectedVertexColor</references>
+        <references refid="classpb___preferences_1a34456fe0a8c4538203fddae6d6a066f4" compoundref="pb___preferences_8cs" startline="27">pbDefaultVertexColor</references>
+        <references refid="classpb___preferences_1a63478789db5fb0059499cfebdee12fc2" compoundref="pb___preferences_8cs" startline="42">pbDisableAutoUV2Generation</references>
+        <references refid="classpb___preferences_1ad35ab165af3eb5bd748a8ce78b6db0f3" compoundref="pb___preferences_8cs" startline="34">pbDragCheckLimit</references>
+        <references refid="classpb___preferences_1adafbbc78d2fb0c58306333248e4fc7eb" compoundref="pb___preferences_8cs" startline="50">pbDragSelectWholeElement</references>
+        <references refid="classpb___preferences_1a0b9c810837761d686eaae58cf4f062e7" compoundref="pb___preferences_8cs" startline="47">pbDrawAxisLines</references>
+        <references refid="classpb___preferences_1a55f295ee0a29cfb909ab672050b8d96f" compoundref="pb___preferences_8cs" startline="49">pbElementSelectIsHamFisted</references>
+        <references refid="classpb___preferences_1abb453fd00e8f236e6e875f458fef47e3" compoundref="pb___preferences_8cs" startline="51">pbEnableExperimental</references>
+        <references refid="classpb___preferences_1aae2b2922673cfb2d81daf0bad498d019" compoundref="pb___preferences_8cs" startline="33">pbForceConvex</references>
+        <references refid="classpb___preferences_1af74a89bfdbf2f9a2ad567e6f0da973d8" compoundref="pb___preferences_8cs" startline="36">pbForceGridPivot</references>
+        <references refid="classpb___preferences_1a6f5bada6aa85f375bc9b107c552f88bc" compoundref="pb___preferences_8cs" startline="35">pbForceVertexPivot</references>
+        <references refid="classpb___preferences_1ae74005d9927468290620f547fb10746a" compoundref="pb___preferences_8cs" startline="45">pbIconGUI</references>
+        <references refid="classpb___preferences_1aa8ae459440162a1f7d4ca5c445a14b1b" compoundref="pb___preferences_8cs" startline="48">pbMeshesAreAssets</references>
+        <references refid="classpb___preferences_1a0be7a24c47e1ad46b287a47adbe54e81" compoundref="pb___preferences_8cs" startline="38">pbPBOSelectionOnly</references>
+        <references refid="classpb___preferences_1ad636053a57dbe2b8543d7bdcdddebbc7" compoundref="pb___preferences_8cs" startline="37">pbPerimeterEdgeBridgeOnly</references>
+        <references refid="classpb___preferences_1a1f0d88312962ceaa4b40f24b44c4a6a4" compoundref="pb___preferences_8cs" startline="56">pbShadowCastingMode</references>
+        <references refid="classpb___preferences_1acf66079d3485a45a71db7c7ec31f01c4" compoundref="pb___preferences_8cs" startline="46">pbShiftOnlyTooltips</references>
+        <references refid="classpb___preferences_1ad2cd496f7162e88dc90be63c87c0235e" compoundref="pb___preferences_8cs" startline="32">pbShowEditorNotifications</references>
+        <references refid="classpb___preferences_1af8b7eac134a8eea955aa2f31dd64d5cc" compoundref="pb___preferences_8cs" startline="43">pbShowSceneInfo</references>
+        <references refid="classpb___preferences_1a412f20d4e1164a48628c486a3b439918" compoundref="pb___preferences_8cs" startline="41">pbStripProBuilderOnBuild</references>
+        <references refid="classpb___preferences_1a63a7c6364dc2178bc5e59d22cbdf2068" compoundref="pb___preferences_8cs" startline="60">pbToolbarLocation</references>
+        <references refid="classpb___preferences_1a61a2866fdc5f6fa11589e232decda63b" compoundref="pb___preferences_8cs" startline="44">pbUniqueModeShortcuts</references>
+        <references refid="classpb___preferences_1a8be8466d64e62c26e50da3992eaf7910" compoundref="pb___preferences_8cs" startline="40">pbUVEditorFloating</references>
+        <references refid="classpb___preferences_1a289a46f8cc90390e9ceb448653c74278" compoundref="pb___preferences_8cs" startline="63">pbUVGridSnapValue</references>
+        <references refid="classpb___preferences_1a932c789ef05f012109b9a09d5050a1c3" compoundref="pb___preferences_8cs" startline="64">pbVertexHandleSize</references>
+        <references refid="classpb___preferences_1a771ad4985f518e2d96bdfc1020820d76" compoundref="pb___preferences_8cs" startline="53">showMissingLightmapUvWarning</references>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+        <referencedby refid="classpb___preferences_1a950a1d5c1a3850bf7d789d3776c19cf1" compoundref="pb___preferences_8cs" startline="193" endline="273">ResetToDefaults</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classpb___preferences_1a950a1d5c1a3850bf7d789d3776c19cf1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_Preferences.ResetToDefaults</definition>
+        <argsstring>()</argsstring>
+        <name>ResetToDefaults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="193" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="193" bodyend="273"/>
+        <references refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" compoundref="pb___preferences_8cs" startline="359" endline="404">LoadPrefs</references>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_Preferences.SetPrefs</definition>
+        <argsstring>()</argsstring>
+        <name>SetPrefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="406" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="406" bodyend="456"/>
+        <references refid="classpb___preferences_1a0d923899d05eefbe53fb32aa9af8bb74" compoundref="pb___preferences_8cs" startline="59">defaultColliderType</references>
+        <references refid="classpb___preferences_1a7e4c093ef1bda6a66d1ed0ef9495f841" compoundref="pb___preferences_8cs" startline="29">defaultOpenInDockableWindow</references>
+        <references refid="classpb___preferences_1a01c526f155f91fee0f95877ebb9cad73" compoundref="pb___preferences_8cs" startline="66">defaultShortcuts</references>
+        <references refid="classpb___preferences_1a482c059054e95dc157bd2fdb8e774e4a" compoundref="pb___preferences_8cs" startline="39">pbCloseShapeWindow</references>
+        <references refid="classpb___preferences_1a876c140266e76bd84f5b52a4b51ebb16" compoundref="pb___preferences_8cs" startline="25">pbDefaultEdgeColor</references>
+        <references refid="classpb___preferences_1ad959715c29aeee4c8c4aa895ea9d5e1f" compoundref="pb___preferences_8cs" startline="61">pbDefaultEntity</references>
+        <references refid="classpb___preferences_1a2c74fa3c87c3c2d4de1820ecb922d94b" compoundref="pb___preferences_8cs" startline="24">pbDefaultFaceColor</references>
+        <references refid="classpb___preferences_1a83bd3c49b209b6edcf586d49a30446d8" compoundref="pb___preferences_8cs" startline="30">pbDefaultMaterial</references>
+        <references refid="classpb___preferences_1a519e5e29fdd03a4f17709aa0b44a34ee" compoundref="pb___preferences_8cs" startline="26">pbDefaultSelectedVertexColor</references>
+        <references refid="classpb___preferences_1a34456fe0a8c4538203fddae6d6a066f4" compoundref="pb___preferences_8cs" startline="27">pbDefaultVertexColor</references>
+        <references refid="classpb___preferences_1a63478789db5fb0059499cfebdee12fc2" compoundref="pb___preferences_8cs" startline="42">pbDisableAutoUV2Generation</references>
+        <references refid="classpb___preferences_1ad35ab165af3eb5bd748a8ce78b6db0f3" compoundref="pb___preferences_8cs" startline="34">pbDragCheckLimit</references>
+        <references refid="classpb___preferences_1adafbbc78d2fb0c58306333248e4fc7eb" compoundref="pb___preferences_8cs" startline="50">pbDragSelectWholeElement</references>
+        <references refid="classpb___preferences_1a0b9c810837761d686eaae58cf4f062e7" compoundref="pb___preferences_8cs" startline="47">pbDrawAxisLines</references>
+        <references refid="classpb___preferences_1a55f295ee0a29cfb909ab672050b8d96f" compoundref="pb___preferences_8cs" startline="49">pbElementSelectIsHamFisted</references>
+        <references refid="classpb___preferences_1abb453fd00e8f236e6e875f458fef47e3" compoundref="pb___preferences_8cs" startline="51">pbEnableExperimental</references>
+        <references refid="classpb___preferences_1aae2b2922673cfb2d81daf0bad498d019" compoundref="pb___preferences_8cs" startline="33">pbForceConvex</references>
+        <references refid="classpb___preferences_1af74a89bfdbf2f9a2ad567e6f0da973d8" compoundref="pb___preferences_8cs" startline="36">pbForceGridPivot</references>
+        <references refid="classpb___preferences_1a6f5bada6aa85f375bc9b107c552f88bc" compoundref="pb___preferences_8cs" startline="35">pbForceVertexPivot</references>
+        <references refid="classpb___preferences_1ae74005d9927468290620f547fb10746a" compoundref="pb___preferences_8cs" startline="45">pbIconGUI</references>
+        <references refid="classpb___preferences_1aa8ae459440162a1f7d4ca5c445a14b1b" compoundref="pb___preferences_8cs" startline="48">pbMeshesAreAssets</references>
+        <references refid="classpb___preferences_1a0be7a24c47e1ad46b287a47adbe54e81" compoundref="pb___preferences_8cs" startline="38">pbPBOSelectionOnly</references>
+        <references refid="classpb___preferences_1ad636053a57dbe2b8543d7bdcdddebbc7" compoundref="pb___preferences_8cs" startline="37">pbPerimeterEdgeBridgeOnly</references>
+        <references refid="classpb___preferences_1a1f0d88312962ceaa4b40f24b44c4a6a4" compoundref="pb___preferences_8cs" startline="56">pbShadowCastingMode</references>
+        <references refid="classpb___preferences_1acf66079d3485a45a71db7c7ec31f01c4" compoundref="pb___preferences_8cs" startline="46">pbShiftOnlyTooltips</references>
+        <references refid="classpb___preferences_1ad2cd496f7162e88dc90be63c87c0235e" compoundref="pb___preferences_8cs" startline="32">pbShowEditorNotifications</references>
+        <references refid="classpb___preferences_1af8b7eac134a8eea955aa2f31dd64d5cc" compoundref="pb___preferences_8cs" startline="43">pbShowSceneInfo</references>
+        <references refid="classpb___preferences_1a412f20d4e1164a48628c486a3b439918" compoundref="pb___preferences_8cs" startline="41">pbStripProBuilderOnBuild</references>
+        <references refid="classpb___preferences_1a63a7c6364dc2178bc5e59d22cbdf2068" compoundref="pb___preferences_8cs" startline="60">pbToolbarLocation</references>
+        <references refid="classpb___preferences_1a61a2866fdc5f6fa11589e232decda63b" compoundref="pb___preferences_8cs" startline="44">pbUniqueModeShortcuts</references>
+        <references refid="classpb___preferences_1a8be8466d64e62c26e50da3992eaf7910" compoundref="pb___preferences_8cs" startline="40">pbUVEditorFloating</references>
+        <references refid="classpb___preferences_1a289a46f8cc90390e9ceb448653c74278" compoundref="pb___preferences_8cs" startline="63">pbUVGridSnapValue</references>
+        <references refid="classpb___preferences_1a932c789ef05f012109b9a09d5050a1c3" compoundref="pb___preferences_8cs" startline="64">pbVertexHandleSize</references>
+        <references refid="classpb___preferences_1a771ad4985f518e2d96bdfc1020820d76" compoundref="pb___preferences_8cs" startline="53">showMissingLightmapUvWarning</references>
+        <referencedby refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" compoundref="pb___preferences_8cs" startline="69" endline="191">PreferencesGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="512">
+        <label>Editor</label>
+      </node>
+      <node id="511">
+        <label>pb_Preferences</label>
+        <link refid="classpb___preferences"/>
+        <childnode refid="512" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="514">
+        <label>Editor</label>
+      </node>
+      <node id="513">
+        <label>pb_Preferences</label>
+        <link refid="classpb___preferences"/>
+        <childnode refid="514" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_Preferences.cs" bodystart="20" bodyend="457"/>
+    <listofallmembers>
+      <member refid="classpb___preferences_1a1e01c9b827ae062eaf8cb350b1976982" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>CELL_HEIGHT</name></member>
+      <member refid="classpb___preferences_1a0d923899d05eefbe53fb32aa9af8bb74" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>defaultColliderType</name></member>
+      <member refid="classpb___preferences_1a7e4c093ef1bda6a66d1ed0ef9495f841" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>defaultOpenInDockableWindow</name></member>
+      <member refid="classpb___preferences_1a01c526f155f91fee0f95877ebb9cad73" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>defaultShortcuts</name></member>
+      <member refid="classpb___preferences_1affd8afb5723186cf86d5b71582aa2516" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>LoadPrefs</name></member>
+      <member refid="classpb___preferences_1a482c059054e95dc157bd2fdb8e774e4a" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbCloseShapeWindow</name></member>
+      <member refid="classpb___preferences_1a876c140266e76bd84f5b52a4b51ebb16" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDefaultEdgeColor</name></member>
+      <member refid="classpb___preferences_1ad959715c29aeee4c8c4aa895ea9d5e1f" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDefaultEntity</name></member>
+      <member refid="classpb___preferences_1a2c74fa3c87c3c2d4de1820ecb922d94b" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDefaultFaceColor</name></member>
+      <member refid="classpb___preferences_1a83bd3c49b209b6edcf586d49a30446d8" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDefaultMaterial</name></member>
+      <member refid="classpb___preferences_1a519e5e29fdd03a4f17709aa0b44a34ee" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDefaultSelectedVertexColor</name></member>
+      <member refid="classpb___preferences_1a34456fe0a8c4538203fddae6d6a066f4" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDefaultVertexColor</name></member>
+      <member refid="classpb___preferences_1a63478789db5fb0059499cfebdee12fc2" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDisableAutoUV2Generation</name></member>
+      <member refid="classpb___preferences_1ad35ab165af3eb5bd748a8ce78b6db0f3" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDragCheckLimit</name></member>
+      <member refid="classpb___preferences_1adafbbc78d2fb0c58306333248e4fc7eb" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDragSelectWholeElement</name></member>
+      <member refid="classpb___preferences_1a0b9c810837761d686eaae58cf4f062e7" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbDrawAxisLines</name></member>
+      <member refid="classpb___preferences_1a55f295ee0a29cfb909ab672050b8d96f" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbElementSelectIsHamFisted</name></member>
+      <member refid="classpb___preferences_1abb453fd00e8f236e6e875f458fef47e3" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbEnableExperimental</name></member>
+      <member refid="classpb___preferences_1aae2b2922673cfb2d81daf0bad498d019" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbForceConvex</name></member>
+      <member refid="classpb___preferences_1af74a89bfdbf2f9a2ad567e6f0da973d8" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbForceGridPivot</name></member>
+      <member refid="classpb___preferences_1a6f5bada6aa85f375bc9b107c552f88bc" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbForceVertexPivot</name></member>
+      <member refid="classpb___preferences_1ae74005d9927468290620f547fb10746a" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbIconGUI</name></member>
+      <member refid="classpb___preferences_1aa8ae459440162a1f7d4ca5c445a14b1b" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbMeshesAreAssets</name></member>
+      <member refid="classpb___preferences_1a0be7a24c47e1ad46b287a47adbe54e81" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbPBOSelectionOnly</name></member>
+      <member refid="classpb___preferences_1ad636053a57dbe2b8543d7bdcdddebbc7" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbPerimeterEdgeBridgeOnly</name></member>
+      <member refid="classpb___preferences_1a1f0d88312962ceaa4b40f24b44c4a6a4" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbShadowCastingMode</name></member>
+      <member refid="classpb___preferences_1acf66079d3485a45a71db7c7ec31f01c4" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbShiftOnlyTooltips</name></member>
+      <member refid="classpb___preferences_1ad2cd496f7162e88dc90be63c87c0235e" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbShowEditorNotifications</name></member>
+      <member refid="classpb___preferences_1af8b7eac134a8eea955aa2f31dd64d5cc" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbShowSceneInfo</name></member>
+      <member refid="classpb___preferences_1a412f20d4e1164a48628c486a3b439918" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbStripProBuilderOnBuild</name></member>
+      <member refid="classpb___preferences_1a63a7c6364dc2178bc5e59d22cbdf2068" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbToolbarLocation</name></member>
+      <member refid="classpb___preferences_1a61a2866fdc5f6fa11589e232decda63b" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbUniqueModeShortcuts</name></member>
+      <member refid="classpb___preferences_1a8be8466d64e62c26e50da3992eaf7910" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbUVEditorFloating</name></member>
+      <member refid="classpb___preferences_1a289a46f8cc90390e9ceb448653c74278" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbUVGridSnapValue</name></member>
+      <member refid="classpb___preferences_1a932c789ef05f012109b9a09d5050a1c3" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>pbVertexHandleSize</name></member>
+      <member refid="classpb___preferences_1a54dc4c99ebd78d88acfa76e056091ba7" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>PreferencesGUI</name></member>
+      <member refid="classpb___preferences_1a29971678ba20fdaebb7a97b83a0ec3e2" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>prefsLoaded</name></member>
+      <member refid="classpb___preferences_1a950a1d5c1a3850bf7d789d3776c19cf1" prot="public" virt="non-virtual"><scope>pb_Preferences</scope><name>ResetToDefaults</name></member>
+      <member refid="classpb___preferences_1ab571a65c213da0a27618191927765cb7" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>selectBox</name></member>
+      <member refid="classpb___preferences_1a7204f76a93f3e3d4339824646d91df96" prot="public" virt="non-virtual"><scope>pb_Preferences</scope><name>SetPrefs</name></member>
+      <member refid="classpb___preferences_1a7c6d4b163f6a7131f55724edf4e9d236" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>settingsScroll</name></member>
+      <member refid="classpb___preferences_1a02278d4bb442285a0410544c2aef095f" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>ShortcutEditPanel</name></member>
+      <member refid="classpb___preferences_1afeaf310ac36869f847f635d8e7605e00" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>shortcutEditRect</name></member>
+      <member refid="classpb___preferences_1a2e352114dfbbd790e2d5389e8cf7ee3a" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>shortcutIndex</name></member>
+      <member refid="classpb___preferences_1a8a9de1659a30bd2fdf3802d4597584df" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>shortcutScroll</name></member>
+      <member refid="classpb___preferences_1a77b609c0d18fc100e5473934a55aa112" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>ShortcutSelectPanel</name></member>
+      <member refid="classpb___preferences_1a771ad4985f518e2d96bdfc1020820d76" prot="private" virt="non-virtual"><scope>pb_Preferences</scope><name>showMissingLightmapUvWarning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

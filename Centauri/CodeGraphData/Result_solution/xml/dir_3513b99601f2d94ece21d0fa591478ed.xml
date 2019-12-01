@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3513b99601f2d94ece21d0fa591478ed" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data</compoundname>
+    <innerdir refid="dir_db31b4861d4096d321d345ee2affb942">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets</innerdir>
+    <innerdir refid="dir_e5faed678a296d6089353c935280bb35">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/"/>
+  </compounddef>
+</doxygen>

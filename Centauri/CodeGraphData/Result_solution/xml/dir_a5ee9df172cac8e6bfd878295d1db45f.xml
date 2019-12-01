@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_a5ee9df172cac8e6bfd878295d1db45f" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools</compoundname>
+    <innerfile refid="_fps_display_8cs">FpsDisplay.cs</innerfile>
+    <innerfile refid="_free_camera_8cs">FreeCamera.cs</innerfile>
+    <innerfile refid="_rotating_camera_8cs">RotatingCamera.cs</innerfile>
+    <innerfile refid="_scene_manager_8cs">SceneManager.cs</innerfile>
+    <innerfile refid="_show_off_scene_manager_8cs">ShowOffSceneManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/"/>
+  </compounddef>
+</doxygen>

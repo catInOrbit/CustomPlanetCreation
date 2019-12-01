@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classpb___menu_items" kind="class" prot="public">
+    <compoundname>pb_MenuItems</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classpb___menu_items_1ab46460dde354eb5df3a948d247af8af4" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string pb_MenuItems.DOCUMENTATION_URL</definition>
+        <argsstring></argsstring>
+        <name>DOCUMENTATION_URL</name>
+        <initializer>= &quot;http://procore3d.github.io/probuilder2/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classpb___menu_items_1a6c8586d2bc0d900ecfd7a28706187d9c" compoundref="pb___menu_items_8cs" startline="23" endline="26">MenuInitDocumentation</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="classpb___menu_items_1aff3175ca5f29141fae02e5637bf9f3a3" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>pb_Editor</type>
+        <definition>pb_Editor pb_MenuItems.editor</definition>
+        <argsstring></argsstring>
+        <name>editor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classpb___menu_items_1a16909f61ba7a2196865456237d0ca881" compoundref="pb___menu_items_8cs" startline="72" endline="84">MenuSelectLoop</referencedby>
+        <referencedby refid="classpb___menu_items_1a36d8de914e060887201ca5f561155ed3" compoundref="pb___menu_items_8cs" startline="87" endline="99">MenuSelectRing</referencedby>
+        <referencedby refid="classpb___menu_items_1ab7e8a7a6cde335c1b39f488fa3e0111d" compoundref="pb___menu_items_8cs" startline="59" endline="69">MenuVerifyRingLoop</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="classpb___menu_items_1a95e65e678e7a6804363bc84d050ef17e" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>pb_Object[]</type>
+        <definition>pb_Object [] pb_MenuItems.selection</definition>
+        <argsstring></argsstring>
+        <name>selection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="classpb___menu_items_1a7b267be848d81d6dcb081d5f5c275b88" compoundref="pb___menu_items_8cs" startline="52" endline="55">MenuDoExtrude</referencedby>
+        <referencedby refid="classpb___menu_items_1a16909f61ba7a2196865456237d0ca881" compoundref="pb___menu_items_8cs" startline="72" endline="84">MenuSelectLoop</referencedby>
+        <referencedby refid="classpb___menu_items_1a36d8de914e060887201ca5f561155ed3" compoundref="pb___menu_items_8cs" startline="87" endline="99">MenuSelectRing</referencedby>
+        <referencedby refid="classpb___menu_items_1a6471e5e35fb92444778033820b3ad456" compoundref="pb___menu_items_8cs" startline="40" endline="49">MenuVerifyExtrude</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classpb___menu_items_1af5f25b3dcb6083c1b8ac3f6219aaea44" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuInitAbout</definition>
+        <argsstring>()</argsstring>
+        <name>MenuInitAbout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a6c8586d2bc0d900ecfd7a28706187d9c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuInitDocumentation</definition>
+        <argsstring>()</argsstring>
+        <name>MenuInitDocumentation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="23" bodyend="26"/>
+        <references refid="classpb___menu_items_1ab46460dde354eb5df3a948d247af8af4" compoundref="pb___menu_items_8cs" startline="10">DOCUMENTATION_URL</references>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1ae7145ff38283b838e2db39cd859dbc4a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.OpenEditorWindow</definition>
+        <argsstring>()</argsstring>
+        <name>OpenEditorWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a0622b5d14f7f8a2de23b0393bb10be1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool pb_MenuItems.VerifyApplyVertexColor</definition>
+        <argsstring>()</argsstring>
+        <name>VerifyApplyVertexColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="115" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1adb6698a2c984faeb4d00594b51a7bb54" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset1</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="121" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="121" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a717793f391c2e7c3e6e4802b139c737d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset2</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="126" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a7d237f254a08a70cdb39c73dc91bf3fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset3</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="131" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="131" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a24651681b92dec40b1a46c26139db779" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset4</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="136" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="136" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1ab1bffba40e24b26764a3960ed6c5381c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset5</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="141" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="141" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a9bae5261dbce1d6ae5972a9ff3486af5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset6</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="146" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="146" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a2816b0edc0cde4ab450b9f1e80cdad93" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset7</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="151" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="151" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a9b59e3299a6e8756e53b65bf3760ee08" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset8</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="156" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="156" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a3f704fddb081116326536c82d663ae09" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset9</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="161" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="161" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a80cc6e68cd85a3c2a1824c46efaa8d69" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSetVertexColorPreset0</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSetVertexColorPreset0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="166" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="166" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classpb___menu_items_1a6471e5e35fb92444778033820b3ad456" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool pb_MenuItems.MenuVerifyExtrude</definition>
+        <argsstring>()</argsstring>
+        <name>MenuVerifyExtrude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="40" bodyend="49"/>
+        <references refid="classpb___menu_items_1a95e65e678e7a6804363bc84d050ef17e" compoundref="pb___menu_items_8cs" startline="37">selection</references>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a7b267be848d81d6dcb081d5f5c275b88" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuDoExtrude</definition>
+        <argsstring>()</argsstring>
+        <name>MenuDoExtrude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="52" bodyend="55"/>
+        <references refid="classpb___menu_items_1a95e65e678e7a6804363bc84d050ef17e" compoundref="pb___menu_items_8cs" startline="37">selection</references>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1ab7e8a7a6cde335c1b39f488fa3e0111d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool pb_MenuItems.MenuVerifyRingLoop</definition>
+        <argsstring>()</argsstring>
+        <name>MenuVerifyRingLoop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="59" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="59" bodyend="69"/>
+        <references refid="classpb___menu_items_1aff3175ca5f29141fae02e5637bf9f3a3" compoundref="pb___menu_items_8cs" startline="12">editor</references>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a16909f61ba7a2196865456237d0ca881" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSelectLoop</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSelectLoop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="72" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="72" bodyend="84"/>
+        <references refid="classpb___menu_items_1aff3175ca5f29141fae02e5637bf9f3a3" compoundref="pb___menu_items_8cs" startline="12">editor</references>
+        <references refid="classpb___menu_items_1a95e65e678e7a6804363bc84d050ef17e" compoundref="pb___menu_items_8cs" startline="37">selection</references>
+      </memberdef>
+      <memberdef kind="function" id="classpb___menu_items_1a36d8de914e060887201ca5f561155ed3" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void pb_MenuItems.MenuSelectRing</definition>
+        <argsstring>()</argsstring>
+        <name>MenuSelectRing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="87" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="87" bodyend="99"/>
+        <references refid="classpb___menu_items_1aff3175ca5f29141fae02e5637bf9f3a3" compoundref="pb___menu_items_8cs" startline="12">editor</references>
+        <references refid="classpb___menu_items_1a95e65e678e7a6804363bc84d050ef17e" compoundref="pb___menu_items_8cs" startline="37">selection</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="500">
+        <label>EditorWindow</label>
+      </node>
+      <node id="499">
+        <label>pb_MenuItems</label>
+        <link refid="classpb___menu_items"/>
+        <childnode refid="500" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="502">
+        <label>EditorWindow</label>
+      </node>
+      <node id="501">
+        <label>pb_MenuItems</label>
+        <link refid="classpb___menu_items"/>
+        <childnode refid="502" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/pb_MenuItems.cs" bodystart="7" bodyend="170"/>
+    <listofallmembers>
+      <member refid="classpb___menu_items_1ab46460dde354eb5df3a948d247af8af4" prot="private" virt="non-virtual"><scope>pb_MenuItems</scope><name>DOCUMENTATION_URL</name></member>
+      <member refid="classpb___menu_items_1aff3175ca5f29141fae02e5637bf9f3a3" prot="private" virt="non-virtual"><scope>pb_MenuItems</scope><name>editor</name></member>
+      <member refid="classpb___menu_items_1a7b267be848d81d6dcb081d5f5c275b88" prot="private" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuDoExtrude</name></member>
+      <member refid="classpb___menu_items_1af5f25b3dcb6083c1b8ac3f6219aaea44" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuInitAbout</name></member>
+      <member refid="classpb___menu_items_1a6c8586d2bc0d900ecfd7a28706187d9c" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuInitDocumentation</name></member>
+      <member refid="classpb___menu_items_1a16909f61ba7a2196865456237d0ca881" prot="private" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSelectLoop</name></member>
+      <member refid="classpb___menu_items_1a36d8de914e060887201ca5f561155ed3" prot="private" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSelectRing</name></member>
+      <member refid="classpb___menu_items_1a80cc6e68cd85a3c2a1824c46efaa8d69" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset0</name></member>
+      <member refid="classpb___menu_items_1adb6698a2c984faeb4d00594b51a7bb54" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset1</name></member>
+      <member refid="classpb___menu_items_1a717793f391c2e7c3e6e4802b139c737d" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset2</name></member>
+      <member refid="classpb___menu_items_1a7d237f254a08a70cdb39c73dc91bf3fb" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset3</name></member>
+      <member refid="classpb___menu_items_1a24651681b92dec40b1a46c26139db779" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset4</name></member>
+      <member refid="classpb___menu_items_1ab1bffba40e24b26764a3960ed6c5381c" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset5</name></member>
+      <member refid="classpb___menu_items_1a9bae5261dbce1d6ae5972a9ff3486af5" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset6</name></member>
+      <member refid="classpb___menu_items_1a2816b0edc0cde4ab450b9f1e80cdad93" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset7</name></member>
+      <member refid="classpb___menu_items_1a9b59e3299a6e8756e53b65bf3760ee08" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset8</name></member>
+      <member refid="classpb___menu_items_1a3f704fddb081116326536c82d663ae09" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuSetVertexColorPreset9</name></member>
+      <member refid="classpb___menu_items_1a6471e5e35fb92444778033820b3ad456" prot="private" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuVerifyExtrude</name></member>
+      <member refid="classpb___menu_items_1ab7e8a7a6cde335c1b39f488fa3e0111d" prot="private" virt="non-virtual"><scope>pb_MenuItems</scope><name>MenuVerifyRingLoop</name></member>
+      <member refid="classpb___menu_items_1ae7145ff38283b838e2db39cd859dbc4a" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>OpenEditorWindow</name></member>
+      <member refid="classpb___menu_items_1a95e65e678e7a6804363bc84d050ef17e" prot="private" virt="non-virtual"><scope>pb_MenuItems</scope><name>selection</name></member>
+      <member refid="classpb___menu_items_1a0622b5d14f7f8a2de23b0393bb10be1f" prot="public" virt="non-virtual"><scope>pb_MenuItems</scope><name>VerifyApplyVertexColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

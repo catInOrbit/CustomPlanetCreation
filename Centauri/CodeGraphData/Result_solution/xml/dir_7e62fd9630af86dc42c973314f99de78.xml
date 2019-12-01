@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7e62fd9630af86dc42c973314f99de78" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer</compoundname>
+    <innerdir refid="dir_995a1a5ab3ec2457be1a389483c04a79">C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer/"/>
+  </compounddef>
+</doxygen>

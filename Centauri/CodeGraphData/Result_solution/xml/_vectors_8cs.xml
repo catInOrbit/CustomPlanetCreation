@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_vectors_8cs" kind="file">
+    <compoundname>Vectors.cs</compoundname>
+    <innerclass refid="class_vectors" prot="public">Vectors</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_vectors" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_vectors" kindref="compound">Vectors</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_vectors_1adba65940ba8adb0e158bd5942f152056" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_vectors_1adba65940ba8adb0e158bd5942f152056" kindref="member">velocityVector</ref>;</highlight></codeline>
+<codeline lineno="8" refid="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" kindref="member">headingVector</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="class_vectors_1a08f2b59acbbf0fe45b0b1abee3b635db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_vectors_1a08f2b59acbbf0fe45b0b1abee3b635db" kindref="member">Start</ref>()<sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_vectors_1adba65940ba8adb0e158bd5942f152056" kindref="member">velocityVector</ref><sp/>=<sp/>GameObject.Find(</highlight><highlight class="stringliteral">&quot;/Player/VelocityArrow&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" kindref="member">headingVector</ref><sp/>=<sp/>GameObject.Find(</highlight><highlight class="stringliteral">&quot;/Player/HeadingVector&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_vectors_1a8d8ce11bb50aa69c6a19f46d3090df7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_vectors_1a8d8ce11bb50aa69c6a19f46d3090df7a" kindref="member">Update</ref>()<sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_vectors_1aed26b82854f4ded79da45ed03d4413a1" kindref="member">DrawVelocity</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_vectors_1a4a3ff7759a1286ff09e0596374cab4c2" kindref="member">DrawHeading</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="class_vectors_1a73d6f6d7fb697eb5b1c6a01ffd934cc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_vectors_1a73d6f6d7fb697eb5b1c6a01ffd934cc4" kindref="member">SetDrawPosition</ref>(LineRenderer<sp/>gameojComponent,<sp/>Vector3<sp/>position0,<sp/>Vector3<sp/>position1)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gameojComponent.SetPosition(0,<sp/>position1);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gameojComponent.SetPosition(1,<sp/>position0);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_vectors_1aed26b82854f4ded79da45ed03d4413a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_vectors_1aed26b82854f4ded79da45ed03d4413a1" kindref="member">DrawVelocity</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_vectors_1a73d6f6d7fb697eb5b1c6a01ffd934cc4" kindref="member">SetDrawPosition</ref>(<ref refid="class_vectors_1adba65940ba8adb0e158bd5942f152056" kindref="member">velocityVector</ref>.GetComponent&lt;LineRenderer&gt;(),<sp/><ref refid="class_vectors_1adba65940ba8adb0e158bd5942f152056" kindref="member">velocityVector</ref>.transform.position,<sp/><ref refid="class_vectors_1adba65940ba8adb0e158bd5942f152056" kindref="member">velocityVector</ref>.transform.parent.transform.position);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="class_vectors_1a4a3ff7759a1286ff09e0596374cab4c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_vectors_1a4a3ff7759a1286ff09e0596374cab4c2" kindref="member">DrawHeading</ref>()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_vectors_1a73d6f6d7fb697eb5b1c6a01ffd934cc4" kindref="member">SetDrawPosition</ref>(<ref refid="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" kindref="member">headingVector</ref>.GetComponent&lt;LineRenderer&gt;(),<sp/><ref refid="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" kindref="member">headingVector</ref>.transform.position,<sp/><ref refid="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" kindref="member">headingVector</ref>.transform.parent.transform.position);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs"/>
+  </compounddef>
+</doxygen>

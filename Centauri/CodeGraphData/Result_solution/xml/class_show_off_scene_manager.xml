@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_show_off_scene_manager" kind="class" prot="public">
+    <compoundname>ShowOffSceneManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_show_off_scene_manager_1a819431f98bdf88b85136aba912deab8a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ShowOffSceneManager.planetRotSpeed</definition>
+        <argsstring></argsstring>
+        <name>planetRotSpeed</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_show_off_scene_manager_1a914231892e7618622252b8f0a769684a" compoundref="_show_off_scene_manager_8cs" startline="20" endline="24">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_off_scene_manager_1afb847a1395e375021350d0b301ea79b9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ShowOffSceneManager.sunRotSpeed</definition>
+        <argsstring></argsstring>
+        <name>sunRotSpeed</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_show_off_scene_manager_1a914231892e7618622252b8f0a769684a" compoundref="_show_off_scene_manager_8cs" startline="20" endline="24">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_off_scene_manager_1a7344012d868f03e429304ba7fa9757c8" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ShowOffSceneManager.sun</definition>
+        <argsstring></argsstring>
+        <name>sun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_off_scene_manager_1a40e00141c52b09e580d6881eca76b408" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] ShowOffSceneManager.planets</definition>
+        <argsstring></argsstring>
+        <name>planets</name>
+        <initializer>= new GameObject[9]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_show_off_scene_manager_1a0d3184873d006bac5d2cc9c6540a4676" compoundref="_show_off_scene_manager_8cs" startline="26" endline="35">NextButton</referencedby>
+        <referencedby refid="class_show_off_scene_manager_1ae0509982e7494edfc52fcb6bc553e238" compoundref="_show_off_scene_manager_8cs" startline="37" endline="45">PreviousButton</referencedby>
+        <referencedby refid="class_show_off_scene_manager_1a2ee1bfeaa0ea7d1d4d4760b0c8bba367" compoundref="_show_off_scene_manager_8cs" startline="14" endline="18">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_show_off_scene_manager_1a15bc32ee1fd786e06ce79c1d5d71a11e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ShowOffSceneManager.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_show_off_scene_manager_1a0d3184873d006bac5d2cc9c6540a4676" compoundref="_show_off_scene_manager_8cs" startline="26" endline="35">NextButton</referencedby>
+        <referencedby refid="class_show_off_scene_manager_1ae0509982e7494edfc52fcb6bc553e238" compoundref="_show_off_scene_manager_8cs" startline="37" endline="45">PreviousButton</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_show_off_scene_manager_1a72cdb6760dd99199a05338de8999e804" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ShowOffSceneManager.planet</definition>
+        <argsstring></argsstring>
+        <name>planet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_show_off_scene_manager_1a0d3184873d006bac5d2cc9c6540a4676" compoundref="_show_off_scene_manager_8cs" startline="26" endline="35">NextButton</referencedby>
+        <referencedby refid="class_show_off_scene_manager_1ae0509982e7494edfc52fcb6bc553e238" compoundref="_show_off_scene_manager_8cs" startline="37" endline="45">PreviousButton</referencedby>
+        <referencedby refid="class_show_off_scene_manager_1a2ee1bfeaa0ea7d1d4d4760b0c8bba367" compoundref="_show_off_scene_manager_8cs" startline="14" endline="18">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_show_off_scene_manager_1a2ee1bfeaa0ea7d1d4d4760b0c8bba367" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowOffSceneManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="14" bodyend="18"/>
+        <references refid="class_show_off_scene_manager_1a72cdb6760dd99199a05338de8999e804" compoundref="_show_off_scene_manager_8cs" startline="12">planet</references>
+        <references refid="class_show_off_scene_manager_1a40e00141c52b09e580d6881eca76b408" compoundref="_show_off_scene_manager_8cs" startline="9">planets</references>
+      </memberdef>
+      <memberdef kind="function" id="class_show_off_scene_manager_1a914231892e7618622252b8f0a769684a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowOffSceneManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="20" bodyend="24"/>
+        <references refid="class_show_off_scene_manager_1a819431f98bdf88b85136aba912deab8a" compoundref="_show_off_scene_manager_8cs" startline="6">planetRotSpeed</references>
+        <references refid="class_show_off_scene_manager_1afb847a1395e375021350d0b301ea79b9" compoundref="_show_off_scene_manager_8cs" startline="7">sunRotSpeed</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_show_off_scene_manager_1a0d3184873d006bac5d2cc9c6540a4676" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowOffSceneManager.NextButton</definition>
+        <argsstring>()</argsstring>
+        <name>NextButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="26" bodyend="35"/>
+        <references refid="class_show_off_scene_manager_1a15bc32ee1fd786e06ce79c1d5d71a11e" compoundref="_show_off_scene_manager_8cs" startline="11">index</references>
+        <references refid="class_show_off_scene_manager_1a72cdb6760dd99199a05338de8999e804" compoundref="_show_off_scene_manager_8cs" startline="12">planet</references>
+        <references refid="class_show_off_scene_manager_1a40e00141c52b09e580d6881eca76b408" compoundref="_show_off_scene_manager_8cs" startline="9">planets</references>
+      </memberdef>
+      <memberdef kind="function" id="class_show_off_scene_manager_1ae0509982e7494edfc52fcb6bc553e238" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShowOffSceneManager.PreviousButton</definition>
+        <argsstring>()</argsstring>
+        <name>PreviousButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="37" bodyend="45"/>
+        <references refid="class_show_off_scene_manager_1a15bc32ee1fd786e06ce79c1d5d71a11e" compoundref="_show_off_scene_manager_8cs" startline="11">index</references>
+        <references refid="class_show_off_scene_manager_1a72cdb6760dd99199a05338de8999e804" compoundref="_show_off_scene_manager_8cs" startline="12">planet</references>
+        <references refid="class_show_off_scene_manager_1a40e00141c52b09e580d6881eca76b408" compoundref="_show_off_scene_manager_8cs" startline="9">planets</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="638">
+        <label>ShowOffSceneManager</label>
+        <link refid="class_show_off_scene_manager"/>
+        <childnode refid="639" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="639">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="640">
+        <label>ShowOffSceneManager</label>
+        <link refid="class_show_off_scene_manager"/>
+        <childnode refid="641" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="641">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" line="4" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/ShowOffSceneManager.cs" bodystart="4" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_show_off_scene_manager_1a15bc32ee1fd786e06ce79c1d5d71a11e" prot="private" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>index</name></member>
+      <member refid="class_show_off_scene_manager_1a0d3184873d006bac5d2cc9c6540a4676" prot="public" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>NextButton</name></member>
+      <member refid="class_show_off_scene_manager_1a72cdb6760dd99199a05338de8999e804" prot="private" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>planet</name></member>
+      <member refid="class_show_off_scene_manager_1a819431f98bdf88b85136aba912deab8a" prot="public" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>planetRotSpeed</name></member>
+      <member refid="class_show_off_scene_manager_1a40e00141c52b09e580d6881eca76b408" prot="public" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>planets</name></member>
+      <member refid="class_show_off_scene_manager_1ae0509982e7494edfc52fcb6bc553e238" prot="public" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>PreviousButton</name></member>
+      <member refid="class_show_off_scene_manager_1a2ee1bfeaa0ea7d1d4d4760b0c8bba367" prot="private" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>Start</name></member>
+      <member refid="class_show_off_scene_manager_1a7344012d868f03e429304ba7fa9757c8" prot="public" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>sun</name></member>
+      <member refid="class_show_off_scene_manager_1afb847a1395e375021350d0b301ea79b9" prot="public" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>sunRotSpeed</name></member>
+      <member refid="class_show_off_scene_manager_1a914231892e7618622252b8f0a769684a" prot="private" virt="non-virtual"><scope>ShowOffSceneManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

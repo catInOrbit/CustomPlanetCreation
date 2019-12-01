@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_511458b6597d2b002eb524e38de0c279" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/UnityQuadTreePlanet</compoundname>
+    <innerdir refid="dir_5842dde49319b63392dae37ec28f0833">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/UnityQuadTreePlanet/LibNoise</innerdir>
+    <innerdir refid="dir_694de25d98a771e7eca562f3e276b37f">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/UnityQuadTreePlanet/Planet</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/UnityQuadTreePlanet/"/>
+  </compounddef>
+</doxygen>

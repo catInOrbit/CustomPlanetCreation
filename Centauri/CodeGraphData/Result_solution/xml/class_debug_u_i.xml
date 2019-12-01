@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_debug_u_i" kind="class" prot="public">
+    <compoundname>DebugUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_debug_u_i_1a6de8c5f947e06a315d255460dc5482c2" prot="public" static="no" mutable="no">
+        <type>InputField</type>
+        <definition>InputField DebugUI.velocityDampent</definition>
+        <argsstring></argsstring>
+        <name>velocityDampent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_debug_u_i_1af4106c15dfda929e3c8fd8e83a296667" prot="public" static="no" mutable="no">
+        <type>Button</type>
+        <definition>Button DebugUI.liftOff</definition>
+        <argsstring></argsstring>
+        <name>liftOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_debug_u_i_1a0be7d18e0e93b0b4017a098046a0fc08" prot="private" static="no" mutable="no">
+        <type><ref refid="class_orbital_maneuver" kindref="compound">OrbitalManeuver</ref></type>
+        <definition>OrbitalManeuver DebugUI.orbitalManeuver</definition>
+        <argsstring></argsstring>
+        <name>orbitalManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_debug_u_i_1ae316f063f1330a54da83228e7640ec9a" compoundref="_debug_u_i_8cs" startline="20" endline="29">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_debug_u_i_1a8c81007b14ba3b70c19116800787c5ea" prot="private" static="no" mutable="no">
+        <type><ref refid="class_on_ground_detection" kindref="compound">OnGroundDetection</ref></type>
+        <definition>OnGroundDetection DebugUI.onGroundDetection</definition>
+        <argsstring></argsstring>
+        <name>onGroundDetection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_debug_u_i_1a2abc94875023450868339bc921af44c9" compoundref="_debug_u_i_8cs" startline="41" endline="47">EnableLiftOff</referencedby>
+        <referencedby refid="class_debug_u_i_1ae316f063f1330a54da83228e7640ec9a" compoundref="_debug_u_i_8cs" startline="20" endline="29">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_debug_u_i_1a099b402a20cd711566c1f91dfee60ec8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_movement" kindref="compound">CameraMovement</ref></type>
+        <definition>CameraMovement DebugUI.cameraMovement</definition>
+        <argsstring></argsstring>
+        <name>cameraMovement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_debug_u_i_1a11ccb23eb08f3e78d26cd0838f01f984" compoundref="_debug_u_i_8cs" startline="49" endline="56">AutoZoom</referencedby>
+        <referencedby refid="class_debug_u_i_1ae316f063f1330a54da83228e7640ec9a" compoundref="_debug_u_i_8cs" startline="20" endline="29">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_debug_u_i_1ab6542aec3518dff16116e7c199fb5c6a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_speed_data" kindref="compound">SpeedData</ref></type>
+        <definition>SpeedData DebugUI.speedData</definition>
+        <argsstring></argsstring>
+        <name>speedData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_debug_u_i_1ae316f063f1330a54da83228e7640ec9a" compoundref="_debug_u_i_8cs" startline="20" endline="29">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_debug_u_i_1ae316f063f1330a54da83228e7640ec9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DebugUI.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="20" bodyend="29"/>
+        <references refid="class_debug_u_i_1a099b402a20cd711566c1f91dfee60ec8" compoundref="_debug_u_i_8cs" startline="16">cameraMovement</references>
+        <references refid="class_debug_u_i_1a2abc94875023450868339bc921af44c9" compoundref="_debug_u_i_8cs" startline="41" endline="47">EnableLiftOff</references>
+        <references refid="class_debug_u_i_1a8c81007b14ba3b70c19116800787c5ea" compoundref="_debug_u_i_8cs" startline="15">onGroundDetection</references>
+        <references refid="class_debug_u_i_1a0be7d18e0e93b0b4017a098046a0fc08" compoundref="_debug_u_i_8cs" startline="14">orbitalManeuver</references>
+        <references refid="class_debug_u_i_1ab6542aec3518dff16116e7c199fb5c6a" compoundref="_debug_u_i_8cs" startline="17">speedData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_debug_u_i_1a3472b871e52f7a8c93a3c09faac68a41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DebugUI.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="31" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_debug_u_i_1a73059e42905ed51f967834886f63ebb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DebugUI.UpdateVelocityDampenent</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateVelocityDampenent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_debug_u_i_1a2abc94875023450868339bc921af44c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DebugUI.EnableLiftOff</definition>
+        <argsstring>()</argsstring>
+        <name>EnableLiftOff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="41" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="41" bodyend="47"/>
+        <references refid="class_on_ground_detection_1a6bed687c37f1b872f083d8aa3ab6c346" compoundref="_on_ground_detection_8cs" startline="13">OnGroundDetection.liftOff</references>
+        <references refid="class_debug_u_i_1a8c81007b14ba3b70c19116800787c5ea" compoundref="_debug_u_i_8cs" startline="15">onGroundDetection</references>
+        <referencedby refid="class_debug_u_i_1ae316f063f1330a54da83228e7640ec9a" compoundref="_debug_u_i_8cs" startline="20" endline="29">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_debug_u_i_1a11ccb23eb08f3e78d26cd0838f01f984" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DebugUI.AutoZoom</definition>
+        <argsstring>()</argsstring>
+        <name>AutoZoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="49" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="49" bodyend="56"/>
+        <references refid="class_debug_u_i_1a099b402a20cd711566c1f91dfee60ec8" compoundref="_debug_u_i_8cs" startline="16">cameraMovement</references>
+        <references refid="class_camera_movement_1a2be01eb969dc7b328d06afb597212294" compoundref="_camera_movement_8cs" startline="29">CameraMovement.EnableAutoZoom</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="207">
+        <label>DebugUI</label>
+        <link refid="class_debug_u_i"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="217">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="214">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+        <childnode refid="211" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="212" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="215" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="216" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="217" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="218" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="219" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="220" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="220">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>CameraMovement</label>
+        <link refid="class_camera_movement"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+        <childnode refid="227" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="212" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+      </node>
+      <node id="225">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="222">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="219">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="209">
+        <label>DebugUI</label>
+        <link refid="class_debug_u_i"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+        <childnode refid="211" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="222" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+        <childnode refid="213" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="226" relation="usage">
+          <edgelabel>cameraMovement</edgelabel>
+        </childnode>
+      </node>
+      <node id="212">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+        <childnode refid="213" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="223" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="224" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="227">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="210">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="223">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="224">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="225" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="218">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="215">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="211">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+        <childnode refid="212" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="214" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="213" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="213">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+        <childnode refid="214" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="221" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="222" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="216">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="221">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/DebugUI.cs" bodystart="7" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_debug_u_i_1a11ccb23eb08f3e78d26cd0838f01f984" prot="public" virt="non-virtual"><scope>DebugUI</scope><name>AutoZoom</name></member>
+      <member refid="class_debug_u_i_1a099b402a20cd711566c1f91dfee60ec8" prot="private" virt="non-virtual"><scope>DebugUI</scope><name>cameraMovement</name></member>
+      <member refid="class_debug_u_i_1a2abc94875023450868339bc921af44c9" prot="public" virt="non-virtual"><scope>DebugUI</scope><name>EnableLiftOff</name></member>
+      <member refid="class_debug_u_i_1af4106c15dfda929e3c8fd8e83a296667" prot="public" virt="non-virtual"><scope>DebugUI</scope><name>liftOff</name></member>
+      <member refid="class_debug_u_i_1a8c81007b14ba3b70c19116800787c5ea" prot="private" virt="non-virtual"><scope>DebugUI</scope><name>onGroundDetection</name></member>
+      <member refid="class_debug_u_i_1a0be7d18e0e93b0b4017a098046a0fc08" prot="private" virt="non-virtual"><scope>DebugUI</scope><name>orbitalManeuver</name></member>
+      <member refid="class_debug_u_i_1ab6542aec3518dff16116e7c199fb5c6a" prot="private" virt="non-virtual"><scope>DebugUI</scope><name>speedData</name></member>
+      <member refid="class_debug_u_i_1ae316f063f1330a54da83228e7640ec9a" prot="private" virt="non-virtual"><scope>DebugUI</scope><name>Start</name></member>
+      <member refid="class_debug_u_i_1a3472b871e52f7a8c93a3c09faac68a41" prot="private" virt="non-virtual"><scope>DebugUI</scope><name>Update</name></member>
+      <member refid="class_debug_u_i_1a73059e42905ed51f967834886f63ebb5" prot="public" virt="non-virtual"><scope>DebugUI</scope><name>UpdateVelocityDampenent</name></member>
+      <member refid="class_debug_u_i_1a6de8c5f947e06a315d255460dc5482c2" prot="public" virt="non-virtual"><scope>DebugUI</scope><name>velocityDampent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

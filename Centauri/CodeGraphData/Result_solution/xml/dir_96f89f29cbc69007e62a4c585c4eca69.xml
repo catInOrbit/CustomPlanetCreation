@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_96f89f29cbc69007e62a4c585c4eca69" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder</compoundname>
+    <innerdir refid="dir_c7c6f5380e534c967f26528cf10e5838">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/About</innerdir>
+    <innerdir refid="dir_9bbe919003250512679e0e3166656f4f">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/API Examples</innerdir>
+    <innerdir refid="dir_83a46b2fd16d4ba2acfba5e25df7a618">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/Editor</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/"/>
+  </compounddef>
+</doxygen>

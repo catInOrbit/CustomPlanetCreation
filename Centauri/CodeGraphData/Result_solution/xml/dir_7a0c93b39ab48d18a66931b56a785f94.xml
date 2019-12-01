@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7a0c93b39ab48d18a66931b56a785f94" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts</compoundname>
+    <innerdir refid="dir_de60ea4fa6edea278ed2ce7f143a96b4">C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components</innerdir>
+    <innerdir refid="dir_248af5bf63933121f667ef57f30368a5">C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data</innerdir>
+    <innerdir refid="dir_ca3bb61ca269530b64d295bbf7babe83">C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor</innerdir>
+    <innerdir refid="dir_412cb321c28f4ca9e4b2c8fa292d8a62">C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/"/>
+  </compounddef>
+</doxygen>

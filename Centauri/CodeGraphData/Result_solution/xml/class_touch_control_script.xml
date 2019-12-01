@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_touch_control_script" kind="class" prot="public">
+    <compoundname>TouchControlScript</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_touch_control_script_1a3130fc2af604c77025b557713a4127a0" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] TouchControlScript.layerMasksIndex</definition>
+        <argsstring></argsstring>
+        <name>layerMasksIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_touch_control_script_1a62a6bec3a394e2b0eaa9e56669058981" compoundref="_touch_control_script_8cs" startline="15" endline="75">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_touch_control_script_1a0f253e1a974d98460316e35d85456a8d" prot="private" static="no" mutable="no">
+        <type>readonly int</type>
+        <definition>readonly int TouchControlScript.acceptedLayer</definition>
+        <argsstring></argsstring>
+        <name>acceptedLayer</name>
+        <initializer>= 1 &lt;&lt; 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_touch_control_script_1a62a6bec3a394e2b0eaa9e56669058981" compoundref="_touch_control_script_8cs" startline="15" endline="75">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_touch_control_script_1a7330fc10ff728b8fc7de7fcb8a02cf60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TouchControlScript.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_touch_control_script_1a62a6bec3a394e2b0eaa9e56669058981" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TouchControlScript.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" bodystart="15" bodyend="75"/>
+        <references refid="class_touch_control_script_1a0f253e1a974d98460316e35d85456a8d" compoundref="_touch_control_script_8cs" startline="8">acceptedLayer</references>
+        <references refid="class_touch_control_script_1a3130fc2af604c77025b557713a4127a0" compoundref="_touch_control_script_8cs" startline="7">layerMasksIndex</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="751">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="750">
+        <label>TouchControlScript</label>
+        <link refid="class_touch_control_script"/>
+        <childnode refid="751" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="753">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="752">
+        <label>TouchControlScript</label>
+        <link refid="class_touch_control_script"/>
+        <childnode refid="753" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Screen/TouchControlScript.cs" bodystart="5" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_touch_control_script_1a0f253e1a974d98460316e35d85456a8d" prot="private" virt="non-virtual"><scope>TouchControlScript</scope><name>acceptedLayer</name></member>
+      <member refid="class_touch_control_script_1a3130fc2af604c77025b557713a4127a0" prot="public" virt="non-virtual"><scope>TouchControlScript</scope><name>layerMasksIndex</name></member>
+      <member refid="class_touch_control_script_1a7330fc10ff728b8fc7de7fcb8a02cf60" prot="private" virt="non-virtual"><scope>TouchControlScript</scope><name>Start</name></member>
+      <member refid="class_touch_control_script_1a62a6bec3a394e2b0eaa9e56669058981" prot="private" virt="non-virtual"><scope>TouchControlScript</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

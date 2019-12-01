@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_rendezvous_display" kind="class" prot="public">
+    <compoundname>RendezvousDisplay</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rendezvous_display_1a728f0304b047f66e14beaa3499e71539" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RendezvousDisplay.playerInstance</definition>
+        <argsstring></argsstring>
+        <name>playerInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_rendezvous_display_1a333e8653a1a0a43cac8e4e019c09fb50" compoundref="_rendezvous_display_8cs" startline="17" endline="29">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendezvous_display_1a59925a1561dbded3d539bb6d8e0ed21d" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject RendezvousDisplay.rendezvousTarget</definition>
+        <argsstring></argsstring>
+        <name>rendezvousTarget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_rendezvous_display_1a333e8653a1a0a43cac8e4e019c09fb50" compoundref="_rendezvous_display_8cs" startline="17" endline="29">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendezvous_display_1a976e6df96ec966ffa75d782f1e19fdde" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 RendezvousDisplay.rdPoint</definition>
+        <argsstring></argsstring>
+        <name>rdPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_rendezvous_display_1a333e8653a1a0a43cac8e4e019c09fb50" compoundref="_rendezvous_display_8cs" startline="17" endline="29">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rendezvous_display_1a75afcaf614d84a0dcacea90b631fc7f4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool RendezvousDisplay.plot</definition>
+        <argsstring></argsstring>
+        <name>plot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_rendezvous_display_1a333e8653a1a0a43cac8e4e019c09fb50" compoundref="_rendezvous_display_8cs" startline="17" endline="29">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rendezvous_display_1a852679c389030dfa06ca77117d35728e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rendezvous_calculator" kindref="compound">RendezvousCalculator</ref></type>
+        <definition>RendezvousCalculator RendezvousDisplay.rendezvousCalculator</definition>
+        <argsstring></argsstring>
+        <name>rendezvousCalculator</name>
+        <initializer>= new <ref refid="class_rendezvous_calculator" kindref="compound">RendezvousCalculator</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rendezvous_display_1a333e8653a1a0a43cac8e4e019c09fb50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RendezvousDisplay.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" bodystart="17" bodyend="29"/>
+        <references refid="class_rendezvous_display_1a728f0304b047f66e14beaa3499e71539" compoundref="_rendezvous_display_8cs" startline="9">playerInstance</references>
+        <references refid="class_rendezvous_display_1a75afcaf614d84a0dcacea90b631fc7f4" compoundref="_rendezvous_display_8cs" startline="15">plot</references>
+        <references refid="class_rendezvous_display_1a976e6df96ec966ffa75d782f1e19fdde" compoundref="_rendezvous_display_8cs" startline="11">rdPoint</references>
+        <references refid="class_rendezvous_display_1a59925a1561dbded3d539bb6d8e0ed21d" compoundref="_rendezvous_display_8cs" startline="10">rendezvousTarget</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="558">
+        <label>RendezvousDisplay</label>
+        <link refid="class_rendezvous_display"/>
+        <childnode refid="559" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="559">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="560">
+        <label>RendezvousDisplay</label>
+        <link refid="class_rendezvous_display"/>
+        <childnode refid="561" relation="public-inheritance">
+        </childnode>
+        <childnode refid="562" relation="usage">
+          <edgelabel>rendezvousCalculator</edgelabel>
+        </childnode>
+      </node>
+      <node id="562">
+        <label>RendezvousCalculator</label>
+        <link refid="class_rendezvous_calculator"/>
+      </node>
+      <node id="561">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/RendezvousDisplay.cs" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_rendezvous_display_1a728f0304b047f66e14beaa3499e71539" prot="public" virt="non-virtual"><scope>RendezvousDisplay</scope><name>playerInstance</name></member>
+      <member refid="class_rendezvous_display_1a75afcaf614d84a0dcacea90b631fc7f4" prot="public" virt="non-virtual"><scope>RendezvousDisplay</scope><name>plot</name></member>
+      <member refid="class_rendezvous_display_1a976e6df96ec966ffa75d782f1e19fdde" prot="public" virt="non-virtual"><scope>RendezvousDisplay</scope><name>rdPoint</name></member>
+      <member refid="class_rendezvous_display_1a852679c389030dfa06ca77117d35728e" prot="private" virt="non-virtual"><scope>RendezvousDisplay</scope><name>rendezvousCalculator</name></member>
+      <member refid="class_rendezvous_display_1a59925a1561dbded3d539bb6d8e0ed21d" prot="public" virt="non-virtual"><scope>RendezvousDisplay</scope><name>rendezvousTarget</name></member>
+      <member refid="class_rendezvous_display_1a333e8653a1a0a43cac8e4e019c09fb50" prot="private" virt="non-virtual"><scope>RendezvousDisplay</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

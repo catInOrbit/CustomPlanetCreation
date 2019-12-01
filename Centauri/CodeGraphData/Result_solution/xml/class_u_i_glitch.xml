@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_u_i_glitch" kind="class" prot="public">
+    <compoundname>UIGlitch</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_i_glitch_1a4fa8179ec3d9b990557f537cd039e360" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UIGlitch.glitchAmount</definition>
+        <argsstring></argsstring>
+        <name>glitchAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/UIGlitch.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/UIGlitch.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_u_i_glitch_1a134a21b28961d97d32509ba2d1505f1d" compoundref="_u_i_glitch_8cs" startline="11" endline="14">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_glitch_1a1d67c80c440f10ad55f3c6c7a24d1882" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UIGlitch.glitchImage</definition>
+        <argsstring></argsstring>
+        <name>glitchImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/UIGlitch.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/UIGlitch.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_glitch_1a134a21b28961d97d32509ba2d1505f1d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UIGlitch.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/UIGlitch.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/UIGlitch.cs" bodystart="11" bodyend="14"/>
+        <references refid="class_u_i_glitch_1a4fa8179ec3d9b990557f537cd039e360" compoundref="_u_i_glitch_8cs" startline="8">glitchAmount</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="769">
+        <label>UIGlitch</label>
+        <link refid="class_u_i_glitch"/>
+        <childnode refid="770" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="770">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="771">
+        <label>UIGlitch</label>
+        <link refid="class_u_i_glitch"/>
+        <childnode refid="772" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="772">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/UIGlitch.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/UIGlitch.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_u_i_glitch_1a4fa8179ec3d9b990557f537cd039e360" prot="public" virt="non-virtual"><scope>UIGlitch</scope><name>glitchAmount</name></member>
+      <member refid="class_u_i_glitch_1a1d67c80c440f10ad55f3c6c7a24d1882" prot="public" virt="non-virtual"><scope>UIGlitch</scope><name>glitchImage</name></member>
+      <member refid="class_u_i_glitch_1a134a21b28961d97d32509ba2d1505f1d" prot="private" virt="non-virtual"><scope>UIGlitch</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ce7c5fcf9e9317886abaabc71f4439c8" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits</compoundname>
+    <innerdir refid="dir_025675ef18e06bee1ed2b8521ea98171">C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/"/>
+  </compounddef>
+</doxygen>

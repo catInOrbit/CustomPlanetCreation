@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_73f6049695641f8329da558a5a12522f" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI</compoundname>
+    <innerfile refid="_dragable_u_i_panel_8cs">DragableUIPanel.cs</innerfile>
+    <innerfile refid="_u_i_touch_manager_8cs">UITouchManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/"/>
+  </compounddef>
+</doxygen>

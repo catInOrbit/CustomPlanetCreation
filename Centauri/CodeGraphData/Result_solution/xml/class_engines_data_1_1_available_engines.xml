@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_engines_data_1_1_available_engines" kind="class" prot="public">
+    <compoundname>EnginesData::AvailableEngines</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_engines_data_1_1_available_engines_1a6ba7cdb16b3312223e6cd92e552ead98" prot="private" static="no" mutable="no">
+        <type>readonly Dictionary&lt; string, <ref refid="class_engines_data_1_1_engine_data" kindref="compound">EngineData</ref> &gt;</type>
+        <definition>readonly Dictionary&lt;string, EngineData&gt; EnginesData.AvailableEngines.listOfEngines</definition>
+        <argsstring></argsstring>
+        <name>listOfEngines</name>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_engines_data_1_1_engine_data" kindref="compound">EngineData</ref>&gt;()
+     {
+        {&quot;Vulkan&quot;, new <ref refid="class_engines_data_1_1_engine_data" kindref="compound">EngineData</ref>(100, 1.6f, &quot;Vulkan&quot;, 12f, 0.0001f) },
+        {&quot;Vulkan Atmosphere&quot;, new EngineData(200, 2.3f, &quot;Vulkan Atmosphere&quot;, 24f, 0.0004f) },
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="106" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_engines_data_1_1_available_engines_1aa307b7f7cc96c34447b56af4785c5e94" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; string, <ref refid="class_engines_data_1_1_engine_data" kindref="compound">EngineData</ref> &gt;</type>
+        <definition>Dictionary&lt;string, EngineData&gt; EnginesData.AvailableEngines.ListOfEngines</definition>
+        <argsstring></argsstring>
+        <name>ListOfEngines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="112" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="105" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="104" bodyend="119"/>
+    <listofallmembers>
+      <member refid="class_engines_data_1_1_available_engines_1a6ba7cdb16b3312223e6cd92e552ead98" prot="private" virt="non-virtual"><scope>EnginesData::AvailableEngines</scope><name>listOfEngines</name></member>
+      <member refid="class_engines_data_1_1_available_engines_1aa307b7f7cc96c34447b56af4785c5e94" prot="public" virt="non-virtual"><scope>EnginesData::AvailableEngines</scope><name>ListOfEngines</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

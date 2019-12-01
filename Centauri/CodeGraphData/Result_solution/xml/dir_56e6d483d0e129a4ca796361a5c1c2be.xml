@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_56e6d483d0e129a4ca796361a5c1c2be" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI</compoundname>
+    <innerdir refid="dir_260d66d2bddfb2b1c1a9f93e47e65721">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector</innerdir>
+    <innerdir refid="dir_cf10d5541d61c93b670c62ae28702c75">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI</innerdir>
+    <innerfile refid="_camera_zoom_u_i_8cs">CameraZoomUI.cs</innerfile>
+    <innerfile refid="_current_overall_status_8cs">CurrentOverallStatus.cs</innerfile>
+    <innerfile refid="_debug_u_i_8cs">DebugUI.cs</innerfile>
+    <innerfile refid="_heading_vector_8cs">HeadingVector.cs</innerfile>
+    <innerfile refid="_simple_orbit_data_display_8cs">SimpleOrbitDataDisplay.cs</innerfile>
+    <innerfile refid="_speed_data_u_i_8cs">SpeedDataUI.cs</innerfile>
+    <innerfile refid="_sphere_of_influence_8cs">SphereOfInfluence.cs</innerfile>
+    <innerfile refid="_u_i_glitch_8cs">UIGlitch.cs</innerfile>
+    <innerfile refid="_velocity_vector_8cs">VelocityVector.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/"/>
+  </compounddef>
+</doxygen>

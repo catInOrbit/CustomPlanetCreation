@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_input_detection_utils" kind="class" prot="public">
+    <compoundname>InputDetectionUtils</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_input_detection_utils_1a7f359a1b1cdc1f65590326396fd40634" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float InputDetectionUtils.forceStrength</definition>
+        <argsstring></argsstring>
+        <name>forceStrength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_input_detection_utils_1ac6f5cc26d749dd9870da5f260d4a73e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 InputDetectionUtils.MoveDirection</definition>
+        <argsstring></argsstring>
+        <name>MoveDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" compoundref="_camera_movement_8cs" startline="110" endline="141">CameraMovement.Camera3DMovement</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1a2f799e115219db02a70173b0279c31cd" compoundref="_orbital_maneuver_v2_8cs" startline="166" endline="181">OrbitalManeuverV2.EngineBurn</referencedby>
+        <referencedby refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" compoundref="_input_detection_utils_8cs" startline="63" endline="106">ProcessTouchStateOnePoint</referencedby>
+        <referencedby refid="class_input_detection_utils_1a6768df5c630f44b68a54f6ad28a9cb61" compoundref="_input_detection_utils_8cs" startline="108" endline="156">ProcessTouchStateTwoPoints</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1a63fcc8d6e09ee1b5f8b1eb1e108b4e66" compoundref="_orbital_maneuver_v2_8cs" startline="108" endline="113">OrbitalManeuverV2.SetRotationalMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1a70ab2d3d47dc5ec72002ca07094efb82" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 InputDetectionUtils.TouchEndPos</definition>
+        <argsstring></argsstring>
+        <name>TouchEndPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" compoundref="_input_detection_utils_8cs" startline="63" endline="106">ProcessTouchStateOnePoint</referencedby>
+        <referencedby refid="class_input_detection_utils_1a6768df5c630f44b68a54f6ad28a9cb61" compoundref="_input_detection_utils_8cs" startline="108" endline="156">ProcessTouchStateTwoPoints</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1ac7bddc45e7c066d3d496b811d6131e47" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 InputDetectionUtils.TouchStartPos</definition>
+        <argsstring></argsstring>
+        <name>TouchStartPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a0f179a02a69a8f54e50b2d3fe443d12f" compoundref="_camera_movement_8cs" startline="255" endline="267">CameraMovement.ProcessTilting</referencedby>
+        <referencedby refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" compoundref="_input_detection_utils_8cs" startline="63" endline="106">ProcessTouchStateOnePoint</referencedby>
+        <referencedby refid="class_input_detection_utils_1a6768df5c630f44b68a54f6ad28a9cb61" compoundref="_input_detection_utils_8cs" startline="108" endline="156">ProcessTouchStateTwoPoints</referencedby>
+        <referencedby refid="class_player_u_i_detection_1a37ecfffb53edf23bb5ff4c4a8e3fe57c" compoundref="_player_u_i_detection_8cs" startline="71" endline="83">PlayerUIDetection.RayCastToCollider</referencedby>
+        <referencedby refid="class_input_detection_utils_1aaae05a221b434a6a4faf6b77601204fc" compoundref="_input_detection_utils_8cs" startline="163" endline="175">ScreenSideDetection</referencedby>
+        <referencedby refid="class_camera_movement_1a6d70b582440500fff98506ebd3e9050e" compoundref="_camera_movement_8cs" startline="44" endline="51">CameraMovement.Update</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1af2ac1b060e4b04f9abbdd731990560e1" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string InputDetectionUtils.Begin</definition>
+        <argsstring></argsstring>
+        <name>Begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a0f179a02a69a8f54e50b2d3fe443d12f" compoundref="_camera_movement_8cs" startline="255" endline="267">CameraMovement.ProcessTilting</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1abaa2b24b2d051ddee7f57387847d0df5" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string InputDetectionUtils.Moving</definition>
+        <argsstring></argsstring>
+        <name>Moving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a0f179a02a69a8f54e50b2d3fe443d12f" compoundref="_camera_movement_8cs" startline="255" endline="267">CameraMovement.ProcessTilting</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1a5f72c9c879ebffaeb97719a69229cb1c" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string InputDetectionUtils.Holding</definition>
+        <argsstring></argsstring>
+        <name>Holding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1a6a07ac27250e99aef0ac910856ece368" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string InputDetectionUtils.Ended</definition>
+        <argsstring></argsstring>
+        <name>Ended</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1a9d182be40696c379ae6db3294110b3ce" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string InputDetectionUtils.Canceled</definition>
+        <argsstring></argsstring>
+        <name>Canceled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1ad370432b2d7d778ec462324347606219" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float InputDetectionUtils.ForceStrength</definition>
+        <argsstring></argsstring>
+        <name>ForceStrength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" compoundref="_camera_movement_8cs" startline="110" endline="141">CameraMovement.Camera3DMovement</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1a2f799e115219db02a70173b0279c31cd" compoundref="_orbital_maneuver_v2_8cs" startline="166" endline="181">OrbitalManeuverV2.EngineBurn</referencedby>
+        <referencedby refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" compoundref="_input_detection_utils_8cs" startline="63" endline="106">ProcessTouchStateOnePoint</referencedby>
+        <referencedby refid="class_input_detection_utils_1a6768df5c630f44b68a54f6ad28a9cb61" compoundref="_input_detection_utils_8cs" startline="108" endline="156">ProcessTouchStateTwoPoints</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1a5a08bf0ed29a66fd1609db5954707a36" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int InputDetectionUtils.TouchCount</definition>
+        <argsstring></argsstring>
+        <name>TouchCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="41" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" compoundref="_camera_movement_8cs" startline="110" endline="141">CameraMovement.Camera3DMovement</referencedby>
+        <referencedby refid="class_input_detection_utils_1aca195e93a451a7864b0162db6d6f855b" compoundref="_input_detection_utils_8cs" startline="48" endline="61">TouchCountDetection</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_input_detection_utils_1a5c6a50f7afef0c6e87ecd5db2f5b3b53" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool InputDetectionUtils.TouchStopped</definition>
+        <argsstring></argsstring>
+        <name>TouchStopped</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="43" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1aac10334d1ee18bcd50f2f75a8f4dfdb5" compoundref="_orbital_maneuver_v2_8cs" startline="81" endline="97">OrbitalManeuverV2.MoveVelVectorTowardsDesinatedPos</referencedby>
+        <referencedby refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" compoundref="_input_detection_utils_8cs" startline="63" endline="106">ProcessTouchStateOnePoint</referencedby>
+        <referencedby refid="class_input_detection_utils_1a6768df5c630f44b68a54f6ad28a9cb61" compoundref="_input_detection_utils_8cs" startline="108" endline="156">ProcessTouchStateTwoPoints</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_input_detection_utils_1aca195e93a451a7864b0162db6d6f855b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void InputDetectionUtils.TouchCountDetection</definition>
+        <argsstring>()</argsstring>
+        <name>TouchCountDetection</name>
+        <briefdescription>
+<para>Current support for 2 touch states. Else return invlid / no touch state -1</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="48" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="48" bodyend="61"/>
+        <references refid="class_input_detection_utils_1a5a08bf0ed29a66fd1609db5954707a36" compoundref="_input_detection_utils_8cs" startline="41">TouchCount</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string InputDetectionUtils.ProcessTouchStateOnePoint</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessTouchStateOnePoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="63" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="63" bodyend="106"/>
+        <references refid="class_input_detection_utils_1ad370432b2d7d778ec462324347606219" compoundref="_input_detection_utils_8cs" startline="29">ForceStrength</references>
+        <references refid="class_input_detection_utils_1ac6f5cc26d749dd9870da5f260d4a73e3" compoundref="_input_detection_utils_8cs" startline="18">MoveDirection</references>
+        <references refid="class_input_detection_utils_1a70ab2d3d47dc5ec72002ca07094efb82" compoundref="_input_detection_utils_8cs" startline="19">TouchEndPos</references>
+        <references refid="class_input_detection_utils_1ac7bddc45e7c066d3d496b811d6131e47" compoundref="_input_detection_utils_8cs" startline="20">TouchStartPos</references>
+        <references refid="class_input_detection_utils_1a5c6a50f7afef0c6e87ecd5db2f5b3b53" compoundref="_input_detection_utils_8cs" startline="43">TouchStopped</references>
+        <referencedby refid="class_camera_movement_1a0f179a02a69a8f54e50b2d3fe443d12f" compoundref="_camera_movement_8cs" startline="255" endline="267">CameraMovement.ProcessTilting</referencedby>
+        <referencedby refid="class_on_screen_g_u_i_1a9e483e144c7a89bf8bc927bc52f6621e" compoundref="_on_screen_g_u_i_8cs" startline="21" endline="34">OnScreenGUI.Update</referencedby>
+        <referencedby refid="class_player_u_i_detection_1a7667610d33ffb55812ba5fddbebafc57" compoundref="_player_u_i_detection_8cs" startline="28" endline="37">PlayerUIDetection.Update</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" compoundref="_orbital_maneuver_v2_8cs" startline="43" endline="59">OrbitalManeuverV2.Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_input_detection_utils_1a6768df5c630f44b68a54f6ad28a9cb61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string InputDetectionUtils.ProcessTouchStateTwoPoints</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessTouchStateTwoPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="108" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="108" bodyend="156"/>
+        <references refid="class_input_detection_utils_1ad370432b2d7d778ec462324347606219" compoundref="_input_detection_utils_8cs" startline="29">ForceStrength</references>
+        <references refid="class_input_detection_utils_1ac6f5cc26d749dd9870da5f260d4a73e3" compoundref="_input_detection_utils_8cs" startline="18">MoveDirection</references>
+        <references refid="class_input_detection_utils_1a70ab2d3d47dc5ec72002ca07094efb82" compoundref="_input_detection_utils_8cs" startline="19">TouchEndPos</references>
+        <references refid="class_input_detection_utils_1ac7bddc45e7c066d3d496b811d6131e47" compoundref="_input_detection_utils_8cs" startline="20">TouchStartPos</references>
+        <references refid="class_input_detection_utils_1a5c6a50f7afef0c6e87ecd5db2f5b3b53" compoundref="_input_detection_utils_8cs" startline="43">TouchStopped</references>
+      </memberdef>
+      <memberdef kind="function" id="class_input_detection_utils_1aaae05a221b434a6a4faf6b77601204fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string InputDetectionUtils.ScreenSideDetection</definition>
+        <argsstring>(float screenWidth)</argsstring>
+        <name>ScreenSideDetection</name>
+        <param>
+          <type>float</type>
+          <declname>screenWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Detect which side of the screen touch is recordred </para><para>Return string stating Left or Right</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="163" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="163" bodyend="175"/>
+        <references refid="class_input_detection_utils_1ac7bddc45e7c066d3d496b811d6131e47" compoundref="_input_detection_utils_8cs" startline="20">TouchStartPos</references>
+        <referencedby refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" compoundref="_orbital_maneuver_v2_8cs" startline="43" endline="59">OrbitalManeuverV2.Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class that detects and stores all touch related activities </para>    </briefdescription>
+    <detaileddescription>
+<para>!! Required function in Update() thread:</para><para><computeroutput> public string <ref refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" kindref="member">ProcessTouchStateOnePoint()</ref> </computeroutput> </para>    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputDetectionUtils.cs" bodystart="15" bodyend="176"/>
+    <listofallmembers>
+      <member refid="class_input_detection_utils_1af2ac1b060e4b04f9abbdd731990560e1" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>Begin</name></member>
+      <member refid="class_input_detection_utils_1a9d182be40696c379ae6db3294110b3ce" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>Canceled</name></member>
+      <member refid="class_input_detection_utils_1a6a07ac27250e99aef0ac910856ece368" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>Ended</name></member>
+      <member refid="class_input_detection_utils_1a7f359a1b1cdc1f65590326396fd40634" prot="private" virt="non-virtual"><scope>InputDetectionUtils</scope><name>forceStrength</name></member>
+      <member refid="class_input_detection_utils_1ad370432b2d7d778ec462324347606219" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>ForceStrength</name></member>
+      <member refid="class_input_detection_utils_1a5f72c9c879ebffaeb97719a69229cb1c" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>Holding</name></member>
+      <member refid="class_input_detection_utils_1ac6f5cc26d749dd9870da5f260d4a73e3" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>MoveDirection</name></member>
+      <member refid="class_input_detection_utils_1abaa2b24b2d051ddee7f57387847d0df5" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>Moving</name></member>
+      <member refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>ProcessTouchStateOnePoint</name></member>
+      <member refid="class_input_detection_utils_1a6768df5c630f44b68a54f6ad28a9cb61" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>ProcessTouchStateTwoPoints</name></member>
+      <member refid="class_input_detection_utils_1aaae05a221b434a6a4faf6b77601204fc" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>ScreenSideDetection</name></member>
+      <member refid="class_input_detection_utils_1a5a08bf0ed29a66fd1609db5954707a36" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>TouchCount</name></member>
+      <member refid="class_input_detection_utils_1aca195e93a451a7864b0162db6d6f855b" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>TouchCountDetection</name></member>
+      <member refid="class_input_detection_utils_1a70ab2d3d47dc5ec72002ca07094efb82" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>TouchEndPos</name></member>
+      <member refid="class_input_detection_utils_1ac7bddc45e7c066d3d496b811d6131e47" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>TouchStartPos</name></member>
+      <member refid="class_input_detection_utils_1a5c6a50f7afef0c6e87ecd5db2f5b3b53" prot="public" virt="non-virtual"><scope>InputDetectionUtils</scope><name>TouchStopped</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

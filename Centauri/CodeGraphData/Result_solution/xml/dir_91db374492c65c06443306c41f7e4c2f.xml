@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_91db374492c65c06443306c41f7e4c2f" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor</compoundname>
+    <innerfile refid="_kepler_orbit_mover_editor_8cs">KeplerOrbitMoverEditor.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/SimpleKeplerOrbits/Scripts/Editor/"/>
+  </compounddef>
+</doxygen>

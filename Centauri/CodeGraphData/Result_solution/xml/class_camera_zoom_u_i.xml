@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_camera_zoom_u_i" kind="class" prot="public">
+    <compoundname>CameraZoomUI</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_zoom_u_i_1a8b6f282e44f232b4b702479d7bffe202" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_movement" kindref="compound">CameraMovement</ref></type>
+        <definition>CameraMovement CameraZoomUI.cameraMovement</definition>
+        <argsstring></argsstring>
+        <name>cameraMovement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_camera_zoom_u_i_1a754230bd1434d8119a16e2b6ebc174cb" compoundref="_camera_zoom_u_i_8cs" startline="9" endline="12">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_zoom_u_i_1a754230bd1434d8119a16e2b6ebc174cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraZoomUI.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_camera_zoom_u_i_1a8b6f282e44f232b4b702479d7bffe202" compoundref="_camera_zoom_u_i_8cs" startline="7">cameraMovement</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_zoom_u_i_1aab14d34ec2ed29ed2a04938447576648" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraZoomUI.CameraAutoZoom</definition>
+        <argsstring>()</argsstring>
+        <name>CameraAutoZoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_zoom_u_i_1a62c326e064fa9b87c2d708f4c155f304" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraZoomUI.PinchZoom</definition>
+        <argsstring>()</argsstring>
+        <name>PinchZoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="99">
+        <label>CameraZoomUI</label>
+        <link refid="class_camera_zoom_u_i"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="111">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="101">
+        <label>CameraZoomUI</label>
+        <link refid="class_camera_zoom_u_i"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>cameraMovement</edgelabel>
+        </childnode>
+      </node>
+      <node id="107">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="108" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="109" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="110" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="111" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="112" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="113" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="114" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="114">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>CameraMovement</label>
+        <link refid="class_camera_movement"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="104" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+      </node>
+      <node id="119">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="116">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="105">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="106" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="117" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="118" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="104">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="102">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="117">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="119" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="112">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="109">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="108">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="106" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="106">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+        <childnode refid="107" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="115" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="116" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="110">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="115">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CameraZoomUI.cs" bodystart="5" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_camera_zoom_u_i_1aab14d34ec2ed29ed2a04938447576648" prot="public" virt="non-virtual"><scope>CameraZoomUI</scope><name>CameraAutoZoom</name></member>
+      <member refid="class_camera_zoom_u_i_1a8b6f282e44f232b4b702479d7bffe202" prot="private" virt="non-virtual"><scope>CameraZoomUI</scope><name>cameraMovement</name></member>
+      <member refid="class_camera_zoom_u_i_1a62c326e064fa9b87c2d708f4c155f304" prot="public" virt="non-virtual"><scope>CameraZoomUI</scope><name>PinchZoom</name></member>
+      <member refid="class_camera_zoom_u_i_1a754230bd1434d8119a16e2b6ebc174cb" prot="private" virt="non-virtual"><scope>CameraZoomUI</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_get_planet_resources_8cs" kind="file">
+    <compoundname>GetPlanetResources.cs</compoundname>
+    <innerclass refid="class_get_planet_resources" prot="public">GetPlanetResources</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>SimpleKeplerOrbits;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_get_planet_resources" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_get_planet_resources" kindref="compound">GetPlanetResources</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" kindref="member">beginResouceTransfer</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_get_planet_resources_1aaacd4a49051e744f508e319ea8d25a61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_resources_distribution" kindref="compound">ResourcesDistribution</ref><sp/><ref refid="class_get_planet_resources_1aaacd4a49051e744f508e319ea8d25a61" kindref="member">resourcesDistribution</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_get_planet_resources_1a14fa7c74b3eb58bba925f03f9e6600a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_ship_data" kindref="compound">ShipData</ref><sp/><ref refid="class_get_planet_resources_1a14fa7c74b3eb58bba925f03f9e6600a1" kindref="member">shipData</ref>;</highlight></codeline>
+<codeline lineno="14" refid="class_get_planet_resources_1a6beb48a2694377c87c18ae3da85c5cd0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref><sp/><ref refid="class_get_planet_resources_1a6beb48a2694377c87c18ae3da85c5cd0" kindref="member">keplerOrbitMover</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_get_planet_resources_1a7c0fa1449b52c6c6fdb65e36085e4b54" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_get_planet_resources_1a7c0fa1449b52c6c6fdb65e36085e4b54" kindref="member">currentOrbitingPlanet</ref>;</highlight></codeline>
+<codeline lineno="17" refid="class_get_planet_resources_1a325d2b309d0c18533bfacb5d2c031b31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_get_planet_resources_1a325d2b309d0c18533bfacb5d2c031b31" kindref="member">keyName</ref><sp/>=<sp/>null;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_get_planet_resources_1a45beebcb3ae7bb26ff8f095ad3e4eed3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_get_planet_resources_1a45beebcb3ae7bb26ff8f095ad3e4eed3" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_get_planet_resources_1a6beb48a2694377c87c18ae3da85c5cd0" kindref="member">keplerOrbitMover</ref><sp/>=<sp/>this.GetComponent&lt;<ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref>&gt;();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_get_planet_resources_1a7c0fa1449b52c6c6fdb65e36085e4b54" kindref="member">currentOrbitingPlanet</ref><sp/>=<sp/>keplerOrbitMover.AttractorSettings.AttractorObject.gameObject;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_get_planet_resources_1a14fa7c74b3eb58bba925f03f9e6600a1" kindref="member">shipData</ref><sp/>=<sp/>GameObject.FindObjectOfType&lt;<ref refid="class_ship_data" kindref="compound">ShipData</ref>&gt;();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_get_planet_resources_1aaacd4a49051e744f508e319ea8d25a61" kindref="member">resourcesDistribution</ref><sp/>=<sp/>currentOrbitingPlanet.GetComponent&lt;<ref refid="class_resources_distribution" kindref="compound">ResourcesDistribution</ref>&gt;();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="class_get_planet_resources_1ab49a8e725c29c3bac0db1d12f5996d17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_get_planet_resources_1ab49a8e725c29c3bac0db1d12f5996d17" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" kindref="member">beginResouceTransfer</ref><sp/>==<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_get_planet_resources_1a3132d2a2c9777b308636aca3a91e211b" kindref="member">GetResouceFromPlanet</ref>(<ref refid="class_get_planet_resources_1a325d2b309d0c18533bfacb5d2c031b31" kindref="member">keyName</ref>,<sp/>1,<sp/>0.3f);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_get_planet_resources_1a404d3d79d434919f0581905ce82cef6a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_get_planet_resources_1a404d3d79d434919f0581905ce82cef6a" kindref="member">OnTriggerEnter</ref>(Collider<sp/>other)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(other.gameObject.name.Contains(</highlight><highlight class="stringliteral">&quot;Resource<sp/>point<sp/>&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_get_planet_resources_1a325d2b309d0c18533bfacb5d2c031b31" kindref="member">keyName</ref><sp/>=<sp/>other.gameObject.name;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" kindref="member">beginResouceTransfer</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="class_get_planet_resources_1a4b32f8bbaebef42fe332fdd5e47e2027" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_get_planet_resources_1a4b32f8bbaebef42fe332fdd5e47e2027" kindref="member">OnTriggerExit</ref>(Collider<sp/>other)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(other.gameObject.name.Contains(</highlight><highlight class="stringliteral">&quot;Resource<sp/>point<sp/>&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" kindref="member">beginResouceTransfer</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Main<sp/>method<sp/>for<sp/>extracting<sp/>resources</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="class_get_planet_resources_1a3132d2a2c9777b308636aca3a91e211b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_get_planet_resources_1a3132d2a2c9777b308636aca3a91e211b" kindref="member">GetResouceFromPlanet</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>keyFromPair,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>transferSpeed,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>transferTimeFrame)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_planet_resouces" kindref="compound">PlanetResouces</ref><sp/>resoucesInstance<sp/>=<sp/>resourcesDistribution.PointsAndResources[keyFromPair];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(resoucesInstance.<ref refid="class_planet_resouces_1a7585001ce9ab87b1ea9c18e6def1f746" kindref="member">IsEmpty</ref>()<sp/>==<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StartCoroutine(<ref refid="class_get_planet_resources_1adcd1f46f677b5798bfd1e74cce496dc2" kindref="member">WaitTimeTillTransfer</ref>(1));</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>StartCoroutine(<ref refid="class_get_planet_resources_1a020f3daae2a58096be6c7e171f9dd08b" kindref="member">ExtractResouces</ref>(resoucesInstance,<sp/>transferSpeed));</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="class_get_planet_resources_1adcd1f46f677b5798bfd1e74cce496dc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>IEnumerator<sp/><ref refid="class_get_planet_resources_1adcd1f46f677b5798bfd1e74cce496dc2" kindref="member">WaitTimeTillTransfer</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>transferTimeFrame)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>timer<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>timer<sp/>+=<sp/>Time.deltaTime;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(timer<sp/>&gt;=<sp/>transferTimeFrame)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>timer<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>null;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="class_get_planet_resources_1a020f3daae2a58096be6c7e171f9dd08b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>IEnumerator<sp/><ref refid="class_get_planet_resources_1a020f3daae2a58096be6c7e171f9dd08b" kindref="member">ExtractResouces</ref>(<ref refid="class_planet_resouces" kindref="compound">PlanetResouces</ref><sp/>resoucesInstance,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>transferSpeed)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>shipData.RawResorces.AddResouceData(transferSpeed);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>resoucesInstance.RemoveResouces(transferSpeed);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>yield<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>null;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs"/>
+  </compounddef>
+</doxygen>

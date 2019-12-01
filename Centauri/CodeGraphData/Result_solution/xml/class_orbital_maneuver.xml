@@ -1,0 +1,1075 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_orbital_maneuver" kind="class" prot="public">
+    <compoundname>OrbitalManeuver</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_orbital_maneuver_1a1a6272d0fb934517c5305f5f72ad2df9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitalManeuver.debugLockEngine</definition>
+        <argsstring></argsstring>
+        <name>debugLockEngine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1af6d2ce503380ddbc25aa2c7667cc8dc8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitalManeuver.forceDampenent</definition>
+        <argsstring></argsstring>
+        <name>forceDampenent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1a49ac50050eb2b9192fed45fc68612231" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitalManeuver.mobileFloatDampenent</definition>
+        <argsstring></argsstring>
+        <name>mobileFloatDampenent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a16d93e84afc7aead6222dd9a62c943bf" compoundref="_orbital_maneuver_8cs" startline="297" endline="300">SetForceDampenent</referencedby>
+        <referencedby refid="class_orbital_maneuver_1ac73c64f64c88e8b9167c19abb03800dd" compoundref="_orbital_maneuver_8cs" startline="337" endline="342">SetNormalDown</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a6751a16ec05a15c9e0eb1bcd0f9239e5" compoundref="_orbital_maneuver_8cs" startline="331" endline="336">SetNormalUp</referencedby>
+        <referencedby refid="class_orbital_maneuver_1aa08ad4cff8b9b149f900a3a0bfba1bf5" compoundref="_orbital_maneuver_8cs" startline="307" endline="312">SetPrograde</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a2f62e0b5340f57e0e13ca9d234ceeff4" compoundref="_orbital_maneuver_8cs" startline="319" endline="324">SetRadialIn</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a89eb86e4a8d2e84c0cae4c8f8592be84" compoundref="_orbital_maneuver_8cs" startline="325" endline="330">SetRadialOut</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a241254c3909fa0402117a474ac9471a3" compoundref="_orbital_maneuver_8cs" startline="313" endline="318">SetRetrograde</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1ac725b8e266ef0cfbd27db1f0738824ac" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OrbitalManeuver.velocityVector</definition>
+        <argsstring></argsstring>
+        <name>velocityVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a098537437fa7da8b4203d0887aa2e31c" compoundref="_orbital_maneuver_8cs" startline="249" endline="260">NormalManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" compoundref="_orbital_maneuver_8cs" startline="127" endline="142">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_orbital_maneuver_1a987528c393bb89268a8c915b83c70e1e" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.mouseMoveDirection</definition>
+        <argsstring></argsstring>
+        <name>mouseMoveDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a410a27416141c7f79e4b20f0fecaa8aa" compoundref="_orbital_maneuver_8cs" startline="190" endline="216">MouseInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1aae90a68efa524b4afe940f3b1388e242" prot="private" static="no" mutable="no">
+        <type><ref refid="class_on_ground_detection" kindref="compound">OnGroundDetection</ref></type>
+        <definition>OnGroundDetection OrbitalManeuver.onGroundDetection</definition>
+        <argsstring></argsstring>
+        <name>onGroundDetection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a0b443a8d421622374c0b3594fc027c4d" compoundref="_orbital_maneuver_8cs" startline="121" endline="125">Start</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" compoundref="_orbital_maneuver_8cs" startline="127" endline="142">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1a4f5a2acb72f7be9463a47f3a17ef1679" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ship_data" kindref="compound">ShipData</ref></type>
+        <definition>ShipData OrbitalManeuver.shipData</definition>
+        <argsstring></argsstring>
+        <name>shipData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a0b443a8d421622374c0b3594fc027c4d" compoundref="_orbital_maneuver_8cs" startline="121" endline="125">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1ad38a573593e155ad0fac177839be8824" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.mouseStartPos</definition>
+        <argsstring></argsstring>
+        <name>mouseStartPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a410a27416141c7f79e4b20f0fecaa8aa" compoundref="_orbital_maneuver_8cs" startline="190" endline="216">MouseInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1af1b6c1895edb760a7093c1b924ad2006" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.mouseEndpos</definition>
+        <argsstring></argsstring>
+        <name>mouseEndpos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a410a27416141c7f79e4b20f0fecaa8aa" compoundref="_orbital_maneuver_8cs" startline="190" endline="216">MouseInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1aa2da8436378d44b7c76d76ad4acec27c" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 OrbitalManeuver.touchStartPos</definition>
+        <argsstring></argsstring>
+        <name>touchStartPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a51027c60367d94952679e18fa417a809" compoundref="_orbital_maneuver_8cs" startline="145" endline="188">TouchInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1abe908e3e861ac04302ddc0a4a6a06e8e" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 OrbitalManeuver.touchEndPos</definition>
+        <argsstring></argsstring>
+        <name>touchEndPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a51027c60367d94952679e18fa417a809" compoundref="_orbital_maneuver_8cs" startline="145" endline="188">TouchInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1a69cac31e56b58be847f74ede38ccfd29" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.prograde</definition>
+        <argsstring></argsstring>
+        <name>prograde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="109" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a07d7de67963f7632a27ba213d72ee61d" compoundref="_orbital_maneuver_8cs" startline="264" endline="279">ProgradeManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1aa08ad4cff8b9b149f900a3a0bfba1bf5" compoundref="_orbital_maneuver_8cs" startline="307" endline="312">SetPrograde</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1abdf4b0773a55aa9daa473a6a3cf54f6d" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.retroGrade</definition>
+        <argsstring></argsstring>
+        <name>retroGrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="109" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a07d7de67963f7632a27ba213d72ee61d" compoundref="_orbital_maneuver_8cs" startline="264" endline="279">ProgradeManeuver</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1ae8c81b73d431f5de0992e652ffab2fd1" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.radialIn</definition>
+        <argsstring></argsstring>
+        <name>radialIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="109" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1abca447639499d4207fccb998b1f3fad6" compoundref="_orbital_maneuver_8cs" startline="233" endline="247">RadialManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a2f62e0b5340f57e0e13ca9d234ceeff4" compoundref="_orbital_maneuver_8cs" startline="319" endline="324">SetRadialIn</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1af02b621157d46ccfa00b87dc8314db9a" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.radialOut</definition>
+        <argsstring></argsstring>
+        <name>radialOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="110" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1abca447639499d4207fccb998b1f3fad6" compoundref="_orbital_maneuver_8cs" startline="233" endline="247">RadialManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a89eb86e4a8d2e84c0cae4c8f8592be84" compoundref="_orbital_maneuver_8cs" startline="325" endline="330">SetRadialOut</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1ab63c1a1be169a88fd3375da94cd5c6c0" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.normalUp</definition>
+        <argsstring></argsstring>
+        <name>normalUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="110" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a098537437fa7da8b4203d0887aa2e31c" compoundref="_orbital_maneuver_8cs" startline="249" endline="260">NormalManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a6751a16ec05a15c9e0eb1bcd0f9239e5" compoundref="_orbital_maneuver_8cs" startline="331" endline="336">SetNormalUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1ae3ed0b71b7f371b62c5fe89f568c8c94" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.normalDown</definition>
+        <argsstring></argsstring>
+        <name>normalDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="110" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="109" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a098537437fa7da8b4203d0887aa2e31c" compoundref="_orbital_maneuver_8cs" startline="249" endline="260">NormalManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1ac73c64f64c88e8b9167c19abb03800dd" compoundref="_orbital_maneuver_8cs" startline="337" endline="342">SetNormalDown</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1ad4b5d82e0d2c50041d71d0b9080f747f" prot="private" static="no" mutable="no">
+        <type>Touch</type>
+        <definition>Touch OrbitalManeuver.getTouch</definition>
+        <argsstring></argsstring>
+        <name>getTouch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="112" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="112" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1ae73133b8aa562f79a902d1d83198f723" compoundref="_orbital_maneuver_8cs" startline="218" endline="231">PointVelocityVectorToTarget</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a51027c60367d94952679e18fa417a809" compoundref="_orbital_maneuver_8cs" startline="145" endline="188">TouchInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_1a1aa38432bcbafeb88b4d3678a94163d5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_vector_snap_utils" kindref="compound">VectorSnapUtils</ref></type>
+        <definition>VectorSnapUtils OrbitalManeuver.vectorSnapUtils</definition>
+        <argsstring></argsstring>
+        <name>vectorSnapUtils</name>
+        <initializer>= new <ref refid="class_vector_snap_utils" kindref="compound">VectorSnapUtils</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="113" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="113" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a07d7de67963f7632a27ba213d72ee61d" compoundref="_orbital_maneuver_8cs" startline="264" endline="279">ProgradeManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1abca447639499d4207fccb998b1f3fad6" compoundref="_orbital_maneuver_8cs" startline="233" endline="247">RadialManeuver</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_orbital_maneuver_1a4195b647cc81789e963f040ae21e310b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.TempTouchDirection</definition>
+        <argsstring></argsstring>
+        <name>TempTouchDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_orbital_maneuver_1ad70ffcb9901fefbef0b124ac96bc57b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.TouchDirection</definition>
+        <argsstring></argsstring>
+        <name>TouchDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="31" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1a098537437fa7da8b4203d0887aa2e31c" compoundref="_orbital_maneuver_8cs" startline="249" endline="260">NormalManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a07d7de67963f7632a27ba213d72ee61d" compoundref="_orbital_maneuver_8cs" startline="264" endline="279">ProgradeManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1abca447639499d4207fccb998b1f3fad6" compoundref="_orbital_maneuver_8cs" startline="233" endline="247">RadialManeuver</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a51027c60367d94952679e18fa417a809" compoundref="_orbital_maneuver_8cs" startline="145" endline="188">TouchInput</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_orbital_maneuver_1a415fab971d09ac04654fbda70832d306" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float OrbitalManeuver.VectorMagnitudeCap</definition>
+        <argsstring></argsstring>
+        <name>VectorMagnitudeCap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="33" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_1ad7ad4833b3a9547da4defd5adb9f1d16" compoundref="_orbital_maneuver_8cs" startline="115" endline="119">Awake</referencedby>
+        <referencedby refid="class_speed_data_1a822c551e5476659b2f22ce9c7a300aed" compoundref="_speed_data_8cs" startline="52" endline="55">SpeedData.GetEnginePercentageInteger</referencedby>
+        <referencedby refid="class_speed_data_1aa504b16ccc12bc590fb841d974be1a1c" compoundref="_speed_data_8cs" startline="47" endline="50">SpeedData.GetEngineThrustPercentage</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a410a27416141c7f79e4b20f0fecaa8aa" compoundref="_orbital_maneuver_8cs" startline="190" endline="216">MouseInput</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a51027c60367d94952679e18fa417a809" compoundref="_orbital_maneuver_8cs" startline="145" endline="188">TouchInput</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float OrbitalManeuver.ForceStrength</definition>
+        <argsstring></argsstring>
+        <name>ForceStrength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="34" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_speed_data_1a822c551e5476659b2f22ce9c7a300aed" compoundref="_speed_data_8cs" startline="52" endline="55">SpeedData.GetEnginePercentageInteger</referencedby>
+        <referencedby refid="class_speed_data_1aa504b16ccc12bc590fb841d974be1a1c" compoundref="_speed_data_8cs" startline="47" endline="50">SpeedData.GetEngineThrustPercentage</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a410a27416141c7f79e4b20f0fecaa8aa" compoundref="_orbital_maneuver_8cs" startline="190" endline="216">MouseInput</referencedby>
+        <referencedby refid="class_orbital_maneuver_1ac73c64f64c88e8b9167c19abb03800dd" compoundref="_orbital_maneuver_8cs" startline="337" endline="342">SetNormalDown</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a6751a16ec05a15c9e0eb1bcd0f9239e5" compoundref="_orbital_maneuver_8cs" startline="331" endline="336">SetNormalUp</referencedby>
+        <referencedby refid="class_orbital_maneuver_1aa08ad4cff8b9b149f900a3a0bfba1bf5" compoundref="_orbital_maneuver_8cs" startline="307" endline="312">SetPrograde</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a2f62e0b5340f57e0e13ca9d234ceeff4" compoundref="_orbital_maneuver_8cs" startline="319" endline="324">SetRadialIn</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a89eb86e4a8d2e84c0cae4c8f8592be84" compoundref="_orbital_maneuver_8cs" startline="325" endline="330">SetRadialOut</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a241254c3909fa0402117a474ac9471a3" compoundref="_orbital_maneuver_8cs" startline="313" endline="318">SetRetrograde</referencedby>
+        <referencedby refid="class_orbital_maneuver_1a51027c60367d94952679e18fa417a809" compoundref="_orbital_maneuver_8cs" startline="145" endline="188">TouchInput</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_orbital_maneuver_1a5a1e474c0183e75163549747fca4747b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.Prograde</definition>
+        <argsstring></argsstring>
+        <name>Prograde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_orbital_maneuver_1ae59c466e67e749258a7c7d0e2f87c04a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.RetroGrade</definition>
+        <argsstring></argsstring>
+        <name>RetroGrade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="48" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_orbital_maneuver_1a592096c7fd7f54f4b176e98328c9b9ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.RadialIn</definition>
+        <argsstring></argsstring>
+        <name>RadialIn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="60" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_orbital_maneuver_1a6a1e404cc612a44a61347a4102a14c85" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.RadialOut</definition>
+        <argsstring></argsstring>
+        <name>RadialOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="72" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_orbital_maneuver_1a5373f971a7136e76bf2b0e2f73a0f928" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.NormalUp</definition>
+        <argsstring></argsstring>
+        <name>NormalUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="84" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_orbital_maneuver_1a3ff2da6d1b4a9d074d56fdcd876d6e87" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.NormalDown</definition>
+        <argsstring></argsstring>
+        <name>NormalDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="96" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_orbital_maneuver_1ad7ad4833b3a9547da4defd5adb9f1d16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.Awake</definition>
+        <argsstring>()</argsstring>
+        <name>Awake</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="115" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="115" bodyend="119"/>
+        <references refid="class_orbital_maneuver_1afb86ec22a1e2b47eecc44629026b7fc0" compoundref="_orbital_maneuver_8cs" startline="282" endline="285">GetScreenConstraint14</references>
+        <references refid="class_orbital_maneuver_1a415fab971d09ac04654fbda70832d306" compoundref="_orbital_maneuver_8cs" startline="33">VectorMagnitudeCap</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a0b443a8d421622374c0b3594fc027c4d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="121" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="121" bodyend="125"/>
+        <references refid="class_orbital_maneuver_1aae90a68efa524b4afe940f3b1388e242" compoundref="_orbital_maneuver_8cs" startline="19">onGroundDetection</references>
+        <references refid="class_orbital_maneuver_1a4f5a2acb72f7be9463a47f3a17ef1679" compoundref="_orbital_maneuver_8cs" startline="20">shipData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="127" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="127" bodyend="142"/>
+        <references refid="class_on_ground_detection_1ad2d9f85b24a95519e521609228bce940" compoundref="_on_ground_detection_8cs" startline="12">OnGroundDetection.isLanded</references>
+        <references refid="class_on_ground_detection_1a6bed687c37f1b872f083d8aa3ab6c346" compoundref="_on_ground_detection_8cs" startline="13">OnGroundDetection.liftOff</references>
+        <references refid="class_orbital_maneuver_1a410a27416141c7f79e4b20f0fecaa8aa" compoundref="_orbital_maneuver_8cs" startline="190" endline="216">MouseInput</references>
+        <references refid="class_orbital_maneuver_1aae90a68efa524b4afe940f3b1388e242" compoundref="_orbital_maneuver_8cs" startline="19">onGroundDetection</references>
+        <references refid="class_orbital_maneuver_1ae73133b8aa562f79a902d1d83198f723" compoundref="_orbital_maneuver_8cs" startline="218" endline="231">PointVelocityVectorToTarget</references>
+        <references refid="class_orbital_maneuver_1a51027c60367d94952679e18fa417a809" compoundref="_orbital_maneuver_8cs" startline="145" endline="188">TouchInput</references>
+        <references refid="class_orbital_maneuver_1ac725b8e266ef0cfbd27db1f0738824ac" compoundref="_orbital_maneuver_8cs" startline="17">velocityVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a51027c60367d94952679e18fa417a809" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.TouchInput</definition>
+        <argsstring>()</argsstring>
+        <name>TouchInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="145" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="145" bodyend="188"/>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">ForceStrength</references>
+        <references refid="class_orbital_maneuver_1ad4b5d82e0d2c50041d71d0b9080f747f" compoundref="_orbital_maneuver_8cs" startline="112">getTouch</references>
+        <references refid="class_orbital_maneuver_1ad70ffcb9901fefbef0b124ac96bc57b3" compoundref="_orbital_maneuver_8cs" startline="31">TouchDirection</references>
+        <references refid="class_orbital_maneuver_1abe908e3e861ac04302ddc0a4a6a06e8e" compoundref="_orbital_maneuver_8cs" startline="26">touchEndPos</references>
+        <references refid="class_orbital_maneuver_1aa2da8436378d44b7c76d76ad4acec27c" compoundref="_orbital_maneuver_8cs" startline="25">touchStartPos</references>
+        <references refid="class_orbital_maneuver_1a415fab971d09ac04654fbda70832d306" compoundref="_orbital_maneuver_8cs" startline="33">VectorMagnitudeCap</references>
+        <referencedby refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" compoundref="_orbital_maneuver_8cs" startline="127" endline="142">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a410a27416141c7f79e4b20f0fecaa8aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.MouseInput</definition>
+        <argsstring>()</argsstring>
+        <name>MouseInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="190" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="190" bodyend="216"/>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">ForceStrength</references>
+        <references refid="class_orbital_maneuver_1af1b6c1895edb760a7093c1b924ad2006" compoundref="_orbital_maneuver_8cs" startline="23">mouseEndpos</references>
+        <references refid="class_orbital_maneuver_1a987528c393bb89268a8c915b83c70e1e" compoundref="_orbital_maneuver_8cs" startline="18">mouseMoveDirection</references>
+        <references refid="class_orbital_maneuver_1ad38a573593e155ad0fac177839be8824" compoundref="_orbital_maneuver_8cs" startline="22">mouseStartPos</references>
+        <references refid="class_orbital_maneuver_1a415fab971d09ac04654fbda70832d306" compoundref="_orbital_maneuver_8cs" startline="33">VectorMagnitudeCap</references>
+        <referencedby refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" compoundref="_orbital_maneuver_8cs" startline="127" endline="142">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1abca447639499d4207fccb998b1f3fad6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool OrbitalManeuver.RadialManeuver</definition>
+        <argsstring>(GameObject velocityVector)</argsstring>
+        <name>RadialManeuver</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="233" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="233" bodyend="247"/>
+        <references refid="class_vector_snap_utils_1a456f403be5a736d18b2ccc5cc7f3062b" compoundref="_vector_snap_utils_8cs" startline="32" endline="38">VectorSnapUtils.CheckHorizontalSnap</references>
+        <references refid="class_orbital_maneuver_1ae8c81b73d431f5de0992e652ffab2fd1" compoundref="_orbital_maneuver_8cs" startline="109">radialIn</references>
+        <references refid="class_orbital_maneuver_1af02b621157d46ccfa00b87dc8314db9a" compoundref="_orbital_maneuver_8cs" startline="109">radialOut</references>
+        <references refid="class_orbital_maneuver_1a2f62e0b5340f57e0e13ca9d234ceeff4" compoundref="_orbital_maneuver_8cs" startline="319" endline="324">SetRadialIn</references>
+        <references refid="class_orbital_maneuver_1a89eb86e4a8d2e84c0cae4c8f8592be84" compoundref="_orbital_maneuver_8cs" startline="325" endline="330">SetRadialOut</references>
+        <references refid="class_orbital_maneuver_1ad70ffcb9901fefbef0b124ac96bc57b3" compoundref="_orbital_maneuver_8cs" startline="31">TouchDirection</references>
+        <references refid="class_orbital_maneuver_1a1aa38432bcbafeb88b4d3678a94163d5" compoundref="_orbital_maneuver_8cs" startline="113">vectorSnapUtils</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a098537437fa7da8b4203d0887aa2e31c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool OrbitalManeuver.NormalManeuver</definition>
+        <argsstring>()</argsstring>
+        <name>NormalManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="249" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="249" bodyend="260"/>
+        <references refid="class_orbital_maneuver_1ae3ed0b71b7f371b62c5fe89f568c8c94" compoundref="_orbital_maneuver_8cs" startline="109">normalDown</references>
+        <references refid="class_orbital_maneuver_1ab63c1a1be169a88fd3375da94cd5c6c0" compoundref="_orbital_maneuver_8cs" startline="109">normalUp</references>
+        <references refid="class_orbital_maneuver_1ac73c64f64c88e8b9167c19abb03800dd" compoundref="_orbital_maneuver_8cs" startline="337" endline="342">SetNormalDown</references>
+        <references refid="class_orbital_maneuver_1a6751a16ec05a15c9e0eb1bcd0f9239e5" compoundref="_orbital_maneuver_8cs" startline="331" endline="336">SetNormalUp</references>
+        <references refid="class_orbital_maneuver_1ad70ffcb9901fefbef0b124ac96bc57b3" compoundref="_orbital_maneuver_8cs" startline="31">TouchDirection</references>
+        <references refid="class_orbital_maneuver_1ac725b8e266ef0cfbd27db1f0738824ac" compoundref="_orbital_maneuver_8cs" startline="17">velocityVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a07d7de67963f7632a27ba213d72ee61d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool OrbitalManeuver.ProgradeManeuver</definition>
+        <argsstring>(GameObject velocityVector)</argsstring>
+        <name>ProgradeManeuver</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="264" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="264" bodyend="279"/>
+        <references refid="class_vector_snap_utils_1a44c41a2815e101d0f5146678b948a2d4" compoundref="_vector_snap_utils_8cs" startline="40" endline="45">VectorSnapUtils.CheckVerticalSnap</references>
+        <references refid="class_orbital_maneuver_1a69cac31e56b58be847f74ede38ccfd29" compoundref="_orbital_maneuver_8cs" startline="109">prograde</references>
+        <references refid="class_orbital_maneuver_1abdf4b0773a55aa9daa473a6a3cf54f6d" compoundref="_orbital_maneuver_8cs" startline="109">retroGrade</references>
+        <references refid="class_orbital_maneuver_1aa08ad4cff8b9b149f900a3a0bfba1bf5" compoundref="_orbital_maneuver_8cs" startline="307" endline="312">SetPrograde</references>
+        <references refid="class_orbital_maneuver_1a241254c3909fa0402117a474ac9471a3" compoundref="_orbital_maneuver_8cs" startline="313" endline="318">SetRetrograde</references>
+        <references refid="class_orbital_maneuver_1ad70ffcb9901fefbef0b124ac96bc57b3" compoundref="_orbital_maneuver_8cs" startline="31">TouchDirection</references>
+        <references refid="class_orbital_maneuver_1a1aa38432bcbafeb88b4d3678a94163d5" compoundref="_orbital_maneuver_8cs" startline="113">vectorSnapUtils</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a5e77b24732c517449c54cf73f050bbc2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.NeutralizeVelocityZAxis</definition>
+        <argsstring>(GameObject velocityVector)</argsstring>
+        <name>NeutralizeVelocityZAxis</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="292" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="292" bodyend="296"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_orbital_maneuver_1ae73133b8aa562f79a902d1d83198f723" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.PointVelocityVectorToTarget</definition>
+        <argsstring>(GameObject velocityVector)</argsstring>
+        <name>PointVelocityVectorToTarget</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="218" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="218" bodyend="231"/>
+        <references refid="class_orbital_maneuver_1a7ff5d7a7a4d33fa46a2ab6196861629d" compoundref="_orbital_maneuver_8cs" startline="287" endline="290">GetScreenHalfpoint</references>
+        <references refid="class_orbital_maneuver_1ad4b5d82e0d2c50041d71d0b9080f747f" compoundref="_orbital_maneuver_8cs" startline="112">getTouch</references>
+        <referencedby refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" compoundref="_orbital_maneuver_8cs" startline="127" endline="142">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1afb86ec22a1e2b47eecc44629026b7fc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float OrbitalManeuver.GetScreenConstraint14</definition>
+        <argsstring>(float width, float height)</argsstring>
+        <name>GetScreenConstraint14</name>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="282" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="282" bodyend="285"/>
+        <referencedby refid="class_orbital_maneuver_1ad7ad4833b3a9547da4defd5adb9f1d16" compoundref="_orbital_maneuver_8cs" startline="115" endline="119">Awake</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a7ff5d7a7a4d33fa46a2ab6196861629d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 OrbitalManeuver.GetScreenHalfpoint</definition>
+        <argsstring>(float width, float height)</argsstring>
+        <name>GetScreenHalfpoint</name>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="287" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="287" bodyend="290"/>
+        <referencedby refid="class_orbital_maneuver_1ae73133b8aa562f79a902d1d83198f723" compoundref="_orbital_maneuver_8cs" startline="218" endline="231">PointVelocityVectorToTarget</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a16d93e84afc7aead6222dd9a62c943bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuver.SetForceDampenent</definition>
+        <argsstring>(float dampenent)</argsstring>
+        <name>SetForceDampenent</name>
+        <param>
+          <type>float</type>
+          <declname>dampenent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="297" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="297" bodyend="300"/>
+        <references refid="class_orbital_maneuver_1a49ac50050eb2b9192fed45fc68612231" compoundref="_orbital_maneuver_8cs" startline="15">mobileFloatDampenent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a1176841259101180514c44f43ded9b63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.GetVelocityVectorPosition</definition>
+        <argsstring>()</argsstring>
+        <name>GetVelocityVectorPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="302" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="302" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1aa08ad4cff8b9b149f900a3a0bfba1bf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.SetPrograde</definition>
+        <argsstring>(GameObject velocityVector, out Vector3 prograde)</argsstring>
+        <name>SetPrograde</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>prograde</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="307" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="307" bodyend="312"/>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">ForceStrength</references>
+        <references refid="class_orbital_maneuver_1a49ac50050eb2b9192fed45fc68612231" compoundref="_orbital_maneuver_8cs" startline="15">mobileFloatDampenent</references>
+        <references refid="class_orbital_maneuver_1a69cac31e56b58be847f74ede38ccfd29" compoundref="_orbital_maneuver_8cs" startline="109">prograde</references>
+        <referencedby refid="class_orbital_maneuver_1a07d7de67963f7632a27ba213d72ee61d" compoundref="_orbital_maneuver_8cs" startline="264" endline="279">ProgradeManeuver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a241254c3909fa0402117a474ac9471a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.SetRetrograde</definition>
+        <argsstring>(GameObject velocityVector, out Vector3 retrograde)</argsstring>
+        <name>SetRetrograde</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>retrograde</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="313" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="313" bodyend="318"/>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">ForceStrength</references>
+        <references refid="class_orbital_maneuver_1a49ac50050eb2b9192fed45fc68612231" compoundref="_orbital_maneuver_8cs" startline="15">mobileFloatDampenent</references>
+        <referencedby refid="class_orbital_maneuver_1a07d7de67963f7632a27ba213d72ee61d" compoundref="_orbital_maneuver_8cs" startline="264" endline="279">ProgradeManeuver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a2f62e0b5340f57e0e13ca9d234ceeff4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.SetRadialIn</definition>
+        <argsstring>(GameObject velocityVector, out Vector3 radialIn)</argsstring>
+        <name>SetRadialIn</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>radialIn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="319" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="319" bodyend="324"/>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">ForceStrength</references>
+        <references refid="class_orbital_maneuver_1a49ac50050eb2b9192fed45fc68612231" compoundref="_orbital_maneuver_8cs" startline="15">mobileFloatDampenent</references>
+        <references refid="class_orbital_maneuver_1ae8c81b73d431f5de0992e652ffab2fd1" compoundref="_orbital_maneuver_8cs" startline="109">radialIn</references>
+        <referencedby refid="class_orbital_maneuver_1abca447639499d4207fccb998b1f3fad6" compoundref="_orbital_maneuver_8cs" startline="233" endline="247">RadialManeuver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a89eb86e4a8d2e84c0cae4c8f8592be84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.SetRadialOut</definition>
+        <argsstring>(GameObject velocityVector, out Vector3 radialOut)</argsstring>
+        <name>SetRadialOut</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>radialOut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="325" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="325" bodyend="330"/>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">ForceStrength</references>
+        <references refid="class_orbital_maneuver_1a49ac50050eb2b9192fed45fc68612231" compoundref="_orbital_maneuver_8cs" startline="15">mobileFloatDampenent</references>
+        <references refid="class_orbital_maneuver_1af02b621157d46ccfa00b87dc8314db9a" compoundref="_orbital_maneuver_8cs" startline="109">radialOut</references>
+        <referencedby refid="class_orbital_maneuver_1abca447639499d4207fccb998b1f3fad6" compoundref="_orbital_maneuver_8cs" startline="233" endline="247">RadialManeuver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1a6751a16ec05a15c9e0eb1bcd0f9239e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.SetNormalUp</definition>
+        <argsstring>(GameObject velocityVector, out Vector3 normalUp)</argsstring>
+        <name>SetNormalUp</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>normalUp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="331" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="331" bodyend="336"/>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">ForceStrength</references>
+        <references refid="class_orbital_maneuver_1a49ac50050eb2b9192fed45fc68612231" compoundref="_orbital_maneuver_8cs" startline="15">mobileFloatDampenent</references>
+        <references refid="class_orbital_maneuver_1ab63c1a1be169a88fd3375da94cd5c6c0" compoundref="_orbital_maneuver_8cs" startline="109">normalUp</references>
+        <referencedby refid="class_orbital_maneuver_1a098537437fa7da8b4203d0887aa2e31c" compoundref="_orbital_maneuver_8cs" startline="249" endline="260">NormalManeuver</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_1ac73c64f64c88e8b9167c19abb03800dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuver.SetNormalDown</definition>
+        <argsstring>(GameObject velocityVector, out Vector3 normalDown)</argsstring>
+        <name>SetNormalDown</name>
+        <param>
+          <type>GameObject</type>
+          <declname>velocityVector</declname>
+        </param>
+        <param>
+          <type>out Vector3</type>
+          <declname>normalDown</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="337" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="337" bodyend="342"/>
+        <references refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" compoundref="_orbital_maneuver_8cs" startline="34">ForceStrength</references>
+        <references refid="class_orbital_maneuver_1a49ac50050eb2b9192fed45fc68612231" compoundref="_orbital_maneuver_8cs" startline="15">mobileFloatDampenent</references>
+        <references refid="class_orbital_maneuver_1ae3ed0b71b7f371b62c5fe89f568c8c94" compoundref="_orbital_maneuver_8cs" startline="109">normalDown</references>
+        <referencedby refid="class_orbital_maneuver_1a098537437fa7da8b4203d0887aa2e31c" compoundref="_orbital_maneuver_8cs" startline="249" endline="260">NormalManeuver</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="443">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="442">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="443" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="454">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="446">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+        <childnode refid="447" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="448" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="452" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="453" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="454" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="455" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="456" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="457" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="457">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="451">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="459">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="456">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="448">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+        <childnode refid="444" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="449" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="450" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="445">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="449">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="450">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="451" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="455">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="452">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="447">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+        <childnode refid="448" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="446" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="444" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="444">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+        <childnode refid="446" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="458" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="459" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="453">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="458">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuver.cs" bodystart="7" bodyend="344"/>
+    <listofallmembers>
+      <member refid="class_orbital_maneuver_1ad7ad4833b3a9547da4defd5adb9f1d16" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>Awake</name></member>
+      <member refid="class_orbital_maneuver_1a1a6272d0fb934517c5305f5f72ad2df9" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>debugLockEngine</name></member>
+      <member refid="class_orbital_maneuver_1af6d2ce503380ddbc25aa2c7667cc8dc8" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>forceDampenent</name></member>
+      <member refid="class_orbital_maneuver_1a70d4809bd7546274212e863442cc2dd6" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>ForceStrength</name></member>
+      <member refid="class_orbital_maneuver_1afb86ec22a1e2b47eecc44629026b7fc0" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>GetScreenConstraint14</name></member>
+      <member refid="class_orbital_maneuver_1a7ff5d7a7a4d33fa46a2ab6196861629d" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>GetScreenHalfpoint</name></member>
+      <member refid="class_orbital_maneuver_1ad4b5d82e0d2c50041d71d0b9080f747f" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>getTouch</name></member>
+      <member refid="class_orbital_maneuver_1a1176841259101180514c44f43ded9b63" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>GetVelocityVectorPosition</name></member>
+      <member refid="class_orbital_maneuver_1a49ac50050eb2b9192fed45fc68612231" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>mobileFloatDampenent</name></member>
+      <member refid="class_orbital_maneuver_1af1b6c1895edb760a7093c1b924ad2006" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>mouseEndpos</name></member>
+      <member refid="class_orbital_maneuver_1a410a27416141c7f79e4b20f0fecaa8aa" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>MouseInput</name></member>
+      <member refid="class_orbital_maneuver_1a987528c393bb89268a8c915b83c70e1e" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>mouseMoveDirection</name></member>
+      <member refid="class_orbital_maneuver_1ad38a573593e155ad0fac177839be8824" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>mouseStartPos</name></member>
+      <member refid="class_orbital_maneuver_1a5e77b24732c517449c54cf73f050bbc2" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>NeutralizeVelocityZAxis</name></member>
+      <member refid="class_orbital_maneuver_1a3ff2da6d1b4a9d074d56fdcd876d6e87" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>NormalDown</name></member>
+      <member refid="class_orbital_maneuver_1ae3ed0b71b7f371b62c5fe89f568c8c94" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>normalDown</name></member>
+      <member refid="class_orbital_maneuver_1a098537437fa7da8b4203d0887aa2e31c" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>NormalManeuver</name></member>
+      <member refid="class_orbital_maneuver_1a5373f971a7136e76bf2b0e2f73a0f928" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>NormalUp</name></member>
+      <member refid="class_orbital_maneuver_1ab63c1a1be169a88fd3375da94cd5c6c0" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>normalUp</name></member>
+      <member refid="class_orbital_maneuver_1aae90a68efa524b4afe940f3b1388e242" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>onGroundDetection</name></member>
+      <member refid="class_orbital_maneuver_1ae73133b8aa562f79a902d1d83198f723" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>PointVelocityVectorToTarget</name></member>
+      <member refid="class_orbital_maneuver_1a5a1e474c0183e75163549747fca4747b" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>Prograde</name></member>
+      <member refid="class_orbital_maneuver_1a69cac31e56b58be847f74ede38ccfd29" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>prograde</name></member>
+      <member refid="class_orbital_maneuver_1a07d7de67963f7632a27ba213d72ee61d" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>ProgradeManeuver</name></member>
+      <member refid="class_orbital_maneuver_1a592096c7fd7f54f4b176e98328c9b9ef" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>RadialIn</name></member>
+      <member refid="class_orbital_maneuver_1ae8c81b73d431f5de0992e652ffab2fd1" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>radialIn</name></member>
+      <member refid="class_orbital_maneuver_1abca447639499d4207fccb998b1f3fad6" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>RadialManeuver</name></member>
+      <member refid="class_orbital_maneuver_1a6a1e404cc612a44a61347a4102a14c85" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>RadialOut</name></member>
+      <member refid="class_orbital_maneuver_1af02b621157d46ccfa00b87dc8314db9a" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>radialOut</name></member>
+      <member refid="class_orbital_maneuver_1ae59c466e67e749258a7c7d0e2f87c04a" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>RetroGrade</name></member>
+      <member refid="class_orbital_maneuver_1abdf4b0773a55aa9daa473a6a3cf54f6d" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>retroGrade</name></member>
+      <member refid="class_orbital_maneuver_1a16d93e84afc7aead6222dd9a62c943bf" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>SetForceDampenent</name></member>
+      <member refid="class_orbital_maneuver_1ac73c64f64c88e8b9167c19abb03800dd" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>SetNormalDown</name></member>
+      <member refid="class_orbital_maneuver_1a6751a16ec05a15c9e0eb1bcd0f9239e5" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>SetNormalUp</name></member>
+      <member refid="class_orbital_maneuver_1aa08ad4cff8b9b149f900a3a0bfba1bf5" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>SetPrograde</name></member>
+      <member refid="class_orbital_maneuver_1a2f62e0b5340f57e0e13ca9d234ceeff4" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>SetRadialIn</name></member>
+      <member refid="class_orbital_maneuver_1a89eb86e4a8d2e84c0cae4c8f8592be84" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>SetRadialOut</name></member>
+      <member refid="class_orbital_maneuver_1a241254c3909fa0402117a474ac9471a3" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>SetRetrograde</name></member>
+      <member refid="class_orbital_maneuver_1a4f5a2acb72f7be9463a47f3a17ef1679" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>shipData</name></member>
+      <member refid="class_orbital_maneuver_1a0b443a8d421622374c0b3594fc027c4d" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>Start</name></member>
+      <member refid="class_orbital_maneuver_1a4195b647cc81789e963f040ae21e310b" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>TempTouchDirection</name></member>
+      <member refid="class_orbital_maneuver_1ad70ffcb9901fefbef0b124ac96bc57b3" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>TouchDirection</name></member>
+      <member refid="class_orbital_maneuver_1abe908e3e861ac04302ddc0a4a6a06e8e" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>touchEndPos</name></member>
+      <member refid="class_orbital_maneuver_1a51027c60367d94952679e18fa417a809" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>TouchInput</name></member>
+      <member refid="class_orbital_maneuver_1aa2da8436378d44b7c76d76ad4acec27c" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>touchStartPos</name></member>
+      <member refid="class_orbital_maneuver_1a3c40f1fe43c96964509d9d72f8f68561" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>Update</name></member>
+      <member refid="class_orbital_maneuver_1a415fab971d09ac04654fbda70832d306" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>VectorMagnitudeCap</name></member>
+      <member refid="class_orbital_maneuver_1a1aa38432bcbafeb88b4d3678a94163d5" prot="private" virt="non-virtual"><scope>OrbitalManeuver</scope><name>vectorSnapUtils</name></member>
+      <member refid="class_orbital_maneuver_1ac725b8e266ef0cfbd27db1f0738824ac" prot="public" virt="non-virtual"><scope>OrbitalManeuver</scope><name>velocityVector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0e45bdb1f8a48c3edc1e2620eb3c6d6b" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair</compoundname>
+    <innerfile refid="pb___clean_leaked_meshes_8cs">pb_CleanLeakedMeshes.cs</innerfile>
+    <innerfile refid="pb___force_scene_refresh_8cs">pb_ForceSceneRefresh.cs</innerfile>
+    <innerfile refid="pb___rebuild_meshes_8cs">pb_RebuildMeshes.cs</innerfile>
+    <innerfile refid="pb___rebuild_shared_indices_8cs">pb_RebuildSharedIndices.cs</innerfile>
+    <innerfile refid="pb___remove_degenerate_tris_8cs">pb_RemoveDegenerateTris.cs</innerfile>
+    <innerfile refid="pb___repair_colors_8cs">pb_RepairColors.cs</innerfile>
+    <innerfile refid="pb___repair_mesh_references_8cs">pb_RepairMeshReferences.cs</innerfile>
+    <innerfile refid="pb___repair_u_v_8cs">pb_RepairUV.cs</innerfile>
+    <innerfile refid="pb___reset_entity_materials_8cs">pb_ResetEntityMaterials.cs</innerfile>
+    <innerfile refid="pb___upgrade_basic_to_advanced_8cs">pb_UpgradeBasicToAdvanced.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/"/>
+  </compounddef>
+</doxygen>

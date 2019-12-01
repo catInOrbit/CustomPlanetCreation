@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_gravitational_pull" kind="class" prot="public">
+    <compoundname>GravitationalPull</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_gravitational_pull_1a979f587897f22b67ed7ce7743861d007" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] GravitationalPull.gameObjects</definition>
+        <argsstring></argsstring>
+        <name>gameObjects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="7" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" compoundref="_gravitational_pull_8cs" startline="111" endline="140">GravitationalEffect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_gravitational_pull_1a815c85a116e09513f52ce42f1c268244" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GravitationalPull.forceAmount</definition>
+        <argsstring></argsstring>
+        <name>forceAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="9" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gravitational_pull_1aa28b2ac993e8a3d80b549564d598e3fa" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GravitationalPull.gravityUpscaleFactor</definition>
+        <argsstring></argsstring>
+        <name>gravityUpscaleFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="10" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gravitational_pull_1a96f14ebd67132132ad3bf232bc544c8f" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float GravitationalPull.gravityConstant</definition>
+        <argsstring></argsstring>
+        <name>gravityConstant</name>
+        <initializer>= 6.7f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="12" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gravitational_pull_1a84d33c7056844d7066b76f62ab140dee" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 GravitationalPull.gravityVector</definition>
+        <argsstring></argsstring>
+        <name>gravityVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="13" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gravitational_pull_1ad2936808ea6dac61bc0caa9ac40082d6" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 GravitationalPull.difference</definition>
+        <argsstring></argsstring>
+        <name>difference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="14" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gravitational_pull_1a531404d5d2bbebd756bf21602940a29c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GravitationalPull.gravity</definition>
+        <argsstring></argsstring>
+        <name>gravity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="16" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_gravitational_pull_1a3d434d08590b0c36d54ec5ca6f096870" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float GravitationalPull.radiusBetweenBody</definition>
+        <argsstring></argsstring>
+        <name>radiusBetweenBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="17" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_gravitational_pull_1a29542ebc007d41fa27949f9bfec7cb99" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float GravitationalPull.ForceAmount</definition>
+        <argsstring></argsstring>
+        <name>ForceAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="19" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_gravitational_pull_1a22b56673f94a8382559f71875f336b6f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float GravitationalPull.GravityUpscaleFactor</definition>
+        <argsstring></argsstring>
+        <name>GravityUpscaleFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="32" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" compoundref="_gravitational_pull_8cs" startline="111" endline="140">GravitationalEffect</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_gravitational_pull_1a7563ffd468aa20067e486b2d0a9d79e6" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>float</type>
+        <definition>float GravitationalPull.GravityConstant</definition>
+        <argsstring></argsstring>
+        <name>GravityConstant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="45" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" compoundref="_gravitational_pull_8cs" startline="111" endline="140">GravitationalEffect</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_gravitational_pull_1a90a5ba643d24e611c1dbd32e3ac50a35" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 GravitationalPull.GravityVector</definition>
+        <argsstring></argsstring>
+        <name>GravityVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="53" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" compoundref="_gravitational_pull_8cs" startline="111" endline="140">GravitationalEffect</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_gravitational_pull_1a25caa9dcc33cb50924d036d9c25d5741" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Vector3</type>
+        <definition>Vector3 GravitationalPull.Difference</definition>
+        <argsstring></argsstring>
+        <name>Difference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="66" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" compoundref="_gravitational_pull_8cs" startline="111" endline="140">GravitationalEffect</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_gravitational_pull_1a40189356b3dac5d9ec18b74e583b6fbf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float GravitationalPull.Gravity</definition>
+        <argsstring></argsstring>
+        <name>Gravity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="79" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" compoundref="_gravitational_pull_8cs" startline="111" endline="140">GravitationalEffect</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_gravitational_pull_1a06d68ce7b5754f151821f88c6b66732d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float GravitationalPull.RadiusBetweenBody</definition>
+        <argsstring></argsstring>
+        <name>RadiusBetweenBody</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="92" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="93" bodyend="-1"/>
+        <referencedby refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" compoundref="_gravitational_pull_8cs" startline="111" endline="140">GravitationalEffect</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_gravitational_pull_1a92ec4c0398252510c0258ecc5b68d543" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GravitationalPull.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="105" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="105" bodyend="108"/>
+        <references refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" compoundref="_gravitational_pull_8cs" startline="111" endline="140">GravitationalEffect</references>
+      </memberdef>
+      <memberdef kind="function" id="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GravitationalPull.GravitationalEffect</definition>
+        <argsstring>()</argsstring>
+        <name>GravitationalEffect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="111" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="111" bodyend="140"/>
+        <references refid="class_gravitational_pull_1a25caa9dcc33cb50924d036d9c25d5741" compoundref="_gravitational_pull_8cs" startline="67">Difference</references>
+        <references refid="class_gravitational_pull_1a979f587897f22b67ed7ce7743861d007" compoundref="_gravitational_pull_8cs" startline="7">gameObjects</references>
+        <references refid="class_gravitational_pull_1a40189356b3dac5d9ec18b74e583b6fbf" compoundref="_gravitational_pull_8cs" startline="80">Gravity</references>
+        <references refid="class_gravitational_pull_1a7563ffd468aa20067e486b2d0a9d79e6" compoundref="_gravitational_pull_8cs" startline="46">GravityConstant</references>
+        <references refid="class_gravitational_pull_1a22b56673f94a8382559f71875f336b6f" compoundref="_gravitational_pull_8cs" startline="33">GravityUpscaleFactor</references>
+        <references refid="class_gravitational_pull_1a90a5ba643d24e611c1dbd32e3ac50a35" compoundref="_gravitational_pull_8cs" startline="54">GravityVector</references>
+        <references refid="class_gravitational_pull_1a06d68ce7b5754f151821f88c6b66732d" compoundref="_gravitational_pull_8cs" startline="93">RadiusBetweenBody</references>
+        <referencedby refid="class_gravitational_pull_1a92ec4c0398252510c0258ecc5b68d543" compoundref="_gravitational_pull_8cs" startline="105" endline="108">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>GravitationalPull</label>
+        <link refid="class_gravitational_pull"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>GravitationalPull</label>
+        <link refid="class_gravitational_pull"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" line="6" column="1" bodyfile="C:/Uniprj/Centauri/Assets/GravitationalPull.cs" bodystart="5" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_gravitational_pull_1ad2936808ea6dac61bc0caa9ac40082d6" prot="private" virt="non-virtual"><scope>GravitationalPull</scope><name>difference</name></member>
+      <member refid="class_gravitational_pull_1a25caa9dcc33cb50924d036d9c25d5741" prot="public" virt="non-virtual"><scope>GravitationalPull</scope><name>Difference</name></member>
+      <member refid="class_gravitational_pull_1a29542ebc007d41fa27949f9bfec7cb99" prot="public" virt="non-virtual"><scope>GravitationalPull</scope><name>ForceAmount</name></member>
+      <member refid="class_gravitational_pull_1a815c85a116e09513f52ce42f1c268244" prot="private" virt="non-virtual"><scope>GravitationalPull</scope><name>forceAmount</name></member>
+      <member refid="class_gravitational_pull_1a979f587897f22b67ed7ce7743861d007" prot="public" virt="non-virtual"><scope>GravitationalPull</scope><name>gameObjects</name></member>
+      <member refid="class_gravitational_pull_1a3490193299c0e39d6d43edba074ea03c" prot="private" virt="non-virtual"><scope>GravitationalPull</scope><name>GravitationalEffect</name></member>
+      <member refid="class_gravitational_pull_1a531404d5d2bbebd756bf21602940a29c" prot="private" virt="non-virtual"><scope>GravitationalPull</scope><name>gravity</name></member>
+      <member refid="class_gravitational_pull_1a40189356b3dac5d9ec18b74e583b6fbf" prot="public" virt="non-virtual"><scope>GravitationalPull</scope><name>Gravity</name></member>
+      <member refid="class_gravitational_pull_1a96f14ebd67132132ad3bf232bc544c8f" prot="private" virt="non-virtual"><scope>GravitationalPull</scope><name>gravityConstant</name></member>
+      <member refid="class_gravitational_pull_1a7563ffd468aa20067e486b2d0a9d79e6" prot="public" virt="non-virtual"><scope>GravitationalPull</scope><name>GravityConstant</name></member>
+      <member refid="class_gravitational_pull_1a22b56673f94a8382559f71875f336b6f" prot="public" virt="non-virtual"><scope>GravitationalPull</scope><name>GravityUpscaleFactor</name></member>
+      <member refid="class_gravitational_pull_1aa28b2ac993e8a3d80b549564d598e3fa" prot="private" virt="non-virtual"><scope>GravitationalPull</scope><name>gravityUpscaleFactor</name></member>
+      <member refid="class_gravitational_pull_1a84d33c7056844d7066b76f62ab140dee" prot="private" virt="non-virtual"><scope>GravitationalPull</scope><name>gravityVector</name></member>
+      <member refid="class_gravitational_pull_1a90a5ba643d24e611c1dbd32e3ac50a35" prot="public" virt="non-virtual"><scope>GravitationalPull</scope><name>GravityVector</name></member>
+      <member refid="class_gravitational_pull_1a3d434d08590b0c36d54ec5ca6f096870" prot="private" virt="non-virtual"><scope>GravitationalPull</scope><name>radiusBetweenBody</name></member>
+      <member refid="class_gravitational_pull_1a06d68ce7b5754f151821f88c6b66732d" prot="public" virt="non-virtual"><scope>GravitationalPull</scope><name>RadiusBetweenBody</name></member>
+      <member refid="class_gravitational_pull_1a92ec4c0398252510c0258ecc5b68d543" prot="private" virt="non-virtual"><scope>GravitationalPull</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

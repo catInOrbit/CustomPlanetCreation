@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1dec3f5c7d77f7a1bde2a8b80ab78467" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry</compoundname>
+    <innerfile refid="pb___bridge_edges_8cs">pb_BridgeEdges.cs</innerfile>
+    <innerfile refid="pb___conform_normals_8cs">pb_ConformNormals.cs</innerfile>
+    <innerfile refid="pb___connect_edges_8cs">pb_ConnectEdges.cs</innerfile>
+    <innerfile refid="pb___detach_delete_face_8cs">pb_DetachDeleteFace.cs</innerfile>
+    <innerfile refid="pb___extrude_element_8cs">pb_ExtrudeElement.cs</innerfile>
+    <innerfile refid="pb___flip_edge_8cs">pb_FlipEdge.cs</innerfile>
+    <innerfile refid="pb___flip_normals_8cs">pb_FlipNormals.cs</innerfile>
+    <innerfile refid="pb___freeze_transform_8cs">pb_FreezeTransform.cs</innerfile>
+    <innerfile refid="pb___merge_faces_8cs">pb_MergeFaces.cs</innerfile>
+    <innerfile refid="pb___set_pivot_8cs">pb_SetPivot.cs</innerfile>
+    <innerfile refid="pb___triangulate_8cs">pb_Triangulate.cs</innerfile>
+    <innerfile refid="pb___vertex_merge_weld_8cs">pb_VertexMergeWeld.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_vectors" kind="class" prot="public">
+    <compoundname>Vectors</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_vectors_1adba65940ba8adb0e158bd5942f152056" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Vectors.velocityVector</definition>
+        <argsstring></argsstring>
+        <name>velocityVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_vectors_1aed26b82854f4ded79da45ed03d4413a1" compoundref="_vectors_8cs" startline="32" endline="35">DrawVelocity</referencedby>
+        <referencedby refid="class_vectors_1a08f2b59acbbf0fe45b0b1abee3b635db" compoundref="_vectors_8cs" startline="10" endline="14">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Vectors.headingVector</definition>
+        <argsstring></argsstring>
+        <name>headingVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_vectors_1a4a3ff7759a1286ff09e0596374cab4c2" compoundref="_vectors_8cs" startline="37" endline="40">DrawHeading</referencedby>
+        <referencedby refid="class_vectors_1a08f2b59acbbf0fe45b0b1abee3b635db" compoundref="_vectors_8cs" startline="10" endline="14">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_vectors_1a08f2b59acbbf0fe45b0b1abee3b635db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vectors.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" bodystart="10" bodyend="14"/>
+        <references refid="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" compoundref="_vectors_8cs" startline="8">headingVector</references>
+        <references refid="class_vectors_1adba65940ba8adb0e158bd5942f152056" compoundref="_vectors_8cs" startline="7">velocityVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_vectors_1a8d8ce11bb50aa69c6a19f46d3090df7a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vectors.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" bodystart="16" bodyend="20"/>
+        <references refid="class_vectors_1a4a3ff7759a1286ff09e0596374cab4c2" compoundref="_vectors_8cs" startline="37" endline="40">DrawHeading</references>
+        <references refid="class_vectors_1aed26b82854f4ded79da45ed03d4413a1" compoundref="_vectors_8cs" startline="32" endline="35">DrawVelocity</references>
+      </memberdef>
+      <memberdef kind="function" id="class_vectors_1a73d6f6d7fb697eb5b1c6a01ffd934cc4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vectors.SetDrawPosition</definition>
+        <argsstring>(LineRenderer gameojComponent, Vector3 position0, Vector3 position1)</argsstring>
+        <name>SetDrawPosition</name>
+        <param>
+          <type>LineRenderer</type>
+          <declname>gameojComponent</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position0</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>position1</declname>
+        </param>
+        <briefdescription>
+<para>Set position for drawing line using LineRenderer </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" bodystart="25" bodyend="29"/>
+        <referencedby refid="class_vectors_1a4a3ff7759a1286ff09e0596374cab4c2" compoundref="_vectors_8cs" startline="37" endline="40">DrawHeading</referencedby>
+        <referencedby refid="class_vectors_1aed26b82854f4ded79da45ed03d4413a1" compoundref="_vectors_8cs" startline="32" endline="35">DrawVelocity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vectors_1aed26b82854f4ded79da45ed03d4413a1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vectors.DrawVelocity</definition>
+        <argsstring>()</argsstring>
+        <name>DrawVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" bodystart="32" bodyend="35"/>
+        <references refid="class_vectors_1a73d6f6d7fb697eb5b1c6a01ffd934cc4" compoundref="_vectors_8cs" startline="25" endline="29">SetDrawPosition</references>
+        <references refid="class_vectors_1adba65940ba8adb0e158bd5942f152056" compoundref="_vectors_8cs" startline="7">velocityVector</references>
+        <referencedby refid="class_vectors_1a8d8ce11bb50aa69c6a19f46d3090df7a" compoundref="_vectors_8cs" startline="16" endline="20">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_vectors_1a4a3ff7759a1286ff09e0596374cab4c2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Vectors.DrawHeading</definition>
+        <argsstring>()</argsstring>
+        <name>DrawHeading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" bodystart="37" bodyend="40"/>
+        <references refid="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" compoundref="_vectors_8cs" startline="8">headingVector</references>
+        <references refid="class_vectors_1a73d6f6d7fb697eb5b1c6a01ffd934cc4" compoundref="_vectors_8cs" startline="25" endline="29">SetDrawPosition</references>
+        <referencedby refid="class_vectors_1a8d8ce11bb50aa69c6a19f46d3090df7a" compoundref="_vectors_8cs" startline="16" endline="20">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="798">
+        <label>Vectors</label>
+        <link refid="class_vectors"/>
+        <childnode refid="799" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="799">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="800">
+        <label>Vectors</label>
+        <link refid="class_vectors"/>
+        <childnode refid="801" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="801">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/Vectors.cs" bodystart="5" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_vectors_1a4a3ff7759a1286ff09e0596374cab4c2" prot="private" virt="non-virtual"><scope>Vectors</scope><name>DrawHeading</name></member>
+      <member refid="class_vectors_1aed26b82854f4ded79da45ed03d4413a1" prot="private" virt="non-virtual"><scope>Vectors</scope><name>DrawVelocity</name></member>
+      <member refid="class_vectors_1a9867ae8ff1de3f68ee0c9fe24bb412ca" prot="private" virt="non-virtual"><scope>Vectors</scope><name>headingVector</name></member>
+      <member refid="class_vectors_1a73d6f6d7fb697eb5b1c6a01ffd934cc4" prot="private" virt="non-virtual"><scope>Vectors</scope><name>SetDrawPosition</name></member>
+      <member refid="class_vectors_1a08f2b59acbbf0fe45b0b1abee3b635db" prot="private" virt="non-virtual"><scope>Vectors</scope><name>Start</name></member>
+      <member refid="class_vectors_1a8d8ce11bb50aa69c6a19f46d3090df7a" prot="private" virt="non-virtual"><scope>Vectors</scope><name>Update</name></member>
+      <member refid="class_vectors_1adba65940ba8adb0e158bd5942f152056" prot="private" virt="non-virtual"><scope>Vectors</scope><name>velocityVector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

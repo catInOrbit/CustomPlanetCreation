@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e28224906aa9d137d75bad052e6a9504" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI</compoundname>
+    <innerfile refid="_meneuver_bubble_8cs">MeneuverBubble.cs</innerfile>
+    <innerfile refid="_on_screen_g_u_i_8cs">OnScreenGUI.cs</innerfile>
+    <innerfile refid="_vectors_8cs">Vectors.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/ManeuverGUI/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_ship_resource_1_1_building_material" kind="class" prot="public">
+    <compoundname>ShipResource::BuildingMaterial</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" line="92" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/ShipResource.cs" bodystart="91" bodyend="93"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7b10ac0619dbe205ab2d4c7d58395dfd" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets</compoundname>
+    <innerdir refid="dir_33d1fa8e83442e70eb2129c4eee7fbf4">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore</innerdir>
+    <innerdir refid="dir_f9d6b7855120bc84fb71011f7b334fca">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts</innerdir>
+    <innerdir refid="dir_86a99ac4b083bdeb867a304a1779a4c1">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/SimpleKeplerOrbits</innerdir>
+    <innerdir refid="dir_511458b6597d2b002eb524e38de0c279">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/UnityQuadTreePlanet</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_raycast_texture" kind="class" prot="public">
+    <compoundname>RaycastTexture</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_raycast_texture_1a6dbfba69f5dcea02b68d414c222810f0" prot="private" static="no" mutable="no">
+        <type>Camera</type>
+        <definition>Camera RaycastTexture.cam</definition>
+        <argsstring></argsstring>
+        <name>cam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/RaycastTexture.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/RaycastTexture.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_raycast_texture_1a29906c43b4f4cd7f1908ab3db054d136" compoundref="_raycast_texture_8cs" startline="9" endline="12">Start</referencedby>
+        <referencedby refid="class_raycast_texture_1a143e1012ae2d5325b7a96b3d1cde0d10" compoundref="_raycast_texture_8cs" startline="14" endline="37">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_raycast_texture_1a29906c43b4f4cd7f1908ab3db054d136" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaycastTexture.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/RaycastTexture.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/RaycastTexture.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_raycast_texture_1a6dbfba69f5dcea02b68d414c222810f0" compoundref="_raycast_texture_8cs" startline="7">cam</references>
+      </memberdef>
+      <memberdef kind="function" id="class_raycast_texture_1a143e1012ae2d5325b7a96b3d1cde0d10" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RaycastTexture.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/RaycastTexture.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/RaycastTexture.cs" bodystart="14" bodyend="37"/>
+        <references refid="class_raycast_texture_1a6dbfba69f5dcea02b68d414c222810f0" compoundref="_raycast_texture_8cs" startline="7">cam</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="552">
+        <label>RaycastTexture</label>
+        <link refid="class_raycast_texture"/>
+        <childnode refid="553" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="553">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="554">
+        <label>RaycastTexture</label>
+        <link refid="class_raycast_texture"/>
+        <childnode refid="555" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="555">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/RaycastTexture.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/RaycastTexture.cs" bodystart="5" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_raycast_texture_1a6dbfba69f5dcea02b68d414c222810f0" prot="private" virt="non-virtual"><scope>RaycastTexture</scope><name>cam</name></member>
+      <member refid="class_raycast_texture_1a29906c43b4f4cd7f1908ab3db054d136" prot="private" virt="non-virtual"><scope>RaycastTexture</scope><name>Start</name></member>
+      <member refid="class_raycast_texture_1a143e1012ae2d5325b7a96b3d1cde0d10" prot="private" virt="non-virtual"><scope>RaycastTexture</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

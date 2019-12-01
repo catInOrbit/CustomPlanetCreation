@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_free_camera" kind="class" prot="public">
+    <compoundname>FreeCamera</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_free_camera_1a19c1fbc90dabb22dba31a13e784c16ed" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FreeCamera.flySpeed</definition>
+        <argsstring></argsstring>
+        <name>flySpeed</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" compoundref="_free_camera_8cs" startline="16" endline="44">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_free_camera_1a897b60c6ecf39b4866ffcdf7aa1a069a" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FreeCamera.flySpeedLimit</definition>
+        <argsstring></argsstring>
+        <name>flySpeedLimit</name>
+        <initializer>= new Vector2(0, 10)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" compoundref="_free_camera_8cs" startline="16" endline="44">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_free_camera_1aa3052712ff0b2327a9c32ff0e48a2bf8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FreeCamera.rotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationSpeed</name>
+        <initializer>= 120.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" compoundref="_free_camera_8cs" startline="16" endline="44">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_free_camera_1a274e54ecb07606b3b5f2c58c69504687" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FreeCamera.sensitivity</definition>
+        <argsstring></argsstring>
+        <name>sensitivity</name>
+        <initializer>= new Vector2(2, 2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" compoundref="_free_camera_8cs" startline="16" endline="44">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_free_camera_1a60b93d34bd40a71eee093483513edff7" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FreeCamera.smoothing</definition>
+        <argsstring></argsstring>
+        <name>smoothing</name>
+        <initializer>= new Vector2(2, 2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" compoundref="_free_camera_8cs" startline="16" endline="44">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_free_camera_1a71f22e1f752134af57f6bd652e8d2d8b" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FreeCamera.mouseDelta</definition>
+        <argsstring></argsstring>
+        <name>mouseDelta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" compoundref="_free_camera_8cs" startline="16" endline="44">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_free_camera_1abb2eb58c97944868602985be2f8b9898" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FreeCamera.mouseAbsolute</definition>
+        <argsstring></argsstring>
+        <name>mouseAbsolute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" compoundref="_free_camera_8cs" startline="16" endline="44">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_free_camera_1afa2916acbe22e3b88bd502f1dce11253" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 FreeCamera.smoothMouse</definition>
+        <argsstring></argsstring>
+        <name>smoothMouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" compoundref="_free_camera_8cs" startline="16" endline="44">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FreeCamera.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="16" bodyend="44"/>
+        <references refid="class_free_camera_1a19c1fbc90dabb22dba31a13e784c16ed" compoundref="_free_camera_8cs" startline="6">flySpeed</references>
+        <references refid="class_free_camera_1a897b60c6ecf39b4866ffcdf7aa1a069a" compoundref="_free_camera_8cs" startline="7">flySpeedLimit</references>
+        <references refid="class_free_camera_1abb2eb58c97944868602985be2f8b9898" compoundref="_free_camera_8cs" startline="13">mouseAbsolute</references>
+        <references refid="class_free_camera_1a71f22e1f752134af57f6bd652e8d2d8b" compoundref="_free_camera_8cs" startline="12">mouseDelta</references>
+        <references refid="class_free_camera_1aa3052712ff0b2327a9c32ff0e48a2bf8" compoundref="_free_camera_8cs" startline="8">rotationSpeed</references>
+        <references refid="class_free_camera_1a274e54ecb07606b3b5f2c58c69504687" compoundref="_free_camera_8cs" startline="9">sensitivity</references>
+        <references refid="class_free_camera_1a60b93d34bd40a71eee093483513edff7" compoundref="_free_camera_8cs" startline="10">smoothing</references>
+        <references refid="class_free_camera_1afa2916acbe22e3b88bd502f1dce11253" compoundref="_free_camera_8cs" startline="14">smoothMouse</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="253">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="252">
+        <label>FreeCamera</label>
+        <link refid="class_free_camera"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="255">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="254">
+        <label>FreeCamera</label>
+        <link refid="class_free_camera"/>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" line="5" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FreeCamera.cs" bodystart="4" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_free_camera_1a19c1fbc90dabb22dba31a13e784c16ed" prot="public" virt="non-virtual"><scope>FreeCamera</scope><name>flySpeed</name></member>
+      <member refid="class_free_camera_1a897b60c6ecf39b4866ffcdf7aa1a069a" prot="public" virt="non-virtual"><scope>FreeCamera</scope><name>flySpeedLimit</name></member>
+      <member refid="class_free_camera_1abb2eb58c97944868602985be2f8b9898" prot="private" virt="non-virtual"><scope>FreeCamera</scope><name>mouseAbsolute</name></member>
+      <member refid="class_free_camera_1a71f22e1f752134af57f6bd652e8d2d8b" prot="private" virt="non-virtual"><scope>FreeCamera</scope><name>mouseDelta</name></member>
+      <member refid="class_free_camera_1aa3052712ff0b2327a9c32ff0e48a2bf8" prot="public" virt="non-virtual"><scope>FreeCamera</scope><name>rotationSpeed</name></member>
+      <member refid="class_free_camera_1a274e54ecb07606b3b5f2c58c69504687" prot="public" virt="non-virtual"><scope>FreeCamera</scope><name>sensitivity</name></member>
+      <member refid="class_free_camera_1a60b93d34bd40a71eee093483513edff7" prot="public" virt="non-virtual"><scope>FreeCamera</scope><name>smoothing</name></member>
+      <member refid="class_free_camera_1afa2916acbe22e3b88bd502f1dce11253" prot="private" virt="non-virtual"><scope>FreeCamera</scope><name>smoothMouse</name></member>
+      <member refid="class_free_camera_1ae69cedbca9706b53e45445d6e12dbbee" prot="private" virt="non-virtual"><scope>FreeCamera</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lib_noise_1_1_operator_1_1_curve" kind="class" prot="public">
+    <compoundname>LibNoise::Operator::Curve</compoundname>
+    <basecompoundref refid="class_lib_noise_1_1_module_base" prot="public" virt="non-virtual">LibNoise.ModuleBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_curve_1a6649411136c83b617c31f608a0558c37" prot="private" static="no" mutable="no">
+        <type>readonly List&lt; KeyValuePair&lt; double, double &gt; &gt;</type>
+        <definition>readonly List&lt;KeyValuePair&lt;double, double&gt; &gt; LibNoise.Operator.Curve._data</definition>
+        <argsstring></argsstring>
+        <name>_data</name>
+        <initializer>= new List&lt;KeyValuePair&lt;double, double&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_curve_1aef2a1ba86aa32e084016a68a69ccbf77" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int LibNoise.Operator.Curve.ControlPointCount</definition>
+        <argsstring></argsstring>
+        <name>ControlPointCount</name>
+        <briefdescription>
+<para>Gets the number of control points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" line="46" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_curve_1a2305c68faee6abf84bbc572ef0da509b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; KeyValuePair&lt; double, double &gt; &gt;</type>
+        <definition>List&lt;KeyValuePair&lt;double, double&gt; &gt; LibNoise.Operator.Curve.ControlPoints</definition>
+        <argsstring></argsstring>
+        <name>ControlPoints</name>
+        <briefdescription>
+<para>Gets the list of control points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" line="54" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_curve_1ae32d42df5a7a3865c2a3aaa15f40a277" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Operator.Curve.Curve</definition>
+        <argsstring>()</argsstring>
+        <name>Curve</name>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_operator_1_1_curve" kindref="compound">Curve</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_curve_1a67e6fbd88ca58ea59c2204db591d49bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Operator.Curve.Curve</definition>
+        <argsstring>(ModuleBase input)</argsstring>
+        <name>Curve</name>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_operator_1_1_curve" kindref="compound">Curve</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input module.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" line="33" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_curve_1a74c4b5d7f66a2573ef558d8eafd0a4a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LibNoise.Operator.Curve.Add</definition>
+        <argsstring>(double input, double output)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>double</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+<para>Adds a control point to the curve. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The curves input value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The curves output value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" line="68" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" bodystart="68" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_curve_1ae495ff6ce885a7951cb04343953884d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LibNoise.Operator.Curve.Clear</definition>
+        <argsstring>()</argsstring>
+        <name>Clear</name>
+        <briefdescription>
+<para>Clears the control points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" line="85" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_curve_1a82dfe40676ac017ae05b5c9e11cdbb74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override double</type>
+        <definition>override double LibNoise.Operator.Curve.GetValue</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>GetValue</name>
+        <reimplements refid="class_lib_noise_1_1_module_base_1abb3f06725165dc1fda63de23b68f408b">GetValue</reimplements>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Returns the output value for the given input coordinates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the x-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the y-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the z-axis.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting output value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" line="101" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" bodystart="101" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a noise module that maps the output value from a source module onto an arbitrary function curve. [OPERATOR] </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="195">
+        <label>IDisposable</label>
+      </node>
+      <node id="194">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>LibNoise.Operator.Curve</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_curve"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="199">
+        <label>LibNoise.ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="199" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+      <node id="198">
+        <label>IDisposable</label>
+      </node>
+      <node id="197">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="199" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+      <node id="196">
+        <label>LibNoise.Operator.Curve</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_curve"/>
+        <childnode refid="197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Curve.cs" bodystart="11" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_lib_noise_1_1_operator_1_1_curve_1a6649411136c83b617c31f608a0558c37" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>_data</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_curve_1a74c4b5d7f66a2573ef558d8eafd0a4a9" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>Add</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_curve_1ae495ff6ce885a7951cb04343953884d6" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>Clear</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_curve_1aef2a1ba86aa32e084016a68a69ccbf77" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>ControlPointCount</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_curve_1a2305c68faee6abf84bbc572ef0da509b" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>ControlPoints</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_curve_1ae32d42df5a7a3865c2a3aaa15f40a277" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>Curve</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_curve_1a67e6fbd88ca58ea59c2204db591d49bb" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>Curve</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a0f281ab3bfc1fe8aef486a80cbe4db01" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>Dispose</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a564dbb55fb2a28d5dc7798849508ab2b" prot="protected" virt="virtual"><scope>LibNoise::Operator::Curve</scope><name>Disposing</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_curve_1a82dfe40676ac017ae05b5c9e11cdbb74" prot="public" virt="virtual"><scope>LibNoise::Operator::Curve</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1aea8b10f91816c21d0910ebf6aa58fde6" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Operator::Curve</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1af442fe2cbe675fbebc9c54ec51f6c2ee" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Operator::Curve</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1adcf3d5aa2957501de0577a6a8317c2d5" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>IsDisposed</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a79db52ea9d135eff82bb3e3213fd668c" prot="protected" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>ModuleBase</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a2037b14c6b82fc7033224b2a31faf8d4" prot="protected" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>Modules</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a3f901b6cb96ad011f20f1ce922ff67fc" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>SourceModuleCount</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a82ba7cc8a454de882e305ebb0e9e2e1c" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Curve</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

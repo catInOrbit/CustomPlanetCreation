@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_joystick_control" kind="class" prot="public">
+    <compoundname>JoystickControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_joystick_control_1a8837ff7f32c42e3209736e03a3eb9852" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject JoystickControl.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="5" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_joystick_control_1a17d56640f43176a53f6927e3f13278ec" compoundref="_joystick_control_8cs" startline="13" endline="17">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_joystick_control_1a50ba3aa5537b4dbe8eaf3e0ce6c77a5e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float JoystickControl.rotationalSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationalSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_joystick_control_1a340b0ecacd77257aca348e0173ff3f82" compoundref="_joystick_control_8cs" startline="19" endline="28">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool JoystickControl.isOutOfBound</definition>
+        <argsstring></argsstring>
+        <name>isOutOfBound</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_joystick_control_1a13af19237352b1caa256b34874aa517d" compoundref="_joystick_control_8cs" startline="46" endline="49">OnTouchExit</referencedby>
+        <referencedby refid="class_joystick_control_1a651d67a87fb048ccb6b62d76cdd646e1" compoundref="_joystick_control_8cs" startline="35" endline="39">OnTouchStay</referencedby>
+        <referencedby refid="class_joystick_control_1aa3930ce866be88380eec99ea1aeb05f4" compoundref="_joystick_control_8cs" startline="41" endline="44">OnTouchUp</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_joystick_control_1a813d678ead9cbb1fc4bbab969ed54ad5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref></type>
+        <definition>InputDetectionUtils JoystickControl.inputDetectionUtils</definition>
+        <argsstring></argsstring>
+        <name>inputDetectionUtils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_joystick_control_1a17d56640f43176a53f6927e3f13278ec" compoundref="_joystick_control_8cs" startline="13" endline="17">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_joystick_control_1ad36324dc43992e07165521ee6a32fcad" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 JoystickControl.rotationVector</definition>
+        <argsstring></argsstring>
+        <name>rotationVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_joystick_control_1a340b0ecacd77257aca348e0173ff3f82" compoundref="_joystick_control_8cs" startline="19" endline="28">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_joystick_control_1a17d56640f43176a53f6927e3f13278ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JoystickControl.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="13" bodyend="17"/>
+        <references refid="class_joystick_control_1a813d678ead9cbb1fc4bbab969ed54ad5" compoundref="_joystick_control_8cs" startline="10">inputDetectionUtils</references>
+        <references refid="class_joystick_control_1a8837ff7f32c42e3209736e03a3eb9852" compoundref="_joystick_control_8cs" startline="5">player</references>
+      </memberdef>
+      <memberdef kind="function" id="class_joystick_control_1a340b0ecacd77257aca348e0173ff3f82" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JoystickControl.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="19" bodyend="28"/>
+        <references refid="class_joystick_control_1a50ba3aa5537b4dbe8eaf3e0ce6c77a5e" compoundref="_joystick_control_8cs" startline="7">rotationalSpeed</references>
+        <references refid="class_joystick_control_1ad36324dc43992e07165521ee6a32fcad" compoundref="_joystick_control_8cs" startline="11">rotationVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_joystick_control_1a651d67a87fb048ccb6b62d76cdd646e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JoystickControl.OnTouchStay</definition>
+        <argsstring>()</argsstring>
+        <name>OnTouchStay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="35" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="35" bodyend="39"/>
+        <references refid="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" compoundref="_joystick_control_8cs" startline="9">isOutOfBound</references>
+      </memberdef>
+      <memberdef kind="function" id="class_joystick_control_1aa3930ce866be88380eec99ea1aeb05f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JoystickControl.OnTouchUp</definition>
+        <argsstring>()</argsstring>
+        <name>OnTouchUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="41" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="41" bodyend="44"/>
+        <references refid="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" compoundref="_joystick_control_8cs" startline="9">isOutOfBound</references>
+      </memberdef>
+      <memberdef kind="function" id="class_joystick_control_1a13af19237352b1caa256b34874aa517d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JoystickControl.OnTouchExit</definition>
+        <argsstring>()</argsstring>
+        <name>OnTouchExit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="46" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="46" bodyend="49"/>
+        <references refid="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" compoundref="_joystick_control_8cs" startline="9">isOutOfBound</references>
+      </memberdef>
+      <memberdef kind="function" id="class_joystick_control_1a3975557fb3289eb2c9192d09818e5dc9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void JoystickControl.ProcessControl</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="51" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_joystick_control_1aad7ca72256e0ab0f94f7b0a301728e7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2</type>
+        <definition>Vector2 JoystickControl.GetBoundingFromObject</definition>
+        <argsstring>(GameObject boundingObject)</argsstring>
+        <name>GetBoundingFromObject</name>
+        <param>
+          <type>GameObject</type>
+          <declname>boundingObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="299">
+        <label>JoystickControl</label>
+        <link refid="class_joystick_control"/>
+        <childnode refid="300" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="300">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="301">
+        <label>JoystickControl</label>
+        <link refid="class_joystick_control"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+        <childnode refid="303" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+      </node>
+      <node id="303">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="302">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" line="4" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs" bodystart="3" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_joystick_control_1aad7ca72256e0ab0f94f7b0a301728e7c" prot="public" virt="non-virtual"><scope>JoystickControl</scope><name>GetBoundingFromObject</name></member>
+      <member refid="class_joystick_control_1a813d678ead9cbb1fc4bbab969ed54ad5" prot="private" virt="non-virtual"><scope>JoystickControl</scope><name>inputDetectionUtils</name></member>
+      <member refid="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" prot="private" virt="non-virtual"><scope>JoystickControl</scope><name>isOutOfBound</name></member>
+      <member refid="class_joystick_control_1a13af19237352b1caa256b34874aa517d" prot="private" virt="non-virtual"><scope>JoystickControl</scope><name>OnTouchExit</name></member>
+      <member refid="class_joystick_control_1a651d67a87fb048ccb6b62d76cdd646e1" prot="private" virt="non-virtual"><scope>JoystickControl</scope><name>OnTouchStay</name></member>
+      <member refid="class_joystick_control_1aa3930ce866be88380eec99ea1aeb05f4" prot="private" virt="non-virtual"><scope>JoystickControl</scope><name>OnTouchUp</name></member>
+      <member refid="class_joystick_control_1a8837ff7f32c42e3209736e03a3eb9852" prot="public" virt="non-virtual"><scope>JoystickControl</scope><name>player</name></member>
+      <member refid="class_joystick_control_1a3975557fb3289eb2c9192d09818e5dc9" prot="private" virt="non-virtual"><scope>JoystickControl</scope><name>ProcessControl</name></member>
+      <member refid="class_joystick_control_1a50ba3aa5537b4dbe8eaf3e0ce6c77a5e" prot="public" virt="non-virtual"><scope>JoystickControl</scope><name>rotationalSpeed</name></member>
+      <member refid="class_joystick_control_1ad36324dc43992e07165521ee6a32fcad" prot="private" virt="non-virtual"><scope>JoystickControl</scope><name>rotationVector</name></member>
+      <member refid="class_joystick_control_1a17d56640f43176a53f6927e3f13278ec" prot="private" virt="non-virtual"><scope>JoystickControl</scope><name>Start</name></member>
+      <member refid="class_joystick_control_1a340b0ecacd77257aca348e0173ff3f82" prot="private" virt="non-virtual"><scope>JoystickControl</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

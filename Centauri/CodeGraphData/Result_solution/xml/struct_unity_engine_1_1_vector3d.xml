@@ -1,0 +1,1366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_unity_engine_1_1_vector3d" kind="struct" prot="public">
+    <compoundname>UnityEngine::Vector3d</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double UnityEngine.Vector3d.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ad5a28b0a65ef2e9114f62e397f28f608" compoundref="_vector3d_8cs" startline="278" endline="280">UnityEngine.Vector3d.Cross</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a43dcd5c1f652ee62930c16e56547e35a" compoundref="_kepler_orbit_utils_8cs" startline="160" endline="163">SimpleKeplerOrbits.KeplerOrbitUtils.CrossProduct</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a26384a77846e070e38446963b2fb2729" compoundref="_vector3d_8cs" startline="340" endline="343">UnityEngine.Vector3d.Distance</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1abfd4ffa4f51c5b6713f7f833ae8b85a2" compoundref="_vector3d_8cs" startline="286" endline="294">UnityEngine.Vector3d.Equals</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1adc2ba969a9b59afcc12862e008e5662a" compoundref="_vector3d_8cs" startline="184" endline="187">UnityEngine.Vector3d.Lerp</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a5538dd876f4367f1111f47b01a8099ef" compoundref="_vector3d_8cs" startline="370" endline="372">UnityEngine.Vector3d.Max</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ae4576ef2e5181d8c81df5e7c4af22dbc" compoundref="_vector3d_8cs" startline="366" endline="368">UnityEngine.Vector3d.Min</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a4d4d59e9c5bdb96e75cb22a9a6b2714c" compoundref="_vector3d_8cs" startline="180" endline="182">UnityEngine.Vector3d.operator Vector2</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1add8275b06ebc0a571b143b8b96b3f1f6" compoundref="_vector3d_8cs" startline="176" endline="178">UnityEngine.Vector3d.operator Vector3</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aaa34740e2dc031ee004732b71a15e8c7" compoundref="_vector3d_8cs" startline="156" endline="158">UnityEngine.Vector3d.operator*</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1af39f26741114eb1a2bc568575e023aff" compoundref="_vector3d_8cs" startline="144" endline="146">UnityEngine.Vector3d.operator+</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aba72953258f8018bcc9add86691626d4" compoundref="_vector3d_8cs" startline="148" endline="150">UnityEngine.Vector3d.operator-</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a96ae9471376cf81626241d4634574ebc" compoundref="_vector3d_8cs" startline="164" endline="166">UnityEngine.Vector3d.operator/</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ab51972afbbdb98bb2903107cd1997ef9" compoundref="_kepler_orbit_utils_8cs" startline="99" endline="119">SimpleKeplerOrbits.KeplerOrbitUtils.RotateVectorByAngle</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ad926a6c3cd992e7a5a32a40eea40aebd" compoundref="_vector3d_8cs" startline="268" endline="270">UnityEngine.Vector3d.Scale</referencedby>
+        <referencedby refid="class_simple_orbit_data_display_1a944bd1b6a5e4f66ee501bfd9ae24443f" compoundref="_simple_orbit_data_display_8cs" startline="45" endline="49">SimpleOrbitDataDisplay.Update</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double UnityEngine.Vector3d.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ad5a28b0a65ef2e9114f62e397f28f608" compoundref="_vector3d_8cs" startline="278" endline="280">UnityEngine.Vector3d.Cross</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a43dcd5c1f652ee62930c16e56547e35a" compoundref="_kepler_orbit_utils_8cs" startline="160" endline="163">SimpleKeplerOrbits.KeplerOrbitUtils.CrossProduct</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a26384a77846e070e38446963b2fb2729" compoundref="_vector3d_8cs" startline="340" endline="343">UnityEngine.Vector3d.Distance</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1acb727809084d322580684c8eb24acab7" compoundref="_vector3d_8cs" startline="282" endline="284">UnityEngine.Vector3d.GetHashCode</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1adc2ba969a9b59afcc12862e008e5662a" compoundref="_vector3d_8cs" startline="184" endline="187">UnityEngine.Vector3d.Lerp</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a4d4d59e9c5bdb96e75cb22a9a6b2714c" compoundref="_vector3d_8cs" startline="180" endline="182">UnityEngine.Vector3d.operator Vector2</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1add8275b06ebc0a571b143b8b96b3f1f6" compoundref="_vector3d_8cs" startline="176" endline="178">UnityEngine.Vector3d.operator Vector3</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aaa34740e2dc031ee004732b71a15e8c7" compoundref="_vector3d_8cs" startline="156" endline="158">UnityEngine.Vector3d.operator*</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1af39f26741114eb1a2bc568575e023aff" compoundref="_vector3d_8cs" startline="144" endline="146">UnityEngine.Vector3d.operator+</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aba72953258f8018bcc9add86691626d4" compoundref="_vector3d_8cs" startline="148" endline="150">UnityEngine.Vector3d.operator-</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a96ae9471376cf81626241d4634574ebc" compoundref="_vector3d_8cs" startline="164" endline="166">UnityEngine.Vector3d.operator/</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ab51972afbbdb98bb2903107cd1997ef9" compoundref="_kepler_orbit_utils_8cs" startline="99" endline="119">SimpleKeplerOrbits.KeplerOrbitUtils.RotateVectorByAngle</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ad926a6c3cd992e7a5a32a40eea40aebd" compoundref="_vector3d_8cs" startline="268" endline="270">UnityEngine.Vector3d.Scale</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aa5e5a456eecc7e3fed79d3b4089842e6" compoundref="_vector3d_8cs" startline="320" endline="322">UnityEngine.Vector3d.ToString</referencedby>
+        <referencedby refid="class_simple_orbit_data_display_1a944bd1b6a5e4f66ee501bfd9ae24443f" compoundref="_simple_orbit_data_display_8cs" startline="45" endline="49">SimpleOrbitDataDisplay.Update</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double UnityEngine.Vector3d.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ad5a28b0a65ef2e9114f62e397f28f608" compoundref="_vector3d_8cs" startline="278" endline="280">UnityEngine.Vector3d.Cross</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a43dcd5c1f652ee62930c16e56547e35a" compoundref="_kepler_orbit_utils_8cs" startline="160" endline="163">SimpleKeplerOrbits.KeplerOrbitUtils.CrossProduct</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a26384a77846e070e38446963b2fb2729" compoundref="_vector3d_8cs" startline="340" endline="343">UnityEngine.Vector3d.Distance</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1adc2ba969a9b59afcc12862e008e5662a" compoundref="_vector3d_8cs" startline="184" endline="187">UnityEngine.Vector3d.Lerp</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a5538dd876f4367f1111f47b01a8099ef" compoundref="_vector3d_8cs" startline="370" endline="372">UnityEngine.Vector3d.Max</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ae4576ef2e5181d8c81df5e7c4af22dbc" compoundref="_vector3d_8cs" startline="366" endline="368">UnityEngine.Vector3d.Min</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1add8275b06ebc0a571b143b8b96b3f1f6" compoundref="_vector3d_8cs" startline="176" endline="178">UnityEngine.Vector3d.operator Vector3</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aaa34740e2dc031ee004732b71a15e8c7" compoundref="_vector3d_8cs" startline="156" endline="158">UnityEngine.Vector3d.operator*</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1af39f26741114eb1a2bc568575e023aff" compoundref="_vector3d_8cs" startline="144" endline="146">UnityEngine.Vector3d.operator+</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aba72953258f8018bcc9add86691626d4" compoundref="_vector3d_8cs" startline="148" endline="150">UnityEngine.Vector3d.operator-</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a96ae9471376cf81626241d4634574ebc" compoundref="_vector3d_8cs" startline="164" endline="166">UnityEngine.Vector3d.operator/</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ab51972afbbdb98bb2903107cd1997ef9" compoundref="_kepler_orbit_utils_8cs" startline="99" endline="119">SimpleKeplerOrbits.KeplerOrbitUtils.RotateVectorByAngle</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ad926a6c3cd992e7a5a32a40eea40aebd" compoundref="_vector3d_8cs" startline="268" endline="270">UnityEngine.Vector3d.Scale</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1a2404ef1456e1698870aced7aca401ea1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double UnityEngine.Vector3d.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1af2eb6813876df8f6a008cc3765b82fb3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.normalized</definition>
+        <argsstring></argsstring>
+        <name>normalized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="47" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a702768ab20d952a18dd33b3562df9cb6" compoundref="_vector3d_8cs" startline="352" endline="356">UnityEngine.Vector3d.Angle</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1aadaa05dc710361cb4c0439d71f8d5fbb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double UnityEngine.Vector3d.magnitude</definition>
+        <argsstring></argsstring>
+        <name>magnitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="53" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_speed_data_1ae239ca147d61e6c27e0e47f3857bd177" compoundref="_speed_data_8cs" startline="34" endline="38">SpeedData.GetAccelerationStringData</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a725d6c801b1eb7d7395ede7b630d994d" compoundref="_vector3d_8cs" startline="217" endline="224">UnityEngine.Vector3d.MoveTowards</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1a3ba4dc6ef6b28ecfe0029dc8ab4133ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double UnityEngine.Vector3d.sqrMagnitude</definition>
+        <argsstring></argsstring>
+        <name>sqrMagnitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="59" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="79" endline="145">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a00aa99b9411480c0a046a946a842dbdb" compoundref="_vector3d_8cs" startline="345" endline="350">UnityEngine.Vector3d.ClampMagnitude</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1af21fc14abc86a1564b9d2975d7df5b5e" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.zero</definition>
+        <argsstring></argsstring>
+        <name>zero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="65" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a007c5bade10091de4c20e489431ce649" compoundref="_vector3d_8cs" startline="300" endline="306">UnityEngine.Vector3d.Normalize</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1afc3abae39968f726fa67005bb0fce7fc" compoundref="_vector3d_8cs" startline="328" endline="334">UnityEngine.Vector3d.Project</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1ae8ff159d07536c34567c3673315d5204" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.one</definition>
+        <argsstring></argsstring>
+        <name>one</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="71" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1a509b358cb68d4c6a40163f88a7e7bc18" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.forward</definition>
+        <argsstring></argsstring>
+        <name>forward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="77" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1a49630b1457f154afafb80599389973d7" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.back</definition>
+        <argsstring></argsstring>
+        <name>back</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="83" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1accc4bb3fa788895b2e3ba9f61ddc60ca" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.up</definition>
+        <argsstring></argsstring>
+        <name>up</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="89" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1a5831720b3de2cea092d71c41c7224f4f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.down</definition>
+        <argsstring></argsstring>
+        <name>down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="95" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1acf353751598258aa42288d66a3e378c7" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="101" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1af9eef3de2cdf5153f8aafdf805c9775a" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="107" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_unity_engine_1_1_vector3d_1a04acb0f65939bdd654ef5c70e024a1ac" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d UnityEngine.Vector3d.fwd</definition>
+        <argsstring></argsstring>
+        <name>fwd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="114" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.Vector3d.Vector3d</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>Vector3d</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="120" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="120" bodyend="124"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ad5a28b0a65ef2e9114f62e397f28f608" compoundref="_vector3d_8cs" startline="278" endline="280">UnityEngine.Vector3d.Cross</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a26384a77846e070e38446963b2fb2729" compoundref="_vector3d_8cs" startline="340" endline="343">UnityEngine.Vector3d.Distance</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1abfd4ffa4f51c5b6713f7f833ae8b85a2" compoundref="_vector3d_8cs" startline="286" endline="294">UnityEngine.Vector3d.Equals</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1adc2ba969a9b59afcc12862e008e5662a" compoundref="_vector3d_8cs" startline="184" endline="187">UnityEngine.Vector3d.Lerp</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a5538dd876f4367f1111f47b01a8099ef" compoundref="_vector3d_8cs" startline="370" endline="372">UnityEngine.Vector3d.Max</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ae4576ef2e5181d8c81df5e7c4af22dbc" compoundref="_vector3d_8cs" startline="366" endline="368">UnityEngine.Vector3d.Min</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aaa34740e2dc031ee004732b71a15e8c7" compoundref="_vector3d_8cs" startline="156" endline="158">UnityEngine.Vector3d.operator*</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1af39f26741114eb1a2bc568575e023aff" compoundref="_vector3d_8cs" startline="144" endline="146">UnityEngine.Vector3d.operator+</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aba72953258f8018bcc9add86691626d4" compoundref="_vector3d_8cs" startline="148" endline="150">UnityEngine.Vector3d.operator-</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a96ae9471376cf81626241d4634574ebc" compoundref="_vector3d_8cs" startline="164" endline="166">UnityEngine.Vector3d.operator/</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1aa627f58e5e64da8c3106df10f40ea8a0" compoundref="_vector3d_8cs" startline="194" endline="202">UnityEngine.Vector3d.OrthoNormalize</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a879c68adefb7c05e678bb7ef3331ddd9" compoundref="_vector3d_8cs" startline="226" endline="229">UnityEngine.Vector3d.RotateTowards</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1ad926a6c3cd992e7a5a32a40eea40aebd" compoundref="_vector3d_8cs" startline="268" endline="270">UnityEngine.Vector3d.Scale</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a2a680d415e8ad6d100aef838d73a71d9" compoundref="_vector3d_8cs" startline="189" endline="192">UnityEngine.Vector3d.Slerp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a620418a1ce20c867b208f1ac0db8327d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.Vector3d.Vector3d</definition>
+        <argsstring>(float x, float y, float z)</argsstring>
+        <name>Vector3d</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="126" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="126" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a8be95a112a4e662b16c019ff5be29a55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.Vector3d.Vector3d</definition>
+        <argsstring>(Vector3 v3)</argsstring>
+        <name>Vector3d</name>
+        <param>
+          <type>Vector3</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="132" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="132" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a02d3241c9b857c4647e0c634dc602c1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UnityEngine.Vector3d.Vector3d</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>Vector3d</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="138" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="138" bodyend="142"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a21b1dc44b2ccc63821c1ac1f7467f0cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.Vector3d.Set</definition>
+        <argsstring>(double new_x, double new_y, double new_z)</argsstring>
+        <name>Set</name>
+        <param>
+          <type>double</type>
+          <declname>new_x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>new_z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="262" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="262" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1ad22192035a213ca8022dfc98c1412041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.Vector3d.Scale</definition>
+        <argsstring>(Vector3d scale)</argsstring>
+        <name>Scale</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="272" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="272" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1acb727809084d322580684c8eb24acab7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int UnityEngine.Vector3d.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="282" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="282" bodyend="284"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1abfd4ffa4f51c5b6713f7f833ae8b85a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool UnityEngine.Vector3d.Equals</definition>
+        <argsstring>(object other)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="286" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="286" bodyend="294"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a84aec1e9e703eb3286028ed518af4c71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UnityEngine.Vector3d.Normalize</definition>
+        <argsstring>()</argsstring>
+        <name>Normalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="308" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="308" bodyend="314"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1af21fc14abc86a1564b9d2975d7df5b5e" compoundref="_vector3d_8cs" startline="65">UnityEngine.Vector3d.zero</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a92880ca24fc30ca5fbfc04a93a99d837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string UnityEngine.Vector3d.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="316" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="316" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1aa5e5a456eecc7e3fed79d3b4089842e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UnityEngine.Vector3d.ToString</definition>
+        <argsstring>(string format)</argsstring>
+        <name>ToString</name>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="320" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="320" bodyend="322"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1af39f26741114eb1a2bc568575e023aff" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.operator+</definition>
+        <argsstring>(Vector3d a, Vector3d b)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="144" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="144" bodyend="146"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1aba72953258f8018bcc9add86691626d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.operator-</definition>
+        <argsstring>(Vector3d a, Vector3d b)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="148" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="148" bodyend="150"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1acad45715104521282736f9b6e46f9065" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.operator-</definition>
+        <argsstring>(Vector3d a)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="152" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="152" bodyend="154"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1aaa34740e2dc031ee004732b71a15e8c7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.operator*</definition>
+        <argsstring>(Vector3d a, double d)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="156" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="156" bodyend="158"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a41bbe6bedd730d92560d0cbcb6c6fd16" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.operator*</definition>
+        <argsstring>(double d, Vector3d a)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="160" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="160" bodyend="162"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a96ae9471376cf81626241d4634574ebc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.operator/</definition>
+        <argsstring>(Vector3d a, double d)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="164" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="164" bodyend="166"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a73f60b5dd72497a724606d134c4c9a1a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UnityEngine.Vector3d.operator==</definition>
+        <argsstring>(Vector3d lhs, Vector3d rhs)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="168" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="168" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a6666f7c28524384b2929a7e41d71978a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool UnityEngine.Vector3d.operator!=</definition>
+        <argsstring>(Vector3d lhs, Vector3d rhs)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="172" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="172" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1add8275b06ebc0a571b143b8b96b3f1f6" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static UnityEngine.Vector3d.operator Vector3</definition>
+        <argsstring>(Vector3d vector3d)</argsstring>
+        <name>operator Vector3</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>vector3d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="176" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="176" bodyend="178"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a4d4d59e9c5bdb96e75cb22a9a6b2714c" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static UnityEngine.Vector3d.operator Vector2</definition>
+        <argsstring>(Vector3d vector3d)</argsstring>
+        <name>operator Vector2</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>vector3d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="180" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="180" bodyend="182"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1adc2ba969a9b59afcc12862e008e5662a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Lerp</definition>
+        <argsstring>(Vector3d from, Vector3d to, double t)</argsstring>
+        <name>Lerp</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="184" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="184" bodyend="187"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a2a680d415e8ad6d100aef838d73a71d9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Slerp</definition>
+        <argsstring>(Vector3d from, Vector3d to, double t)</argsstring>
+        <name>Slerp</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="189" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="189" bodyend="192"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1aa627f58e5e64da8c3106df10f40ea8a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.Vector3d.OrthoNormalize</definition>
+        <argsstring>(ref Vector3d normal, ref Vector3d tangent)</argsstring>
+        <name>OrthoNormalize</name>
+        <param>
+          <type>ref <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>tangent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="194" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="194" bodyend="202"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a65cedffcca4af2faf8a0c43e74b48967" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void UnityEngine.Vector3d.OrthoNormalize</definition>
+        <argsstring>(ref Vector3d normal, ref Vector3d tangent, ref Vector3d binormal)</argsstring>
+        <name>OrthoNormalize</name>
+        <param>
+          <type>ref <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>tangent</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>binormal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="204" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="204" bodyend="215"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a725d6c801b1eb7d7395ede7b630d994d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.MoveTowards</definition>
+        <argsstring>(Vector3d current, Vector3d target, double maxDistanceDelta)</argsstring>
+        <name>MoveTowards</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxDistanceDelta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="217" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="217" bodyend="224"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1aadaa05dc710361cb4c0439d71f8d5fbb" compoundref="_vector3d_8cs" startline="53">UnityEngine.Vector3d.magnitude</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a879c68adefb7c05e678bb7ef3331ddd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.RotateTowards</definition>
+        <argsstring>(Vector3d current, Vector3d target, double maxRadiansDelta, double maxMagnitudeDelta)</argsstring>
+        <name>RotateTowards</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxRadiansDelta</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxMagnitudeDelta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="226" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="226" bodyend="229"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1af0d5c130168731e106ee29cd28b4fcad" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.SmoothDamp</definition>
+        <argsstring>(Vector3d current, Vector3d target, ref Vector3d currentVelocity, double smoothTime, double maxSpeed)</argsstring>
+        <name>SmoothDamp</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>currentVelocity</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>smoothTime</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxSpeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="231" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="231" bodyend="234"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1af0d5c130168731e106ee29cd28b4fcad" compoundref="_vector3d_8cs" startline="231" endline="234">UnityEngine.Vector3d.SmoothDamp</references>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1af0d5c130168731e106ee29cd28b4fcad" compoundref="_vector3d_8cs" startline="231" endline="234">UnityEngine.Vector3d.SmoothDamp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a6113aa76098dd0da6220b80b4a6464c3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.SmoothDamp</definition>
+        <argsstring>(Vector3d current, Vector3d target, ref Vector3d currentVelocity, double smoothTime)</argsstring>
+        <name>SmoothDamp</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>currentVelocity</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>smoothTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="236" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="236" bodyend="240"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1af0d5c130168731e106ee29cd28b4fcad" compoundref="_vector3d_8cs" startline="231" endline="234">UnityEngine.Vector3d.SmoothDamp</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a1ded5a47fb1d44849038b5268528d4e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.SmoothDamp</definition>
+        <argsstring>(Vector3d current, Vector3d target, ref Vector3d currentVelocity, double smoothTime, double maxSpeed, double deltaTime)</argsstring>
+        <name>SmoothDamp</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>currentVelocity</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>smoothTime</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxSpeed</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="242" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="242" bodyend="260"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a1c742f5fd820a524c50f519fec2a20ba" compoundref="_vector3d_8cs" startline="324" endline="326">UnityEngine.Vector3d.Dot</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1ad926a6c3cd992e7a5a32a40eea40aebd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Scale</definition>
+        <argsstring>(Vector3d a, Vector3d b)</argsstring>
+        <name>Scale</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="268" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="268" bodyend="270"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1ad5a28b0a65ef2e9114f62e397f28f608" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Cross</definition>
+        <argsstring>(Vector3d lhs, Vector3d rhs)</argsstring>
+        <name>Cross</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="278" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="278" bodyend="280"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1ab71006fd2f778bade341ba37d3f4e807" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Reflect</definition>
+        <argsstring>(Vector3d inDirection, Vector3d inNormal)</argsstring>
+        <name>Reflect</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>inDirection</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>inNormal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="296" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="296" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a007c5bade10091de4c20e489431ce649" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Normalize</definition>
+        <argsstring>(Vector3d value)</argsstring>
+        <name>Normalize</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="300" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="300" bodyend="306"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1af21fc14abc86a1564b9d2975d7df5b5e" compoundref="_vector3d_8cs" startline="65">UnityEngine.Vector3d.zero</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a1c742f5fd820a524c50f519fec2a20ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double UnityEngine.Vector3d.Dot</definition>
+        <argsstring>(Vector3d lhs, Vector3d rhs)</argsstring>
+        <name>Dot</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="324" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="324" bodyend="326"/>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a702768ab20d952a18dd33b3562df9cb6" compoundref="_vector3d_8cs" startline="352" endline="356">UnityEngine.Vector3d.Angle</referencedby>
+        <referencedby refid="struct_unity_engine_1_1_vector3d_1a1ded5a47fb1d44849038b5268528d4e2" compoundref="_vector3d_8cs" startline="242" endline="260">UnityEngine.Vector3d.SmoothDamp</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1afc3abae39968f726fa67005bb0fce7fc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Project</definition>
+        <argsstring>(Vector3d vector, Vector3d onNormal)</argsstring>
+        <name>Project</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>vector</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>onNormal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="328" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="328" bodyend="334"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1af21fc14abc86a1564b9d2975d7df5b5e" compoundref="_vector3d_8cs" startline="65">UnityEngine.Vector3d.zero</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a263b1eb55f5d6532b12a626bc3d71de2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Exclude</definition>
+        <argsstring>(Vector3d excludeThis, Vector3d fromThat)</argsstring>
+        <name>Exclude</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>excludeThis</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>fromThat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="336" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="336" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a26384a77846e070e38446963b2fb2729" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double UnityEngine.Vector3d.Distance</definition>
+        <argsstring>(Vector3d a, Vector3d b)</argsstring>
+        <name>Distance</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="340" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="340" bodyend="343"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a00aa99b9411480c0a046a946a842dbdb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.ClampMagnitude</definition>
+        <argsstring>(Vector3d vector, double maxLength)</argsstring>
+        <name>ClampMagnitude</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>vector</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="345" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="345" bodyend="350"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3ba4dc6ef6b28ecfe0029dc8ab4133ea" compoundref="_vector3d_8cs" startline="59">UnityEngine.Vector3d.sqrMagnitude</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a702768ab20d952a18dd33b3562df9cb6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double UnityEngine.Vector3d.Angle</definition>
+        <argsstring>(Vector3d from, Vector3d to)</argsstring>
+        <name>Angle</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="352" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="352" bodyend="356"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a1c742f5fd820a524c50f519fec2a20ba" compoundref="_vector3d_8cs" startline="324" endline="326">UnityEngine.Vector3d.Dot</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1af2eb6813876df8f6a008cc3765b82fb3" compoundref="_vector3d_8cs" startline="47">UnityEngine.Vector3d.normalized</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a0512c73fb2df85212fa16f764f8df2e8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double UnityEngine.Vector3d.Magnitude</definition>
+        <argsstring>(Vector3d a)</argsstring>
+        <name>Magnitude</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="358" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="358" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a8cd9b037f522d8563af401f7e3b59e75" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double UnityEngine.Vector3d.SqrMagnitude</definition>
+        <argsstring>(Vector3d a)</argsstring>
+        <name>SqrMagnitude</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="362" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="362" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1ae4576ef2e5181d8c81df5e7c4af22dbc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Min</definition>
+        <argsstring>(Vector3d lhs, Vector3d rhs)</argsstring>
+        <name>Min</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="366" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="366" bodyend="368"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_unity_engine_1_1_vector3d_1a5538dd876f4367f1111f47b01a8099ef" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d UnityEngine.Vector3d.Max</definition>
+        <argsstring>(Vector3d lhs, Vector3d rhs)</argsstring>
+        <name>Max</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="370" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="370" bodyend="372"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" compoundref="_vector3d_8cs" startline="120" endline="124">UnityEngine.Vector3d.Vector3d</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/Vector3d.cs" bodystart="10" bodyend="373"/>
+    <listofallmembers>
+      <member refid="struct_unity_engine_1_1_vector3d_1a702768ab20d952a18dd33b3562df9cb6" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Angle</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a49630b1457f154afafb80599389973d7" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>back</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a00aa99b9411480c0a046a946a842dbdb" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>ClampMagnitude</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1ad5a28b0a65ef2e9114f62e397f28f608" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Cross</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a26384a77846e070e38446963b2fb2729" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Distance</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a1c742f5fd820a524c50f519fec2a20ba" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Dot</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a5831720b3de2cea092d71c41c7224f4f" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>down</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1abfd4ffa4f51c5b6713f7f833ae8b85a2" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Equals</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a263b1eb55f5d6532b12a626bc3d71de2" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Exclude</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a509b358cb68d4c6a40163f88a7e7bc18" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>forward</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a04acb0f65939bdd654ef5c70e024a1ac" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>fwd</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1acb727809084d322580684c8eb24acab7" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>GetHashCode</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1acf353751598258aa42288d66a3e378c7" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>left</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1adc2ba969a9b59afcc12862e008e5662a" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Lerp</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1aadaa05dc710361cb4c0439d71f8d5fbb" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>magnitude</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a0512c73fb2df85212fa16f764f8df2e8" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Magnitude</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a5538dd876f4367f1111f47b01a8099ef" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Max</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1ae4576ef2e5181d8c81df5e7c4af22dbc" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Min</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a725d6c801b1eb7d7395ede7b630d994d" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>MoveTowards</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a007c5bade10091de4c20e489431ce649" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Normalize</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a84aec1e9e703eb3286028ed518af4c71" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Normalize</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1af2eb6813876df8f6a008cc3765b82fb3" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>normalized</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1ae8ff159d07536c34567c3673315d5204" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>one</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a4d4d59e9c5bdb96e75cb22a9a6b2714c" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator Vector2</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1add8275b06ebc0a571b143b8b96b3f1f6" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator Vector3</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a6666f7c28524384b2929a7e41d71978a" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator!=</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1aaa34740e2dc031ee004732b71a15e8c7" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator*</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a41bbe6bedd730d92560d0cbcb6c6fd16" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator*</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1af39f26741114eb1a2bc568575e023aff" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator+</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1aba72953258f8018bcc9add86691626d4" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator-</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1acad45715104521282736f9b6e46f9065" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator-</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a96ae9471376cf81626241d4634574ebc" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator/</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a73f60b5dd72497a724606d134c4c9a1a" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>operator==</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1aa627f58e5e64da8c3106df10f40ea8a0" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>OrthoNormalize</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a65cedffcca4af2faf8a0c43e74b48967" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>OrthoNormalize</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1afc3abae39968f726fa67005bb0fce7fc" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Project</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1ab71006fd2f778bade341ba37d3f4e807" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Reflect</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1af9eef3de2cdf5153f8aafdf805c9775a" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>right</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a879c68adefb7c05e678bb7ef3331ddd9" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>RotateTowards</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1ad926a6c3cd992e7a5a32a40eea40aebd" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Scale</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1ad22192035a213ca8022dfc98c1412041" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Scale</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a21b1dc44b2ccc63821c1ac1f7467f0cd" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Set</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a2a680d415e8ad6d100aef838d73a71d9" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Slerp</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1af0d5c130168731e106ee29cd28b4fcad" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>SmoothDamp</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a6113aa76098dd0da6220b80b4a6464c3" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>SmoothDamp</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a1ded5a47fb1d44849038b5268528d4e2" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>SmoothDamp</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a8cd9b037f522d8563af401f7e3b59e75" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>SqrMagnitude</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a3ba4dc6ef6b28ecfe0029dc8ab4133ea" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>sqrMagnitude</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a2404ef1456e1698870aced7aca401ea1" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>this[int index]</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a92880ca24fc30ca5fbfc04a93a99d837" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>ToString</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1aa5e5a456eecc7e3fed79d3b4089842e6" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>ToString</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1accc4bb3fa788895b2e3ba9f61ddc60ca" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>up</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a3743526f0fe72482014117b62ed45c90" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Vector3d</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a620418a1ce20c867b208f1ac0db8327d" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Vector3d</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a8be95a112a4e662b16c019ff5be29a55" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Vector3d</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a02d3241c9b857c4647e0c634dc602c1a" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>Vector3d</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>x</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>y</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>z</name></member>
+      <member refid="struct_unity_engine_1_1_vector3d_1af21fc14abc86a1564b9d2975d7df5b5e" prot="public" virt="non-virtual"><scope>UnityEngine::Vector3d</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

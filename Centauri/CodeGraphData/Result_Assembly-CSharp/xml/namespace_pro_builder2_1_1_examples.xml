@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_pro_builder2_1_1_examples" kind="namespace">
+    <compoundname>ProBuilder2::Examples</compoundname>
+    <innerclass refid="class_pro_builder2_1_1_examples_1_1_camera_controls" prot="public">ProBuilder2::Examples::CameraControls</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts/CameraControls.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

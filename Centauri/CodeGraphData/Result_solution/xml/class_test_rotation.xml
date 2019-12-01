@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_test_rotation" kind="class" prot="public">
+    <compoundname>TestRotation</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_test_rotation_1acc246ca83c0f1235d3d029fb5f2b75bd" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool TestRotation.LOG</definition>
+        <argsstring></argsstring>
+        <name>LOG</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_test_rotation_1a26c065626ad0ec7abf1b1be013097633" prot="private" static="no" mutable="no">
+        <type>double[][]</type>
+        <definition>double [][] TestRotation.matrix</definition>
+        <argsstring></argsstring>
+        <name>matrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The rotation matrix. This is a 4x4 matrix. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1aabc4dd5cd501947d07e31a4cdba83937" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>x-coordinate of a point on the line of rotation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a43a55bcb8dde4d20df70905e8e1125a6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>y-coordinate of a point on the line of rotation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a0fa155d64a247c20198d723253970fbd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>z-coordinate of a point on the line of rotation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a89ddbca6f4f0c9bce258aad80071261f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>x-coordinate of the line&apos;s direction vector. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a3a4ac58c721d88725048ce80495a94a1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>y-coordinate of the line&apos;s direction vector. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a847af318676817a5cc87d7b0a7a7bcd5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>z-coordinate of the line&apos;s direction vector. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1afa4632fd29f8be30df53dc49fc42dd6d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.u2</definition>
+        <argsstring></argsstring>
+        <name>u2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An intermediate value used in computations (u^2). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a2a940a7ef927a2c96fc83a3541605811" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.v2</definition>
+        <argsstring></argsstring>
+        <name>v2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1ab83a763086efbe0d8f1c32105b322af1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.w2</definition>
+        <argsstring></argsstring>
+        <name>w2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="38" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a0d85cc372289261d5c47c1bc9f12313d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.cosT</definition>
+        <argsstring></argsstring>
+        <name>cosT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="39" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a4a641b6f5453f3a5f64b8de70c5328de" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.sinT</definition>
+        <argsstring></argsstring>
+        <name>sinT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a46da25b48cd0bc19a50293224192dd5a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.l2</definition>
+        <argsstring></argsstring>
+        <name>l2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="41" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a235271b99c88720f3f000b1886791221" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The length of the direction vector. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="43" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a53f960dcfcbb7b7e1236611d15b760a2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m11</definition>
+        <argsstring></argsstring>
+        <name>m11</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The 1,1 entry in the matrix. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="46" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a33df4431f0f1f5c8a66c5e4170b25d57" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m12</definition>
+        <argsstring></argsstring>
+        <name>m12</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="47" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1ad7378b9b12d9c061b59bff39413563d2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m13</definition>
+        <argsstring></argsstring>
+        <name>m13</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="48" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a0f81854639cc64a646232e9a0d5654f5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m14</definition>
+        <argsstring></argsstring>
+        <name>m14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="49" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a914a6f058e8bfdbf51713448a4ccd023" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m21</definition>
+        <argsstring></argsstring>
+        <name>m21</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="50" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1ac6eb0f56a63dede84e7437f76a1ca38e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m22</definition>
+        <argsstring></argsstring>
+        <name>m22</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="51" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a653bb2d79fa837c16e1ea65f19ac27c8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m23</definition>
+        <argsstring></argsstring>
+        <name>m23</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a350ee1363a42caf5cdbcc78ab25f0882" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m24</definition>
+        <argsstring></argsstring>
+        <name>m24</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="53" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1af14455142d0b495d9ab0dd63d9cd9fd7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m31</definition>
+        <argsstring></argsstring>
+        <name>m31</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="54" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1ad6d87d284d72ffab7c21a98708b6ef80" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m32</definition>
+        <argsstring></argsstring>
+        <name>m32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="55" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a7fe6f69b60123bd903003bcfc6cc27bd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m33</definition>
+        <argsstring></argsstring>
+        <name>m33</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="56" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_1a58af3e3a3994e65c71d11ada7ae2984d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double TestRotation.m34</definition>
+        <argsstring></argsstring>
+        <name>m34</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="57" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" compoundref="_test_rotation_8cs" startline="75" endline="122">TestRotation</referencedby>
+        <referencedby refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TestRotation.TestRotation</definition>
+        <argsstring>(double a, double b, double c, double u, double v, double w, double theta)</argsstring>
+        <name>TestRotation</name>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>theta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Build a rotation matrix for rotations about the line through $P_1(a, b, c)$ parallel to $ u, v, w$ by the angle $$.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x-coordinate of a point on the line of rotation. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y-coordinate of a point on the line of rotation. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>z-coordinate of a point on the line of rotation. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>u</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x-coordinate of the line&apos;s direction vector. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y-coordinate of the line&apos;s direction vector. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>z-coordinate of the line&apos;s direction vector. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>theta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The angle of rotation. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="75" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="75" bodyend="122"/>
+        <references refid="class_test_rotation_1aabc4dd5cd501947d07e31a4cdba83937" compoundref="_test_rotation_8cs" startline="17">a</references>
+        <references refid="class_test_rotation_1a43a55bcb8dde4d20df70905e8e1125a6" compoundref="_test_rotation_8cs" startline="20">b</references>
+        <references refid="class_test_rotation_1a0fa155d64a247c20198d723253970fbd" compoundref="_test_rotation_8cs" startline="23">c</references>
+        <references refid="class_test_rotation_1a0d85cc372289261d5c47c1bc9f12313d" compoundref="_test_rotation_8cs" startline="39">cosT</references>
+        <references refid="class_test_rotation_1a235271b99c88720f3f000b1886791221" compoundref="_test_rotation_8cs" startline="43">l</references>
+        <references refid="class_test_rotation_1a46da25b48cd0bc19a50293224192dd5a" compoundref="_test_rotation_8cs" startline="41">l2</references>
+        <references refid="class_test_rotation_1a53f960dcfcbb7b7e1236611d15b760a2" compoundref="_test_rotation_8cs" startline="46">m11</references>
+        <references refid="class_test_rotation_1a33df4431f0f1f5c8a66c5e4170b25d57" compoundref="_test_rotation_8cs" startline="47">m12</references>
+        <references refid="class_test_rotation_1ad7378b9b12d9c061b59bff39413563d2" compoundref="_test_rotation_8cs" startline="48">m13</references>
+        <references refid="class_test_rotation_1a0f81854639cc64a646232e9a0d5654f5" compoundref="_test_rotation_8cs" startline="49">m14</references>
+        <references refid="class_test_rotation_1a914a6f058e8bfdbf51713448a4ccd023" compoundref="_test_rotation_8cs" startline="50">m21</references>
+        <references refid="class_test_rotation_1ac6eb0f56a63dede84e7437f76a1ca38e" compoundref="_test_rotation_8cs" startline="51">m22</references>
+        <references refid="class_test_rotation_1a653bb2d79fa837c16e1ea65f19ac27c8" compoundref="_test_rotation_8cs" startline="52">m23</references>
+        <references refid="class_test_rotation_1a350ee1363a42caf5cdbcc78ab25f0882" compoundref="_test_rotation_8cs" startline="53">m24</references>
+        <references refid="class_test_rotation_1af14455142d0b495d9ab0dd63d9cd9fd7" compoundref="_test_rotation_8cs" startline="54">m31</references>
+        <references refid="class_test_rotation_1ad6d87d284d72ffab7c21a98708b6ef80" compoundref="_test_rotation_8cs" startline="55">m32</references>
+        <references refid="class_test_rotation_1a7fe6f69b60123bd903003bcfc6cc27bd" compoundref="_test_rotation_8cs" startline="56">m33</references>
+        <references refid="class_test_rotation_1a58af3e3a3994e65c71d11ada7ae2984d" compoundref="_test_rotation_8cs" startline="57">m34</references>
+        <references refid="class_test_rotation_1a4a641b6f5453f3a5f64b8de70c5328de" compoundref="_test_rotation_8cs" startline="40">sinT</references>
+        <references refid="class_test_rotation_1a89ddbca6f4f0c9bce258aad80071261f" compoundref="_test_rotation_8cs" startline="26">u</references>
+        <references refid="class_test_rotation_1afa4632fd29f8be30df53dc49fc42dd6d" compoundref="_test_rotation_8cs" startline="36">u2</references>
+        <references refid="class_test_rotation_1a3a4ac58c721d88725048ce80495a94a1" compoundref="_test_rotation_8cs" startline="29">v</references>
+        <references refid="class_test_rotation_1a2a940a7ef927a2c96fc83a3541605811" compoundref="_test_rotation_8cs" startline="37">v2</references>
+        <references refid="class_test_rotation_1a847af318676817a5cc87d7b0a7a7bcd5" compoundref="_test_rotation_8cs" startline="32">w</references>
+        <references refid="class_test_rotation_1ab83a763086efbe0d8f1c32105b322af1" compoundref="_test_rotation_8cs" startline="38">w2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[]</type>
+        <definition>double [] TestRotation.TimesXYZ</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>TimesXYZ</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="124" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="124" bodyend="132"/>
+        <references refid="class_test_rotation_1a53f960dcfcbb7b7e1236611d15b760a2" compoundref="_test_rotation_8cs" startline="46">m11</references>
+        <references refid="class_test_rotation_1a33df4431f0f1f5c8a66c5e4170b25d57" compoundref="_test_rotation_8cs" startline="47">m12</references>
+        <references refid="class_test_rotation_1ad7378b9b12d9c061b59bff39413563d2" compoundref="_test_rotation_8cs" startline="48">m13</references>
+        <references refid="class_test_rotation_1a0f81854639cc64a646232e9a0d5654f5" compoundref="_test_rotation_8cs" startline="49">m14</references>
+        <references refid="class_test_rotation_1a914a6f058e8bfdbf51713448a4ccd023" compoundref="_test_rotation_8cs" startline="50">m21</references>
+        <references refid="class_test_rotation_1ac6eb0f56a63dede84e7437f76a1ca38e" compoundref="_test_rotation_8cs" startline="51">m22</references>
+        <references refid="class_test_rotation_1a653bb2d79fa837c16e1ea65f19ac27c8" compoundref="_test_rotation_8cs" startline="52">m23</references>
+        <references refid="class_test_rotation_1a350ee1363a42caf5cdbcc78ab25f0882" compoundref="_test_rotation_8cs" startline="53">m24</references>
+        <references refid="class_test_rotation_1af14455142d0b495d9ab0dd63d9cd9fd7" compoundref="_test_rotation_8cs" startline="54">m31</references>
+        <references refid="class_test_rotation_1ad6d87d284d72ffab7c21a98708b6ef80" compoundref="_test_rotation_8cs" startline="55">m32</references>
+        <references refid="class_test_rotation_1a7fe6f69b60123bd903003bcfc6cc27bd" compoundref="_test_rotation_8cs" startline="56">m33</references>
+        <references refid="class_test_rotation_1a58af3e3a3994e65c71d11ada7ae2984d" compoundref="_test_rotation_8cs" startline="57">m34</references>
+        <referencedby refid="class_test_rotation_1af3b1ef3d3acd1cf831427f0e82f51fb3" compoundref="_test_rotation_8cs" startline="145" endline="147">timesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_test_rotation_1a7e2b4c22efc93b59b8cfccca89ff2e11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String TestRotation.TimeXYZToString</definition>
+        <argsstring>(double[] inputs)</argsstring>
+        <name>TimeXYZToString</name>
+        <param>
+          <type>double[]</type>
+          <declname>inputs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="134" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="134" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_rotation_1af3b1ef3d3acd1cf831427f0e82f51fb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[]</type>
+        <definition>double [] TestRotation.timesXYZ</definition>
+        <argsstring>(double[] point)</argsstring>
+        <name>timesXYZ</name>
+        <param>
+          <type>double[]</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="145" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="145" bodyend="147"/>
+        <references refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" compoundref="_test_rotation_8cs" startline="124" endline="132">TimesXYZ</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotation.cs" bodystart="6" bodyend="149"/>
+    <listofallmembers>
+      <member refid="class_test_rotation_1aabc4dd5cd501947d07e31a4cdba83937" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>a</name></member>
+      <member refid="class_test_rotation_1a43a55bcb8dde4d20df70905e8e1125a6" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>b</name></member>
+      <member refid="class_test_rotation_1a0fa155d64a247c20198d723253970fbd" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>c</name></member>
+      <member refid="class_test_rotation_1a0d85cc372289261d5c47c1bc9f12313d" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>cosT</name></member>
+      <member refid="class_test_rotation_1a235271b99c88720f3f000b1886791221" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>l</name></member>
+      <member refid="class_test_rotation_1a46da25b48cd0bc19a50293224192dd5a" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>l2</name></member>
+      <member refid="class_test_rotation_1acc246ca83c0f1235d3d029fb5f2b75bd" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>LOG</name></member>
+      <member refid="class_test_rotation_1a53f960dcfcbb7b7e1236611d15b760a2" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m11</name></member>
+      <member refid="class_test_rotation_1a33df4431f0f1f5c8a66c5e4170b25d57" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m12</name></member>
+      <member refid="class_test_rotation_1ad7378b9b12d9c061b59bff39413563d2" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m13</name></member>
+      <member refid="class_test_rotation_1a0f81854639cc64a646232e9a0d5654f5" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m14</name></member>
+      <member refid="class_test_rotation_1a914a6f058e8bfdbf51713448a4ccd023" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m21</name></member>
+      <member refid="class_test_rotation_1ac6eb0f56a63dede84e7437f76a1ca38e" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m22</name></member>
+      <member refid="class_test_rotation_1a653bb2d79fa837c16e1ea65f19ac27c8" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m23</name></member>
+      <member refid="class_test_rotation_1a350ee1363a42caf5cdbcc78ab25f0882" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m24</name></member>
+      <member refid="class_test_rotation_1af14455142d0b495d9ab0dd63d9cd9fd7" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m31</name></member>
+      <member refid="class_test_rotation_1ad6d87d284d72ffab7c21a98708b6ef80" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m32</name></member>
+      <member refid="class_test_rotation_1a7fe6f69b60123bd903003bcfc6cc27bd" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m33</name></member>
+      <member refid="class_test_rotation_1a58af3e3a3994e65c71d11ada7ae2984d" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>m34</name></member>
+      <member refid="class_test_rotation_1a26c065626ad0ec7abf1b1be013097633" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>matrix</name></member>
+      <member refid="class_test_rotation_1a4a641b6f5453f3a5f64b8de70c5328de" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>sinT</name></member>
+      <member refid="class_test_rotation_1af6edf71297a59ebf163459e3e138f262" prot="public" virt="non-virtual"><scope>TestRotation</scope><name>TestRotation</name></member>
+      <member refid="class_test_rotation_1af3b1ef3d3acd1cf831427f0e82f51fb3" prot="public" virt="non-virtual"><scope>TestRotation</scope><name>timesXYZ</name></member>
+      <member refid="class_test_rotation_1a22d08e4e45ec914ae08b8d4c956e064a" prot="public" virt="non-virtual"><scope>TestRotation</scope><name>TimesXYZ</name></member>
+      <member refid="class_test_rotation_1a7e2b4c22efc93b59b8cfccca89ff2e11" prot="public" virt="non-virtual"><scope>TestRotation</scope><name>TimeXYZToString</name></member>
+      <member refid="class_test_rotation_1a89ddbca6f4f0c9bce258aad80071261f" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>u</name></member>
+      <member refid="class_test_rotation_1afa4632fd29f8be30df53dc49fc42dd6d" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>u2</name></member>
+      <member refid="class_test_rotation_1a3a4ac58c721d88725048ce80495a94a1" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>v</name></member>
+      <member refid="class_test_rotation_1a2a940a7ef927a2c96fc83a3541605811" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>v2</name></member>
+      <member refid="class_test_rotation_1a847af318676817a5cc87d7b0a7a7bcd5" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>w</name></member>
+      <member refid="class_test_rotation_1ab83a763086efbe0d8f1c32105b322af1" prot="private" virt="non-virtual"><scope>TestRotation</scope><name>w2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

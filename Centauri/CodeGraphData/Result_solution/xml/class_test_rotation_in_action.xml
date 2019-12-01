@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_test_rotation_in_action" kind="class" prot="public">
+    <compoundname>TestRotationInAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_rotation_in_action_1ae365ee7cf3908cc782b017033a3e3c95" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform TestRotationInAction.rotationalPoint</definition>
+        <argsstring></argsstring>
+        <name>rotationalPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_in_action_1a5761784a0b2e847cae8883e2fa568720" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform TestRotationInAction.centerPoint</definition>
+        <argsstring></argsstring>
+        <name>centerPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_in_action_1a5d8d415f9fae50cbc0f33edc7750b042" compoundref="_test_rotation_in_action_8cs" startline="19" endline="23">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_in_action_1a89e0ff4a5c49259d93d638cfbd09cedb" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 TestRotationInAction.rotationalAxis</definition>
+        <argsstring></argsstring>
+        <name>rotationalAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_in_action_1a5d8d415f9fae50cbc0f33edc7750b042" compoundref="_test_rotation_in_action_8cs" startline="19" endline="23">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_in_action_1a18ef9e2a46ef55b1b5a8fda5cef9a411" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject TestRotationInAction.instantiateObject</definition>
+        <argsstring></argsstring>
+        <name>instantiateObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_in_action_1ad33414b136bd7bec6fee66d3e20fb97d" compoundref="_test_rotation_in_action_8cs" startline="25" endline="35">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_rotation_in_action_1a17c54fa8ff19329fbeb892dd6f80666a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestRotationInAction.angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_in_action_1a5d8d415f9fae50cbc0f33edc7750b042" compoundref="_test_rotation_in_action_8cs" startline="19" endline="23">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_test_rotation_in_action_1a6d10f889962c0e3aeb9b9894763ba0b4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_test_rotation" kindref="compound">TestRotation</ref></type>
+        <definition>TestRotation TestRotationInAction.testRotation</definition>
+        <argsstring></argsstring>
+        <name>testRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_test_rotation_in_action_1a5d8d415f9fae50cbc0f33edc7750b042" compoundref="_test_rotation_in_action_8cs" startline="19" endline="23">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_rotation_in_action_1a5d8d415f9fae50cbc0f33edc7750b042" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestRotationInAction.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" bodystart="19" bodyend="23"/>
+        <references refid="class_test_rotation_in_action_1a17c54fa8ff19329fbeb892dd6f80666a" compoundref="_test_rotation_in_action_8cs" startline="17">angle</references>
+        <references refid="class_test_rotation_in_action_1a5761784a0b2e847cae8883e2fa568720" compoundref="_test_rotation_in_action_8cs" startline="9">centerPoint</references>
+        <references refid="class_test_rotation_in_action_1a89e0ff4a5c49259d93d638cfbd09cedb" compoundref="_test_rotation_in_action_8cs" startline="11">rotationalAxis</references>
+        <references refid="class_test_rotation_in_action_1a6d10f889962c0e3aeb9b9894763ba0b4" compoundref="_test_rotation_in_action_8cs" startline="13">testRotation</references>
+      </memberdef>
+      <memberdef kind="function" id="class_test_rotation_in_action_1ad33414b136bd7bec6fee66d3e20fb97d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestRotationInAction.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" bodystart="25" bodyend="35"/>
+        <references refid="class_test_rotation_in_action_1a18ef9e2a46ef55b1b5a8fda5cef9a411" compoundref="_test_rotation_in_action_8cs" startline="15">instantiateObject</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="739">
+        <label>TestRotationInAction</label>
+        <link refid="class_test_rotation_in_action"/>
+        <childnode refid="740" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="740">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="741">
+        <label>TestRotationInAction</label>
+        <link refid="class_test_rotation_in_action"/>
+        <childnode refid="742" relation="public-inheritance">
+        </childnode>
+        <childnode refid="743" relation="usage">
+          <edgelabel>testRotation</edgelabel>
+        </childnode>
+      </node>
+      <node id="743">
+        <label>TestRotation</label>
+        <link refid="class_test_rotation"/>
+      </node>
+      <node id="742">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestRotationInAction.cs" bodystart="6" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_test_rotation_in_action_1a17c54fa8ff19329fbeb892dd6f80666a" prot="public" virt="non-virtual"><scope>TestRotationInAction</scope><name>angle</name></member>
+      <member refid="class_test_rotation_in_action_1a5761784a0b2e847cae8883e2fa568720" prot="public" virt="non-virtual"><scope>TestRotationInAction</scope><name>centerPoint</name></member>
+      <member refid="class_test_rotation_in_action_1a18ef9e2a46ef55b1b5a8fda5cef9a411" prot="public" virt="non-virtual"><scope>TestRotationInAction</scope><name>instantiateObject</name></member>
+      <member refid="class_test_rotation_in_action_1a89e0ff4a5c49259d93d638cfbd09cedb" prot="public" virt="non-virtual"><scope>TestRotationInAction</scope><name>rotationalAxis</name></member>
+      <member refid="class_test_rotation_in_action_1ae365ee7cf3908cc782b017033a3e3c95" prot="public" virt="non-virtual"><scope>TestRotationInAction</scope><name>rotationalPoint</name></member>
+      <member refid="class_test_rotation_in_action_1a5d8d415f9fae50cbc0f33edc7750b042" prot="private" virt="non-virtual"><scope>TestRotationInAction</scope><name>Start</name></member>
+      <member refid="class_test_rotation_in_action_1a6d10f889962c0e3aeb9b9894763ba0b4" prot="private" virt="non-virtual"><scope>TestRotationInAction</scope><name>testRotation</name></member>
+      <member refid="class_test_rotation_in_action_1ad33414b136bd7bec6fee66d3e20fb97d" prot="private" virt="non-virtual"><scope>TestRotationInAction</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

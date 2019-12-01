@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_24e50e0c8ef4ee553b173818858871b3" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator</compoundname>
+    <innerfile refid="_billow_8cs">Billow.cs</innerfile>
+    <innerfile refid="_checker_8cs">Checker.cs</innerfile>
+    <innerfile refid="_const_8cs">Const.cs</innerfile>
+    <innerfile refid="_cylinders_8cs">Cylinders.cs</innerfile>
+    <innerfile refid="_perlin_8cs">Perlin.cs</innerfile>
+    <innerfile refid="_ridged_multifractal_8cs">RidgedMultifractal.cs</innerfile>
+    <innerfile refid="_spheres_8cs">Spheres.cs</innerfile>
+    <innerfile refid="_voronoi_8cs">Voronoi.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/"/>
+  </compounddef>
+</doxygen>

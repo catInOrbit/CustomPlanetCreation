@@ -1,0 +1,627 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_u_i_touch_manager" kind="class" prot="public">
+    <compoundname>UITouchManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a89a2cd7aa161b84290d672fd711c132d" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UITouchManager.mainUI</definition>
+        <argsstring></argsstring>
+        <name>mainUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a2a4aeb60b87265616eefcc2a928c9cdc" prot="public" static="no" mutable="no">
+        <type>GameObject[]</type>
+        <definition>GameObject [] UITouchManager.uiControls</definition>
+        <argsstring></argsstring>
+        <name>uiControls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_u_i_touch_manager_1a097e24e89add453ccc6eb9c64af0114b" compoundref="_u_i_touch_manager_8cs" startline="190" endline="197">ActivateUIOptions</referencedby>
+        <referencedby refid="class_u_i_touch_manager_1a796ea8b19f8a9db3a78a92ec3e899a14" compoundref="_u_i_touch_manager_8cs" startline="205" endline="212">DeactiavateInactiveUI</referencedby>
+        <referencedby refid="class_u_i_touch_manager_1a58b2d6f74b33c44df167462948602b06" compoundref="_u_i_touch_manager_8cs" startline="199" endline="203">DeactivateAllUI</referencedby>
+        <referencedby refid="class_u_i_touch_manager_1ac9b480ec26f8fe6aca42d72662f0483f" compoundref="_u_i_touch_manager_8cs" startline="178" endline="188">DeactivateOtherUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1af7d6877edefb4115e18a9cf7f0e6027e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UITouchManager.cancelUI</definition>
+        <argsstring></argsstring>
+        <name>cancelUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a1d8d81f1558b1f4eb26ee79ad23b6636" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UITouchManager.displayUIOptions</definition>
+        <argsstring></argsstring>
+        <name>displayUIOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a1f07ecdaa70e265d855dcaa417d04d5e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UITouchManager.cancelBool</definition>
+        <argsstring></argsstring>
+        <name>cancelBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a2b52e56ceb7bff073711345328813ef9" prot="private" static="no" mutable="no">
+        <type>Queue&lt; bool &gt;</type>
+        <definition>Queue&lt;bool&gt; UITouchManager.activationMessageQueue</definition>
+        <argsstring></argsstring>
+        <name>activationMessageQueue</name>
+        <initializer>= new Queue&lt;bool&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" compoundref="_u_i_touch_manager_8cs" startline="75" endline="101">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a6dc4fd6e18bac26e6c26b44cfb111709" prot="private" static="no" mutable="no">
+        <type>List&lt; GameObject &gt;</type>
+        <definition>List&lt;GameObject&gt; UITouchManager.activeUI</definition>
+        <argsstring></argsstring>
+        <name>activeUI</name>
+        <initializer>= new List&lt;GameObject&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_u_i_touch_manager_1a097e24e89add453ccc6eb9c64af0114b" compoundref="_u_i_touch_manager_8cs" startline="190" endline="197">ActivateUIOptions</referencedby>
+        <referencedby refid="class_u_i_touch_manager_1a796ea8b19f8a9db3a78a92ec3e899a14" compoundref="_u_i_touch_manager_8cs" startline="205" endline="212">DeactiavateInactiveUI</referencedby>
+        <referencedby refid="class_u_i_touch_manager_1ac9b480ec26f8fe6aca42d72662f0483f" compoundref="_u_i_touch_manager_8cs" startline="178" endline="188">DeactivateOtherUI</referencedby>
+        <referencedby refid="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" compoundref="_u_i_touch_manager_8cs" startline="75" endline="101">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a423636d4c8925a2e1deb168e5c417fb7" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject UITouchManager.currentUI</definition>
+        <argsstring></argsstring>
+        <name>currentUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a42a6154489e6ca82794de3ef5c971972" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_movement" kindref="compound">CameraMovement</ref></type>
+        <definition>CameraMovement UITouchManager.cameraMovement</definition>
+        <argsstring></argsstring>
+        <name>cameraMovement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_u_i_touch_manager_1a4f452d6021a124f5907e24685ef57bb7" compoundref="_u_i_touch_manager_8cs" startline="70" endline="73">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1ab0e4d93ed8429e984ebb1ea428915194" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UITouchManager.firstTouchPos</definition>
+        <argsstring></argsstring>
+        <name>firstTouchPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a4b2579154638bad8e31a4c98605d5d6e" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UITouchManager.secondTouchPos</definition>
+        <argsstring></argsstring>
+        <name>secondTouchPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a4d3c5c05494a0529529d705608786bfe" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UITouchManager.isTouchZone</definition>
+        <argsstring></argsstring>
+        <name>isTouchZone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a2b9fd6fec7f5570c4131fad90dc0b094" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UITouchManager.mouseStartPos</definition>
+        <argsstring></argsstring>
+        <name>mouseStartPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1a51e35d5d1f4025cdc2797cf0a677f4f7" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UITouchManager.mouseEndpos</definition>
+        <argsstring></argsstring>
+        <name>mouseEndpos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_i_touch_manager_1ae8e0f84bc229066756ea1987eeede349" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 UITouchManager.mouseMoveDirection</definition>
+        <argsstring></argsstring>
+        <name>mouseMoveDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="31" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_u_i_touch_manager_1a895a5ec7f46096b56c6b5e42394aac3c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UITouchManager.CancelBool</definition>
+        <argsstring></argsstring>
+        <name>CancelBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" compoundref="_u_i_touch_manager_8cs" startline="75" endline="101">Update</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_touch_manager_1af3dfa2e03372279cdb6453faf7f30f64" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool UITouchManager.DisplayUIOptions</definition>
+        <argsstring></argsstring>
+        <name>DisplayUIOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="45" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_u_i_touch_manager_1a2bef43dcc4136a98e254a6eab915085f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Queue&lt; bool &gt;</type>
+        <definition>Queue&lt;bool&gt; UITouchManager.ActivationMessageQueue</definition>
+        <argsstring></argsstring>
+        <name>ActivationMessageQueue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="58" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="59" bodyend="-1"/>
+        <referencedby refid="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" compoundref="_u_i_touch_manager_8cs" startline="75" endline="101">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_u_i_touch_manager_1a4f452d6021a124f5907e24685ef57bb7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UITouchManager.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="70" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="70" bodyend="73"/>
+        <references refid="class_u_i_touch_manager_1a42a6154489e6ca82794de3ef5c971972" compoundref="_u_i_touch_manager_8cs" startline="23">cameraMovement</references>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UITouchManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="75" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="75" bodyend="101"/>
+        <references refid="class_u_i_touch_manager_1a097e24e89add453ccc6eb9c64af0114b" compoundref="_u_i_touch_manager_8cs" startline="190" endline="197">ActivateUIOptions</references>
+        <references refid="class_u_i_touch_manager_1a2b52e56ceb7bff073711345328813ef9" compoundref="_u_i_touch_manager_8cs" startline="18">activationMessageQueue</references>
+        <references refid="class_u_i_touch_manager_1a2bef43dcc4136a98e254a6eab915085f" compoundref="_u_i_touch_manager_8cs" startline="59">ActivationMessageQueue</references>
+        <references refid="class_u_i_touch_manager_1a6dc4fd6e18bac26e6c26b44cfb111709" compoundref="_u_i_touch_manager_8cs" startline="21">activeUI</references>
+        <references refid="class_u_i_touch_manager_1a895a5ec7f46096b56c6b5e42394aac3c" compoundref="_u_i_touch_manager_8cs" startline="33">CancelBool</references>
+        <references refid="class_u_i_touch_manager_1a796ea8b19f8a9db3a78a92ec3e899a14" compoundref="_u_i_touch_manager_8cs" startline="205" endline="212">DeactiavateInactiveUI</references>
+        <references refid="class_u_i_touch_manager_1a58b2d6f74b33c44df167462948602b06" compoundref="_u_i_touch_manager_8cs" startline="199" endline="203">DeactivateAllUI</references>
+        <references refid="class_u_i_touch_manager_1a9e2a1ba77b3aeec19f1d51e6c37d96ec" compoundref="_u_i_touch_manager_8cs" startline="159" endline="162">MoveUIWithPlayer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_touch_manager_1a9e2a1ba77b3aeec19f1d51e6c37d96ec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UITouchManager.MoveUIWithPlayer</definition>
+        <argsstring>()</argsstring>
+        <name>MoveUIWithPlayer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="159" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="159" bodyend="162"/>
+        <referencedby refid="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" compoundref="_u_i_touch_manager_8cs" startline="75" endline="101">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_touch_manager_1a1f3cfdf49baf799f3bfeb4e42100b68d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UITouchManager.RestartTouchUI</definition>
+        <argsstring>()</argsstring>
+        <name>RestartTouchUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="173" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="173" bodyend="176"/>
+        <referencedby refid="class_u_i_touch_manager_1ac9b480ec26f8fe6aca42d72662f0483f" compoundref="_u_i_touch_manager_8cs" startline="178" endline="188">DeactivateOtherUI</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_touch_manager_1a097e24e89add453ccc6eb9c64af0114b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UITouchManager.ActivateUIOptions</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateUIOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="190" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="190" bodyend="197"/>
+        <references refid="class_u_i_touch_manager_1a6dc4fd6e18bac26e6c26b44cfb111709" compoundref="_u_i_touch_manager_8cs" startline="21">activeUI</references>
+        <references refid="class_u_i_touch_manager_1a2a4aeb60b87265616eefcc2a928c9cdc" compoundref="_u_i_touch_manager_8cs" startline="11">uiControls</references>
+        <referencedby refid="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" compoundref="_u_i_touch_manager_8cs" startline="75" endline="101">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_touch_manager_1a58b2d6f74b33c44df167462948602b06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UITouchManager.DeactivateAllUI</definition>
+        <argsstring>()</argsstring>
+        <name>DeactivateAllUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="199" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="199" bodyend="203"/>
+        <references refid="class_u_i_touch_manager_1a2a4aeb60b87265616eefcc2a928c9cdc" compoundref="_u_i_touch_manager_8cs" startline="11">uiControls</references>
+        <referencedby refid="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" compoundref="_u_i_touch_manager_8cs" startline="75" endline="101">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_touch_manager_1a796ea8b19f8a9db3a78a92ec3e899a14" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UITouchManager.DeactiavateInactiveUI</definition>
+        <argsstring>()</argsstring>
+        <name>DeactiavateInactiveUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="205" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="205" bodyend="212"/>
+        <references refid="class_u_i_touch_manager_1a6dc4fd6e18bac26e6c26b44cfb111709" compoundref="_u_i_touch_manager_8cs" startline="21">activeUI</references>
+        <references refid="class_u_i_touch_manager_1a2a4aeb60b87265616eefcc2a928c9cdc" compoundref="_u_i_touch_manager_8cs" startline="11">uiControls</references>
+        <referencedby refid="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" compoundref="_u_i_touch_manager_8cs" startline="75" endline="101">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_i_touch_manager_1ac9b480ec26f8fe6aca42d72662f0483f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UITouchManager.DeactivateOtherUI</definition>
+        <argsstring>(GameObject thisUI)</argsstring>
+        <name>DeactivateOtherUI</name>
+        <param>
+          <type>GameObject</type>
+          <declname>thisUI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="178" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="178" bodyend="188"/>
+        <references refid="class_u_i_touch_manager_1a6dc4fd6e18bac26e6c26b44cfb111709" compoundref="_u_i_touch_manager_8cs" startline="21">activeUI</references>
+        <references refid="class_u_i_touch_manager_1a1f3cfdf49baf799f3bfeb4e42100b68d" compoundref="_u_i_touch_manager_8cs" startline="173" endline="176">RestartTouchUI</references>
+        <references refid="class_u_i_touch_manager_1a2a4aeb60b87265616eefcc2a928c9cdc" compoundref="_u_i_touch_manager_8cs" startline="11">uiControls</references>
+      </memberdef>
+      <memberdef kind="function" id="class_u_i_touch_manager_1a43ccb2d432cd8975f5bc6b8323ffb539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UITouchManager.RemoveFromActiveUIList</definition>
+        <argsstring>(GameObject thisUI)</argsstring>
+        <name>RemoveFromActiveUIList</name>
+        <param>
+          <type>GameObject</type>
+          <declname>thisUI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="214" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="214" bodyend="217"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="773">
+        <label>UITouchManager</label>
+        <link refid="class_u_i_touch_manager"/>
+        <childnode refid="774" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="774">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="785">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="781">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+        <childnode refid="782" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="779" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="783" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="784" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="785" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="786" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="787" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="788" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="788">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="775">
+        <label>UITouchManager</label>
+        <link refid="class_u_i_touch_manager"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+        <childnode refid="777" relation="usage">
+          <edgelabel>cameraMovement</edgelabel>
+        </childnode>
+      </node>
+      <node id="777">
+        <label>CameraMovement</label>
+        <link refid="class_camera_movement"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+        <childnode refid="778" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="779" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+      </node>
+      <node id="793">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="790">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="787">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="779">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+        <childnode refid="780" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="791" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="792" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="778">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="776">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="791">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="792">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="793" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="786">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="783">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="782">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+        <childnode refid="779" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="781" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="780" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="780">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+        <childnode refid="781" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="789" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="790" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="784">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="789">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="776" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/UITouchManager.cs" bodystart="7" bodyend="218"/>
+    <listofallmembers>
+      <member refid="class_u_i_touch_manager_1a097e24e89add453ccc6eb9c64af0114b" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>ActivateUIOptions</name></member>
+      <member refid="class_u_i_touch_manager_1a2bef43dcc4136a98e254a6eab915085f" prot="public" virt="non-virtual"><scope>UITouchManager</scope><name>ActivationMessageQueue</name></member>
+      <member refid="class_u_i_touch_manager_1a2b52e56ceb7bff073711345328813ef9" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>activationMessageQueue</name></member>
+      <member refid="class_u_i_touch_manager_1a6dc4fd6e18bac26e6c26b44cfb111709" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>activeUI</name></member>
+      <member refid="class_u_i_touch_manager_1a42a6154489e6ca82794de3ef5c971972" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>cameraMovement</name></member>
+      <member refid="class_u_i_touch_manager_1a895a5ec7f46096b56c6b5e42394aac3c" prot="public" virt="non-virtual"><scope>UITouchManager</scope><name>CancelBool</name></member>
+      <member refid="class_u_i_touch_manager_1a1f07ecdaa70e265d855dcaa417d04d5e" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>cancelBool</name></member>
+      <member refid="class_u_i_touch_manager_1af7d6877edefb4115e18a9cf7f0e6027e" prot="public" virt="non-virtual"><scope>UITouchManager</scope><name>cancelUI</name></member>
+      <member refid="class_u_i_touch_manager_1a423636d4c8925a2e1deb168e5c417fb7" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>currentUI</name></member>
+      <member refid="class_u_i_touch_manager_1a796ea8b19f8a9db3a78a92ec3e899a14" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>DeactiavateInactiveUI</name></member>
+      <member refid="class_u_i_touch_manager_1a58b2d6f74b33c44df167462948602b06" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>DeactivateAllUI</name></member>
+      <member refid="class_u_i_touch_manager_1ac9b480ec26f8fe6aca42d72662f0483f" prot="public" virt="non-virtual"><scope>UITouchManager</scope><name>DeactivateOtherUI</name></member>
+      <member refid="class_u_i_touch_manager_1af3dfa2e03372279cdb6453faf7f30f64" prot="public" virt="non-virtual"><scope>UITouchManager</scope><name>DisplayUIOptions</name></member>
+      <member refid="class_u_i_touch_manager_1a1d8d81f1558b1f4eb26ee79ad23b6636" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>displayUIOptions</name></member>
+      <member refid="class_u_i_touch_manager_1ab0e4d93ed8429e984ebb1ea428915194" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>firstTouchPos</name></member>
+      <member refid="class_u_i_touch_manager_1a4d3c5c05494a0529529d705608786bfe" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>isTouchZone</name></member>
+      <member refid="class_u_i_touch_manager_1a89a2cd7aa161b84290d672fd711c132d" prot="public" virt="non-virtual"><scope>UITouchManager</scope><name>mainUI</name></member>
+      <member refid="class_u_i_touch_manager_1a51e35d5d1f4025cdc2797cf0a677f4f7" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>mouseEndpos</name></member>
+      <member refid="class_u_i_touch_manager_1ae8e0f84bc229066756ea1987eeede349" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>mouseMoveDirection</name></member>
+      <member refid="class_u_i_touch_manager_1a2b9fd6fec7f5570c4131fad90dc0b094" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>mouseStartPos</name></member>
+      <member refid="class_u_i_touch_manager_1a9e2a1ba77b3aeec19f1d51e6c37d96ec" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>MoveUIWithPlayer</name></member>
+      <member refid="class_u_i_touch_manager_1a43ccb2d432cd8975f5bc6b8323ffb539" prot="public" virt="non-virtual"><scope>UITouchManager</scope><name>RemoveFromActiveUIList</name></member>
+      <member refid="class_u_i_touch_manager_1a1f3cfdf49baf799f3bfeb4e42100b68d" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>RestartTouchUI</name></member>
+      <member refid="class_u_i_touch_manager_1a4b2579154638bad8e31a4c98605d5d6e" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>secondTouchPos</name></member>
+      <member refid="class_u_i_touch_manager_1a4f452d6021a124f5907e24685ef57bb7" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>Start</name></member>
+      <member refid="class_u_i_touch_manager_1a2a4aeb60b87265616eefcc2a928c9cdc" prot="public" virt="non-virtual"><scope>UITouchManager</scope><name>uiControls</name></member>
+      <member refid="class_u_i_touch_manager_1aaafab67d02b4d03427929263557dc64f" prot="private" virt="non-virtual"><scope>UITouchManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

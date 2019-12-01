@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_joystick_control_8cs" kind="file">
+    <compoundname>JoystickControl.cs</compoundname>
+    <innerclass refid="class_joystick_control" prot="public">JoystickControl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="class_joystick_control" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_joystick_control" kindref="compound">JoystickControl</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_joystick_control_1a8837ff7f32c42e3209736e03a3eb9852" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_joystick_control_1a8837ff7f32c42e3209736e03a3eb9852" kindref="member">player</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>[Header(</highlight><highlight class="stringliteral">&quot;Speed<sp/>of<sp/>rotation&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="7" refid="class_joystick_control_1a50ba3aa5537b4dbe8eaf3e0ce6c77a5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_joystick_control_1a50ba3aa5537b4dbe8eaf3e0ce6c77a5e" kindref="member">rotationalSpeed</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" kindref="member">isOutOfBound</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10" refid="class_joystick_control_1a813d678ead9cbb1fc4bbab969ed54ad5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref><sp/><ref refid="class_joystick_control_1a813d678ead9cbb1fc4bbab969ed54ad5" kindref="member">inputDetectionUtils</ref>;</highlight></codeline>
+<codeline lineno="11" refid="class_joystick_control_1ad36324dc43992e07165521ee6a32fcad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_joystick_control_1ad36324dc43992e07165521ee6a32fcad" kindref="member">rotationVector</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_joystick_control_1a17d56640f43176a53f6927e3f13278ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_joystick_control_1a17d56640f43176a53f6927e3f13278ec" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_joystick_control_1a813d678ead9cbb1fc4bbab969ed54ad5" kindref="member">inputDetectionUtils</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_joystick_control_1a8837ff7f32c42e3209736e03a3eb9852" kindref="member">player</ref><sp/>=<sp/>GameObject.FindGameObjectWithTag(</highlight><highlight class="stringliteral">&quot;Player&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_joystick_control_1a340b0ecacd77257aca348e0173ff3f82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_joystick_control_1a340b0ecacd77257aca348e0173ff3f82" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//inputDetectionUtils.ProcessTouchState();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_joystick_control_1ad36324dc43992e07165521ee6a32fcad" kindref="member">rotationVector</ref><sp/>=<sp/>inputDetectionUtils.MoveDirection.normalized;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(<ref refid="class_joystick_control_1ad36324dc43992e07165521ee6a32fcad" kindref="member">rotationVector</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Quaternion<sp/>lookRotation<sp/>=<sp/>Quaternion.LookRotation(<ref refid="class_joystick_control_1ad36324dc43992e07165521ee6a32fcad" kindref="member">rotationVector</ref><sp/>-<sp/>player.transform.parent.transform.position);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Transform<sp/>velocityVector<sp/>=<sp/>player.transform.Find(</highlight><highlight class="stringliteral">&quot;Player_VelocityVector&quot;</highlight><highlight class="normal">).transform;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>velocityVector.rotation<sp/>=<sp/>Quaternion.RotateTowards(velocityVector.rotation,<sp/>lookRotation,<sp/><ref refid="class_joystick_control_1a50ba3aa5537b4dbe8eaf3e0ce6c77a5e" kindref="member">rotationalSpeed</ref><sp/>*<sp/>Time.deltaTime);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_joystick_control_1aad7ca72256e0ab0f94f7b0a301728e7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector2<sp/><ref refid="class_joystick_control_1aad7ca72256e0ab0f94f7b0a301728e7c" kindref="member">GetBoundingFromObject</ref>(GameObject<sp/>boundingObject)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>boundingObject.GetComponent&lt;BoxCollider&gt;().size;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_joystick_control_1a651d67a87fb048ccb6b62d76cdd646e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_joystick_control_1a651d67a87fb048ccb6b62d76cdd646e1" kindref="member">OnTouchStay</ref>()</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//TODO<sp/>Process<sp/>event<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" kindref="member">isOutOfBound</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_joystick_control_1aa3930ce866be88380eec99ea1aeb05f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_joystick_control_1aa3930ce866be88380eec99ea1aeb05f4" kindref="member">OnTouchUp</ref>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" kindref="member">isOutOfBound</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_joystick_control_1a13af19237352b1caa256b34874aa517d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_joystick_control_1a13af19237352b1caa256b34874aa517d" kindref="member">OnTouchExit</ref>()</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_joystick_control_1af83bacd023fa1d6742954a75a67b3cc2" kindref="member">isOutOfBound</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="class_joystick_control_1a3975557fb3289eb2c9192d09818e5dc9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_joystick_control_1a3975557fb3289eb2c9192d09818e5dc9" kindref="member">ProcessControl</ref>()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>inputDetectionUtils.ProcessTouchState();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/JoystickControl.cs"/>
+  </compounddef>
+</doxygen>

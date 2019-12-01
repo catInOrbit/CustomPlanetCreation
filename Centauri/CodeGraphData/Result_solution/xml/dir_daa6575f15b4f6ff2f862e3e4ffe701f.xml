@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_daa6575f15b4f6ff2f862e3e4ffe701f" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise</compoundname>
+    <innerdir refid="dir_24e50e0c8ef4ee553b173818858871b3">C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator</innerdir>
+    <innerdir refid="dir_965232ee3f16053e4836d94377182466">C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator</innerdir>
+    <innerdir refid="dir_82a69634d28f691348d4fef4a5a21dd6">C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Properties</innerdir>
+    <innerfile refid="_gradient_presets_8cs">GradientPresets.cs</innerfile>
+    <innerfile refid="_module_base_8cs">ModuleBase.cs</innerfile>
+    <innerfile refid="_noise2_d_8cs">Noise2D.cs</innerfile>
+    <innerfile refid="_utils_8cs">Utils.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/"/>
+  </compounddef>
+</doxygen>

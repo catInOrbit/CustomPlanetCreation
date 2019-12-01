@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="md__c_1__uniprj__centauri_v2__centauri__assets__unity_quad_tree_planet__lib_noise__r_e_a_d_m_e" kind="page">
+    <compoundname>md_C:_Uniprj_CentauriV2_Centauri_Assets_UnityQuadTreePlanet_LibNoise_README</compoundname>
+    <title>LibNoise.Unity</title>
+    <detaileddescription>
+<para>The main repository for LibNoise.Unity is currently maintained by <ulink url="https://github.com/ricardojmendez">Ricardo J. Méndez</ulink>. Pull requests are welcome.</para><para><heading level="2">License</heading>
+</para><para>LibNoise.Unity is released under the <ulink url="https://www.gnu.org/licenses/lgpl.html">LGPL license</ulink>. See COPYING.txt and COPYING.LESSER.txt for details.</para><para><heading level="2">About</heading>
+</para><para><ulink url="http://libnoise.sourceforge.net/">LibNoise</ulink> was originally created by Jason Bevins. The library was later ported to Xna by <ulink url="http://www.big-black-block.com/#home">Marc André Ueberall</ulink>, and moved to Unity by Tim Speltz. Speltz’s original development forum thread contains a Unity package with an example scene, which can be found <ulink url="http://forum.unity3d.com/threads/68764-LibNoise-Ported-to-Unity">here</ulink>. Please note that LibNoise.Unity is only a repository for the library code itself and contains no example files.</para><para><ulink url="https://github.com/ricardojmendez/LibNoiseTutorials">You can also see the converted tutorials examples on this repository</ulink>.</para><para>Other contributors to LibNoise.Unity include <ulink url="https://github.com/teddybradford">Teddy Bradford</ulink> who reworked much of the Noise2D class to improve tiling support for noise maps. </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

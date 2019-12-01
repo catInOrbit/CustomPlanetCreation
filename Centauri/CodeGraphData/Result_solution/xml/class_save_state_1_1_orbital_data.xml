@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_save_state_1_1_orbital_data" kind="class" prot="public">
+    <compoundname>SaveState::OrbitalData</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_save_state_1_1_orbital_data_1ab6e659b4c811ce72f53f4110a13b4d44" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_data" kindref="compound">KeplerOrbitData</ref></type>
+        <definition>KeplerOrbitData SaveState.OrbitalData.SavedOrbitData</definition>
+        <argsstring></argsstring>
+        <name>SavedOrbitData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_save_state_1_1_orbital_data_1a64dc468192f3253d62eefa55057beb22" compoundref="_save_manager_8cs" startline="48" endline="72">SaveState.OrbitalData.SaveOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_save_state_1_1_orbital_data_1a84bcba4cb6437df9acec3989da4c2ffa" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SaveState.OrbitalData.AttractorName</definition>
+        <argsstring></argsstring>
+        <name>AttractorName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_save_state_1_1_orbital_data_1a64dc468192f3253d62eefa55057beb22" compoundref="_save_manager_8cs" startline="48" endline="72">SaveState.OrbitalData.SaveOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_save_state_1_1_orbital_data_1adb852e1ef3d7fa28c1824f74ca3a9c25" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string SaveState.OrbitalData.VelocityHandle</definition>
+        <argsstring></argsstring>
+        <name>VelocityHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_save_state_1_1_orbital_data_1a64dc468192f3253d62eefa55057beb22" compoundref="_save_manager_8cs" startline="48" endline="72">SaveState.OrbitalData.SaveOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_save_state_1_1_orbital_data_1adc6fe0fa56a5c74ccae8f4472d662b10" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SaveState.OrbitalData.IsNotPlanet</definition>
+        <argsstring></argsstring>
+        <name>IsNotPlanet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_save_state_1_1_orbital_data_1ab9de693d38db3aa617708650d3227f2c" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float SaveState.OrbitalData.TimeScale</definition>
+        <argsstring></argsstring>
+        <name>TimeScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_save_state_1_1_orbital_data_1a64dc468192f3253d62eefa55057beb22" compoundref="_save_manager_8cs" startline="48" endline="72">SaveState.OrbitalData.SaveOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_save_state_1_1_orbital_data_1a09c18733c0ae224af061c2ccf2f7c08f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool SaveState.OrbitalData.IsNotPlanetBool</definition>
+        <argsstring></argsstring>
+        <name>IsNotPlanetBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_save_state_1_1_orbital_data_1a64dc468192f3253d62eefa55057beb22" compoundref="_save_manager_8cs" startline="48" endline="72">SaveState.OrbitalData.SaveOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_save_state_1_1_orbital_data_1a3a7074f6357df19e4a29124fefd82fe0" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt;string, object&gt; SaveState.OrbitalData.SavedDataDictionary</definition>
+        <argsstring></argsstring>
+        <name>SavedDataDictionary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a54b0b385c1132970f36170e75102215d" compoundref="_kepler_orbit_mover_8cs" startline="255" endline="288">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateOrbitData</referencedby>
+        <referencedby refid="class_save_state_1_1_orbital_data_1a313cd92d1b00a679eaf89c3f167fd60d" compoundref="_save_manager_8cs" startline="74" endline="100">SaveState.OrbitalData.LoadOrbitData</referencedby>
+        <referencedby refid="class_save_state_1_1_orbital_data_1a85e11fdee64d89c1d56b708607a15d6c" compoundref="_save_manager_8cs" startline="102" endline="113">SaveState.OrbitalData.PushToList</referencedby>
+        <referencedby refid="class_save_state_1_1_orbital_data_1a64dc468192f3253d62eefa55057beb22" compoundref="_save_manager_8cs" startline="48" endline="72">SaveState.OrbitalData.SaveOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_save_state_1_1_orbital_data_1aa94a956552c1e2fa5cb4bbbf555cc399" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; string, Dictionary&lt; string, object &gt; &gt;</type>
+        <definition>Dictionary&lt;string, Dictionary&lt;string, object&gt; &gt; SaveState.OrbitalData.SavedGameObject</definition>
+        <argsstring></argsstring>
+        <name>SavedGameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_save_state_1_1_orbital_data_1a842835f9bcd4a1c6ec43cbfcf584d910" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt;string, object&gt; SaveState.OrbitalData.savedDataDictionary</definition>
+        <argsstring></argsstring>
+        <name>savedDataDictionary</name>
+        <initializer>= new Dictionary&lt;string, object&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="44" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_save_state_1_1_orbital_data_1afe5764031d14de8ab6912707a5713120" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, Dictionary&lt; string, object &gt; &gt;</type>
+        <definition>Dictionary&lt;string, Dictionary&lt;string, object&gt; &gt; SaveState.OrbitalData.savedGameObject</definition>
+        <argsstring></argsstring>
+        <name>savedGameObject</name>
+        <initializer>= new Dictionary&lt;string, Dictionary&lt;string, object&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="46" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_save_state_1_1_orbital_data_1a64dc468192f3253d62eefa55057beb22" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SaveState.OrbitalData.SaveOrbitData</definition>
+        <argsstring>(KeplerOrbitData orbitDataClass, string attractorName, string velocityHandleName, float timeScale, bool isNotPlanet, string thisGameobjName)</argsstring>
+        <name>SaveOrbitData</name>
+        <param>
+          <type><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_data" kindref="compound">KeplerOrbitData</ref></type>
+          <declname>orbitDataClass</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>attractorName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>velocityHandleName</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>timeScale</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isNotPlanet</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>thisGameobjName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="48" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="48" bodyend="72"/>
+        <references refid="class_save_state_1_1_orbital_data_1a84bcba4cb6437df9acec3989da4c2ffa" compoundref="_save_manager_8cs" startline="12">SaveState.OrbitalData.AttractorName</references>
+        <references refid="class_save_state_1_1_orbital_data_1a09c18733c0ae224af061c2ccf2f7c08f" compoundref="_save_manager_8cs" startline="16">SaveState.OrbitalData.IsNotPlanetBool</references>
+        <references refid="class_save_state_1_1_orbital_data_1a3a7074f6357df19e4a29124fefd82fe0" compoundref="_save_manager_8cs" startline="19">SaveState.OrbitalData.SavedDataDictionary</references>
+        <references refid="class_save_state_1_1_orbital_data_1ab6e659b4c811ce72f53f4110a13b4d44" compoundref="_save_manager_8cs" startline="11">SaveState.OrbitalData.SavedOrbitData</references>
+        <references refid="class_save_state_1_1_orbital_data_1ab9de693d38db3aa617708650d3227f2c" compoundref="_save_manager_8cs" startline="15">SaveState.OrbitalData.TimeScale</references>
+        <references refid="class_save_state_1_1_orbital_data_1adb852e1ef3d7fa28c1824f74ca3a9c25" compoundref="_save_manager_8cs" startline="13">SaveState.OrbitalData.VelocityHandle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_save_state_1_1_orbital_data_1a313cd92d1b00a679eaf89c3f167fd60d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SaveState.OrbitalData.LoadOrbitData</definition>
+        <argsstring>(out KeplerOrbitData orbitDataClass, out string attractorDataName, out string velocityHandle, out float timeScale, out bool isNotPlanet, string thisGameobjName)</argsstring>
+        <name>LoadOrbitData</name>
+        <param>
+          <type>out <ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_data" kindref="compound">KeplerOrbitData</ref></type>
+          <declname>orbitDataClass</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>attractorDataName</declname>
+        </param>
+        <param>
+          <type>out string</type>
+          <declname>velocityHandle</declname>
+        </param>
+        <param>
+          <type>out float</type>
+          <declname>timeScale</declname>
+        </param>
+        <param>
+          <type>out bool</type>
+          <declname>isNotPlanet</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>thisGameobjName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="74" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="74" bodyend="100"/>
+        <references refid="class_save_state_1_1_orbital_data_1a3a7074f6357df19e4a29124fefd82fe0" compoundref="_save_manager_8cs" startline="19">SaveState.OrbitalData.SavedDataDictionary</references>
+      </memberdef>
+      <memberdef kind="function" id="class_save_state_1_1_orbital_data_1a85e11fdee64d89c1d56b708607a15d6c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void SaveState.OrbitalData.PushToList</definition>
+        <argsstring>(string thisGameobjName)</argsstring>
+        <name>PushToList</name>
+        <param>
+          <type>string</type>
+          <declname>thisGameobjName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="102" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="102" bodyend="113"/>
+        <references refid="class_save_state_1_1_orbital_data_1a3a7074f6357df19e4a29124fefd82fe0" compoundref="_save_manager_8cs" startline="19">SaveState.OrbitalData.SavedDataDictionary</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/SaveManager.cs" bodystart="9" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_save_state_1_1_orbital_data_1a84bcba4cb6437df9acec3989da4c2ffa" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>AttractorName</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1adc6fe0fa56a5c74ccae8f4472d662b10" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>IsNotPlanet</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1a09c18733c0ae224af061c2ccf2f7c08f" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>IsNotPlanetBool</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1a313cd92d1b00a679eaf89c3f167fd60d" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>LoadOrbitData</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1a85e11fdee64d89c1d56b708607a15d6c" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>PushToList</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1a842835f9bcd4a1c6ec43cbfcf584d910" prot="private" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>savedDataDictionary</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1a3a7074f6357df19e4a29124fefd82fe0" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>SavedDataDictionary</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1aa94a956552c1e2fa5cb4bbbf555cc399" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>SavedGameObject</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1afe5764031d14de8ab6912707a5713120" prot="private" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>savedGameObject</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1ab6e659b4c811ce72f53f4110a13b4d44" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>SavedOrbitData</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1a64dc468192f3253d62eefa55057beb22" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>SaveOrbitData</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1ab9de693d38db3aa617708650d3227f2c" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>TimeScale</name></member>
+      <member refid="class_save_state_1_1_orbital_data_1adb852e1ef3d7fa28c1824f74ca3a9c25" prot="public" virt="non-virtual"><scope>SaveState::OrbitalData</scope><name>VelocityHandle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

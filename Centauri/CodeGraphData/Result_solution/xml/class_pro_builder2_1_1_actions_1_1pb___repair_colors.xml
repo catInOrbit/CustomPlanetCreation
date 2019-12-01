@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___repair_colors" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_RepairColors</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___repair_colors_1a90f41d9abfd772fc267bd4ae22d1c053" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_RepairColors.MenuRepairColors</definition>
+        <argsstring>()</argsstring>
+        <name>MenuRepairColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairColors.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairColors.cs" bodystart="16" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu interface for replacing vertex colors on broken objces. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="536">
+        <label>Editor</label>
+      </node>
+      <node id="535">
+        <label>ProBuilder2.Actions.pb_RepairColors</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___repair_colors"/>
+        <childnode refid="536" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="538">
+        <label>Editor</label>
+      </node>
+      <node id="537">
+        <label>ProBuilder2.Actions.pb_RepairColors</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___repair_colors"/>
+        <childnode refid="538" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairColors.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairColors.cs" bodystart="13" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___repair_colors_1a90f41d9abfd772fc267bd4ae22d1c053" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_RepairColors</scope><name>MenuRepairColors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

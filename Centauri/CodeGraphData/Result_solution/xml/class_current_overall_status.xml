@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_current_overall_status" kind="class" prot="public">
+    <compoundname>CurrentOverallStatus</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_current_overall_status_1a69dc40c591ab4485fd4aaa7cb062a728" prot="public" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image CurrentOverallStatus.statusBar</definition>
+        <argsstring></argsstring>
+        <name>statusBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_current_overall_status_1adefc6495a0422cd94c32f9f26447d81e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ship_data" kindref="compound">ShipData</ref></type>
+        <definition>ShipData CurrentOverallStatus.shipData</definition>
+        <argsstring></argsstring>
+        <name>shipData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_current_overall_status_1a7fbaf8919415a3b297c46e072f694d8e" compoundref="_current_overall_status_8cs" startline="39" endline="62">DebugDisplayStatus</referencedby>
+        <referencedby refid="class_current_overall_status_1a13ed56f125d86dde75328716b97b6ee7" compoundref="_current_overall_status_8cs" startline="27" endline="32">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_current_overall_status_1a77357c2840065de46edabc44fccc9085" prot="private" static="no" mutable="no">
+        <type><ref refid="class_on_ground_detection" kindref="compound">OnGroundDetection</ref></type>
+        <definition>OnGroundDetection CurrentOverallStatus.onGroundDetection</definition>
+        <argsstring></argsstring>
+        <name>onGroundDetection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_current_overall_status_1a7fbaf8919415a3b297c46e072f694d8e" compoundref="_current_overall_status_8cs" startline="39" endline="62">DebugDisplayStatus</referencedby>
+        <referencedby refid="class_current_overall_status_1a13ed56f125d86dde75328716b97b6ee7" compoundref="_current_overall_status_8cs" startline="27" endline="32">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_current_overall_status_1a9196f3c640a8cc401731dde3bee56556" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, Color &gt;</type>
+        <definition>Dictionary&lt;string, Color&gt; CurrentOverallStatus.statusColor</definition>
+        <argsstring></argsstring>
+        <name>statusColor</name>
+        <initializer>= new Dictionary&lt;string, Color&gt;()
+    {
+        { &quot;Nominal&quot;, new Color32(0, 255, 144, 255) },
+        { &quot;Danger&quot;, new Color32(255, 4, 0, 255) },
+        {&quot;Landed&quot;, new Color32(0, 192, 255, 255) }
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_current_overall_status_1a7fbaf8919415a3b297c46e072f694d8e" compoundref="_current_overall_status_8cs" startline="39" endline="62">DebugDisplayStatus</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_current_overall_status_1af0a4394dabbcfbb94357ee57ccea208e" prot="private" static="no" mutable="no">
+        <type>Text</type>
+        <definition>Text CurrentOverallStatus.statusText</definition>
+        <argsstring></argsstring>
+        <name>statusText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_current_overall_status_1a13ed56f125d86dde75328716b97b6ee7" compoundref="_current_overall_status_8cs" startline="27" endline="32">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_current_overall_status_1a13ed56f125d86dde75328716b97b6ee7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CurrentOverallStatus.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" bodystart="27" bodyend="32"/>
+        <references refid="class_current_overall_status_1a77357c2840065de46edabc44fccc9085" compoundref="_current_overall_status_8cs" startline="16">onGroundDetection</references>
+        <references refid="class_current_overall_status_1adefc6495a0422cd94c32f9f26447d81e" compoundref="_current_overall_status_8cs" startline="15">shipData</references>
+        <references refid="class_current_overall_status_1af0a4394dabbcfbb94357ee57ccea208e" compoundref="_current_overall_status_8cs" startline="24">statusText</references>
+      </memberdef>
+      <memberdef kind="function" id="class_current_overall_status_1a52e57d8da76bf024226e91236e7a7e4c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CurrentOverallStatus.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" line="34" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" bodystart="34" bodyend="37"/>
+        <references refid="class_current_overall_status_1a7fbaf8919415a3b297c46e072f694d8e" compoundref="_current_overall_status_8cs" startline="39" endline="62">DebugDisplayStatus</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_current_overall_status_1a7fbaf8919415a3b297c46e072f694d8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CurrentOverallStatus.DebugDisplayStatus</definition>
+        <argsstring>()</argsstring>
+        <name>DebugDisplayStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" line="39" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" bodystart="39" bodyend="62"/>
+        <references refid="class_ship_data_1ae65cc34d869cf1a5d1bf0ffdf4cfd2e7" compoundref="_ship_data_8cs" startline="69">ShipData.AtmosphericDrag</references>
+        <references refid="class_atmospheric_drag_1aadeb6c2555f3c130744c649a43a334ce" compoundref="_atmospheric_drag_8cs" startline="67">AtmosphericDrag.EnableDrag</references>
+        <references refid="class_on_ground_detection_1ad2d9f85b24a95519e521609228bce940" compoundref="_on_ground_detection_8cs" startline="12">OnGroundDetection.isLanded</references>
+        <references refid="class_current_overall_status_1a77357c2840065de46edabc44fccc9085" compoundref="_current_overall_status_8cs" startline="16">onGroundDetection</references>
+        <references refid="class_current_overall_status_1adefc6495a0422cd94c32f9f26447d81e" compoundref="_current_overall_status_8cs" startline="15">shipData</references>
+        <references refid="class_current_overall_status_1a9196f3c640a8cc401731dde3bee56556" compoundref="_current_overall_status_8cs" startline="18">statusColor</references>
+        <referencedby refid="class_current_overall_status_1a52e57d8da76bf024226e91236e7a7e4c" compoundref="_current_overall_status_8cs" startline="34" endline="37">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="174">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="173">
+        <label>CurrentOverallStatus</label>
+        <link refid="class_current_overall_status"/>
+        <childnode refid="174" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="188">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="177">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+        <childnode refid="178" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="179" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="186" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="187" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="188" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="189" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="190" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="191" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="191">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="182">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="179">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+        <childnode refid="180" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="183" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="184" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="192">
+        <label>Text</label>
+      </node>
+      <node id="176">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="183">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="185" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="189">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="186">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="175">
+        <label>CurrentOverallStatus</label>
+        <link refid="class_current_overall_status"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+        <childnode refid="177" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="192" relation="usage">
+          <edgelabel>statusText</edgelabel>
+        </childnode>
+        <childnode refid="182" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="178">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+        <childnode refid="179" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="177" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="180" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="180">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+        <childnode refid="177" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="181" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="182" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="187">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="181">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CurrentOverallStatus.cs" bodystart="9" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_current_overall_status_1a7fbaf8919415a3b297c46e072f694d8e" prot="public" virt="non-virtual"><scope>CurrentOverallStatus</scope><name>DebugDisplayStatus</name></member>
+      <member refid="class_current_overall_status_1a77357c2840065de46edabc44fccc9085" prot="private" virt="non-virtual"><scope>CurrentOverallStatus</scope><name>onGroundDetection</name></member>
+      <member refid="class_current_overall_status_1adefc6495a0422cd94c32f9f26447d81e" prot="private" virt="non-virtual"><scope>CurrentOverallStatus</scope><name>shipData</name></member>
+      <member refid="class_current_overall_status_1a13ed56f125d86dde75328716b97b6ee7" prot="private" virt="non-virtual"><scope>CurrentOverallStatus</scope><name>Start</name></member>
+      <member refid="class_current_overall_status_1a69dc40c591ab4485fd4aaa7cb062a728" prot="public" virt="non-virtual"><scope>CurrentOverallStatus</scope><name>statusBar</name></member>
+      <member refid="class_current_overall_status_1a9196f3c640a8cc401731dde3bee56556" prot="private" virt="non-virtual"><scope>CurrentOverallStatus</scope><name>statusColor</name></member>
+      <member refid="class_current_overall_status_1af0a4394dabbcfbb94357ee57ccea208e" prot="private" virt="non-virtual"><scope>CurrentOverallStatus</scope><name>statusText</name></member>
+      <member refid="class_current_overall_status_1a52e57d8da76bf024226e91236e7a7e4c" prot="private" virt="non-virtual"><scope>CurrentOverallStatus</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

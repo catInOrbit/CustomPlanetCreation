@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_cube_face" kind="class" prot="public">
+    <compoundname>CubeFace</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_cube_face_1ac58a844b1b8e250ad19e61ed9f4e7012" prot="public" static="no" mutable="no">
+        <type><ref refid="class_cube_face" kindref="compound">CubeFace</ref></type>
+        <definition>CubeFace CubeFace.parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_cube_planet_1a7e2d0d6d7b2bb6dc3a5dde10a83bd686" compoundref="_cube_planet_8cs" startline="49" endline="71">CubePlanet.CubePlanet</referencedby>
+        <referencedby refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" compoundref="_cube_face_8cs" startline="82" endline="137">Generate</referencedby>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_face_1a7f31da2dee17e071f28422cba921e159" prot="public" static="no" mutable="no">
+        <type><ref refid="class_cube_face" kindref="compound">CubeFace</ref>[]</type>
+        <definition>CubeFace [] CubeFace.tree</definition>
+        <argsstring></argsstring>
+        <name>tree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_cube_planet_1ad0ed43a6ec9c28633b5338dfbf14356c" compoundref="_cube_planet_8cs" startline="197" endline="204">CubePlanet.GetActiveQuadTreeFaces</referencedby>
+        <referencedby refid="class_cube_face_1ae44a744c9020a1c1a9d2a70dd70cc3be" compoundref="_cube_face_8cs" startline="177" endline="189">Merge</referencedby>
+        <referencedby refid="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" compoundref="_cube_face_8cs" startline="201" endline="219">SubDivide</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_face_1ae01bb001ffe7ecba7ce0abb8fe3e6a56" prot="public" static="no" mutable="no">
+        <type>bool[]</type>
+        <definition>bool [] CubeFace.neighbours</definition>
+        <argsstring></argsstring>
+        <name>neighbours</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_cube_planet_1a172f3148f9bb756c1981d8ea19e6b004" compoundref="_cube_planet_8cs" startline="134" endline="162">CubePlanet.ProcessNeighbours</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_face_1abc01e7afb32cd33d6ae259bc33b4f208" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CubeFace.generated</definition>
+        <argsstring></argsstring>
+        <name>generated</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1a4c3b92ce3d4e031e3d3ce3b89ebffb8a" compoundref="_cube_face_8cs" startline="191" endline="195">Dispose</referencedby>
+        <referencedby refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" compoundref="_cube_face_8cs" startline="82" endline="137">Generate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_face_1a9a7876df3e26ad438db6a0fd088d5fc3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CubeFace.finalized</definition>
+        <argsstring></argsstring>
+        <name>finalized</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_cube_planet_1aa6ab6251a17e1125622758e57e28bd90" compoundref="_cube_planet_8cs" startline="169" endline="190">CubePlanet.FinalizeFace</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_face_1a8a61fe8f190130330fca39121a683346" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CubeFace.textured</definition>
+        <argsstring></argsstring>
+        <name>textured</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1aa54fcd7247db2a78cd449a229277a7a8" compoundref="_cube_face_8cs" startline="143" endline="172">Texturize</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_cube_face_1a8703c29a3142779b91e4c64de1eb1e6e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Material</type>
+        <definition>Material CubeFace.material</definition>
+        <argsstring></argsstring>
+        <name>material</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+        <referencedby refid="class_cube_face_1aa54fcd7247db2a78cd449a229277a7a8" compoundref="_cube_face_8cs" startline="143" endline="172">Texturize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_cube_face_1a25acf349a4a67f4c88fda1f208d5c746" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Mesh</type>
+        <definition>Mesh CubeFace.mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" compoundref="_cube_face_8cs" startline="82" endline="137">Generate</referencedby>
+        <referencedby refid="class_cube_planet_1a172f3148f9bb756c1981d8ea19e6b004" compoundref="_cube_planet_8cs" startline="134" endline="162">CubePlanet.ProcessNeighbours</referencedby>
+        <referencedby refid="class_cube_face_1aa54fcd7247db2a78cd449a229277a7a8" compoundref="_cube_face_8cs" startline="143" endline="172">Texturize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_cube_face_1a83b982a77d0f6d4cfed7c9744e6668fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MeshFilter</type>
+        <definition>MeshFilter CubeFace.filter</definition>
+        <argsstring></argsstring>
+        <name>filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_cube_face_1a7810d97ffefc7d2d0e1e1479909bbb0a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MeshRenderer</type>
+        <definition>MeshRenderer CubeFace.renderer</definition>
+        <argsstring></argsstring>
+        <name>renderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_cube_face_1a3aba441f771cd51ff31b3cd5c3708fb2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MeshCollider</type>
+        <definition>MeshCollider CubeFace.collider</definition>
+        <argsstring></argsstring>
+        <name>collider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_cube_face_1a6d8b2babbd2ee5e92b3adadadb051cb4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>GameObject</type>
+        <definition>GameObject CubeFace.gameObject</definition>
+        <argsstring></argsstring>
+        <name>gameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_cube_face_1a36a6a3e666e8ce05ee803c16718011b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int CubeFace.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" compoundref="_cube_face_8cs" startline="82" endline="137">Generate</referencedby>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+        <referencedby refid="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" compoundref="_cube_face_8cs" startline="201" endline="219">SubDivide</referencedby>
+        <referencedby refid="class_cube_face_1aa54fcd7247db2a78cd449a229277a7a8" compoundref="_cube_face_8cs" startline="143" endline="172">Texturize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_cube_face_1a4ec9ec2813ee75f4890dc040bd76d873" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float CubeFace.scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" compoundref="_cube_face_8cs" startline="82" endline="137">Generate</referencedby>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+        <referencedby refid="class_cube_planet_1a172f3148f9bb756c1981d8ea19e6b004" compoundref="_cube_planet_8cs" startline="134" endline="162">CubePlanet.ProcessNeighbours</referencedby>
+        <referencedby refid="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" compoundref="_cube_face_8cs" startline="201" endline="219">SubDivide</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cube_face_1ae6aa08b77e977f1eb4417a0e04ad5d62" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CubeFace.position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" compoundref="_cube_face_8cs" startline="82" endline="137">Generate</referencedby>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+        <referencedby refid="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" compoundref="_cube_face_8cs" startline="201" endline="219">SubDivide</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_face_1a8e2a4ba09c92c4b689d3a2cf8e97e7ac" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CubeFace.left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" compoundref="_cube_face_8cs" startline="82" endline="137">Generate</referencedby>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+        <referencedby refid="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" compoundref="_cube_face_8cs" startline="201" endline="219">SubDivide</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_cube_face_1a13b0cc0f9ec14a3551f07b30d1dce646" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CubeFace.forward</definition>
+        <argsstring></argsstring>
+        <name>forward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" compoundref="_cube_face_8cs" startline="82" endline="137">Generate</referencedby>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+        <referencedby refid="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" compoundref="_cube_face_8cs" startline="201" endline="219">SubDivide</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cube_face_1a3fc60fb1c0ee9dd51e74a8cca1a2a42c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CubeFace.CubeFace</definition>
+        <argsstring>(CubeFace parent, Vector3 pos, Vector3 left, Vector3 forward, float scale, int size)</argsstring>
+        <name>CubeFace</name>
+        <param>
+          <type><ref refid="class_cube_face" kindref="compound">CubeFace</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Initialize a sub-Cubeface with a parent referece. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="30" bodyend="33"/>
+        <references refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</references>
+        <referencedby refid="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" compoundref="_cube_face_8cs" startline="201" endline="219">SubDivide</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_cube_face_1a883399ec882d2fd7813261879f4ebe05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CubeFace.CubeFace</definition>
+        <argsstring>(Vector3 pos, Vector3 left, Vector3 forward, float scale, int size)</argsstring>
+        <name>CubeFace</name>
+        <param>
+          <type>Vector3</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="36" bodyend="39"/>
+        <references refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</references>
+      </memberdef>
+      <memberdef kind="function" id="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeFace.Generate</definition>
+        <argsstring>()</argsstring>
+        <name>Generate</name>
+        <briefdescription>
+<para>Used to first generate the plane&apos;s verts, uvs and tris If already generated, turns on this <ref refid="class_cube_face" kindref="compound">CubeFace</ref>&apos;s renderer and collider (makes it active on the planet) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="82" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="82" bodyend="137"/>
+        <references refid="class_cube_face_1a13b0cc0f9ec14a3551f07b30d1dce646" compoundref="_cube_face_8cs" startline="22">forward</references>
+        <references refid="class_cube_face_1abc01e7afb32cd33d6ae259bc33b4f208" compoundref="_cube_face_8cs" startline="25">generated</references>
+        <references refid="class_cube_face_1a8e2a4ba09c92c4b689d3a2cf8e97e7ac" compoundref="_cube_face_8cs" startline="22">left</references>
+        <references refid="class_cube_face_1a25acf349a4a67f4c88fda1f208d5c746" compoundref="_cube_face_8cs" startline="15">mesh</references>
+        <references refid="class_cube_face_1ac58a844b1b8e250ad19e61ed9f4e7012" compoundref="_cube_face_8cs" startline="10">parent</references>
+        <references refid="class_cube_face_1ae6aa08b77e977f1eb4417a0e04ad5d62" compoundref="_cube_face_8cs" startline="22">position</references>
+        <references refid="class_cube_face_1a4ec9ec2813ee75f4890dc040bd76d873" compoundref="_cube_face_8cs" startline="24">scale</references>
+        <references refid="class_cube_face_1a36a6a3e666e8ce05ee803c16718011b3" compoundref="_cube_face_8cs" startline="23">size</references>
+        <referencedby refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" compoundref="_cube_face_8cs" startline="48" endline="76">Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_cube_face_1aa54fcd7247db2a78cd449a229277a7a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeFace.Texturize</definition>
+        <argsstring>()</argsstring>
+        <name>Texturize</name>
+        <briefdescription>
+<para>Must be called after mesh.RecalculateNormals (needs normal values) Generates normal map and applies grayscale texture to <ref refid="class_cube_face" kindref="compound">CubeFace</ref>&apos;s material </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="143" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="143" bodyend="172"/>
+        <references refid="class_cube_face_1a8703c29a3142779b91e4c64de1eb1e6e" compoundref="_cube_face_8cs" startline="14">material</references>
+        <references refid="class_cube_face_1a25acf349a4a67f4c88fda1f208d5c746" compoundref="_cube_face_8cs" startline="15">mesh</references>
+        <references refid="class_cube_face_1a36a6a3e666e8ce05ee803c16718011b3" compoundref="_cube_face_8cs" startline="23">size</references>
+        <references refid="class_cube_face_1a8a61fe8f190130330fca39121a683346" compoundref="_cube_face_8cs" startline="27">textured</references>
+      </memberdef>
+      <memberdef kind="function" id="class_cube_face_1ae44a744c9020a1c1a9d2a70dd70cc3be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeFace.Merge</definition>
+        <argsstring>()</argsstring>
+        <name>Merge</name>
+        <briefdescription>
+<para>Quadtree merge of any children </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="177" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="177" bodyend="189"/>
+        <references refid="class_cube_face_1a7f31da2dee17e071f28422cba921e159" compoundref="_cube_face_8cs" startline="11">tree</references>
+      </memberdef>
+      <memberdef kind="function" id="class_cube_face_1a4c3b92ce3d4e031e3d3ce3b89ebffb8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeFace.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="191" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="191" bodyend="195"/>
+        <references refid="class_cube_face_1abc01e7afb32cd33d6ae259bc33b4f208" compoundref="_cube_face_8cs" startline="25">generated</references>
+        <referencedby refid="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" compoundref="_cube_face_8cs" startline="201" endline="219">SubDivide</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeFace.SubDivide</definition>
+        <argsstring>()</argsstring>
+        <name>SubDivide</name>
+        <briefdescription>
+<para>Quadtree subdivide Creates 4 sub-CubeFaces taking same space as current mesh, doubling the detail. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="201" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="201" bodyend="219"/>
+        <references refid="class_cube_face_1a3fc60fb1c0ee9dd51e74a8cca1a2a42c" compoundref="_cube_face_8cs" startline="30" endline="33">CubeFace</references>
+        <references refid="class_cube_face_1a4c3b92ce3d4e031e3d3ce3b89ebffb8a" compoundref="_cube_face_8cs" startline="191" endline="195">Dispose</references>
+        <references refid="class_cube_face_1a13b0cc0f9ec14a3551f07b30d1dce646" compoundref="_cube_face_8cs" startline="22">forward</references>
+        <references refid="class_cube_face_1a8e2a4ba09c92c4b689d3a2cf8e97e7ac" compoundref="_cube_face_8cs" startline="22">left</references>
+        <references refid="class_cube_face_1ae6aa08b77e977f1eb4417a0e04ad5d62" compoundref="_cube_face_8cs" startline="22">position</references>
+        <references refid="class_cube_face_1a4ec9ec2813ee75f4890dc040bd76d873" compoundref="_cube_face_8cs" startline="24">scale</references>
+        <references refid="class_cube_face_1a36a6a3e666e8ce05ee803c16718011b3" compoundref="_cube_face_8cs" startline="23">size</references>
+        <references refid="class_cube_face_1a7f31da2dee17e071f28422cba921e159" compoundref="_cube_face_8cs" startline="11">tree</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CubeFace.Initialize</definition>
+        <argsstring>(CubeFace parent, Vector3 pos, Vector3 left, Vector3 forward, float scale, int size)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type><ref refid="class_cube_face" kindref="compound">CubeFace</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>forward</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Creates a <ref refid="class_cube_face" kindref="compound">CubeFace</ref> </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Associated parent reference as a QuadTree sibling</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Position vector to render the cubeface at</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>left</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The x axis of the plane</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>forward</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The z axis of the plane</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>scale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The scale of the plane</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of vertices in length/width to create (segments)</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="48" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="48" bodyend="76"/>
+        <references refid="class_cube_face_1a3aba441f771cd51ff31b3cd5c3708fb2" compoundref="_cube_face_8cs" startline="19">collider</references>
+        <references refid="class_cube_face_1a83b982a77d0f6d4cfed7c9744e6668fa" compoundref="_cube_face_8cs" startline="17">filter</references>
+        <references refid="class_cube_face_1a13b0cc0f9ec14a3551f07b30d1dce646" compoundref="_cube_face_8cs" startline="22">forward</references>
+        <references refid="class_cube_face_1a6d8b2babbd2ee5e92b3adadadb051cb4" compoundref="_cube_face_8cs" startline="20">gameObject</references>
+        <references refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" compoundref="_cube_face_8cs" startline="82" endline="137">Generate</references>
+        <references refid="class_cube_face_1a8e2a4ba09c92c4b689d3a2cf8e97e7ac" compoundref="_cube_face_8cs" startline="22">left</references>
+        <references refid="class_cube_face_1a8703c29a3142779b91e4c64de1eb1e6e" compoundref="_cube_face_8cs" startline="14">material</references>
+        <references refid="class_cube_face_1ac58a844b1b8e250ad19e61ed9f4e7012" compoundref="_cube_face_8cs" startline="10">parent</references>
+        <references refid="class_cube_face_1ae6aa08b77e977f1eb4417a0e04ad5d62" compoundref="_cube_face_8cs" startline="22">position</references>
+        <references refid="class_cube_face_1a7810d97ffefc7d2d0e1e1479909bbb0a" compoundref="_cube_face_8cs" startline="18">renderer</references>
+        <references refid="class_cube_face_1a4ec9ec2813ee75f4890dc040bd76d873" compoundref="_cube_face_8cs" startline="24">scale</references>
+        <references refid="class_cube_face_1a36a6a3e666e8ce05ee803c16718011b3" compoundref="_cube_face_8cs" startline="23">size</references>
+        <referencedby refid="class_cube_face_1a3fc60fb1c0ee9dd51e74a8cca1a2a42c" compoundref="_cube_face_8cs" startline="30" endline="33">CubeFace</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A single plane mesh, rendered with accompanying collider and renderer Contains references to a parent (if any), and 0 or 4 children (Quadtree nodes) </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="168">
+        <label>CubeFace</label>
+        <link refid="class_cube_face"/>
+        <childnode refid="168" relation="usage">
+          <edgelabel>parent</edgelabel>
+          <edgelabel>tree</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/CubeFace.cs" bodystart="8" bodyend="220"/>
+    <listofallmembers>
+      <member refid="class_cube_face_1a3aba441f771cd51ff31b3cd5c3708fb2" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>collider</name></member>
+      <member refid="class_cube_face_1a3fc60fb1c0ee9dd51e74a8cca1a2a42c" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>CubeFace</name></member>
+      <member refid="class_cube_face_1a883399ec882d2fd7813261879f4ebe05" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>CubeFace</name></member>
+      <member refid="class_cube_face_1a4c3b92ce3d4e031e3d3ce3b89ebffb8a" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>Dispose</name></member>
+      <member refid="class_cube_face_1a83b982a77d0f6d4cfed7c9744e6668fa" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>filter</name></member>
+      <member refid="class_cube_face_1a9a7876df3e26ad438db6a0fd088d5fc3" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>finalized</name></member>
+      <member refid="class_cube_face_1a13b0cc0f9ec14a3551f07b30d1dce646" prot="private" virt="non-virtual"><scope>CubeFace</scope><name>forward</name></member>
+      <member refid="class_cube_face_1a6d8b2babbd2ee5e92b3adadadb051cb4" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>gameObject</name></member>
+      <member refid="class_cube_face_1a43d476e07c6cbd7acbda665302f1f29b" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>Generate</name></member>
+      <member refid="class_cube_face_1abc01e7afb32cd33d6ae259bc33b4f208" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>generated</name></member>
+      <member refid="class_cube_face_1ae8cd6074516e0166572c13036fa2f047" prot="private" virt="non-virtual"><scope>CubeFace</scope><name>Initialize</name></member>
+      <member refid="class_cube_face_1a8e2a4ba09c92c4b689d3a2cf8e97e7ac" prot="private" virt="non-virtual"><scope>CubeFace</scope><name>left</name></member>
+      <member refid="class_cube_face_1a8703c29a3142779b91e4c64de1eb1e6e" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>material</name></member>
+      <member refid="class_cube_face_1ae44a744c9020a1c1a9d2a70dd70cc3be" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>Merge</name></member>
+      <member refid="class_cube_face_1a25acf349a4a67f4c88fda1f208d5c746" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>mesh</name></member>
+      <member refid="class_cube_face_1ae01bb001ffe7ecba7ce0abb8fe3e6a56" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>neighbours</name></member>
+      <member refid="class_cube_face_1ac58a844b1b8e250ad19e61ed9f4e7012" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>parent</name></member>
+      <member refid="class_cube_face_1ae6aa08b77e977f1eb4417a0e04ad5d62" prot="private" virt="non-virtual"><scope>CubeFace</scope><name>position</name></member>
+      <member refid="class_cube_face_1a7810d97ffefc7d2d0e1e1479909bbb0a" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>renderer</name></member>
+      <member refid="class_cube_face_1a4ec9ec2813ee75f4890dc040bd76d873" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>scale</name></member>
+      <member refid="class_cube_face_1a36a6a3e666e8ce05ee803c16718011b3" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>size</name></member>
+      <member refid="class_cube_face_1a1a56a75dce9fd5eb102de16395d1319b" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>SubDivide</name></member>
+      <member refid="class_cube_face_1a8a61fe8f190130330fca39121a683346" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>textured</name></member>
+      <member refid="class_cube_face_1aa54fcd7247db2a78cd449a229277a7a8" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>Texturize</name></member>
+      <member refid="class_cube_face_1a7f31da2dee17e071f28422cba921e159" prot="public" virt="non-virtual"><scope>CubeFace</scope><name>tree</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4622501e1966d7112ea3d33aa23905f6" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT</compoundname>
+    <innerdir refid="dir_685cff2644d34394c649b9b3eed0c81c">C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/Scripts</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT/"/>
+  </compounddef>
+</doxygen>

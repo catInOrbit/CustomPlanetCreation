@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_simple_kepler_orbits_1_1_kepler_orbit_utils" kind="class" prot="public">
+    <compoundname>SimpleKeplerOrbits::KeplerOrbitUtils</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" prot="public" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</definition>
+        <argsstring></argsstring>
+        <name>PI_2</name>
+        <initializer>= 6.2831853071796d</initializer>
+        <briefdescription>
+<para>Two PI. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afc5aec0e29b02cb18320dbe774763f7d" compoundref="_kepler_orbit_utils_8cs" startline="276" endline="296">SimpleKeplerOrbits.KeplerOrbitUtils.ConvertEccentricToTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afdace01b04f45de666bb54ac04a2bcc5" compoundref="_kepler_orbit_utils_8cs" startline="304" endline="335">SimpleKeplerOrbits.KeplerOrbitUtils.ConvertTrueToEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" compoundref="_kepler_orbit_data_8cs" startline="254" endline="293">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" compoundref="_kepler_orbit_data_8cs" startline="362" endline="410">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPointsNoAlloc</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ae361ed54f60cb58e933aaecc59253373" compoundref="_kepler_orbit_data_8cs" startline="412" endline="463">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPointsNoAlloReentry</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_editor_1ac83373f76cef986e9e6ce6627411f66e" compoundref="_kepler_orbit_mover_editor_8cs" startline="24" endline="74">SimpleKeplerOrbits.KeplerOrbitMoverEditor.OnInspectorGUI</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" compoundref="_kepler_orbit_data_8cs" startline="752" endline="777">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" compoundref="_kepler_orbit_data_8cs" startline="693" endline="716">SimpleKeplerOrbits.KeplerOrbitData.SetMeanAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" compoundref="_kepler_orbit_data_8cs" startline="722" endline="746">SimpleKeplerOrbits.KeplerOrbitData.SetTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="589" endline="632">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aaaa91101232c43a764cd4e252d924381" prot="public" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double SimpleKeplerOrbits.KeplerOrbitUtils.Deg2Rad</definition>
+        <argsstring></argsstring>
+        <name>Deg2Rad</name>
+        <initializer>= 0.017453292519943d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="79" endline="145">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" compoundref="_kepler_orbit_data_8cs" startline="487" endline="515">SimpleKeplerOrbits.KeplerOrbitData.GetAscendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" compoundref="_kepler_orbit_data_8cs" startline="539" endline="567">SimpleKeplerOrbits.KeplerOrbitData.GetDescendingNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a5227260f08aa8f193d4c443bd5b5cd01" prot="public" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double SimpleKeplerOrbits.KeplerOrbitUtils.Rad2Deg</definition>
+        <argsstring></argsstring>
+        <name>Rad2Deg</name>
+        <initializer>= 57.295779513082d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ac0169cdf0378a83c45fb9c8de29cb009" prot="public" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double SimpleKeplerOrbits.KeplerOrbitUtils.Epsilon</definition>
+        <argsstring></argsstring>
+        <name>Epsilon</name>
+        <initializer>= 1.401298E-45d</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aace2f0cd22db4165eef2b1895018af31" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SimpleKeplerOrbits.KeplerOrbitUtils.Acosh</definition>
+        <argsstring>(double x)</argsstring>
+        <name>Acosh</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Regular Acosh, but without exception when out of possible range. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Calculated Acos value or 0.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="32" bodyend="40"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afdace01b04f45de666bb54ac04a2bcc5" compoundref="_kepler_orbit_utils_8cs" startline="304" endline="335">SimpleKeplerOrbits.KeplerOrbitUtils.ConvertTrueToEccentricAnomaly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a51c0621b6496d8a069b0fd4121c50e7c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 SimpleKeplerOrbits.KeplerOrbitUtils.GetRayPlaneIntersectionPoint</definition>
+        <argsstring>(Vector3 pointOnPlane, Vector3 normal, Vector3 rayOrigin, Vector3 rayDirection)</argsstring>
+        <name>GetRayPlaneIntersectionPoint</name>
+        <param>
+          <type>Vector3</type>
+          <declname>pointOnPlane</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>rayOrigin</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>rayDirection</declname>
+        </param>
+        <briefdescription>
+<para>Gets the ray plane intersection point. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointOnPlane</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The point on plane.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>normal</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The normal vector.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rayOrigin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ray origin point.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rayDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ray direction vector.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Point on a plane, where ray is intersected with it.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="50" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="50" bodyend="63"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afa8be8fe239070d1f508db00054c840f" compoundref="_kepler_orbit_utils_8cs" startline="127" endline="130">SimpleKeplerOrbits.KeplerOrbitUtils.DotProduct</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ac04a1060397dff978457fb8f0e6e1d9a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 SimpleKeplerOrbits.KeplerOrbitUtils.RotateVectorByAngle</definition>
+        <argsstring>(Vector3 v, float angleRad, Vector3 n)</argsstring>
+        <name>RotateVectorByAngle</name>
+        <param>
+          <type>Vector3</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleRad</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Rotate vector around another vector </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector to rotate</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>angleRad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>angle in radians</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>normalized vector to rotate around, or normal of rotation plane</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="71" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="71" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ab51972afbbdb98bb2903107cd1997ef9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d SimpleKeplerOrbits.KeplerOrbitUtils.RotateVectorByAngle</definition>
+        <argsstring>(Vector3d v, double angleRad, Vector3d n)</argsstring>
+        <name>RotateVectorByAngle</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>angleRad</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Rotate vector around another vector (double) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector to rotate</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>angleRad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>angle in radians</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>normalized vector to rotate around, or normal of rotation plane</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="99" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="99" bodyend="119"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afa8be8fe239070d1f508db00054c840f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float SimpleKeplerOrbits.KeplerOrbitUtils.DotProduct</definition>
+        <argsstring>(Vector3 a, Vector3 b)</argsstring>
+        <name>DotProduct</name>
+        <param>
+          <type>Vector3</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Dot product of two vectors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first vector.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second vector.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Dot product.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="127" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="127" bodyend="130"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="79" endline="145">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a51c0621b6496d8a069b0fd4121c50e7c" compoundref="_kepler_orbit_utils_8cs" startline="50" endline="63">SimpleKeplerOrbits.KeplerOrbitUtils.GetRayPlaneIntersectionPoint</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a8e0ce0b15c451f9ef76d11f881f3cf6f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SimpleKeplerOrbits.KeplerOrbitUtils.DotProduct</definition>
+        <argsstring>(Vector3d a, Vector3d b)</argsstring>
+        <name>DotProduct</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Dot product of two vectors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first vector.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second vector.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Dot product.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="138" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a842d46e2323cc1a16b8305e2c7a48123" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 SimpleKeplerOrbits.KeplerOrbitUtils.CrossProduct</definition>
+        <argsstring>(Vector3 a, Vector3 b)</argsstring>
+        <name>CrossProduct</name>
+        <param>
+          <type>Vector3</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Cross product of two vectors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first vector.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second vector.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Perpendicular vector.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="149" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="149" bodyend="152"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1accd6d913d4e91b13ce7a762ca5d5e423" compoundref="_kepler_orbit_utils_8cs" startline="168" endline="175">SimpleKeplerOrbits.KeplerOrbitUtils.CalcCircleOrbitVelocity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aef546a0bd604f5a64d067aa75dcb9a33" compoundref="_kepler_orbit_utils_8cs" startline="192" endline="242">SimpleKeplerOrbits.KeplerOrbitUtils.CalcOrbitPoints</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="79" endline="145">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a43dcd5c1f652ee62930c16e56547e35a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d SimpleKeplerOrbits.KeplerOrbitUtils.CrossProduct</definition>
+        <argsstring>(Vector3d a, Vector3d b)</argsstring>
+        <name>CrossProduct</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Cross product of two vectors. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first vector.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The second vector.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Perpendicular vector.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="160" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="160" bodyend="163"/>
+        <references refid="struct_unity_engine_1_1_vector3d_1ab84cc8ded7be8d479f6c04351e604e44" compoundref="_vector3d_8cs" startline="13">UnityEngine.Vector3d.x</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a03113ffc1771dfcd797c8a626149e1f1" compoundref="_vector3d_8cs" startline="14">UnityEngine.Vector3d.y</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a328bdd25dcce27f7cd38660ace18f3c3" compoundref="_vector3d_8cs" startline="15">UnityEngine.Vector3d.z</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1accd6d913d4e91b13ce7a762ca5d5e423" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 SimpleKeplerOrbits.KeplerOrbitUtils.CalcCircleOrbitVelocity</definition>
+        <argsstring>(Vector3 attractorPos, Vector3 bodyPos, double attractorMass, double bodyMass, Vector3 orbitNormal, double gConst)</argsstring>
+        <name>CalcCircleOrbitVelocity</name>
+        <param>
+          <type>Vector3</type>
+          <declname>attractorPos</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>bodyPos</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>attractorMass</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bodyMass</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>orbitNormal</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gConst</declname>
+        </param>
+        <briefdescription>
+<para>Calc velocity vector for circle orbit. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="168" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="168" bodyend="175"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a842d46e2323cc1a16b8305e2c7a48123" compoundref="_kepler_orbit_utils_8cs" startline="149" endline="152">SimpleKeplerOrbits.KeplerOrbitUtils.CrossProduct</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1accfe1af556245e04f40d81aad19dabeb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d SimpleKeplerOrbits.KeplerOrbitUtils.CalcCircleOrbitVelocity</definition>
+        <argsstring>(Vector3d attractorPos, Vector3d bodyPos, double attractorMass, double bodyMass, Vector3d orbitNormal, double gConst)</argsstring>
+        <name>CalcCircleOrbitVelocity</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>attractorPos</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>bodyPos</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>attractorMass</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bodyMass</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>orbitNormal</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gConst</declname>
+        </param>
+        <briefdescription>
+<para>Calc velocity vector for circle orbit. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="180" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="180" bodyend="187"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a842d46e2323cc1a16b8305e2c7a48123" compoundref="_kepler_orbit_utils_8cs" startline="149" endline="152">SimpleKeplerOrbits.KeplerOrbitUtils.CrossProduct</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aef546a0bd604f5a64d067aa75dcb9a33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>static Vector3 [] SimpleKeplerOrbits.KeplerOrbitUtils.CalcOrbitPoints</definition>
+        <argsstring>(Vector3 attractorPos, Vector3 bodyPos, double attractorMass, double bodyMass, Vector3 relVelocity, double gConst, int pointsCount)</argsstring>
+        <name>CalcOrbitPoints</name>
+        <param>
+          <type>Vector3</type>
+          <declname>attractorPos</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>bodyPos</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>attractorMass</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>bodyMass</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>relVelocity</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>gConst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointsCount</declname>
+        </param>
+        <briefdescription>
+<para>Calc orbit curve points with provided precision. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="192" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="192" bodyend="242"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a87c8f20623e46dc9c49dd430ef7e2eb9" compoundref="_kepler_orbit_utils_8cs" startline="252" endline="255">SimpleKeplerOrbits.KeplerOrbitUtils.CalcCenterOfMass</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a842d46e2323cc1a16b8305e2c7a48123" compoundref="_kepler_orbit_utils_8cs" startline="149" endline="152">SimpleKeplerOrbits.KeplerOrbitUtils.CrossProduct</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a87c8f20623e46dc9c49dd430ef7e2eb9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>static Vector3 SimpleKeplerOrbits.KeplerOrbitUtils.CalcCenterOfMass</definition>
+        <argsstring>(Vector3 pos1, double mass1, Vector3 pos2, double mass2)</argsstring>
+        <name>CalcCenterOfMass</name>
+        <param>
+          <type>Vector3</type>
+          <declname>pos1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mass1</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>pos2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mass2</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the center of mass. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The posistion 1.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mass1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mass 1.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position 2.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mass2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mass 2.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Center of mass postion vector.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="252" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="252" bodyend="255"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aef546a0bd604f5a64d067aa75dcb9a33" compoundref="_kepler_orbit_utils_8cs" startline="192" endline="242">SimpleKeplerOrbits.KeplerOrbitUtils.CalcOrbitPoints</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a0754b03cc7dc247ccde45df2f4dc714d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>static Vector3d SimpleKeplerOrbits.KeplerOrbitUtils.CalcCenterOfMass</definition>
+        <argsstring>(Vector3d pos1, double mass1, Vector3d pos2, double mass2)</argsstring>
+        <name>CalcCenterOfMass</name>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>pos1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mass1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>pos2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>mass2</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the center of mass. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The posistion 1.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mass1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mass 1.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pos2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position 2.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mass2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mass 2.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Center of mass postion vector.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="265" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="265" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afc5aec0e29b02cb18320dbe774763f7d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SimpleKeplerOrbits.KeplerOrbitUtils.ConvertEccentricToTrueAnomaly</definition>
+        <argsstring>(double eccentricAnomaly, double eccentricity)</argsstring>
+        <name>ConvertEccentricToTrueAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>eccentricAnomaly</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eccentricity</declname>
+        </param>
+        <briefdescription>
+<para>Converts the eccentric to true anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eccentricAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentric anomaly.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eccentricity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentricity.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True anomaly in radians.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="276" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="276" bodyend="296"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afbfa6e97f699ba6301a0e391f2cc453d" compoundref="_kepler_orbit_data_8cs" startline="152" endline="155">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtEccentricAnomaly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afdace01b04f45de666bb54ac04a2bcc5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SimpleKeplerOrbits.KeplerOrbitUtils.ConvertTrueToEccentricAnomaly</definition>
+        <argsstring>(double trueAnomaly, double eccentricity)</argsstring>
+        <name>ConvertTrueToEccentricAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>trueAnomaly</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eccentricity</declname>
+        </param>
+        <briefdescription>
+<para>Converts the true to eccentric anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trueAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The true anomaly.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eccentricity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentricity.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Eccentric anomaly in radians.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="304" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="304" bodyend="335"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aace2f0cd22db4165eef2b1895018af31" compoundref="_kepler_orbit_utils_8cs" startline="32" endline="40">SimpleKeplerOrbits.KeplerOrbitUtils.Acosh</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1af3d28c527844e613bae1bdf85500cb7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SimpleKeplerOrbits.KeplerOrbitUtils.ConvertMeanToEccentricAnomaly</definition>
+        <argsstring>(double meanAnomaly, double eccentricity)</argsstring>
+        <name>ConvertMeanToEccentricAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>meanAnomaly</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eccentricity</declname>
+        </param>
+        <briefdescription>
+<para>Converts the mean to eccentric anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>meanAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mean anomaly.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eccentricity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentricity.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Eccentric anomaly in radians.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="343" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="343" bodyend="353"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a180ffb5c492879d67c26855927ecd3c6" compoundref="_kepler_orbit_utils_8cs" startline="398" endline="412">SimpleKeplerOrbits.KeplerOrbitUtils.KeplerSolver</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a4c1f546c3d5821b47689348798ac1ac2" compoundref="_kepler_orbit_utils_8cs" startline="420" endline="439">SimpleKeplerOrbits.KeplerOrbitUtils.KeplerSolverHyperbolicCase</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a4cd46dad2a64957cd78cb8fc8b5a11eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SimpleKeplerOrbits.KeplerOrbitUtils.ConvertEccentricToMeanAnomaly</definition>
+        <argsstring>(double eccentricAnomaly, double eccentricity)</argsstring>
+        <name>ConvertEccentricToMeanAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>eccentricAnomaly</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eccentricity</declname>
+        </param>
+        <briefdescription>
+<para>Converts the eccentric to mean anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eccentricAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentric anomaly.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eccentricity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentricity.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Mean anomaly in radians.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="361" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="361" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a82edc70d78c23830fc6847d843815f84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SimpleKeplerOrbits.KeplerOrbitUtils.CalcTrueAnomalyForDistance</definition>
+        <argsstring>(double distance, double eccentricity, double semiMajorAxis)</argsstring>
+        <name>CalcTrueAnomalyForDistance</name>
+        <param>
+          <type>double</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eccentricity</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>semiMajorAxis</declname>
+        </param>
+        <briefdescription>
+<para>Gets the True anomaly value from current distance from the focus (attractor). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The distance from attractor.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eccentricity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentricity.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>semiMajorAxis</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The semi major axis.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="380" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="380" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a180ffb5c492879d67c26855927ecd3c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SimpleKeplerOrbits.KeplerOrbitUtils.KeplerSolver</definition>
+        <argsstring>(double meanAnomaly, double eccentricity)</argsstring>
+        <name>KeplerSolver</name>
+        <param>
+          <type>double</type>
+          <declname>meanAnomaly</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eccentricity</declname>
+        </param>
+        <briefdescription>
+<para>A classic Kepler solver. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>meanAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mean anomaly in radians.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eccentricity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentricity.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Eccentric anomaly in radians.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="398" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="398" bodyend="412"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1af3d28c527844e613bae1bdf85500cb7a" compoundref="_kepler_orbit_utils_8cs" startline="343" endline="353">SimpleKeplerOrbits.KeplerOrbitUtils.ConvertMeanToEccentricAnomaly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a4c1f546c3d5821b47689348798ac1ac2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double SimpleKeplerOrbits.KeplerOrbitUtils.KeplerSolverHyperbolicCase</definition>
+        <argsstring>(double meanAnomaly, double eccentricity)</argsstring>
+        <name>KeplerSolverHyperbolicCase</name>
+        <param>
+          <type>double</type>
+          <declname>meanAnomaly</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>eccentricity</declname>
+        </param>
+        <briefdescription>
+<para>Kepler solver for hyperbolic case. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>meanAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The mean anomaly.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eccentricity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentricity.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Eccentric anomaly in radians.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="420" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="420" bodyend="439"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1af3d28c527844e613bae1bdf85500cb7a" compoundref="_kepler_orbit_utils_8cs" startline="343" endline="353">SimpleKeplerOrbits.KeplerOrbitUtils.ConvertMeanToEccentricAnomaly</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Math utility methods for help in orbits calculations. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Utils/KeplerOrbitUtils.cs" bodystart="17" bodyend="440"/>
+    <listofallmembers>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aace2f0cd22db4165eef2b1895018af31" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>Acosh</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a87c8f20623e46dc9c49dd430ef7e2eb9" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>CalcCenterOfMass</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a0754b03cc7dc247ccde45df2f4dc714d" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>CalcCenterOfMass</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1accd6d913d4e91b13ce7a762ca5d5e423" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>CalcCircleOrbitVelocity</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1accfe1af556245e04f40d81aad19dabeb" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>CalcCircleOrbitVelocity</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aef546a0bd604f5a64d067aa75dcb9a33" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>CalcOrbitPoints</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a82edc70d78c23830fc6847d843815f84" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>CalcTrueAnomalyForDistance</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a4cd46dad2a64957cd78cb8fc8b5a11eb" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>ConvertEccentricToMeanAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afc5aec0e29b02cb18320dbe774763f7d" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>ConvertEccentricToTrueAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1af3d28c527844e613bae1bdf85500cb7a" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>ConvertMeanToEccentricAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afdace01b04f45de666bb54ac04a2bcc5" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>ConvertTrueToEccentricAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a842d46e2323cc1a16b8305e2c7a48123" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>CrossProduct</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a43dcd5c1f652ee62930c16e56547e35a" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>CrossProduct</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aaaa91101232c43a764cd4e252d924381" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>Deg2Rad</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afa8be8fe239070d1f508db00054c840f" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>DotProduct</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a8e0ce0b15c451f9ef76d11f881f3cf6f" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>DotProduct</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ac0169cdf0378a83c45fb9c8de29cb009" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>Epsilon</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a51c0621b6496d8a069b0fd4121c50e7c" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>GetRayPlaneIntersectionPoint</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a180ffb5c492879d67c26855927ecd3c6" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>KeplerSolver</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a4c1f546c3d5821b47689348798ac1ac2" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>KeplerSolverHyperbolicCase</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>PI_2</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a5227260f08aa8f193d4c443bd5b5cd01" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>Rad2Deg</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ac04a1060397dff978457fb8f0e6e1d9a" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>RotateVectorByAngle</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1ab51972afbbdb98bb2903107cd1997ef9" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitUtils</scope><name>RotateVectorByAngle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

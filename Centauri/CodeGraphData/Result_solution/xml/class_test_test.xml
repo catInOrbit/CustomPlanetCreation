@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_test_test" kind="class" prot="public">
+    <compoundname>TestTest</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_test_1a1111dfc066f00a010106f86cba0223f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestTest.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" bodystart="7" bodyend="11"/>
+        <references refid="class_test_test_1a6b6cce67c77c8256297a88920a2802a6" compoundref="_test_test_8cs" startline="18" endline="21">GetAngleToVectorRight</references>
+        <references refid="class_test_test_1a8f2cb427af9fc283464688c998fe87df" compoundref="_test_test_8cs" startline="23" endline="26">GetAngleToVectorUp</references>
+      </memberdef>
+      <memberdef kind="function" id="class_test_test_1a3318a7739a531c7b4d764057019975bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float TestTest.GetAngleToCompareVector</definition>
+        <argsstring>(Vector3 targetDirectionVector, Vector3 compareVector)</argsstring>
+        <name>GetAngleToCompareVector</name>
+        <param>
+          <type>Vector3</type>
+          <declname>targetDirectionVector</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>compareVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_test_test_1a6b6cce67c77c8256297a88920a2802a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float TestTest.GetAngleToVectorRight</definition>
+        <argsstring>(Vector3 targetDirectionVector)</argsstring>
+        <name>GetAngleToVectorRight</name>
+        <param>
+          <type>Vector3</type>
+          <declname>targetDirectionVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" bodystart="18" bodyend="21"/>
+        <referencedby refid="class_test_test_1a1111dfc066f00a010106f86cba0223f8" compoundref="_test_test_8cs" startline="7" endline="11">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_test_test_1a8f2cb427af9fc283464688c998fe87df" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float TestTest.GetAngleToVectorUp</definition>
+        <argsstring>(Vector3 targetDirectionVector)</argsstring>
+        <name>GetAngleToVectorUp</name>
+        <param>
+          <type>Vector3</type>
+          <declname>targetDirectionVector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" bodystart="23" bodyend="26"/>
+        <referencedby refid="class_test_test_1a1111dfc066f00a010106f86cba0223f8" compoundref="_test_test_8cs" startline="7" endline="11">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="744">
+        <label>TestTest</label>
+        <link refid="class_test_test"/>
+        <childnode refid="745" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="745">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="746">
+        <label>TestTest</label>
+        <link refid="class_test_test"/>
+        <childnode refid="747" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="747">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs" bodystart="5" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_test_test_1a3318a7739a531c7b4d764057019975bc" prot="private" virt="non-virtual"><scope>TestTest</scope><name>GetAngleToCompareVector</name></member>
+      <member refid="class_test_test_1a6b6cce67c77c8256297a88920a2802a6" prot="private" virt="non-virtual"><scope>TestTest</scope><name>GetAngleToVectorRight</name></member>
+      <member refid="class_test_test_1a8f2cb427af9fc283464688c998fe87df" prot="private" virt="non-virtual"><scope>TestTest</scope><name>GetAngleToVectorUp</name></member>
+      <member refid="class_test_test_1a1111dfc066f00a010106f86cba0223f8" prot="private" virt="non-virtual"><scope>TestTest</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

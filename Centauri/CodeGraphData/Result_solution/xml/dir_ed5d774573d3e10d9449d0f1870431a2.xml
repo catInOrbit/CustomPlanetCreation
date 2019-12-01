@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ed5d774573d3e10d9449d0f1870431a2" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet</compoundname>
+    <innerfile refid="_cube_face_8cs">CubeFace.cs</innerfile>
+    <innerfile refid="_cube_planet_8cs">CubePlanet.cs</innerfile>
+    <innerfile refid="_planet_generator_8cs">PlanetGenerator.cs</innerfile>
+    <innerfile refid="_resource_generator_8cs">ResourceGenerator.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/Planet/"/>
+  </compounddef>
+</doxygen>

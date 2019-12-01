@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_be8042cc06a0e2c12e51a658e32ad885" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor</compoundname>
+    <innerfile refid="_clear_unused_attributes_8cs">ClearUnusedAttributes.cs</innerfile>
+    <innerfile refid="_create_shadow_object_8cs">CreateShadowObject.cs</innerfile>
+    <innerfile refid="_custom_action_8cs">CustomAction.cs</innerfile>
+    <innerfile refid="_editor_callback_viewer_8cs">EditorCallbackViewer.cs</innerfile>
+    <innerfile refid="_rename_new_objects_8cs">RenameNewObjects.cs</innerfile>
+    <innerfile refid="_set_custom_unwrap_params_8cs">SetCustomUnwrapParams.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/"/>
+  </compounddef>
+</doxygen>

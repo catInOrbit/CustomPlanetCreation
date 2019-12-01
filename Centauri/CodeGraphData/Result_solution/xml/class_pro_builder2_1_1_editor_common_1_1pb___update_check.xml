@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_editor_common_1_1pb___update_check" kind="class" prot="public">
+    <compoundname>ProBuilder2::EditorCommon::pb_UpdateCheck</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a68b80891b7c2bf8b79b3cb8b18eddea0" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.EditorCommon.pb_UpdateCheck.PROBUILDER_VERSION_URL</definition>
+        <argsstring></argsstring>
+        <name>PROBUILDER_VERSION_URL</name>
+        <initializer>= &quot;http://procore3d.github.io/probuilder2/current.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1ad6716c45f22c4747c7b2316edeaea643" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string ProBuilder2.EditorCommon.pb_UpdateCheck.pbLastWebVersionChecked</definition>
+        <argsstring></argsstring>
+        <name>pbLastWebVersionChecked</name>
+        <initializer>= &quot;pbLastWebVersionChecked&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a791116d925378d2620fc1f2551bfcc77" prot="private" static="yes" mutable="no">
+        <type>WWW</type>
+        <definition>WWW ProBuilder2.EditorCommon.pb_UpdateCheck.updateQuery</definition>
+        <argsstring></argsstring>
+        <name>updateQuery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a5ecc701d71d52129c7d62eca4e99590c" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool ProBuilder2.EditorCommon.pb_UpdateCheck.calledFromMenu</definition>
+        <argsstring></argsstring>
+        <name>calledFromMenu</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a6ad901327a65feee9b0a33340bb11f51" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static ProBuilder2.EditorCommon.pb_UpdateCheck.pb_UpdateCheck</definition>
+        <argsstring>()</argsstring>
+        <name>pb_UpdateCheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="19" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a80ecf7fc67b958af97aefcc87a29bea2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.EditorCommon.pb_UpdateCheck.MenuCheckForUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>MenuCheckForUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a3dccce7f1115fae7991e6a3c7ada1ba7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.EditorCommon.pb_UpdateCheck.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="44" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="44" bodyend="99"/>
+        <references refid="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1a21f0fde424cbb3ee1f16402e84066053" compoundref="pb___version_util_8cs" startline="69" endline="107">ProBuilder2.EditorCommon.pb_VersionUtil.FormatChangelog</references>
+        <references refid="class_pro_builder2_1_1_editor_common_1_1pb___version_util_1a173c404a03ebbadf66af36e9d2c4660c" compoundref="pb___version_util_8cs" startline="52" endline="64">ProBuilder2.EditorCommon.pb_VersionUtil.GetCurrent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1aade509cc66f15fcb86f90eb16f8ebfce" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.EditorCommon.pb_UpdateCheck.UpToDate</definition>
+        <argsstring>(string version)</argsstring>
+        <name>UpToDate</name>
+        <param>
+          <type>string</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="101" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="101" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a0854cbe32aeca9de5d75bf987923f9d4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.EditorCommon.pb_UpdateCheck.FailedConnection</definition>
+        <argsstring>(string error=null)</argsstring>
+        <name>FailedConnection</name>
+        <param>
+          <type>string</type>
+          <declname>error</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="107" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="107" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a48bf6153467e6de17d08114693c7d60d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.EditorCommon.pb_UpdateCheck.CheckForUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>CheckForUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="35" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="35" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Check for updates to ProBuilder. </para>    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/About/Editor/pb_UpdateCheck.cs" bodystart="12" bodyend="115"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a5ecc701d71d52129c7d62eca4e99590c" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>calledFromMenu</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a48bf6153467e6de17d08114693c7d60d" prot="public" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>CheckForUpdate</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a0854cbe32aeca9de5d75bf987923f9d4" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>FailedConnection</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a80ecf7fc67b958af97aefcc87a29bea2" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>MenuCheckForUpdate</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a6ad901327a65feee9b0a33340bb11f51" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>pb_UpdateCheck</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1ad6716c45f22c4747c7b2316edeaea643" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>pbLastWebVersionChecked</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a68b80891b7c2bf8b79b3cb8b18eddea0" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>PROBUILDER_VERSION_URL</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a3dccce7f1115fae7991e6a3c7ada1ba7" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>Update</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1a791116d925378d2620fc1f2551bfcc77" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>updateQuery</name></member>
+      <member refid="class_pro_builder2_1_1_editor_common_1_1pb___update_check_1aade509cc66f15fcb86f90eb16f8ebfce" prot="private" virt="non-virtual"><scope>ProBuilder2::EditorCommon::pb_UpdateCheck</scope><name>UpToDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Earth (Simple) 2
+  m_Shader: {fileID: 4800000, guid: 09fa5772c21d63046872bc76dbd24c86, type: 3}
+  m_ShaderKeywords: _AMBIENTMODE_ON _CLOUDSADDITIVE_ON _LIGHTING_FRAG _USENORMAL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: bc942688ca1916a40ab6c09d14641664, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudTexture:
+        m_Texture: {fileID: 2800000, guid: affb76b28ded56c4fba5cd0d38450932, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudsMap:
+        m_Texture: {fileID: 2800000, guid: 3fd5cfb6f3e687d49a0895429f93f3a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudsTex:
+        m_Texture: {fileID: 2800000, guid: 3fd5cfb6f3e687d49a0895429f93f3a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: 8e725d86ffee06841aa827d836e8af67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossyMap:
+        m_Texture: {fileID: 2800000, guid: 612024e740b981b489c7cf0b0ee02f3d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c1d17104ac329429a8ce5b3c5e3e0764, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NightTex:
+        m_Texture: {fileID: 2800000, guid: 4076e07cfc23600418646ba160036bbf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: d38a4f30d413745adaf12f60ca54997d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 2800000, guid: 98ba062c37ddf0d43bf1a48d3b1d88ca, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientFactor: 0
+    - _AmbientMode: 1
+    - _AtmosphereHeight: 65000
+    - _AtmosphereModifier: 5
+    - _AtmosphereRadius: 21.9
+    - _BumpScale: -1
+    - _CircleRadius: 5.58
+    - _CloudSize: 0.12
+    - _CloudsAdditive: 1
+    - _CloudsAlpha: 0.5
+    - _CloudsSpeed: 0.001
+    - _Cutoff: 0.5
+    - _DetailBumpScale: 1
+    - _DetailNormalMapScale: 1
+    - _Diffuse: 0.651
+    - _DstBlend: 0
+    - _EnableAtmosphere: 0
+    - _Falloff: 5
+    - _FalloffPlanet: 11.1
+    - _G: 0.75
+    - _GMie: 0.758
+    - _GammaIntensity: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 1
+    - _GlossyReflections: 1
+    - _IndirectLightDiffuse: 0
+    - _IndirectLightSpecular: 0
+    - _LightSamples: 8
+    - _Lighting: 2
+    - _Metallic: 0
+    - _MieAnisotropy: -0.4
+    - _MieDirection: 0.758
+    - _MieHeight: 0.012
+    - _MieScaleHeight: 1200
+    - _MieScatteringCoefficient: 0.0021
+    - _Mode: 0
+    - _NightAlpha: 0.25
+    - _NightWrap: 0.8
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PlanetRadius: 6371000
+    - _PlanetRadiusUnits: 20
+    - _RayScaleHeight: 8767
+    - _ScaleHeight: 0.85
+    - _ScaleModifier: 1
+    - _ScatteringModifier: 3.6
+    - _Size: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularFactor: 0.276
+    - _SpecularHighlights: 1
+    - _SpecularPower: 1
+    - _SphereRadius: 0.5
+    - _SrcBlend: 1
+    - _StepSize: 0.01
+    - _SunIntensity: 8.4
+    - _Transparency: 15
+    - _TransparencyPlanet: 1
+    - _UVSec: 0
+    - _UseNormal: 1
+    - _ViewSamples: 26
+    - _ZWrite: 1
+    - _iSteps: 16
+    - _jSteps: 8
+    m_Colors:
+    - _AtmoColor: {r: 0.5, g: 0.5, b: 1, a: 1}
+    - _AtmosphereColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Centre: {r: 0, g: 0, b: 0, a: 0}
+    - _CircleColor: {r: 0, g: 0.34420848, b: 1, a: 1}
+    - _CloudColor: {r: 1, g: 0.8254717, b: 0.8254717, a: 1}
+    - _Color: {r: 1, g: 0.65916854, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MieScatteringCoefficient: {r: 0.0000055, g: 0.000013, b: 0.000022, a: 0}
+    - _NightColor: {r: 1.2500001, g: 1.2091221, b: 0.8363971, a: 1}
+    - _RayScatteringCoefficient: {r: 0.0000058, g: 0.0000135, b: 0.0000331, a: 0}
+    - _ScatteringCoefficient: {r: 5.5, g: 13, b: 22.4, a: 0}
+    - _SunCentre: {r: 75.2, g: 90.92, b: -43.64, a: 0}
+    - _TestCircle: {r: 0.11, g: 0, b: 0, a: 0}

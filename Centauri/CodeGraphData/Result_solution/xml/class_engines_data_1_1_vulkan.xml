@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_engines_data_1_1_vulkan" kind="class" prot="public">
+    <compoundname>EnginesData::Vulkan</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_engines_data_1_1_vulkan_1a208443021bb74d005574209f1dc13dd4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnginesData.Vulkan.engineISP</definition>
+        <argsstring></argsstring>
+        <name>engineISP</name>
+        <initializer>= 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/EnginesData.cs" line="10" column="1" bodyfile="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/EnginesData.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_vulkan_1a74f3fb62d6347f3089c2acd39d72636a" compoundref="_engines_data_8cs" startline="11" endline="14">EnginesData.Vulkan.GetExhaustVelocity</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_engines_data_1_1_vulkan_1a74f3fb62d6347f3089c2acd39d72636a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float EnginesData.Vulkan.GetExhaustVelocity</definition>
+        <argsstring>()</argsstring>
+        <name>GetExhaustVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/EnginesData.cs" line="11" column="1" bodyfile="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/EnginesData.cs" bodystart="11" bodyend="14"/>
+        <references refid="class_engines_data_1_1_vulkan_1a208443021bb74d005574209f1dc13dd4" compoundref="_engines_data_8cs" startline="10">EnginesData.Vulkan.engineISP</references>
+        <referencedby refid="class_speed_data_1a43374e4b01e13e83187daa0dcbd17dbd" compoundref="_speed_data_8cs" startline="26" endline="35">SpeedData.GetSpeedStringData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_engines_data_1_1_vulkan_1a150319d11129a42d2181bf5d45962e33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float EnginesData.Vulkan.GetThrustWeightRatio</definition>
+        <argsstring>(float exhaustVelocity, float shipDryMass, float gravity)</argsstring>
+        <name>GetThrustWeightRatio</name>
+        <param>
+          <type>float</type>
+          <declname>exhaustVelocity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>shipDryMass</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gravity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/EnginesData.cs" line="16" column="1" bodyfile="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/EnginesData.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/EnginesData.cs" line="9" column="1" bodyfile="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/Scripts/Data/EnginesData.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_engines_data_1_1_vulkan_1a208443021bb74d005574209f1dc13dd4" prot="public" virt="non-virtual"><scope>EnginesData::Vulkan</scope><name>engineISP</name></member>
+      <member refid="class_engines_data_1_1_vulkan_1a74f3fb62d6347f3089c2acd39d72636a" prot="public" virt="non-virtual"><scope>EnginesData::Vulkan</scope><name>GetExhaustVelocity</name></member>
+      <member refid="class_engines_data_1_1_vulkan_1a150319d11129a42d2181bf5d45962e33" prot="public" virt="non-virtual"><scope>EnginesData::Vulkan</scope><name>GetThrustWeightRatio</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

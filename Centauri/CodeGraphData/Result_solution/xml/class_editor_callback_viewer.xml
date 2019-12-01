@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_editor_callback_viewer" kind="class" prot="public">
+    <compoundname>EditorCallbackViewer</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EditorWindow</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_editor_callback_viewer_1afdc2a5762ae92408014012ef9ddadb6d" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; EditorCallbackViewer.logs</definition>
+        <argsstring></argsstring>
+        <name>logs</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_editor_callback_viewer_1ac7d46156cde157b37952cc1fe3bfe6cf" compoundref="_editor_callback_viewer_8cs" startline="108" endline="156">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_editor_callback_viewer_1a39908d91d99b2c5af4eef08fadbc4b13" prot="private" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 EditorCallbackViewer.scroll</definition>
+        <argsstring></argsstring>
+        <name>scroll</name>
+        <initializer>= Vector2.zero</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_editor_callback_viewer_1ac7d46156cde157b37952cc1fe3bfe6cf" compoundref="_editor_callback_viewer_8cs" startline="108" endline="156">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_editor_callback_viewer_1aab5926a585ec77a61f1ad4f355dfa7d5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EditorCallbackViewer.collapse</definition>
+        <argsstring></argsstring>
+        <name>collapse</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_editor_callback_viewer_1ac7d46156cde157b37952cc1fe3bfe6cf" compoundref="_editor_callback_viewer_8cs" startline="108" endline="156">OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_editor_callback_viewer_1ac729a70f8675042a37c8d6cb12d3d371" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Color</type>
+        <definition>Color EditorCallbackViewer.logBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>logBackgroundColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_editor_callback_viewer_1ac7d46156cde157b37952cc1fe3bfe6cf" compoundref="_editor_callback_viewer_8cs" startline="108" endline="156">OnGUI</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_editor_callback_viewer_1a025650780b5d77bfd8c0c81b42c1ad3e" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Color</type>
+        <definition>Color EditorCallbackViewer.disabledColor</definition>
+        <argsstring></argsstring>
+        <name>disabledColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_editor_callback_viewer_1ac7d46156cde157b37952cc1fe3bfe6cf" compoundref="_editor_callback_viewer_8cs" startline="108" endline="156">OnGUI</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_editor_callback_viewer_1ae410483ee44150215c2a9c8bf22fb229" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void EditorCallbackViewer.MenuInitEditorCallbackViewer</definition>
+        <argsstring>()</argsstring>
+        <name>MenuInitEditorCallbackViewer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_editor_callback_viewer_1ab56f19e05bcea1b2f45c8c853d19924d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="37" bodyend="58"/>
+        <references refid="class_editor_callback_viewer_1a9e8cf3f961cc7fb96609ccf9e70b3c4e" compoundref="_editor_callback_viewer_8cs" startline="75" endline="78">OnEditLevelChanged</references>
+        <references refid="class_editor_callback_viewer_1ac3d76e903069058066e18922a9e6f674" compoundref="_editor_callback_viewer_8cs" startline="97" endline="100">OnMeshCompiled</references>
+        <references refid="class_editor_callback_viewer_1ac0edf9bb4d58812ef30c595e5b3b0742" compoundref="_editor_callback_viewer_8cs" startline="70" endline="73">OnProBuilderObjectCreated</references>
+        <references refid="class_editor_callback_viewer_1ac2ef4ace7060c95ae08d0fbdefd70ce5" compoundref="_editor_callback_viewer_8cs" startline="80" endline="85">OnSelectionUpdate</references>
+        <references refid="class_editor_callback_viewer_1a82d4ae8fa6595982d8b27c910ae019d2" compoundref="_editor_callback_viewer_8cs" startline="87" endline="90">OnVertexMovementBegin</references>
+        <references refid="class_editor_callback_viewer_1ae79fd47491e6be3c6350f28c45845b60" compoundref="_editor_callback_viewer_8cs" startline="92" endline="95">OnVertexMovementFinish</references>
+      </memberdef>
+      <memberdef kind="function" id="class_editor_callback_viewer_1a6fe51261baccb419dee77aaa40620337" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.OnDisable</definition>
+        <argsstring>()</argsstring>
+        <name>OnDisable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="60" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="60" bodyend="68"/>
+        <references refid="class_editor_callback_viewer_1a9e8cf3f961cc7fb96609ccf9e70b3c4e" compoundref="_editor_callback_viewer_8cs" startline="75" endline="78">OnEditLevelChanged</references>
+        <references refid="class_editor_callback_viewer_1ac3d76e903069058066e18922a9e6f674" compoundref="_editor_callback_viewer_8cs" startline="97" endline="100">OnMeshCompiled</references>
+        <references refid="class_editor_callback_viewer_1ac0edf9bb4d58812ef30c595e5b3b0742" compoundref="_editor_callback_viewer_8cs" startline="70" endline="73">OnProBuilderObjectCreated</references>
+        <references refid="class_editor_callback_viewer_1ac2ef4ace7060c95ae08d0fbdefd70ce5" compoundref="_editor_callback_viewer_8cs" startline="80" endline="85">OnSelectionUpdate</references>
+        <references refid="class_editor_callback_viewer_1a82d4ae8fa6595982d8b27c910ae019d2" compoundref="_editor_callback_viewer_8cs" startline="87" endline="90">OnVertexMovementBegin</references>
+        <references refid="class_editor_callback_viewer_1ae79fd47491e6be3c6350f28c45845b60" compoundref="_editor_callback_viewer_8cs" startline="92" endline="95">OnVertexMovementFinish</references>
+      </memberdef>
+      <memberdef kind="function" id="class_editor_callback_viewer_1ac0edf9bb4d58812ef30c595e5b3b0742" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.OnProBuilderObjectCreated</definition>
+        <argsstring>(pb_Object pb)</argsstring>
+        <name>OnProBuilderObjectCreated</name>
+        <param>
+          <type>pb_Object</type>
+          <declname>pb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="70" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="70" bodyend="73"/>
+        <references refid="class_editor_callback_viewer_1ac885b45ae397ffd34df6a90ea00e2518" compoundref="_editor_callback_viewer_8cs" startline="102" endline="106">AddLog</references>
+        <referencedby refid="class_editor_callback_viewer_1a6fe51261baccb419dee77aaa40620337" compoundref="_editor_callback_viewer_8cs" startline="60" endline="68">OnDisable</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ab56f19e05bcea1b2f45c8c853d19924d" compoundref="_editor_callback_viewer_8cs" startline="37" endline="58">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_editor_callback_viewer_1a9e8cf3f961cc7fb96609ccf9e70b3c4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.OnEditLevelChanged</definition>
+        <argsstring>(int editLevel)</argsstring>
+        <name>OnEditLevelChanged</name>
+        <param>
+          <type>int</type>
+          <declname>editLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="75" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="75" bodyend="78"/>
+        <references refid="class_editor_callback_viewer_1ac885b45ae397ffd34df6a90ea00e2518" compoundref="_editor_callback_viewer_8cs" startline="102" endline="106">AddLog</references>
+        <referencedby refid="class_editor_callback_viewer_1a6fe51261baccb419dee77aaa40620337" compoundref="_editor_callback_viewer_8cs" startline="60" endline="68">OnDisable</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ab56f19e05bcea1b2f45c8c853d19924d" compoundref="_editor_callback_viewer_8cs" startline="37" endline="58">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_editor_callback_viewer_1ac2ef4ace7060c95ae08d0fbdefd70ce5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.OnSelectionUpdate</definition>
+        <argsstring>(pb_Object[] selection)</argsstring>
+        <name>OnSelectionUpdate</name>
+        <param>
+          <type>pb_Object[]</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="80" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="80" bodyend="85"/>
+        <references refid="class_editor_callback_viewer_1ac885b45ae397ffd34df6a90ea00e2518" compoundref="_editor_callback_viewer_8cs" startline="102" endline="106">AddLog</references>
+        <referencedby refid="class_editor_callback_viewer_1a6fe51261baccb419dee77aaa40620337" compoundref="_editor_callback_viewer_8cs" startline="60" endline="68">OnDisable</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ab56f19e05bcea1b2f45c8c853d19924d" compoundref="_editor_callback_viewer_8cs" startline="37" endline="58">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_editor_callback_viewer_1a82d4ae8fa6595982d8b27c910ae019d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.OnVertexMovementBegin</definition>
+        <argsstring>(pb_Object[] selection)</argsstring>
+        <name>OnVertexMovementBegin</name>
+        <param>
+          <type>pb_Object[]</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="87" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="87" bodyend="90"/>
+        <references refid="class_editor_callback_viewer_1ac885b45ae397ffd34df6a90ea00e2518" compoundref="_editor_callback_viewer_8cs" startline="102" endline="106">AddLog</references>
+        <referencedby refid="class_editor_callback_viewer_1a6fe51261baccb419dee77aaa40620337" compoundref="_editor_callback_viewer_8cs" startline="60" endline="68">OnDisable</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ab56f19e05bcea1b2f45c8c853d19924d" compoundref="_editor_callback_viewer_8cs" startline="37" endline="58">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_editor_callback_viewer_1ae79fd47491e6be3c6350f28c45845b60" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.OnVertexMovementFinish</definition>
+        <argsstring>(pb_Object[] selection)</argsstring>
+        <name>OnVertexMovementFinish</name>
+        <param>
+          <type>pb_Object[]</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="92" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="92" bodyend="95"/>
+        <references refid="class_editor_callback_viewer_1ac885b45ae397ffd34df6a90ea00e2518" compoundref="_editor_callback_viewer_8cs" startline="102" endline="106">AddLog</references>
+        <referencedby refid="class_editor_callback_viewer_1a6fe51261baccb419dee77aaa40620337" compoundref="_editor_callback_viewer_8cs" startline="60" endline="68">OnDisable</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ab56f19e05bcea1b2f45c8c853d19924d" compoundref="_editor_callback_viewer_8cs" startline="37" endline="58">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_editor_callback_viewer_1ac3d76e903069058066e18922a9e6f674" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.OnMeshCompiled</definition>
+        <argsstring>(pb_Object pb, Mesh mesh)</argsstring>
+        <name>OnMeshCompiled</name>
+        <param>
+          <type>pb_Object</type>
+          <declname>pb</declname>
+        </param>
+        <param>
+          <type>Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="97" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="97" bodyend="100"/>
+        <references refid="class_editor_callback_viewer_1ac885b45ae397ffd34df6a90ea00e2518" compoundref="_editor_callback_viewer_8cs" startline="102" endline="106">AddLog</references>
+        <referencedby refid="class_editor_callback_viewer_1a6fe51261baccb419dee77aaa40620337" compoundref="_editor_callback_viewer_8cs" startline="60" endline="68">OnDisable</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ab56f19e05bcea1b2f45c8c853d19924d" compoundref="_editor_callback_viewer_8cs" startline="37" endline="58">OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_editor_callback_viewer_1ac885b45ae397ffd34df6a90ea00e2518" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.AddLog</definition>
+        <argsstring>(string summary)</argsstring>
+        <name>AddLog</name>
+        <param>
+          <type>string</type>
+          <declname>summary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="102" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="102" bodyend="106"/>
+        <referencedby refid="class_editor_callback_viewer_1a9e8cf3f961cc7fb96609ccf9e70b3c4e" compoundref="_editor_callback_viewer_8cs" startline="75" endline="78">OnEditLevelChanged</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ac3d76e903069058066e18922a9e6f674" compoundref="_editor_callback_viewer_8cs" startline="97" endline="100">OnMeshCompiled</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ac0edf9bb4d58812ef30c595e5b3b0742" compoundref="_editor_callback_viewer_8cs" startline="70" endline="73">OnProBuilderObjectCreated</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ac2ef4ace7060c95ae08d0fbdefd70ce5" compoundref="_editor_callback_viewer_8cs" startline="80" endline="85">OnSelectionUpdate</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1a82d4ae8fa6595982d8b27c910ae019d2" compoundref="_editor_callback_viewer_8cs" startline="87" endline="90">OnVertexMovementBegin</referencedby>
+        <referencedby refid="class_editor_callback_viewer_1ae79fd47491e6be3c6350f28c45845b60" compoundref="_editor_callback_viewer_8cs" startline="92" endline="95">OnVertexMovementFinish</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_editor_callback_viewer_1ac7d46156cde157b37952cc1fe3bfe6cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EditorCallbackViewer.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="108" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="108" bodyend="156"/>
+        <references refid="class_editor_callback_viewer_1aab5926a585ec77a61f1ad4f355dfa7d5" compoundref="_editor_callback_viewer_8cs" startline="19">collapse</references>
+        <references refid="class_editor_callback_viewer_1a025650780b5d77bfd8c0c81b42c1ad3e" compoundref="_editor_callback_viewer_8cs" startline="30">disabledColor</references>
+        <references refid="class_editor_callback_viewer_1ac729a70f8675042a37c8d6cb12d3d371" compoundref="_editor_callback_viewer_8cs" startline="22">logBackgroundColor</references>
+        <references refid="class_editor_callback_viewer_1afdc2a5762ae92408014012ef9ddadb6d" compoundref="_editor_callback_viewer_8cs" startline="17">logs</references>
+        <references refid="class_editor_callback_viewer_1a39908d91d99b2c5af4eef08fadbc4b13" compoundref="_editor_callback_viewer_8cs" startline="18">scroll</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="208">
+        <label>EditorWindow</label>
+      </node>
+      <node id="207">
+        <label>EditorCallbackViewer</label>
+        <link refid="class_editor_callback_viewer"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="210">
+        <label>EditorWindow</label>
+      </node>
+      <node id="209">
+        <label>EditorCallbackViewer</label>
+        <link refid="class_editor_callback_viewer"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor/EditorCallbackViewer.cs" bodystart="9" bodyend="157"/>
+    <listofallmembers>
+      <member refid="class_editor_callback_viewer_1ac885b45ae397ffd34df6a90ea00e2518" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>AddLog</name></member>
+      <member refid="class_editor_callback_viewer_1aab5926a585ec77a61f1ad4f355dfa7d5" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>collapse</name></member>
+      <member refid="class_editor_callback_viewer_1a025650780b5d77bfd8c0c81b42c1ad3e" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>disabledColor</name></member>
+      <member refid="class_editor_callback_viewer_1ac729a70f8675042a37c8d6cb12d3d371" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>logBackgroundColor</name></member>
+      <member refid="class_editor_callback_viewer_1afdc2a5762ae92408014012ef9ddadb6d" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>logs</name></member>
+      <member refid="class_editor_callback_viewer_1ae410483ee44150215c2a9c8bf22fb229" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>MenuInitEditorCallbackViewer</name></member>
+      <member refid="class_editor_callback_viewer_1a6fe51261baccb419dee77aaa40620337" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>OnDisable</name></member>
+      <member refid="class_editor_callback_viewer_1a9e8cf3f961cc7fb96609ccf9e70b3c4e" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>OnEditLevelChanged</name></member>
+      <member refid="class_editor_callback_viewer_1ab56f19e05bcea1b2f45c8c853d19924d" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>OnEnable</name></member>
+      <member refid="class_editor_callback_viewer_1ac7d46156cde157b37952cc1fe3bfe6cf" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>OnGUI</name></member>
+      <member refid="class_editor_callback_viewer_1ac3d76e903069058066e18922a9e6f674" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>OnMeshCompiled</name></member>
+      <member refid="class_editor_callback_viewer_1ac0edf9bb4d58812ef30c595e5b3b0742" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>OnProBuilderObjectCreated</name></member>
+      <member refid="class_editor_callback_viewer_1ac2ef4ace7060c95ae08d0fbdefd70ce5" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>OnSelectionUpdate</name></member>
+      <member refid="class_editor_callback_viewer_1a82d4ae8fa6595982d8b27c910ae019d2" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>OnVertexMovementBegin</name></member>
+      <member refid="class_editor_callback_viewer_1ae79fd47491e6be3c6350f28c45845b60" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>OnVertexMovementFinish</name></member>
+      <member refid="class_editor_callback_viewer_1a39908d91d99b2c5af4eef08fadbc4b13" prot="private" virt="non-virtual"><scope>EditorCallbackViewer</scope><name>scroll</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

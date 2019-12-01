@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lib_noise_1_1_module_base" kind="class" prot="public" abstract="yes">
+    <compoundname>LibNoise::ModuleBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_generator_1_1_billow" prot="public" virt="non-virtual">LibNoise.Generator.Billow</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_generator_1_1_checker" prot="public" virt="non-virtual">LibNoise.Generator.Checker</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_generator_1_1_const" prot="public" virt="non-virtual">LibNoise.Generator.Const</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_generator_1_1_cylinders" prot="public" virt="non-virtual">LibNoise.Generator.Cylinders</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_generator_1_1_perlin" prot="public" virt="non-virtual">LibNoise.Generator.Perlin</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_generator_1_1_ridged_multifractal" prot="public" virt="non-virtual">LibNoise.Generator.RidgedMultifractal</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_generator_1_1_spheres" prot="public" virt="non-virtual">LibNoise.Generator.Spheres</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_generator_1_1_voronoi" prot="public" virt="non-virtual">LibNoise.Generator.Voronoi</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_abs" prot="public" virt="non-virtual">LibNoise.Operator.Abs</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_add" prot="public" virt="non-virtual">LibNoise.Operator.Add</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_blend" prot="public" virt="non-virtual">LibNoise.Operator.Blend</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_cache" prot="public" virt="non-virtual">LibNoise.Operator.Cache</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_clamp" prot="public" virt="non-virtual">LibNoise.Operator.Clamp</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_curve" prot="public" virt="non-virtual">LibNoise.Operator.Curve</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_displace" prot="public" virt="non-virtual">LibNoise.Operator.Displace</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_exponent" prot="public" virt="non-virtual">LibNoise.Operator.Exponent</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_invert" prot="public" virt="non-virtual">LibNoise.Operator.Invert</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_max" prot="public" virt="non-virtual">LibNoise.Operator.Max</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_min" prot="public" virt="non-virtual">LibNoise.Operator.Min</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_multiply" prot="public" virt="non-virtual">LibNoise.Operator.Multiply</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_power" prot="public" virt="non-virtual">LibNoise.Operator.Power</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_rotate" prot="public" virt="non-virtual">LibNoise.Operator.Rotate</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_scale" prot="public" virt="non-virtual">LibNoise.Operator.Scale</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_scale_bias" prot="public" virt="non-virtual">LibNoise.Operator.ScaleBias</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_select" prot="public" virt="non-virtual">LibNoise.Operator.Select</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_subtract" prot="public" virt="non-virtual">LibNoise.Operator.Subtract</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_terrace" prot="public" virt="non-virtual">LibNoise.Operator.Terrace</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_translate" prot="public" virt="non-virtual">LibNoise.Operator.Translate</derivedcompoundref>
+    <derivedcompoundref refid="class_lib_noise_1_1_operator_1_1_turbulence" prot="public" virt="non-virtual">LibNoise.Operator.Turbulence</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_module_base_1a9585e85a1f53257d15c8e937a5a1ab2d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref>[]</type>
+        <definition>ModuleBase [] LibNoise.ModuleBase._modules</definition>
+        <argsstring></argsstring>
+        <name>_modules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_module_base_1a564dbb55fb2a28d5dc7798849508ab2b" compoundref="_module_base_8cs" startline="171" endline="183">LibNoise.ModuleBase.Disposing</referencedby>
+        <referencedby refid="class_lib_noise_1_1_module_base_1a79db52ea9d135eff82bb3e3213fd668c" compoundref="_module_base_8cs" startline="40" endline="46">LibNoise.ModuleBase.ModuleBase</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_module_base_1a0fb9bd75bb79ab2ef4f7f465b9b2603b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LibNoise.ModuleBase._disposed</definition>
+        <argsstring></argsstring>
+        <name>_disposed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="145" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="145" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_module_base_1a0f281ab3bfc1fe8aef486a80cbe4db01" compoundref="_module_base_8cs" startline="158" endline="165">LibNoise.ModuleBase.Dispose</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lib_noise_1_1_module_base_1a82ba7cc8a454de882e305ebb0e9e2e1c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+        <definition>virtual ModuleBase LibNoise.ModuleBase.this[int index]</definition>
+        <argsstring></argsstring>
+        <name>this[int index]</name>
+        <briefdescription>
+<para>Gets or sets a source module by index. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the source module to aquire.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The requested source module.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="57" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_module_base_1a2037b14c6b82fc7033224b2a31faf8d4" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref>[]</type>
+        <definition>ModuleBase [] LibNoise.ModuleBase.Modules</definition>
+        <argsstring></argsstring>
+        <name>Modules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="91" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_module_base_1a3f901b6cb96ad011f20f1ce922ff67fc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int LibNoise.ModuleBase.SourceModuleCount</definition>
+        <argsstring></argsstring>
+        <name>SourceModuleCount</name>
+        <briefdescription>
+<para>Gets the number of source modules required by this noise module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="99" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_module_base_1adcf3d5aa2957501de0577a6a8317c2d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool LibNoise.ModuleBase.IsDisposed</definition>
+        <argsstring></argsstring>
+        <name>IsDisposed</name>
+        <briefdescription>
+<para>Gets a value whether the object is disposed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="150" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_module_base_1a79db52ea9d135eff82bb3e3213fd668c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.ModuleBase.ModuleBase</definition>
+        <argsstring>(int count)</argsstring>
+        <name>ModuleBase</name>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of Helpers. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of source modules.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="40" bodyend="46"/>
+        <references refid="class_lib_noise_1_1_module_base_1a9585e85a1f53257d15c8e937a5a1ab2d" compoundref="_module_base_8cs" startline="30">LibNoise.ModuleBase._modules</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_module_base_1a564dbb55fb2a28d5dc7798849508ab2b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool LibNoise.ModuleBase.Disposing</definition>
+        <argsstring>()</argsstring>
+        <name>Disposing</name>
+        <briefdescription>
+<para>Immediately releases the unmanaged resources used by this object. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the object is completely disposed.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="171" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="171" bodyend="183"/>
+        <references refid="class_lib_noise_1_1_module_base_1a9585e85a1f53257d15c8e937a5a1ab2d" compoundref="_module_base_8cs" startline="30">LibNoise.ModuleBase._modules</references>
+        <referencedby refid="class_lib_noise_1_1_module_base_1a0f281ab3bfc1fe8aef486a80cbe4db01" compoundref="_module_base_8cs" startline="158" endline="165">LibNoise.ModuleBase.Dispose</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_module_base_1abb3f06725165dc1fda63de23b68f408b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract double</type>
+        <definition>abstract double LibNoise.ModuleBase.GetValue</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>GetValue</name>
+        <reimplementedby refid="class_lib_noise_1_1_generator_1_1_checker_1a26a849564ad34925c60be7b4529d4263">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_invert_1ab9127cf738be0293bfb21330357f7646">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_abs_1a333592d3dab0c19b2ec6788db66c2948">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_subtract_1af0d3583b9fdbde5da9197c52fbfb6e8c">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_multiply_1ac7f485da38c98500bebdec037abd09ba">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_add_1aa2050ab0e8177b28a092d11b7e4f9163">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_power_1a307d65a6817388814f287d90e68ce6f4">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_min_1a37ad950da95db819e1407d06e0758256">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_max_1a8a7f7064e51b54b3337b2bc9134f8c35">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_generator_1_1_const_1a8381b39f997610c7a878cb0f703bcb7e">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_generator_1_1_spheres_1a320ec44c2f92dd08dcb573e6cc291dc6">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_generator_1_1_cylinders_1af6be6375a1d1e4ce7c78852abd298f12">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_blend_1a219527ab0e28be846b61a51cb33634d8">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_cache_1aec2e48d54d3675a94034989eae1a9052">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_scale_bias_1a9a166fa396cba8b414da3811695c07cf">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_exponent_1aa7f60dbc0968a4a612cddb0806483814">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_displace_1a877879477548d3f23032bfd37d7c8a3a">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_translate_1a2e440441f2d8258a7f93dc6306947a94">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_scale_1ab2e2fbf1fda90a5af5839f79f9ab040b">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_generator_1_1_voronoi_1a3ce1d73faa4dd781a6d6726848dd5659">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_curve_1a82dfe40676ac017ae05b5c9e11cdbb74">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_clamp_1aa9b88bce92a24ba0d6fbb58fd8a1d44f">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_generator_1_1_perlin_1ad665421f8002cebae781765259a1152d">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_generator_1_1_billow_1a39be14a8776016efc89673bd86df9ee3">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_generator_1_1_ridged_multifractal_1a4cd3b3c6b58a0205a96fc4a8359863ae">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_terrace_1ac7d6b62e2dea66e5b3cbf5a02784e334">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_rotate_1a4dec3151c55f9e74eeec33e823da2949">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_select_1a16ab75303a00d00756fe9ec740184aef">GetValue</reimplementedby>
+        <reimplementedby refid="class_lib_noise_1_1_operator_1_1_turbulence_1af729e56ef63cc48cd7e85f75d15dc717">GetValue</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Returns the output value for the given input coordinates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the x-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the y-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the z-axis.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting output value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="115" column="1"/>
+        <referencedby refid="class_lib_noise_1_1_module_base_1aea8b10f91816c21d0910ebf6aa58fde6" compoundref="_module_base_8cs" startline="122" endline="125">LibNoise.ModuleBase.GetValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_module_base_1aea8b10f91816c21d0910ebf6aa58fde6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double LibNoise.ModuleBase.GetValue</definition>
+        <argsstring>(Vector3 coordinate)</argsstring>
+        <name>GetValue</name>
+        <param>
+          <type>Vector3</type>
+          <declname>coordinate</declname>
+        </param>
+        <briefdescription>
+<para>Returns the output value for the given input coordinates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting output value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="122" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="122" bodyend="125"/>
+        <references refid="class_lib_noise_1_1_module_base_1abb3f06725165dc1fda63de23b68f408b">LibNoise.ModuleBase.GetValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_module_base_1af442fe2cbe675fbebc9c54ec51f6c2ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double LibNoise.ModuleBase.GetValue</definition>
+        <argsstring>(ref Vector3 coordinate)</argsstring>
+        <name>GetValue</name>
+        <param>
+          <type>ref Vector3</type>
+          <declname>coordinate</declname>
+        </param>
+        <briefdescription>
+<para>Returns the output value for the given input coordinates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>coordinate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting output value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="132" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="132" bodyend="135"/>
+        <references refid="class_lib_noise_1_1_module_base_1abb3f06725165dc1fda63de23b68f408b">LibNoise.ModuleBase.GetValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_module_base_1a0f281ab3bfc1fe8aef486a80cbe4db01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LibNoise.ModuleBase.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+<para>Immediately releases the unmanaged resources used by this object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="158" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="158" bodyend="165"/>
+        <references refid="class_lib_noise_1_1_module_base_1a0fb9bd75bb79ab2ef4f7f465b9b2603b" compoundref="_module_base_8cs" startline="145">LibNoise.ModuleBase._disposed</references>
+        <references refid="class_lib_noise_1_1_module_base_1a564dbb55fb2a28d5dc7798849508ab2b" compoundref="_module_base_8cs" startline="171" endline="183">LibNoise.ModuleBase.Disposing</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for noise modules. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="412">
+        <label>LibNoise.Operator.Subtract</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_subtract"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="402">
+        <label>LibNoise.Operator.Exponent</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_exponent"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>LibNoise.Operator.Abs</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_abs"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="411">
+        <label>LibNoise.Operator.Select</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_select"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="390">
+        <label>LibNoise.Generator.Cylinders</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_cylinders"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>LibNoise.ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="386" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="396">
+        <label>LibNoise.Operator.Add</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_add"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>LibNoise.Operator.Max</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_max"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>LibNoise.Operator.Translate</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_translate"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>LibNoise.Operator.Terrace</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_terrace"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>LibNoise.Generator.Const</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_const"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>LibNoise.Generator.Perlin</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_perlin"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>LibNoise.Operator.Min</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_min"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>LibNoise.Operator.Power</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_power"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="386">
+        <label>IDisposable</label>
+      </node>
+      <node id="398">
+        <label>LibNoise.Operator.Cache</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_cache"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="394">
+        <label>LibNoise.Generator.Voronoi</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_voronoi"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="401">
+        <label>LibNoise.Operator.Displace</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_displace"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>LibNoise.Operator.Turbulence</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_turbulence"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="403">
+        <label>LibNoise.Operator.Invert</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_invert"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>LibNoise.Operator.ScaleBias</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_scale_bias"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="387">
+        <label>LibNoise.Generator.Billow</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_billow"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>LibNoise.Operator.Blend</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_blend"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="399">
+        <label>LibNoise.Operator.Clamp</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_clamp"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>LibNoise.Operator.Multiply</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_multiply"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>LibNoise.Operator.Curve</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_curve"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="392">
+        <label>LibNoise.Generator.RidgedMultifractal</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_ridged_multifractal"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>LibNoise.Generator.Checker</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_checker"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>LibNoise.Operator.Scale</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_scale"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="408">
+        <label>LibNoise.Operator.Rotate</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_rotate"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>LibNoise.Generator.Spheres</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_spheres"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="416">
+        <label>LibNoise.ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="416" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+      <node id="417">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="26" bodyend="186"/>
+    <listofallmembers>
+      <member refid="class_lib_noise_1_1_module_base_1a0fb9bd75bb79ab2ef4f7f465b9b2603b" prot="private" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>_disposed</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a9585e85a1f53257d15c8e937a5a1ab2d" prot="private" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>_modules</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a0f281ab3bfc1fe8aef486a80cbe4db01" prot="public" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>Dispose</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a564dbb55fb2a28d5dc7798849508ab2b" prot="protected" virt="virtual"><scope>LibNoise::ModuleBase</scope><name>Disposing</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1abb3f06725165dc1fda63de23b68f408b" prot="public" virt="pure-virtual"><scope>LibNoise::ModuleBase</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1aea8b10f91816c21d0910ebf6aa58fde6" prot="public" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1af442fe2cbe675fbebc9c54ec51f6c2ee" prot="public" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1adcf3d5aa2957501de0577a6a8317c2d5" prot="public" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>IsDisposed</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a79db52ea9d135eff82bb3e3213fd668c" prot="protected" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>ModuleBase</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a2037b14c6b82fc7033224b2a31faf8d4" prot="protected" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>Modules</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a3f901b6cb96ad011f20f1ce922ff67fc" prot="public" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>SourceModuleCount</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a82ba7cc8a454de882e305ebb0e9e2e1c" prot="public" virt="non-virtual"><scope>LibNoise::ModuleBase</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

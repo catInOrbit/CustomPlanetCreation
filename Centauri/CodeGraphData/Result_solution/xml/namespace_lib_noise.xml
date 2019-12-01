@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_lib_noise" kind="namespace">
+    <compoundname>LibNoise</compoundname>
+    <innerclass refid="class_lib_noise_1_1_gradient_presets" prot="public">LibNoise::GradientPresets</innerclass>
+    <innerclass refid="class_lib_noise_1_1_module_base" prot="public">LibNoise::ModuleBase</innerclass>
+    <innerclass refid="class_lib_noise_1_1_noise2_d" prot="public">LibNoise::Noise2D</innerclass>
+    <innerclass refid="class_lib_noise_1_1_utils" prot="package">LibNoise::Utils</innerclass>
+    <innernamespace refid="namespace_lib_noise_1_1_generator">LibNoise::Generator</innernamespace>
+    <innernamespace refid="namespace_lib_noise_1_1_operator">LibNoise::Operator</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_lib_noise_1ab253d2180e71b8b4b51e250163ca0e27" prot="public" static="no">
+        <name>QualityMode</name>
+        <enumvalue id="namespace_lib_noise_1ab253d2180e71b8b4b51e250163ca0e27a28d0edd045e05cf5af64e35ae0c4c6ef" prot="public">
+          <name>Low</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_lib_noise_1ab253d2180e71b8b4b51e250163ca0e27a87f8a6ab85c9ced3702b4ea641ad4bb5" prot="public">
+          <name>Medium</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_lib_noise_1ab253d2180e71b8b4b51e250163ca0e27a655d20c1ca69519ca647684edbb2db35" prot="public">
+          <name>High</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Defines a collection of quality modes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/ModuleBase.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_resources_distribution" kind="class" prot="public">
+    <compoundname>ResourcesDistribution</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_resources_distribution_1af2a740dfdcd34de0e0887af6ab2d0ab6" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform ResourcesDistribution.pointsParent</definition>
+        <argsstring></argsstring>
+        <name>pointsParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" compoundref="_resources_distribution_8cs" startline="50" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ResourcesDistribution.accuracy</definition>
+        <argsstring></argsstring>
+        <name>accuracy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_resources_distribution_1a47824d898369f5b087fa57f23c4b4084" compoundref="_resources_distribution_8cs" startline="76" endline="85">HelperGenerateCirclePoints</referencedby>
+        <referencedby refid="class_resources_distribution_1a5ccca4abd6976d52e42b6eb424a5c158" compoundref="_resources_distribution_8cs" startline="87" endline="101">SpawnPoints</referencedby>
+        <referencedby refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" compoundref="_resources_distribution_8cs" startline="50" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_resources_distribution_1a8f4cc6fb5566a843d8709743a7269b3a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ResourcesDistribution.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_resources_distribution_1af82b2ad2554e79e15e7303e309245f09" prot="public" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] ResourcesDistribution.spawnPoints</definition>
+        <argsstring></argsstring>
+        <name>spawnPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" compoundref="_resources_distribution_8cs" startline="50" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_resources_distribution_1a51e7ea77ddb499d982ed185d3a28ffc9" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ResourcesDistribution.resourcePoint</definition>
+        <argsstring></argsstring>
+        <name>resourcePoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" compoundref="_resources_distribution_8cs" startline="50" endline="69">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_resources_distribution_1a4fa23b5a7a26264a63ce2d043afb894b" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject ResourcesDistribution.surfacePoint</definition>
+        <argsstring></argsstring>
+        <name>surfacePoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" compoundref="_resources_distribution_8cs" startline="50" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_resources_distribution_1a8f4cb7cdad2ca7dc7f8076869cb06431" prot="private" static="no" mutable="no">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>List&lt;Vector3&gt; ResourcesDistribution.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <initializer>= new List&lt;Vector3&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_resources_distribution_1ac6222afda6b7381be9b6f53852832f9c" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_planet_resouces" kindref="compound">PlanetResouces</ref> &gt;</type>
+        <definition>Dictionary&lt;string, PlanetResouces&gt; ResourcesDistribution.pointsAndResources</definition>
+        <argsstring></argsstring>
+        <name>pointsAndResources</name>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_planet_resouces" kindref="compound">PlanetResouces</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_resources_distribution_1ab34dc5ace70e1a8b5cc9f87aac299acd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; Vector3 &gt;</type>
+        <definition>List&lt;Vector3&gt; ResourcesDistribution.Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_resources_distribution_1a5ccca4abd6976d52e42b6eb424a5c158" compoundref="_resources_distribution_8cs" startline="87" endline="101">SpawnPoints</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_resources_distribution_1ab0d1e39534981c720991f85c75532d49" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; string, <ref refid="class_planet_resouces" kindref="compound">PlanetResouces</ref> &gt;</type>
+        <definition>Dictionary&lt;string, PlanetResouces&gt; ResourcesDistribution.PointsAndResources</definition>
+        <argsstring></argsstring>
+        <name>PointsAndResources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_resources_distribution_1a7e7cb393790bc1e75db7489c60cedc19" compoundref="_resources_distribution_8cs" startline="119" endline="122">GetValueFromDictionary</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResourcesDistribution.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="50" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="50" bodyend="69"/>
+        <references refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" compoundref="_resources_distribution_8cs" startline="14">accuracy</references>
+        <references refid="class_resources_distribution_1a47824d898369f5b087fa57f23c4b4084" compoundref="_resources_distribution_8cs" startline="76" endline="85">HelperGenerateCirclePoints</references>
+        <references refid="class_resources_distribution_1a91cf1a7cee9c109557968371d7af7e3c" compoundref="_resources_distribution_8cs" startline="103" endline="107">InstantiatePoint</references>
+        <references refid="class_resources_distribution_1af2a740dfdcd34de0e0887af6ab2d0ab6" compoundref="_resources_distribution_8cs" startline="11">pointsParent</references>
+        <references refid="class_resources_distribution_1a51e7ea77ddb499d982ed185d3a28ffc9" compoundref="_resources_distribution_8cs" startline="17">resourcePoint</references>
+        <references refid="class_resources_distribution_1af82b2ad2554e79e15e7303e309245f09" compoundref="_resources_distribution_8cs" startline="16">spawnPoints</references>
+        <references refid="class_resources_distribution_1a5ccca4abd6976d52e42b6eb424a5c158" compoundref="_resources_distribution_8cs" startline="87" endline="101">SpawnPoints</references>
+        <references refid="class_resources_distribution_1a4fa23b5a7a26264a63ce2d043afb894b" compoundref="_resources_distribution_8cs" startline="19">surfacePoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_resources_distribution_1a867fb9ba9783d216c5b546cf6aeea95a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResourcesDistribution.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="71" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_resources_distribution_1a47824d898369f5b087fa57f23c4b4084" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResourcesDistribution.HelperGenerateCirclePoints</definition>
+        <argsstring>(int accuracy)</argsstring>
+        <name>HelperGenerateCirclePoints</name>
+        <param>
+          <type>int</type>
+          <declname>accuracy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="76" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="76" bodyend="85"/>
+        <references refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" compoundref="_resources_distribution_8cs" startline="14">accuracy</references>
+        <referencedby refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" compoundref="_resources_distribution_8cs" startline="50" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_resources_distribution_1a91cf1a7cee9c109557968371d7af7e3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ResourcesDistribution.InstantiatePoint</definition>
+        <argsstring>(GameObject point, Vector3[] positions, Transform parent)</argsstring>
+        <name>InstantiatePoint</name>
+        <param>
+          <type>GameObject</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>Vector3[]</type>
+          <declname>positions</declname>
+        </param>
+        <param>
+          <type>Transform</type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="103" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="103" bodyend="107"/>
+        <referencedby refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" compoundref="_resources_distribution_8cs" startline="50" endline="69">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_resources_distribution_1a5ccca4abd6976d52e42b6eb424a5c158" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] ResourcesDistribution.SpawnPoints</definition>
+        <argsstring>(int accuracy, int spawnRange)</argsstring>
+        <name>SpawnPoints</name>
+        <param>
+          <type>int</type>
+          <declname>accuracy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>spawnRange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="87" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="87" bodyend="101"/>
+        <references refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" compoundref="_resources_distribution_8cs" startline="14">accuracy</references>
+        <references refid="class_resources_distribution_1ab34dc5ace70e1a8b5cc9f87aac299acd" compoundref="_resources_distribution_8cs" startline="26">Points</references>
+        <referencedby refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" compoundref="_resources_distribution_8cs" startline="50" endline="69">Start</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_resources_distribution_1afc8a421ad1afb295c96d73b8342cea99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ResourcesDistribution.PlayerIsInResourcesZone</definition>
+        <argsstring>(GameObject player, Vector3[] points)</argsstring>
+        <name>PlayerIsInResourcesZone</name>
+        <param>
+          <type>GameObject</type>
+          <declname>player</declname>
+        </param>
+        <param>
+          <type>Vector3[]</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="110" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="110" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_resources_distribution_1a7e7cb393790bc1e75db7489c60cedc19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_planet_resouces" kindref="compound">PlanetResouces</ref></type>
+        <definition>PlanetResouces ResourcesDistribution.GetValueFromDictionary</definition>
+        <argsstring>(string keyName)</argsstring>
+        <name>GetValueFromDictionary</name>
+        <param>
+          <type>string</type>
+          <declname>keyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="119" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="119" bodyend="122"/>
+        <references refid="class_resources_distribution_1ab0d1e39534981c720991f85c75532d49" compoundref="_resources_distribution_8cs" startline="38">PointsAndResources</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="563">
+        <label>ResourcesDistribution</label>
+        <link refid="class_resources_distribution"/>
+        <childnode refid="564" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="564">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="565">
+        <label>ResourcesDistribution</label>
+        <link refid="class_resources_distribution"/>
+        <childnode refid="566" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="566">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Planets/ResourcesDistribution.cs" bodystart="6" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_resources_distribution_1a57544cf5677964231ce174e163cba6ce" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>accuracy</name></member>
+      <member refid="class_resources_distribution_1a7e7cb393790bc1e75db7489c60cedc19" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>GetValueFromDictionary</name></member>
+      <member refid="class_resources_distribution_1a47824d898369f5b087fa57f23c4b4084" prot="private" virt="non-virtual"><scope>ResourcesDistribution</scope><name>HelperGenerateCirclePoints</name></member>
+      <member refid="class_resources_distribution_1a91cf1a7cee9c109557968371d7af7e3c" prot="private" virt="non-virtual"><scope>ResourcesDistribution</scope><name>InstantiatePoint</name></member>
+      <member refid="class_resources_distribution_1a8f4cc6fb5566a843d8709743a7269b3a" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>player</name></member>
+      <member refid="class_resources_distribution_1afc8a421ad1afb295c96d73b8342cea99" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>PlayerIsInResourcesZone</name></member>
+      <member refid="class_resources_distribution_1ab34dc5ace70e1a8b5cc9f87aac299acd" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>Points</name></member>
+      <member refid="class_resources_distribution_1a8f4cb7cdad2ca7dc7f8076869cb06431" prot="private" virt="non-virtual"><scope>ResourcesDistribution</scope><name>points</name></member>
+      <member refid="class_resources_distribution_1ac6222afda6b7381be9b6f53852832f9c" prot="private" virt="non-virtual"><scope>ResourcesDistribution</scope><name>pointsAndResources</name></member>
+      <member refid="class_resources_distribution_1ab0d1e39534981c720991f85c75532d49" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>PointsAndResources</name></member>
+      <member refid="class_resources_distribution_1af2a740dfdcd34de0e0887af6ab2d0ab6" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>pointsParent</name></member>
+      <member refid="class_resources_distribution_1a51e7ea77ddb499d982ed185d3a28ffc9" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>resourcePoint</name></member>
+      <member refid="class_resources_distribution_1a5ccca4abd6976d52e42b6eb424a5c158" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>SpawnPoints</name></member>
+      <member refid="class_resources_distribution_1af82b2ad2554e79e15e7303e309245f09" prot="public" virt="non-virtual"><scope>ResourcesDistribution</scope><name>spawnPoints</name></member>
+      <member refid="class_resources_distribution_1aecb07f898f1223d785795f7b379ef73f" prot="private" virt="non-virtual"><scope>ResourcesDistribution</scope><name>Start</name></member>
+      <member refid="class_resources_distribution_1a4fa23b5a7a26264a63ce2d043afb894b" prot="private" virt="non-virtual"><scope>ResourcesDistribution</scope><name>surfacePoint</name></member>
+      <member refid="class_resources_distribution_1a867fb9ba9783d216c5b546cf6aeea95a" prot="private" virt="non-virtual"><scope>ResourcesDistribution</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

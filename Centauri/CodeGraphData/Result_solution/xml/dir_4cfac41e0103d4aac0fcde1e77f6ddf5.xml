@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4cfac41e0103d4aac0fcde1e77f6ddf5" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers</compoundname>
+    <innerfile refid="_orbit_line_renderer_test_8cs">OrbitLineRendererTest.cs</innerfile>
+    <innerfile refid="_rendezvous_display_8cs">RendezvousDisplay.cs</innerfile>
+    <innerfile refid="_test_8cs">Test.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/"/>
+  </compounddef>
+</doxygen>

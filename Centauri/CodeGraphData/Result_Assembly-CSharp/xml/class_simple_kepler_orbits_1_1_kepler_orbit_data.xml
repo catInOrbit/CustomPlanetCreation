@@ -1,0 +1,1483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_simple_kepler_orbits_1_1_kepler_orbit_data" kind="class" prot="public">
+    <compoundname>SimpleKeplerOrbits::KeplerOrbitData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a358a8e7a54fcfb5ff6e3ee5d8da8ed2d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.GravConst</definition>
+        <argsstring></argsstring>
+        <name>GravConst</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="21" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" compoundref="_kepler_orbit_data_8cs" startline="159" endline="169">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="532" endline="575">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2c05e2b9af2f2934dd1fd560ad8f404d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.EclipticNormal</definition>
+        <argsstring></argsstring>
+        <name>EclipticNormal</name>
+        <initializer>= new <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref>(0, 0, 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="22" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" compoundref="_kepler_orbit_data_8cs" startline="430" endline="458">SimpleKeplerOrbits.KeplerOrbitData.GetAscendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" compoundref="_kepler_orbit_data_8cs" startline="482" endline="510">SimpleKeplerOrbits.KeplerOrbitData.GetDescendingNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac643550a2313b63026a7bbf4c724f2e5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.EclipticUp</definition>
+        <argsstring></argsstring>
+        <name>EclipticUp</name>
+        <initializer>= new <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref>(0, 1, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="23" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ad885ae56c6ab7d6a210d0e39ede19fec" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="25" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a7f110d5c386a6c441a3a980392d97113" compoundref="_kepler_orbit_mover_8cs" startline="204" endline="211">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateViewFromInternalState</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3d48bc4f898706d4ccacb3345048d6a8" compoundref="_kepler_orbit_data_8cs" startline="228" endline="231">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPosition</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a04ee5dce43b5a4963cf4529298c0b9c0" compoundref="_kepler_orbit_data_8cs" startline="726" endline="731">SimpleKeplerOrbits.KeplerOrbitData.RotateOrbit</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" compoundref="_kepler_orbit_data_8cs" startline="580" endline="583">SimpleKeplerOrbits.KeplerOrbitData.SetPositionByCurrentAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a757b520d1b523be37e6f21732e90623d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.AttractorDistance</definition>
+        <argsstring></argsstring>
+        <name>AttractorDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="26" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a03650925ea1005f13ac8034d993474ea" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.AttractorMass</definition>
+        <argsstring></argsstring>
+        <name>AttractorMass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="27" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" compoundref="_kepler_orbit_data_8cs" startline="159" endline="169">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="532" endline="575">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.Velocity</definition>
+        <argsstring></argsstring>
+        <name>Velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="28" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a7f110d5c386a6c441a3a980392d97113" compoundref="_kepler_orbit_mover_8cs" startline="204" endline="211">SimpleKeplerOrbits.KeplerOrbitMover.ForceUpdateViewFromInternalState</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a01f36038697d24520929f8b1f63b2d10" compoundref="_kepler_orbit_mover_8cs" startline="144" endline="178">SimpleKeplerOrbits.KeplerOrbitMover.OrbitUpdateLoop</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a04ee5dce43b5a4963cf4529298c0b9c0" compoundref="_kepler_orbit_data_8cs" startline="726" endline="731">SimpleKeplerOrbits.KeplerOrbitData.RotateOrbit</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a3d6272f69c4932b93a9176957025a60f" compoundref="_kepler_orbit_mover_8cs" startline="240" endline="251">SimpleKeplerOrbits.KeplerOrbitMover.SetAutoCircleOrbit</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" compoundref="_kepler_orbit_data_8cs" startline="588" endline="591">SimpleKeplerOrbits.KeplerOrbitData.SetVelocityByCurrentAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a48e175f13e4751ec4056e8cd58ae2cfc" compoundref="_kepler_orbit_mover_8cs" startline="88" endline="132">SimpleKeplerOrbits.KeplerOrbitMover.Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af51316488b8c408f1d33d11785571221" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.SemiMinorAxis</definition>
+        <argsstring></argsstring>
+        <name>SemiMinorAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="30" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" compoundref="_kepler_orbit_data_8cs" startline="193" endline="199">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxis</definition>
+        <argsstring></argsstring>
+        <name>SemiMajorAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="31" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" compoundref="_kepler_orbit_data_8cs" startline="193" endline="199">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" compoundref="_kepler_orbit_data_8cs" startline="251" endline="290">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" compoundref="_kepler_orbit_data_8cs" startline="359" endline="406">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPointsNoAlloc</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="532" endline="575">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2009cd8a18c9f7da1a848906af041a3e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.FocalParameter</definition>
+        <argsstring></argsstring>
+        <name>FocalParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="32" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" compoundref="_kepler_orbit_data_8cs" startline="159" endline="169">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</definition>
+        <argsstring></argsstring>
+        <name>Eccentricity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="33" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" compoundref="_kepler_orbit_data_8cs" startline="430" endline="458">SimpleKeplerOrbits.KeplerOrbitData.GetAscendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" compoundref="_kepler_orbit_data_8cs" startline="193" endline="199">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4ae33a91b11da3cf083ba90cedc44855" compoundref="_kepler_orbit_data_8cs" startline="179" endline="183">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" compoundref="_kepler_orbit_data_8cs" startline="482" endline="510">SimpleKeplerOrbits.KeplerOrbitData.GetDescendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" compoundref="_kepler_orbit_data_8cs" startline="251" endline="290">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" compoundref="_kepler_orbit_data_8cs" startline="359" endline="406">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPointsNoAlloc</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afbfa6e97f699ba6301a0e391f2cc453d" compoundref="_kepler_orbit_data_8cs" startline="149" endline="152">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" compoundref="_kepler_orbit_data_8cs" startline="159" endline="169">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" compoundref="_kepler_orbit_data_8cs" startline="695" endline="720">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" compoundref="_kepler_orbit_data_8cs" startline="636" endline="659">SimpleKeplerOrbits.KeplerOrbitData.SetMeanAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" compoundref="_kepler_orbit_data_8cs" startline="665" endline="689">SimpleKeplerOrbits.KeplerOrbitData.SetTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="532" endline="575">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6bb821fdabe0bb10cb1a873b20c1a1c5" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.EnergyTotal</definition>
+        <argsstring></argsstring>
+        <name>EnergyTotal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="34" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7d51a4ad0cb15d58a5c6bb86f9534e0f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.Period</definition>
+        <argsstring></argsstring>
+        <name>Period</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="35" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="532" endline="575">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2507663e88104dbe7851cccaae03c74b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.TrueAnomaly</definition>
+        <argsstring></argsstring>
+        <name>TrueAnomaly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="36" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" compoundref="_kepler_orbit_data_8cs" startline="695" endline="720">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" compoundref="_kepler_orbit_data_8cs" startline="636" endline="659">SimpleKeplerOrbits.KeplerOrbitData.SetMeanAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="532" endline="575">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.MeanAnomaly</definition>
+        <argsstring></argsstring>
+        <name>MeanAnomaly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="37" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" compoundref="_kepler_orbit_data_8cs" startline="695" endline="720">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" compoundref="_kepler_orbit_data_8cs" startline="636" endline="659">SimpleKeplerOrbits.KeplerOrbitData.SetMeanAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" compoundref="_kepler_orbit_data_8cs" startline="665" endline="689">SimpleKeplerOrbits.KeplerOrbitData.SetTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="532" endline="575">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.EccentricAnomaly</definition>
+        <argsstring></argsstring>
+        <name>EccentricAnomaly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="38" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" compoundref="_kepler_orbit_data_8cs" startline="695" endline="720">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" compoundref="_kepler_orbit_data_8cs" startline="636" endline="659">SimpleKeplerOrbits.KeplerOrbitData.SetMeanAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" compoundref="_kepler_orbit_data_8cs" startline="580" endline="583">SimpleKeplerOrbits.KeplerOrbitData.SetPositionByCurrentAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" compoundref="_kepler_orbit_data_8cs" startline="665" endline="689">SimpleKeplerOrbits.KeplerOrbitData.SetTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" compoundref="_kepler_orbit_data_8cs" startline="588" endline="591">SimpleKeplerOrbits.KeplerOrbitData.SetVelocityByCurrentAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="532" endline="575">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2d2b2a12015e5610662e0adb5b731db2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.SquaresConstant</definition>
+        <argsstring></argsstring>
+        <name>SquaresConstant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="39" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2a0cfd71926c01c572e3900a1129bd2f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.Periapsis</definition>
+        <argsstring></argsstring>
+        <name>Periapsis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="40" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ae6fbe75f14eb5af4f7dde6d129b00f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.PeriapsisDistance</definition>
+        <argsstring></argsstring>
+        <name>PeriapsisDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="41" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" compoundref="_kepler_orbit_data_8cs" startline="251" endline="290">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" compoundref="_kepler_orbit_data_8cs" startline="359" endline="406">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPointsNoAlloc</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a14f967b18bbd68af09d53d095fa2391c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.Apoapsis</definition>
+        <argsstring></argsstring>
+        <name>Apoapsis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="42" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac187325e398fa7c6a43a1cf21ef5d1cc" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.ApoapsisDistance</definition>
+        <argsstring></argsstring>
+        <name>ApoapsisDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="43" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" compoundref="_kepler_orbit_data_8cs" startline="251" endline="290">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" compoundref="_kepler_orbit_data_8cs" startline="359" endline="406">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPointsNoAlloc</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.CenterPoint</definition>
+        <argsstring></argsstring>
+        <name>CenterPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="44" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" compoundref="_kepler_orbit_data_8cs" startline="430" endline="458">SimpleKeplerOrbits.KeplerOrbitData.GetAscendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3d48bc4f898706d4ccacb3345048d6a8" compoundref="_kepler_orbit_data_8cs" startline="228" endline="231">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPosition</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" compoundref="_kepler_orbit_data_8cs" startline="482" endline="510">SimpleKeplerOrbits.KeplerOrbitData.GetDescendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" compoundref="_kepler_orbit_data_8cs" startline="206" endline="209">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ae283e2cd5dc2687709d13adab4d961c9" compoundref="_kepler_orbit_data_8cs" startline="216" endline="219">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1d80d3ee83b8a975decb80f54655365b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.OrbitCompressionRatio</definition>
+        <argsstring></argsstring>
+        <name>OrbitCompressionRatio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="45" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ce15cb040884e8378b819af091d6d83" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.OrbitNormal</definition>
+        <argsstring></argsstring>
+        <name>OrbitNormal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="46" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" compoundref="_kepler_orbit_data_8cs" startline="430" endline="458">SimpleKeplerOrbits.KeplerOrbitData.GetAscendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" compoundref="_kepler_orbit_data_8cs" startline="482" endline="510">SimpleKeplerOrbits.KeplerOrbitData.GetDescendingNode</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a44baa6b508dd0d09ccc9ad4a4a7736d6" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.SemiMinorAxisBasis</definition>
+        <argsstring></argsstring>
+        <name>SemiMinorAxisBasis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="47" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" compoundref="_kepler_orbit_data_8cs" startline="193" endline="199">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" compoundref="_kepler_orbit_data_8cs" startline="159" endline="169">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtTrueAnomaly</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8f5e372f62db83e340971f1bdd2a10ac" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxisBasis</definition>
+        <argsstring></argsstring>
+        <name>SemiMajorAxisBasis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="48" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" compoundref="_kepler_orbit_data_8cs" startline="430" endline="458">SimpleKeplerOrbits.KeplerOrbitData.GetAscendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" compoundref="_kepler_orbit_data_8cs" startline="193" endline="199">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" compoundref="_kepler_orbit_data_8cs" startline="482" endline="510">SimpleKeplerOrbits.KeplerOrbitData.GetDescendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" compoundref="_kepler_orbit_data_8cs" startline="159" endline="169">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2cb49ebfe500ff859bca27c3f00848de" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.Inclination</definition>
+        <argsstring></argsstring>
+        <name>Inclination</name>
+        <briefdescription>
+<para>The orbit inclination in radians relative to ecliptic plane. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="53" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aa7fb10eb03b8e0ad700e2f2de705b12c" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double SimpleKeplerOrbits.KeplerOrbitData.OrbitNormalDotEclipticNormal</definition>
+        <argsstring></argsstring>
+        <name>OrbitNormalDotEclipticNormal</name>
+        <briefdescription>
+<para>if &gt; 0, then orbit motion is clockwise </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="58" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2732037edfb50b779a62e93e73459e3e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool SimpleKeplerOrbits.KeplerOrbitData.IsValidOrbit</definition>
+        <argsstring></argsstring>
+        <name>IsValidOrbit</name>
+        <briefdescription>
+<para>Is orbit state valid and error-free. </para>        </briefdescription>
+        <detaileddescription>
+<para><computeroutput>true</computeroutput> if this instance is valid orbit; otherwise, <computeroutput>false</computeroutput>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="66" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover_1a01f36038697d24520929f8b1f63b2d10" compoundref="_kepler_orbit_mover_8cs" startline="144" endline="178">SimpleKeplerOrbits.KeplerOrbitMover.OrbitUpdateLoop</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" compoundref="_kepler_orbit_data_8cs" startline="695" endline="720">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" compoundref="_kepler_orbit_data_8cs" startline="636" endline="659">SimpleKeplerOrbits.KeplerOrbitData.SetMeanAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" compoundref="_kepler_orbit_data_8cs" startline="665" endline="689">SimpleKeplerOrbits.KeplerOrbitData.SetTrueAnomaly</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</definition>
+        <argsstring>()</argsstring>
+        <name>CalculateNewOrbitData</name>
+        <briefdescription>
+<para>Calculates the full state of orbit from current body position, attractor position, attractor mass, velocity, and gravConstant. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="77" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="77" bodyend="142"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a14f967b18bbd68af09d53d095fa2391c" compoundref="_kepler_orbit_data_8cs" startline="42">SimpleKeplerOrbits.KeplerOrbitData.Apoapsis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac187325e398fa7c6a43a1cf21ef5d1cc" compoundref="_kepler_orbit_data_8cs" startline="43">SimpleKeplerOrbits.KeplerOrbitData.ApoapsisDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a757b520d1b523be37e6f21732e90623d" compoundref="_kepler_orbit_data_8cs" startline="26">SimpleKeplerOrbits.KeplerOrbitData.AttractorDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a03650925ea1005f13ac8034d993474ea" compoundref="_kepler_orbit_data_8cs" startline="27">SimpleKeplerOrbits.KeplerOrbitData.AttractorMass</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" compoundref="_kepler_orbit_data_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitData.CenterPoint</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a842d46e2323cc1a16b8305e2c7a48123" compoundref="_kepler_orbit_utils_8cs" startline="149" endline="152">SimpleKeplerOrbits.KeplerOrbitUtils.CrossProduct</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aaaa91101232c43a764cd4e252d924381" compoundref="_kepler_orbit_utils_8cs" startline="23">SimpleKeplerOrbits.KeplerOrbitUtils.Deg2Rad</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afa8be8fe239070d1f508db00054c840f" compoundref="_kepler_orbit_utils_8cs" startline="127" endline="130">SimpleKeplerOrbits.KeplerOrbitUtils.DotProduct</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" compoundref="_kepler_orbit_data_8cs" startline="38">SimpleKeplerOrbits.KeplerOrbitData.EccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2c05e2b9af2f2934dd1fd560ad8f404d" compoundref="_kepler_orbit_data_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitData.EclipticNormal</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac643550a2313b63026a7bbf4c724f2e5" compoundref="_kepler_orbit_data_8cs" startline="23">SimpleKeplerOrbits.KeplerOrbitData.EclipticUp</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6bb821fdabe0bb10cb1a873b20c1a1c5" compoundref="_kepler_orbit_data_8cs" startline="34">SimpleKeplerOrbits.KeplerOrbitData.EnergyTotal</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2009cd8a18c9f7da1a848906af041a3e" compoundref="_kepler_orbit_data_8cs" startline="32">SimpleKeplerOrbits.KeplerOrbitData.FocalParameter</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a358a8e7a54fcfb5ff6e3ee5d8da8ed2d" compoundref="_kepler_orbit_data_8cs" startline="21">SimpleKeplerOrbits.KeplerOrbitData.GravConst</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2cb49ebfe500ff859bca27c3f00848de" compoundref="_kepler_orbit_data_8cs" startline="53">SimpleKeplerOrbits.KeplerOrbitData.Inclination</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" compoundref="_kepler_orbit_data_8cs" startline="37">SimpleKeplerOrbits.KeplerOrbitData.MeanAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1d80d3ee83b8a975decb80f54655365b" compoundref="_kepler_orbit_data_8cs" startline="45">SimpleKeplerOrbits.KeplerOrbitData.OrbitCompressionRatio</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ce15cb040884e8378b819af091d6d83" compoundref="_kepler_orbit_data_8cs" startline="46">SimpleKeplerOrbits.KeplerOrbitData.OrbitNormal</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aa7fb10eb03b8e0ad700e2f2de705b12c" compoundref="_kepler_orbit_data_8cs" startline="58">SimpleKeplerOrbits.KeplerOrbitData.OrbitNormalDotEclipticNormal</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2a0cfd71926c01c572e3900a1129bd2f" compoundref="_kepler_orbit_data_8cs" startline="40">SimpleKeplerOrbits.KeplerOrbitData.Periapsis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ae6fbe75f14eb5af4f7dde6d129b00f" compoundref="_kepler_orbit_data_8cs" startline="41">SimpleKeplerOrbits.KeplerOrbitData.PeriapsisDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7d51a4ad0cb15d58a5c6bb86f9534e0f" compoundref="_kepler_orbit_data_8cs" startline="35">SimpleKeplerOrbits.KeplerOrbitData.Period</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ad885ae56c6ab7d6a210d0e39ede19fec" compoundref="_kepler_orbit_data_8cs" startline="25">SimpleKeplerOrbits.KeplerOrbitData.Position</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" compoundref="_kepler_orbit_data_8cs" startline="31">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8f5e372f62db83e340971f1bdd2a10ac" compoundref="_kepler_orbit_data_8cs" startline="48">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxisBasis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af51316488b8c408f1d33d11785571221" compoundref="_kepler_orbit_data_8cs" startline="30">SimpleKeplerOrbits.KeplerOrbitData.SemiMinorAxis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a44baa6b508dd0d09ccc9ad4a4a7736d6" compoundref="_kepler_orbit_data_8cs" startline="47">SimpleKeplerOrbits.KeplerOrbitData.SemiMinorAxisBasis</references>
+        <references refid="struct_unity_engine_1_1_vector3d_1a3ba4dc6ef6b28ecfe0029dc8ab4133ea" compoundref="_vector3d_8cs" startline="59">UnityEngine.Vector3d.sqrMagnitude</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2507663e88104dbe7851cccaae03c74b" compoundref="_kepler_orbit_data_8cs" startline="36">SimpleKeplerOrbits.KeplerOrbitData.TrueAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" compoundref="_kepler_orbit_data_8cs" startline="28">SimpleKeplerOrbits.KeplerOrbitData.Velocity</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a04ee5dce43b5a4963cf4529298c0b9c0" compoundref="_kepler_orbit_data_8cs" startline="726" endline="731">SimpleKeplerOrbits.KeplerOrbitData.RotateOrbit</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afbfa6e97f699ba6301a0e391f2cc453d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtEccentricAnomaly</definition>
+        <argsstring>(double eccentricAnomaly)</argsstring>
+        <name>GetVelocityAtEccentricAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>eccentricAnomaly</declname>
+        </param>
+        <briefdescription>
+<para>Gets the velocity vector value at eccentric anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eccentricAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentric anomaly.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Velocity vector.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="149" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="149" bodyend="152"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1afc5aec0e29b02cb18320dbe774763f7d" compoundref="_kepler_orbit_utils_8cs" startline="276" endline="296">SimpleKeplerOrbits.KeplerOrbitUtils.ConvertEccentricToTrueAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" compoundref="_kepler_orbit_data_8cs" startline="159" endline="169">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtTrueAnomaly</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" compoundref="_kepler_orbit_data_8cs" startline="588" endline="591">SimpleKeplerOrbits.KeplerOrbitData.SetVelocityByCurrentAnomaly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtTrueAnomaly</definition>
+        <argsstring>(double trueAnomaly)</argsstring>
+        <name>GetVelocityAtTrueAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>trueAnomaly</declname>
+        </param>
+        <briefdescription>
+<para>Gets the velocity value at true anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trueAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The true anomaly.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Velocity vector.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="159" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="159" bodyend="169"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a03650925ea1005f13ac8034d993474ea" compoundref="_kepler_orbit_data_8cs" startline="27">SimpleKeplerOrbits.KeplerOrbitData.AttractorMass</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2009cd8a18c9f7da1a848906af041a3e" compoundref="_kepler_orbit_data_8cs" startline="32">SimpleKeplerOrbits.KeplerOrbitData.FocalParameter</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a358a8e7a54fcfb5ff6e3ee5d8da8ed2d" compoundref="_kepler_orbit_data_8cs" startline="21">SimpleKeplerOrbits.KeplerOrbitData.GravConst</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8f5e372f62db83e340971f1bdd2a10ac" compoundref="_kepler_orbit_data_8cs" startline="48">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxisBasis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a44baa6b508dd0d09ccc9ad4a4a7736d6" compoundref="_kepler_orbit_data_8cs" startline="47">SimpleKeplerOrbits.KeplerOrbitData.SemiMinorAxisBasis</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afbfa6e97f699ba6301a0e391f2cc453d" compoundref="_kepler_orbit_data_8cs" startline="149" endline="152">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtEccentricAnomaly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4ae33a91b11da3cf083ba90cedc44855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtTrueAnomaly</definition>
+        <argsstring>(double trueAnomaly)</argsstring>
+        <name>GetCentralPositionAtTrueAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>trueAnomaly</declname>
+        </param>
+        <briefdescription>
+<para>Gets the central position at true anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trueAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The true anomaly.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Position relative to orbit center.</para></simplesect>
+</para><para>Note: central position is not same as focal position. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="179" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="179" bodyend="183"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" compoundref="_kepler_orbit_data_8cs" startline="193" endline="199">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtEccentricAnomaly</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ae283e2cd5dc2687709d13adab4d961c9" compoundref="_kepler_orbit_data_8cs" startline="216" endline="219">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtTrueAnomaly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtEccentricAnomaly</definition>
+        <argsstring>(double eccentricAnomaly)</argsstring>
+        <name>GetCentralPositionAtEccentricAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>eccentricAnomaly</declname>
+        </param>
+        <briefdescription>
+<para>Gets the central position at eccentric anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eccentricAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentric anomaly.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Position relative to orbit center.</para></simplesect>
+</para><para>Note: central position is not same as focal position. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="193" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="193" bodyend="199"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" compoundref="_kepler_orbit_data_8cs" startline="31">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8f5e372f62db83e340971f1bdd2a10ac" compoundref="_kepler_orbit_data_8cs" startline="48">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxisBasis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af51316488b8c408f1d33d11785571221" compoundref="_kepler_orbit_data_8cs" startline="30">SimpleKeplerOrbits.KeplerOrbitData.SemiMinorAxis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a44baa6b508dd0d09ccc9ad4a4a7736d6" compoundref="_kepler_orbit_data_8cs" startline="47">SimpleKeplerOrbits.KeplerOrbitData.SemiMinorAxisBasis</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4ae33a91b11da3cf083ba90cedc44855" compoundref="_kepler_orbit_data_8cs" startline="179" endline="183">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" compoundref="_kepler_orbit_data_8cs" startline="206" endline="209">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtEccentricAnomaly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtEccentricAnomaly</definition>
+        <argsstring>(double eccentricAnomaly)</argsstring>
+        <name>GetFocalPositionAtEccentricAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>eccentricAnomaly</declname>
+        </param>
+        <briefdescription>
+<para>Gets the focal position at eccentric anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eccentricAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The eccentric anomaly.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Position relative to attractor (focus).</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="206" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="206" bodyend="209"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" compoundref="_kepler_orbit_data_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitData.CenterPoint</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" compoundref="_kepler_orbit_data_8cs" startline="193" endline="199">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtEccentricAnomaly</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" compoundref="_kepler_orbit_data_8cs" startline="430" endline="458">SimpleKeplerOrbits.KeplerOrbitData.GetAscendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" compoundref="_kepler_orbit_data_8cs" startline="482" endline="510">SimpleKeplerOrbits.KeplerOrbitData.GetDescendingNode</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" compoundref="_kepler_orbit_data_8cs" startline="251" endline="290">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" compoundref="_kepler_orbit_data_8cs" startline="359" endline="406">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPointsNoAlloc</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" compoundref="_kepler_orbit_data_8cs" startline="580" endline="583">SimpleKeplerOrbits.KeplerOrbitData.SetPositionByCurrentAnomaly</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ae283e2cd5dc2687709d13adab4d961c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtTrueAnomaly</definition>
+        <argsstring>(double trueAnomaly)</argsstring>
+        <name>GetFocalPositionAtTrueAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>trueAnomaly</declname>
+        </param>
+        <briefdescription>
+<para>Gets the focal position at true anomaly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>trueAnomaly</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The true anomaly.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Position relative to attractor (focus).</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="216" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="216" bodyend="219"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" compoundref="_kepler_orbit_data_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitData.CenterPoint</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4ae33a91b11da3cf083ba90cedc44855" compoundref="_kepler_orbit_data_8cs" startline="179" endline="183">SimpleKeplerOrbits.KeplerOrbitData.GetCentralPositionAtTrueAnomaly</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" compoundref="_kepler_orbit_data_8cs" startline="251" endline="290">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" compoundref="_kepler_orbit_data_8cs" startline="359" endline="406">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPointsNoAlloc</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3d48bc4f898706d4ccacb3345048d6a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+        <definition>Vector3d SimpleKeplerOrbits.KeplerOrbitData.GetCentralPosition</definition>
+        <argsstring>()</argsstring>
+        <name>GetCentralPosition</name>
+        <briefdescription>
+<para>Gets the central position. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Position relative to orbit center.</para></simplesect>
+</para><para>Note: central position is not same as focal position. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="228" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="228" bodyend="231"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" compoundref="_kepler_orbit_data_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitData.CenterPoint</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ad885ae56c6ab7d6a210d0e39ede19fec" compoundref="_kepler_orbit_data_8cs" startline="25">SimpleKeplerOrbits.KeplerOrbitData.Position</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6f2021b5b0af4bef34c35ef6ba84ea7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref>[]</type>
+        <definition>Vector3d [] SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</definition>
+        <argsstring>(int pointsCount=50, double maxDistance=1000d)</argsstring>
+        <name>GetOrbitPoints</name>
+        <param>
+          <type>int</type>
+          <declname>pointsCount</declname>
+          <defval>50</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxDistance</declname>
+          <defval>1000d</defval>
+        </param>
+        <briefdescription>
+<para>Gets calculated orbit points with defined precision. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointsCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The points count.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum distance of points.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array of orbit curve points.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="239" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="239" bodyend="242"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a77c0275101a8827e8641527102238d7c" compoundref="_kepler_orbit_data_8cs" startline="298" endline="301">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref>[]</type>
+        <definition>Vector3d [] SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</definition>
+        <argsstring>(int pointsCount, Vector3d origin, double maxDistance=1000d)</argsstring>
+        <name>GetOrbitPoints</name>
+        <param>
+          <type>int</type>
+          <declname>pointsCount</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maxDistance</declname>
+          <defval>1000d</defval>
+        </param>
+        <briefdescription>
+<para>Gets calculated orbit points with defined precision. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointsCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The points count.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>origin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The origin.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum distance.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array of orbit curve points.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="251" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="251" bodyend="290"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac187325e398fa7c6a43a1cf21ef5d1cc" compoundref="_kepler_orbit_data_8cs" startline="43">SimpleKeplerOrbits.KeplerOrbitData.ApoapsisDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" compoundref="_kepler_orbit_data_8cs" startline="206" endline="209">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtEccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ae283e2cd5dc2687709d13adab4d961c9" compoundref="_kepler_orbit_data_8cs" startline="216" endline="219">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtTrueAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ae6fbe75f14eb5af4f7dde6d129b00f" compoundref="_kepler_orbit_data_8cs" startline="41">SimpleKeplerOrbits.KeplerOrbitData.PeriapsisDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" compoundref="_kepler_orbit_data_8cs" startline="31">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a77c0275101a8827e8641527102238d7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</definition>
+        <argsstring>(int pointsCount=50, float maxDistance=1000f)</argsstring>
+        <name>GetOrbitPoints</name>
+        <param>
+          <type>int</type>
+          <declname>pointsCount</declname>
+          <defval>50</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDistance</declname>
+          <defval>1000f</defval>
+        </param>
+        <briefdescription>
+<para>Gets calculated orbit points with defined precision. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointsCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The points count.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum distance.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array of orbit curve points.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="298" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="298" bodyend="301"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6f2021b5b0af4bef34c35ef6ba84ea7a" compoundref="_kepler_orbit_data_8cs" startline="239" endline="242">SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aeaaa415d6caa29bb22e9aae24c15948b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPoints</definition>
+        <argsstring>(int pointsCount, Vector3 origin, float maxDistance=1000f)</argsstring>
+        <name>GetOrbitPoints</name>
+        <param>
+          <type>int</type>
+          <declname>pointsCount</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDistance</declname>
+          <defval>1000f</defval>
+        </param>
+        <briefdescription>
+<para>Gets calculated orbit points with defined precision. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointsCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The points count.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>origin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The origin.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum distance.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Array of orbit curve points.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="310" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="310" bodyend="349"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac187325e398fa7c6a43a1cf21ef5d1cc" compoundref="_kepler_orbit_data_8cs" startline="43">SimpleKeplerOrbits.KeplerOrbitData.ApoapsisDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" compoundref="_kepler_orbit_data_8cs" startline="206" endline="209">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtEccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ae283e2cd5dc2687709d13adab4d961c9" compoundref="_kepler_orbit_data_8cs" startline="216" endline="219">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtTrueAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ae6fbe75f14eb5af4f7dde6d129b00f" compoundref="_kepler_orbit_data_8cs" startline="41">SimpleKeplerOrbits.KeplerOrbitData.PeriapsisDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" compoundref="_kepler_orbit_data_8cs" startline="31">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.GetOrbitPointsNoAlloc</definition>
+        <argsstring>(ref Vector3[] orbitPoints, int pointsCount, Vector3 origin, float maxDistance=1000f)</argsstring>
+        <name>GetOrbitPointsNoAlloc</name>
+        <param>
+          <type>ref Vector3[]</type>
+          <declname>orbitPoints</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointsCount</declname>
+        </param>
+        <param>
+          <type>Vector3</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDistance</declname>
+          <defval>1000f</defval>
+        </param>
+        <briefdescription>
+<para>Gets the orbit points without unnecessary memory alloc for resulting array. However, memory allocation may occur if resulting array has not correct lenght. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>orbitPoints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The orbit points.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pointsCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The points count.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>origin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The origin.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDistance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum distance.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="359" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="359" bodyend="406"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac187325e398fa7c6a43a1cf21ef5d1cc" compoundref="_kepler_orbit_data_8cs" startline="43">SimpleKeplerOrbits.KeplerOrbitData.ApoapsisDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" compoundref="_kepler_orbit_data_8cs" startline="206" endline="209">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtEccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ae283e2cd5dc2687709d13adab4d961c9" compoundref="_kepler_orbit_data_8cs" startline="216" endline="219">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtTrueAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ae6fbe75f14eb5af4f7dde6d129b00f" compoundref="_kepler_orbit_data_8cs" startline="41">SimpleKeplerOrbits.KeplerOrbitData.PeriapsisDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" compoundref="_kepler_orbit_data_8cs" startline="31">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cec428a7c32a01ba04c86ca61392cc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SimpleKeplerOrbits.KeplerOrbitData.GetAscendingNode</definition>
+        <argsstring>(out Vector3 asc)</argsstring>
+        <name>GetAscendingNode</name>
+        <param>
+          <type>out Vector3</type>
+          <declname>asc</declname>
+        </param>
+        <briefdescription>
+<para>Gets the ascending node of orbit. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>asc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The asc.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if ascending node exists, otherwise <computeroutput>false</computeroutput></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="413" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="413" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SimpleKeplerOrbits.KeplerOrbitData.GetAscendingNode</definition>
+        <argsstring>(out Vector3d asc)</argsstring>
+        <name>GetAscendingNode</name>
+        <param>
+          <type>out <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>asc</declname>
+        </param>
+        <briefdescription>
+<para>Gets the ascending node of orbit. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>asc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The asc.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if ascending node exists, otherwise <computeroutput>false</computeroutput></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="430" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="430" bodyend="458"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" compoundref="_kepler_orbit_data_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitData.CenterPoint</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aaaa91101232c43a764cd4e252d924381" compoundref="_kepler_orbit_utils_8cs" startline="23">SimpleKeplerOrbits.KeplerOrbitUtils.Deg2Rad</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2c05e2b9af2f2934dd1fd560ad8f404d" compoundref="_kepler_orbit_data_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitData.EclipticNormal</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" compoundref="_kepler_orbit_data_8cs" startline="206" endline="209">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtEccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ce15cb040884e8378b819af091d6d83" compoundref="_kepler_orbit_data_8cs" startline="46">SimpleKeplerOrbits.KeplerOrbitData.OrbitNormal</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8f5e372f62db83e340971f1bdd2a10ac" compoundref="_kepler_orbit_data_8cs" startline="48">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxisBasis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8efdb2fb9f04cc6d27f7dea150545cea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SimpleKeplerOrbits.KeplerOrbitData.GetDescendingNode</definition>
+        <argsstring>(out Vector3 desc)</argsstring>
+        <name>GetDescendingNode</name>
+        <param>
+          <type>out Vector3</type>
+          <declname>desc</declname>
+        </param>
+        <briefdescription>
+<para>Gets the descending node of orbit. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>desc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The desc.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if descending node exists, otherwise <computeroutput>false</computeroutput></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="465" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="465" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SimpleKeplerOrbits.KeplerOrbitData.GetDescendingNode</definition>
+        <argsstring>(out Vector3d desc)</argsstring>
+        <name>GetDescendingNode</name>
+        <param>
+          <type>out <ref refid="struct_unity_engine_1_1_vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>desc</declname>
+        </param>
+        <briefdescription>
+<para>Gets the descending node orbit. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>desc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The desc.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if descending node exists, otherwise <computeroutput>false</computeroutput></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="482" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="482" bodyend="510"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" compoundref="_kepler_orbit_data_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitData.CenterPoint</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1aaaa91101232c43a764cd4e252d924381" compoundref="_kepler_orbit_utils_8cs" startline="23">SimpleKeplerOrbits.KeplerOrbitUtils.Deg2Rad</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2c05e2b9af2f2934dd1fd560ad8f404d" compoundref="_kepler_orbit_data_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitData.EclipticNormal</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" compoundref="_kepler_orbit_data_8cs" startline="206" endline="209">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtEccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ce15cb040884e8378b819af091d6d83" compoundref="_kepler_orbit_data_8cs" startline="46">SimpleKeplerOrbits.KeplerOrbitData.OrbitNormal</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8f5e372f62db83e340971f1bdd2a10ac" compoundref="_kepler_orbit_data_8cs" startline="48">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxisBasis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a54d8d05f3cc624d49dde9a014cf3e27e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitDataByTime</definition>
+        <argsstring>(double deltaTime)</argsstring>
+        <name>UpdateOrbitDataByTime</name>
+        <param>
+          <type>double</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+<para>Updates the kepler orbit state by defined deltatime. Orbit main parameters will remains unchanged, but all anomalies will progress in time. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deltaTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delta time.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="517" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="517" bodyend="522"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" compoundref="_kepler_orbit_data_8cs" startline="580" endline="583">SimpleKeplerOrbits.KeplerOrbitData.SetPositionByCurrentAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" compoundref="_kepler_orbit_data_8cs" startline="588" endline="591">SimpleKeplerOrbits.KeplerOrbitData.SetVelocityByCurrentAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" compoundref="_kepler_orbit_data_8cs" startline="532" endline="575">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitAnomaliesByTime</definition>
+        <argsstring>(double deltaTime)</argsstring>
+        <name>UpdateOrbitAnomaliesByTime</name>
+        <param>
+          <type>double</type>
+          <declname>deltaTime</declname>
+        </param>
+        <briefdescription>
+<para>Updates the value of orbital anomalies by defined deltatime. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deltaTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The delta time.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>Only anomalies values will be changed. Position and velocity states needs to be updated too after this method call. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="532" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="532" bodyend="575"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a03650925ea1005f13ac8034d993474ea" compoundref="_kepler_orbit_data_8cs" startline="27">SimpleKeplerOrbits.KeplerOrbitData.AttractorMass</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" compoundref="_kepler_orbit_data_8cs" startline="38">SimpleKeplerOrbits.KeplerOrbitData.EccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a358a8e7a54fcfb5ff6e3ee5d8da8ed2d" compoundref="_kepler_orbit_data_8cs" startline="21">SimpleKeplerOrbits.KeplerOrbitData.GravConst</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" compoundref="_kepler_orbit_data_8cs" startline="37">SimpleKeplerOrbits.KeplerOrbitData.MeanAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7d51a4ad0cb15d58a5c6bb86f9534e0f" compoundref="_kepler_orbit_data_8cs" startline="35">SimpleKeplerOrbits.KeplerOrbitData.Period</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" compoundref="_kepler_orbit_data_8cs" startline="31">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2507663e88104dbe7851cccaae03c74b" compoundref="_kepler_orbit_data_8cs" startline="36">SimpleKeplerOrbits.KeplerOrbitData.TrueAnomaly</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a54d8d05f3cc624d49dde9a014cf3e27e" compoundref="_kepler_orbit_data_8cs" startline="517" endline="522">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitDataByTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.SetPositionByCurrentAnomaly</definition>
+        <argsstring>()</argsstring>
+        <name>SetPositionByCurrentAnomaly</name>
+        <briefdescription>
+<para>Updates position from anomaly state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="580" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="580" bodyend="583"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" compoundref="_kepler_orbit_data_8cs" startline="38">SimpleKeplerOrbits.KeplerOrbitData.EccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" compoundref="_kepler_orbit_data_8cs" startline="206" endline="209">SimpleKeplerOrbits.KeplerOrbitData.GetFocalPositionAtEccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ad885ae56c6ab7d6a210d0e39ede19fec" compoundref="_kepler_orbit_data_8cs" startline="25">SimpleKeplerOrbits.KeplerOrbitData.Position</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" compoundref="_kepler_orbit_data_8cs" startline="695" endline="720">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" compoundref="_kepler_orbit_data_8cs" startline="636" endline="659">SimpleKeplerOrbits.KeplerOrbitData.SetMeanAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" compoundref="_kepler_orbit_data_8cs" startline="665" endline="689">SimpleKeplerOrbits.KeplerOrbitData.SetTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a54d8d05f3cc624d49dde9a014cf3e27e" compoundref="_kepler_orbit_data_8cs" startline="517" endline="522">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitDataByTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.SetVelocityByCurrentAnomaly</definition>
+        <argsstring>()</argsstring>
+        <name>SetVelocityByCurrentAnomaly</name>
+        <briefdescription>
+<para>Sets velocity by current anomaly. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="588" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="588" bodyend="591"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" compoundref="_kepler_orbit_data_8cs" startline="38">SimpleKeplerOrbits.KeplerOrbitData.EccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afbfa6e97f699ba6301a0e391f2cc453d" compoundref="_kepler_orbit_data_8cs" startline="149" endline="152">SimpleKeplerOrbits.KeplerOrbitData.GetVelocityAtEccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" compoundref="_kepler_orbit_data_8cs" startline="28">SimpleKeplerOrbits.KeplerOrbitData.Velocity</references>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" compoundref="_kepler_orbit_data_8cs" startline="695" endline="720">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" compoundref="_kepler_orbit_data_8cs" startline="597" endline="630">SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" compoundref="_kepler_orbit_data_8cs" startline="636" endline="659">SimpleKeplerOrbits.KeplerOrbitData.SetMeanAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" compoundref="_kepler_orbit_data_8cs" startline="665" endline="689">SimpleKeplerOrbits.KeplerOrbitData.SetTrueAnomaly</referencedby>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a54d8d05f3cc624d49dde9a014cf3e27e" compoundref="_kepler_orbit_data_8cs" startline="517" endline="522">SimpleKeplerOrbits.KeplerOrbitData.UpdateOrbitDataByTime</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.SetEccentricity</definition>
+        <argsstring>(double e)</argsstring>
+        <name>SetEccentricity</name>
+        <param>
+          <type>double</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Sets the eccentricity and updates all corresponding orbit state values. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new eccentricity value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="597" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="597" bodyend="630"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" compoundref="_kepler_orbit_data_8cs" startline="44">SimpleKeplerOrbits.KeplerOrbitData.CenterPoint</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" compoundref="_kepler_orbit_data_8cs" startline="38">SimpleKeplerOrbits.KeplerOrbitData.EccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2009cd8a18c9f7da1a848906af041a3e" compoundref="_kepler_orbit_data_8cs" startline="32">SimpleKeplerOrbits.KeplerOrbitData.FocalParameter</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2732037edfb50b779a62e93e73459e3e" compoundref="_kepler_orbit_data_8cs" startline="67">SimpleKeplerOrbits.KeplerOrbitData.IsValidOrbit</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" compoundref="_kepler_orbit_data_8cs" startline="37">SimpleKeplerOrbits.KeplerOrbitData.MeanAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ae6fbe75f14eb5af4f7dde6d129b00f" compoundref="_kepler_orbit_data_8cs" startline="41">SimpleKeplerOrbits.KeplerOrbitData.PeriapsisDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" compoundref="_kepler_orbit_data_8cs" startline="31">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8f5e372f62db83e340971f1bdd2a10ac" compoundref="_kepler_orbit_data_8cs" startline="48">SimpleKeplerOrbits.KeplerOrbitData.SemiMajorAxisBasis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af51316488b8c408f1d33d11785571221" compoundref="_kepler_orbit_data_8cs" startline="30">SimpleKeplerOrbits.KeplerOrbitData.SemiMinorAxis</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" compoundref="_kepler_orbit_data_8cs" startline="580" endline="583">SimpleKeplerOrbits.KeplerOrbitData.SetPositionByCurrentAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" compoundref="_kepler_orbit_data_8cs" startline="588" endline="591">SimpleKeplerOrbits.KeplerOrbitData.SetVelocityByCurrentAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2507663e88104dbe7851cccaae03c74b" compoundref="_kepler_orbit_data_8cs" startline="36">SimpleKeplerOrbits.KeplerOrbitData.TrueAnomaly</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.SetMeanAnomaly</definition>
+        <argsstring>(double m)</argsstring>
+        <name>SetMeanAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Sets the mean anomaly and updates all other anomalies. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>m</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The m.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="636" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="636" bodyend="659"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" compoundref="_kepler_orbit_data_8cs" startline="38">SimpleKeplerOrbits.KeplerOrbitData.EccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2732037edfb50b779a62e93e73459e3e" compoundref="_kepler_orbit_data_8cs" startline="67">SimpleKeplerOrbits.KeplerOrbitData.IsValidOrbit</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" compoundref="_kepler_orbit_data_8cs" startline="37">SimpleKeplerOrbits.KeplerOrbitData.MeanAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" compoundref="_kepler_orbit_data_8cs" startline="580" endline="583">SimpleKeplerOrbits.KeplerOrbitData.SetPositionByCurrentAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" compoundref="_kepler_orbit_data_8cs" startline="588" endline="591">SimpleKeplerOrbits.KeplerOrbitData.SetVelocityByCurrentAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2507663e88104dbe7851cccaae03c74b" compoundref="_kepler_orbit_data_8cs" startline="36">SimpleKeplerOrbits.KeplerOrbitData.TrueAnomaly</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.SetTrueAnomaly</definition>
+        <argsstring>(double t)</argsstring>
+        <name>SetTrueAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Sets the true anomaly and updates all other anomalies. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>t</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The t.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="665" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="665" bodyend="689"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" compoundref="_kepler_orbit_data_8cs" startline="38">SimpleKeplerOrbits.KeplerOrbitData.EccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2732037edfb50b779a62e93e73459e3e" compoundref="_kepler_orbit_data_8cs" startline="67">SimpleKeplerOrbits.KeplerOrbitData.IsValidOrbit</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" compoundref="_kepler_orbit_data_8cs" startline="37">SimpleKeplerOrbits.KeplerOrbitData.MeanAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" compoundref="_kepler_orbit_data_8cs" startline="580" endline="583">SimpleKeplerOrbits.KeplerOrbitData.SetPositionByCurrentAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" compoundref="_kepler_orbit_data_8cs" startline="588" endline="591">SimpleKeplerOrbits.KeplerOrbitData.SetVelocityByCurrentAnomaly</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.SetEccentricAnomaly</definition>
+        <argsstring>(double e)</argsstring>
+        <name>SetEccentricAnomaly</name>
+        <param>
+          <type>double</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Sets the eccentric anomaly and updates all other anomalies. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>e</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The e.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="695" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="695" bodyend="720"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" compoundref="_kepler_orbit_data_8cs" startline="38">SimpleKeplerOrbits.KeplerOrbitData.EccentricAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" compoundref="_kepler_orbit_data_8cs" startline="33">SimpleKeplerOrbits.KeplerOrbitData.Eccentricity</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2732037edfb50b779a62e93e73459e3e" compoundref="_kepler_orbit_data_8cs" startline="67">SimpleKeplerOrbits.KeplerOrbitData.IsValidOrbit</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" compoundref="_kepler_orbit_data_8cs" startline="37">SimpleKeplerOrbits.KeplerOrbitData.MeanAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils_1a296b4482aa3db1038fb0dc1698a2bc9c" compoundref="_kepler_orbit_utils_8cs" startline="22">SimpleKeplerOrbits.KeplerOrbitUtils.PI_2</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" compoundref="_kepler_orbit_data_8cs" startline="580" endline="583">SimpleKeplerOrbits.KeplerOrbitData.SetPositionByCurrentAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" compoundref="_kepler_orbit_data_8cs" startline="588" endline="591">SimpleKeplerOrbits.KeplerOrbitData.SetVelocityByCurrentAnomaly</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2507663e88104dbe7851cccaae03c74b" compoundref="_kepler_orbit_data_8cs" startline="36">SimpleKeplerOrbits.KeplerOrbitData.TrueAnomaly</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a04ee5dce43b5a4963cf4529298c0b9c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitData.RotateOrbit</definition>
+        <argsstring>(Quaternion rotation)</argsstring>
+        <name>RotateOrbit</name>
+        <param>
+          <type>Quaternion</type>
+          <declname>rotation</declname>
+        </param>
+        <briefdescription>
+<para>Rotates the relative position and velocity by same quaternion. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rotation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rotation.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="726" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="726" bodyend="731"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" compoundref="_kepler_orbit_data_8cs" startline="77" endline="142">SimpleKeplerOrbits.KeplerOrbitData.CalculateNewOrbitData</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ad885ae56c6ab7d6a210d0e39ede19fec" compoundref="_kepler_orbit_data_8cs" startline="25">SimpleKeplerOrbits.KeplerOrbitData.Position</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" compoundref="_kepler_orbit_data_8cs" startline="28">SimpleKeplerOrbits.KeplerOrbitData.Velocity</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Orbit data container. Also contains methods for altering and updating orbit state. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="16">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="15">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="16" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" line="20" column="1" bodyfile="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/KeplerOrbitData.cs" bodystart="19" bodyend="732"/>
+    <listofallmembers>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a14f967b18bbd68af09d53d095fa2391c" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>Apoapsis</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac187325e398fa7c6a43a1cf21ef5d1cc" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>ApoapsisDistance</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a757b520d1b523be37e6f21732e90623d" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>AttractorDistance</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a03650925ea1005f13ac8034d993474ea" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>AttractorMass</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1a45d59c9f8caa9e244dcfc91d8f2af3" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>CalculateNewOrbitData</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a484125f8b3457811758ea143c9cb6247" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>CenterPoint</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a34d2bef31b52ce019492b6202e2e4179" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>EccentricAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aac7e917c1665f023a38702046fe9d86c" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>Eccentricity</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2c05e2b9af2f2934dd1fd560ad8f404d" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>EclipticNormal</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac643550a2313b63026a7bbf4c724f2e5" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>EclipticUp</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6bb821fdabe0bb10cb1a873b20c1a1c5" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>EnergyTotal</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2009cd8a18c9f7da1a848906af041a3e" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>FocalParameter</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cec428a7c32a01ba04c86ca61392cc6" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetAscendingNode</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3838abf55736d7fc04c61b0c31d50fc9" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetAscendingNode</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a3d48bc4f898706d4ccacb3345048d6a8" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetCentralPosition</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a70ba4ee9492e6293fe04d4e5be7c3132" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetCentralPositionAtEccentricAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4ae33a91b11da3cf083ba90cedc44855" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetCentralPositionAtTrueAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8efdb2fb9f04cc6d27f7dea150545cea" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetDescendingNode</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af85d6dcb923b4f7e648e0d73352e118a" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetDescendingNode</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a40d2c4df95613722762baba53cca7d57" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetFocalPositionAtEccentricAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ae283e2cd5dc2687709d13adab4d961c9" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetFocalPositionAtTrueAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6f2021b5b0af4bef34c35ef6ba84ea7a" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetOrbitPoints</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5cd359d85e8515772d911fcc34de51d6" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetOrbitPoints</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a77c0275101a8827e8641527102238d7c" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetOrbitPoints</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aeaaa415d6caa29bb22e9aae24c15948b" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetOrbitPoints</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afb0e03abe4ff7dffc7bee70e867391b2" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetOrbitPointsNoAlloc</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1afbfa6e97f699ba6301a0e391f2cc453d" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetVelocityAtEccentricAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac407f63e44e87df1c8920160159c46bf" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GetVelocityAtTrueAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a358a8e7a54fcfb5ff6e3ee5d8da8ed2d" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>GravConst</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2cb49ebfe500ff859bca27c3f00848de" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>Inclination</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2732037edfb50b779a62e93e73459e3e" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>IsValidOrbit</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a4cc0573f86705e36dac96601981a5c0a" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>MeanAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a1d80d3ee83b8a975decb80f54655365b" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>OrbitCompressionRatio</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ce15cb040884e8378b819af091d6d83" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>OrbitNormal</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1aa7fb10eb03b8e0ad700e2f2de705b12c" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>OrbitNormalDotEclipticNormal</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2a0cfd71926c01c572e3900a1129bd2f" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>Periapsis</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6ae6fbe75f14eb5af4f7dde6d129b00f" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>PeriapsisDistance</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7d51a4ad0cb15d58a5c6bb86f9534e0f" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>Period</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ad885ae56c6ab7d6a210d0e39ede19fec" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>Position</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a04ee5dce43b5a4963cf4529298c0b9c0" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>RotateOrbit</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a6b7e3a06bd7070f15a822f21934d040f" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SemiMajorAxis</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a8f5e372f62db83e340971f1bdd2a10ac" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SemiMajorAxisBasis</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af51316488b8c408f1d33d11785571221" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SemiMinorAxis</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a44baa6b508dd0d09ccc9ad4a4a7736d6" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SemiMinorAxisBasis</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a27819a95b02057150dcfdaf4f0f17c8b" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SetEccentricAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a72d338b5cbe11f9f602eb116afcfc3dd" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SetEccentricity</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a53a54c6c8cca558377cdc4aaf5235c22" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SetMeanAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a7c836dc744670a2a0f024f54a94d83c4" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SetPositionByCurrentAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a96b072d225256852975ce47320362a34" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SetTrueAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1af5821deebbd7e9ee3088d25fa0547156" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SetVelocityByCurrentAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2d2b2a12015e5610662e0adb5b731db2" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>SquaresConstant</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a2507663e88104dbe7851cccaae03c74b" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>TrueAnomaly</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1ac7a5036ee2dcac7aea8327b4380120a3" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>UpdateOrbitAnomaliesByTime</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a54d8d05f3cc624d49dde9a014cf3e27e" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>UpdateOrbitDataByTime</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_data_1a5685fa561fee4fdf7af96c7460bffd63" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitData</scope><name>Velocity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

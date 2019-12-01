@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_83a46b2fd16d4ba2acfba5e25df7a618" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/Editor</compoundname>
+    <innerdir refid="dir_f6166108fc4df40fdd4af63b34edb0f6">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/Editor/Addons</innerdir>
+    <innerdir refid="dir_459512f650bca780da5f4a82d098bc7b">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems</innerdir>
+    <innerfile refid="pb___menu_items_8cs">pb_MenuItems.cs</innerfile>
+    <innerfile refid="pb___missing_script_editor_8cs">pb_MissingScriptEditor.cs</innerfile>
+    <innerfile refid="pb___preferences_8cs">pb_Preferences.cs</innerfile>
+    <innerfile refid="pb___scene_post_processor_8cs">pb_ScenePostProcessor.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/Editor/"/>
+  </compounddef>
+</doxygen>

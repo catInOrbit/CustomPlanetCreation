@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_dragable_u_i_panel" kind="class" prot="public">
+    <compoundname>DragableUIPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_dragable_u_i_panel_1a7affe9bbd6941c3b9f562fd14ee19180" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 DragableUIPanel.moveVector</definition>
+        <argsstring></argsstring>
+        <name>moveVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_dragable_u_i_panel_1a8acf624df4bc2630863542abab12ada8" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 DragableUIPanel.moveVectorMouse</definition>
+        <argsstring></argsstring>
+        <name>moveVectorMouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_dragable_u_i_panel_1ae4d9d4173570533a69f0bd0acebd5bac" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject DragableUIPanel.uiCanvas</definition>
+        <argsstring></argsstring>
+        <name>uiCanvas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_dragable_u_i_panel_1a9c6814f1b4e5a95dede2834e53bb2339" compoundref="_dragable_u_i_panel_8cs" startline="14" endline="46">MovePanelWithInput</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_dragable_u_i_panel_1a9c6814f1b4e5a95dede2834e53bb2339" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DragableUIPanel.MovePanelWithInput</definition>
+        <argsstring>()</argsstring>
+        <name>MovePanelWithInput</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" bodystart="14" bodyend="46"/>
+        <references refid="class_dragable_u_i_panel_1ae4d9d4173570533a69f0bd0acebd5bac" compoundref="_dragable_u_i_panel_8cs" startline="12">uiCanvas</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="235">
+        <label>DragableUIPanel</label>
+        <link refid="class_dragable_u_i_panel"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="236">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="237">
+        <label>DragableUIPanel</label>
+        <link refid="class_dragable_u_i_panel"/>
+        <childnode refid="238" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/Option Panel UI/DragableUIPanel.cs" bodystart="8" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_dragable_u_i_panel_1a9c6814f1b4e5a95dede2834e53bb2339" prot="public" virt="non-virtual"><scope>DragableUIPanel</scope><name>MovePanelWithInput</name></member>
+      <member refid="class_dragable_u_i_panel_1a7affe9bbd6941c3b9f562fd14ee19180" prot="private" virt="non-virtual"><scope>DragableUIPanel</scope><name>moveVector</name></member>
+      <member refid="class_dragable_u_i_panel_1a8acf624df4bc2630863542abab12ada8" prot="private" virt="non-virtual"><scope>DragableUIPanel</scope><name>moveVectorMouse</name></member>
+      <member refid="class_dragable_u_i_panel_1ae4d9d4173570533a69f0bd0acebd5bac" prot="public" virt="non-virtual"><scope>DragableUIPanel</scope><name>uiCanvas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

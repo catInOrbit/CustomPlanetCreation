@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lib_noise_1_1_gradient_presets" kind="class" prot="public">
+    <compoundname>LibNoise::GradientPresets</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_gradient_presets_1a65bc67085c7502738116007c9899b2af" prot="private" static="yes" mutable="no">
+        <type>readonly Gradient</type>
+        <definition>readonly Gradient LibNoise.GradientPresets._empty</definition>
+        <argsstring></argsstring>
+        <name>_empty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_gradient_presets_1a409e96a565c8dd5ab2999cda88039de9" compoundref="_gradient_presets_8cs" startline="26" endline="84">LibNoise.GradientPresets.GradientPresets</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_gradient_presets_1aae529b74576147a5ae159460eca33339" prot="private" static="yes" mutable="no">
+        <type>readonly Gradient</type>
+        <definition>readonly Gradient LibNoise.GradientPresets._grayscale</definition>
+        <argsstring></argsstring>
+        <name>_grayscale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_gradient_presets_1a409e96a565c8dd5ab2999cda88039de9" compoundref="_gradient_presets_8cs" startline="26" endline="84">LibNoise.GradientPresets.GradientPresets</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_gradient_presets_1a12b2c4167a8e1714b8ac69c568767757" prot="private" static="yes" mutable="no">
+        <type>readonly Gradient</type>
+        <definition>readonly Gradient LibNoise.GradientPresets._rgb</definition>
+        <argsstring></argsstring>
+        <name>_rgb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_gradient_presets_1a409e96a565c8dd5ab2999cda88039de9" compoundref="_gradient_presets_8cs" startline="26" endline="84">LibNoise.GradientPresets.GradientPresets</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_gradient_presets_1a119a415d91b9ec115970a5dd9f31a903" prot="private" static="yes" mutable="no">
+        <type>readonly Gradient</type>
+        <definition>readonly Gradient LibNoise.GradientPresets._rgba</definition>
+        <argsstring></argsstring>
+        <name>_rgba</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_gradient_presets_1a409e96a565c8dd5ab2999cda88039de9" compoundref="_gradient_presets_8cs" startline="26" endline="84">LibNoise.GradientPresets.GradientPresets</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_gradient_presets_1ae9062399c3b46dbcaa4896464bb3ccd9" prot="private" static="yes" mutable="no">
+        <type>readonly Gradient</type>
+        <definition>readonly Gradient LibNoise.GradientPresets._terrain</definition>
+        <argsstring></argsstring>
+        <name>_terrain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_gradient_presets_1a409e96a565c8dd5ab2999cda88039de9" compoundref="_gradient_presets_8cs" startline="26" endline="84">LibNoise.GradientPresets.GradientPresets</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lib_noise_1_1_gradient_presets_1a83e0902714fac15a8505d18563863f0d" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Gradient</type>
+        <definition>Gradient LibNoise.GradientPresets.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <briefdescription>
+<para>Gets the empty instance of Gradient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="93" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_gradient_presets_1a27d48dd0562c07631db9837e5a87a411" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Gradient</type>
+        <definition>Gradient LibNoise.GradientPresets.Grayscale</definition>
+        <argsstring></argsstring>
+        <name>Grayscale</name>
+        <briefdescription>
+<para>Gets the grayscale instance of Gradient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="101" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="102" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1a8f5efbd701d1f20f2a9a6c0631283749" compoundref="_noise2_d_8cs" startline="452" endline="455">LibNoise.Noise2D.GetTexture</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_gradient_presets_1a507d22ed0d0d2e16bf657301f7b1daf0" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Gradient</type>
+        <definition>Gradient LibNoise.GradientPresets.RGB</definition>
+        <argsstring></argsstring>
+        <name>RGB</name>
+        <briefdescription>
+<para>Gets the RGB instance of Gradient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="109" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_gradient_presets_1a7679174fd95eb38beb48de9346ced799" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Gradient</type>
+        <definition>Gradient LibNoise.GradientPresets.RGBA</definition>
+        <argsstring></argsstring>
+        <name>RGBA</name>
+        <briefdescription>
+<para>Gets the RGBA instance of Gradient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="117" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_gradient_presets_1ad2b65ef443c7df1c1a84559637516009" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Gradient</type>
+        <definition>Gradient LibNoise.GradientPresets.Terrain</definition>
+        <argsstring></argsstring>
+        <name>Terrain</name>
+        <briefdescription>
+<para>Gets the terrain instance of Gradient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="125" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_gradient_presets_1a409e96a565c8dd5ab2999cda88039de9" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static LibNoise.GradientPresets.GradientPresets</definition>
+        <argsstring>()</argsstring>
+        <name>GradientPresets</name>
+        <briefdescription>
+<para>Initializes a new instance of Gradient. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="26" bodyend="84"/>
+        <references refid="class_lib_noise_1_1_gradient_presets_1a65bc67085c7502738116007c9899b2af" compoundref="_gradient_presets_8cs" startline="13">LibNoise.GradientPresets._empty</references>
+        <references refid="class_lib_noise_1_1_gradient_presets_1aae529b74576147a5ae159460eca33339" compoundref="_gradient_presets_8cs" startline="14">LibNoise.GradientPresets._grayscale</references>
+        <references refid="class_lib_noise_1_1_gradient_presets_1a12b2c4167a8e1714b8ac69c568767757" compoundref="_gradient_presets_8cs" startline="15">LibNoise.GradientPresets._rgb</references>
+        <references refid="class_lib_noise_1_1_gradient_presets_1a119a415d91b9ec115970a5dd9f31a903" compoundref="_gradient_presets_8cs" startline="16">LibNoise.GradientPresets._rgba</references>
+        <references refid="class_lib_noise_1_1_gradient_presets_1ae9062399c3b46dbcaa4896464bb3ccd9" compoundref="_gradient_presets_8cs" startline="17">LibNoise.GradientPresets._terrain</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a series of gradient presets </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/GradientPresets.cs" bodystart="9" bodyend="131"/>
+    <listofallmembers>
+      <member refid="class_lib_noise_1_1_gradient_presets_1a65bc67085c7502738116007c9899b2af" prot="private" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>_empty</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1aae529b74576147a5ae159460eca33339" prot="private" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>_grayscale</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1a12b2c4167a8e1714b8ac69c568767757" prot="private" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>_rgb</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1a119a415d91b9ec115970a5dd9f31a903" prot="private" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>_rgba</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1ae9062399c3b46dbcaa4896464bb3ccd9" prot="private" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>_terrain</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1a83e0902714fac15a8505d18563863f0d" prot="public" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>Empty</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1a409e96a565c8dd5ab2999cda88039de9" prot="private" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>GradientPresets</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1a27d48dd0562c07631db9837e5a87a411" prot="public" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>Grayscale</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1a507d22ed0d0d2e16bf657301f7b1daf0" prot="public" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>RGB</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1a7679174fd95eb38beb48de9346ced799" prot="public" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>RGBA</name></member>
+      <member refid="class_lib_noise_1_1_gradient_presets_1ad2b65ef443c7df1c1a84559637516009" prot="public" virt="non-virtual"><scope>LibNoise::GradientPresets</scope><name>Terrain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___repair_u_v" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_RepairUV</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>File stub retained for backwards compatibility. You may safely delete this file. </para>    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairUV.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairUV.cs" bodystart="8" bodyend="8"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

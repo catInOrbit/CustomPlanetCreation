@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_9bbe919003250512679e0e3166656f4f" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/API Examples</compoundname>
+    <innerdir refid="dir_b1cbbaa9d34b22d44986dd244a9fd809">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/API Examples/Editor</innerdir>
+    <innerdir refid="dir_768f4f7ba1b105f2c9eb2d859ff4bdd9">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/API Examples/Icosphere FFT</innerdir>
+    <innerdir refid="dir_04fc0da50a7537d50a108a38fa3ad0ad">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/API Examples/Misc</innerdir>
+    <innerdir refid="dir_e99c164791434d54166afdb26d82e24d">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/API Examples/Procedural Mesh</innerdir>
+    <innerdir refid="dir_63ca4d288970aee6b612ad3d1aeaf490">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/API Examples/Runtime Editing</innerdir>
+    <innerdir refid="dir_e32c0cb22b9fd2fca8f89b50423864b7">C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/API Examples/Vertex Colors</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/main_centauri_project/Centauri/Assets/ProCore/ProBuilder/API Examples/"/>
+  </compounddef>
+</doxygen>

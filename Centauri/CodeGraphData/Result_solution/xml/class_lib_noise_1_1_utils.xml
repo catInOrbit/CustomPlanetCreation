@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lib_noise_1_1_utils" kind="class" prot="package">
+    <compoundname>LibNoise::Utils</compoundname>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_utils_1a826b67f96e1d59b5acf7d02096721526" prot="package" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Utils.Sqrt3</definition>
+        <argsstring></argsstring>
+        <name>Sqrt3</name>
+        <initializer>= 1.7320508075688772935</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_utils_1a59180577e943307dc0549f210c15ca83" prot="package" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int LibNoise.Utils.OctavesMaximum</definition>
+        <argsstring></argsstring>
+        <name>OctavesMaximum</name>
+        <initializer>= 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_generator_1_1_ridged_multifractal_1a4baf9aa96e1efc66ade537050d94389b" compoundref="_ridged_multifractal_8cs" startline="111" endline="119">LibNoise.Generator.RidgedMultifractal.UpdateWeights</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_utils_1aaa5d9bc17da7761d5d445c4dcbfa80fb" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int LibNoise.Utils.GeneratorNoiseX</definition>
+        <argsstring></argsstring>
+        <name>GeneratorNoiseX</name>
+        <initializer>= 1619</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_utils_1a2d6f5acd919a4aeb0937472b40130808" compoundref="_utils_8cs" startline="216" endline="229">LibNoise.Utils.GradientNoise3D</referencedby>
+        <referencedby refid="class_lib_noise_1_1_utils_1a0959b16bdd70e11cbf18ae02458e3d43" compoundref="_utils_8cs" startline="276" endline="282">LibNoise.Utils.ValueNoise3DInt</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_utils_1ada1b03b2d53b0b0f81369915040a729b" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int LibNoise.Utils.GeneratorNoiseY</definition>
+        <argsstring></argsstring>
+        <name>GeneratorNoiseY</name>
+        <initializer>= 31337</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_utils_1a2d6f5acd919a4aeb0937472b40130808" compoundref="_utils_8cs" startline="216" endline="229">LibNoise.Utils.GradientNoise3D</referencedby>
+        <referencedby refid="class_lib_noise_1_1_utils_1a0959b16bdd70e11cbf18ae02458e3d43" compoundref="_utils_8cs" startline="276" endline="282">LibNoise.Utils.ValueNoise3DInt</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_utils_1ae5ec63465c81277904191ba95bb307b9" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int LibNoise.Utils.GeneratorNoiseZ</definition>
+        <argsstring></argsstring>
+        <name>GeneratorNoiseZ</name>
+        <initializer>= 6971</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_utils_1a2d6f5acd919a4aeb0937472b40130808" compoundref="_utils_8cs" startline="216" endline="229">LibNoise.Utils.GradientNoise3D</referencedby>
+        <referencedby refid="class_lib_noise_1_1_utils_1a0959b16bdd70e11cbf18ae02458e3d43" compoundref="_utils_8cs" startline="276" endline="282">LibNoise.Utils.ValueNoise3DInt</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_utils_1a77a45dda30b2630fc2e2c56a3c51982a" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int LibNoise.Utils.GeneratorSeed</definition>
+        <argsstring></argsstring>
+        <name>GeneratorSeed</name>
+        <initializer>= 1013</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_utils_1a2d6f5acd919a4aeb0937472b40130808" compoundref="_utils_8cs" startline="216" endline="229">LibNoise.Utils.GradientNoise3D</referencedby>
+        <referencedby refid="class_lib_noise_1_1_utils_1a0959b16bdd70e11cbf18ae02458e3d43" compoundref="_utils_8cs" startline="276" endline="282">LibNoise.Utils.ValueNoise3DInt</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_utils_1a3d26f2ddfb6985b8fcc61ffa958b8738" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int LibNoise.Utils.GeneratorShift</definition>
+        <argsstring></argsstring>
+        <name>GeneratorShift</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_utils_1a2d6f5acd919a4aeb0937472b40130808" compoundref="_utils_8cs" startline="216" endline="229">LibNoise.Utils.GradientNoise3D</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_utils_1a644ba8982f66daa8e4bbc701b173230e" prot="package" static="yes" mutable="no">
+        <type>readonly double[]</type>
+        <definition>readonly double [] LibNoise.Utils.Randoms</definition>
+        <argsstring></argsstring>
+        <name>Randoms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_lib_noise_1_1_utils_1a2d6f5acd919a4aeb0937472b40130808" compoundref="_utils_8cs" startline="216" endline="229">LibNoise.Utils.GradientNoise3D</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_utils_1ac0530357d32c8533634c8c80f583668e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double LibNoise.Utils.GradientCoherentNoise3D</definition>
+        <argsstring>(double x, double y, double z, long seed, QualityMode quality)</argsstring>
+        <name>GradientCoherentNoise3D</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_lib_noise_1ab253d2180e71b8b4b51e250163ca0e27" kindref="member">QualityMode</ref></type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="166" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="166" bodyend="214"/>
+        <references refid="class_lib_noise_1_1_utils_1a2d6f5acd919a4aeb0937472b40130808" compoundref="_utils_8cs" startline="216" endline="229">LibNoise.Utils.GradientNoise3D</references>
+        <references refid="class_lib_noise_1_1_utils_1a8de65b934e4c7affe72cde01f1af847f" compoundref="_utils_8cs" startline="240" endline="243">LibNoise.Utils.InterpolateLinear</references>
+        <references refid="class_lib_noise_1_1_utils_1aedaa9ab5154888b207bed9404e5fba4f" compoundref="_utils_8cs" startline="258" endline="261">LibNoise.Utils.MapCubicSCurve</references>
+        <references refid="class_lib_noise_1_1_utils_1a4b3e73a4d071ed081cf88fa1c8f7874b" compoundref="_utils_8cs" startline="263" endline="269">LibNoise.Utils.MapQuinticSCurve</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_utils_1a2d6f5acd919a4aeb0937472b40130808" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double LibNoise.Utils.GradientNoise3D</definition>
+        <argsstring>(double fx, double fy, double fz, int ix, int iy, int iz, long seed)</argsstring>
+        <name>GradientNoise3D</name>
+        <param>
+          <type>double</type>
+          <declname>fx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fy</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>fz</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iz</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="216" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="216" bodyend="229"/>
+        <references refid="class_lib_noise_1_1_utils_1aaa5d9bc17da7761d5d445c4dcbfa80fb" compoundref="_utils_8cs" startline="19">LibNoise.Utils.GeneratorNoiseX</references>
+        <references refid="class_lib_noise_1_1_utils_1ada1b03b2d53b0b0f81369915040a729b" compoundref="_utils_8cs" startline="20">LibNoise.Utils.GeneratorNoiseY</references>
+        <references refid="class_lib_noise_1_1_utils_1ae5ec63465c81277904191ba95bb307b9" compoundref="_utils_8cs" startline="21">LibNoise.Utils.GeneratorNoiseZ</references>
+        <references refid="class_lib_noise_1_1_utils_1a77a45dda30b2630fc2e2c56a3c51982a" compoundref="_utils_8cs" startline="22">LibNoise.Utils.GeneratorSeed</references>
+        <references refid="class_lib_noise_1_1_utils_1a3d26f2ddfb6985b8fcc61ffa958b8738" compoundref="_utils_8cs" startline="23">LibNoise.Utils.GeneratorShift</references>
+        <references refid="class_lib_noise_1_1_utils_1a644ba8982f66daa8e4bbc701b173230e" compoundref="_utils_8cs" startline="30">LibNoise.Utils.Randoms</references>
+        <referencedby refid="class_lib_noise_1_1_utils_1ac0530357d32c8533634c8c80f583668e" compoundref="_utils_8cs" startline="166" endline="214">LibNoise.Utils.GradientCoherentNoise3D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_utils_1a9fa91216b17588850200aa7e0feb4f7f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double LibNoise.Utils.InterpolateCubic</definition>
+        <argsstring>(double a, double b, double c, double d, double position)</argsstring>
+        <name>InterpolateCubic</name>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="231" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="231" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_utils_1a8de65b934e4c7affe72cde01f1af847f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double LibNoise.Utils.InterpolateLinear</definition>
+        <argsstring>(double a, double b, double position)</argsstring>
+        <name>InterpolateLinear</name>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="240" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="240" bodyend="243"/>
+        <referencedby refid="class_lib_noise_1_1_noise2_d_1ac771707226342fb931f5d25365728503" compoundref="_noise2_d_8cs" startline="292" endline="339">LibNoise.Noise2D.GeneratePlanar</referencedby>
+        <referencedby refid="class_lib_noise_1_1_utils_1ac0530357d32c8533634c8c80f583668e" compoundref="_utils_8cs" startline="166" endline="214">LibNoise.Utils.GradientCoherentNoise3D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_utils_1adf9e040f4a69e2d4d380725c33cc1af9" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double LibNoise.Utils.MakeInt32Range</definition>
+        <argsstring>(double value)</argsstring>
+        <name>MakeInt32Range</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="245" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="245" bodyend="256"/>
+        <referencedby refid="class_lib_noise_1_1_generator_1_1_checker_1a26a849564ad34925c60be7b4529d4263" compoundref="_checker_8cs" startline="31" endline="37">LibNoise.Generator.Checker.GetValue</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_utils_1aedaa9ab5154888b207bed9404e5fba4f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double LibNoise.Utils.MapCubicSCurve</definition>
+        <argsstring>(double value)</argsstring>
+        <name>MapCubicSCurve</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="258" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="258" bodyend="261"/>
+        <referencedby refid="class_lib_noise_1_1_utils_1ac0530357d32c8533634c8c80f583668e" compoundref="_utils_8cs" startline="166" endline="214">LibNoise.Utils.GradientCoherentNoise3D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_utils_1a4b3e73a4d071ed081cf88fa1c8f7874b" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double LibNoise.Utils.MapQuinticSCurve</definition>
+        <argsstring>(double value)</argsstring>
+        <name>MapQuinticSCurve</name>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="263" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="263" bodyend="269"/>
+        <referencedby refid="class_lib_noise_1_1_utils_1ac0530357d32c8533634c8c80f583668e" compoundref="_utils_8cs" startline="166" endline="214">LibNoise.Utils.GradientCoherentNoise3D</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_utils_1a1fbbe9be4708690e3282bce37b44826b" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double LibNoise.Utils.ValueNoise3D</definition>
+        <argsstring>(int x, int y, int z, int seed)</argsstring>
+        <name>ValueNoise3D</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="271" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="271" bodyend="274"/>
+        <references refid="class_lib_noise_1_1_utils_1a0959b16bdd70e11cbf18ae02458e3d43" compoundref="_utils_8cs" startline="276" endline="282">LibNoise.Utils.ValueNoise3DInt</references>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_utils_1a0959b16bdd70e11cbf18ae02458e3d43" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long LibNoise.Utils.ValueNoise3DInt</definition>
+        <argsstring>(int x, int y, int z, int seed)</argsstring>
+        <name>ValueNoise3DInt</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="276" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="276" bodyend="282"/>
+        <references refid="class_lib_noise_1_1_utils_1aaa5d9bc17da7761d5d445c4dcbfa80fb" compoundref="_utils_8cs" startline="19">LibNoise.Utils.GeneratorNoiseX</references>
+        <references refid="class_lib_noise_1_1_utils_1ada1b03b2d53b0b0f81369915040a729b" compoundref="_utils_8cs" startline="20">LibNoise.Utils.GeneratorNoiseY</references>
+        <references refid="class_lib_noise_1_1_utils_1ae5ec63465c81277904191ba95bb307b9" compoundref="_utils_8cs" startline="21">LibNoise.Utils.GeneratorNoiseZ</references>
+        <references refid="class_lib_noise_1_1_utils_1a77a45dda30b2630fc2e2c56a3c51982a" compoundref="_utils_8cs" startline="22">LibNoise.Utils.GeneratorSeed</references>
+        <referencedby refid="class_lib_noise_1_1_utils_1a1fbbe9be4708690e3282bce37b44826b" compoundref="_utils_8cs" startline="271" endline="274">LibNoise.Utils.ValueNoise3D</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Utils.cs" bodystart="5" bodyend="285"/>
+    <listofallmembers>
+      <member refid="class_lib_noise_1_1_utils_1aaa5d9bc17da7761d5d445c4dcbfa80fb" prot="private" virt="non-virtual"><scope>LibNoise::Utils</scope><name>GeneratorNoiseX</name></member>
+      <member refid="class_lib_noise_1_1_utils_1ada1b03b2d53b0b0f81369915040a729b" prot="private" virt="non-virtual"><scope>LibNoise::Utils</scope><name>GeneratorNoiseY</name></member>
+      <member refid="class_lib_noise_1_1_utils_1ae5ec63465c81277904191ba95bb307b9" prot="private" virt="non-virtual"><scope>LibNoise::Utils</scope><name>GeneratorNoiseZ</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a77a45dda30b2630fc2e2c56a3c51982a" prot="private" virt="non-virtual"><scope>LibNoise::Utils</scope><name>GeneratorSeed</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a3d26f2ddfb6985b8fcc61ffa958b8738" prot="private" virt="non-virtual"><scope>LibNoise::Utils</scope><name>GeneratorShift</name></member>
+      <member refid="class_lib_noise_1_1_utils_1ac0530357d32c8533634c8c80f583668e" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>GradientCoherentNoise3D</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a2d6f5acd919a4aeb0937472b40130808" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>GradientNoise3D</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a9fa91216b17588850200aa7e0feb4f7f" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>InterpolateCubic</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a8de65b934e4c7affe72cde01f1af847f" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>InterpolateLinear</name></member>
+      <member refid="class_lib_noise_1_1_utils_1adf9e040f4a69e2d4d380725c33cc1af9" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>MakeInt32Range</name></member>
+      <member refid="class_lib_noise_1_1_utils_1aedaa9ab5154888b207bed9404e5fba4f" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>MapCubicSCurve</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a4b3e73a4d071ed081cf88fa1c8f7874b" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>MapQuinticSCurve</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a59180577e943307dc0549f210c15ca83" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>OctavesMaximum</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a644ba8982f66daa8e4bbc701b173230e" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>Randoms</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a826b67f96e1d59b5acf7d02096721526" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>Sqrt3</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a1fbbe9be4708690e3282bce37b44826b" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>ValueNoise3D</name></member>
+      <member refid="class_lib_noise_1_1_utils_1a0959b16bdd70e11cbf18ae02458e3d43" prot="package" virt="non-virtual"><scope>LibNoise::Utils</scope><name>ValueNoise3DInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

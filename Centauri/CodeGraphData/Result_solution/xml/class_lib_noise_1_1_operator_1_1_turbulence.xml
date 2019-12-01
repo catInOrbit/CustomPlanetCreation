@@ -1,0 +1,516 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lib_noise_1_1_operator_1_1_turbulence" kind="class" prot="public">
+    <compoundname>LibNoise::Operator::Turbulence</compoundname>
+    <basecompoundref refid="class_lib_noise_1_1_module_base" prot="public" virt="non-virtual">LibNoise.ModuleBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a229ec7a49f10097d5e609ad37f70222e" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Operator.Turbulence.X0</definition>
+        <argsstring></argsstring>
+        <name>X0</name>
+        <initializer>= (12414.0 / 65536.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a481c9d59a7c56e30ff57653c46390d73" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Operator.Turbulence.Y0</definition>
+        <argsstring></argsstring>
+        <name>Y0</name>
+        <initializer>= (65124.0 / 65536.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a9436fc70100d565f23f3aa115e19fa22" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Operator.Turbulence.Z0</definition>
+        <argsstring></argsstring>
+        <name>Z0</name>
+        <initializer>= (31337.0 / 65536.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a103bbe4a6501613c21abee36014fa5c7" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Operator.Turbulence.X1</definition>
+        <argsstring></argsstring>
+        <name>X1</name>
+        <initializer>= (26519.0 / 65536.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1ac85c21cd55936e97cfc8af8ea7f6596c" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Operator.Turbulence.Y1</definition>
+        <argsstring></argsstring>
+        <name>Y1</name>
+        <initializer>= (18128.0 / 65536.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1aed94c7a42665fc7a169128b3ca04bf35" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Operator.Turbulence.Z1</definition>
+        <argsstring></argsstring>
+        <name>Z1</name>
+        <initializer>= (60493.0 / 65536.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a254fcc1f6aed873bfbb2d261ba6f1489" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Operator.Turbulence.X2</definition>
+        <argsstring></argsstring>
+        <name>X2</name>
+        <initializer>= (53820.0 / 65536.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a5695f7b3ceea6f2e81e607f31a8978fa" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Operator.Turbulence.Y2</definition>
+        <argsstring></argsstring>
+        <name>Y2</name>
+        <initializer>= (11213.0 / 65536.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1acc9abd9b802c309eb6b6b6b8e9aa3d75" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double LibNoise.Operator.Turbulence.Z2</definition>
+        <argsstring></argsstring>
+        <name>Z2</name>
+        <initializer>= (44845.0 / 65536.0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a6ba61fdf254964ab9466938bebdb5673" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Turbulence._power</definition>
+        <argsstring></argsstring>
+        <name>_power</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a02810e30fb8dd6368660e03d776b7674" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_lib_noise_1_1_generator_1_1_perlin" kindref="compound">Perlin</ref></type>
+        <definition>readonly Perlin LibNoise.Operator.Turbulence._xDistort</definition>
+        <argsstring></argsstring>
+        <name>_xDistort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a72d4d860b4edcef6d3f567d5da2e444c" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_lib_noise_1_1_generator_1_1_perlin" kindref="compound">Perlin</ref></type>
+        <definition>readonly Perlin LibNoise.Operator.Turbulence._yDistort</definition>
+        <argsstring></argsstring>
+        <name>_yDistort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_operator_1_1_turbulence_1a2ffd66269579d7ffa37e9e635e44a682" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_lib_noise_1_1_generator_1_1_perlin" kindref="compound">Perlin</ref></type>
+        <definition>readonly Perlin LibNoise.Operator.Turbulence._zDistort</definition>
+        <argsstring></argsstring>
+        <name>_zDistort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="31" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_turbulence_1a8ed1322da08648a18649e4b6b387c964" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Turbulence.Frequency</definition>
+        <argsstring></argsstring>
+        <name>Frequency</name>
+        <briefdescription>
+<para>Gets or sets the frequency of the turbulence. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="94" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_turbulence_1a77cfb87023b016875e28b7bd4e3092e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Operator.Turbulence.Power</definition>
+        <argsstring></argsstring>
+        <name>Power</name>
+        <briefdescription>
+<para>Gets or sets the power of the turbulence. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="108" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_turbulence_1a948396ae7e3e1351030aad835ce4d94e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int LibNoise.Operator.Turbulence.Roughness</definition>
+        <argsstring></argsstring>
+        <name>Roughness</name>
+        <briefdescription>
+<para>Gets or sets the roughness of the turbulence. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="117" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_operator_1_1_turbulence_1a03f22847ef7b1535886bfce58d23475e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int LibNoise.Operator.Turbulence.Seed</definition>
+        <argsstring></argsstring>
+        <name>Seed</name>
+        <briefdescription>
+<para>Gets or sets the seed of the turbulence. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="131" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_turbulence_1a6e3b317e7a5db21ab409ec76c9100e88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Operator.Turbulence.Turbulence</definition>
+        <argsstring>()</argsstring>
+        <name>Turbulence</name>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_operator_1_1_turbulence" kindref="compound">Turbulence</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_turbulence_1adebaad80f53e18ef1371ef0bf1e11d1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Operator.Turbulence.Turbulence</definition>
+        <argsstring>(ModuleBase input)</argsstring>
+        <name>Turbulence</name>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_operator_1_1_turbulence" kindref="compound">Turbulence</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input module.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="52" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_turbulence_1a495df95b79f6f4be7d7f670e53a52988" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Operator.Turbulence.Turbulence</definition>
+        <argsstring>(double power, ModuleBase input)</argsstring>
+        <name>Turbulence</name>
+        <param>
+          <type>double</type>
+          <declname>power</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_operator_1_1_turbulence" kindref="compound">Turbulence</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="64" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_turbulence_1abe249983d6ab905ef8a165c63d24afae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Operator.Turbulence.Turbulence</definition>
+        <argsstring>(Perlin x, Perlin y, Perlin z, double power, ModuleBase input)</argsstring>
+        <name>Turbulence</name>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_generator_1_1_perlin" kindref="compound">Perlin</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_generator_1_1_perlin" kindref="compound">Perlin</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_generator_1_1_perlin" kindref="compound">Perlin</ref></type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>power</declname>
+        </param>
+        <param>
+          <type><ref refid="class_lib_noise_1_1_module_base" kindref="compound">ModuleBase</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_operator_1_1_turbulence" kindref="compound">Turbulence</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The perlin noise to apply on the x-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The perlin noise to apply on the y-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The perlin noise to apply on the z-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>power</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The power of the turbulence.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input module.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="77" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="77" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_operator_1_1_turbulence_1af729e56ef63cc48cd7e85f75d15dc717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override double</type>
+        <definition>override double LibNoise.Operator.Turbulence.GetValue</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>GetValue</name>
+        <reimplements refid="class_lib_noise_1_1_module_base_1abb3f06725165dc1fda63de23b68f408b">GetValue</reimplements>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Returns the output value for the given input coordinates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the x-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the y-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the z-axis.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting output value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="153" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="153" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a noise module that that randomly displaces the input value before returning the output value from a source module. [OPERATOR] </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="763">
+        <label>IDisposable</label>
+      </node>
+      <node id="761">
+        <label>LibNoise.Operator.Turbulence</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_turbulence"/>
+        <childnode refid="762" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="762">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="763" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="767">
+        <label>LibNoise.ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="766" relation="public-inheritance">
+        </childnode>
+        <childnode refid="767" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+      <node id="768">
+        <label>LibNoise.Generator.Perlin</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_perlin"/>
+        <childnode refid="765" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="766">
+        <label>IDisposable</label>
+      </node>
+      <node id="764">
+        <label>LibNoise.Operator.Turbulence</label>
+        <link refid="class_lib_noise_1_1_operator_1_1_turbulence"/>
+        <childnode refid="765" relation="public-inheritance">
+        </childnode>
+        <childnode refid="768" relation="usage">
+          <edgelabel>_zDistort</edgelabel>
+          <edgelabel>_xDistort</edgelabel>
+          <edgelabel>_yDistort</edgelabel>
+        </childnode>
+      </node>
+      <node id="765">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="766" relation="public-inheritance">
+        </childnode>
+        <childnode refid="767" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Operator/Turbulence.cs" bodystart="10" bodyend="163"/>
+    <listofallmembers>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a6ba61fdf254964ab9466938bebdb5673" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>_power</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a02810e30fb8dd6368660e03d776b7674" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>_xDistort</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a72d4d860b4edcef6d3f567d5da2e444c" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>_yDistort</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a2ffd66269579d7ffa37e9e635e44a682" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>_zDistort</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a0f281ab3bfc1fe8aef486a80cbe4db01" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Dispose</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a564dbb55fb2a28d5dc7798849508ab2b" prot="protected" virt="virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Disposing</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a8ed1322da08648a18649e4b6b387c964" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Frequency</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1af729e56ef63cc48cd7e85f75d15dc717" prot="public" virt="virtual"><scope>LibNoise::Operator::Turbulence</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1aea8b10f91816c21d0910ebf6aa58fde6" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Operator::Turbulence</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1af442fe2cbe675fbebc9c54ec51f6c2ee" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Operator::Turbulence</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1adcf3d5aa2957501de0577a6a8317c2d5" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>IsDisposed</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a79db52ea9d135eff82bb3e3213fd668c" prot="protected" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>ModuleBase</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a2037b14c6b82fc7033224b2a31faf8d4" prot="protected" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Modules</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a77cfb87023b016875e28b7bd4e3092e1" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Power</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a948396ae7e3e1351030aad835ce4d94e" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Roughness</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a03f22847ef7b1535886bfce58d23475e" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Seed</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a3f901b6cb96ad011f20f1ce922ff67fc" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>SourceModuleCount</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a82ba7cc8a454de882e305ebb0e9e2e1c" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>this[int index]</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a6e3b317e7a5db21ab409ec76c9100e88" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Turbulence</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1adebaad80f53e18ef1371ef0bf1e11d1d" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Turbulence</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a495df95b79f6f4be7d7f670e53a52988" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Turbulence</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1abe249983d6ab905ef8a165c63d24afae" prot="public" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Turbulence</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a229ec7a49f10097d5e609ad37f70222e" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>X0</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a103bbe4a6501613c21abee36014fa5c7" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>X1</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a254fcc1f6aed873bfbb2d261ba6f1489" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>X2</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a481c9d59a7c56e30ff57653c46390d73" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Y0</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1ac85c21cd55936e97cfc8af8ea7f6596c" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Y1</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a5695f7b3ceea6f2e81e607f31a8978fa" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Y2</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1a9436fc70100d565f23f3aa115e19fa22" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Z0</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1aed94c7a42665fc7a169128b3ca04bf35" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Z1</name></member>
+      <member refid="class_lib_noise_1_1_operator_1_1_turbulence_1acc9abd9b802c309eb6b6b6b8e9aa3d75" prot="private" virt="non-virtual"><scope>LibNoise::Operator::Turbulence</scope><name>Z2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

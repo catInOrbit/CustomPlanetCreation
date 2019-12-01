@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_engines_data_1_1_engine_data" kind="class" prot="public">
+    <compoundname>EnginesData::EngineData</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_engines_data_1_1_engine_data_1a87bf0924050a00fa51a907009c68da39" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.engineISP</definition>
+        <argsstring></argsstring>
+        <name>engineISP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a886300cd4b4845f3a036ea2ed081af86" compoundref="_engines_data_8cs" startline="92" endline="95">EnginesData.EngineData.GetExhaustVelocity</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_engines_data_1_1_engine_data_1a2ae2dc5c4c66773cbf1e503ad4bb6d07" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.thrustPower</definition>
+        <argsstring></argsstring>
+        <name>thrustPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_engines_data_1_1_engine_data_1a32b4a9d7b0b69dafb2678a751081240a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string EnginesData.EngineData.engineName</definition>
+        <argsstring></argsstring>
+        <name>engineName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_engines_data_1_1_engine_data_1abcb7f4e1c1358fdd2e5af2d2c6a4b73b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.fuelConsumption</definition>
+        <argsstring></argsstring>
+        <name>fuelConsumption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_engines_data_1_1_engine_data_1ac5b0bdcca1c43dde82399e0cf14934b3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.forceInputDampenent</definition>
+        <argsstring></argsstring>
+        <name>forceInputDampenent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_engines_data_1_1_engine_data_1a5560f0049891c325ae609b8113cfb8f8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.EngineISP</definition>
+        <argsstring></argsstring>
+        <name>EngineISP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_engines_data_1_1_engine_data_1a822c27e5778f17fb1ef048934d780d58" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.ThrustPower</definition>
+        <argsstring></argsstring>
+        <name>ThrustPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="31" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_engines_data_1_1_engine_data_1adb369bd5c72029c07a4f03166d4c0568" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string EnginesData.EngineData.EngineName</definition>
+        <argsstring></argsstring>
+        <name>EngineName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="44" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_engines_data_1_1_engine_data_1ae3fe4c3eaf5c229a77c1a0d8be05ae2f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.FuelConsumption</definition>
+        <argsstring></argsstring>
+        <name>FuelConsumption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="57" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="58" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_engines_data_1_1_engine_data_1aac9b853d2f4b35b619f6cd62f4c827c7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.ForceInputDampenent</definition>
+        <argsstring></argsstring>
+        <name>ForceInputDampenent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="70" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="71" bodyend="-1"/>
+        <referencedby refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" compoundref="_engines_data_8cs" startline="83" endline="90">EnginesData.EngineData.EngineData</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>EnginesData.EngineData.EngineData</definition>
+        <argsstring>(float engineISP, float thrustPower, string engineName, float fuelConsumption, float forceInputDampenent)</argsstring>
+        <name>EngineData</name>
+        <param>
+          <type>float</type>
+          <declname>engineISP</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>thrustPower</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>engineName</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>fuelConsumption</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>forceInputDampenent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="83" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="83" bodyend="90"/>
+        <references refid="class_engines_data_1_1_engine_data_1a87bf0924050a00fa51a907009c68da39" compoundref="_engines_data_8cs" startline="12">EnginesData.EngineData.engineISP</references>
+        <references refid="class_engines_data_1_1_engine_data_1a5560f0049891c325ae609b8113cfb8f8" compoundref="_engines_data_8cs" startline="19">EnginesData.EngineData.EngineISP</references>
+        <references refid="class_engines_data_1_1_engine_data_1a32b4a9d7b0b69dafb2678a751081240a" compoundref="_engines_data_8cs" startline="14">EnginesData.EngineData.engineName</references>
+        <references refid="class_engines_data_1_1_engine_data_1adb369bd5c72029c07a4f03166d4c0568" compoundref="_engines_data_8cs" startline="45">EnginesData.EngineData.EngineName</references>
+        <references refid="class_engines_data_1_1_engine_data_1ac5b0bdcca1c43dde82399e0cf14934b3" compoundref="_engines_data_8cs" startline="16">EnginesData.EngineData.forceInputDampenent</references>
+        <references refid="class_engines_data_1_1_engine_data_1aac9b853d2f4b35b619f6cd62f4c827c7" compoundref="_engines_data_8cs" startline="71">EnginesData.EngineData.ForceInputDampenent</references>
+        <references refid="class_engines_data_1_1_engine_data_1abcb7f4e1c1358fdd2e5af2d2c6a4b73b" compoundref="_engines_data_8cs" startline="15">EnginesData.EngineData.fuelConsumption</references>
+        <references refid="class_engines_data_1_1_engine_data_1ae3fe4c3eaf5c229a77c1a0d8be05ae2f" compoundref="_engines_data_8cs" startline="58">EnginesData.EngineData.FuelConsumption</references>
+        <references refid="class_engines_data_1_1_engine_data_1a2ae2dc5c4c66773cbf1e503ad4bb6d07" compoundref="_engines_data_8cs" startline="13">EnginesData.EngineData.thrustPower</references>
+        <references refid="class_engines_data_1_1_engine_data_1a822c27e5778f17fb1ef048934d780d58" compoundref="_engines_data_8cs" startline="32">EnginesData.EngineData.ThrustPower</references>
+      </memberdef>
+      <memberdef kind="function" id="class_engines_data_1_1_engine_data_1a886300cd4b4845f3a036ea2ed081af86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.GetExhaustVelocity</definition>
+        <argsstring>()</argsstring>
+        <name>GetExhaustVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="92" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="92" bodyend="95"/>
+        <references refid="class_engines_data_1_1_engine_data_1a87bf0924050a00fa51a907009c68da39" compoundref="_engines_data_8cs" startline="12">EnginesData.EngineData.engineISP</references>
+        <referencedby refid="class_speed_data_1a0b2cf6dce691f24116112f474e21cfc7" compoundref="_speed_data_8cs" startline="40" endline="45">SpeedData.GetDeltaVStringData</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_engines_data_1_1_engine_data_1ac2bb76352cf140d61ab93f0a26f95293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float EnginesData.EngineData.GetThrustWeightRatio</definition>
+        <argsstring>(float exhaustVelocity, float shipDryMass, float gravity)</argsstring>
+        <name>GetThrustWeightRatio</name>
+        <param>
+          <type>float</type>
+          <declname>exhaustVelocity</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>shipDryMass</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gravity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="97" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="97" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/EnginesData.cs" bodystart="9" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_engines_data_1_1_engine_data_1a080a424cee235c31a2c8b59cd39a9615" prot="public" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>EngineData</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1a87bf0924050a00fa51a907009c68da39" prot="private" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>engineISP</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1a5560f0049891c325ae609b8113cfb8f8" prot="public" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>EngineISP</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1adb369bd5c72029c07a4f03166d4c0568" prot="public" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>EngineName</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1a32b4a9d7b0b69dafb2678a751081240a" prot="private" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>engineName</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1ac5b0bdcca1c43dde82399e0cf14934b3" prot="private" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>forceInputDampenent</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1aac9b853d2f4b35b619f6cd62f4c827c7" prot="public" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>ForceInputDampenent</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1ae3fe4c3eaf5c229a77c1a0d8be05ae2f" prot="public" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>FuelConsumption</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1abcb7f4e1c1358fdd2e5af2d2c6a4b73b" prot="private" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>fuelConsumption</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1a886300cd4b4845f3a036ea2ed081af86" prot="public" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>GetExhaustVelocity</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1ac2bb76352cf140d61ab93f0a26f95293" prot="public" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>GetThrustWeightRatio</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1a822c27e5778f17fb1ef048934d780d58" prot="public" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>ThrustPower</name></member>
+      <member refid="class_engines_data_1_1_engine_data_1a2ae2dc5c4c66773cbf1e503ad4bb6d07" prot="private" virt="non-virtual"><scope>EnginesData::EngineData</scope><name>thrustPower</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

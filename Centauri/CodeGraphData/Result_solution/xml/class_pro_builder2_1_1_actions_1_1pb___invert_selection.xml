@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___invert_selection" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_InvertSelection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu interface for inverting the current element selection.</para><para>Deprecated as of 2.6.0. This file remains only for backwards compatibility; you may safely delete it. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="484">
+        <label>Editor</label>
+      </node>
+      <node id="483">
+        <label>ProBuilder2.Actions.pb_InvertSelection</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___invert_selection"/>
+        <childnode refid="484" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="486">
+        <label>Editor</label>
+      </node>
+      <node id="485">
+        <label>ProBuilder2.Actions.pb_InvertSelection</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___invert_selection"/>
+        <childnode refid="486" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_InvertSelection.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Selection/pb_InvertSelection.cs" bodystart="20" bodyend="20"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

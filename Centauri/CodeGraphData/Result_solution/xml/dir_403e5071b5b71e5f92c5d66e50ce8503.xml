@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_403e5071b5b71e5f92c5d66e50ce8503" kind="dir">
+    <compoundname>C:/Uniprj/BitCentauri</compoundname>
+    <innerdir refid="dir_7498107f37daca3d3350f705ff0831fb">C:/Uniprj/BitCentauri/main_centauri_project</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/BitCentauri/"/>
+  </compounddef>
+</doxygen>

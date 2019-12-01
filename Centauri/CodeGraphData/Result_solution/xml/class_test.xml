@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_test" kind="class" prot="public">
+    <compoundname>Test</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_test_1a50e55647e755da43df494b76b459182d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" compoundref="_test_8cs" startline="63" endline="70">FO</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1ad5b7b994eee1d83deb055cad286c6e55" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" compoundref="_test_8cs" startline="63" endline="70">FO</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a66abc337729d19df542d45f8b50945f9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.h</definition>
+        <argsstring></argsstring>
+        <name>h</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a7e9e9e30cedc0b3c07116320c74353e0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.k</definition>
+        <argsstring></argsstring>
+        <name>k</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1af7c76974cc996d62b821c558917cbfa2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.theta</definition>
+        <argsstring></argsstring>
+        <name>theta</name>
+        <initializer>= 45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_test_1a55fd725eae687a61c4147c3ab8953468" compoundref="_test_8cs" startline="46" endline="61">CreateEllipse</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a2f08f27f3cda89065085bf419330a3d7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Test.resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_test_1a55fd725eae687a61c4147c3ab8953468" compoundref="_test_8cs" startline="46" endline="61">CreateEllipse</referencedby>
+        <referencedby refid="class_test_1a76e480bfd3a44edb503710987a6997a9" compoundref="_test_8cs" startline="72" endline="84">CreateEllipse2</referencedby>
+        <referencedby refid="class_test_1ab0eb1f41baad3cb7ae1ad1dc17c4a3bc" compoundref="_test_8cs" startline="34" endline="44">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a8d12496f8304827362b0beb15cb945b0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.distanceBtFocus</definition>
+        <argsstring></argsstring>
+        <name>distanceBtFocus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" compoundref="_test_8cs" startline="63" endline="70">FO</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a3f8ef35860b9621746a210bc7f4d7ae9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.focuesAngle</definition>
+        <argsstring></argsstring>
+        <name>focuesAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" compoundref="_test_8cs" startline="63" endline="70">FO</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1ac5a643b909cc99c1eabcc310c45a7bf1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.centerX</definition>
+        <argsstring></argsstring>
+        <name>centerX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a8170f450e51bfceded16673c1bc3e288" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.centerY</definition>
+        <argsstring></argsstring>
+        <name>centerY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a4d702e10a83aa1dec28d36e0caa094f8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.initialVelocity</definition>
+        <argsstring></argsstring>
+        <name>initialVelocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_test_1a76e480bfd3a44edb503710987a6997a9" compoundref="_test_8cs" startline="72" endline="84">CreateEllipse2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a8c160e13bb7a830def9ea11c8df720a6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_test_1a55fd725eae687a61c4147c3ab8953468" compoundref="_test_8cs" startline="46" endline="61">CreateEllipse</referencedby>
+        <referencedby refid="class_test_1a76e480bfd3a44edb503710987a6997a9" compoundref="_test_8cs" startline="72" endline="84">CreateEllipse2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1afef2e2304c4aa12b8c26732d5a22d645" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_test_1a76e480bfd3a44edb503710987a6997a9" compoundref="_test_8cs" startline="72" endline="84">CreateEllipse2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1ad76d377f88131b4d89e02644495afc3d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Test.gravity</definition>
+        <argsstring></argsstring>
+        <name>gravity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_test_1a76e480bfd3a44edb503710987a6997a9" compoundref="_test_8cs" startline="72" endline="84">CreateEllipse2</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a92e1cf22d959fb624f2ffc20d891c6bb" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Test.locus1</definition>
+        <argsstring></argsstring>
+        <name>locus1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" compoundref="_test_8cs" startline="63" endline="70">FO</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a8379a2e36358cbea069ddb15279c3b15" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject Test.locus2</definition>
+        <argsstring></argsstring>
+        <name>locus2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" compoundref="_test_8cs" startline="63" endline="70">FO</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_1a879eda1cf529c200848c38e51bbce97e" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 Test.center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_test_1a55fd725eae687a61c4147c3ab8953468" compoundref="_test_8cs" startline="46" endline="61">CreateEllipse</referencedby>
+        <referencedby refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" compoundref="_test_8cs" startline="63" endline="70">FO</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_test_1a6d94522e4f08dbec154dac1338132962" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] Test.positions</definition>
+        <argsstring></argsstring>
+        <name>positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_test_1a55fd725eae687a61c4147c3ab8953468" compoundref="_test_8cs" startline="46" endline="61">CreateEllipse</referencedby>
+        <referencedby refid="class_test_1a76e480bfd3a44edb503710987a6997a9" compoundref="_test_8cs" startline="72" endline="84">CreateEllipse2</referencedby>
+        <referencedby refid="class_test_1ab0eb1f41baad3cb7ae1ad1dc17c4a3bc" compoundref="_test_8cs" startline="34" endline="44">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_1ab0eb1f41baad3cb7ae1ad1dc17c4a3bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="34" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="34" bodyend="44"/>
+        <references refid="class_test_1a76e480bfd3a44edb503710987a6997a9" compoundref="_test_8cs" startline="72" endline="84">CreateEllipse2</references>
+        <references refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" compoundref="_test_8cs" startline="63" endline="70">FO</references>
+        <references refid="class_test_1a6d94522e4f08dbec154dac1338132962" compoundref="_test_8cs" startline="32">positions</references>
+        <references refid="class_test_1a2f08f27f3cda89065085bf419330a3d7" compoundref="_test_8cs" startline="13">resolution</references>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1a55fd725eae687a61c4147c3ab8953468" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] Test.CreateEllipse</definition>
+        <argsstring>(float a, float b, float h, float k, float theta, int resolution)</argsstring>
+        <name>CreateEllipse</name>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>theta</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="46" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="46" bodyend="61"/>
+        <references refid="class_test_1a8c160e13bb7a830def9ea11c8df720a6" compoundref="_test_8cs" startline="21">angle</references>
+        <references refid="class_test_1a879eda1cf529c200848c38e51bbce97e" compoundref="_test_8cs" startline="29">center</references>
+        <references refid="class_test_1a6d94522e4f08dbec154dac1338132962" compoundref="_test_8cs" startline="32">positions</references>
+        <references refid="class_test_1a2f08f27f3cda89065085bf419330a3d7" compoundref="_test_8cs" startline="13">resolution</references>
+        <references refid="class_test_1af7c76974cc996d62b821c558917cbfa2" compoundref="_test_8cs" startline="12">theta</references>
+      </memberdef>
+      <memberdef kind="function" id="class_test_1a76e480bfd3a44edb503710987a6997a9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] Test.CreateEllipse2</definition>
+        <argsstring>()</argsstring>
+        <name>CreateEllipse2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="72" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="72" bodyend="84"/>
+        <references refid="class_test_1a8c160e13bb7a830def9ea11c8df720a6" compoundref="_test_8cs" startline="21">angle</references>
+        <references refid="class_test_1ad76d377f88131b4d89e02644495afc3d" compoundref="_test_8cs" startline="23">gravity</references>
+        <references refid="class_test_1a4d702e10a83aa1dec28d36e0caa094f8" compoundref="_test_8cs" startline="20">initialVelocity</references>
+        <references refid="class_test_1a6d94522e4f08dbec154dac1338132962" compoundref="_test_8cs" startline="32">positions</references>
+        <references refid="class_test_1a2f08f27f3cda89065085bf419330a3d7" compoundref="_test_8cs" startline="13">resolution</references>
+        <references refid="class_test_1afef2e2304c4aa12b8c26732d5a22d645" compoundref="_test_8cs" startline="22">time</references>
+        <referencedby refid="class_test_1ab0eb1f41baad3cb7ae1ad1dc17c4a3bc" compoundref="_test_8cs" startline="34" endline="44">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Test.FO</definition>
+        <argsstring>()</argsstring>
+        <name>FO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="63" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="63" bodyend="70"/>
+        <references refid="class_test_1a50e55647e755da43df494b76b459182d" compoundref="_test_8cs" startline="8">a</references>
+        <references refid="class_test_1ad5b7b994eee1d83deb055cad286c6e55" compoundref="_test_8cs" startline="9">b</references>
+        <references refid="class_test_1a879eda1cf529c200848c38e51bbce97e" compoundref="_test_8cs" startline="29">center</references>
+        <references refid="class_test_1a8d12496f8304827362b0beb15cb945b0" compoundref="_test_8cs" startline="15">distanceBtFocus</references>
+        <references refid="class_test_1a3f8ef35860b9621746a210bc7f4d7ae9" compoundref="_test_8cs" startline="16">focuesAngle</references>
+        <references refid="class_test_1a92e1cf22d959fb624f2ffc20d891c6bb" compoundref="_test_8cs" startline="27">locus1</references>
+        <references refid="class_test_1a8379a2e36358cbea069ddb15279c3b15" compoundref="_test_8cs" startline="28">locus2</references>
+        <referencedby refid="class_test_1ab0eb1f41baad3cb7ae1ad1dc17c4a3bc" compoundref="_test_8cs" startline="34" endline="44">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="724">
+        <label>Test</label>
+        <link refid="class_test"/>
+        <childnode refid="725" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="725">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="726">
+        <label>Test</label>
+        <link refid="class_test"/>
+        <childnode refid="727" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="727">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Deprecated/Displayers/Test.cs" bodystart="5" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_test_1a50e55647e755da43df494b76b459182d" prot="public" virt="non-virtual"><scope>Test</scope><name>a</name></member>
+      <member refid="class_test_1a8c160e13bb7a830def9ea11c8df720a6" prot="public" virt="non-virtual"><scope>Test</scope><name>angle</name></member>
+      <member refid="class_test_1ad5b7b994eee1d83deb055cad286c6e55" prot="public" virt="non-virtual"><scope>Test</scope><name>b</name></member>
+      <member refid="class_test_1a879eda1cf529c200848c38e51bbce97e" prot="public" virt="non-virtual"><scope>Test</scope><name>center</name></member>
+      <member refid="class_test_1ac5a643b909cc99c1eabcc310c45a7bf1" prot="public" virt="non-virtual"><scope>Test</scope><name>centerX</name></member>
+      <member refid="class_test_1a8170f450e51bfceded16673c1bc3e288" prot="public" virt="non-virtual"><scope>Test</scope><name>centerY</name></member>
+      <member refid="class_test_1a55fd725eae687a61c4147c3ab8953468" prot="private" virt="non-virtual"><scope>Test</scope><name>CreateEllipse</name></member>
+      <member refid="class_test_1a76e480bfd3a44edb503710987a6997a9" prot="private" virt="non-virtual"><scope>Test</scope><name>CreateEllipse2</name></member>
+      <member refid="class_test_1a8d12496f8304827362b0beb15cb945b0" prot="public" virt="non-virtual"><scope>Test</scope><name>distanceBtFocus</name></member>
+      <member refid="class_test_1aab5f3af5fd1ef1e616342bb0c65afb6c" prot="public" virt="non-virtual"><scope>Test</scope><name>FO</name></member>
+      <member refid="class_test_1a3f8ef35860b9621746a210bc7f4d7ae9" prot="public" virt="non-virtual"><scope>Test</scope><name>focuesAngle</name></member>
+      <member refid="class_test_1ad76d377f88131b4d89e02644495afc3d" prot="public" virt="non-virtual"><scope>Test</scope><name>gravity</name></member>
+      <member refid="class_test_1a66abc337729d19df542d45f8b50945f9" prot="public" virt="non-virtual"><scope>Test</scope><name>h</name></member>
+      <member refid="class_test_1a4d702e10a83aa1dec28d36e0caa094f8" prot="public" virt="non-virtual"><scope>Test</scope><name>initialVelocity</name></member>
+      <member refid="class_test_1a7e9e9e30cedc0b3c07116320c74353e0" prot="public" virt="non-virtual"><scope>Test</scope><name>k</name></member>
+      <member refid="class_test_1a92e1cf22d959fb624f2ffc20d891c6bb" prot="public" virt="non-virtual"><scope>Test</scope><name>locus1</name></member>
+      <member refid="class_test_1a8379a2e36358cbea069ddb15279c3b15" prot="public" virt="non-virtual"><scope>Test</scope><name>locus2</name></member>
+      <member refid="class_test_1a6d94522e4f08dbec154dac1338132962" prot="private" virt="non-virtual"><scope>Test</scope><name>positions</name></member>
+      <member refid="class_test_1a2f08f27f3cda89065085bf419330a3d7" prot="public" virt="non-virtual"><scope>Test</scope><name>resolution</name></member>
+      <member refid="class_test_1af7c76974cc996d62b821c558917cbfa2" prot="public" virt="non-virtual"><scope>Test</scope><name>theta</name></member>
+      <member refid="class_test_1afef2e2304c4aa12b8c26732d5a22d645" prot="public" virt="non-virtual"><scope>Test</scope><name>time</name></member>
+      <member refid="class_test_1ab0eb1f41baad3cb7ae1ad1dc17c4a3bc" prot="private" virt="non-virtual"><scope>Test</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

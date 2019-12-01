@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="pb___repair_u_v_8cs" kind="file">
+    <compoundname>pb_RepairUV.cs</compoundname>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___repair_u_v" prot="public">ProBuilder2::Actions::pb_RepairUV</innerclass>
+    <innernamespace refid="namespace_pro_builder2_1_1_actions">ProBuilder2::Actions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ProBuilder2.Actions</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>[System.Obsolete]</highlight></codeline>
+<codeline lineno="8" refid="class_pro_builder2_1_1_actions_1_1pb___repair_u_v" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_pro_builder2_1_1_actions_1_1pb___repair_u_v" kindref="compound">pb_RepairUV</ref><sp/>{}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RepairUV.cs"/>
+  </compounddef>
+</doxygen>

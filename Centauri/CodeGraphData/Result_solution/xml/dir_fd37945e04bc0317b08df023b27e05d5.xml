@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_fd37945e04bc0317b08df023b27e05d5" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader</compoundname>
+    <innerdir refid="dir_5f485295dd4d8a92074a5dec4f6744d3">C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/"/>
+  </compounddef>
+</doxygen>

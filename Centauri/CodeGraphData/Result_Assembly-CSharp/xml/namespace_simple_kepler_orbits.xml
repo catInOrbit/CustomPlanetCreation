@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_simple_kepler_orbits" kind="namespace">
+    <compoundname>SimpleKeplerOrbits</compoundname>
+    <innerclass refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display" prot="public">SimpleKeplerOrbits::KeplerOrbitLineDisplay</innerclass>
+    <innerclass refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" prot="public">SimpleKeplerOrbits::KeplerOrbitMover</innerclass>
+    <innerclass refid="class_simple_kepler_orbits_1_1_attractor_data" prot="public">SimpleKeplerOrbits::AttractorData</innerclass>
+    <innerclass refid="class_simple_kepler_orbits_1_1_kepler_orbit_data" prot="public">SimpleKeplerOrbits::KeplerOrbitData</innerclass>
+    <innerclass refid="class_simple_kepler_orbits_1_1_kepler_orbit_utils" prot="public">SimpleKeplerOrbits::KeplerOrbitUtils</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

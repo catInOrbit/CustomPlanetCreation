@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_260d66d2bddfb2b1c1a9f93e47e65721" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector</compoundname>
+    <innerfile refid="_cancel_u_i_detection_8cs">CancelUIDetection.cs</innerfile>
+    <innerfile refid="_planet_selection_u_i_8cs">PlanetSelectionUI.cs</innerfile>
+    <innerfile refid="_player_u_i_detection_8cs">PlayerUIDetection.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/"/>
+  </compounddef>
+</doxygen>

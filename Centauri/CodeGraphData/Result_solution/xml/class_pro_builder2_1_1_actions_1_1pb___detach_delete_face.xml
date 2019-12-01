@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___detach_delete_face" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_DetachDeleteFace</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu interface for deleting and detaching faces.</para><para>Deprecated as of 2.6.0. This file remains only for backwards compatibility; you may safely delete it. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="440">
+        <label>Editor</label>
+      </node>
+      <node id="439">
+        <label>ProBuilder2.Actions.pb_DetachDeleteFace</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___detach_delete_face"/>
+        <childnode refid="440" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="442">
+        <label>Editor</label>
+      </node>
+      <node id="441">
+        <label>ProBuilder2.Actions.pb_DetachDeleteFace</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___detach_delete_face"/>
+        <childnode refid="442" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_DetachDeleteFace.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Geometry/pb_DetachDeleteFace.cs" bodystart="17" bodyend="17"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

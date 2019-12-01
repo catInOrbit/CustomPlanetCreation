@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_scene_manager" kind="class" prot="public">
+    <compoundname>SceneManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_scene_manager_1aecc008998cbfcaf7d9faea9d50caa6e0" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SceneManager.planetRotSpeed</definition>
+        <argsstring></argsstring>
+        <name>planetRotSpeed</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_scene_manager_1a1700705e183249b1b8c6d95b8d044f69" compoundref="_scene_manager_8cs" startline="12" endline="20">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_manager_1a94f35de5a0e66340fd54ffac13d25866" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SceneManager.sunRotSpeed</definition>
+        <argsstring></argsstring>
+        <name>sunRotSpeed</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_scene_manager_1a1700705e183249b1b8c6d95b8d044f69" compoundref="_scene_manager_8cs" startline="12" endline="20">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_manager_1a03e29662f8244e6674c75b092a010d52" prot="public" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform SceneManager.sun</definition>
+        <argsstring></argsstring>
+        <name>sun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_scene_manager_1a1700705e183249b1b8c6d95b8d044f69" compoundref="_scene_manager_8cs" startline="12" endline="20">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_scene_manager_1a1c2988aa443848355dc913e119ed94dd" prot="public" static="no" mutable="no">
+        <type>Transform[]</type>
+        <definition>Transform [] SceneManager.planets</definition>
+        <argsstring></argsstring>
+        <name>planets</name>
+        <initializer>= new Transform[9]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_scene_manager_1a1700705e183249b1b8c6d95b8d044f69" compoundref="_scene_manager_8cs" startline="12" endline="20">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_scene_manager_1a1700705e183249b1b8c6d95b8d044f69" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SceneManager.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" bodystart="12" bodyend="20"/>
+        <references refid="class_scene_manager_1aecc008998cbfcaf7d9faea9d50caa6e0" compoundref="_scene_manager_8cs" startline="7">planetRotSpeed</references>
+        <references refid="class_scene_manager_1a1c2988aa443848355dc913e119ed94dd" compoundref="_scene_manager_8cs" startline="10">planets</references>
+        <references refid="class_scene_manager_1a03e29662f8244e6674c75b092a010d52" compoundref="_scene_manager_8cs" startline="9">sun</references>
+        <references refid="class_scene_manager_1a94f35de5a0e66340fd54ffac13d25866" compoundref="_scene_manager_8cs" startline="8">sunRotSpeed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="601">
+        <label>SceneManager</label>
+        <link refid="class_scene_manager"/>
+        <childnode refid="602" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="602">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="603">
+        <label>SceneManager</label>
+        <link refid="class_scene_manager"/>
+        <childnode refid="604" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="604">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" line="5" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/SceneManager.cs" bodystart="4" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_scene_manager_1aecc008998cbfcaf7d9faea9d50caa6e0" prot="public" virt="non-virtual"><scope>SceneManager</scope><name>planetRotSpeed</name></member>
+      <member refid="class_scene_manager_1a1c2988aa443848355dc913e119ed94dd" prot="public" virt="non-virtual"><scope>SceneManager</scope><name>planets</name></member>
+      <member refid="class_scene_manager_1a03e29662f8244e6674c75b092a010d52" prot="public" virt="non-virtual"><scope>SceneManager</scope><name>sun</name></member>
+      <member refid="class_scene_manager_1a94f35de5a0e66340fd54ffac13d25866" prot="public" virt="non-virtual"><scope>SceneManager</scope><name>sunRotSpeed</name></member>
+      <member refid="class_scene_manager_1a1700705e183249b1b8c6d95b8d044f69" prot="private" virt="non-virtual"><scope>SceneManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

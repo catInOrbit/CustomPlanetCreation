@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_camera_movement" kind="class" prot="public">
+    <compoundname>CameraMovement</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_movement_1a14adfc636e4eb30710e5b959557fba5e" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CameraMovement.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1a1c73465a13f1b44719a5df5ffc90f5e2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CameraMovement.swtichTargetBool</definition>
+        <argsstring></argsstring>
+        <name>swtichTargetBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1ae67b7ef1c41e21dd0954182c8db992b9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.zoomDistanceAuto</definition>
+        <argsstring></argsstring>
+        <name>zoomDistanceAuto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1a5f40d5e0c6112ef1b8a8a0711fd4daca" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.zoomDistanceFixed</definition>
+        <argsstring></argsstring>
+        <name>zoomDistanceFixed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1afa56b00544113481bdc65567231aea2b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.uiFocusDistance</definition>
+        <argsstring></argsstring>
+        <name>uiFocusDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1a7b63d0b02bd5ce9af262021f0c503805" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.uiFocusZoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>uiFocusZoomSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1a4ef7bee1112a27fd0b74be7a098da57c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.lockZoomAtSize</definition>
+        <argsstring></argsstring>
+        <name>lockZoomAtSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1abaecc0de0a17aba16d0c5ac7365e3ffa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.touchZoomSpeed</definition>
+        <argsstring></argsstring>
+        <name>touchZoomSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a119c048e4e8ee7b451c9a2ad6264efc7" compoundref="_camera_movement_8cs" startline="78" endline="108">PinchZoom</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1a6b0aef646f33903ffd0faaf3ab3fdf20" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.dragDampenent3D</definition>
+        <argsstring></argsstring>
+        <name>dragDampenent3D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a7c2a2c654119d49a98928f03143a8980" compoundref="_camera_movement_8cs" startline="172" endline="195">RotateCameraAroundCurrentObject</referencedby>
+        <referencedby refid="class_camera_movement_1afc2b45e4649069e560a65f7149dc8dff" compoundref="_camera_movement_8cs" startline="143" endline="170">RotateCameraAroundPlanetAxis</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1a645ac6b88d533bc9bd4fe84805d2db79" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.debug3DRotationSpeed</definition>
+        <argsstring></argsstring>
+        <name>debug3DRotationSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" compoundref="_camera_movement_8cs" startline="110" endline="141">Camera3DMovement</referencedby>
+        <referencedby refid="class_camera_movement_1afc2b45e4649069e560a65f7149dc8dff" compoundref="_camera_movement_8cs" startline="143" endline="170">RotateCameraAroundPlanetAxis</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1a4a8fa62300b7d5d56f5c928b5591849a" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject CameraMovement.debugCurrentCam</definition>
+        <argsstring></argsstring>
+        <name>debugCurrentCam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_camera_movement_1a7db68cb0dd9e23f21f19191cfcab968e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool CameraMovement.IsFocusRequested</definition>
+        <argsstring></argsstring>
+        <name>IsFocusRequested</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1abff98f9d3a524bb544da7fa1ab30784d" compoundref="_camera_movement_8cs" startline="202" endline="220">FocusToNewTarget</referencedby>
+        <referencedby refid="class_camera_movement_1a46f7186be3073586a25147280c808f14" compoundref="_camera_movement_8cs" startline="53" endline="59">LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_movement_1ab94427f4176035228f54889b123b202e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>GameObject</type>
+        <definition>GameObject CameraMovement.CurrentCameraObject</definition>
+        <argsstring></argsstring>
+        <name>CurrentCameraObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1abff98f9d3a524bb544da7fa1ab30784d" compoundref="_camera_movement_8cs" startline="202" endline="220">FocusToNewTarget</referencedby>
+        <referencedby refid="class_camera_movement_1a46f7186be3073586a25147280c808f14" compoundref="_camera_movement_8cs" startline="53" endline="59">LateUpdate</referencedby>
+        <referencedby refid="class_camera_movement_1a119c048e4e8ee7b451c9a2ad6264efc7" compoundref="_camera_movement_8cs" startline="78" endline="108">PinchZoom</referencedby>
+        <referencedby refid="class_camera_movement_1a3d5bf0407152d0e16efafa655bfc15e9" compoundref="_camera_movement_8cs" startline="39" endline="43">Start</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_movement_1aa0a7c1ac8c87c5a55b27c8392c9040fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool CameraMovement.EnableCamMovement</definition>
+        <argsstring></argsstring>
+        <name>EnableCamMovement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a3d5bf0407152d0e16efafa655bfc15e9" compoundref="_camera_movement_8cs" startline="39" endline="43">Start</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_movement_1a1285f09ae0acb8c7db10e5310eac3a93" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool CameraMovement.IsMoving</definition>
+        <argsstring></argsstring>
+        <name>IsMoving</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a46f7186be3073586a25147280c808f14" compoundref="_camera_movement_8cs" startline="53" endline="59">LateUpdate</referencedby>
+        <referencedby refid="class_planet_selection_u_i_1a56e80c0923e6e288bafbd04360962aa6" compoundref="_planet_selection_u_i_8cs" startline="21" endline="33">PlanetSelectionUI.OnTouchStay</referencedby>
+        <referencedby refid="class_camera_movement_1a119c048e4e8ee7b451c9a2ad6264efc7" compoundref="_camera_movement_8cs" startline="78" endline="108">PinchZoom</referencedby>
+        <referencedby refid="class_player_u_i_detection_1a0762928e20ddd7fb512834988cd8d5d9" compoundref="_player_u_i_detection_8cs" startline="49" endline="62">PlayerUIDetection.SendActivateSignal</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_movement_1af46b6d5b52cd2c77321ae944a7f6bb79" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool CameraMovement.UiGainControl</definition>
+        <argsstring></argsstring>
+        <name>UiGainControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a46f7186be3073586a25147280c808f14" compoundref="_camera_movement_8cs" startline="53" endline="59">LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_camera_movement_1a2be01eb969dc7b328d06afb597212294" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool CameraMovement.EnableAutoZoom</definition>
+        <argsstring></argsstring>
+        <name>EnableAutoZoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_debug_u_i_1a11ccb23eb08f3e78d26cd0838f01f984" compoundref="_debug_u_i_8cs" startline="49" endline="56">DebugUI.AutoZoom</referencedby>
+        <referencedby refid="class_camera_movement_1a46f7186be3073586a25147280c808f14" compoundref="_camera_movement_8cs" startline="53" endline="59">LateUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_camera_movement_1a91aab3771a6b1d7e6bb033155f8ec42b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref></type>
+        <definition>KeplerOrbitMover CameraMovement.keplerOrbitMover</definition>
+        <argsstring></argsstring>
+        <name>keplerOrbitMover</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="31" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1ae654003ceb15941f1f8e4f69d0c7a606" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.oldCamSize</definition>
+        <argsstring></argsstring>
+        <name>oldCamSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1aac8acb8ccdaa18c6f5a934c175e27a37" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.spinAngle</definition>
+        <argsstring></argsstring>
+        <name>spinAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="33" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1a8abde744e2b04b0788ae8d4481cda9b5" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform CameraMovement.cameraRotationalAxis</definition>
+        <argsstring></argsstring>
+        <name>cameraRotationalAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="34" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a81dff43a34236905beb771cc2fb8b079" compoundref="_camera_movement_8cs" startline="242" endline="245">SetCameraRotationalAxis</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1adc93230b1cb0e0a9ef1a2b7216c04555" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CameraMovement.rotationalStep</definition>
+        <argsstring></argsstring>
+        <name>rotationalStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="35" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_camera_movement_1a81fed8d45db67f5ce2c8bf1bd5740c96" prot="private" static="no" mutable="no">
+        <type><ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref></type>
+        <definition>InputDetectionUtils CameraMovement.inputDetectionUtils</definition>
+        <argsstring></argsstring>
+        <name>inputDetectionUtils</name>
+        <initializer>= new <ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" compoundref="_camera_movement_8cs" startline="110" endline="141">Camera3DMovement</referencedby>
+        <referencedby refid="class_camera_movement_1a0f179a02a69a8f54e50b2d3fe443d12f" compoundref="_camera_movement_8cs" startline="255" endline="267">ProcessTilting</referencedby>
+        <referencedby refid="class_camera_movement_1a6d70b582440500fff98506ebd3e9050e" compoundref="_camera_movement_8cs" startline="44" endline="51">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_movement_1a3d5bf0407152d0e16efafa655bfc15e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="39" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="39" bodyend="43"/>
+        <references refid="class_camera_movement_1ab94427f4176035228f54889b123b202e" compoundref="_camera_movement_8cs" startline="25">CurrentCameraObject</references>
+        <references refid="class_camera_movement_1aa0a7c1ac8c87c5a55b27c8392c9040fa" compoundref="_camera_movement_8cs" startline="26">EnableCamMovement</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a6d70b582440500fff98506ebd3e9050e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="44" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="44" bodyend="51"/>
+        <references refid="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" compoundref="_camera_movement_8cs" startline="110" endline="141">Camera3DMovement</references>
+        <references refid="class_camera_movement_1a81fed8d45db67f5ce2c8bf1bd5740c96" compoundref="_camera_movement_8cs" startline="37">inputDetectionUtils</references>
+        <references refid="class_camera_movement_1a0f179a02a69a8f54e50b2d3fe443d12f" compoundref="_camera_movement_8cs" startline="255" endline="267">ProcessTilting</references>
+        <references refid="class_input_detection_utils_1ac7bddc45e7c066d3d496b811d6131e47" compoundref="_input_detection_utils_8cs" startline="20">InputDetectionUtils.TouchStartPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a46f7186be3073586a25147280c808f14" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="53" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="53" bodyend="59"/>
+        <references refid="class_camera_movement_1ab94427f4176035228f54889b123b202e" compoundref="_camera_movement_8cs" startline="25">CurrentCameraObject</references>
+        <references refid="class_camera_movement_1a2be01eb969dc7b328d06afb597212294" compoundref="_camera_movement_8cs" startline="29">EnableAutoZoom</references>
+        <references refid="class_camera_movement_1abff98f9d3a524bb544da7fa1ab30784d" compoundref="_camera_movement_8cs" startline="202" endline="220">FocusToNewTarget</references>
+        <references refid="class_camera_movement_1a7db68cb0dd9e23f21f19191cfcab968e" compoundref="_camera_movement_8cs" startline="24">IsFocusRequested</references>
+        <references refid="class_camera_movement_1a1285f09ae0acb8c7db10e5310eac3a93" compoundref="_camera_movement_8cs" startline="27">IsMoving</references>
+        <references refid="class_camera_movement_1af46b6d5b52cd2c77321ae944a7f6bb79" compoundref="_camera_movement_8cs" startline="28">UiGainControl</references>
+        <references refid="class_camera_movement_1a577fe49b1be509c195cfae70a2cc5ada" compoundref="_camera_movement_8cs" startline="66" endline="76">ZoomEffect</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a7c9ba8dc8f5b10b06545baff215c9c47" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 CameraMovement.GetCenterTargetPosition</definition>
+        <argsstring>(Transform target)</argsstring>
+        <name>GetCenterTargetPosition</name>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="61" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="61" bodyend="64"/>
+        <referencedby refid="class_camera_movement_1abff98f9d3a524bb544da7fa1ab30784d" compoundref="_camera_movement_8cs" startline="202" endline="220">FocusToNewTarget</referencedby>
+        <referencedby refid="class_camera_movement_1a7f4d3f4d5df2e5c7eb1dfc917fec1cd7" compoundref="_camera_movement_8cs" startline="237" endline="240">LockOnToTarget</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a577fe49b1be509c195cfae70a2cc5ada" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.ZoomEffect</definition>
+        <argsstring>(bool isAutoZoom, bool uiGainControl)</argsstring>
+        <name>ZoomEffect</name>
+        <param>
+          <type>bool</type>
+          <declname>isAutoZoom</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>uiGainControl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="66" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="66" bodyend="76"/>
+        <references refid="class_camera_movement_1a119c048e4e8ee7b451c9a2ad6264efc7" compoundref="_camera_movement_8cs" startline="78" endline="108">PinchZoom</references>
+        <referencedby refid="class_camera_movement_1a46f7186be3073586a25147280c808f14" compoundref="_camera_movement_8cs" startline="53" endline="59">LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a119c048e4e8ee7b451c9a2ad6264efc7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.PinchZoom</definition>
+        <argsstring>()</argsstring>
+        <name>PinchZoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="78" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="78" bodyend="108"/>
+        <references refid="class_camera_movement_1ab94427f4176035228f54889b123b202e" compoundref="_camera_movement_8cs" startline="25">CurrentCameraObject</references>
+        <references refid="class_camera_movement_1a1285f09ae0acb8c7db10e5310eac3a93" compoundref="_camera_movement_8cs" startline="27">IsMoving</references>
+        <references refid="class_camera_movement_1abaecc0de0a17aba16d0c5ac7365e3ffa" compoundref="_camera_movement_8cs" startline="16">touchZoomSpeed</references>
+        <referencedby refid="class_camera_movement_1a577fe49b1be509c195cfae70a2cc5ada" compoundref="_camera_movement_8cs" startline="66" endline="76">ZoomEffect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.Camera3DMovement</definition>
+        <argsstring>()</argsstring>
+        <name>Camera3DMovement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="110" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="110" bodyend="141"/>
+        <references refid="class_camera_movement_1a645ac6b88d533bc9bd4fe84805d2db79" compoundref="_camera_movement_8cs" startline="20">debug3DRotationSpeed</references>
+        <references refid="class_input_detection_utils_1ad370432b2d7d778ec462324347606219" compoundref="_input_detection_utils_8cs" startline="29">InputDetectionUtils.ForceStrength</references>
+        <references refid="class_camera_movement_1a81fed8d45db67f5ce2c8bf1bd5740c96" compoundref="_camera_movement_8cs" startline="37">inputDetectionUtils</references>
+        <references refid="class_input_detection_utils_1ac6f5cc26d749dd9870da5f260d4a73e3" compoundref="_input_detection_utils_8cs" startline="18">InputDetectionUtils.MoveDirection</references>
+        <references refid="class_camera_movement_1a7c2a2c654119d49a98928f03143a8980" compoundref="_camera_movement_8cs" startline="172" endline="195">RotateCameraAroundCurrentObject</references>
+        <references refid="class_camera_movement_1afc2b45e4649069e560a65f7149dc8dff" compoundref="_camera_movement_8cs" startline="143" endline="170">RotateCameraAroundPlanetAxis</references>
+        <references refid="class_input_detection_utils_1a5a08bf0ed29a66fd1609db5954707a36" compoundref="_input_detection_utils_8cs" startline="41">InputDetectionUtils.TouchCount</references>
+        <referencedby refid="class_camera_movement_1a6d70b582440500fff98506ebd3e9050e" compoundref="_camera_movement_8cs" startline="44" endline="51">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1afc2b45e4649069e560a65f7149dc8dff" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CameraMovement.RotateCameraAroundPlanetAxis</definition>
+        <argsstring>(string direction, float touchDragDistance)</argsstring>
+        <name>RotateCameraAroundPlanetAxis</name>
+        <param>
+          <type>string</type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>touchDragDistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="143" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="143" bodyend="170"/>
+        <references refid="class_camera_movement_1a645ac6b88d533bc9bd4fe84805d2db79" compoundref="_camera_movement_8cs" startline="20">debug3DRotationSpeed</references>
+        <references refid="class_camera_movement_1a6b0aef646f33903ffd0faaf3ab3fdf20" compoundref="_camera_movement_8cs" startline="18">dragDampenent3D</references>
+        <references refid="class_camera_movement_1abff98f9d3a524bb544da7fa1ab30784d" compoundref="_camera_movement_8cs" startline="202" endline="220">FocusToNewTarget</references>
+        <referencedby refid="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" compoundref="_camera_movement_8cs" startline="110" endline="141">Camera3DMovement</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a7c2a2c654119d49a98928f03143a8980" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.RotateCameraAroundCurrentObject</definition>
+        <argsstring>(string direction, float touchDragDistance)</argsstring>
+        <name>RotateCameraAroundCurrentObject</name>
+        <param>
+          <type>string</type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>touchDragDistance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="172" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="172" bodyend="195"/>
+        <references refid="class_camera_movement_1a6b0aef646f33903ffd0faaf3ab3fdf20" compoundref="_camera_movement_8cs" startline="18">dragDampenent3D</references>
+        <referencedby refid="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" compoundref="_camera_movement_8cs" startline="110" endline="141">Camera3DMovement</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a86ecab1a525c0620cef9ee1d98c8e4e9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 CameraMovement.SetLerpPosition</definition>
+        <argsstring>(Transform target, float lerpTime)</argsstring>
+        <name>SetLerpPosition</name>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lerpTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="197" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="197" bodyend="200"/>
+        <referencedby refid="class_camera_movement_1abff98f9d3a524bb544da7fa1ab30784d" compoundref="_camera_movement_8cs" startline="202" endline="220">FocusToNewTarget</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a85801176d37e1f8aae578614a7187e01" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator CameraMovement.LookAtTarget</definition>
+        <argsstring>(Transform target, float rotationalSpeed)</argsstring>
+        <name>LookAtTarget</name>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rotationalSpeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="222" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="222" bodyend="235"/>
+        <referencedby refid="class_camera_movement_1abff98f9d3a524bb544da7fa1ab30784d" compoundref="_camera_movement_8cs" startline="202" endline="220">FocusToNewTarget</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a7f4d3f4d5df2e5c7eb1dfc917fec1cd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.LockOnToTarget</definition>
+        <argsstring>(Transform target)</argsstring>
+        <name>LockOnToTarget</name>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="237" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="237" bodyend="240"/>
+        <references refid="class_camera_movement_1a7c9ba8dc8f5b10b06545baff215c9c47" compoundref="_camera_movement_8cs" startline="61" endline="64">GetCenterTargetPosition</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a81dff43a34236905beb771cc2fb8b079" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.SetCameraRotationalAxis</definition>
+        <argsstring>(Transform target)</argsstring>
+        <name>SetCameraRotationalAxis</name>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="242" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="242" bodyend="245"/>
+        <references refid="class_camera_movement_1a8abde744e2b04b0788ae8d4481cda9b5" compoundref="_camera_movement_8cs" startline="34">cameraRotationalAxis</references>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a51213aa7d3a8e8fb109c3d9542bcf705" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CameraMovement.TiltDirection</definition>
+        <argsstring>(Vector2 touch0, Vector2 touch1)</argsstring>
+        <name>TiltDirection</name>
+        <param>
+          <type>Vector2</type>
+          <declname>touch0</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>touch1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="247" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="247" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_camera_movement_1a0f179a02a69a8f54e50b2d3fe443d12f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.ProcessTilting</definition>
+        <argsstring>(Vector2 touch0)</argsstring>
+        <name>ProcessTilting</name>
+        <param>
+          <type>Vector2</type>
+          <declname>touch0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="255" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="255" bodyend="267"/>
+        <references refid="class_input_detection_utils_1af2ac1b060e4b04f9abbdd731990560e1" compoundref="_input_detection_utils_8cs" startline="22">InputDetectionUtils.Begin</references>
+        <references refid="class_camera_movement_1a81fed8d45db67f5ce2c8bf1bd5740c96" compoundref="_camera_movement_8cs" startline="37">inputDetectionUtils</references>
+        <references refid="class_input_detection_utils_1abaa2b24b2d051ddee7f57387847d0df5" compoundref="_input_detection_utils_8cs" startline="23">InputDetectionUtils.Moving</references>
+        <references refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" compoundref="_input_detection_utils_8cs" startline="63" endline="106">InputDetectionUtils.ProcessTouchStateOnePoint</references>
+        <references refid="class_input_detection_utils_1ac7bddc45e7c066d3d496b811d6131e47" compoundref="_input_detection_utils_8cs" startline="20">InputDetectionUtils.TouchStartPos</references>
+        <referencedby refid="class_camera_movement_1a6d70b582440500fff98506ebd3e9050e" compoundref="_camera_movement_8cs" startline="44" endline="51">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_camera_movement_1abff98f9d3a524bb544da7fa1ab30784d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraMovement.FocusToNewTarget</definition>
+        <argsstring>(Transform target, float lerpTime)</argsstring>
+        <name>FocusToNewTarget</name>
+        <param>
+          <type>Transform</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lerpTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="202" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="202" bodyend="220"/>
+        <references refid="class_camera_movement_1ab94427f4176035228f54889b123b202e" compoundref="_camera_movement_8cs" startline="25">CurrentCameraObject</references>
+        <references refid="class_camera_movement_1a7c9ba8dc8f5b10b06545baff215c9c47" compoundref="_camera_movement_8cs" startline="61" endline="64">GetCenterTargetPosition</references>
+        <references refid="class_camera_movement_1a7db68cb0dd9e23f21f19191cfcab968e" compoundref="_camera_movement_8cs" startline="24">IsFocusRequested</references>
+        <references refid="class_camera_movement_1a85801176d37e1f8aae578614a7187e01" compoundref="_camera_movement_8cs" startline="222" endline="235">LookAtTarget</references>
+        <references refid="class_camera_movement_1a86ecab1a525c0620cef9ee1d98c8e4e9" compoundref="_camera_movement_8cs" startline="197" endline="200">SetLerpPosition</references>
+        <referencedby refid="class_camera_movement_1a46f7186be3073586a25147280c808f14" compoundref="_camera_movement_8cs" startline="53" endline="59">LateUpdate</referencedby>
+        <referencedby refid="class_camera_movement_1afc2b45e4649069e560a65f7149dc8dff" compoundref="_camera_movement_8cs" startline="143" endline="170">RotateCameraAroundPlanetAxis</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="75">
+        <label>CameraMovement</label>
+        <link refid="class_camera_movement"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="86">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="82">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+        <childnode refid="83" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="85" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="87" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="88" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="89" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="89">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>CameraMovement</label>
+        <link refid="class_camera_movement"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+        <childnode refid="79" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+      </node>
+      <node id="94">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="91">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="80">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+        <childnode refid="81" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="92" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="93" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="79">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="78">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="92">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="94" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="87">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="84">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="83">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+        <childnode refid="80" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="82" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="81" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="81">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+        <childnode refid="82" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="90" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="91" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="85">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="90">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Camera/CameraMovement.cs" bodystart="6" bodyend="268"/>
+    <listofallmembers>
+      <member refid="class_camera_movement_1a5fb3f0c55959b191f4213d7e8af3c2a4" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>Camera3DMovement</name></member>
+      <member refid="class_camera_movement_1a8abde744e2b04b0788ae8d4481cda9b5" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>cameraRotationalAxis</name></member>
+      <member refid="class_camera_movement_1ab94427f4176035228f54889b123b202e" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>CurrentCameraObject</name></member>
+      <member refid="class_camera_movement_1a645ac6b88d533bc9bd4fe84805d2db79" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>debug3DRotationSpeed</name></member>
+      <member refid="class_camera_movement_1a4a8fa62300b7d5d56f5c928b5591849a" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>debugCurrentCam</name></member>
+      <member refid="class_camera_movement_1a6b0aef646f33903ffd0faaf3ab3fdf20" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>dragDampenent3D</name></member>
+      <member refid="class_camera_movement_1a2be01eb969dc7b328d06afb597212294" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>EnableAutoZoom</name></member>
+      <member refid="class_camera_movement_1aa0a7c1ac8c87c5a55b27c8392c9040fa" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>EnableCamMovement</name></member>
+      <member refid="class_camera_movement_1abff98f9d3a524bb544da7fa1ab30784d" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>FocusToNewTarget</name></member>
+      <member refid="class_camera_movement_1a7c9ba8dc8f5b10b06545baff215c9c47" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>GetCenterTargetPosition</name></member>
+      <member refid="class_camera_movement_1a81fed8d45db67f5ce2c8bf1bd5740c96" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>inputDetectionUtils</name></member>
+      <member refid="class_camera_movement_1a7db68cb0dd9e23f21f19191cfcab968e" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>IsFocusRequested</name></member>
+      <member refid="class_camera_movement_1a1285f09ae0acb8c7db10e5310eac3a93" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>IsMoving</name></member>
+      <member refid="class_camera_movement_1a91aab3771a6b1d7e6bb033155f8ec42b" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>keplerOrbitMover</name></member>
+      <member refid="class_camera_movement_1a46f7186be3073586a25147280c808f14" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>LateUpdate</name></member>
+      <member refid="class_camera_movement_1a7f4d3f4d5df2e5c7eb1dfc917fec1cd7" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>LockOnToTarget</name></member>
+      <member refid="class_camera_movement_1a4ef7bee1112a27fd0b74be7a098da57c" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>lockZoomAtSize</name></member>
+      <member refid="class_camera_movement_1a85801176d37e1f8aae578614a7187e01" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>LookAtTarget</name></member>
+      <member refid="class_camera_movement_1ae654003ceb15941f1f8e4f69d0c7a606" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>oldCamSize</name></member>
+      <member refid="class_camera_movement_1a119c048e4e8ee7b451c9a2ad6264efc7" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>PinchZoom</name></member>
+      <member refid="class_camera_movement_1a14adfc636e4eb30710e5b959557fba5e" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>player</name></member>
+      <member refid="class_camera_movement_1a0f179a02a69a8f54e50b2d3fe443d12f" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>ProcessTilting</name></member>
+      <member refid="class_camera_movement_1a7c2a2c654119d49a98928f03143a8980" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>RotateCameraAroundCurrentObject</name></member>
+      <member refid="class_camera_movement_1afc2b45e4649069e560a65f7149dc8dff" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>RotateCameraAroundPlanetAxis</name></member>
+      <member refid="class_camera_movement_1adc93230b1cb0e0a9ef1a2b7216c04555" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>rotationalStep</name></member>
+      <member refid="class_camera_movement_1a81dff43a34236905beb771cc2fb8b079" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>SetCameraRotationalAxis</name></member>
+      <member refid="class_camera_movement_1a86ecab1a525c0620cef9ee1d98c8e4e9" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>SetLerpPosition</name></member>
+      <member refid="class_camera_movement_1aac8acb8ccdaa18c6f5a934c175e27a37" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>spinAngle</name></member>
+      <member refid="class_camera_movement_1a3d5bf0407152d0e16efafa655bfc15e9" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>Start</name></member>
+      <member refid="class_camera_movement_1a1c73465a13f1b44719a5df5ffc90f5e2" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>swtichTargetBool</name></member>
+      <member refid="class_camera_movement_1a51213aa7d3a8e8fb109c3d9542bcf705" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>TiltDirection</name></member>
+      <member refid="class_camera_movement_1abaecc0de0a17aba16d0c5ac7365e3ffa" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>touchZoomSpeed</name></member>
+      <member refid="class_camera_movement_1afa56b00544113481bdc65567231aea2b" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>uiFocusDistance</name></member>
+      <member refid="class_camera_movement_1a7b63d0b02bd5ce9af262021f0c503805" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>uiFocusZoomSpeed</name></member>
+      <member refid="class_camera_movement_1af46b6d5b52cd2c77321ae944a7f6bb79" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>UiGainControl</name></member>
+      <member refid="class_camera_movement_1a6d70b582440500fff98506ebd3e9050e" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>Update</name></member>
+      <member refid="class_camera_movement_1ae67b7ef1c41e21dd0954182c8db992b9" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>zoomDistanceAuto</name></member>
+      <member refid="class_camera_movement_1a5f40d5e0c6112ef1b8a8a0711fd4daca" prot="public" virt="non-virtual"><scope>CameraMovement</scope><name>zoomDistanceFixed</name></member>
+      <member refid="class_camera_movement_1a577fe49b1be509c195cfae70a2cc5ada" prot="private" virt="non-virtual"><scope>CameraMovement</scope><name>ZoomEffect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

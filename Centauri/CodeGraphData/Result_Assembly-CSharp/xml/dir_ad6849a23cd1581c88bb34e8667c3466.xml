@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ad6849a23cd1581c88bb34e8667c3466" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets</compoundname>
+    <innerdir refid="dir_b0038ab32bc62fba7fb780ca8e9608d6">C:/Uniprj/Centauri/Assets/ProCore</innerdir>
+    <innerdir refid="dir_ce7c5fcf9e9317886abaabc71f4439c8">C:/Uniprj/Centauri/Assets/SimpleKeplerOrbits</innerdir>
+    <innerfile refid="_gravitational_pull_8cs">GravitationalPull.cs</innerfile>
+    <innerfile refid="_orbital_maneuver_8cs">OrbitalManeuver.cs</innerfile>
+    <innerfile refid="_orbit_line_renderer_test_8cs">OrbitLineRendererTest.cs</innerfile>
+    <innerfile refid="_test_8cs">Test.cs</innerfile>
+    <innerfile refid="_time_scaling_8cs">TimeScaling.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/"/>
+  </compounddef>
+</doxygen>

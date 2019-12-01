@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_30d4cfc7971b369f36cf3f2ceebb515a" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc</compoundname>
+    <innerfile refid="_bounding_box_8cs">BoundingBox.cs</innerfile>
+    <innerfile refid="_input_detection_utils_8cs">InputDetectionUtils.cs</innerfile>
+    <innerfile refid="_input_to_force_utils_8cs">InputToForceUtils.cs</innerfile>
+    <innerfile refid="_rotation_matrix_helper_8cs">RotationMatrixHelper.cs</innerfile>
+    <innerfile refid="_screen_utils_8cs">ScreenUtils.cs</innerfile>
+    <innerfile refid="_vector_snap_utils_8cs">VectorSnapUtils.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/"/>
+  </compounddef>
+</doxygen>

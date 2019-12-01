@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_rendezvous_calculator_8cs" kind="file">
+    <compoundname>RendezvousCalculator.cs</compoundname>
+    <innerclass refid="class_rendezvous_calculator" prot="public">RendezvousCalculator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>SimpleKeplerOrbits;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="class_rendezvous_calculator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_rendezvous_calculator" kindref="compound">RendezvousCalculator</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" kindref="member">player</ref>;</highlight></codeline>
+<codeline lineno="9" refid="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" kindref="member">rendezvousTarget</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_rendezvous_calculator_1a876c86e50effdba9fbd69fa526917b57" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_rendezvous_calculator_1a876c86e50effdba9fbd69fa526917b57" kindref="member">thetaAngle</ref>;</highlight></codeline>
+<codeline lineno="12" refid="class_rendezvous_calculator_1ae78bf6d9064b79afc35f0fc5b5e4f5b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_rendezvous_calculator_1ae78bf6d9064b79afc35f0fc5b5e4f5b6" kindref="member">transferPosition</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_rendezvous_calculator_1a65bbe62cddaeed775dafc7ff1c184afe" kindref="member">Player</ref></highlight></codeline>
+<codeline lineno="15" refid="class_rendezvous_calculator_1a65bbe62cddaeed775dafc7ff1c184afe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" kindref="member">player</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" kindref="member">player</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GameObject<sp/><ref refid="class_rendezvous_calculator_1ac5137532f62baa2ce1f10ccd358ec13a" kindref="member">RendezvousTarget</ref></highlight></codeline>
+<codeline lineno="28" refid="class_rendezvous_calculator_1ac5137532f62baa2ce1f10ccd358ec13a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" kindref="member">rendezvousTarget</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>set</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" kindref="member">rendezvousTarget</ref><sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_rendezvous_calculator_1a4f008c867641f4481c37e8ae1d1df1f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_rendezvous_calculator_1a4f008c867641f4481c37e8ae1d1df1f0" kindref="member">RendezvousCalculator</ref>(GameObject<sp/><ref refid="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" kindref="member">player</ref>,<sp/>GameObject<sp/><ref refid="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" kindref="member">rendezvousTarget</ref>)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rendezvous_calculator_1a65bbe62cddaeed775dafc7ff1c184afe" kindref="member">Player</ref><sp/>=<sp/><ref refid="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" kindref="member">player</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rendezvous_calculator_1ac5137532f62baa2ce1f10ccd358ec13a" kindref="member">RendezvousTarget</ref><sp/>=<sp/><ref refid="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" kindref="member">rendezvousTarget</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="class_rendezvous_calculator_1a81827558542687d695f4a45c59767f6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_rendezvous_calculator_1a81827558542687d695f4a45c59767f6b" kindref="member">RendezvousCalculator</ref>()</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_rendezvous_calculator_1a629f4b84e24655ad8e9680d4e4eb208d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Vector3<sp/><ref refid="class_rendezvous_calculator_1a629f4b84e24655ad8e9680d4e4eb208d" kindref="member">CalculateRendezvousPoint</ref>(GameObject<sp/><ref refid="class_rendezvous_calculator_1a09d7a2c0366ef6fc0469c97c97ff94f3" kindref="member">player</ref>,<sp/>GameObject<sp/><ref refid="class_rendezvous_calculator_1ae72e36777a60864bdc1e065f78d450f9" kindref="member">rendezvousTarget</ref>)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>playerToAtrractorRadius<sp/>=<sp/>Vector3.Distance(<sp/>player.transform.position,<sp/>player.GetComponent&lt;<ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref>&gt;().AttractorSettings.AttractorObject.transform.position);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>targetToAtrractorRadius<sp/>=<sp/>Vector3.Distance(rendezvousTarget.transform.position,<sp/>rendezvousTarget.GetComponent&lt;<ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref>&gt;().AttractorSettings.AttractorObject.transform.position);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rendezvous_calculator_1a876c86e50effdba9fbd69fa526917b57" kindref="member">thetaAngle</ref><sp/>=<sp/>Mathf.PI<sp/>*<sp/>(1<sp/>-<sp/>Mathf.Sqrt((1<sp/>/<sp/>8)<sp/>*<sp/>Mathf.Pow((1<sp/>+<sp/>playerToAtrractorRadius<sp/>/<sp/>targetToAtrractorRadius),<sp/>3)));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_rendezvous_calculator_1a876c86e50effdba9fbd69fa526917b57" kindref="member">thetaAngle</ref><sp/>=<sp/>Mathf.Rad2Deg;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>transferXCor<sp/>=<sp/>playerToAtrractorRadius<sp/>*<sp/>Mathf.Cos(<ref refid="class_rendezvous_calculator_1a876c86e50effdba9fbd69fa526917b57" kindref="member">thetaAngle</ref>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>transferYcor<sp/>=<sp/>playerToAtrractorRadius<sp/>*<sp/>Mathf.Sin(<ref refid="class_rendezvous_calculator_1a876c86e50effdba9fbd69fa526917b57" kindref="member">thetaAngle</ref>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Vector3(transferXCor,<sp/>transferYcor);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/RendezvousCalculator.cs"/>
+  </compounddef>
+</doxygen>

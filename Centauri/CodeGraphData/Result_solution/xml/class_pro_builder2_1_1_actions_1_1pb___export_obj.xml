@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___export_obj" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_ExportObj</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Deprecated - see MenuActions/Export/ExportObj.cs </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="452">
+        <label>Editor</label>
+      </node>
+      <node id="451">
+        <label>ProBuilder2.Actions.pb_ExportObj</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___export_obj"/>
+        <childnode refid="452" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="454">
+        <label>Editor</label>
+      </node>
+      <node id="453">
+        <label>ProBuilder2.Actions.pb_ExportObj</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___export_obj"/>
+        <childnode refid="454" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_ExportObj.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_ExportObj.cs" bodystart="12" bodyend="13"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

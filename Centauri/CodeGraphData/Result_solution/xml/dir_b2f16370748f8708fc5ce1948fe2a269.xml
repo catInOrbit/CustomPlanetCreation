@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_b2f16370748f8708fc5ce1948fe2a269" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test</compoundname>
+    <innerfile refid="_camera_test_util_8cs">CameraTestUtil.cs</innerfile>
+    <innerfile refid="_oribt_test_8cs">OribtTest.cs</innerfile>
+    <innerfile refid="_raycast_texture_8cs">RaycastTexture.cs</innerfile>
+    <innerfile refid="_test_cam_8cs">TestCam.cs</innerfile>
+    <innerfile refid="_test_cross_shader_8cs">TestCrossShader.cs</innerfile>
+    <innerfile refid="_test_rotation_8cs">TestRotation.cs</innerfile>
+    <innerfile refid="_test_rotation_in_action_8cs">TestRotationInAction.cs</innerfile>
+    <innerfile refid="_test_test_8cs">TestTest.cs</innerfile>
+    <innerfile refid="_test_u_v_to3_d_8cs">TestUVTo3D.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_input_to_force_utils" kind="class" prot="public">
+    <compoundname>InputToForceUtils</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_input_to_force_utils_1af24ec0989262666d3b79823489a36150" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int InputToForceUtils.addedDistance</definition>
+        <argsstring></argsstring>
+        <name>addedDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_input_to_force_utils_1a91c4c901178acd93f3e3d5e350bb317b" compoundref="_input_to_force_utils_8cs" startline="29" endline="35">CalculateDesirableScreenDragDistance</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_input_to_force_utils_1a1d9fa0e842fbdef4f88247a25dacc408" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int InputToForceUtils.AddedDistance</definition>
+        <argsstring></argsstring>
+        <name>AddedDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_input_to_force_utils_1a91c4c901178acd93f3e3d5e350bb317b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float InputToForceUtils.CalculateDesirableScreenDragDistance</definition>
+        <argsstring>(float screenWidth, float screenHeight)</argsstring>
+        <name>CalculateDesirableScreenDragDistance</name>
+        <param>
+          <type>float</type>
+          <declname>screenWidth</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>screenHeight</declname>
+        </param>
+        <briefdescription>
+<para>Use pythagorean formula for 1/4 screen plus an extra distance </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>screenWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of screen</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>screenHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height of screen</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" bodystart="29" bodyend="35"/>
+        <references refid="class_input_to_force_utils_1af24ec0989262666d3b79823489a36150" compoundref="_input_to_force_utils_8cs" startline="10">addedDistance</references>
+        <referencedby refid="class_input_to_force_utils_1ab4056c2c37545ec2a39f349efe306b72" compoundref="_input_to_force_utils_8cs" startline="55" endline="58">DragToForceTranslation</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_input_to_force_utils_1ab4056c2c37545ec2a39f349efe306b72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float InputToForceUtils.DragToForceTranslation</definition>
+        <argsstring>(float screenWidth, float screenHeight)</argsstring>
+        <name>DragToForceTranslation</name>
+        <param>
+          <type>float</type>
+          <declname>screenWidth</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>screenHeight</declname>
+        </param>
+        <briefdescription>
+<para>Max drag distance will be capped at 100% </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>screenWidth</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Width of screen</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>screenHeight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Height of screen</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>Depended function:</para><para><programlisting><codeline><highlight class="normal"><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_input_to_force_utils_1a91c4c901178acd93f3e3d5e350bb317b" kindref="member">CalculateDesirableScreenDragDistance</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>screenWidth,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>screenHeight)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>a<sp/>=<sp/>screenWidth<sp/>/<sp/>2;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>b<sp/>=<sp/>screenHeight<sp/>/<sp/>2;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Mathf.Sqrt((a*a)<sp/>+(b<sp/>*<sp/>b))<sp/>+<sp/><ref refid="class_input_to_force_utils_1af24ec0989262666d3b79823489a36150" kindref="member">addedDistance</ref>;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" line="55" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" bodystart="55" bodyend="58"/>
+        <references refid="class_input_to_force_utils_1a91c4c901178acd93f3e3d5e350bb317b" compoundref="_input_to_force_utils_8cs" startline="29" endline="35">CalculateDesirableScreenDragDistance</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class translates the magnitude of swipe (touch start pos to touch end pos) to in-game force </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/InputToForceUtils.cs" bodystart="8" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_input_to_force_utils_1af24ec0989262666d3b79823489a36150" prot="private" virt="non-virtual"><scope>InputToForceUtils</scope><name>addedDistance</name></member>
+      <member refid="class_input_to_force_utils_1a1d9fa0e842fbdef4f88247a25dacc408" prot="public" virt="non-virtual"><scope>InputToForceUtils</scope><name>AddedDistance</name></member>
+      <member refid="class_input_to_force_utils_1a91c4c901178acd93f3e3d5e350bb317b" prot="private" virt="non-virtual"><scope>InputToForceUtils</scope><name>CalculateDesirableScreenDragDistance</name></member>
+      <member refid="class_input_to_force_utils_1ab4056c2c37545ec2a39f349efe306b72" prot="public" virt="non-virtual"><scope>InputToForceUtils</scope><name>DragToForceTranslation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

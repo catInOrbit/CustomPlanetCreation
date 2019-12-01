@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lib_noise_1_1_generator_1_1_voronoi" kind="class" prot="public">
+    <compoundname>LibNoise::Generator::Voronoi</compoundname>
+    <basecompoundref refid="class_lib_noise_1_1_module_base" prot="public" virt="non-virtual">LibNoise.ModuleBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_voronoi_1a495800a4414c659e997b6dcd4771e0af" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Voronoi._displacement</definition>
+        <argsstring></argsstring>
+        <name>_displacement</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_voronoi_1a4cb3cf30ddf559411a30701d8c8de951" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Voronoi._frequency</definition>
+        <argsstring></argsstring>
+        <name>_frequency</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_voronoi_1a1d26248be74669fb49b870047f7ec350" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LibNoise.Generator.Voronoi._seed</definition>
+        <argsstring></argsstring>
+        <name>_seed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_voronoi_1a45022a1500c456556d60eafa483bda5d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LibNoise.Generator.Voronoi._distance</definition>
+        <argsstring></argsstring>
+        <name>_distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_voronoi_1a8dc23a245cdd11b3e6d2cf39e8ed493c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Voronoi.Displacement</definition>
+        <argsstring></argsstring>
+        <name>Displacement</name>
+        <briefdescription>
+<para>Gets or sets the displacement value of the <ref refid="class_lib_noise_1_1_generator_1_1_voronoi" kindref="compound">Voronoi</ref> cells. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="53" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_voronoi_1a6843f85c47e5ada6a939f7ca61d9241a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Voronoi.Frequency</definition>
+        <argsstring></argsstring>
+        <name>Frequency</name>
+        <briefdescription>
+<para>Gets or sets the frequency of the seed points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="62" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_voronoi_1a406e20c40c0d0dcd37574c2f641408e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int LibNoise.Generator.Voronoi.Seed</definition>
+        <argsstring></argsstring>
+        <name>Seed</name>
+        <briefdescription>
+<para>Gets or sets the seed value used by the <ref refid="class_lib_noise_1_1_generator_1_1_voronoi" kindref="compound">Voronoi</ref> cells. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="71" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_voronoi_1acf9fb92ce23125db3dc8187a41d4c022" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool LibNoise.Generator.Voronoi.UseDistance</definition>
+        <argsstring></argsstring>
+        <name>UseDistance</name>
+        <briefdescription>
+<para>Gets or sets a value whether the distance from the nearest seed point is applied to the output value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="80" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_generator_1_1_voronoi_1a71b16e9683fa35aaa260e495848ec73d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Generator.Voronoi.Voronoi</definition>
+        <argsstring>()</argsstring>
+        <name>Voronoi</name>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_generator_1_1_voronoi" kindref="compound">Voronoi</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_generator_1_1_voronoi_1a4563b63be37cb9833db5e8625eefa214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Generator.Voronoi.Voronoi</definition>
+        <argsstring>(double frequency, double displacement, int seed, bool distance)</argsstring>
+        <name>Voronoi</name>
+        <param>
+          <type>double</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>displacement</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>distance</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_generator_1_1_voronoi" kindref="compound">Voronoi</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The frequency of the first octave.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>displacement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The displacement of the ridged-multifractal noise.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The seed of the ridged-multifractal noise.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indicates whether the distance from the nearest seed point is applied to the output value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="36" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_generator_1_1_voronoi_1a3ce1d73faa4dd781a6d6726848dd5659" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override double</type>
+        <definition>override double LibNoise.Generator.Voronoi.GetValue</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>GetValue</name>
+        <reimplements refid="class_lib_noise_1_1_module_base_1abb3f06725165dc1fda63de23b68f408b">GetValue</reimplements>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Returns the output value for the given input coordinates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the x-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the y-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the z-axis.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting output value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="97" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="97" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a noise module that outputs <ref refid="class_lib_noise_1_1_generator_1_1_voronoi" kindref="compound">Voronoi</ref> cells. [GENERATOR] </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="812">
+        <label>IDisposable</label>
+      </node>
+      <node id="810">
+        <label>LibNoise.Generator.Voronoi</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_voronoi"/>
+        <childnode refid="811" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="811">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="812" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="816">
+        <label>LibNoise.ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="815" relation="public-inheritance">
+        </childnode>
+        <childnode refid="816" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+      <node id="815">
+        <label>IDisposable</label>
+      </node>
+      <node id="813">
+        <label>LibNoise.Generator.Voronoi</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_voronoi"/>
+        <childnode refid="814" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="814">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="815" relation="public-inheritance">
+        </childnode>
+        <childnode refid="816" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Voronoi.cs" bodystart="8" bodyend="149"/>
+    <listofallmembers>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a495800a4414c659e997b6dcd4771e0af" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>_displacement</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a45022a1500c456556d60eafa483bda5d" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>_distance</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a4cb3cf30ddf559411a30701d8c8de951" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>_frequency</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a1d26248be74669fb49b870047f7ec350" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>_seed</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a8dc23a245cdd11b3e6d2cf39e8ed493c" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>Displacement</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a0f281ab3bfc1fe8aef486a80cbe4db01" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>Dispose</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a564dbb55fb2a28d5dc7798849508ab2b" prot="protected" virt="virtual"><scope>LibNoise::Generator::Voronoi</scope><name>Disposing</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a6843f85c47e5ada6a939f7ca61d9241a" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>Frequency</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a3ce1d73faa4dd781a6d6726848dd5659" prot="public" virt="virtual"><scope>LibNoise::Generator::Voronoi</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1aea8b10f91816c21d0910ebf6aa58fde6" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Generator::Voronoi</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1af442fe2cbe675fbebc9c54ec51f6c2ee" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Generator::Voronoi</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1adcf3d5aa2957501de0577a6a8317c2d5" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>IsDisposed</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a79db52ea9d135eff82bb3e3213fd668c" prot="protected" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>ModuleBase</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a2037b14c6b82fc7033224b2a31faf8d4" prot="protected" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>Modules</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a406e20c40c0d0dcd37574c2f641408e2" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>Seed</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a3f901b6cb96ad011f20f1ce922ff67fc" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>SourceModuleCount</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a82ba7cc8a454de882e305ebb0e9e2e1c" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>this[int index]</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1acf9fb92ce23125db3dc8187a41d4c022" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>UseDistance</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a71b16e9683fa35aaa260e495848ec73d" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>Voronoi</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_voronoi_1a4563b63be37cb9833db5e8625eefa214" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Voronoi</scope><name>Voronoi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

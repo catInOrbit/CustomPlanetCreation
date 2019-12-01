@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_time_scaling" kind="class" prot="public">
+    <compoundname>TimeScaling</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_time_scaling_1a97a2d233fa3eb3cd0eb960e01377b704" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeScaling.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/TimeScaling.cs" line="8" column="1" bodyfile="C:/Uniprj/Centauri/Assets/TimeScaling.cs" bodystart="8" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_time_scaling_1afda3362264ba89824ee0c1f1a4fd5375" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TimeScaling.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/Centauri/Assets/TimeScaling.cs" line="13" column="1" bodyfile="C:/Uniprj/Centauri/Assets/TimeScaling.cs" bodystart="13" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="233">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="232">
+        <label>TimeScaling</label>
+        <link refid="class_time_scaling"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="235">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="234">
+        <label>TimeScaling</label>
+        <link refid="class_time_scaling"/>
+        <childnode refid="235" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/Centauri/Assets/TimeScaling.cs" line="5" column="1" bodyfile="C:/Uniprj/Centauri/Assets/TimeScaling.cs" bodystart="5" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_time_scaling_1a97a2d233fa3eb3cd0eb960e01377b704" prot="private" virt="non-virtual"><scope>TimeScaling</scope><name>Start</name></member>
+      <member refid="class_time_scaling_1afda3362264ba89824ee0c1f1a4fd5375" prot="private" virt="non-virtual"><scope>TimeScaling</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

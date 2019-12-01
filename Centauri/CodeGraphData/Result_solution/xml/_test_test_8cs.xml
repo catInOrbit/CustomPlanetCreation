@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_test_test_8cs" kind="file">
+    <compoundname>TestTest.cs</compoundname>
+    <innerclass refid="class_test_test" prot="public">TestTest</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="class_test_test" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_test_test" kindref="compound">TestTest</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_test_test_1a1111dfc066f00a010106f86cba0223f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_test_test_1a1111dfc066f00a010106f86cba0223f8" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;Angle<sp/>to<sp/>right<sp/>vector:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_test_test_1a6b6cce67c77c8256297a88920a2802a6" kindref="member">GetAngleToVectorRight</ref>(this.transform.position));</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Debug.Log(</highlight><highlight class="stringliteral">&quot;Angle<sp/>to<sp/>up<sp/>vector:<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_test_test_1a8f2cb427af9fc283464688c998fe87df" kindref="member">GetAngleToVectorUp</ref>(this.transform.position));</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_test_test_1a3318a7739a531c7b4d764057019975bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_test_test_1a3318a7739a531c7b4d764057019975bc" kindref="member">GetAngleToCompareVector</ref>(Vector3<sp/>targetDirectionVector,<sp/>Vector3<sp/>compareVector)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Mathf.Acos(Vector3.Dot(targetDirectionVector,<sp/>compareVector)<sp/>/<sp/>(targetDirectionVector.magnitude<sp/>*<sp/>compareVector.magnitude))<sp/>*<sp/>Mathf.Rad2Deg;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_test_test_1a6b6cce67c77c8256297a88920a2802a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_test_test_1a6b6cce67c77c8256297a88920a2802a6" kindref="member">GetAngleToVectorRight</ref>(Vector3<sp/>targetDirectionVector)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Mathf.Acos(Vector3.Dot(targetDirectionVector,<sp/>Vector3.right)<sp/>/<sp/>(targetDirectionVector.magnitude<sp/>*<sp/>Vector3.right.magnitude))<sp/>*<sp/>Mathf.Rad2Deg;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_test_test_1a8f2cb427af9fc283464688c998fe87df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_test_test_1a8f2cb427af9fc283464688c998fe87df" kindref="member">GetAngleToVectorUp</ref>(Vector3<sp/>targetDirectionVector)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Mathf.Acos(Vector3.Dot(targetDirectionVector,<sp/>Vector3.up)<sp/>/<sp/>(targetDirectionVector.magnitude<sp/>*<sp/>Vector3.up.magnitude))<sp/>*<sp/>Mathf.Rad2Deg;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestTest.cs"/>
+  </compounddef>
+</doxygen>

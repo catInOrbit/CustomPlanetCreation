@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_816b25055fd5dc8cd2bc3c6767e46470" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data</compoundname>
+    <innerfile refid="_attractor_data_8cs">AttractorData.cs</innerfile>
+    <innerfile refid="_kepler_orbit_data_8cs">KeplerOrbitData.cs</innerfile>
+    <innerfile refid="_vector3d_8cs">Vector3d.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Data/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_player_u_i_detection" kind="class" prot="public">
+    <compoundname>PlayerUIDetection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_player_u_i_detection_1a1b7de2303c0e12e95c073c39018518a2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float PlayerUIDetection.colliderScaleAmount</definition>
+        <argsstring></argsstring>
+        <name>colliderScaleAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_player_u_i_detection_1a52ff5a3ad875b4627205646446fe01ef" compoundref="_player_u_i_detection_8cs" startline="64" endline="68">ScaleColliderWithScreen</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_player_u_i_detection_1a35f53b8cba9e2b38a20afb1c2223f291" prot="private" static="no" mutable="no">
+        <type><ref refid="class_u_i_touch_manager" kindref="compound">UITouchManager</ref></type>
+        <definition>UITouchManager PlayerUIDetection.uiTouchManager</definition>
+        <argsstring></argsstring>
+        <name>uiTouchManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_player_u_i_detection_1a22cfbaf98d7c6894d88356bfaac21938" compoundref="_player_u_i_detection_8cs" startline="20" endline="26">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_u_i_detection_1aecad6e56041ab840854c22ed868d441c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_orbital_maneuver" kindref="compound">OrbitalManeuver</ref></type>
+        <definition>OrbitalManeuver PlayerUIDetection.orbitalManeuver</definition>
+        <argsstring></argsstring>
+        <name>orbitalManeuver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_player_u_i_detection_1a22cfbaf98d7c6894d88356bfaac21938" compoundref="_player_u_i_detection_8cs" startline="20" endline="26">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_u_i_detection_1a4819921a2efffd514ba4d1cfc15aaf81" prot="private" static="no" mutable="no">
+        <type><ref refid="class_camera_movement" kindref="compound">CameraMovement</ref></type>
+        <definition>CameraMovement PlayerUIDetection.cameraMovement</definition>
+        <argsstring></argsstring>
+        <name>cameraMovement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_player_u_i_detection_1a0762928e20ddd7fb512834988cd8d5d9" compoundref="_player_u_i_detection_8cs" startline="49" endline="62">SendActivateSignal</referencedby>
+        <referencedby refid="class_player_u_i_detection_1a22cfbaf98d7c6894d88356bfaac21938" compoundref="_player_u_i_detection_8cs" startline="20" endline="26">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_u_i_detection_1a7c0406f0246592eebddab6277b9438a4" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int PlayerUIDetection._playerSelectionLayer</definition>
+        <argsstring></argsstring>
+        <name>_playerSelectionLayer</name>
+        <initializer>= 11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_player_u_i_detection_1a7667610d33ffb55812ba5fddbebafc57" compoundref="_player_u_i_detection_8cs" startline="28" endline="37">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_u_i_detection_1ad313f3d7d4e06b541eb37313af153399" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject PlayerUIDetection.maneuverBubble</definition>
+        <argsstring></argsstring>
+        <name>maneuverBubble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_player_u_i_detection_1a22cfbaf98d7c6894d88356bfaac21938" compoundref="_player_u_i_detection_8cs" startline="20" endline="26">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_player_u_i_detection_1a6907fd1b4471ae451377190a6914cccf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref></type>
+        <definition>InputDetectionUtils PlayerUIDetection.inputDetectionUtils</definition>
+        <argsstring></argsstring>
+        <name>inputDetectionUtils</name>
+        <initializer>= new <ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_player_u_i_detection_1a37ecfffb53edf23bb5ff4c4a8e3fe57c" compoundref="_player_u_i_detection_8cs" startline="71" endline="83">RayCastToCollider</referencedby>
+        <referencedby refid="class_player_u_i_detection_1a7667610d33ffb55812ba5fddbebafc57" compoundref="_player_u_i_detection_8cs" startline="28" endline="37">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_player_u_i_detection_1a22cfbaf98d7c6894d88356bfaac21938" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerUIDetection.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="20" bodyend="26"/>
+        <references refid="class_player_u_i_detection_1a4819921a2efffd514ba4d1cfc15aaf81" compoundref="_player_u_i_detection_8cs" startline="14">cameraMovement</references>
+        <references refid="class_player_u_i_detection_1ad313f3d7d4e06b541eb37313af153399" compoundref="_player_u_i_detection_8cs" startline="16">maneuverBubble</references>
+        <references refid="class_player_u_i_detection_1aecad6e56041ab840854c22ed868d441c" compoundref="_player_u_i_detection_8cs" startline="13">orbitalManeuver</references>
+        <references refid="class_player_u_i_detection_1a35f53b8cba9e2b38a20afb1c2223f291" compoundref="_player_u_i_detection_8cs" startline="12">uiTouchManager</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_u_i_detection_1a7667610d33ffb55812ba5fddbebafc57" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerUIDetection.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="28" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="28" bodyend="37"/>
+        <references refid="class_player_u_i_detection_1a7c0406f0246592eebddab6277b9438a4" compoundref="_player_u_i_detection_8cs" startline="15">_playerSelectionLayer</references>
+        <references refid="class_player_u_i_detection_1a6907fd1b4471ae451377190a6914cccf" compoundref="_player_u_i_detection_8cs" startline="18">inputDetectionUtils</references>
+        <references refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" compoundref="_input_detection_utils_8cs" startline="63" endline="106">InputDetectionUtils.ProcessTouchStateOnePoint</references>
+        <references refid="class_player_u_i_detection_1a37ecfffb53edf23bb5ff4c4a8e3fe57c" compoundref="_player_u_i_detection_8cs" startline="71" endline="83">RayCastToCollider</references>
+        <references refid="class_player_u_i_detection_1a52ff5a3ad875b4627205646446fe01ef" compoundref="_player_u_i_detection_8cs" startline="64" endline="68">ScaleColliderWithScreen</references>
+      </memberdef>
+      <memberdef kind="function" id="class_player_u_i_detection_1a0762928e20ddd7fb512834988cd8d5d9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerUIDetection.SendActivateSignal</definition>
+        <argsstring>()</argsstring>
+        <name>SendActivateSignal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="49" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="49" bodyend="62"/>
+        <references refid="class_player_u_i_detection_1a4819921a2efffd514ba4d1cfc15aaf81" compoundref="_player_u_i_detection_8cs" startline="14">cameraMovement</references>
+        <references refid="class_player_u_i_detection_1a0bee79628c44546f24d87f8c750bc8d0" compoundref="_player_u_i_detection_8cs" startline="92" endline="95">EnableManeuverBubbleFx</references>
+        <references refid="class_camera_movement_1a1285f09ae0acb8c7db10e5310eac3a93" compoundref="_camera_movement_8cs" startline="27">CameraMovement.IsMoving</references>
+        <referencedby refid="class_player_u_i_detection_1a37ecfffb53edf23bb5ff4c4a8e3fe57c" compoundref="_player_u_i_detection_8cs" startline="71" endline="83">RayCastToCollider</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_u_i_detection_1a52ff5a3ad875b4627205646446fe01ef" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerUIDetection.ScaleColliderWithScreen</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>ScaleColliderWithScreen</name>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="64" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="64" bodyend="68"/>
+        <references refid="class_player_u_i_detection_1a1b7de2303c0e12e95c073c39018518a2" compoundref="_player_u_i_detection_8cs" startline="11">colliderScaleAmount</references>
+        <referencedby refid="class_player_u_i_detection_1a7667610d33ffb55812ba5fddbebafc57" compoundref="_player_u_i_detection_8cs" startline="28" endline="37">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_u_i_detection_1a37ecfffb53edf23bb5ff4c4a8e3fe57c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerUIDetection.RayCastToCollider</definition>
+        <argsstring>(int layerIntIndex)</argsstring>
+        <name>RayCastToCollider</name>
+        <param>
+          <type>int</type>
+          <declname>layerIntIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="71" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="71" bodyend="83"/>
+        <references refid="class_player_u_i_detection_1a6907fd1b4471ae451377190a6914cccf" compoundref="_player_u_i_detection_8cs" startline="18">inputDetectionUtils</references>
+        <references refid="class_player_u_i_detection_1a0762928e20ddd7fb512834988cd8d5d9" compoundref="_player_u_i_detection_8cs" startline="49" endline="62">SendActivateSignal</references>
+        <references refid="class_player_u_i_detection_1afe9308596ee03819e882f1760f39a181" compoundref="_player_u_i_detection_8cs" startline="85" endline="90">SetFocusExitConditions</references>
+        <references refid="class_input_detection_utils_1ac7bddc45e7c066d3d496b811d6131e47" compoundref="_input_detection_utils_8cs" startline="20">InputDetectionUtils.TouchStartPos</references>
+        <referencedby refid="class_player_u_i_detection_1a7667610d33ffb55812ba5fddbebafc57" compoundref="_player_u_i_detection_8cs" startline="28" endline="37">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_u_i_detection_1afe9308596ee03819e882f1760f39a181" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerUIDetection.SetFocusExitConditions</definition>
+        <argsstring>()</argsstring>
+        <name>SetFocusExitConditions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="85" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="85" bodyend="90"/>
+        <references refid="class_player_u_i_detection_1a2695f5969668166311e7b8cf09e65ca2" compoundref="_player_u_i_detection_8cs" startline="97" endline="100">DeactivateManeuverBubbleFx</references>
+        <referencedby refid="class_player_u_i_detection_1a37ecfffb53edf23bb5ff4c4a8e3fe57c" compoundref="_player_u_i_detection_8cs" startline="71" endline="83">RayCastToCollider</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_u_i_detection_1a0bee79628c44546f24d87f8c750bc8d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerUIDetection.EnableManeuverBubbleFx</definition>
+        <argsstring>()</argsstring>
+        <name>EnableManeuverBubbleFx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="92" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="92" bodyend="95"/>
+        <referencedby refid="class_player_u_i_detection_1a0762928e20ddd7fb512834988cd8d5d9" compoundref="_player_u_i_detection_8cs" startline="49" endline="62">SendActivateSignal</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_player_u_i_detection_1a2695f5969668166311e7b8cf09e65ca2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PlayerUIDetection.DeactivateManeuverBubbleFx</definition>
+        <argsstring>()</argsstring>
+        <name>DeactivateManeuverBubbleFx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="97" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="97" bodyend="100"/>
+        <referencedby refid="class_player_u_i_detection_1afe9308596ee03819e882f1760f39a181" compoundref="_player_u_i_detection_8cs" startline="85" endline="90">SetFocusExitConditions</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="521">
+        <label>PlayerUIDetection</label>
+        <link refid="class_player_u_i_detection"/>
+        <childnode refid="522" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="522">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="534">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="523">
+        <label>PlayerUIDetection</label>
+        <link refid="class_player_u_i_detection"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+        <childnode refid="525" relation="usage">
+          <edgelabel>uiTouchManager</edgelabel>
+        </childnode>
+        <childnode refid="527" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="529" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="526" relation="usage">
+          <edgelabel>cameraMovement</edgelabel>
+        </childnode>
+      </node>
+      <node id="530">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+        <childnode refid="531" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="532" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="533" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="534" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="535" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="536" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="537" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="537">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="525">
+        <label>UITouchManager</label>
+        <link refid="class_u_i_touch_manager"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+        <childnode refid="526" relation="usage">
+          <edgelabel>cameraMovement</edgelabel>
+        </childnode>
+      </node>
+      <node id="526">
+        <label>CameraMovement</label>
+        <link refid="class_camera_movement"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+        <childnode refid="527" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+      </node>
+      <node id="542">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="539">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="528">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+        <childnode refid="529" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="540" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="541" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="527">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="524">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="540">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="541">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="542" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="535">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="532">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="531">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+        <childnode refid="528" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="530" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="529" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="529">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+        <childnode refid="530" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="538" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="539" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="533">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="538">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/EventDetector/PlayerUIDetection.cs" bodystart="8" bodyend="102"/>
+    <listofallmembers>
+      <member refid="class_player_u_i_detection_1a7c0406f0246592eebddab6277b9438a4" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>_playerSelectionLayer</name></member>
+      <member refid="class_player_u_i_detection_1a4819921a2efffd514ba4d1cfc15aaf81" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>cameraMovement</name></member>
+      <member refid="class_player_u_i_detection_1a1b7de2303c0e12e95c073c39018518a2" prot="public" virt="non-virtual"><scope>PlayerUIDetection</scope><name>colliderScaleAmount</name></member>
+      <member refid="class_player_u_i_detection_1a2695f5969668166311e7b8cf09e65ca2" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>DeactivateManeuverBubbleFx</name></member>
+      <member refid="class_player_u_i_detection_1a0bee79628c44546f24d87f8c750bc8d0" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>EnableManeuverBubbleFx</name></member>
+      <member refid="class_player_u_i_detection_1a6907fd1b4471ae451377190a6914cccf" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>inputDetectionUtils</name></member>
+      <member refid="class_player_u_i_detection_1ad313f3d7d4e06b541eb37313af153399" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>maneuverBubble</name></member>
+      <member refid="class_player_u_i_detection_1aecad6e56041ab840854c22ed868d441c" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>orbitalManeuver</name></member>
+      <member refid="class_player_u_i_detection_1a37ecfffb53edf23bb5ff4c4a8e3fe57c" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>RayCastToCollider</name></member>
+      <member refid="class_player_u_i_detection_1a52ff5a3ad875b4627205646446fe01ef" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>ScaleColliderWithScreen</name></member>
+      <member refid="class_player_u_i_detection_1a0762928e20ddd7fb512834988cd8d5d9" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>SendActivateSignal</name></member>
+      <member refid="class_player_u_i_detection_1afe9308596ee03819e882f1760f39a181" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>SetFocusExitConditions</name></member>
+      <member refid="class_player_u_i_detection_1a22cfbaf98d7c6894d88356bfaac21938" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>Start</name></member>
+      <member refid="class_player_u_i_detection_1a35f53b8cba9e2b38a20afb1c2223f291" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>uiTouchManager</name></member>
+      <member refid="class_player_u_i_detection_1a7667610d33ffb55812ba5fddbebafc57" prot="private" virt="non-virtual"><scope>PlayerUIDetection</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

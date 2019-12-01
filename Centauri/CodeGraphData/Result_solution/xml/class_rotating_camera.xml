@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_rotating_camera" kind="class" prot="public">
+    <compoundname>RotatingCamera</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_rotating_camera_1acb586ea11247529eb8ac01292b526cd3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float RotatingCamera.speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <initializer>= 1.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/RotatingCamera.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/RotatingCamera.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_rotating_camera_1ad4e533ff97fce200d15131d3ceef5361" compoundref="_rotating_camera_8cs" startline="8" endline="11">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_rotating_camera_1ad4e533ff97fce200d15131d3ceef5361" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RotatingCamera.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/RotatingCamera.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/RotatingCamera.cs" bodystart="8" bodyend="11"/>
+        <references refid="class_rotating_camera_1acb586ea11247529eb8ac01292b526cd3" compoundref="_rotating_camera_8cs" startline="6">speed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="581">
+        <label>RotatingCamera</label>
+        <link refid="class_rotating_camera"/>
+        <childnode refid="582" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="582">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="583">
+        <label>RotatingCamera</label>
+        <link refid="class_rotating_camera"/>
+        <childnode refid="584" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="584">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/RotatingCamera.cs" line="4" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/RotatingCamera.cs" bodystart="4" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_rotating_camera_1acb586ea11247529eb8ac01292b526cd3" prot="public" virt="non-virtual"><scope>RotatingCamera</scope><name>speed</name></member>
+      <member refid="class_rotating_camera_1ad4e533ff97fce200d15131d3ceef5361" prot="private" virt="non-virtual"><scope>RotatingCamera</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

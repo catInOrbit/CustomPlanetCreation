@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_atmospheric_drag" kind="class" prot="public">
+    <compoundname>AtmosphericDrag</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_atmospheric_drag_1a61da7d772c82d9a1aefca19cd7250948" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject AtmosphericDrag.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_atmospheric_drag_1a25a7b85ff80756ee3fcbc80f0cef14c0" compoundref="_atmospheric_drag_8cs" startline="102" endline="113">UpdateVelocityDrag</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_atmospheric_drag_1a02e829391a7e57d82ff3ce78ec273bd4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AtmosphericDrag.dragAmount</definition>
+        <argsstring></argsstring>
+        <name>dragAmount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_atmospheric_drag_1a25a7b85ff80756ee3fcbc80f0cef14c0" compoundref="_atmospheric_drag_8cs" startline="102" endline="113">UpdateVelocityDrag</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_atmospheric_drag_1a59818fd50355289c5eff3dee356047ae" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AtmosphericDrag.enableDrag</definition>
+        <argsstring></argsstring>
+        <name>enableDrag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="18" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_atmospheric_drag_1a075436f6ac6c4bc49bfb83fd077cec37" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform AtmosphericDrag.surfacePoint</definition>
+        <argsstring></argsstring>
+        <name>surfacePoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_atmospheric_drag_1a9650a80fe4d36b7ea388985ede3dd1b0" compoundref="_atmospheric_drag_8cs" startline="85" endline="94">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_atmospheric_drag_1a6d2f937a08d70244522e6a554b1e8880" prot="private" static="no" mutable="no">
+        <type>Transform</type>
+        <definition>Transform AtmosphericDrag.atmospherePoint</definition>
+        <argsstring></argsstring>
+        <name>atmospherePoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_atmospheric_drag_1a9650a80fe4d36b7ea388985ede3dd1b0" compoundref="_atmospheric_drag_8cs" startline="85" endline="94">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_atmospheric_drag_1a74cceaaffbb0a1db4a5aabc7177a0373" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AtmosphericDrag.playerHeightToGround</definition>
+        <argsstring></argsstring>
+        <name>playerHeightToGround</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_atmospheric_drag_1a3448ee00385b6b56ce27a8aca0650971" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AtmosphericDrag.atmosphericHeight</definition>
+        <argsstring></argsstring>
+        <name>atmosphericHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_atmospheric_drag_1af893db94c8f9d80dbd32858f5db3c7dc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float AtmosphericDrag.mainInternalDragForce</definition>
+        <argsstring></argsstring>
+        <name>mainInternalDragForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_atmospheric_drag_1a030150f4f7b97c17d9c08b5122826373" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float AtmosphericDrag.MainInternalDragForce</definition>
+        <argsstring></argsstring>
+        <name>MainInternalDragForce</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_atmospheric_drag_1a25a7b85ff80756ee3fcbc80f0cef14c0" compoundref="_atmospheric_drag_8cs" startline="102" endline="113">UpdateVelocityDrag</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_atmospheric_drag_1a3fc6769d8c73d2f8953485ae2354df56" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float AtmosphericDrag.AtmosphericHeight</definition>
+        <argsstring></argsstring>
+        <name>AtmosphericHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_atmospheric_drag_1a9650a80fe4d36b7ea388985ede3dd1b0" compoundref="_atmospheric_drag_8cs" startline="85" endline="94">Start</referencedby>
+        <referencedby refid="class_atmospheric_drag_1a25a7b85ff80756ee3fcbc80f0cef14c0" compoundref="_atmospheric_drag_8cs" startline="102" endline="113">UpdateVelocityDrag</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_atmospheric_drag_1a7deb5a6ffce8bceb4cc5d45b860c55bc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float AtmosphericDrag.PlayerHeightToGround</definition>
+        <argsstring></argsstring>
+        <name>PlayerHeightToGround</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="53" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_atmospheric_drag_1a25a7b85ff80756ee3fcbc80f0cef14c0" compoundref="_atmospheric_drag_8cs" startline="102" endline="113">UpdateVelocityDrag</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_atmospheric_drag_1aadeb6c2555f3c130744c649a43a334ce" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool AtmosphericDrag.EnableDrag</definition>
+        <argsstring></argsstring>
+        <name>EnableDrag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="66" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="class_current_overall_status_1a7fbaf8919415a3b297c46e072f694d8e" compoundref="_current_overall_status_8cs" startline="39" endline="62">CurrentOverallStatus.DebugDisplayStatus</referencedby>
+        <referencedby refid="class_atmospheric_drag_1a337fdfadeef08449ed0226af70e4d914" compoundref="_atmospheric_drag_8cs" startline="96" endline="100">FixedUpdate</referencedby>
+        <referencedby refid="class_atmospheric_drag_1a2209026f5ad4a38dc81cbe938d08edab" compoundref="_atmospheric_drag_8cs" startline="115" endline="119">OnTriggerEnter</referencedby>
+        <referencedby refid="class_atmospheric_drag_1a6362769e1eb52783240264a1c91197c9" compoundref="_atmospheric_drag_8cs" startline="121" endline="125">OnTriggerExit</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_atmospheric_drag_1abd0eb46ec8bd5d2b7345ed941812c1bf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AtmosphericDrag.OnDrawGizmos</definition>
+        <argsstring>()</argsstring>
+        <name>OnDrawGizmos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="79" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_atmospheric_drag_1a9650a80fe4d36b7ea388985ede3dd1b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AtmosphericDrag.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="85" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="85" bodyend="94"/>
+        <references refid="class_atmospheric_drag_1a6d2f937a08d70244522e6a554b1e8880" compoundref="_atmospheric_drag_8cs" startline="21">atmospherePoint</references>
+        <references refid="class_atmospheric_drag_1a3fc6769d8c73d2f8953485ae2354df56" compoundref="_atmospheric_drag_8cs" startline="41">AtmosphericHeight</references>
+        <references refid="class_atmospheric_drag_1a075436f6ac6c4bc49bfb83fd077cec37" compoundref="_atmospheric_drag_8cs" startline="20">surfacePoint</references>
+      </memberdef>
+      <memberdef kind="function" id="class_atmospheric_drag_1a337fdfadeef08449ed0226af70e4d914" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AtmosphericDrag.FixedUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>FixedUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="96" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="96" bodyend="100"/>
+        <references refid="class_atmospheric_drag_1aadeb6c2555f3c130744c649a43a334ce" compoundref="_atmospheric_drag_8cs" startline="67">EnableDrag</references>
+        <references refid="class_atmospheric_drag_1a25a7b85ff80756ee3fcbc80f0cef14c0" compoundref="_atmospheric_drag_8cs" startline="102" endline="113">UpdateVelocityDrag</references>
+      </memberdef>
+      <memberdef kind="function" id="class_atmospheric_drag_1a25a7b85ff80756ee3fcbc80f0cef14c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AtmosphericDrag.UpdateVelocityDrag</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateVelocityDrag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="102" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="102" bodyend="113"/>
+        <references refid="class_atmospheric_drag_1a3fc6769d8c73d2f8953485ae2354df56" compoundref="_atmospheric_drag_8cs" startline="41">AtmosphericHeight</references>
+        <references refid="class_atmospheric_drag_1a02e829391a7e57d82ff3ce78ec273bd4" compoundref="_atmospheric_drag_8cs" startline="14">dragAmount</references>
+        <references refid="class_atmospheric_drag_1a030150f4f7b97c17d9c08b5122826373" compoundref="_atmospheric_drag_8cs" startline="28">MainInternalDragForce</references>
+        <references refid="class_atmospheric_drag_1a61da7d772c82d9a1aefca19cd7250948" compoundref="_atmospheric_drag_8cs" startline="13">player</references>
+        <references refid="class_atmospheric_drag_1a7deb5a6ffce8bceb4cc5d45b860c55bc" compoundref="_atmospheric_drag_8cs" startline="54">PlayerHeightToGround</references>
+        <referencedby refid="class_atmospheric_drag_1a337fdfadeef08449ed0226af70e4d914" compoundref="_atmospheric_drag_8cs" startline="96" endline="100">FixedUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_atmospheric_drag_1a2209026f5ad4a38dc81cbe938d08edab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AtmosphericDrag.OnTriggerEnter</definition>
+        <argsstring>(Collider collision)</argsstring>
+        <name>OnTriggerEnter</name>
+        <param>
+          <type>Collider</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="115" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="115" bodyend="119"/>
+        <references refid="class_atmospheric_drag_1aadeb6c2555f3c130744c649a43a334ce" compoundref="_atmospheric_drag_8cs" startline="67">EnableDrag</references>
+      </memberdef>
+      <memberdef kind="function" id="class_atmospheric_drag_1a6362769e1eb52783240264a1c91197c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AtmosphericDrag.OnTriggerExit</definition>
+        <argsstring>(Collider collision)</argsstring>
+        <name>OnTriggerExit</name>
+        <param>
+          <type>Collider</type>
+          <declname>collision</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="121" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="121" bodyend="125"/>
+        <references refid="class_atmospheric_drag_1aadeb6c2555f3c130744c649a43a334ce" compoundref="_atmospheric_drag_8cs" startline="67">EnableDrag</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="14">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/PlanetFunctions/AtmosphericDrag.cs" bodystart="8" bodyend="127"/>
+    <listofallmembers>
+      <member refid="class_atmospheric_drag_1a6d2f937a08d70244522e6a554b1e8880" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>atmospherePoint</name></member>
+      <member refid="class_atmospheric_drag_1a3fc6769d8c73d2f8953485ae2354df56" prot="public" virt="non-virtual"><scope>AtmosphericDrag</scope><name>AtmosphericHeight</name></member>
+      <member refid="class_atmospheric_drag_1a3448ee00385b6b56ce27a8aca0650971" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>atmosphericHeight</name></member>
+      <member refid="class_atmospheric_drag_1a02e829391a7e57d82ff3ce78ec273bd4" prot="public" virt="non-virtual"><scope>AtmosphericDrag</scope><name>dragAmount</name></member>
+      <member refid="class_atmospheric_drag_1aadeb6c2555f3c130744c649a43a334ce" prot="public" virt="non-virtual"><scope>AtmosphericDrag</scope><name>EnableDrag</name></member>
+      <member refid="class_atmospheric_drag_1a59818fd50355289c5eff3dee356047ae" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>enableDrag</name></member>
+      <member refid="class_atmospheric_drag_1a337fdfadeef08449ed0226af70e4d914" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>FixedUpdate</name></member>
+      <member refid="class_atmospheric_drag_1af893db94c8f9d80dbd32858f5db3c7dc" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>mainInternalDragForce</name></member>
+      <member refid="class_atmospheric_drag_1a030150f4f7b97c17d9c08b5122826373" prot="public" virt="non-virtual"><scope>AtmosphericDrag</scope><name>MainInternalDragForce</name></member>
+      <member refid="class_atmospheric_drag_1abd0eb46ec8bd5d2b7345ed941812c1bf" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>OnDrawGizmos</name></member>
+      <member refid="class_atmospheric_drag_1a2209026f5ad4a38dc81cbe938d08edab" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_atmospheric_drag_1a6362769e1eb52783240264a1c91197c9" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>OnTriggerExit</name></member>
+      <member refid="class_atmospheric_drag_1a61da7d772c82d9a1aefca19cd7250948" prot="public" virt="non-virtual"><scope>AtmosphericDrag</scope><name>player</name></member>
+      <member refid="class_atmospheric_drag_1a7deb5a6ffce8bceb4cc5d45b860c55bc" prot="public" virt="non-virtual"><scope>AtmosphericDrag</scope><name>PlayerHeightToGround</name></member>
+      <member refid="class_atmospheric_drag_1a74cceaaffbb0a1db4a5aabc7177a0373" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>playerHeightToGround</name></member>
+      <member refid="class_atmospheric_drag_1a9650a80fe4d36b7ea388985ede3dd1b0" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>Start</name></member>
+      <member refid="class_atmospheric_drag_1a075436f6ac6c4bc49bfb83fd077cec37" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>surfacePoint</name></member>
+      <member refid="class_atmospheric_drag_1a25a7b85ff80756ee3fcbc80f0cef14c0" prot="private" virt="non-virtual"><scope>AtmosphericDrag</scope><name>UpdateVelocityDrag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

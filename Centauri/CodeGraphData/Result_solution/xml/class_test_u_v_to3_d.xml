@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_test_u_v_to3_d" kind="class" prot="public">
+    <compoundname>TestUVTo3D</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_test_u_v_to3_d_1a644818803768c7695660fdd12722839e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 TestUVTo3D.UVTo3DLocal</definition>
+        <argsstring>(int[] triangles, Vector2[] uvMesh, Vector3[] verts, Vector2 uv)</argsstring>
+        <name>UVTo3DLocal</name>
+        <param>
+          <type>int[]</type>
+          <declname>triangles</declname>
+        </param>
+        <param>
+          <type>Vector2[]</type>
+          <declname>uvMesh</declname>
+        </param>
+        <param>
+          <type>Vector3[]</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>uv</declname>
+        </param>
+        <briefdescription>
+<para>Convert uv point to 3D local space point </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>triangles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Triangle mesh provided from mesh.triangle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uvMesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>uv provided from mesh.uv </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>verts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vertices provided from mesh.vertices </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>uv coordinate returned from raycast.texcoord</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>Function uses paricentric equation to find the middle point of the rasterized triangle, example below: </para><para><computeroutput> private float <ref refid="class_test_u_v_to3_d_1a561684cbb86f6fdfd6145f009b35ea43" kindref="member">Area(Vector2 p1, Vector2 p2, Vector2 p3)</ref> { Vector2 v1 = p1 - p3; */ /** Vector2 v2 = p2 - p3; */ /** return (v1.x * v2.y - v1.y * v2.x)/2; } </computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestUVTo3D.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestUVTo3D.cs" bodystart="25" bodyend="49"/>
+        <references refid="class_test_u_v_to3_d_1a561684cbb86f6fdfd6145f009b35ea43" compoundref="_test_u_v_to3_d_8cs" startline="51" endline="56">Area</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_u_v_to3_d_1a561684cbb86f6fdfd6145f009b35ea43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float TestUVTo3D.Area</definition>
+        <argsstring>(Vector2 p1, Vector2 p2, Vector2 p3)</argsstring>
+        <name>Area</name>
+        <param>
+          <type>Vector2</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>Vector2</type>
+          <declname>p3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestUVTo3D.cs" line="51" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestUVTo3D.cs" bodystart="51" bodyend="56"/>
+        <referencedby refid="class_test_u_v_to3_d_1a644818803768c7695660fdd12722839e" compoundref="_test_u_v_to3_d_8cs" startline="25" endline="49">UVTo3DLocal</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestUVTo3D.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestUVTo3D.cs" bodystart="5" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_test_u_v_to3_d_1a561684cbb86f6fdfd6145f009b35ea43" prot="private" virt="non-virtual"><scope>TestUVTo3D</scope><name>Area</name></member>
+      <member refid="class_test_u_v_to3_d_1a644818803768c7695660fdd12722839e" prot="public" virt="non-virtual"><scope>TestUVTo3D</scope><name>UVTo3DLocal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

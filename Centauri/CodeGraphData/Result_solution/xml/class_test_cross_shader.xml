@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_test_cross_shader" kind="class" prot="public">
+    <compoundname>TestCrossShader</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_test_cross_shader_1a24f68b612cf6ea0f1aa8b57d3bc46392" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float TestCrossShader.testValue</definition>
+        <argsstring></argsstring>
+        <name>testValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_test_cross_shader_1afb16f334abfd7e6a0b04e3cf3c05ce30" compoundref="_test_cross_shader_8cs" startline="8" endline="11">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_test_cross_shader_1adf7d593a1f5e398af521aa9e212e19c7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_test_u_v_to3_d" kindref="compound">TestUVTo3D</ref></type>
+        <definition>TestUVTo3D TestCrossShader.testUVTo3D</definition>
+        <argsstring></argsstring>
+        <name>testUVTo3D</name>
+        <initializer>= new <ref refid="class_test_u_v_to3_d" kindref="compound">TestUVTo3D</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_test_cross_shader_1afb16f334abfd7e6a0b04e3cf3c05ce30" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestCrossShader.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" bodystart="8" bodyend="11"/>
+        <references refid="class_test_cross_shader_1a24f68b612cf6ea0f1aa8b57d3bc46392" compoundref="_test_cross_shader_8cs" startline="6">testValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_test_cross_shader_1a660114fdc584ea5b460eec45b2b1efe0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TestCrossShader.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" bodystart="13" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="732">
+        <label>TestCrossShader</label>
+        <link refid="class_test_cross_shader"/>
+        <childnode refid="733" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="733">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="734">
+        <label>TestCrossShader</label>
+        <link refid="class_test_cross_shader"/>
+        <childnode refid="735" relation="public-inheritance">
+        </childnode>
+        <childnode refid="736" relation="usage">
+          <edgelabel>testUVTo3D</edgelabel>
+        </childnode>
+      </node>
+      <node id="736">
+        <label>TestUVTo3D</label>
+        <link refid="class_test_u_v_to3_d"/>
+      </node>
+      <node id="735">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" line="5" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/TestCrossShader.cs" bodystart="4" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_test_cross_shader_1afb16f334abfd7e6a0b04e3cf3c05ce30" prot="private" virt="non-virtual"><scope>TestCrossShader</scope><name>Start</name></member>
+      <member refid="class_test_cross_shader_1adf7d593a1f5e398af521aa9e212e19c7" prot="private" virt="non-virtual"><scope>TestCrossShader</scope><name>testUVTo3D</name></member>
+      <member refid="class_test_cross_shader_1a24f68b612cf6ea0f1aa8b57d3bc46392" prot="private" virt="non-virtual"><scope>TestCrossShader</scope><name>testValue</name></member>
+      <member refid="class_test_cross_shader_1a660114fdc584ea5b460eec45b2b1efe0" prot="private" virt="non-virtual"><scope>TestCrossShader</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

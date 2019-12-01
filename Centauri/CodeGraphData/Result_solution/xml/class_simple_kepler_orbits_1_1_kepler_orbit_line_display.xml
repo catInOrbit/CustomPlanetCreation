@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display" kind="class" prot="public">
+    <compoundname>SimpleKeplerOrbits::KeplerOrbitLineDisplay</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a55fed312027ef73722b53b2561f647f1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SimpleKeplerOrbits.KeplerOrbitLineDisplay.OrbitPointsCount</definition>
+        <argsstring></argsstring>
+        <name>OrbitPointsCount</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+<para>The orbit curve precision. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="24" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afe8927b0f818507e21ccaced3bb9deba" compoundref="_kepler_orbit_line_display_8cs" startline="57" endline="78">SimpleKeplerOrbits.KeplerOrbitLineDisplay.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1aa00f35b5bf1cbfbae08a026e1d8aaf0f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float SimpleKeplerOrbits.KeplerOrbitLineDisplay.MaxOrbitWorldUnitsDistance</definition>
+        <argsstring></argsstring>
+        <name>MaxOrbitWorldUnitsDistance</name>
+        <initializer>= 1000f</initializer>
+        <briefdescription>
+<para>The maximum orbit distance of orbit display in world units. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afe8927b0f818507e21ccaced3bb9deba" compoundref="_kepler_orbit_line_display_8cs" startline="57" endline="78">SimpleKeplerOrbits.KeplerOrbitLineDisplay.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a2d8b5a141ad8f40b46188615ab03915f" prot="public" static="no" mutable="no">
+        <type>LineRenderer</type>
+        <definition>LineRenderer SimpleKeplerOrbits.KeplerOrbitLineDisplay.LineRendererReference</definition>
+        <argsstring></argsstring>
+        <name>LineRendererReference</name>
+        <briefdescription>
+<para>The line renderer reference. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="34" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afe8927b0f818507e21ccaced3bb9deba" compoundref="_kepler_orbit_line_display_8cs" startline="57" endline="78">SimpleKeplerOrbits.KeplerOrbitLineDisplay.LateUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a8994e653d15d0c00293ed03438aa539d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SimpleKeplerOrbits.KeplerOrbitLineDisplay.ShowOrbitGizmoInEditor</definition>
+        <argsstring></argsstring>
+        <name>ShowOrbitGizmoInEditor</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a1b5ee42b6ba4b282e8ab9bd635a4cfb2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SimpleKeplerOrbits.KeplerOrbitLineDisplay.ShowOrbitGizmoWhileInPlayMode</definition>
+        <argsstring></argsstring>
+        <name>ShowOrbitGizmoWhileInPlayMode</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="38" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1ab0fb663bc25994c26e279eae833d9c40" prot="private" static="no" mutable="no">
+        <type><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref></type>
+        <definition>KeplerOrbitMover SimpleKeplerOrbits.KeplerOrbitLineDisplay._moverReference</definition>
+        <argsstring></argsstring>
+        <name>_moverReference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a5d2cba7147568efe9bd877b991d586cc" compoundref="_kepler_orbit_line_display_8cs" startline="44" endline="50">SimpleKeplerOrbits.KeplerOrbitLineDisplay.OnEnable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afc3247d0b8c31cf8baeb892bef2f9dbf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_simple_orbit_data_display" kindref="compound">SimpleOrbitDataDisplay</ref></type>
+        <definition>SimpleOrbitDataDisplay SimpleKeplerOrbits.KeplerOrbitLineDisplay.simpleOrbitData</definition>
+        <argsstring></argsstring>
+        <name>simpleOrbitData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="41" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a63a8e626179d49a8d0dd9ca93cb8ab9d" compoundref="_kepler_orbit_line_display_8cs" startline="52" endline="55">SimpleKeplerOrbits.KeplerOrbitLineDisplay.Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a96e8ed2e872d51627dbcbfcf105549ee" prot="private" static="no" mutable="no">
+        <type>Vector3[]</type>
+        <definition>Vector3 [] SimpleKeplerOrbits.KeplerOrbitLineDisplay._orbitPoints</definition>
+        <argsstring></argsstring>
+        <name>_orbitPoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="42" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afe8927b0f818507e21ccaced3bb9deba" compoundref="_kepler_orbit_line_display_8cs" startline="57" endline="78">SimpleKeplerOrbits.KeplerOrbitLineDisplay.LateUpdate</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a5d2cba7147568efe9bd877b991d586cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitLineDisplay.OnEnable</definition>
+        <argsstring>()</argsstring>
+        <name>OnEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="44" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="44" bodyend="50"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1ab0fb663bc25994c26e279eae833d9c40" compoundref="_kepler_orbit_line_display_8cs" startline="40">SimpleKeplerOrbits.KeplerOrbitLineDisplay._moverReference</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a63a8e626179d49a8d0dd9ca93cb8ab9d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitLineDisplay.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="52" bodyend="55"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afc3247d0b8c31cf8baeb892bef2f9dbf" compoundref="_kepler_orbit_line_display_8cs" startline="41">SimpleKeplerOrbits.KeplerOrbitLineDisplay.simpleOrbitData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afe8927b0f818507e21ccaced3bb9deba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SimpleKeplerOrbits.KeplerOrbitLineDisplay.LateUpdate</definition>
+        <argsstring>()</argsstring>
+        <name>LateUpdate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="57" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="57" bodyend="78"/>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a96e8ed2e872d51627dbcbfcf105549ee" compoundref="_kepler_orbit_line_display_8cs" startline="42">SimpleKeplerOrbits.KeplerOrbitLineDisplay._orbitPoints</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a2d8b5a141ad8f40b46188615ab03915f" compoundref="_kepler_orbit_line_display_8cs" startline="34">SimpleKeplerOrbits.KeplerOrbitLineDisplay.LineRendererReference</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1aa00f35b5bf1cbfbae08a026e1d8aaf0f" compoundref="_kepler_orbit_line_display_8cs" startline="29">SimpleKeplerOrbits.KeplerOrbitLineDisplay.MaxOrbitWorldUnitsDistance</references>
+        <references refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a55fed312027ef73722b53b2561f647f1" compoundref="_kepler_orbit_line_display_8cs" startline="24">SimpleKeplerOrbits.KeplerOrbitLineDisplay.OrbitPointsCount</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Component for displaying current orbit curve in editor and in game. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>UnityEngine.MonoBehaviour</para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="307">
+        <label>SimpleKeplerOrbits.KeplerOrbitLineDisplay</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="308">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="317">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="313">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+        <childnode refid="314" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="311" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="315" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="316" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="317" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="318" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="319" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="320" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="320">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="322">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="309">
+        <label>SimpleKeplerOrbits.KeplerOrbitLineDisplay</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+        <childnode refid="311" relation="usage">
+          <edgelabel>_moverReference</edgelabel>
+        </childnode>
+        <childnode refid="326" relation="usage">
+          <edgelabel>simpleOrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="311">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+        <childnode refid="312" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="323" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="324" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="310">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="323">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="326">
+        <label>SimpleOrbitDataDisplay</label>
+        <link refid="class_simple_orbit_data_display"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+        <childnode refid="311" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+      </node>
+      <node id="324">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="325" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="318">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="315">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="314">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+        <childnode refid="311" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="313" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="312" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="312">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+        <childnode refid="313" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="321" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="322" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="316">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="321">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits/Scripts/Components/KeplerOrbitLineDisplay.cs" bodystart="19" bodyend="154"/>
+    <listofallmembers>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1ab0fb663bc25994c26e279eae833d9c40" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>_moverReference</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a96e8ed2e872d51627dbcbfcf105549ee" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>_orbitPoints</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afe8927b0f818507e21ccaced3bb9deba" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>LateUpdate</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a2d8b5a141ad8f40b46188615ab03915f" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>LineRendererReference</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1aa00f35b5bf1cbfbae08a026e1d8aaf0f" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>MaxOrbitWorldUnitsDistance</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a5d2cba7147568efe9bd877b991d586cc" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>OnEnable</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a55fed312027ef73722b53b2561f647f1" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>OrbitPointsCount</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a8994e653d15d0c00293ed03438aa539d" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>ShowOrbitGizmoInEditor</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a1b5ee42b6ba4b282e8ab9bd635a4cfb2" prot="public" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>ShowOrbitGizmoWhileInPlayMode</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1afc3247d0b8c31cf8baeb892bef2f9dbf" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>simpleOrbitData</name></member>
+      <member refid="class_simple_kepler_orbits_1_1_kepler_orbit_line_display_1a63a8e626179d49a8d0dd9ca93cb8ab9d" prot="private" virt="non-virtual"><scope>SimpleKeplerOrbits::KeplerOrbitLineDisplay</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

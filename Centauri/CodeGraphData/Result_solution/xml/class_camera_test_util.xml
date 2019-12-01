@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_camera_test_util" kind="class" prot="public">
+    <compoundname>CameraTestUtil</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_camera_test_util_1a00433a6d97e9715ad21da9f097ec4467" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CameraTestUtil.mousePosition</definition>
+        <argsstring></argsstring>
+        <name>mousePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/CameraTestUtil.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/CameraTestUtil.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_camera_test_util_1a47e9cd0915aeb10f718b17c8029f90e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CameraTestUtil.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/CameraTestUtil.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/CameraTestUtil.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="95">
+        <label>CameraTestUtil</label>
+        <link refid="class_camera_test_util"/>
+        <childnode refid="96" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="97">
+        <label>CameraTestUtil</label>
+        <link refid="class_camera_test_util"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/CameraTestUtil.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Test/CameraTestUtil.cs" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_camera_test_util_1a00433a6d97e9715ad21da9f097ec4467" prot="public" virt="non-virtual"><scope>CameraTestUtil</scope><name>mousePosition</name></member>
+      <member refid="class_camera_test_util_1a47e9cd0915aeb10f718b17c8029f90e1" prot="private" virt="non-virtual"><scope>CameraTestUtil</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

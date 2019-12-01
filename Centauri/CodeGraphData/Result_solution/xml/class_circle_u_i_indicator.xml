@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_circle_u_i_indicator" kind="class" prot="public">
+    <compoundname>CircleUIIndicator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_circle_u_i_indicator_1afbf25c025dbaa4bd441065910d69f5cf" prot="public" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 CircleUIIndicator.location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_circle_u_i_indicator_1ac1fcd8651355ee30dc29a3010ec4d544" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CircleUIIndicator.center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" line="10" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_circle_u_i_indicator_1a706f121046e8700ec064d23b98f0a7be" compoundref="_cirlce_u_i_indicator_8cs" startline="21" endline="24">MoveUIWithLocation</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_circle_u_i_indicator_1adaa7e44fbd8ce3395a0a768b3b1b8487" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CircleUIIndicator.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_circle_u_i_indicator_1ab5ac24eb33ea6ebba78a187706423fcc" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CircleUIIndicator.innerColor</definition>
+        <argsstring></argsstring>
+        <name>innerColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_circle_u_i_indicator_1a98b9d62432357461ac81a23aa9422cf2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CircleUIIndicator.radiusWidth</definition>
+        <argsstring></argsstring>
+        <name>radiusWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_circle_u_i_indicator_1ad7dcd8d058c55f2aae3c03600f0212fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CircleUIIndicator.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_circle_u_i_indicator_1a706f121046e8700ec064d23b98f0a7be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CircleUIIndicator.MoveUIWithLocation</definition>
+        <argsstring>()</argsstring>
+        <name>MoveUIWithLocation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" bodystart="21" bodyend="24"/>
+        <references refid="class_circle_u_i_indicator_1ac1fcd8651355ee30dc29a3010ec4d544" compoundref="_cirlce_u_i_indicator_8cs" startline="10">center</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="149">
+        <label>CircleUIIndicator</label>
+        <link refid="class_circle_u_i_indicator"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="150">
+        <label>MonoBehaviour</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="151">
+        <label>CircleUIIndicator</label>
+        <link refid="class_circle_u_i_indicator"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>MonoBehaviour</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/CirlceUIIndicator.cs" bodystart="5" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_circle_u_i_indicator_1ac1fcd8651355ee30dc29a3010ec4d544" prot="public" virt="non-virtual"><scope>CircleUIIndicator</scope><name>center</name></member>
+      <member refid="class_circle_u_i_indicator_1ab5ac24eb33ea6ebba78a187706423fcc" prot="public" virt="non-virtual"><scope>CircleUIIndicator</scope><name>innerColor</name></member>
+      <member refid="class_circle_u_i_indicator_1afbf25c025dbaa4bd441065910d69f5cf" prot="public" virt="non-virtual"><scope>CircleUIIndicator</scope><name>location</name></member>
+      <member refid="class_circle_u_i_indicator_1a706f121046e8700ec064d23b98f0a7be" prot="private" virt="non-virtual"><scope>CircleUIIndicator</scope><name>MoveUIWithLocation</name></member>
+      <member refid="class_circle_u_i_indicator_1adaa7e44fbd8ce3395a0a768b3b1b8487" prot="public" virt="non-virtual"><scope>CircleUIIndicator</scope><name>radius</name></member>
+      <member refid="class_circle_u_i_indicator_1a98b9d62432357461ac81a23aa9422cf2" prot="public" virt="non-virtual"><scope>CircleUIIndicator</scope><name>radiusWidth</name></member>
+      <member refid="class_circle_u_i_indicator_1ad7dcd8d058c55f2aae3c03600f0212fc" prot="private" virt="non-virtual"><scope>CircleUIIndicator</scope><name>Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

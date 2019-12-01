@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_fps_display" kind="class" prot="public">
+    <compoundname>FpsDisplay</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_fps_display_1a6e6662e9cc8482f09655998c8076ba1d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FpsDisplay.deltaTime</definition>
+        <argsstring></argsstring>
+        <name>deltaTime</name>
+        <initializer>= 0.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FpsDisplay.cs" line="6" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FpsDisplay.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_fps_display_1a91ef17651358b5c3bd0ea2cde8b9281b" compoundref="_fps_display_8cs" startline="13" endline="27">OnGUI</referencedby>
+        <referencedby refid="class_fps_display_1a9e4b2e15a2ffeacc4e11b7ecbaea4608" compoundref="_fps_display_8cs" startline="8" endline="11">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_fps_display_1a9e4b2e15a2ffeacc4e11b7ecbaea4608" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FpsDisplay.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FpsDisplay.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FpsDisplay.cs" bodystart="8" bodyend="11"/>
+        <references refid="class_fps_display_1a6e6662e9cc8482f09655998c8076ba1d" compoundref="_fps_display_8cs" startline="6">deltaTime</references>
+      </memberdef>
+      <memberdef kind="function" id="class_fps_display_1a91ef17651358b5c3bd0ea2cde8b9281b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FpsDisplay.OnGUI</definition>
+        <argsstring>()</argsstring>
+        <name>OnGUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FpsDisplay.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FpsDisplay.cs" bodystart="13" bodyend="27"/>
+        <references refid="class_fps_display_1a6e6662e9cc8482f09655998c8076ba1d" compoundref="_fps_display_8cs" startline="6">deltaTime</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="249">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="248">
+        <label>FpsDisplay</label>
+        <link refid="class_fps_display"/>
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="251">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="250">
+        <label>FpsDisplay</label>
+        <link refid="class_fps_display"/>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FpsDisplay.cs" line="5" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader/Script/Tools/FpsDisplay.cs" bodystart="4" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_fps_display_1a6e6662e9cc8482f09655998c8076ba1d" prot="private" virt="non-virtual"><scope>FpsDisplay</scope><name>deltaTime</name></member>
+      <member refid="class_fps_display_1a91ef17651358b5c3bd0ea2cde8b9281b" prot="private" virt="non-virtual"><scope>FpsDisplay</scope><name>OnGUI</name></member>
+      <member refid="class_fps_display_1a9e4b2e15a2ffeacc4e11b7ecbaea4608" prot="private" virt="non-virtual"><scope>FpsDisplay</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

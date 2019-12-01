@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_lib_noise_1_1_generator" kind="namespace">
+    <compoundname>LibNoise::Generator</compoundname>
+    <innerclass refid="class_lib_noise_1_1_generator_1_1_billow" prot="public">LibNoise::Generator::Billow</innerclass>
+    <innerclass refid="class_lib_noise_1_1_generator_1_1_checker" prot="public">LibNoise::Generator::Checker</innerclass>
+    <innerclass refid="class_lib_noise_1_1_generator_1_1_const" prot="public">LibNoise::Generator::Const</innerclass>
+    <innerclass refid="class_lib_noise_1_1_generator_1_1_cylinders" prot="public">LibNoise::Generator::Cylinders</innerclass>
+    <innerclass refid="class_lib_noise_1_1_generator_1_1_perlin" prot="public">LibNoise::Generator::Perlin</innerclass>
+    <innerclass refid="class_lib_noise_1_1_generator_1_1_ridged_multifractal" prot="public">LibNoise::Generator::RidgedMultifractal</innerclass>
+    <innerclass refid="class_lib_noise_1_1_generator_1_1_spheres" prot="public">LibNoise::Generator::Spheres</innerclass>
+    <innerclass refid="class_lib_noise_1_1_generator_1_1_voronoi" prot="public">LibNoise::Generator::Voronoi</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Billow.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

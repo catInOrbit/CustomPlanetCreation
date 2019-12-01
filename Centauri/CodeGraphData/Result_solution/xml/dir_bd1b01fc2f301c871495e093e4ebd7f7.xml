@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_bd1b01fc2f301c871495e093e4ebd7f7" kind="dir">
+    <compoundname>C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor</compoundname>
+    <innerdir refid="dir_f7aaa34953ccf8036163914013977095">C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/Addons</innerdir>
+    <innerdir refid="dir_64aee1b7d838b4416f8ae49c9f31a956">C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems</innerdir>
+    <innerfile refid="pb___menu_items_8cs">pb_MenuItems.cs</innerfile>
+    <innerfile refid="pb___missing_script_editor_8cs">pb_MissingScriptEditor.cs</innerfile>
+    <innerfile refid="pb___preferences_8cs">pb_Preferences.cs</innerfile>
+    <innerfile refid="pb___scene_post_processor_8cs">pb_ScenePostProcessor.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/Centauri/Assets/ProCore/ProBuilder/Editor/"/>
+  </compounddef>
+</doxygen>

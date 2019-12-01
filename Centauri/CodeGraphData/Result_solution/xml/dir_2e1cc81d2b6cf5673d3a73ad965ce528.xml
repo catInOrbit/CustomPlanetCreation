@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_2e1cc81d2b6cf5673d3a73ad965ce528" kind="dir">
+    <compoundname>C:/Uniprj/CentauriV2/Centauri/Assets</compoundname>
+    <innerdir refid="dir_fd37945e04bc0317b08df023b27e05d5">C:/Uniprj/CentauriV2/Centauri/Assets/PlanetShader</innerdir>
+    <innerdir refid="dir_0e5825d0c8a79a7117031e130cfb7736">C:/Uniprj/CentauriV2/Centauri/Assets/Scripts</innerdir>
+    <innerdir refid="dir_96f787bc364bf1cbf5ac5346c1235efd">C:/Uniprj/CentauriV2/Centauri/Assets/SimpleKeplerOrbits</innerdir>
+    <innerdir refid="dir_e249ea5288fa38d4aa4ff941ed3bf055">C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet</innerdir>
+    <innerdir refid="dir_7e62fd9630af86dc42c973314f99de78">C:/Uniprj/CentauriV2/Centauri/Assets/WireframeRenderer</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/"/>
+  </compounddef>
+</doxygen>

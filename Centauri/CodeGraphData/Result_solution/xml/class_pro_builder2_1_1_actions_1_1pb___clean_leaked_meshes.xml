@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___clean_leaked_meshes" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_CleanLeakedMeshes</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___clean_leaked_meshes_1a2fbfa74b79faa25ff8cfe412935f1bc2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_CleanLeakedMeshes.CleanUp</definition>
+        <argsstring>()</argsstring>
+        <name>CleanUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_CleanLeakedMeshes.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_CleanLeakedMeshes.cs" bodystart="15" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="428">
+        <label>Editor</label>
+      </node>
+      <node id="427">
+        <label>ProBuilder2.Actions.pb_CleanLeakedMeshes</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___clean_leaked_meshes"/>
+        <childnode refid="428" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="430">
+        <label>Editor</label>
+      </node>
+      <node id="429">
+        <label>ProBuilder2.Actions.pb_CleanLeakedMeshes</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___clean_leaked_meshes"/>
+        <childnode refid="430" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_CleanLeakedMeshes.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_CleanLeakedMeshes.cs" bodystart="12" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___clean_leaked_meshes_1a2fbfa74b79faa25ff8cfe412935f1bc2" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_CleanLeakedMeshes</scope><name>CleanUp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

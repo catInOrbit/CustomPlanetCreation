@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_pro_builder2_1_1_actions" kind="namespace">
+    <compoundname>ProBuilder2::Actions</compoundname>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___export_obj" prot="public">ProBuilder2::Actions::pb_ExportObj</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___generate_u_v2" prot="public">ProBuilder2::Actions::pb_GenerateUV2</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___make_mesh_asset" prot="public">ProBuilder2::Actions::pb_MakeMeshAsset</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___pro_builderize" prot="public">ProBuilder2::Actions::pb_ProBuilderize</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___strip_pro_builder_scripts" prot="public">ProBuilder2::Actions::pb_StripProBuilderScripts</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___bridge_edges" prot="public">ProBuilder2::Actions::pb_BridgeEdges</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___conform_normals" prot="public">ProBuilder2::Actions::pb_ConformNormals</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___connect_edges" prot="public">ProBuilder2::Actions::pb_ConnectEdges</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___detach_delete_face" prot="public">ProBuilder2::Actions::pb_DetachDeleteFace</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___extrude_element" prot="public">ProBuilder2::Actions::pb_ExtrudeElement</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___flip_edge" prot="public">ProBuilder2::Actions::pb_FlipEdge</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___flip_normals" prot="public">ProBuilder2::Actions::pb_FlipNormals</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___freeze_transform" prot="public">ProBuilder2::Actions::pb_FreezeTransform</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___merge_faces" prot="public">ProBuilder2::Actions::pb_MergeFaces</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___set_pivot" prot="public">ProBuilder2::Actions::pb_SetPivot</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___triangulate" prot="public">ProBuilder2::Actions::pb_Triangulate</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___vertex_merge_weld" prot="public">ProBuilder2::Actions::pb_VertexMergeWeld</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___clean_leaked_meshes" prot="public">ProBuilder2::Actions::pb_CleanLeakedMeshes</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___force_scene_refresh" prot="public">ProBuilder2::Actions::pb_ForceSceneRefresh</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes" prot="public">ProBuilder2::Actions::pb_RebuildMeshes</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___rebuild_shared_indices" prot="public">ProBuilder2::Actions::pb_RebuildSharedIndices</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___remove_degenerate_tris" prot="public">ProBuilder2::Actions::pb_RemoveDegenerateTris</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___repair_colors" prot="public">ProBuilder2::Actions::pb_RepairColors</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___repair_mesh_references" prot="public">ProBuilder2::Actions::pb_RepairMeshReferences</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___repair_u_v" prot="public">ProBuilder2::Actions::pb_RepairUV</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___reset_entity_materials" prot="public">ProBuilder2::Actions::pb_ResetEntityMaterials</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___upgrade_basic_to_advanced" prot="public">ProBuilder2::Actions::pb_UpgradeBasicToAdvanced</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___edge_selection" prot="public">ProBuilder2::Actions::pb_EdgeSelection</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___expand_selection" prot="public">ProBuilder2::Actions::pb_ExpandSelection</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___invert_selection" prot="public">ProBuilder2::Actions::pb_InvertSelection</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___material_selection" prot="public">ProBuilder2::Actions::pb_MaterialSelection</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___material_selection_shortcut" prot="public">ProBuilder2::Actions::pb_MaterialSelectionShortcut</innerclass>
+    <innerclass refid="class_pro_builder2_1_1_actions_1_1pb___pro_builder_menu_items" prot="public">ProBuilder2::Actions::pb_ProBuilderMenuItems</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Actions/pb_ExportObj.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___remove_degenerate_tris" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_RemoveDegenerateTris</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___remove_degenerate_tris_1a73e1097571d4bc68908bd04040c7c3a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_RemoveDegenerateTris.MenuRemoveDegenerateTriangles</definition>
+        <argsstring>()</argsstring>
+        <name>MenuRemoveDegenerateTriangles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RemoveDegenerateTris.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RemoveDegenerateTris.cs" bodystart="16" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu interface for removing degerate triangles. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="532">
+        <label>Editor</label>
+      </node>
+      <node id="531">
+        <label>ProBuilder2.Actions.pb_RemoveDegenerateTris</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___remove_degenerate_tris"/>
+        <childnode refid="532" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="534">
+        <label>Editor</label>
+      </node>
+      <node id="533">
+        <label>ProBuilder2.Actions.pb_RemoveDegenerateTris</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___remove_degenerate_tris"/>
+        <childnode refid="534" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RemoveDegenerateTris.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RemoveDegenerateTris.cs" bodystart="13" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___remove_degenerate_tris_1a73e1097571d4bc68908bd04040c7c3a9" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_RemoveDegenerateTris</scope><name>MenuRemoveDegenerateTriangles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

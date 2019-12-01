@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes" kind="class" prot="public">
+    <compoundname>ProBuilder2::Actions::pb_RebuildMeshes</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Editor</basecompoundref>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes_1ad7991a94a955d1b5bf95a557cf0df8a2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool ProBuilder2.Actions.pb_RebuildMeshes.VertifyRebuildMeshes</definition>
+        <argsstring>()</argsstring>
+        <name>VertifyRebuildMeshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes_1ab73f7b5391d0e1c225b1d7d3ce40fedb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_RebuildMeshes.StripAndProBuilderize</definition>
+        <argsstring>(pb_Object[] targets, bool interactive=true)</argsstring>
+        <name>StripAndProBuilderize</name>
+        <param>
+          <type>pb_Object[]</type>
+          <declname>targets</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>interactive</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Rebuild targets if they can&apos;t be refreshed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" line="31" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" bodystart="31" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes_1a8b87940d7a16ff37d4b824c6916d9e4f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_RebuildMeshes.RebuildProBuilderMesh</definition>
+        <argsstring>(pb_Object pb)</argsstring>
+        <name>RebuildProBuilderMesh</name>
+        <param>
+          <type>pb_Object</type>
+          <declname>pb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" line="65" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" bodystart="65" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes_1ad26be62b3fe50222186b2734445ee943" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ProBuilder2.Actions.pb_RebuildMeshes.DoRebuildMeshes</definition>
+        <argsstring>()</argsstring>
+        <name>DoRebuildMeshes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Menu interface for manually regenerating all ProBuilder mesh references in scene. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="524">
+        <label>Editor</label>
+      </node>
+      <node id="523">
+        <label>ProBuilder2.Actions.pb_RebuildMeshes</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes"/>
+        <childnode refid="524" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="526">
+        <label>Editor</label>
+      </node>
+      <node id="525">
+        <label>ProBuilder2.Actions.pb_RebuildMeshes</label>
+        <link refid="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes"/>
+        <childnode refid="526" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/ProCore/ProBuilder/Editor/MenuItems/Repair/pb_RebuildMeshes.cs" bodystart="14" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes_1ad26be62b3fe50222186b2734445ee943" prot="public" virt="non-virtual"><scope>ProBuilder2::Actions::pb_RebuildMeshes</scope><name>DoRebuildMeshes</name></member>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes_1a8b87940d7a16ff37d4b824c6916d9e4f" prot="private" virt="non-virtual"><scope>ProBuilder2::Actions::pb_RebuildMeshes</scope><name>RebuildProBuilderMesh</name></member>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes_1ab73f7b5391d0e1c225b1d7d3ce40fedb" prot="private" virt="non-virtual"><scope>ProBuilder2::Actions::pb_RebuildMeshes</scope><name>StripAndProBuilderize</name></member>
+      <member refid="class_pro_builder2_1_1_actions_1_1pb___rebuild_meshes_1ad7991a94a955d1b5bf95a557cf0df8a2" prot="private" virt="non-virtual"><scope>ProBuilder2::Actions::pb_RebuildMeshes</scope><name>VertifyRebuildMeshes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

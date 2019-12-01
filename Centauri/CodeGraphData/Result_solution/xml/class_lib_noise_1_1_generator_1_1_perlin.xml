@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_lib_noise_1_1_generator_1_1_perlin" kind="class" prot="public">
+    <compoundname>LibNoise::Generator::Perlin</compoundname>
+    <basecompoundref refid="class_lib_noise_1_1_module_base" prot="public" virt="non-virtual">LibNoise.ModuleBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_perlin_1afa84236a4784143aa81553388e569d02" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Perlin._frequency</definition>
+        <argsstring></argsstring>
+        <name>_frequency</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_perlin_1a3abf50219746d5767bd57b1bbb0e4d8b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Perlin._lacunarity</definition>
+        <argsstring></argsstring>
+        <name>_lacunarity</name>
+        <initializer>= 2.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_perlin_1a4beba8358b039c7d9fc7f4c8a5a11c8c" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_lib_noise_1ab253d2180e71b8b4b51e250163ca0e27" kindref="member">QualityMode</ref></type>
+        <definition>QualityMode LibNoise.Generator.Perlin._quality</definition>
+        <argsstring></argsstring>
+        <name>_quality</name>
+        <initializer>= QualityMode.Medium</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_perlin_1a2cacff140eebbcb098d41af365e6f141" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LibNoise.Generator.Perlin._octaveCount</definition>
+        <argsstring></argsstring>
+        <name>_octaveCount</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_perlin_1aba2908ce7d0c3f6116985354a74269e7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Perlin._persistence</definition>
+        <argsstring></argsstring>
+        <name>_persistence</name>
+        <initializer>= 0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_lib_noise_1_1_generator_1_1_perlin_1af6a2ff60c31280c5557e798dc2d0c9df" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LibNoise.Generator.Perlin._seed</definition>
+        <argsstring></argsstring>
+        <name>_seed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_perlin_1ad04e48902d648cec3c11d94fcef98040" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Perlin.Frequency</definition>
+        <argsstring></argsstring>
+        <name>Frequency</name>
+        <briefdescription>
+<para>Gets or sets the frequency of the first octave. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="59" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_perlin_1a9110ced4dbaa7e042a0afd9e5fc0cde0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Perlin.Lacunarity</definition>
+        <argsstring></argsstring>
+        <name>Lacunarity</name>
+        <briefdescription>
+<para>Gets or sets the lacunarity of the perlin noise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="68" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_perlin_1a7d39fef8e1ac911f62aa9a9547e0ba6a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_lib_noise_1ab253d2180e71b8b4b51e250163ca0e27" kindref="member">QualityMode</ref></type>
+        <definition>QualityMode LibNoise.Generator.Perlin.Quality</definition>
+        <argsstring></argsstring>
+        <name>Quality</name>
+        <briefdescription>
+<para>Gets or sets the quality of the perlin noise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="77" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_perlin_1a5770828024af5b41ca3af590cbcd6966" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int LibNoise.Generator.Perlin.OctaveCount</definition>
+        <argsstring></argsstring>
+        <name>OctaveCount</name>
+        <briefdescription>
+<para>Gets or sets the number of octaves of the perlin noise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="86" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_perlin_1aacede83f79ff8a71737257a5e74546ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double LibNoise.Generator.Perlin.Persistence</definition>
+        <argsstring></argsstring>
+        <name>Persistence</name>
+        <briefdescription>
+<para>Gets or sets the persistence of the perlin noise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="95" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_lib_noise_1_1_generator_1_1_perlin_1a4f2c8cf99ee95e317cfc09d7de9f11e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int LibNoise.Generator.Perlin.Seed</definition>
+        <argsstring></argsstring>
+        <name>Seed</name>
+        <briefdescription>
+<para>Gets or sets the seed of the perlin noise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="104" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_lib_noise_1_1_generator_1_1_perlin_1a3602fdceebc6f930056880627e7c013e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Generator.Perlin.Perlin</definition>
+        <argsstring>()</argsstring>
+        <name>Perlin</name>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_generator_1_1_perlin" kindref="compound">Perlin</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_generator_1_1_perlin_1a0495e8f6b923ad4edd734a477594827e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LibNoise.Generator.Perlin.Perlin</definition>
+        <argsstring>(double frequency, double lacunarity, double persistence, int octaves, int seed, QualityMode quality)</argsstring>
+        <name>Perlin</name>
+        <param>
+          <type>double</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lacunarity</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>persistence</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>octaves</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_lib_noise_1ab253d2180e71b8b4b51e250163ca0e27" kindref="member">QualityMode</ref></type>
+          <declname>quality</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of <ref refid="class_lib_noise_1_1_generator_1_1_perlin" kindref="compound">Perlin</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frequency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The frequency of the first octave.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lacunarity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The lacunarity of the perlin noise.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>persistence</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The persistence of the perlin noise.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>octaves</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of octaves of the perlin noise.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>seed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The seed of the perlin noise.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>quality</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The quality of the perlin noise.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="40" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_lib_noise_1_1_generator_1_1_perlin_1ad665421f8002cebae781765259a1152d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override double</type>
+        <definition>override double LibNoise.Generator.Perlin.GetValue</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>GetValue</name>
+        <reimplements refid="class_lib_noise_1_1_module_base_1abb3f06725165dc1fda63de23b68f408b">GetValue</reimplements>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Returns the output value for the given input coordinates. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the x-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the y-axis.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input coordinate on the z-axis.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting output value.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="121" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="121" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Provides a noise module that outputs a three-dimensional perlin noise. [GENERATOR] </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="476">
+        <label>LibNoise.Generator.Perlin</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_perlin"/>
+        <childnode refid="477" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="478">
+        <label>IDisposable</label>
+      </node>
+      <node id="477">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="478" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="482">
+        <label>LibNoise.ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+        <childnode refid="482" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+      <node id="479">
+        <label>LibNoise.Generator.Perlin</label>
+        <link refid="class_lib_noise_1_1_generator_1_1_perlin"/>
+        <childnode refid="480" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="481">
+        <label>IDisposable</label>
+      </node>
+      <node id="480">
+        <label>ModuleBase</label>
+        <link refid="class_lib_noise_1_1_module_base"/>
+        <childnode refid="481" relation="public-inheritance">
+        </childnode>
+        <childnode refid="482" relation="usage">
+          <edgelabel>_modules</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/UnityQuadTreePlanet/LibNoise/Generator/Perlin.cs" bodystart="8" bodyend="145"/>
+    <listofallmembers>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1afa84236a4784143aa81553388e569d02" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>_frequency</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1a3abf50219746d5767bd57b1bbb0e4d8b" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>_lacunarity</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1a2cacff140eebbcb098d41af365e6f141" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>_octaveCount</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1aba2908ce7d0c3f6116985354a74269e7" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>_persistence</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1a4beba8358b039c7d9fc7f4c8a5a11c8c" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>_quality</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1af6a2ff60c31280c5557e798dc2d0c9df" prot="private" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>_seed</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a0f281ab3bfc1fe8aef486a80cbe4db01" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>Dispose</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a564dbb55fb2a28d5dc7798849508ab2b" prot="protected" virt="virtual"><scope>LibNoise::Generator::Perlin</scope><name>Disposing</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1ad04e48902d648cec3c11d94fcef98040" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>Frequency</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1ad665421f8002cebae781765259a1152d" prot="public" virt="virtual"><scope>LibNoise::Generator::Perlin</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1aea8b10f91816c21d0910ebf6aa58fde6" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Generator::Perlin</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1af442fe2cbe675fbebc9c54ec51f6c2ee" prot="public" virt="non-virtual" ambiguityscope="LibNoise::ModuleBase."><scope>LibNoise::Generator::Perlin</scope><name>GetValue</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1adcf3d5aa2957501de0577a6a8317c2d5" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>IsDisposed</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1a9110ced4dbaa7e042a0afd9e5fc0cde0" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>Lacunarity</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a79db52ea9d135eff82bb3e3213fd668c" prot="protected" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>ModuleBase</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a2037b14c6b82fc7033224b2a31faf8d4" prot="protected" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>Modules</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1a5770828024af5b41ca3af590cbcd6966" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>OctaveCount</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1a3602fdceebc6f930056880627e7c013e" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>Perlin</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1a0495e8f6b923ad4edd734a477594827e" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>Perlin</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1aacede83f79ff8a71737257a5e74546ef" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>Persistence</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1a7d39fef8e1ac911f62aa9a9547e0ba6a" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>Quality</name></member>
+      <member refid="class_lib_noise_1_1_generator_1_1_perlin_1a4f2c8cf99ee95e317cfc09d7de9f11e6" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>Seed</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a3f901b6cb96ad011f20f1ce922ff67fc" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>SourceModuleCount</name></member>
+      <member refid="class_lib_noise_1_1_module_base_1a82ba7cc8a454de882e305ebb0e9e2e1c" prot="public" virt="non-virtual"><scope>LibNoise::Generator::Perlin</scope><name>this[int index]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

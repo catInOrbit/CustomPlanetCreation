@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_velocity_vector" kind="class" prot="public">
+    <compoundname>VelocityVector</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_velocity_vector_1a097b82659a10ff4c7bb7fd7554a72fdc" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject VelocityVector.velocity</definition>
+        <argsstring></argsstring>
+        <name>velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_velocity_vector_1a92a0a97373cca69f8b0818369ae50a67" prot="private" static="no" mutable="no">
+        <type>LineRenderer</type>
+        <definition>LineRenderer VelocityVector.lineRenderer</definition>
+        <argsstring></argsstring>
+        <name>lineRenderer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_velocity_vector_1a7e016078fbc179020f5833489d157a8a" compoundref="_velocity_vector_8cs" startline="11" endline="14">Start</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_velocity_vector_1a7e016078fbc179020f5833489d157a8a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VelocityVector.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" bodystart="11" bodyend="14"/>
+        <references refid="class_velocity_vector_1a92a0a97373cca69f8b0818369ae50a67" compoundref="_velocity_vector_8cs" startline="9">lineRenderer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_velocity_vector_1a0b74505c73e71f81d20f5108063c70b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VelocityVector.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_velocity_vector_1a77d957934b88b8022bbc4e10a872d067" compoundref="_velocity_vector_8cs" startline="21" endline="25">DrawVelocityVector</references>
+      </memberdef>
+      <memberdef kind="function" id="class_velocity_vector_1a77d957934b88b8022bbc4e10a872d067" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void VelocityVector.DrawVelocityVector</definition>
+        <argsstring>()</argsstring>
+        <name>DrawVelocityVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" bodystart="21" bodyend="25"/>
+        <referencedby refid="class_velocity_vector_1a0b74505c73e71f81d20f5108063c70b6" compoundref="_velocity_vector_8cs" startline="16" endline="19">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="807">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="806">
+        <label>VelocityVector</label>
+        <link refid="class_velocity_vector"/>
+        <childnode refid="807" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="809">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="808">
+        <label>VelocityVector</label>
+        <link refid="class_velocity_vector"/>
+        <childnode refid="809" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/VelocityVector.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_velocity_vector_1a77d957934b88b8022bbc4e10a872d067" prot="private" virt="non-virtual"><scope>VelocityVector</scope><name>DrawVelocityVector</name></member>
+      <member refid="class_velocity_vector_1a92a0a97373cca69f8b0818369ae50a67" prot="private" virt="non-virtual"><scope>VelocityVector</scope><name>lineRenderer</name></member>
+      <member refid="class_velocity_vector_1a7e016078fbc179020f5833489d157a8a" prot="private" virt="non-virtual"><scope>VelocityVector</scope><name>Start</name></member>
+      <member refid="class_velocity_vector_1a0b74505c73e71f81d20f5108063c70b6" prot="private" virt="non-virtual"><scope>VelocityVector</scope><name>Update</name></member>
+      <member refid="class_velocity_vector_1a097b82659a10ff4c7bb7fd7554a72fdc" prot="public" virt="non-virtual"><scope>VelocityVector</scope><name>velocity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

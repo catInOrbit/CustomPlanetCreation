@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_orbital_maneuver_v2" kind="class" prot="public">
+    <compoundname>OrbitalManeuverV2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1abc4e5bb7ee8eeb9c2d5ab03aca5ee3d7" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OrbitalManeuverV2.player</definition>
+        <argsstring></argsstring>
+        <name>player</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1a2f799e115219db02a70173b0279c31cd" compoundref="_orbital_maneuver_v2_8cs" startline="166" endline="181">EngineBurn</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1a2516caba112fc6223006beb2033e4bce" compoundref="_orbital_maneuver_v2_8cs" startline="38" endline="41">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1af2151da54cbe434818f0671ebe455a69" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OrbitalManeuverV2.isOutOfBound</definition>
+        <argsstring></argsstring>
+        <name>isOutOfBound</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="21" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1a264895b591ad9eb7c2aa584089f6912c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref></type>
+        <definition>InputDetectionUtils OrbitalManeuverV2.inputDetectionUtils</definition>
+        <argsstring></argsstring>
+        <name>inputDetectionUtils</name>
+        <initializer>= new <ref refid="class_input_detection_utils" kindref="compound">InputDetectionUtils</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="22" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1a2f799e115219db02a70173b0279c31cd" compoundref="_orbital_maneuver_v2_8cs" startline="166" endline="181">EngineBurn</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1aac10334d1ee18bcd50f2f75a8f4dfdb5" compoundref="_orbital_maneuver_v2_8cs" startline="81" endline="97">MoveVelVectorTowardsDesinatedPos</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1a63fcc8d6e09ee1b5f8b1eb1e108b4e66" compoundref="_orbital_maneuver_v2_8cs" startline="108" endline="113">SetRotationalMatrix</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" compoundref="_orbital_maneuver_v2_8cs" startline="43" endline="59">Update</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1a27bc82a25f78430c2de6b789e080ae37" prot="private" static="no" mutable="no">
+        <type><ref refid="class_screen_utils" kindref="compound">ScreenUtils</ref></type>
+        <definition>ScreenUtils OrbitalManeuverV2.screenUtils</definition>
+        <argsstring></argsstring>
+        <name>screenUtils</name>
+        <initializer>= new <ref refid="class_screen_utils" kindref="compound">ScreenUtils</ref>(Screen.width, Screen.height)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1adaa34d6b1e9110e4aee904735e8f9ce1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_rotation_matrix_helper" kindref="compound">RotationMatrixHelper</ref></type>
+        <definition>RotationMatrixHelper OrbitalManeuverV2.rotationMatrixHelper</definition>
+        <argsstring></argsstring>
+        <name>rotationMatrixHelper</name>
+        <initializer>= new <ref refid="class_rotation_matrix_helper" kindref="compound">RotationMatrixHelper</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="25" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1aac10334d1ee18bcd50f2f75a8f4dfdb5" compoundref="_orbital_maneuver_v2_8cs" startline="81" endline="97">MoveVelVectorTowardsDesinatedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1a646c77cdab2e97a67315b5c47fe3ebeb" prot="private" static="no" mutable="no">
+        <type>double[]</type>
+        <definition>double [] OrbitalManeuverV2.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1aac10334d1ee18bcd50f2f75a8f4dfdb5" compoundref="_orbital_maneuver_v2_8cs" startline="81" endline="97">MoveVelVectorTowardsDesinatedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1aef139c99f01c042435e2155b6f192605" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuverV2.rotatedPoint</definition>
+        <argsstring></argsstring>
+        <name>rotatedPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="30" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1aac10334d1ee18bcd50f2f75a8f4dfdb5" compoundref="_orbital_maneuver_v2_8cs" startline="81" endline="97">MoveVelVectorTowardsDesinatedPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1a71759d6c0518d6b07a0044120bbe7d53" prot="private" static="no" mutable="no">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuverV2.axisOfRotation</definition>
+        <argsstring></argsstring>
+        <name>axisOfRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1aa6eb228c52e2557ed384586352c33ecd" compoundref="_orbital_maneuver_v2_8cs" startline="139" endline="146">DebugKeyboardInput</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" compoundref="_orbital_maneuver_v2_8cs" startline="43" endline="59">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1aa41c7768436538929eafa6b3a7569d94" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitalManeuverV2.rotationalSpeed</definition>
+        <argsstring></argsstring>
+        <name>rotationalSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="11" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1a63fcc8d6e09ee1b5f8b1eb1e108b4e66" compoundref="_orbital_maneuver_v2_8cs" startline="108" endline="113">SetRotationalMatrix</referencedby>
+        <referencedby refid="class_orbital_maneuver_v2_1a7592e7a48115f5e50ab9c50c6922341d" compoundref="_orbital_maneuver_v2_8cs" startline="62" endline="65">SetRotationalSpeed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1ad45164eb4c55f8c0005319cde6580832" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitalManeuverV2.boundingBoxFloatConst</definition>
+        <argsstring></argsstring>
+        <name>boundingBoxFloatConst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1ae171dd0901c284cc397bf979b3502269" prot="public" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject OrbitalManeuverV2.boundingBoxGameobject</definition>
+        <argsstring></argsstring>
+        <name>boundingBoxGameobject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="15" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1a9e6edfcd686cff27c530e967f0d03aaf" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitalManeuverV2.rotationalSpeedDampenent</definition>
+        <argsstring></argsstring>
+        <name>rotationalSpeedDampenent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1a63fcc8d6e09ee1b5f8b1eb1e108b4e66" compoundref="_orbital_maneuver_v2_8cs" startline="108" endline="113">SetRotationalMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_orbital_maneuver_v2_1a728eed98ac6b429526ac6e24c7d4c21b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float OrbitalManeuverV2.forwardForceDampenent</definition>
+        <argsstring></argsstring>
+        <name>forwardForceDampenent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_orbital_maneuver_v2_1a2f799e115219db02a70173b0279c31cd" compoundref="_orbital_maneuver_v2_8cs" startline="166" endline="181">EngineBurn</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_orbital_maneuver_v2_1a2516caba112fc6223006beb2033e4bce" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuverV2.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="38" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="38" bodyend="41"/>
+        <references refid="class_orbital_maneuver_v2_1abc4e5bb7ee8eeb9c2d5ab03aca5ee3d7" compoundref="_orbital_maneuver_v2_8cs" startline="9">player</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuverV2.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="43" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="43" bodyend="59"/>
+        <references refid="class_orbital_maneuver_v2_1a71759d6c0518d6b07a0044120bbe7d53" compoundref="_orbital_maneuver_v2_8cs" startline="36">axisOfRotation</references>
+        <references refid="class_orbital_maneuver_v2_1aa6eb228c52e2557ed384586352c33ecd" compoundref="_orbital_maneuver_v2_8cs" startline="139" endline="146">DebugKeyboardInput</references>
+        <references refid="class_orbital_maneuver_v2_1a2f799e115219db02a70173b0279c31cd" compoundref="_orbital_maneuver_v2_8cs" startline="166" endline="181">EngineBurn</references>
+        <references refid="class_orbital_maneuver_v2_1a264895b591ad9eb7c2aa584089f6912c" compoundref="_orbital_maneuver_v2_8cs" startline="22">inputDetectionUtils</references>
+        <references refid="class_orbital_maneuver_v2_1aac10334d1ee18bcd50f2f75a8f4dfdb5" compoundref="_orbital_maneuver_v2_8cs" startline="81" endline="97">MoveVelVectorTowardsDesinatedPos</references>
+        <references refid="class_input_detection_utils_1ab1ec30e20f1ec4e09d2666df9a70da72" compoundref="_input_detection_utils_8cs" startline="63" endline="106">InputDetectionUtils.ProcessTouchStateOnePoint</references>
+        <references refid="class_input_detection_utils_1aaae05a221b434a6a4faf6b77601204fc" compoundref="_input_detection_utils_8cs" startline="163" endline="175">InputDetectionUtils.ScreenSideDetection</references>
+        <references refid="class_orbital_maneuver_v2_1a63fcc8d6e09ee1b5f8b1eb1e108b4e66" compoundref="_orbital_maneuver_v2_8cs" startline="108" endline="113">SetRotationalMatrix</references>
+        <references refid="class_orbital_maneuver_v2_1a7592e7a48115f5e50ab9c50c6922341d" compoundref="_orbital_maneuver_v2_8cs" startline="62" endline="65">SetRotationalSpeed</references>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_v2_1a7592e7a48115f5e50ab9c50c6922341d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuverV2.SetRotationalSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>SetRotationalSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="62" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="62" bodyend="65"/>
+        <references refid="class_orbital_maneuver_v2_1aa41c7768436538929eafa6b3a7569d94" compoundref="_orbital_maneuver_v2_8cs" startline="11">rotationalSpeed</references>
+        <referencedby refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" compoundref="_orbital_maneuver_v2_8cs" startline="43" endline="59">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_v2_1aac10334d1ee18bcd50f2f75a8f4dfdb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuverV2.MoveVelVectorTowardsDesinatedPos</definition>
+        <argsstring>(Vector3 axisOfRotation)</argsstring>
+        <name>MoveVelVectorTowardsDesinatedPos</name>
+        <param>
+          <type>Vector3</type>
+          <declname>axisOfRotation</declname>
+        </param>
+        <briefdescription>
+<para>Main method to handle rotation. Rotate around redefined axis of rotation at speed: <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rotationalSpeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The speed of rotation</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </briefdescription>
+        <detaileddescription>
+<para>Axis is set in code:</para><para><computeroutput> private void SetAxisOfRotation() { axisOfRotation = inputDetectionUtils.MoveDirection.normalized; } </computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="81" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="81" bodyend="97"/>
+        <references refid="class_orbital_maneuver_v2_1a264895b591ad9eb7c2aa584089f6912c" compoundref="_orbital_maneuver_v2_8cs" startline="22">inputDetectionUtils</references>
+        <references refid="class_orbital_maneuver_v2_1a646c77cdab2e97a67315b5c47fe3ebeb" compoundref="_orbital_maneuver_v2_8cs" startline="29">points</references>
+        <references refid="class_orbital_maneuver_v2_1aef139c99f01c042435e2155b6f192605" compoundref="_orbital_maneuver_v2_8cs" startline="30">rotatedPoint</references>
+        <references refid="class_orbital_maneuver_v2_1adaa34d6b1e9110e4aee904735e8f9ce1" compoundref="_orbital_maneuver_v2_8cs" startline="25">rotationMatrixHelper</references>
+        <references refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">RotationMatrixHelper.TimesXYZ</references>
+        <references refid="class_input_detection_utils_1a5c6a50f7afef0c6e87ecd5db2f5b3b53" compoundref="_input_detection_utils_8cs" startline="43">InputDetectionUtils.TouchStopped</references>
+        <referencedby refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" compoundref="_orbital_maneuver_v2_8cs" startline="43" endline="59">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_v2_1a63fcc8d6e09ee1b5f8b1eb1e108b4e66" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuverV2.SetRotationalMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>SetRotationalMatrix</name>
+        <briefdescription>
+<para>Set properties defined in class:. </para>        </briefdescription>
+        <detaileddescription>
+<para><ref refid="_rotation_matrix_helper_8cs" kindref="compound">RotationMatrixHelper.cs</ref></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="108" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="108" bodyend="113"/>
+        <references refid="class_orbital_maneuver_v2_1aeb73e246d5eb0c11b9af8152a36b5fec" compoundref="_orbital_maneuver_v2_8cs" startline="157" endline="164">CalculateFinalRotationVector</references>
+        <references refid="class_orbital_maneuver_v2_1a264895b591ad9eb7c2aa584089f6912c" compoundref="_orbital_maneuver_v2_8cs" startline="22">inputDetectionUtils</references>
+        <references refid="class_input_detection_utils_1ac6f5cc26d749dd9870da5f260d4a73e3" compoundref="_input_detection_utils_8cs" startline="18">InputDetectionUtils.MoveDirection</references>
+        <references refid="class_orbital_maneuver_v2_1aa41c7768436538929eafa6b3a7569d94" compoundref="_orbital_maneuver_v2_8cs" startline="11">rotationalSpeed</references>
+        <references refid="class_orbital_maneuver_v2_1a9e6edfcd686cff27c530e967f0d03aaf" compoundref="_orbital_maneuver_v2_8cs" startline="17">rotationalSpeedDampenent</references>
+        <referencedby refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" compoundref="_orbital_maneuver_v2_8cs" startline="43" endline="59">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_v2_1aa6eb228c52e2557ed384586352c33ecd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuverV2.DebugKeyboardInput</definition>
+        <argsstring>()</argsstring>
+        <name>DebugKeyboardInput</name>
+        <briefdescription>
+<para>Setting the axis upon which player&apos;s heading vector will rotate around. </para>        </briefdescription>
+        <detaileddescription>
+<para>Currently = </para><para><computeroutput> inputDetectionUtils.MoveDirection.normalized; </computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="139" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="139" bodyend="146"/>
+        <references refid="class_orbital_maneuver_v2_1a71759d6c0518d6b07a0044120bbe7d53" compoundref="_orbital_maneuver_v2_8cs" startline="36">axisOfRotation</references>
+        <referencedby refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" compoundref="_orbital_maneuver_v2_8cs" startline="43" endline="59">Update</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_v2_1aeb73e246d5eb0c11b9af8152a36b5fec" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3</type>
+        <definition>Vector3 OrbitalManeuverV2.CalculateFinalRotationVector</definition>
+        <argsstring>(Vector3 initialVector)</argsstring>
+        <name>CalculateFinalRotationVector</name>
+        <param>
+          <type>Vector3</type>
+          <declname>initialVector</declname>
+        </param>
+        <briefdescription>
+<para>Calculate the axis of rotating (perpendicular to the swipe direction)  </para>        </briefdescription>
+        <detaileddescription>
+<para><computeroutput> x&apos; = x cos θ − y sin θ y&apos; = x sin θ + +y cos θ </computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="157" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="157" bodyend="164"/>
+        <referencedby refid="class_orbital_maneuver_v2_1a63fcc8d6e09ee1b5f8b1eb1e108b4e66" compoundref="_orbital_maneuver_v2_8cs" startline="108" endline="113">SetRotationalMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_orbital_maneuver_v2_1a2f799e115219db02a70173b0279c31cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void OrbitalManeuverV2.EngineBurn</definition>
+        <argsstring>()</argsstring>
+        <name>EngineBurn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="166" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="166" bodyend="181"/>
+        <references refid="class_input_detection_utils_1ad370432b2d7d778ec462324347606219" compoundref="_input_detection_utils_8cs" startline="29">InputDetectionUtils.ForceStrength</references>
+        <references refid="class_orbital_maneuver_v2_1a728eed98ac6b429526ac6e24c7d4c21b" compoundref="_orbital_maneuver_v2_8cs" startline="19">forwardForceDampenent</references>
+        <references refid="class_orbital_maneuver_v2_1a264895b591ad9eb7c2aa584089f6912c" compoundref="_orbital_maneuver_v2_8cs" startline="22">inputDetectionUtils</references>
+        <references refid="class_input_detection_utils_1ac6f5cc26d749dd9870da5f260d4a73e3" compoundref="_input_detection_utils_8cs" startline="18">InputDetectionUtils.MoveDirection</references>
+        <references refid="class_orbital_maneuver_v2_1abc4e5bb7ee8eeb9c2d5ab03aca5ee3d7" compoundref="_orbital_maneuver_v2_8cs" startline="9">player</references>
+        <referencedby refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" compoundref="_orbital_maneuver_v2_8cs" startline="43" endline="59">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="461">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="460">
+        <label>OrbitalManeuverV2</label>
+        <link refid="class_orbital_maneuver_v2"/>
+        <childnode refid="461" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="465">
+        <label>ScreenUtils</label>
+        <link refid="class_screen_utils"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="464">
+        <label>InputDetectionUtils</label>
+        <link refid="class_input_detection_utils"/>
+      </node>
+      <node id="463">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="466">
+        <label>RotationMatrixHelper</label>
+        <link refid="class_rotation_matrix_helper"/>
+      </node>
+      <node id="462">
+        <label>OrbitalManeuverV2</label>
+        <link refid="class_orbital_maneuver_v2"/>
+        <childnode refid="463" relation="public-inheritance">
+        </childnode>
+        <childnode refid="464" relation="usage">
+          <edgelabel>inputDetectionUtils</edgelabel>
+        </childnode>
+        <childnode refid="465" relation="usage">
+          <edgelabel>screenUtils</edgelabel>
+        </childnode>
+        <childnode refid="466" relation="usage">
+          <edgelabel>rotationMatrixHelper</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/OrbitalFunction/OrbitalManeuverV2.cs" bodystart="6" bodyend="183"/>
+    <listofallmembers>
+      <member refid="class_orbital_maneuver_v2_1a71759d6c0518d6b07a0044120bbe7d53" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>axisOfRotation</name></member>
+      <member refid="class_orbital_maneuver_v2_1ad45164eb4c55f8c0005319cde6580832" prot="public" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>boundingBoxFloatConst</name></member>
+      <member refid="class_orbital_maneuver_v2_1ae171dd0901c284cc397bf979b3502269" prot="public" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>boundingBoxGameobject</name></member>
+      <member refid="class_orbital_maneuver_v2_1aeb73e246d5eb0c11b9af8152a36b5fec" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>CalculateFinalRotationVector</name></member>
+      <member refid="class_orbital_maneuver_v2_1aa6eb228c52e2557ed384586352c33ecd" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>DebugKeyboardInput</name></member>
+      <member refid="class_orbital_maneuver_v2_1a2f799e115219db02a70173b0279c31cd" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>EngineBurn</name></member>
+      <member refid="class_orbital_maneuver_v2_1a728eed98ac6b429526ac6e24c7d4c21b" prot="public" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>forwardForceDampenent</name></member>
+      <member refid="class_orbital_maneuver_v2_1a264895b591ad9eb7c2aa584089f6912c" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>inputDetectionUtils</name></member>
+      <member refid="class_orbital_maneuver_v2_1af2151da54cbe434818f0671ebe455a69" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>isOutOfBound</name></member>
+      <member refid="class_orbital_maneuver_v2_1aac10334d1ee18bcd50f2f75a8f4dfdb5" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>MoveVelVectorTowardsDesinatedPos</name></member>
+      <member refid="class_orbital_maneuver_v2_1abc4e5bb7ee8eeb9c2d5ab03aca5ee3d7" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>player</name></member>
+      <member refid="class_orbital_maneuver_v2_1a646c77cdab2e97a67315b5c47fe3ebeb" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>points</name></member>
+      <member refid="class_orbital_maneuver_v2_1aef139c99f01c042435e2155b6f192605" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>rotatedPoint</name></member>
+      <member refid="class_orbital_maneuver_v2_1aa41c7768436538929eafa6b3a7569d94" prot="public" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>rotationalSpeed</name></member>
+      <member refid="class_orbital_maneuver_v2_1a9e6edfcd686cff27c530e967f0d03aaf" prot="public" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>rotationalSpeedDampenent</name></member>
+      <member refid="class_orbital_maneuver_v2_1adaa34d6b1e9110e4aee904735e8f9ce1" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>rotationMatrixHelper</name></member>
+      <member refid="class_orbital_maneuver_v2_1a27bc82a25f78430c2de6b789e080ae37" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>screenUtils</name></member>
+      <member refid="class_orbital_maneuver_v2_1a63fcc8d6e09ee1b5f8b1eb1e108b4e66" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>SetRotationalMatrix</name></member>
+      <member refid="class_orbital_maneuver_v2_1a7592e7a48115f5e50ab9c50c6922341d" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>SetRotationalSpeed</name></member>
+      <member refid="class_orbital_maneuver_v2_1a2516caba112fc6223006beb2033e4bce" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>Start</name></member>
+      <member refid="class_orbital_maneuver_v2_1ac88daf5c036796be7ee8d883980be11d" prot="private" virt="non-virtual"><scope>OrbitalManeuverV2</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

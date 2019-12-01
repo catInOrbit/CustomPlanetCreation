@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_speed_data_u_i_8cs" kind="file">
+    <compoundname>SpeedDataUI.cs</compoundname>
+    <innerclass refid="class_speed_data_u_i" prot="public">SpeedDataUI</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>SimpleKeplerOrbits;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>UnityEngine.UI;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="class_speed_data_u_i" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_speed_data_u_i" kindref="compound">SpeedDataUI</ref><sp/>:<sp/>MonoBehaviour</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10" refid="class_speed_data_u_i_1ae053cd453c1881d2c80302d777675696" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Text<sp/><ref refid="class_speed_data_u_i_1ae5084c8bb809d5bfac84a779673d87b3" kindref="member">deltaVText</ref>,<sp/><ref refid="class_speed_data_u_i_1ae053cd453c1881d2c80302d777675696" kindref="member">velocityText</ref>,<sp/><ref refid="class_speed_data_u_i_1ac598bf233b58aeaf96b29d45ed07b1f1" kindref="member">accelerationText</ref>,<sp/><ref refid="class_speed_data_u_i_1a1f9083f371e1e24b0219e26ea98ab300" kindref="member">thrustPercentage</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="class_speed_data_u_i_1a879ce4a926fc54aa0374aa26c7a4c973" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_speed_data" kindref="compound">SpeedData</ref><sp/><ref refid="class_speed_data_u_i_1a879ce4a926fc54aa0374aa26c7a4c973" kindref="member">speedData</ref>;</highlight></codeline>
+<codeline lineno="13" refid="class_speed_data_u_i_1ad9685e8013f50fab59490141f4ee61a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_orbital_maneuver" kindref="compound">OrbitalManeuver</ref><sp/><ref refid="class_speed_data_u_i_1ad9685e8013f50fab59490141f4ee61a4" kindref="member">orbitalManeuver</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_speed_data_u_i_1a80df82503facd30dc20f6215d4a1e671" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_speed_data_u_i_1a80df82503facd30dc20f6215d4a1e671" kindref="member">Start</ref>()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_speed_data_u_i_1a879ce4a926fc54aa0374aa26c7a4c973" kindref="member">speedData</ref><sp/>=<sp/>GameObject.FindObjectOfType&lt;<ref refid="class_speed_data" kindref="compound">SpeedData</ref>&gt;();</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_speed_data_u_i_1ad9685e8013f50fab59490141f4ee61a4" kindref="member">orbitalManeuver</ref><sp/>=<sp/>this.GetComponent&lt;<ref refid="class_orbital_maneuver" kindref="compound">OrbitalManeuver</ref>&gt;();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_speed_data_u_i_1a47da251d109d4c7eba5289796bcd7894" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_speed_data_u_i_1a47da251d109d4c7eba5289796bcd7894" kindref="member">Update</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_speed_data_u_i_1aa30d0cffea05ebeaae5e1b75088a0a27" kindref="member">AssignText</ref>(<ref refid="class_speed_data_u_i_1ae5084c8bb809d5bfac84a779673d87b3" kindref="member">deltaVText</ref>,<sp/><ref refid="class_speed_data_u_i_1ae053cd453c1881d2c80302d777675696" kindref="member">velocityText</ref>,<sp/><ref refid="class_speed_data_u_i_1ac598bf233b58aeaf96b29d45ed07b1f1" kindref="member">accelerationText</ref>,<sp/><ref refid="class_speed_data_u_i_1a1f9083f371e1e24b0219e26ea98ab300" kindref="member">thrustPercentage</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_speed_data_u_i_1aa30d0cffea05ebeaae5e1b75088a0a27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_speed_data_u_i_1aa30d0cffea05ebeaae5e1b75088a0a27" kindref="member">AssignText</ref>(Text<sp/><ref refid="class_speed_data_u_i_1ae5084c8bb809d5bfac84a779673d87b3" kindref="member">deltaVText</ref>,<sp/>Text<sp/><ref refid="class_speed_data_u_i_1ae053cd453c1881d2c80302d777675696" kindref="member">velocityText</ref>,<sp/>Text<sp/><ref refid="class_speed_data_u_i_1ac598bf233b58aeaf96b29d45ed07b1f1" kindref="member">accelerationText</ref>,<sp/>Text<sp/><ref refid="class_speed_data_u_i_1a1f9083f371e1e24b0219e26ea98ab300" kindref="member">thrustPercentage</ref>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>deltaVText.text<sp/>=<sp/>speedData.GetDeltaVStringData();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>velocityText.text<sp/>=<sp/>speedData.GetVelocityStringData();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>accelerationText.text<sp/>=<sp/>speedData.GetAccelerationStringData();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>thrustPercentage.text<sp/>=<sp/>speedData.GetEngineThrustPercentage();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/UI/SpeedDataUI.cs"/>
+  </compounddef>
+</doxygen>

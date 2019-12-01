@@ -1,0 +1,673 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_rotation_matrix_helper" kind="class" prot="public">
+    <compoundname>RotationMatrixHelper</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1ab07b42157e8d092ca84f893028850209" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool RotationMatrixHelper.LOG</definition>
+        <argsstring></argsstring>
+        <name>LOG</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="8" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a18dceb8624eb10d320895de604c1bdcd" prot="private" static="no" mutable="no">
+        <type>double[][]</type>
+        <definition>double [][] RotationMatrixHelper.matrix</definition>
+        <argsstring></argsstring>
+        <name>matrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The rotation matrix. This is a 4x4 matrix. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a6dedc66a5f7e73186c00a6d001876525" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>x-coordinate of a point on the line of rotation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a9cb70d8cb20988dc5294d1fed689afa8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>y-coordinate of a point on the line of rotation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="20" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a28ca312d27bd23b87af90f76bf4af4da" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>z-coordinate of a point on the line of rotation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="23" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1acc8a211faa6eacbb9149c852af0b8aba" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>x-coordinate of the line&apos;s direction vector. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="26" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a0be3e9c0e7f70b3503434cf60974a689" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>y-coordinate of the line&apos;s direction vector. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="29" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a0523af03743ef3046ab66ec1cb8caf47" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>z-coordinate of the line&apos;s direction vector. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="32" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1aae777a39ffc5200109d3dbe51f77bf26" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.u2</definition>
+        <argsstring></argsstring>
+        <name>u2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An intermediate value used in computations (u^2). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="36" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a90cff0e6ecf224a88b75015fb7a86c2c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.v2</definition>
+        <argsstring></argsstring>
+        <name>v2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="37" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1abe2fd750c144a868faa21de5a596de82" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.w2</definition>
+        <argsstring></argsstring>
+        <name>w2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="38" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a2ceb7ef16e204fb19dc92510285c20c1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.cosT</definition>
+        <argsstring></argsstring>
+        <name>cosT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="39" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a4dfb841b3a49ae83c0a534c2130914f6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.sinT</definition>
+        <argsstring></argsstring>
+        <name>sinT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="40" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a4f730704702bd89cf7ccf74dd75e1b8c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.l2</definition>
+        <argsstring></argsstring>
+        <name>l2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="41" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1ac21fd8d41ddb557e825765b79a569029" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The length of the direction vector. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="43" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1acd97dadbf0b0b462f98750775578f0df" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m11</definition>
+        <argsstring></argsstring>
+        <name>m11</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The 1,1 entry in the matrix. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="46" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1ab4d9820c5cd8574b110723ccfddc438c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m12</definition>
+        <argsstring></argsstring>
+        <name>m12</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="47" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1adf634f59d4740eb8afe8c98aa961af8d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m13</definition>
+        <argsstring></argsstring>
+        <name>m13</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="48" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a456064af19d06eb88cd81a59f0100b91" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m14</definition>
+        <argsstring></argsstring>
+        <name>m14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="49" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1ad313c6a2484899eb72f761438c7c2efa" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m21</definition>
+        <argsstring></argsstring>
+        <name>m21</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="50" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="50" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1adfd42b2ca5758f02404b4bcc831586b0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m22</definition>
+        <argsstring></argsstring>
+        <name>m22</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="51" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="51" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1ac6eb329711b9fd5a9fa17ea515a48c02" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m23</definition>
+        <argsstring></argsstring>
+        <name>m23</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="52" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1aa4d1b03d932e40eb87e57971801aa37e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m24</definition>
+        <argsstring></argsstring>
+        <name>m24</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="53" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="53" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1af57470d158bbda6eac5ebefde4030036" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m31</definition>
+        <argsstring></argsstring>
+        <name>m31</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="54" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="54" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1acfaf343180cbe9dffe343e4b1adb8892" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m32</definition>
+        <argsstring></argsstring>
+        <name>m32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="55" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="55" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1ab1d1fc31b62fbbd29bb4ab25e88db188" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m33</definition>
+        <argsstring></argsstring>
+        <name>m33</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="56" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="56" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_rotation_matrix_helper_1a931956ad031b51cc81c9e6c24ccbbc82" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double RotationMatrixHelper.m34</definition>
+        <argsstring></argsstring>
+        <name>m34</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="57" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" compoundref="_rotation_matrix_helper_8cs" startline="79" endline="127">AcceptInput</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_rotation_matrix_helper_1ade805086b912fbfc5e80f66a0b86734b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>RotationMatrixHelper.RotationMatrixHelper</definition>
+        <argsstring>()</argsstring>
+        <name>RotationMatrixHelper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="61" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RotationMatrixHelper.AcceptInput</definition>
+        <argsstring>(double a, double b, double c, double u, double v, double w, double theta)</argsstring>
+        <name>AcceptInput</name>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>theta</declname>
+        </param>
+        <briefdescription>
+<para>Build a rotation matrix for rotations about the line through $P_1(a, b, c)$ parallel to $ u, v, w$ by the angle $$. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x-coordinate of the center point of rotation</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y-coordinate of the center point of rotation</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>z-coordinate of the center point of rotation</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>u</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>x-coordinate of the line&apos;s direction vector.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>y-coordinate of the line&apos;s direction vector.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>z-coordinate of the line&apos;s direction vector.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>theta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The angle of rotation.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="79" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="79" bodyend="127"/>
+        <references refid="class_rotation_matrix_helper_1a6dedc66a5f7e73186c00a6d001876525" compoundref="_rotation_matrix_helper_8cs" startline="17">a</references>
+        <references refid="class_rotation_matrix_helper_1a9cb70d8cb20988dc5294d1fed689afa8" compoundref="_rotation_matrix_helper_8cs" startline="20">b</references>
+        <references refid="class_rotation_matrix_helper_1a28ca312d27bd23b87af90f76bf4af4da" compoundref="_rotation_matrix_helper_8cs" startline="23">c</references>
+        <references refid="class_rotation_matrix_helper_1a2ceb7ef16e204fb19dc92510285c20c1" compoundref="_rotation_matrix_helper_8cs" startline="39">cosT</references>
+        <references refid="class_rotation_matrix_helper_1ac21fd8d41ddb557e825765b79a569029" compoundref="_rotation_matrix_helper_8cs" startline="43">l</references>
+        <references refid="class_rotation_matrix_helper_1a4f730704702bd89cf7ccf74dd75e1b8c" compoundref="_rotation_matrix_helper_8cs" startline="41">l2</references>
+        <references refid="class_rotation_matrix_helper_1acd97dadbf0b0b462f98750775578f0df" compoundref="_rotation_matrix_helper_8cs" startline="46">m11</references>
+        <references refid="class_rotation_matrix_helper_1ab4d9820c5cd8574b110723ccfddc438c" compoundref="_rotation_matrix_helper_8cs" startline="47">m12</references>
+        <references refid="class_rotation_matrix_helper_1adf634f59d4740eb8afe8c98aa961af8d" compoundref="_rotation_matrix_helper_8cs" startline="48">m13</references>
+        <references refid="class_rotation_matrix_helper_1a456064af19d06eb88cd81a59f0100b91" compoundref="_rotation_matrix_helper_8cs" startline="49">m14</references>
+        <references refid="class_rotation_matrix_helper_1ad313c6a2484899eb72f761438c7c2efa" compoundref="_rotation_matrix_helper_8cs" startline="50">m21</references>
+        <references refid="class_rotation_matrix_helper_1adfd42b2ca5758f02404b4bcc831586b0" compoundref="_rotation_matrix_helper_8cs" startline="51">m22</references>
+        <references refid="class_rotation_matrix_helper_1ac6eb329711b9fd5a9fa17ea515a48c02" compoundref="_rotation_matrix_helper_8cs" startline="52">m23</references>
+        <references refid="class_rotation_matrix_helper_1aa4d1b03d932e40eb87e57971801aa37e" compoundref="_rotation_matrix_helper_8cs" startline="53">m24</references>
+        <references refid="class_rotation_matrix_helper_1af57470d158bbda6eac5ebefde4030036" compoundref="_rotation_matrix_helper_8cs" startline="54">m31</references>
+        <references refid="class_rotation_matrix_helper_1acfaf343180cbe9dffe343e4b1adb8892" compoundref="_rotation_matrix_helper_8cs" startline="55">m32</references>
+        <references refid="class_rotation_matrix_helper_1ab1d1fc31b62fbbd29bb4ab25e88db188" compoundref="_rotation_matrix_helper_8cs" startline="56">m33</references>
+        <references refid="class_rotation_matrix_helper_1a931956ad031b51cc81c9e6c24ccbbc82" compoundref="_rotation_matrix_helper_8cs" startline="57">m34</references>
+        <references refid="class_rotation_matrix_helper_1a4dfb841b3a49ae83c0a534c2130914f6" compoundref="_rotation_matrix_helper_8cs" startline="40">sinT</references>
+        <references refid="class_rotation_matrix_helper_1acc8a211faa6eacbb9149c852af0b8aba" compoundref="_rotation_matrix_helper_8cs" startline="26">u</references>
+        <references refid="class_rotation_matrix_helper_1aae777a39ffc5200109d3dbe51f77bf26" compoundref="_rotation_matrix_helper_8cs" startline="36">u2</references>
+        <references refid="class_rotation_matrix_helper_1a0be3e9c0e7f70b3503434cf60974a689" compoundref="_rotation_matrix_helper_8cs" startline="29">v</references>
+        <references refid="class_rotation_matrix_helper_1a90cff0e6ecf224a88b75015fb7a86c2c" compoundref="_rotation_matrix_helper_8cs" startline="37">v2</references>
+        <references refid="class_rotation_matrix_helper_1a0523af03743ef3046ab66ec1cb8caf47" compoundref="_rotation_matrix_helper_8cs" startline="32">w</references>
+        <references refid="class_rotation_matrix_helper_1abe2fd750c144a868faa21de5a596de82" compoundref="_rotation_matrix_helper_8cs" startline="38">w2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[]</type>
+        <definition>double [] RotationMatrixHelper.TimesXYZ</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>TimesXYZ</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>Multiply this matrix times the given coordinates (x, y, z, 1), representing a point P(x, y, z).. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The point&apos;s x-coordinate which will rotate around defined fixed point.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The point&apos;s y-coordinate which will rotate around defined fixed point.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The point&apos;s z-coordinate which will rotate around defined fixed point.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>Return:</para><para>returns&gt; The product, in a vector [#, #, #, 1], representing the rotated point.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="139" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="139" bodyend="148"/>
+        <references refid="class_rotation_matrix_helper_1acd97dadbf0b0b462f98750775578f0df" compoundref="_rotation_matrix_helper_8cs" startline="46">m11</references>
+        <references refid="class_rotation_matrix_helper_1ab4d9820c5cd8574b110723ccfddc438c" compoundref="_rotation_matrix_helper_8cs" startline="47">m12</references>
+        <references refid="class_rotation_matrix_helper_1adf634f59d4740eb8afe8c98aa961af8d" compoundref="_rotation_matrix_helper_8cs" startline="48">m13</references>
+        <references refid="class_rotation_matrix_helper_1a456064af19d06eb88cd81a59f0100b91" compoundref="_rotation_matrix_helper_8cs" startline="49">m14</references>
+        <references refid="class_rotation_matrix_helper_1ad313c6a2484899eb72f761438c7c2efa" compoundref="_rotation_matrix_helper_8cs" startline="50">m21</references>
+        <references refid="class_rotation_matrix_helper_1adfd42b2ca5758f02404b4bcc831586b0" compoundref="_rotation_matrix_helper_8cs" startline="51">m22</references>
+        <references refid="class_rotation_matrix_helper_1ac6eb329711b9fd5a9fa17ea515a48c02" compoundref="_rotation_matrix_helper_8cs" startline="52">m23</references>
+        <references refid="class_rotation_matrix_helper_1aa4d1b03d932e40eb87e57971801aa37e" compoundref="_rotation_matrix_helper_8cs" startline="53">m24</references>
+        <references refid="class_rotation_matrix_helper_1af57470d158bbda6eac5ebefde4030036" compoundref="_rotation_matrix_helper_8cs" startline="54">m31</references>
+        <references refid="class_rotation_matrix_helper_1acfaf343180cbe9dffe343e4b1adb8892" compoundref="_rotation_matrix_helper_8cs" startline="55">m32</references>
+        <references refid="class_rotation_matrix_helper_1ab1d1fc31b62fbbd29bb4ab25e88db188" compoundref="_rotation_matrix_helper_8cs" startline="56">m33</references>
+        <references refid="class_rotation_matrix_helper_1a931956ad031b51cc81c9e6c24ccbbc82" compoundref="_rotation_matrix_helper_8cs" startline="57">m34</references>
+        <referencedby refid="class_orbital_maneuver_v2_1aac10334d1ee18bcd50f2f75a8f4dfdb5" compoundref="_orbital_maneuver_v2_8cs" startline="81" endline="97">OrbitalManeuverV2.MoveVelVectorTowardsDesinatedPos</referencedby>
+        <referencedby refid="class_rotation_matrix_helper_1ae5c4fc33ad091591e9ae825e75bc2707" compoundref="_rotation_matrix_helper_8cs" startline="171" endline="174">timesXYZ</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_rotation_matrix_helper_1a0f4ef9cc2678cf684edefb7421c0defa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String RotationMatrixHelper.TimeXYZToString</definition>
+        <argsstring>(double[] inputs)</argsstring>
+        <name>TimeXYZToString</name>
+        <param>
+          <type>double[]</type>
+          <declname>inputs</declname>
+        </param>
+        <briefdescription>
+<para>ToString method for debug purposes </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>doble[] inputs returned from method:</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<computeroutput> public double[] <ref refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" kindref="member">TimesXYZ(double x, double y, double z)</ref> </computeroutput> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="160" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="160" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_rotation_matrix_helper_1ae5c4fc33ad091591e9ae825e75bc2707" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double[]</type>
+        <definition>double [] RotationMatrixHelper.timesXYZ</definition>
+        <argsstring>(double[] point)</argsstring>
+        <name>timesXYZ</name>
+        <param>
+          <type>double[]</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="171" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="171" bodyend="174"/>
+        <references refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" compoundref="_rotation_matrix_helper_8cs" startline="139" endline="148">TimesXYZ</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Misc/RotationMatrixHelper.cs" bodystart="6" bodyend="175"/>
+    <listofallmembers>
+      <member refid="class_rotation_matrix_helper_1a6dedc66a5f7e73186c00a6d001876525" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>a</name></member>
+      <member refid="class_rotation_matrix_helper_1a32221a9aea9334fed8662aadd0376246" prot="public" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>AcceptInput</name></member>
+      <member refid="class_rotation_matrix_helper_1a9cb70d8cb20988dc5294d1fed689afa8" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>b</name></member>
+      <member refid="class_rotation_matrix_helper_1a28ca312d27bd23b87af90f76bf4af4da" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>c</name></member>
+      <member refid="class_rotation_matrix_helper_1a2ceb7ef16e204fb19dc92510285c20c1" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>cosT</name></member>
+      <member refid="class_rotation_matrix_helper_1ac21fd8d41ddb557e825765b79a569029" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>l</name></member>
+      <member refid="class_rotation_matrix_helper_1a4f730704702bd89cf7ccf74dd75e1b8c" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>l2</name></member>
+      <member refid="class_rotation_matrix_helper_1ab07b42157e8d092ca84f893028850209" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>LOG</name></member>
+      <member refid="class_rotation_matrix_helper_1acd97dadbf0b0b462f98750775578f0df" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m11</name></member>
+      <member refid="class_rotation_matrix_helper_1ab4d9820c5cd8574b110723ccfddc438c" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m12</name></member>
+      <member refid="class_rotation_matrix_helper_1adf634f59d4740eb8afe8c98aa961af8d" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m13</name></member>
+      <member refid="class_rotation_matrix_helper_1a456064af19d06eb88cd81a59f0100b91" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m14</name></member>
+      <member refid="class_rotation_matrix_helper_1ad313c6a2484899eb72f761438c7c2efa" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m21</name></member>
+      <member refid="class_rotation_matrix_helper_1adfd42b2ca5758f02404b4bcc831586b0" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m22</name></member>
+      <member refid="class_rotation_matrix_helper_1ac6eb329711b9fd5a9fa17ea515a48c02" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m23</name></member>
+      <member refid="class_rotation_matrix_helper_1aa4d1b03d932e40eb87e57971801aa37e" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m24</name></member>
+      <member refid="class_rotation_matrix_helper_1af57470d158bbda6eac5ebefde4030036" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m31</name></member>
+      <member refid="class_rotation_matrix_helper_1acfaf343180cbe9dffe343e4b1adb8892" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m32</name></member>
+      <member refid="class_rotation_matrix_helper_1ab1d1fc31b62fbbd29bb4ab25e88db188" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m33</name></member>
+      <member refid="class_rotation_matrix_helper_1a931956ad031b51cc81c9e6c24ccbbc82" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>m34</name></member>
+      <member refid="class_rotation_matrix_helper_1a18dceb8624eb10d320895de604c1bdcd" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>matrix</name></member>
+      <member refid="class_rotation_matrix_helper_1ade805086b912fbfc5e80f66a0b86734b" prot="public" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>RotationMatrixHelper</name></member>
+      <member refid="class_rotation_matrix_helper_1a4dfb841b3a49ae83c0a534c2130914f6" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>sinT</name></member>
+      <member refid="class_rotation_matrix_helper_1ae5c4fc33ad091591e9ae825e75bc2707" prot="public" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>timesXYZ</name></member>
+      <member refid="class_rotation_matrix_helper_1a1bff7178d3bed699447d63238d5d02f8" prot="public" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>TimesXYZ</name></member>
+      <member refid="class_rotation_matrix_helper_1a0f4ef9cc2678cf684edefb7421c0defa" prot="public" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>TimeXYZToString</name></member>
+      <member refid="class_rotation_matrix_helper_1acc8a211faa6eacbb9149c852af0b8aba" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>u</name></member>
+      <member refid="class_rotation_matrix_helper_1aae777a39ffc5200109d3dbe51f77bf26" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>u2</name></member>
+      <member refid="class_rotation_matrix_helper_1a0be3e9c0e7f70b3503434cf60974a689" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>v</name></member>
+      <member refid="class_rotation_matrix_helper_1a90cff0e6ecf224a88b75015fb7a86c2c" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>v2</name></member>
+      <member refid="class_rotation_matrix_helper_1a0523af03743ef3046ab66ec1cb8caf47" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>w</name></member>
+      <member refid="class_rotation_matrix_helper_1abe2fd750c144a868faa21de5a596de82" prot="private" virt="non-virtual"><scope>RotationMatrixHelper</scope><name>w2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

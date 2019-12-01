@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_get_planet_resources" kind="class" prot="public">
+    <compoundname>GetPlanetResources</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GetPlanetResources.beginResouceTransfer</definition>
+        <argsstring></argsstring>
+        <name>beginResouceTransfer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="9" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_get_planet_resources_1a404d3d79d434919f0581905ce82cef6a" compoundref="_get_planet_resources_8cs" startline="33" endline="40">OnTriggerEnter</referencedby>
+        <referencedby refid="class_get_planet_resources_1a4b32f8bbaebef42fe332fdd5e47e2027" compoundref="_get_planet_resources_8cs" startline="42" endline="46">OnTriggerExit</referencedby>
+        <referencedby refid="class_get_planet_resources_1ab49a8e725c29c3bac0db1d12f5996d17" compoundref="_get_planet_resources_8cs" startline="27" endline="31">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_get_planet_resources_1aaacd4a49051e744f508e319ea8d25a61" prot="private" static="no" mutable="no">
+        <type><ref refid="class_resources_distribution" kindref="compound">ResourcesDistribution</ref></type>
+        <definition>ResourcesDistribution GetPlanetResources.resourcesDistribution</definition>
+        <argsstring></argsstring>
+        <name>resourcesDistribution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="12" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_get_planet_resources_1a45beebcb3ae7bb26ff8f095ad3e4eed3" compoundref="_get_planet_resources_8cs" startline="19" endline="25">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_get_planet_resources_1a14fa7c74b3eb58bba925f03f9e6600a1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ship_data" kindref="compound">ShipData</ref></type>
+        <definition>ShipData GetPlanetResources.shipData</definition>
+        <argsstring></argsstring>
+        <name>shipData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="13" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_get_planet_resources_1a45beebcb3ae7bb26ff8f095ad3e4eed3" compoundref="_get_planet_resources_8cs" startline="19" endline="25">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_get_planet_resources_1a6beb48a2694377c87c18ae3da85c5cd0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover" kindref="compound">KeplerOrbitMover</ref></type>
+        <definition>KeplerOrbitMover GetPlanetResources.keplerOrbitMover</definition>
+        <argsstring></argsstring>
+        <name>keplerOrbitMover</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="14" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_get_planet_resources_1a45beebcb3ae7bb26ff8f095ad3e4eed3" compoundref="_get_planet_resources_8cs" startline="19" endline="25">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_get_planet_resources_1a7c0fa1449b52c6c6fdb65e36085e4b54" prot="private" static="no" mutable="no">
+        <type>GameObject</type>
+        <definition>GameObject GetPlanetResources.currentOrbitingPlanet</definition>
+        <argsstring></argsstring>
+        <name>currentOrbitingPlanet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="16" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_get_planet_resources_1a45beebcb3ae7bb26ff8f095ad3e4eed3" compoundref="_get_planet_resources_8cs" startline="19" endline="25">Start</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_get_planet_resources_1a325d2b309d0c18533bfacb5d2c031b31" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string GetPlanetResources.keyName</definition>
+        <argsstring></argsstring>
+        <name>keyName</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="17" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_get_planet_resources_1a404d3d79d434919f0581905ce82cef6a" compoundref="_get_planet_resources_8cs" startline="33" endline="40">OnTriggerEnter</referencedby>
+        <referencedby refid="class_get_planet_resources_1ab49a8e725c29c3bac0db1d12f5996d17" compoundref="_get_planet_resources_8cs" startline="27" endline="31">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_get_planet_resources_1a45beebcb3ae7bb26ff8f095ad3e4eed3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetPlanetResources.Start</definition>
+        <argsstring>()</argsstring>
+        <name>Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="19" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="19" bodyend="25"/>
+        <references refid="class_get_planet_resources_1a7c0fa1449b52c6c6fdb65e36085e4b54" compoundref="_get_planet_resources_8cs" startline="16">currentOrbitingPlanet</references>
+        <references refid="class_get_planet_resources_1a6beb48a2694377c87c18ae3da85c5cd0" compoundref="_get_planet_resources_8cs" startline="14">keplerOrbitMover</references>
+        <references refid="class_get_planet_resources_1aaacd4a49051e744f508e319ea8d25a61" compoundref="_get_planet_resources_8cs" startline="12">resourcesDistribution</references>
+        <references refid="class_get_planet_resources_1a14fa7c74b3eb58bba925f03f9e6600a1" compoundref="_get_planet_resources_8cs" startline="13">shipData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_get_planet_resources_1ab49a8e725c29c3bac0db1d12f5996d17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetPlanetResources.Update</definition>
+        <argsstring>()</argsstring>
+        <name>Update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="27" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="27" bodyend="31"/>
+        <references refid="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" compoundref="_get_planet_resources_8cs" startline="9">beginResouceTransfer</references>
+        <references refid="class_get_planet_resources_1a3132d2a2c9777b308636aca3a91e211b" compoundref="_get_planet_resources_8cs" startline="50" endline="60">GetResouceFromPlanet</references>
+        <references refid="class_get_planet_resources_1a325d2b309d0c18533bfacb5d2c031b31" compoundref="_get_planet_resources_8cs" startline="17">keyName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_get_planet_resources_1a404d3d79d434919f0581905ce82cef6a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetPlanetResources.OnTriggerEnter</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerEnter</name>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="33" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="33" bodyend="40"/>
+        <references refid="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" compoundref="_get_planet_resources_8cs" startline="9">beginResouceTransfer</references>
+        <references refid="class_get_planet_resources_1a325d2b309d0c18533bfacb5d2c031b31" compoundref="_get_planet_resources_8cs" startline="17">keyName</references>
+      </memberdef>
+      <memberdef kind="function" id="class_get_planet_resources_1a4b32f8bbaebef42fe332fdd5e47e2027" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetPlanetResources.OnTriggerExit</definition>
+        <argsstring>(Collider other)</argsstring>
+        <name>OnTriggerExit</name>
+        <param>
+          <type>Collider</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="42" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="42" bodyend="46"/>
+        <references refid="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" compoundref="_get_planet_resources_8cs" startline="9">beginResouceTransfer</references>
+      </memberdef>
+      <memberdef kind="function" id="class_get_planet_resources_1adcd1f46f677b5798bfd1e74cce496dc2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator GetPlanetResources.WaitTimeTillTransfer</definition>
+        <argsstring>(float transferTimeFrame)</argsstring>
+        <name>WaitTimeTillTransfer</name>
+        <param>
+          <type>float</type>
+          <declname>transferTimeFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="62" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="62" bodyend="71"/>
+        <referencedby refid="class_get_planet_resources_1a3132d2a2c9777b308636aca3a91e211b" compoundref="_get_planet_resources_8cs" startline="50" endline="60">GetResouceFromPlanet</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_get_planet_resources_1a020f3daae2a58096be6c7e171f9dd08b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerator</type>
+        <definition>IEnumerator GetPlanetResources.ExtractResouces</definition>
+        <argsstring>(PlanetResouces resoucesInstance, float transferSpeed)</argsstring>
+        <name>ExtractResouces</name>
+        <param>
+          <type><ref refid="class_planet_resouces" kindref="compound">PlanetResouces</ref></type>
+          <declname>resoucesInstance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>transferSpeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="73" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="73" bodyend="78"/>
+        <referencedby refid="class_get_planet_resources_1a3132d2a2c9777b308636aca3a91e211b" compoundref="_get_planet_resources_8cs" startline="50" endline="60">GetResouceFromPlanet</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_get_planet_resources_1a3132d2a2c9777b308636aca3a91e211b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GetPlanetResources.GetResouceFromPlanet</definition>
+        <argsstring>(string keyFromPair, float transferSpeed, float transferTimeFrame)</argsstring>
+        <name>GetResouceFromPlanet</name>
+        <param>
+          <type>string</type>
+          <declname>keyFromPair</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>transferSpeed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>transferTimeFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="50" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="50" bodyend="60"/>
+        <references refid="class_get_planet_resources_1a020f3daae2a58096be6c7e171f9dd08b" compoundref="_get_planet_resources_8cs" startline="73" endline="78">ExtractResouces</references>
+        <references refid="class_planet_resouces_1a7585001ce9ab87b1ea9c18e6def1f746" compoundref="_planet_resources_8cs" startline="96" endline="106">PlanetResouces.IsEmpty</references>
+        <references refid="class_get_planet_resources_1adcd1f46f677b5798bfd1e74cce496dc2" compoundref="_get_planet_resources_8cs" startline="62" endline="71">WaitTimeTillTransfer</references>
+        <referencedby refid="class_get_planet_resources_1ab49a8e725c29c3bac0db1d12f5996d17" compoundref="_get_planet_resources_8cs" startline="27" endline="31">Update</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="259">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="258">
+        <label>GetPlanetResources</label>
+        <link refid="class_get_planet_resources"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="268">
+        <label>EnginesData.EngineData</label>
+        <link refid="class_engines_data_1_1_engine_data"/>
+      </node>
+      <node id="264">
+        <label>ShipData</label>
+        <link refid="class_ship_data"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+        <childnode refid="265" relation="usage">
+          <edgelabel>speedData</edgelabel>
+        </childnode>
+        <childnode refid="262" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="266" relation="usage">
+          <edgelabel>fuelData</edgelabel>
+        </childnode>
+        <childnode refid="267" relation="usage">
+          <edgelabel>weightData</edgelabel>
+        </childnode>
+        <childnode refid="268" relation="usage">
+          <edgelabel>currentEngineData</edgelabel>
+        </childnode>
+        <childnode refid="269" relation="usage">
+          <edgelabel>rawResorces</edgelabel>
+        </childnode>
+        <childnode refid="270" relation="usage">
+          <edgelabel>availableEngines</edgelabel>
+        </childnode>
+        <childnode refid="271" relation="usage">
+          <edgelabel>atmosphericDrag</edgelabel>
+        </childnode>
+      </node>
+      <node id="271">
+        <label>AtmosphericDrag</label>
+        <link refid="class_atmospheric_drag"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>UnityEngine.Vector3d</label>
+        <link refid="struct_unity_engine_1_1_vector3d"/>
+      </node>
+      <node id="273">
+        <label>OnGroundDetection</label>
+        <link refid="class_on_ground_detection"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="270">
+        <label>EnginesData.AvailableEngines</label>
+        <link refid="class_engines_data_1_1_available_engines"/>
+      </node>
+      <node id="277">
+        <label>ResourcesDistribution</label>
+        <link refid="class_resources_distribution"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>SimpleKeplerOrbits.KeplerOrbitMover</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_mover"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+        <childnode refid="263" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+        <childnode refid="274" relation="usage">
+          <edgelabel>AttractorSettings</edgelabel>
+        </childnode>
+        <childnode refid="275" relation="usage">
+          <edgelabel>OrbitData</edgelabel>
+        </childnode>
+      </node>
+      <node id="261">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="274">
+        <label>SimpleKeplerOrbits.AttractorData</label>
+        <link refid="class_simple_kepler_orbits_1_1_attractor_data"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="260">
+        <label>GetPlanetResources</label>
+        <link refid="class_get_planet_resources"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+        <childnode refid="262" relation="usage">
+          <edgelabel>keplerOrbitMover</edgelabel>
+        </childnode>
+        <childnode refid="264" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="277" relation="usage">
+          <edgelabel>resourcesDistribution</edgelabel>
+        </childnode>
+      </node>
+      <node id="275">
+        <label>SimpleKeplerOrbits.KeplerOrbitData</label>
+        <link refid="class_simple_kepler_orbits_1_1_kepler_orbit_data"/>
+        <childnode refid="276" relation="usage">
+          <edgelabel>SemiMajorAxisBasis</edgelabel>
+          <edgelabel>EclipticNormal</edgelabel>
+          <edgelabel>OrbitNormal</edgelabel>
+          <edgelabel>Periapsis</edgelabel>
+          <edgelabel>EclipticUp</edgelabel>
+          <edgelabel>Position</edgelabel>
+          <edgelabel>Velocity</edgelabel>
+          <edgelabel>Apoapsis</edgelabel>
+          <edgelabel>SemiMinorAxisBasis</edgelabel>
+          <edgelabel>CenterPoint</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="269">
+        <label>ShipResource.RawResorces</label>
+        <link refid="class_ship_resource_1_1_raw_resorces"/>
+      </node>
+      <node id="266">
+        <label>ShipResource.Fuel</label>
+        <link refid="class_ship_resource_1_1_fuel"/>
+      </node>
+      <node id="265">
+        <label>SpeedData</label>
+        <link refid="class_speed_data"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+        <childnode refid="262" relation="usage">
+          <edgelabel>dataClass</edgelabel>
+        </childnode>
+        <childnode refid="264" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="263" relation="usage">
+          <edgelabel>orbitalManeuver</edgelabel>
+        </childnode>
+      </node>
+      <node id="263">
+        <label>OrbitalManeuver</label>
+        <link refid="class_orbital_maneuver"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+        <childnode refid="264" relation="usage">
+          <edgelabel>shipData</edgelabel>
+        </childnode>
+        <childnode refid="272" relation="usage">
+          <edgelabel>vectorSnapUtils</edgelabel>
+        </childnode>
+        <childnode refid="273" relation="usage">
+          <edgelabel>onGroundDetection</edgelabel>
+        </childnode>
+      </node>
+      <node id="267">
+        <label>ShipWeightData.WeightData</label>
+        <link refid="class_ship_weight_data_1_1_weight_data"/>
+      </node>
+      <node id="272">
+        <label>VectorSnapUtils</label>
+        <link refid="class_vector_snap_utils"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" line="7" column="1" bodyfile="C:/Uniprj/CentauriV2/Centauri/Assets/Scripts/Data/Ships/GetPlanetResources.cs" bodystart="6" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_get_planet_resources_1a3d37a667317004f85651f865c833a517" prot="public" virt="non-virtual"><scope>GetPlanetResources</scope><name>beginResouceTransfer</name></member>
+      <member refid="class_get_planet_resources_1a7c0fa1449b52c6c6fdb65e36085e4b54" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>currentOrbitingPlanet</name></member>
+      <member refid="class_get_planet_resources_1a020f3daae2a58096be6c7e171f9dd08b" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>ExtractResouces</name></member>
+      <member refid="class_get_planet_resources_1a3132d2a2c9777b308636aca3a91e211b" prot="public" virt="non-virtual"><scope>GetPlanetResources</scope><name>GetResouceFromPlanet</name></member>
+      <member refid="class_get_planet_resources_1a6beb48a2694377c87c18ae3da85c5cd0" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>keplerOrbitMover</name></member>
+      <member refid="class_get_planet_resources_1a325d2b309d0c18533bfacb5d2c031b31" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>keyName</name></member>
+      <member refid="class_get_planet_resources_1a404d3d79d434919f0581905ce82cef6a" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>OnTriggerEnter</name></member>
+      <member refid="class_get_planet_resources_1a4b32f8bbaebef42fe332fdd5e47e2027" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>OnTriggerExit</name></member>
+      <member refid="class_get_planet_resources_1aaacd4a49051e744f508e319ea8d25a61" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>resourcesDistribution</name></member>
+      <member refid="class_get_planet_resources_1a14fa7c74b3eb58bba925f03f9e6600a1" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>shipData</name></member>
+      <member refid="class_get_planet_resources_1a45beebcb3ae7bb26ff8f095ad3e4eed3" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>Start</name></member>
+      <member refid="class_get_planet_resources_1ab49a8e725c29c3bac0db1d12f5996d17" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>Update</name></member>
+      <member refid="class_get_planet_resources_1adcd1f46f677b5798bfd1e74cce496dc2" prot="private" virt="non-virtual"><scope>GetPlanetResources</scope><name>WaitTimeTillTransfer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
